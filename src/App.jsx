@@ -195,6 +195,7 @@ export default function App() {
 
   return (
     <div style={{ minHeight: '100vh', position: 'relative' }}>
+      <div className="ambient-glow" />
       {/* Top Navbar */}
       <Navbar 
         theme={theme} 
