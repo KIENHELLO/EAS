@@ -1,0 +1,95 @@
+Created At: 2026-05-22T10:40:44Z
+Completed At: 2026-05-22T10:40:44Z
+File Path: `file:///d:/EASS/src/data/universities.js`
+Total Lines: 1616
+Total Bytes: 60013
+Showing lines 1 to 800
+The following code has been modified to include a line number before every line, in the format: <line_number>: <original_line>. Please note that any changes targeting the original code should remove the line number, colon, and leading space.
+1: export const universities = [
+2:   // --- 1. NHÓM 30 TRƯỜNG ĐÃ XÂY DỰNG BAN ĐẦU ---
+3:   {
+4:     id: "snu",
+5:     name_en: "Seoul National University",
+6:     name_ko: "서울대학교",
+7:     name_vi: "Đại học Quốc gia Seoul",
+8:     type: "public",
+9:     region: "Seoul",
+10:     ranking: 1,
+11:     campus_address: "1 Gwanak-ro, Gwanak-gu, Seoul",
+12:     website: "https://www.snu.ac.kr",
+13:     tuition: {
+14:       humanities_social: 2442000,
+15:       natural_sciences: 2975000,
+16:       engineering: 2998000,
+17:       arts_sports: 3624000,
+18:       medicine_pharmacy: 5038000
+19:     },
+20:     dorm_fee: 1200000,
+21:     living_cost_est: 800000,
+22:     scholarships: [
+23:       "Học bổng Chính phủ Hàn Quốc (GKS)",
+24:       "Học bổng GSNU (cho sinh viên quốc tế xuất sắc)",
+25:       "Học bổng hỗ trợ sinh hoạt phí từ đối tác liên kết"
+26:     ],
+27:     description: "Trường đại học quốc gia danh giá nhất Hàn Quốc, đứng đầu trong bộ ba bầu trời 'SKY'. Trường có thế mạnh toàn diện về nghiên cứu, công nghệ và các ngành y dược khoa học cơ bản.",
+28:     accept_gdtx: null,
+29:     visa_metropolitan: false,
+30:     master_no_topik: false,
+31:     custom_notes: ""
+32:   },
+33:   {
+34:     id: "kaist",
+35:     name_en: "KAIST (Korea Advanced Institute of Science and Technology)",
+36:     name_ko: "한국과학기술원",
+37:     name_vi: "Viện Khoa học & Công nghệ Tiên tiến Hàn Quốc",
+38:     type: "public",
+39:     region: "Daejeon",
+40:     ranking: 2,
+41:     
+<truncated 29996 bytes>
+Global (đầu vào và GPA hàng kỳ)",
+757:       "Học bổng miễn giảm tiền ở ký túc xá"
+758:     ],
+759:     description: "Trường đại học quốc gia đại diện cho tỉnh Gangwon, cách thủ đô Seoul 1 tiếng đi tàu điện ngầm. Chi phí sinh hoạt tại thành phố Chuncheon cực kỳ rẻ và trong lành.",
+760:     accept_gdtx: null,
+761:     visa_metropolitan: false,
+762:     master_no_topik: false,
+763:     custom_notes: ""
+764:   },
+765:   {
+766:     id: "jeju",
+767:     name_en: "Jeju National University",
+768:     name_ko: "제주대학교",
+769:     name_vi: "Đại học Quốc gia Jeju",
+770:     type: "public",
+771:     region: "Jeju",
+772:     ranking: 27,
+773:     campus_address: "102 Jejudaehak-ro, Jeju-si, Jeju-do",
+774:     website: "https://www.jejunu.ac.kr",
+775:     tuition: {
+776:       humanities_social: 1680000,
+777:       natural_sciences: 2050000,
+778:       engineering: 2180000,
+779:       arts_sports: 2290000,
+780:       medicine_pharmacy: 3100000
+781:     },
+782:     dorm_fee: 780000,
+783:     living_cost_est: 550000,
+784:     scholarships: [
+785:       "Học bổng giao lưu văn hóa quốc tế Jeju (JNU)",
+786:       "Học bổng kết quả kiểm tra năng lực tiếng Hàn TOPIK"
+787:     ],
+788:     description: "Nằm trên hòn đảo du lịch Jeju nổi tiếng thế giới. Có những ngành học độc đáo như Khoa học biển, Du lịch nghỉ dưỡng, Chăn nuôi ngựa và Y dược nhiệt đới.",
+789:     accept_gdtx: null,
+790:     visa_metropolitan: false,
+791:     master_no_topik: false,
+792:     custom_notes: ""
+793:   },
+794:   {
+795:     id: "uos",
+796:     name_en: "University of Seoul",
+797:     name_ko: "서울시립대학교",
+798:     name_vi: "Đại học Seoul (UOS)",
+799:     type: "public",
+800:     region: "Seoul",
+The above content does NOT show the entire file contents. If you need to view any lines of the file which were not shown to complete your task, call this tool again to view those lines.

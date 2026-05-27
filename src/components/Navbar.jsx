@@ -1,0 +1,235 @@
+import React, { useState } from 'react';
+import { Sun, Moon, DollarSign, RefreshCw, BarChart2 } from 'lucide-react';
+
+export default function Navbar({ 
+  theme, 
+  toggleTheme, 
+  exchangeRate, 
+  setExchangeRate, 
+  compareCount, 
+  onOpenCompare 
+}) {
+  const [showRateMenu, setShowRateMenu] = useState(false);
+  const [customRate, setCustomRate] = useState(exchangeRate.toString());
+
+  const handleRateSubmit = (e) => {
+    e.preventDefault();
+    const parsed = parseFloat(customRate);
+    if (!isNaN(parsed) && parsed > 0) {
+      setExchangeRate(parsed);
+      setShowRateMenu(false);
+    }
+  };
+
+  return (
+    <nav className="glass-effect" style={{
+      position: 'sticky',
+      top: 0,
+      zIndex: 100,
+      padding: '1rem 1.5rem',
+      borderRadius: '0 0 var(--border-radius-md) var(--border-radius-md)',
+      marginBottom: '2rem',
+      display: 'flex',
+      alignItems: 'center',
+      justifyContent: 'space-between',
+      boxShadow: 'var(--shadow-sm)',
+      transition: 'all var(--transition-normal)'
+    }}>
+      {/* Brand logo */}
+      <div style={{ display: 'flex', alignItems: 'center', gap: '0.75rem' }}>
+        <div style={{
+          background: 'linear-gradient(135deg, var(--primary) 0%, var(--secondary) 100%)',
+          color: 'white',
+          width: '2.5rem',
+          height: '2.5rem',
+          borderRadius: 'var(--border-radius-sm)',
+          display: 'flex',
+          alignItems: 'center',
+          justifyContent: 'center',
+          fontWeight: 800,
+          fontSize: '1.25rem',
+          boxShadow: '0 4px 10px rgba(79, 70, 229, 0.3)'
+        }}>
+          KR
+        </div>
+        <div>
+          <h1 style={{ fontSize: '1.25rem', fontWeight: 800, margin: 0, letterSpacing: '-0.025em', lineHeight: 1.2 }}>
+            KR-UniTuition
+          </h1>
+          <span style={{ fontSize: '0.75rem', color: 'var(--text-tertiary)', fontWeight: 500 }}>
+            Cổng Tra Cứu Học Phí Đại Học Hàn Quốc
+          </span>
+        </div>
+      </div>
+
+      {/* Navigation actions */}
+      <div style={{ display: 'flex', alignItems: 'center', gap: '1rem' }}>
+        
+        {/* Exchange Rate Converter Controller */}
+        <div style={{ position: 'relative' }}>
+          <button 
+            onClick={() => setShowRateMenu(!showRateMenu)}
+            className="navbar-btn"
+            style={{
+              display: 'flex',
+              alignItems: 'center',
+              gap: '0.5rem',
+              background: 'var(--primary-light)',
+              color: 'var(--primary)',
+              border: 'none',
+              padding: '0.5rem 0.85rem',
+              borderRadius: 'var(--border-radius-sm)',
+              fontWeight: 600,
+              fontSize: '0.85rem',
+              cursor: 'pointer',
+              transition: 'all var(--transition-fast)'
+            }}
+          >
+            <RefreshCw size={14} style={{ transform: showRateMenu ? 'rotate(180deg)' : 'none', transition: 'transform var(--transition-normal)' }} />
+            <span>1 KRW = {exchangeRate} VND</span>
+          </button>
+
+          {showRateMenu && (
+            <>
+              {/* Overlay background for closing */}
+              <div 
+                onClick={() => setShowRateMenu(false)}
+                style={{ position: 'fixed', top: 0, left: 0, right: 0, bottom: 0, zIndex: 10 }}
+              />
+              <div 
+                className="glass-effect animate-scale-in"
+                style={{
+                  position: 'absolute',
+                  top: '120%',
+                  right: 0,
+                  width: '240px',
+                  padding: '1.25rem',
+                  borderRadius: 'var(--border-radius-md)',
+                  boxShadow: 'var(--shadow-lg)',
+                  zIndex: 20,
+                  display: 'flex',
+                  flexDirection: 'column',
+                  gap: '0.75rem'
+                }}
+              >
+                <h4 style={{ fontSize: '0.9rem', fontWeight: 700, margin: 0 }}>Cấu hình tỷ giá KRW/VND</h4>
+                <p style={{ fontSize: '0.75rem', color: 'var(--text-tertiary)', margin: 0 }}>
+                  Nhập tỷ giá tùy chỉnh để chuyển đổi tiền Won sang tiền Việt.
+                </p>
+                <form onSubmit={handleRateSubmit} style={{ display: 'flex', gap: '0.5rem' }}>
+                  <input 
+                    type="number" 
+                    step="0.1" 
+                    min="1"
+                    value={customRate}
+                    onChange={(e) => setCustomRate(e.target.value)}
+                    style={{
+                      flex: 1,
+                      padding: '0.4rem 0.6rem',
+                      borderRadius: 'var(--border-radius-sm)',
+                      border: '1px solid var(--border-color)',
+                      backgroundColor: 'var(--bg-app)',
+                      color: 'var(--text-primary)',
+                      fontSize: '0.85rem',
+                      fontWeight: 600,
+                      outline: 'none'
+                    }}
+                  />
+                  <button 
+                    type="submit"
+                    style={{
+                      background: 'var(--primary)',
+                      color: 'white',
+                      border: 'none',
+                      padding: '0.4rem 0.8rem',
+                      borderRadius: 'var(--border-radius-sm)',
+                      fontWeight: 600,
+                      fontSize: '0.85rem',
+                      cursor: 'pointer'
+                    }}
+                  >
+                    Áp dụng
+                  </button>
+                </form>
+                
+                {/* Preset exchange rates */}
+                <div style={{ display: 'flex', flexWrap: 'wrap', gap: '0.35rem', marginTop: '0.25rem' }}>
+                  {[18.0, 18.5, 19.0, 19.5].map((preset) => (
+                    <button
+                      key={preset}
+                      type="button"
+                      onClick={() => {
+                        setExchangeRate(preset);
+                        setCustomRate(preset.toString());
+                        setShowRateMenu(false);
+                      }}
+                      style={{
+                        padding: '0.25rem 0.5rem',
+                        borderRadius: '4px',
+                        border: '1px solid var(--border-color)',
+                        backgroundColor: exchangeRate === preset ? 'var(--primary)' : 'transparent',
+                        color: exchangeRate === preset ? 'white' : 'var(--text-secondary)',
+                        fontSize: '0.75rem',
+                        fontWeight: 500,
+                        cursor: 'pointer'
+                      }}
+                    >
+                      {preset}
+                    </button>
+                  ))}
+                </div>
+              </div>
+            </>
+          )}
+        </div>
+
+        {/* Compare Button status */}
+        {compareCount > 0 && (
+          <button
+            onClick={onOpenCompare}
+            style={{
+              display: 'flex',
+              alignItems: 'center',
+              gap: '0.5rem',
+              background: 'var(--success-light)',
+              color: 'var(--success)',
+              border: 'none',
+              padding: '0.5rem 0.85rem',
+              borderRadius: 'var(--border-radius-sm)',
+              fontWeight: 600,
+              fontSize: '0.85rem',
+              cursor: 'pointer',
+              transition: 'all var(--transition-fast)'
+            }}
+          >
+            <BarChart2 size={14} />
+            <span>So sánh ({compareCount})</span>
+          </button>
+        )}
+
+        {/* Theme toggle */}
+        <button
+          onClick={toggleTheme}
+          style={{
+            background: 'transparent',
+            border: '1px solid var(--border-color)',
+            color: 'var(--text-secondary)',
+            width: '2.5rem',
+            height: '2.5rem',
+            borderRadius: 'var(--border-radius-sm)',
+            display: 'flex',
+            alignItems: 'center',
+            justifyContent: 'center',
+            cursor: 'pointer',
+            transition: 'all var(--transition-fast)',
+            outline: 'none'
+          }}
+          title={theme === 'dark' ? 'Chuyển sang Chế độ Sáng' : 'Chuyển sang Chế độ Tối'}
+        >
+          {theme === 'dark' ? <Sun size={18} /> : <Moon size={18} />}
+        </button>
+
+      </div>
+    </nav>
+  );
+}
