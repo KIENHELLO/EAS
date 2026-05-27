@@ -1,6 +1,7 @@
 import { useEffect, useRef, useState } from 'react';
 import { Landmark } from 'lucide-react';
 import { provinceMeta } from '../utils/constants';
+import schoolCoordinates from '../data/school_coordinates.json';
 
 const mapGeoName = (gadmName) => {
   const mapping = {
@@ -32,6 +33,7 @@ export default function KoreaMap({
   const mapContainerRef = useRef(null);
   const leafletMapRef = useRef(null);
   const geoJsonLayerRef = useRef(null);
+  const markersGroupRef = useRef(null);
   const [geoJsonData, setGeoJsonData] = useState(null);
   const [loading, setLoading] = useState(true);
 
@@ -67,6 +69,10 @@ export default function KoreaMap({
     window.L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png', {
       maxZoom: 18
     }).addTo(map);
+
+    // Khởi tạo Layer Group cho Markers
+    const markersGroup = window.L.layerGroup().addTo(map);
+    markersGroupRef.current = markersGroup;
 
     leafletMapRef.current = map;
   }, [loading]);
@@ -159,6 +165,54 @@ export default function KoreaMap({
     geoJsonLayerRef.current = geoJsonLayer;
   }, [geoJsonData, schoolsByRegion, selectedProvince, onSelectProvince]);
 
+  // 4. Vẽ Marker (Pin) cho các trường thuộc tỉnh được chọn
+  useEffect(() => {
+    if (!leafletMapRef.current || !markersGroupRef.current) return;
+
+    // Xóa marker cũ
+    markersGroupRef.current.clearLayers();
+
+    if (!selectedProvince) return;
+
+    // Lấy danh sách trường trong khu vực chọn
+    const provinceSchools = schoolsByRegion[selectedProvince] || [];
+
+    provinceSchools.forEach(school => {
+      const coords = schoolCoordinates[school.id];
+      if (coords && coords.lat && coords.lon) {
+        // Tạo custom icon cho marker
+        const schoolIcon = window.L.divIcon({
+          className: 'custom-school-marker',
+          html: `
+            <div style="
+              width: 12px;
+              height: 12px;
+              border-radius: 50%;
+              background-color: var(--primary);
+              border: 2px solid white;
+              box-shadow: 0 0 6px rgba(0,0,0,0.3);
+            "></div>
+          `,
+          iconSize: [12, 12],
+          iconAnchor: [6, 6]
+        });
+
+        // Tạo marker và gắn popup chi tiết
+        const marker = window.L.marker([coords.lat, coords.lon], { icon: schoolIcon })
+          .bindPopup(`
+            <div style="font-family: Inter, sans-serif; font-size: 0.8rem; padding: 0.15rem; max-width: 200px;">
+              <strong style="color: var(--primary); display: block; margin-bottom: 0.25rem;">${school.name_vi}</strong>
+              <span style="color: var(--text-secondary); font-size: 0.72rem; display: block; margin-bottom: 0.2rem;">${school.name_en}</span>
+              <span style="color: var(--text-tertiary); font-size: 0.65rem;">Hạng toàn quốc: #${school.ranking}</span>
+            </div>
+          `);
+
+        markersGroupRef.current.addLayer(marker);
+      }
+    });
+
+  }, [selectedProvince, schoolsByRegion]);
+
   return (
     <div 
       className="glass-effect"
@@ -213,6 +267,43 @@ export default function KoreaMap({
           <strong style={{ fontSize: '0.9rem' }}>Đang tải bản đồ Hàn Quốc...</strong>
         </div>
       )}
+
+      {/* Map Legend */}
+      <div style={{
+        position: 'absolute',
+        bottom: '20px',
+        left: '20px',
+        backgroundColor: 'var(--bg-surface)',
+        border: '1px solid var(--border-color)',
+        borderRadius: 'var(--border-radius-sm)',
+        padding: '0.6rem 0.8rem',
+        zIndex: 999,
+        boxShadow: 'var(--shadow-md)',
+        display: 'flex',
+        flexDirection: 'column',
+        gap: '0.35rem',
+        fontSize: '0.7rem',
+        fontWeight: 600,
+        color: 'var(--text-secondary)'
+      }}>
+        <div style={{ fontWeight: 800, color: 'var(--text-primary)', marginBottom: '0.1rem', fontSize: '0.75rem' }}>Số lượng trường</div>
+        <div style={{ display: 'flex', alignItems: 'center', gap: '0.4rem' }}>
+          <div style={{ width: '10px', height: '10px', backgroundColor: '#185FA5', borderRadius: '2px' }} />
+          <span>10+ trường</span>
+        </div>
+        <div style={{ display: 'flex', alignItems: 'center', gap: '0.4rem' }}>
+          <div style={{ width: '10px', height: '10px', backgroundColor: '#378ADD', borderRadius: '2px' }} />
+          <span>4 - 9 trường</span>
+        </div>
+        <div style={{ display: 'flex', alignItems: 'center', gap: '0.4rem' }}>
+          <div style={{ width: '10px', height: '10px', backgroundColor: '#B5D4F4', borderRadius: '2px' }} />
+          <span>1 - 3 trường</span>
+        </div>
+        <div style={{ display: 'flex', alignItems: 'center', gap: '0.4rem' }}>
+          <div style={{ width: '10px', height: '10px', backgroundColor: '#E5E7EB', borderRadius: '2px' }} />
+          <span>0 trường / xám mờ</span>
+        </div>
+      </div>
 
       {/* Map Target Div */}
       <div 
