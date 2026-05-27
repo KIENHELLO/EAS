@@ -1,6 +1,5 @@
-import React from 'react';
-import { MapPin, ArrowRight, Eye, Landmark, Award, Home } from 'lucide-react';
-import { formatCurrency, formatCompact, krwToVnd } from '../utils/currency';
+import { MapPin, ArrowRight, Eye, Award, Home } from 'lucide-react';
+import { formatCompact, krwToVnd } from '../utils/currency';
 
 export default function SchoolCard({ 
   university, 

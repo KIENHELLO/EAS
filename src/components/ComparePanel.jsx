@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { BarChart2, Trash2, X, Star, Check, AlertCircle } from 'lucide-react';
 import { formatCurrency, krwToVnd } from '../utils/currency';
 
@@ -584,20 +584,28 @@ export default function ComparePanel({
 
             {/* Note */}
             <div style={{
-              padding: '1rem 1.5rem',
+              padding: '1.25rem 1.5rem',
               backgroundColor: 'var(--bg-app)',
               borderTop: '1px solid var(--border-color)',
               fontSize: '0.75rem',
               color: 'var(--text-secondary)',
               display: 'flex',
-              alignItems: 'center',
-              gap: '0.5rem',
+              flexDirection: 'column',
+              gap: '0.4rem',
               fontWeight: 500
             }}>
-              <AlertCircle size={14} color="var(--primary)" />
-              <span>
-                Các chỉ số so sánh mang tính chất tham khảo. Học phí thực tế có thể thay đổi tùy thuộc vào số lượng tín chỉ đăng ký và các khoản phụ phí khác của từng khoa.
-              </span>
+              <div style={{ display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
+                <AlertCircle size={14} color="var(--primary)" />
+                <span>
+                  Các chỉ số so sánh mang tính chất tham khảo. Học phí thực tế có thể thay đổi tùy thuộc vào số lượng tín chỉ đăng ký và các khoản phụ phí khác của từng khoa.
+                </span>
+              </div>
+              <div style={{ display: 'flex', alignItems: 'center', gap: '0.5rem', paddingLeft: '1.25rem', color: 'var(--text-tertiary)' }}>
+                <span style={{ display: 'inline-block', width: '4px', height: '4px', borderRadius: '50%', backgroundColor: 'var(--text-tertiary)' }} />
+                <span>
+                  Nguồn dữ liệu học phí năm học 2025 - 2026: academyinfo.go.kr & Cổng tuyển sinh chính thức của từng trường.
+                </span>
+              </div>
             </div>
           </div>
         </div>

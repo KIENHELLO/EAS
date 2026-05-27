@@ -1,11 +1,13 @@
-import React, { useState } from 'react';
-import { Sun, Moon, DollarSign, RefreshCw, BarChart2 } from 'lucide-react';
+import { useState } from 'react';
+import { Sun, Moon, RefreshCw, BarChart2 } from 'lucide-react';
 
 export default function Navbar({ 
   theme, 
   toggleTheme, 
   exchangeRate, 
   setExchangeRate, 
+  isApiRate,
+  rateDate,
   compareCount, 
   onOpenCompare 
 }) {
@@ -116,6 +118,27 @@ export default function Navbar({
                 <p style={{ fontSize: '0.75rem', color: 'var(--text-tertiary)', margin: 0 }}>
                   Nhập tỷ giá tùy chỉnh để chuyển đổi tiền Won sang tiền Việt.
                 </p>
+                <div style={{
+                  display: 'flex',
+                  alignItems: 'center',
+                  gap: '0.4rem',
+                  fontSize: '0.72rem',
+                  color: isApiRate ? 'var(--success)' : '#d97706',
+                  backgroundColor: isApiRate ? 'var(--success-light)' : 'rgba(245, 158, 11, 0.1)',
+                  padding: '0.35rem 0.5rem',
+                  borderRadius: '4px',
+                  fontWeight: 600,
+                  marginTop: '0.1rem'
+                }}>
+                  <span style={{
+                    width: '6px',
+                    height: '6px',
+                    borderRadius: '50%',
+                    backgroundColor: isApiRate ? 'var(--success)' : '#d97706',
+                    display: 'inline-block'
+                  }} />
+                  <span>{rateDate}</span>
+                </div>
                 <form onSubmit={handleRateSubmit} style={{ display: 'flex', gap: '0.5rem' }}>
                   <input 
                     type="number" 

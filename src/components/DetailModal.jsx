@@ -1,5 +1,4 @@
-import React from 'react';
-import { X, ExternalLink, GraduationCap, MapPin, Award, Home, DollarSign, BookOpen, AlertCircle } from 'lucide-react';
+import { X, ExternalLink, GraduationCap, MapPin, DollarSign, AlertCircle } from 'lucide-react';
 import { formatCurrency, krwToVnd } from '../utils/currency';
 
 export default function DetailModal({ university, exchangeRate, onClose }) {
@@ -10,7 +9,6 @@ export default function DetailModal({ university, exchangeRate, onClose }) {
     name_ko, 
     name_vi, 
     type, 
-    region, 
     ranking, 
     campus_address, 
     website, 
@@ -325,18 +323,24 @@ export default function DetailModal({ university, exchangeRate, onClose }) {
                 );
               })}
             </div>
-            <p style={{
+            <div style={{
               fontSize: '0.72rem',
               color: 'var(--text-tertiary)',
               marginTop: '1.25rem',
               display: 'flex',
-              alignItems: 'center',
-              gap: '0.3rem',
+              flexDirection: 'column',
+              gap: '0.35rem',
               fontWeight: 500
             }}>
-              <AlertCircle size={12} />
-              Lưu ý: Học phí trên là học phí chuyên ngành cho 1 học kỳ (1 năm học có 2 học kỳ chính).
-            </p>
+              <div style={{ display: 'flex', alignItems: 'center', gap: '0.3rem' }}>
+                <AlertCircle size={12} />
+                <span>Lưu ý: Học phí trên là học phí chuyên ngành cho 1 học kỳ (1 năm học có 2 học kỳ chính).</span>
+              </div>
+              <div style={{ display: 'flex', alignItems: 'center', gap: '0.3rem', paddingLeft: '0.9rem', color: 'var(--text-tertiary)' }}>
+                <span style={{ display: 'inline-block', width: '3px', height: '3px', borderRadius: '50%', backgroundColor: 'var(--text-tertiary)' }} />
+                <span>Nguồn dữ liệu học phí năm học 2025 - 2026: academyinfo.go.kr & Cổng tuyển sinh của trường.</span>
+              </div>
+            </div>
           </div>
 
           {/* RIGHT: Living cost & Scholarships */}

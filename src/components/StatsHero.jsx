@@ -1,4 +1,3 @@
-import React from 'react';
 import { School, Landmark, TrendingUp, HelpCircle, Award } from 'lucide-react';
 import { formatCurrency, krwToVnd } from '../utils/currency';
 
@@ -32,7 +31,7 @@ export default function StatsHero({ universities, exchangeRate }) {
   let maxSchool = '';
 
   universities.forEach(u => {
-    Object.entries(u.tuition).forEach(([field, value]) => {
+    Object.values(u.tuition).forEach(value => {
       if (value !== null && value !== undefined && value > 0) {
         if (value < minTuition) {
           minTuition = value;
@@ -92,6 +91,30 @@ export default function StatsHero({ universities, exchangeRate }) {
         }}>
           Cổng thông tin hỗ trợ tìm kiếm học phí chi tiết của các trường đại học tại Hàn Quốc. Tự động quy đổi từ đồng Won sang Việt Nam Đồng theo tỷ giá tùy chỉnh.
         </p>
+        <div className="glass-effect" style={{
+          display: 'inline-flex',
+          flexDirection: 'column',
+          alignItems: 'center',
+          gap: '0.4rem',
+          marginTop: '1.75rem',
+          padding: '0.75rem 1.25rem',
+          borderRadius: 'var(--border-radius-md)',
+          border: '1px dashed var(--border-color)',
+          fontSize: '0.8rem',
+          color: 'var(--text-secondary)',
+          lineHeight: '1.5',
+          maxWidth: '680px',
+          boxShadow: 'var(--shadow-sm)'
+        }}>
+          <span style={{ fontWeight: 800, color: 'var(--text-primary)', display: 'flex', alignItems: 'center', gap: '0.35rem' }}>
+            <span style={{ display: 'inline-block', width: '6px', height: '6px', borderRadius: '50%', backgroundColor: 'var(--success)' }} />
+            Nguồn Dữ Liệu Xác Thực (Năm Học 2025 - 2026)
+          </span>
+          <span>
+            Học phí được đối chiếu chính xác từ <strong>Cổng công bố thông tin giáo dục đại học Hàn Quốc (academyinfo.go.kr)</strong>, 
+            <strong>Cổng dữ liệu mở chính phủ Hàn Quốc (data.go.kr)</strong> và <strong>Thông báo tuyển sinh chính thức</strong> của 81 trường.
+          </span>
+        </div>
       </div>
 
       {/* Stats Cards Grid */}
