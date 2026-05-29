@@ -71,16 +71,19 @@ export default function StatsHero({ universities, exchangeRate }) {
           <span>Hệ Thống Dữ Liệu Du Học Hàn Quốc 2025/2026</span>
         </div>
         <h2 style={{
-          fontSize: '2.5rem',
+          fontSize: 'clamp(1.8rem, 4.5vw, 2.5rem)',
           fontWeight: 800,
           letterSpacing: '-0.03em',
           lineHeight: 1.15,
           marginBottom: '1rem',
           background: 'linear-gradient(135deg, var(--text-primary) 30%, var(--primary) 100%)',
           WebkitBackgroundClip: 'text',
-          WebkitTextFillColor: 'transparent'
+          WebkitTextFillColor: 'transparent',
+          textWrap: 'balance',
+          maxWidth: '22ch',
+          margin: '0 auto 1rem'
         }}>
-          Tra Cứu & So Sánh Học Phí Hàn Quốc Dễ Dàng
+          {"Tra Cứu & So Sánh Học Phí Hàn Quốc Dễ\u00a0Dàng"}
         </h2>
         <p style={{
           color: 'var(--text-secondary)',
