@@ -13,6 +13,7 @@ export default defineConfig({
         'src/pages/compare.jsx',
         'src/pages/university'
       ],
+      devMiddleware: false,
       config: {
         outDir: 'dist',
         baseUrl: '',
