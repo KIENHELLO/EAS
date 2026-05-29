@@ -76,8 +76,8 @@ export default function Navbar({
               display: 'flex',
               alignItems: 'center',
               gap: '0.5rem',
-              background: 'var(--primary-light)',
-              color: 'var(--primary)',
+              background: isApiRate ? 'var(--primary-light)' : 'rgba(245, 158, 11, 0.15)',
+              color: isApiRate ? 'var(--primary)' : 'var(--warning)',
               border: 'none',
               padding: '0.5rem 0.85rem',
               borderRadius: 'var(--border-radius-sm)',
@@ -88,7 +88,11 @@ export default function Navbar({
             }}
           >
             <RefreshCw size={14} style={{ transform: showRateMenu ? 'rotate(180deg)' : 'none', transition: 'transform var(--transition-normal)' }} />
-            <span>1 KRW = {exchangeRate} VND</span>
+            <span>
+              1 KRW = {exchangeRate} VND
+              {!isApiRate ? ' (tạm thời)' : ''}
+              {rateDate ? ` · ${rateDate}` : ''}
+            </span>
           </button>
 
           {showRateMenu && (

@@ -193,17 +193,19 @@ export default function SchoolCard({
         </div>
 
         {/* Titles */}
-        <div style={{ overflow: 'hidden' }}>
-          <h4 style={{
-            fontSize: '1.05rem',
-            fontWeight: 800,
-            margin: 0,
-            color: 'var(--text-primary)',
-            whiteSpace: 'nowrap',
-            overflow: 'hidden',
-            textOverflow: 'ellipsis',
-            letterSpacing: '-0.01em'
-          }} title={name_vi}>
+        <div style={{ overflow: 'hidden', flex: 1 }}>
+          <h4 
+            className="university-name"
+            style={{
+              fontSize: '1.05rem',
+              fontWeight: 800,
+              margin: 0,
+              color: 'var(--text-primary)',
+              letterSpacing: '-0.01em',
+              lineHeight: '1.3'
+            }} 
+            title={name_vi}
+          >
             {name_vi}
           </h4>
           <p style={{

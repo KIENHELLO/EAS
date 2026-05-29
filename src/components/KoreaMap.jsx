@@ -25,6 +25,37 @@ const mapGeoName = (gadmName) => {
   return mapping[gadmName] || gadmName;
 };
 
+const loadLeaflet = () => {
+  return new Promise((resolve) => {
+    if (typeof window === 'undefined') {
+      resolve();
+      return;
+    }
+    if (window.L) {
+      resolve();
+      return;
+    }
+
+    // 1. Link stylesheet
+    const link = document.createElement('link');
+    link.rel = 'stylesheet';
+    link.href = 'https://unpkg.com/leaflet@1.9.4/dist/leaflet.css';
+    link.integrity = 'sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=';
+    link.crossOrigin = '';
+    document.head.appendChild(link);
+
+    // 2. Script
+    const script = document.createElement('script');
+    script.src = 'https://unpkg.com/leaflet@1.9.4/dist/leaflet.js';
+    script.integrity = 'sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=';
+    script.crossOrigin = '';
+    script.onload = () => {
+      resolve();
+    };
+    document.body.appendChild(script);
+  });
+};
+
 export default function KoreaMap({
   schoolsByRegion,
   selectedProvince,
@@ -36,8 +67,18 @@ export default function KoreaMap({
   const markersGroupRef = useRef(null);
   const [geoJsonData, setGeoJsonData] = useState(null);
   const [loading, setLoading] = useState(true);
+  const [leafletLoaded, setLeafletLoaded] = useState(false);
 
-  // 1. Fetch GeoJSON địa giới tỉnh Hàn Quốc từ local public directory
+  // 1. Load Leaflet dynamic assets first
+  useEffect(() => {
+    loadLeaflet().then(() => {
+      if (typeof window !== 'undefined' && window.L) {
+        setLeafletLoaded(true);
+      }
+    });
+  }, []);
+
+  // 2. Fetch GeoJSON địa giới tỉnh Hàn Quốc từ local public directory
   useEffect(() => {
     fetch('/skorea-provinces-geo.json')
       .then(res => {
@@ -54,9 +95,9 @@ export default function KoreaMap({
       });
   }, []);
 
-  // 2. Khởi tạo bản đồ Leaflet
+  // 3. Khởi tạo bản đồ Leaflet
   useEffect(() => {
-    if (!window.L || leafletMapRef.current || !mapContainerRef.current) return;
+    if (!leafletLoaded || leafletMapRef.current || !mapContainerRef.current) return;
 
     // Center of South Korea, Zoom level 7
     const map = window.L.map(mapContainerRef.current, {
@@ -75,7 +116,7 @@ export default function KoreaMap({
     markersGroupRef.current = markersGroup;
 
     leafletMapRef.current = map;
-  }, [loading]);
+  }, [loading, leafletLoaded]);
 
   // 3. Cập nhật các Layer địa giới tỉnh dựa trên số lượng trường học hoạt động
   useEffect(() => {
@@ -92,28 +133,24 @@ export default function KoreaMap({
         const appRegion = mapGeoName(gadmName);
         const count = (schoolsByRegion[appRegion] || []).length;
         
-        let fillColor = '#E5E7EB'; // Xám mờ cho tỉnh 0 trường
-        let fillOpacity = 0.55;
+        let fillColor = '#E0E0E0'; // không có trường
         
         if (count >= 10) {
-          fillColor = '#185FA5'; // Xanh đậm
-          fillOpacity = 0.85;
+          fillColor = '#0C447C';
         } else if (count >= 4) {
-          fillColor = '#378ADD'; // Xanh vừa
-          fillOpacity = 0.8;
+          fillColor = '#185FA5';
         } else if (count >= 1) {
-          fillColor = '#B5D4F4'; // Xanh nhạt
-          fillOpacity = 0.75;
+          fillColor = '#378ADD';
         }
 
         const isSelected = selectedProvince === appRegion;
         
         return {
           fillColor,
-          weight: isSelected ? 3 : 1.2,
+          weight: isSelected ? 4 : 1.2, // viền đậm khi active
           opacity: 1,
           color: isSelected ? 'var(--primary)' : '#9CA3AF',
-          fillOpacity
+          fillOpacity: 0.25 // fill 0.25 bình thường
         };
       },
       onEachFeature: (feature, layer) => {
@@ -138,9 +175,9 @@ export default function KoreaMap({
           mouseover: (e) => {
             const l = e.target;
             l.setStyle({
-              weight: selectedProvince === appRegion ? 3.5 : 2.5,
+              weight: selectedProvince === appRegion ? 4.5 : 2.5,
               color: 'var(--primary)',
-              fillOpacity: l.options.fillOpacity + 0.08
+              fillOpacity: 0.5 // fill 0.5 khi hover
             });
             if (!window.L.Browser.ie && !window.L.Browser.opera && !window.L.Browser.edge) {
               l.bringToFront();
@@ -180,6 +217,12 @@ export default function KoreaMap({
     provinceSchools.forEach(school => {
       const coords = schoolCoordinates[school.id];
       if (coords && coords.lat && coords.lon) {
+        // Kiểm tra tọa độ hợp lý (nằm trong ranh giới Hàn Quốc)
+        if (coords.lat < 33.0 || coords.lat > 38.9 || coords.lon < 124.5 || coords.lon > 129.6) {
+          console.warn(`Tọa độ ngoài Hàn Quốc, bỏ qua: ${school.name_vi || school.name_en}`, coords.lat, coords.lon);
+          return;
+        }
+
         // Tạo custom icon cho marker
         const schoolIcon = window.L.divIcon({
           className: 'custom-school-marker',
@@ -288,19 +331,19 @@ export default function KoreaMap({
       }}>
         <div style={{ fontWeight: 800, color: 'var(--text-primary)', marginBottom: '0.1rem', fontSize: '0.75rem' }}>Số lượng trường</div>
         <div style={{ display: 'flex', alignItems: 'center', gap: '0.4rem' }}>
-          <div style={{ width: '10px', height: '10px', backgroundColor: '#185FA5', borderRadius: '2px' }} />
+          <div style={{ width: '10px', height: '10px', backgroundColor: '#0C447C', borderRadius: '2px' }} />
           <span>10+ trường</span>
         </div>
         <div style={{ display: 'flex', alignItems: 'center', gap: '0.4rem' }}>
-          <div style={{ width: '10px', height: '10px', backgroundColor: '#378ADD', borderRadius: '2px' }} />
+          <div style={{ width: '10px', height: '10px', backgroundColor: '#185FA5', borderRadius: '2px' }} />
           <span>4 - 9 trường</span>
         </div>
         <div style={{ display: 'flex', alignItems: 'center', gap: '0.4rem' }}>
-          <div style={{ width: '10px', height: '10px', backgroundColor: '#B5D4F4', borderRadius: '2px' }} />
+          <div style={{ width: '10px', height: '10px', backgroundColor: '#378ADD', borderRadius: '2px' }} />
           <span>1 - 3 trường</span>
         </div>
         <div style={{ display: 'flex', alignItems: 'center', gap: '0.4rem' }}>
-          <div style={{ width: '10px', height: '10px', backgroundColor: '#E5E7EB', borderRadius: '2px' }} />
+          <div style={{ width: '10px', height: '10px', backgroundColor: '#E0E0E0', borderRadius: '2px' }} />
           <span>0 trường / xám mờ</span>
         </div>
       </div>

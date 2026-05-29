@@ -1,18 +1,21 @@
-import { useState, useEffect } from 'react';
-import { Search, Filter, RotateCcw, HelpCircle, Map, List } from 'lucide-react';
+import { useState, useEffect, lazy, Suspense } from 'react';
+import { Search, Filter, RotateCcw, HelpCircle, Map, List, Landmark } from 'lucide-react';
+import { useLocation, useNavigate } from 'react-router-dom';
+import { HelmetProvider } from 'react-helmet-async';
+import SEO from './components/SEO';
 import { universities } from './data/universities';
 import Navbar from './components/Navbar';
 import StatsHero from './components/StatsHero';
 import SchoolCard from './components/SchoolCard';
 import DetailModal from './components/DetailModal';
 import ComparePanel from './components/ComparePanel';
-import KoreaMap from './components/KoreaMap';
+const KoreaMap = lazy(() => import('./components/KoreaMap'));
 import { provinceMeta } from './utils/constants';
 import FilterBar from './components/FilterBar';
 import UniversityPanel from './components/UniversityPanel';
 import { getExchangeRate } from './utils/exchangeRate';
 
-export default function App() {
+export default function App({ initialViewMode = 'map', initialActiveSchoolId = null }) {
   // 1. Theme Configuration
   const [theme, setTheme] = useState(() => {
     return localStorage.getItem('theme') || 'light';
@@ -31,7 +34,7 @@ export default function App() {
   const [exchangeRate, setExchangeRate] = useState(18.5); // Default: 1 KRW = 18.5 VND
   const [isApiRate, setIsApiRate] = useState(false);
   const [rateDate, setRateDate] = useState('Đang lấy tỷ giá...');
-  const [viewMode, setViewMode] = useState('map'); // Default to map view for interactive experience
+  const [viewMode, setViewMode] = useState(initialViewMode);
   
   // List view filters state
   const [searchQuery, setSearchQuery] = useState('');
@@ -42,6 +45,7 @@ export default function App() {
   const [masterNoTopikOnly, setMasterNoTopikOnly] = useState(false);
   const [top1PercentOnly, setTop1PercentOnly] = useState(false);
   const [sortBy, setSortBy] = useState('rank');
+  const [showMobileFilters, setShowMobileFilters] = useState(false);
 
   // Map view filters state
   const [mapSelectedMajor, setMapSelectedMajor] = useState('All');
@@ -51,6 +55,41 @@ export default function App() {
 
   const [selectedSchoolsForCompare, setSelectedSchoolsForCompare] = useState([]);
   const [activeSchoolDetails, setActiveSchoolDetails] = useState(null);
+
+  const location = useLocation();
+  const navigate = useNavigate();
+
+  // Sync state with URL pathname for client-side routing & hydration
+  useEffect(() => {
+    const path = location.pathname;
+    if (path === '/universities') {
+      setViewMode('list');
+      setActiveSchoolDetails(null);
+    } else if (path === '/compare') {
+      setViewMode('compare');
+      setActiveSchoolDetails(null);
+    } else if (path.startsWith('/university/')) {
+      const schoolId = path.split('/').pop();
+      const school = universities.find(u => u.id === schoolId);
+      if (school) {
+        setActiveSchoolDetails(school);
+      }
+      setViewMode('map');
+    } else if (path === '/') {
+      setViewMode('map');
+      setActiveSchoolDetails(null);
+    }
+  }, [location.pathname]);
+
+  // Set initial active school details if provided via props (for SSG and deep linking)
+  useEffect(() => {
+    if (initialActiveSchoolId) {
+      const school = universities.find(u => u.id === initialActiveSchoolId);
+      if (school) {
+        setActiveSchoolDetails(school);
+      }
+    }
+  }, [initialActiveSchoolId]);
 
   // Fetch exchange rate on mount
   useEffect(() => {
@@ -194,8 +233,57 @@ export default function App() {
   };
 
   return (
-    <div style={{ minHeight: '100vh', position: 'relative' }}>
-      <div className="ambient-glow" />
+    <HelmetProvider>
+      <div style={{ minHeight: '100vh', position: 'relative' }}>
+        {/* Dynamic SEO Tags per page */}
+        {viewMode === 'map' && !activeSchoolDetails && (
+          <SEO 
+            title="Tra Cứu Học Phí Đại Học Hàn Quốc 2025"
+            description="So sánh học phí hơn 200 trường đại học Hàn Quốc. Hiển thị đồng thời KRW và VND. Cập nhật tỷ giá mới nhất."
+            url="/"
+            structuredData={{
+              "@context": "https://schema.org",
+              "@type": "WebApplication",
+              "name": "KR-UniTuition",
+              "applicationCategory": "EducationalApplication",
+              "operatingSystem": "Web",
+              "offers": { "@type": "Offer", "price": "0", "priceCurrency": "VND" }
+            }}
+          />
+        )}
+        {viewMode === 'list' && (
+          <SEO
+            title="Danh Sách Các Trường Đại Học Hàn Quốc - Học Phí 2025"
+            description="Danh sách đầy đủ các trường đại học Hàn Quốc kèm học phí KRW và VND. Lọc theo khu vực, loại trường, xếp hạng."
+            url="/universities"
+          />
+        )}
+        {viewMode === 'compare' && (
+          <SEO
+            title="So Sánh Học Phí Đại Học Hàn Quốc"
+            description="So sánh học phí, ký túc xá và sinh hoạt phí giữa nhiều trường đại học Hàn Quốc cùng lúc."
+            url="/compare"
+          />
+        )}
+        {activeSchoolDetails && (
+          <SEO
+            title={`${activeSchoolDetails.name_vi} - Học Phí ${getSchoolAvgTuition(activeSchoolDetails).toLocaleString()} KRW`}
+            description={`Học phí ${activeSchoolDetails.name_vi}: ${getSchoolAvgTuition(activeSchoolDetails).toLocaleString()} KRW (${Math.round(getSchoolAvgTuition(activeSchoolDetails) * exchangeRate).toLocaleString()} VND). Khu vực: ${activeSchoolDetails.region}.`}
+            url={`/university/${activeSchoolDetails.id}`}
+            structuredData={{
+              "@context": "https://schema.org",
+              "@type": "EducationalOrganization",
+              "name": activeSchoolDetails.name_vi,
+              "url": activeSchoolDetails.website,
+              "address": {
+                "@type": "PostalAddress",
+                "addressCountry": "KR",
+                "addressRegion": activeSchoolDetails.region
+              }
+            }}
+          />
+        )}
+        <div className="ambient-glow" />
       {/* Top Navbar */}
       <Navbar 
         theme={theme} 
@@ -226,7 +314,7 @@ export default function App() {
           paddingBottom: '1.25rem'
         }}>
           <button
-            onClick={() => setViewMode('map')}
+            onClick={() => navigate('/')}
             style={{
               display: 'flex',
               alignItems: 'center',
@@ -247,7 +335,7 @@ export default function App() {
             <span>Bản đồ tương tác 🗺️</span>
           </button>
           <button
-            onClick={() => setViewMode('list')}
+            onClick={() => navigate('/universities')}
             style={{
               display: 'flex',
               alignItems: 'center',
@@ -301,25 +389,42 @@ export default function App() {
                 }
               `}} />
               
-              <KoreaMap
-                schoolsByRegion={mapSchoolsByRegion}
-                selectedProvince={mapSelectedProvince}
-                onSelectProvince={setMapSelectedProvince}
-              />
+              <Suspense fallback={
+                <div style={{
+                  height: '500px', 
+                  flex: 1, 
+                  minWidth: '320px', 
+                  background: 'var(--bg-surface)', 
+                  borderRadius: 'var(--border-radius-md)', 
+                  display: 'flex', 
+                  alignItems: 'center', 
+                  justifyContent: 'center',
+                  color: 'var(--text-secondary)',
+                  border: '1px solid var(--border-color)'
+                }}>
+                  Đang tải bản đồ... 🗺️
+                </div>
+              }>
+                <KoreaMap
+                  schoolsByRegion={mapSchoolsByRegion}
+                  selectedProvince={mapSelectedProvince}
+                  onSelectProvince={setMapSelectedProvince}
+                />
+              </Suspense>
 
               <UniversityPanel
                 selectedProvince={mapSelectedProvince}
                 provinceMeta={provinceMeta[mapSelectedProvince]}
                 schools={mapSchoolsByRegion[mapSelectedProvince] || []}
                 exchangeRate={exchangeRate}
-                onViewDetails={(school) => setActiveSchoolDetails(school)}
+                onViewDetails={(school) => navigate(`/university/${school.id}`)}
                 selectedCompareSchools={selectedSchoolsForCompare}
                 onToggleCompare={handleToggleCompare}
                 onCloseMobilePanel={() => setMapSelectedProvince('')}
               />
             </div>
           </div>
-        ) : (
+        ) : viewMode === 'list' ? (
           <>
             {/* Search & Filters Section */}
             <div 
@@ -345,245 +450,263 @@ export default function App() {
 
               {/* Form Controls Grid */}
               <div style={{
-                display: 'grid',
-                gridTemplateColumns: 'repeat(auto-fit, minmax(200px, 1fr))',
-                gap: '1rem',
-                alignItems: 'center'
+                display: 'flex',
+                flexDirection: 'column',
+                gap: '0.75rem'
               }}>
-                {/* Search Input */}
-                <div style={{ position: 'relative', display: 'flex', alignItems: 'center' }}>
-                  <Search size={16} style={{ position: 'absolute', left: '0.75rem', color: 'var(--text-tertiary)' }} />
-                  <input 
-                    type="text"
-                    placeholder="Tìm tên trường (Anh, Hàn, Việt)..."
-                    value={searchQuery}
-                    onChange={(e) => setSearchQuery(e.target.value)}
-                    style={{
-                      width: '100%',
-                      padding: '0.6rem 0.6rem 0.6rem 2.25rem',
-                      borderRadius: 'var(--border-radius-sm)',
-                      border: '1px solid var(--border-color)',
-                      backgroundColor: 'var(--bg-app)',
-                      color: 'var(--text-primary)',
-                      fontSize: '0.85rem',
-                      fontWeight: 500,
-                      outline: 'none',
-                      transition: 'border-color var(--transition-fast)'
-                    }}
-                    onFocus={(e) => e.target.style.borderColor = 'var(--primary)'}
-                    onBlur={(e) => e.target.style.borderColor = 'var(--border-color)'}
-                  />
+                <div style={{
+                  display: 'flex',
+                  gap: '1rem',
+                  width: '100%',
+                  alignItems: 'center',
+                  flexWrap: 'wrap'
+                }}>
+                  {/* Search Input */}
+                  <div style={{ position: 'relative', display: 'flex', alignItems: 'center', flex: 1, minWidth: '250px' }}>
+                    <Search size={16} style={{ position: 'absolute', left: '0.75rem', color: 'var(--text-tertiary)' }} />
+                    <input 
+                      type="text"
+                      placeholder="Tìm tên trường (Anh, Hàn, Việt)..."
+                      value={searchQuery}
+                      onChange={(e) => setSearchQuery(e.target.value)}
+                      style={{
+                        width: '100%',
+                        padding: '0.6rem 0.6rem 0.6rem 2.25rem',
+                        borderRadius: 'var(--border-radius-sm)',
+                        border: '1px solid var(--border-color)',
+                        backgroundColor: 'var(--bg-app)',
+                        color: 'var(--text-primary)',
+                        fontSize: '0.85rem',
+                        fontWeight: 500,
+                        outline: 'none',
+                        transition: 'border-color var(--transition-fast)'
+                      }}
+                      onFocus={(e) => e.target.style.borderColor = 'var(--primary)'}
+                      onBlur={(e) => e.target.style.borderColor = 'var(--border-color)'}
+                    />
+                  </div>
+
+                  {/* Reset Button */}
+                  {(searchQuery || selectedRegion !== 'All' || selectedType !== 'All' || sortBy !== 'rank' || selectedGdtx !== 'All' || visaMetropolitanOnly || masterNoTopikOnly || top1PercentOnly) && (
+                    <button
+                      onClick={handleResetFilters}
+                      style={{
+                        display: 'flex',
+                        alignItems: 'center',
+                        justifyContent: 'center',
+                        gap: '0.4rem',
+                        padding: '0.6rem 1rem',
+                        borderRadius: 'var(--border-radius-sm)',
+                        border: '1px solid var(--accent-light)',
+                        backgroundColor: 'var(--accent-light)',
+                        color: 'var(--accent)',
+                        fontSize: '0.85rem',
+                        fontWeight: 600,
+                        cursor: 'pointer',
+                        transition: 'all var(--transition-fast)'
+                      }}
+                      onMouseEnter={(e) => e.currentTarget.style.filter = 'brightness(0.95)'}
+                      onMouseLeave={(e) => e.currentTarget.style.filter = 'none'}
+                    >
+                      <RotateCcw size={14} />
+                      <span>Đặt lại lọc</span>
+                    </button>
+                  )}
                 </div>
 
-                {/* Region Select */}
-                <div style={{ display: 'flex', flexDirection: 'column', gap: '0.25rem' }}>
-                  <select
-                    value={selectedRegion}
-                    onChange={(e) => setSelectedRegion(e.target.value)}
-                    style={{
-                      width: '100%',
-                      padding: '0.6rem',
-                      borderRadius: 'var(--border-radius-sm)',
-                      border: '1px solid var(--border-color)',
-                      backgroundColor: 'var(--bg-app)',
-                      color: 'var(--text-primary)',
-                      fontSize: '0.85rem',
-                      fontWeight: 500,
-                      outline: 'none',
-                      cursor: 'pointer'
-                    }}
-                  >
-                    <option value="All">Tất cả Khu vực ({uniqueRegions.length - 1})</option>
-                    {uniqueRegions.filter(r => r !== 'All').map(r => (
-                      <option key={r} value={r}>{r}</option>
-                    ))}
-                  </select>
-                </div>
-
-                {/* Type Select */}
-                <div style={{ display: 'flex', flexDirection: 'column', gap: '0.25rem' }}>
-                  <select
-                    value={selectedType}
-                    onChange={(e) => setSelectedType(e.target.value)}
-                    style={{
-                      width: '100%',
-                      padding: '0.6rem',
-                      borderRadius: 'var(--border-radius-sm)',
-                      border: '1px solid var(--border-color)',
-                      backgroundColor: 'var(--bg-app)',
-                      color: 'var(--text-primary)',
-                      fontSize: '0.85rem',
-                      fontWeight: 500,
-                      outline: 'none',
-                      cursor: 'pointer'
-                    }}
-                  >
-                    <option value="All">Tất cả Loại hình</option>
-                    <option value="public">Quốc lập / Công lập</option>
-                    <option value="private">Tư thục</option>
-                  </select>
-                </div>
-
-                {/* Sort Select */}
-                <div style={{ display: 'flex', flexDirection: 'column', gap: '0.25rem' }}>
-                  <select
-                    value={sortBy}
-                    onChange={(e) => setSortBy(e.target.value)}
-                    style={{
-                      width: '100%',
-                      padding: '0.6rem',
-                      borderRadius: 'var(--border-radius-sm)',
-                      border: '1px solid var(--border-color)',
-                      backgroundColor: 'var(--bg-app)',
-                      color: 'var(--text-primary)',
-                      fontSize: '0.85rem',
-                      fontWeight: 500,
-                      outline: 'none',
-                      cursor: 'pointer'
-                    }}
-                  >
-                    <option value="rank">Sắp xếp: Thứ hạng tốt nhất</option>
-                    <option value="tuition_asc">Học phí: Từ thấp đến cao</option>
-                    <option value="tuition_desc">Học phí: Từ cao đến thấp</option>
-                    <option value="name">Tên trường: A - Z</option>
-                  </select>
-                </div>
-
-                {/* Reset Button */}
-                {(searchQuery || selectedRegion !== 'All' || selectedType !== 'All' || sortBy !== 'rank' || selectedGdtx !== 'All' || visaMetropolitanOnly || masterNoTopikOnly || top1PercentOnly) && (
-                  <button
-                    onClick={handleResetFilters}
-                    style={{
-                      display: 'flex',
-                      alignItems: 'center',
-                      justifyContent: 'center',
-                      gap: '0.4rem',
-                      padding: '0.6rem 1rem',
-                      borderRadius: 'var(--border-radius-sm)',
-                      border: '1px solid var(--accent-light)',
-                      backgroundColor: 'var(--accent-light)',
-                      color: 'var(--accent)',
-                      fontSize: '0.85rem',
-                      fontWeight: 600,
-                      cursor: 'pointer',
-                      transition: 'all var(--transition-fast)'
-                    }}
-                    onMouseEnter={(e) => e.currentTarget.style.filter = 'brightness(0.95)'}
-                    onMouseLeave={(e) => e.currentTarget.style.filter = 'none'}
-                  >
-                    <RotateCcw size={14} />
-                    <span>Đặt lại lọc</span>
-                  </button>
-                )}
+                {/* Mobile Filter Toggle Button */}
+                <button 
+                  className="filter-toggle-btn"
+                  onClick={() => setShowMobileFilters(!showMobileFilters)}
+                >
+                  <span>Bộ lọc {showMobileFilters ? '▲' : '▼'}</span>
+                </button>
               </div>
 
-              {/* Advanced/Special Admission Filters Row */}
-              <div style={{
-                display: 'flex',
-                gap: '1.5rem',
-                flexWrap: 'wrap',
-                paddingTop: '0.85rem',
-                borderTop: '1px dashed var(--border-color)',
-                alignItems: 'center'
-              }}>
-                {/* GDTX Dropdown */}
-                <div style={{ minWidth: '220px' }}>
-                  <select
-                    value={selectedGdtx}
-                    onChange={(e) => setSelectedGdtx(e.target.value)}
-                    style={{
-                      width: '100%',
-                      padding: '0.55rem 0.6rem',
-                      borderRadius: 'var(--border-radius-sm)',
-                      border: '1px solid var(--border-color)',
-                      backgroundColor: 'var(--bg-app)',
-                      color: 'var(--text-primary)',
-                      fontSize: '0.8rem',
-                      fontWeight: 500,
-                      outline: 'none',
-                      cursor: 'pointer'
-                    }}
-                  >
-                    <option value="All">Hệ GDTX: Tất cả</option>
-                    <option value="top2">Hệ GDTX: Nhận trường Top 2%</option>
-                    <option value="top3">Hệ GDTX: Nhận trường Top 3%</option>
-                  </select>
+              {/* Collapsible Content */}
+              <div className={`filter-collapsible-content ${showMobileFilters ? 'expanded' : ''}`}>
+                {/* Dropdowns Grid (Region, Type, Sort, GDTX) */}
+                <div className="filter-dropdowns-grid">
+                  
+                  {/* Region Select */}
+                  <div style={{ display: 'flex', flexDirection: 'column', gap: '0.25rem' }}>
+                    <select
+                      value={selectedRegion}
+                      onChange={(e) => setSelectedRegion(e.target.value)}
+                      style={{
+                        width: '100%',
+                        padding: '0.6rem',
+                        borderRadius: 'var(--border-radius-sm)',
+                        border: '1px solid var(--border-color)',
+                        backgroundColor: 'var(--bg-app)',
+                        color: 'var(--text-primary)',
+                        fontSize: '0.85rem',
+                        fontWeight: 500,
+                        outline: 'none',
+                        cursor: 'pointer'
+                      }}
+                    >
+                      <option value="All">Tất cả Khu vực ({uniqueRegions.length - 1})</option>
+                      {uniqueRegions.filter(r => r !== 'All').map(r => (
+                        <option key={r} value={r}>{r}</option>
+                      ))}
+                    </select>
+                  </div>
+
+                  {/* Type Select */}
+                  <div style={{ display: 'flex', flexDirection: 'column', gap: '0.25rem' }}>
+                    <select
+                      value={selectedType}
+                      onChange={(e) => setSelectedType(e.target.value)}
+                      style={{
+                        width: '100%',
+                        padding: '0.6rem',
+                        borderRadius: 'var(--border-radius-sm)',
+                        border: '1px solid var(--border-color)',
+                        backgroundColor: 'var(--bg-app)',
+                        color: 'var(--text-primary)',
+                        fontSize: '0.85rem',
+                        fontWeight: 500,
+                        outline: 'none',
+                        cursor: 'pointer'
+                      }}
+                    >
+                      <option value="All">Tất cả Loại hình</option>
+                      <option value="public">Quốc lập / Công lập</option>
+                      <option value="private">Tư thục</option>
+                    </select>
+                  </div>
+
+                  {/* Sort Select */}
+                  <div style={{ display: 'flex', flexDirection: 'column', gap: '0.25rem' }}>
+                    <select
+                      value={sortBy}
+                      onChange={(e) => setSortBy(e.target.value)}
+                      style={{
+                        width: '100%',
+                        padding: '0.6rem',
+                        borderRadius: 'var(--border-radius-sm)',
+                        border: '1px solid var(--border-color)',
+                        backgroundColor: 'var(--bg-app)',
+                        color: 'var(--text-primary)',
+                        fontSize: '0.85rem',
+                        fontWeight: 500,
+                        outline: 'none',
+                        cursor: 'pointer'
+                      }}
+                    >
+                      <option value="rank">Sắp xếp: Thứ hạng tốt nhất</option>
+                      <option value="tuition_asc">Học phí: Thấp đến cao</option>
+                      <option value="tuition_desc">Học phí: Cao đến thấp</option>
+                      <option value="name">Tên trường: A - Z</option>
+                    </select>
+                  </div>
+
+                  {/* GDTX Dropdown */}
+                  <div style={{ display: 'flex', flexDirection: 'column', gap: '0.25rem' }}>
+                    <select
+                      value={selectedGdtx}
+                      onChange={(e) => setSelectedGdtx(e.target.value)}
+                      style={{
+                        width: '100%',
+                        padding: '0.6rem',
+                        borderRadius: 'var(--border-radius-sm)',
+                        border: '1px solid var(--border-color)',
+                        backgroundColor: 'var(--bg-app)',
+                        color: 'var(--text-primary)',
+                        fontSize: '0.85rem',
+                        fontWeight: 500,
+                        outline: 'none',
+                        cursor: 'pointer'
+                      }}
+                    >
+                      <option value="All">Hệ GDTX: Tất cả</option>
+                      <option value="top2">Hệ GDTX: Nhận Top 2%</option>
+                      <option value="top3">Hệ GDTX: Nhận Top 3%</option>
+                    </select>
+                  </div>
+
                 </div>
 
-                {/* Checkbox Visa */}
-                <label style={{
-                  display: 'flex',
-                  alignItems: 'center',
-                  gap: '0.5rem',
-                  fontSize: '0.82rem',
-                  fontWeight: 600,
-                  color: 'var(--text-secondary)',
-                  cursor: 'pointer',
-                  userSelect: 'none'
-                }}>
-                  <input 
-                    type="checkbox"
-                    checked={visaMetropolitanOnly}
-                    onChange={(e) => setVisaMetropolitanOnly(e.target.checked)}
-                    style={{
-                      cursor: 'pointer',
-                      accentColor: 'var(--primary)',
-                      width: '15px',
-                      height: '15px'
-                    }}
-                  />
-                  <span>Diện Visa Đại đô thị</span>
-                </label>
+                {/* Advanced/Special Checkboxes Row */}
+                <div className="filter-checkboxes-container">
+                  
+                  {/* Checkbox Visa */}
+                  <label style={{
+                    display: 'flex',
+                    alignItems: 'center',
+                    gap: '0.5rem',
+                    fontSize: '0.82rem',
+                    fontWeight: 600,
+                    color: 'var(--text-secondary)',
+                    cursor: 'pointer',
+                    userSelect: 'none'
+                  }}>
+                    <input 
+                      type="checkbox"
+                      checked={visaMetropolitanOnly}
+                      onChange={(e) => setVisaMetropolitanOnly(e.target.checked)}
+                      style={{
+                        cursor: 'pointer',
+                        accentColor: 'var(--primary)',
+                        width: '15px',
+                        height: '15px'
+                      }}
+                    />
+                    <span>Diện Visa Đại đô thị</span>
+                  </label>
 
-                {/* Checkbox TOP 1% */}
-                <label style={{
-                  display: 'flex',
-                  alignItems: 'center',
-                  gap: '0.5rem',
-                  fontSize: '0.82rem',
-                  fontWeight: 600,
-                  color: 'var(--text-secondary)',
-                  cursor: 'pointer',
-                  userSelect: 'none'
-                }}>
-                  <input 
-                    type="checkbox"
-                    checked={top1PercentOnly}
-                    onChange={(e) => setTop1PercentOnly(e.target.checked)}
-                    style={{
-                      cursor: 'pointer',
-                      accentColor: 'var(--primary)',
-                      width: '15px',
-                      height: '15px'
-                    }}
-                  />
-                  <span>Trường TOP 1%</span>
-                </label>
+                  {/* Checkbox TOP 1% */}
+                  <label style={{
+                    display: 'flex',
+                    alignItems: 'center',
+                    gap: '0.5rem',
+                    fontSize: '0.82rem',
+                    fontWeight: 600,
+                    color: 'var(--text-secondary)',
+                    cursor: 'pointer',
+                    userSelect: 'none'
+                  }}>
+                    <input 
+                      type="checkbox"
+                      checked={top1PercentOnly}
+                      onChange={(e) => setTop1PercentOnly(e.target.checked)}
+                      style={{
+                        cursor: 'pointer',
+                        accentColor: 'var(--primary)',
+                        width: '15px',
+                        height: '15px'
+                      }}
+                    />
+                    <span>Trường TOP 1%</span>
+                  </label>
 
-                {/* Checkbox TOPIK delay */}
-                <label style={{
-                  display: 'flex',
-                  alignItems: 'center',
-                  gap: '0.5rem',
-                  fontSize: '0.82rem',
-                  fontWeight: 600,
-                  color: 'var(--text-secondary)',
-                  cursor: 'pointer',
-                  userSelect: 'none'
-                }}>
-                  <input 
-                    type="checkbox"
-                    checked={masterNoTopikOnly}
-                    onChange={(e) => setMasterNoTopikOnly(e.target.checked)}
-                    style={{
-                      cursor: 'pointer',
-                      accentColor: 'var(--primary)',
-                      width: '15px',
-                      height: '15px'
-                    }}
-                  />
-                  <span>Thạc sĩ nợ TOPIK</span>
-                </label>
+                  {/* Checkbox TOPIK delay */}
+                  <label style={{
+                    display: 'flex',
+                    alignItems: 'center',
+                    gap: '0.5rem',
+                    fontSize: '0.82rem',
+                    fontWeight: 600,
+                    color: 'var(--text-secondary)',
+                    cursor: 'pointer',
+                    userSelect: 'none'
+                  }}>
+                    <input 
+                      type="checkbox"
+                      checked={masterNoTopikOnly}
+                      onChange={(e) => setMasterNoTopikOnly(e.target.checked)}
+                      style={{
+                        cursor: 'pointer',
+                        accentColor: 'var(--primary)',
+                        width: '15px',
+                        height: '15px'
+                      }}
+                    />
+                    <span>Thạc sĩ nợ TOPIK</span>
+                  </label>
+
+                </div>
               </div>
             </div>
 
@@ -609,18 +732,13 @@ export default function App() {
             </div>
 
             {/* Schools Card Grid */}
-            <div style={{
-              display: 'grid',
-              gridTemplateColumns: 'repeat(auto-fill, minmax(320px, 1fr))',
-              gap: '1.5rem',
-              marginBottom: '5rem' // extra space for the floating compare panel
-            }}>
+            <div className="university-grid">
               {filteredUniversities.map(school => (
                 <div key={school.id}>
                   <SchoolCard 
                     university={school}
                     exchangeRate={exchangeRate}
-                    onViewDetails={() => setActiveSchoolDetails(school)}
+                    onViewDetails={() => navigate(`/university/${school.id}`)}
                     isComparing={selectedSchoolsForCompare.some(s => s.id === school.id)}
                     onToggleCompare={() => handleToggleCompare(school)}
                   />
@@ -628,7 +746,82 @@ export default function App() {
               ))}
             </div>
           </>
+        ) : (
+          /* Compare view placeholder when fewer than 2 schools selected */
+          selectedSchoolsForCompare.length < 2 && (
+            <div className="glass-effect animate-fade-in" style={{
+              padding: '3rem 2rem',
+              borderRadius: 'var(--border-radius-md)',
+              textAlign: 'center',
+              maxWidth: '600px',
+              margin: '4rem auto',
+              boxShadow: 'var(--shadow-md)',
+              marginLeft: 'auto',
+              marginRight: 'auto'
+            }}>
+              <Landmark size={48} style={{ color: 'var(--primary)', marginBottom: '1.5rem', marginLeft: 'auto', marginRight: 'auto' }} />
+              <h2 style={{ fontSize: '1.5rem', fontWeight: 800, marginBottom: '1rem', color: 'var(--text-primary)' }}>So sánh học phí đại học</h2>
+              <p style={{ color: 'var(--text-secondary)', marginBottom: '2rem', fontSize: '0.95rem', lineHeight: '1.6' }}>
+                Bạn cần chọn ít nhất 2 trường đại học để tiến hành so sánh. Hãy quay lại trang bản đồ hoặc danh sách trường để thêm các trường mong muốn.
+              </p>
+              <div style={{ display: 'flex', justifyContent: 'center', gap: '1rem' }}>
+                <button 
+                  onClick={() => navigate('/')}
+                  style={{
+                    padding: '0.75rem 1.5rem',
+                    borderRadius: 'var(--border-radius-sm)',
+                    fontWeight: 800,
+                    cursor: 'pointer',
+                    border: 'none',
+                    backgroundColor: 'var(--primary)',
+                    color: 'white'
+                  }}
+                >
+                  Trang Bản đồ 🗺️
+                </button>
+                <button 
+                  onClick={() => navigate('/universities')}
+                  style={{
+                    padding: '0.75rem 1.5rem',
+                    borderRadius: 'var(--border-radius-sm)',
+                    fontWeight: 800,
+                    cursor: 'pointer',
+                    border: '1px solid var(--border-color)',
+                    backgroundColor: 'var(--bg-surface)',
+                    color: 'var(--text-primary)'
+                  }}
+                >
+                  Danh sách trường 🔍
+                </button>
+              </div>
+            </div>
+          )
         )}
+
+        {/* Static SEO description section at the bottom */}
+        <section aria-label="Về KR-UniTuition" style={{
+          maxWidth: '1200px',
+          margin: '4rem auto 2rem auto',
+          padding: '2rem 1.5rem',
+          borderTop: '1px solid var(--border-color)',
+          color: 'var(--text-secondary)',
+          fontSize: '0.875rem',
+          lineHeight: '1.7'
+        }}>
+          <h2 style={{ fontSize: '1.25rem', fontWeight: 800, color: 'var(--text-primary)', marginBottom: '1rem' }}>
+            Về Công Cụ Tra Cứu Học Phí Đại Học Hàn Quốc
+          </h2>
+          <p style={{ marginBottom: '0.75rem' }}>
+            KR-UniTuition cung cấp thông tin học phí cập nhật của hơn {universities.length} trường 
+            đại học tại Hàn Quốc, bao gồm cả trường công lập và tư thục tại Seoul, 
+            Busan, Incheon và các tỉnh thành khác.
+          </p>
+          <p>
+            Học phí được hiển thị đồng thời bằng Won Hàn Quốc (KRW) và 
+            Việt Nam Đồng (VND) dựa trên tỷ giá cập nhật tự động hoặc tùy chỉnh, giúp phụ huynh và học sinh dễ dàng lên kế hoạch 
+            tài chính cho hành trình du học Hàn Quốc của mình.
+          </p>
+        </section>
       </div>
 
       {/* Floating Compare Panel and Modal */}
@@ -637,6 +830,8 @@ export default function App() {
         onRemoveSchool={handleRemoveCompareSchool}
         onClearAll={handleClearAllCompare}
         exchangeRate={exchangeRate}
+        isOpenOverride={viewMode === 'compare' && selectedSchoolsForCompare.length >= 2}
+        onCloseOverride={() => navigate('/')}
       />
 
       {/* University Detail Modal */}
@@ -644,9 +839,17 @@ export default function App() {
         <DetailModal 
           university={activeSchoolDetails}
           exchangeRate={exchangeRate}
-          onClose={() => setActiveSchoolDetails(null)}
+          onClose={() => {
+            setActiveSchoolDetails(null);
+            if (viewMode === 'list') {
+              navigate('/universities');
+            } else {
+              navigate('/');
+            }
+          }}
         />
       )}
     </div>
+    </HelmetProvider>
   );
 }

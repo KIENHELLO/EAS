@@ -1,91 +1,61 @@
-/**
- * Logic fetch + cache tỷ giá KRW/VND với TTL 6 giờ
- */
-export async function getExchangeRate() {
-  const CACHE_KEY = 'krw_vnd_rate_cache';
-  const CACHE_TIME_KEY = 'krw_vnd_rate_cache_time';
-  const TTL = 6 * 60 * 60 * 1000; // 6 giờ tính bằng miliseconds
+const CACHE_KEY = 'krw_vnd_rate';
+const CACHE_TTL = 6 * 60 * 60 * 1000; // 6 giờ
+const FALLBACK_RATE = 17.59;
 
-  const cachedRate = localStorage.getItem(CACHE_KEY);
-  const cachedTime = localStorage.getItem(CACHE_TIME_KEY);
-  const now = Date.now();
-
-  // 1. Kiểm tra Cache hợp lệ (trong vòng 6 giờ)
-  if (cachedRate && cachedTime && (now - parseInt(cachedTime, 10) < TTL)) {
-    const rateVal = parseFloat(cachedRate);
-    const dateObj = new Date(parseInt(cachedTime, 10));
-    const day = String(dateObj.getDate()).padStart(2, '0');
-    const month = String(dateObj.getMonth() + 1).padStart(2, '0');
-    const year = dateObj.getFullYear();
-    const hours = String(dateObj.getHours()).padStart(2, '0');
-    const minutes = String(dateObj.getMinutes()).padStart(2, '0');
-
-    return {
-      rate: rateVal,
-      isApiRate: true,
-      rateDate: `Tự động: ${hours}:${minutes} ${day}/${month}/${year}`,
-      lastUpdated: parseInt(cachedTime, 10)
-    };
-  }
-
-  // 2. Cache hết hạn hoặc không tồn tại, gọi API
+export async function getKRWtoVND() {
+  // 1. Đọc cache
   try {
-    const response = await fetch('https://open.er-api.com/v6/latest/KRW');
-    if (!response.ok) throw new Error('API response not ok');
-    const data = await response.json();
-    
-    if (data && data.rates && data.rates.VND) {
-      const rateVal = parseFloat(data.rates.VND.toFixed(2));
-      localStorage.setItem(CACHE_KEY, rateVal.toString());
-      localStorage.setItem(CACHE_TIME_KEY, now.toString());
-
-      const dateObj = new Date(now);
-      const day = String(dateObj.getDate()).padStart(2, '0');
-      const month = String(dateObj.getMonth() + 1).padStart(2, '0');
-      const year = dateObj.getFullYear();
-      const hours = String(dateObj.getHours()).padStart(2, '0');
-      const minutes = String(dateObj.getMinutes()).padStart(2, '0');
-
-      return {
-        rate: rateVal,
-        isApiRate: true,
-        rateDate: `Tự động: ${hours}:${minutes} ${day}/${month}/${year}`,
-        lastUpdated: now
-      };
+    const cached = JSON.parse(localStorage.getItem(CACHE_KEY));
+    if (cached && Date.now() - cached.fetchedAt < CACHE_TTL) {
+      return cached;
     }
-  } catch (err) {
-    console.error("Error fetching exchange rate from API:", err);
+  } catch {}
+
+  // 2. Fetch primary API
+  const apis = [
+    'https://open.er-api.com/v6/latest/KRW',
+    'https://api.exchangerate-api.com/v4/latest/KRW',
+  ];
+
+  for (const url of apis) {
+    try {
+      const res = await Promise.race([
+        fetch(url),
+        new Promise((_, rej) => setTimeout(() => rej(new Error('timeout')), 5000))
+      ]);
+      const data = await res.json();
+      const rate = data?.rates?.VND || data?.conversion_rates?.VND;
+      if (rate) {
+        const result = { rate, fetchedAt: Date.now(), isFallback: false };
+        localStorage.setItem(CACHE_KEY, JSON.stringify(result));
+        return result;
+      }
+    } catch {}
   }
 
-  // 3. Xử lý Fallback khi API lỗi
-  // Nếu có cache cũ thì dùng tiếp (nhưng đánh dấu là ngoại tuyến)
-  if (cachedRate) {
-    const rateVal = parseFloat(cachedRate);
-    const dateObj = new Date(parseInt(cachedTime, 10));
-    const day = String(dateObj.getDate()).padStart(2, '0');
-    const month = String(dateObj.getMonth() + 1).padStart(2, '0');
-    const year = dateObj.getFullYear();
-    const hours = String(dateObj.getHours()).padStart(2, '0');
-    const minutes = String(dateObj.getMinutes()).padStart(2, '0');
+  // 3. Fallback
+  return { rate: FALLBACK_RATE, fetchedAt: Date.now(), isFallback: true };
+}
 
-    return {
-      rate: rateVal,
-      isApiRate: true,
-      rateDate: `Ngoại tuyến: ${hours}:${minutes} ${day}/${month}/${year}`,
-      lastUpdated: parseInt(cachedTime, 10)
-    };
-  }
+export function convertKRWtoVND(krw, rate) {
+  if (!krw) return '0 ₫';
+  const vnd = Math.round((krw * rate) / 1000) * 1000;
+  return vnd.toLocaleString('vi-VN') + ' ₫';
+}
 
-  // Mặc định hoàn toàn nếu chưa từng có cache
-  const fallbackDate = new Date();
-  const day = String(fallbackDate.getDate()).padStart(2, '0');
-  const month = String(fallbackDate.getMonth() + 1).padStart(2, '0');
-  const year = fallbackDate.getFullYear();
+// For compatibility with any legacy imports
+export async function getExchangeRate() {
+  const data = await getKRWtoVND();
+  
+  const dateObj = new Date(data.fetchedAt);
+  const hours = String(dateObj.getHours()).padStart(2, '0');
+  const minutes = String(dateObj.getMinutes()).padStart(2, '0');
+  const rateDate = `cập nhật ${hours}:${minutes}`;
 
   return {
-    rate: 18.5,
-    isApiRate: false,
-    rateDate: `Mặc định: Tham khảo ${day}/${month}/${year}`,
-    lastUpdated: now
+    rate: data.rate,
+    isApiRate: !data.isFallback,
+    rateDate: rateDate,
+    lastUpdated: data.fetchedAt
   };
 }

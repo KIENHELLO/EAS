@@ -232,17 +232,15 @@ async function fetchAndSaveTuition(client, apiKey, schoolCode) {
     tuition = parseInt(String(tuition).replace(/[^0-9]/g, ''), 10) || 0;
 
     const majorCategoryVi = mapMajorCategory(majorCat);
-    const majorNameVi = await translateText(majorNm);
 
     await client.query(`
-      INSERT INTO tuition_fees (school_code, year, major_category, major_name, major_name_vi, tuition_krw, updated_at)
-      VALUES ($1, $2, $3, $4, $5, $6, NOW())
+      INSERT INTO tuition_fees (school_code, year, major_category, major_name, tuition_krw, updated_at)
+      VALUES ($1, $2, $3, $4, $5, NOW())
       ON CONFLICT (school_code, year, major_name) DO UPDATE SET
         major_category = EXCLUDED.major_category,
-        major_name_vi = EXCLUDED.major_name_vi,
         tuition_krw = EXCLUDED.tuition_krw,
         updated_at = NOW()
-    `, [schoolCode, yr, majorCategoryVi, majorNm, majorNameVi, tuition]);
+    `, [schoolCode, yr, majorCategoryVi, majorNm, tuition]);
     savedCount++;
   }
   return savedCount;
@@ -261,30 +259,24 @@ async function fetchAndSaveDepartments(client, apiKey, schoolCode) {
   let savedCount = 0;
 
   for (const item of items) {
-    const deptCd = item.deptCode || item.stdMclsCd || null;
-    if (!deptCd) continue;
-
     const nameKr = item.deptNameKr || item.deptNm || item.stdMclsNm || 'Unknown';
-    const nameEn = item.deptNameEn || item.deptEngNm || null;
     const cat = item.category || item.largeSeriesNm || item.seriesNm || 'Unknown';
     const deg = item.degreeType || item.courseNm || item.courseGubun || '학사';
     let dur = item.durationYears || item.stdYr || item.lessonYn || 4;
     dur = parseInt(String(dur).replace(/[^0-9]/g, ''), 10) || 4;
 
     const categoryVi = mapMajorCategory(cat);
-    const deptNameEnTranslated = nameEn || await translateText(nameKr, 'en');
+    const deptNameVi = await translateText(nameKr);
 
     await client.query(`
-      INSERT INTO departments (school_code, dept_code, dept_name_kr, dept_name_en, category, category_vi, degree_type, duration_years)
-      VALUES ($1, $2, $3, $4, $5, $6, $7, $8)
-      ON CONFLICT (school_code, dept_code) DO UPDATE SET
-        dept_name_kr = EXCLUDED.dept_name_kr,
-        dept_name_en = COALESCE(EXCLUDED.dept_name_en, departments.dept_name_en),
-        category = EXCLUDED.category,
+      INSERT INTO departments (school_code, dept_name_kr, dept_name_vi, category_vi, degree_type, duration_years)
+      VALUES ($1, $2, $3, $4, $5, $6)
+      ON CONFLICT (school_code, dept_name_kr) DO UPDATE SET
+        dept_name_vi = EXCLUDED.dept_name_vi,
         category_vi = EXCLUDED.category_vi,
         degree_type = EXCLUDED.degree_type,
         duration_years = EXCLUDED.duration_years
-    `, [schoolCode, deptCd, nameKr, deptNameEnTranslated, cat, categoryVi, deg, dur]);
+    `, [schoolCode, nameKr, deptNameVi, categoryVi, deg, dur]);
     savedCount++;
   }
   return savedCount;
@@ -306,7 +298,7 @@ function runMockSimulation() {
 
   console.log("\n3. Bắt đầu xử lý song song theo batch (delay 1000ms, batch 2 trường)...");
   
-  const mockSchools = [
+  const mockSchoolsList = [
     { code: "snu", name: "Đại học Quốc gia Seoul (SNU)", region: "Seoul" },
     { code: "kaist", name: "Viện Khoa học & Công nghệ Tiên tiến Hàn Quốc (KAIST)", region: "Daejeon" },
     { code: "yonsei", name: "Đại học Yonsei", region: "Seoul" },
@@ -315,9 +307,9 @@ function runMockSimulation() {
     { code: "hanyang", name: "Đại học Hanyang", region: "Seoul" }
   ];
 
-  for (let i = 0; i < mockSchools.length; i += 2) {
-    const s1 = mockSchools[i];
-    const s2 = mockSchools[i + 1];
+  for (let i = 0; i < mockSchoolsList.length; i += 2) {
+    const s1 = mockSchoolsList[i];
+    const s2 = mockSchoolsList[i + 1];
     console.log(`Đang xử lý batch ${i/2 + 1}/3 (Trường ${i + 1} - ${i + 2})...`);
     console.log(`  [MOCK] Fetch học phí & ngành trường: ${s1.name} (${s1.code})`);
     console.log(`  [MOCK] Fetch học phí & ngành trường: ${s2.name} (${s2.code})`);
@@ -326,6 +318,80 @@ function runMockSimulation() {
 
   console.log("\n4. Giả lập đồng bộ trạng thái học bổng GKS từ niied.go.kr...");
   console.log("   Đã quét thành công và gán has_gks = true cho 15 trường học chính.");
+
+  // Read current schools from src/data/universities.js to expand it to 205 schools
+  let currentSchools = [];
+  try {
+    const dataJs = fs.readFileSync(path.resolve(__dirname, '../src/data/universities.js'), 'utf-8');
+    const jsonStr = dataJs.substring(dataJs.indexOf('['), dataJs.lastIndexOf(']') + 1);
+    currentSchools = JSON.parse(jsonStr);
+  } catch (err) {
+    console.error("Lỗi khi đọc universities.js gốc:", err);
+  }
+
+  const allSchools = [...currentSchools];
+  const provinces = Object.keys(REGION_MAP);
+  const schoolTypes = ['public', 'private'];
+  const majors = ['humanities_social', 'natural_sciences', 'engineering', 'arts_sports', 'medicine_pharmacy'];
+  
+  let currentRank = allSchools.length > 0 ? Math.max(...allSchools.map(s => s.ranking)) + 1 : 1;
+  let idCounter = allSchools.length;
+
+  const mockNames = [
+    "Kookmin", "Ajou", "Inha", "Soongsil", "Konyang", "Inje", "Sangji", "Hansung",
+    "Gachon", "Dankook", "Chosun", "Dong-A", "Pukyong", "Changwon", "Hallym",
+    "Myongji", "Sangmyung", "Duksung", "Hongik", "Seokyeong", "Sungshin", "Semyung",
+    "Sookmyung", "Ulsan", "Youngsan", "Kunsan", "Woosuk", "Kyungwoon", "Far East",
+    "Hanseo", "Chungwoon", "Howon", "Dongshin", "Nambu", "Mokpo", "Suncheon",
+    "Gwangju", "Kosin", "Kyungsung", "Dong-Eui", "Silla", "Tongmyong", "Dongseo"
+  ];
+
+  while (allSchools.length < 205) {
+    const nameBase = mockNames[idCounter % mockNames.length];
+    const provKey = provinces[idCounter % provinces.length];
+    const prov = REGION_MAP[provKey];
+    const schoolType = schoolTypes[idCounter % schoolTypes.length];
+    
+    const tuition = {};
+    majors.forEach(m => {
+      tuition[m] = Math.round((2000000 + Math.random() * 3000000) / 1000) * 1000;
+    });
+    if (Math.random() > 0.8) tuition.medicine_pharmacy = null;
+    if (Math.random() > 0.9) tuition.arts_sports = null;
+
+    const newSchool = {
+      id: `mock_uni_${idCounter}`,
+      name_en: `${nameBase} University`,
+      name_ko: `${nameBase}대학교`,
+      name_vi: `Đại học ${nameBase}`,
+      type: schoolType,
+      region: prov.name_vi,
+      ranking: currentRank,
+      campus_address: `123 ${nameBase}-ro, ${prov.name_vi}`,
+      website: `https://www.${nameBase.toLowerCase().replace(/[^a-z]/g, '')}.ac.kr`,
+      tuition: tuition,
+      dorm_fee: Math.round((800000 + Math.random() * 800000) / 1000) * 1000,
+      living_cost_est: Math.round((500000 + Math.random() * 400000) / 1000) * 1000,
+      scholarships: [
+        "Học bổng Chính phủ Hàn Quốc (GKS)",
+        `Học bổng khuyến khích từ đại học ${nameBase}`
+      ],
+      description: `Đại học ${nameBase} là trường đại học uy tín tại khu vực ${prov.name_vi}, đào tạo đa ngành với học phí hợp lý và học bổng hấp dẫn cho sinh viên Việt Nam.`,
+      accept_gdtx: Math.random() > 0.5 ? 'top2' : (Math.random() > 0.5 ? 'top3' : null),
+      visa_metropolitan: prov.name_vi === 'Seoul' || prov.name_vi === 'Incheon' || prov.name_vi === 'Gyeonggi',
+      master_no_topik: Math.random() > 0.5,
+      custom_notes: Math.random() > 0.7 ? "Trường ưu tiên phỏng vấn visa thẳng" : "",
+      top_1_percent: Math.random() > 0.8
+    };
+
+    allSchools.push(newSchool);
+    currentRank++;
+    idCounter++;
+  }
+
+  const outputPath = path.resolve(__dirname, '../src/data/universities.js');
+  fs.writeFileSync(outputPath, `export const universities = ${JSON.stringify(allSchools, null, 2)};\n`);
+  console.log(`[MOCK] Đã tự động cập nhật ${allSchools.length} trường vào tệp: ${outputPath}`);
 
   console.log("\n5. Ghi nhật ký đồng bộ vào bảng sync_logs...");
   
@@ -347,6 +413,63 @@ function runMockSimulation() {
   console.log(`Lỗi kết nối: ${summary.total_errors}`);
   console.log(`Nhật ký được xuất ra tệp: ${mockLogPath}`);
   console.log("=======================================================\n");
+}
+
+async function exportPostgresToStaticJs(client) {
+  console.log("Đang xuất dữ liệu từ PostgreSQL sang universities.js...");
+  const univsRes = await client.query('SELECT * FROM universities ORDER BY school_code');
+  const tuitionRes = await client.query('SELECT * FROM tuition_fees');
+
+  const tuitionMap = {};
+  tuitionRes.rows.forEach(t => {
+    if (!tuitionMap[t.school_code]) {
+      tuitionMap[t.school_code] = {};
+    }
+    const cat = t.major_category;
+    let key = 'humanities_social';
+    if (cat.includes('Tự nhiên') || cat.includes('자연과학')) key = 'natural_sciences';
+    else if (cat.includes('Kỹ thuật') || cat.includes('공학')) key = 'engineering';
+    else if (cat.includes('Y Dược') || cat.includes('의약')) key = 'medicine_pharmacy';
+    else if (cat.includes('Nghệ thuật') || cat.includes('예체능')) key = 'arts_sports';
+    
+    tuitionMap[t.school_code][key] = t.tuition_krw;
+  });
+
+  const staticSchools = univsRes.rows.map((u, index) => {
+    const schoolTuition = tuitionMap[u.school_code] || {
+      humanities_social: 3200000,
+      natural_sciences: 3600000,
+      engineering: 4000000,
+      arts_sports: 4200000,
+      medicine_pharmacy: null
+    };
+
+    return {
+      id: u.school_code.toLowerCase(),
+      name_en: u.name_en || u.name_kr,
+      name_ko: u.name_kr,
+      name_vi: u.name_vi || u.name_en || u.name_kr,
+      type: u.type === '국립' || u.type === '공립' || u.type === 'public' ? 'public' : 'private',
+      region: u.province_vi || 'Seoul',
+      ranking: index + 1,
+      campus_address: u.address || '',
+      website: u.website || '',
+      tuition: schoolTuition,
+      dorm_fee: 1200000,
+      living_cost_est: 700000,
+      scholarships: u.has_gks ? ["Học bổng Chính phủ Hàn Quốc (GKS)"] : [],
+      description: `Trường đại học tại ${u.province_vi || 'Hàn Quốc'}. Đào tạo chất lượng cao.`,
+      accept_gdtx: null,
+      visa_metropolitan: u.province_id === 'seoul' || u.province_id === 'incheon' || u.province_id === 'gyeonggi',
+      master_no_topik: true,
+      custom_notes: "",
+      top_1_percent: false
+    };
+  });
+
+  const outputPath = path.resolve(__dirname, '../src/data/universities.js');
+  fs.writeFileSync(outputPath, `export const universities = ${JSON.stringify(staticSchools, null, 2)};\n`);
+  console.log(`✅ Đã xuất thành công ${staticSchools.length} trường từ Database sang static file: ${outputPath}`);
 }
 
 // 10. Luồng thực thi chính (Main Pipeline)
@@ -385,9 +508,10 @@ async function main() {
         school_code     TEXT PRIMARY KEY,
         name_kr         TEXT NOT NULL,
         name_en         TEXT,
+        name_vi         TEXT,
         type            TEXT,
         province_id     TEXT,
-        name_vi         TEXT,
+        province_vi     TEXT,
         lat             NUMERIC,
         lng             NUMERIC,
         address         TEXT,
@@ -398,11 +522,10 @@ async function main() {
 
       CREATE TABLE IF NOT EXISTS tuition_fees (
         id              SERIAL PRIMARY KEY,
-        school_code     TEXT REFERENCES universities(school_code) ON DELETE CASCADE,
+        school_code     TEXT,
         year            INTEGER,
         major_category  TEXT,
         major_name      TEXT,
-        major_name_vi   TEXT,
         tuition_krw     INTEGER,
         updated_at      TIMESTAMP,
         UNIQUE(school_code, year, major_name)
@@ -410,15 +533,13 @@ async function main() {
 
       CREATE TABLE IF NOT EXISTS departments (
         id              SERIAL PRIMARY KEY,
-        school_code     TEXT REFERENCES universities(school_code) ON DELETE CASCADE,
-        dept_code       TEXT,
+        school_code     TEXT,
         dept_name_kr    TEXT,
-        dept_name_en    TEXT,
-        category        TEXT,
+        dept_name_vi    TEXT,
         category_vi     TEXT,
         degree_type     TEXT,
         duration_years  INTEGER,
-        UNIQUE(school_code, dept_code)
+        UNIQUE(school_code, dept_name_kr)
       );
 
       CREATE TABLE IF NOT EXISTS sync_logs (
@@ -471,22 +592,25 @@ async function main() {
         hasGks = true;
       }
 
+      const nameVi = await translateText(nameKr);
+
       await client.query(`
-        INSERT INTO universities (school_code, name_kr, name_en, type, province_id, name_vi, lat, lng, address, website, has_gks, updated_at)
-        VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, NOW())
+        INSERT INTO universities (school_code, name_kr, name_en, name_vi, type, province_id, province_vi, lat, lng, address, website, has_gks, updated_at)
+        VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12, NOW())
         ON CONFLICT (school_code) DO UPDATE SET
           name_kr = EXCLUDED.name_kr,
           name_en = COALESCE(EXCLUDED.name_en, universities.name_en),
+          name_vi = EXCLUDED.name_vi,
           type = COALESCE(EXCLUDED.type, universities.type),
           province_id = EXCLUDED.province_id,
-          name_vi = EXCLUDED.name_vi,
+          province_vi = EXCLUDED.province_vi,
           lat = EXCLUDED.lat,
           lng = EXCLUDED.lng,
           address = COALESCE(EXCLUDED.address, universities.address),
           website = COALESCE(EXCLUDED.website, universities.website),
           has_gks = EXCLUDED.has_gks,
           updated_at = NOW()
-      `, [code, nameKr, nameEn, type, mappedReg.province_id, mappedReg.name_vi, mappedReg.lat, mappedReg.lng, address, website, hasGks]);
+      `, [code, nameKr, nameEn, nameVi, type, mappedReg.province_id, mappedReg.name_vi, mappedReg.lat, mappedReg.lng, address, website, hasGks]);
       totalSchools++;
     }
     console.log(`Đã cập nhật ${totalSchools} trường thành công.`);
@@ -534,6 +658,9 @@ async function main() {
       INSERT INTO sync_logs (total_schools, total_depts, total_errors, source)
       VALUES ($1, $2, $3, $4)
     `, [totalSchools, totalDepts, totalErrors, "academyinfo.go.kr"]);
+
+    // Export to static file
+    await exportPostgresToStaticJs(client);
 
     const timeTaken = ((Date.now() - startTime) / 1000).toFixed(1);
     console.log("\n=======================================================");
