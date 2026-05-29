@@ -80,7 +80,7 @@ export default function StatsHero({ universities, exchangeRate }) {
           WebkitBackgroundClip: 'text',
           WebkitTextFillColor: 'transparent',
           textWrap: 'balance',
-          maxWidth: '22ch',
+          maxWidth: '30ch',
           margin: '0 auto 1rem'
         }}>
           {"Tra Cứu & So Sánh Học Phí Hàn Quốc Dễ\u00a0Dàng"}
