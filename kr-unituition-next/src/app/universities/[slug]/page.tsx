@@ -72,7 +72,16 @@ export default async function UniversityPage({ params }: PageProps) {
     master_no_topik,
     top_1_percent,
     custom_notes,
-    has_gks
+    has_gks,
+    language_tuition_desc,
+    registration_fee_desc,
+    insurance_fee_desc,
+    invoice_details,
+    dorm_fee_desc,
+    admission_conditions,
+    featured_majors,
+    regional_restrictions,
+    is_restricted_school
   } = uni as any;
 
   const hasGksBadge = has_gks === true || (scholarships && (scholarships as any[]).some((s: any) => s.toLowerCase().includes('gks') || s.toLowerCase().includes('chính phủ')));
@@ -150,6 +159,19 @@ export default async function UniversityPage({ params }: PageProps) {
                     {type === 'public' ? 'Trường Công lập' : 'Trường Tư thục'}
                   </span>
                   
+                  {is_restricted_school && (
+                    <span style={{
+                      fontSize: '0.72rem',
+                      fontWeight: 700,
+                      padding: '0.25rem 0.6rem',
+                      borderRadius: '9999px',
+                      backgroundColor: 'rgba(239, 68, 68, 0.15)',
+                      color: '#dc2626',
+                    }}>
+                      HẠN CHẾ VISA
+                    </span>
+                  )}
+
                   {top_1_percent && (
                     <span style={{
                       fontSize: '0.72rem',
@@ -365,6 +387,113 @@ export default async function UniversityPage({ params }: PageProps) {
                   </div>
                 </div>
               </div>
+
+              {/* Admission & Language Course Info */}
+              {(language_tuition_desc || registration_fee_desc || insurance_fee_desc || dorm_fee_desc || admission_conditions || featured_majors || regional_restrictions || is_restricted_school) && (
+                <div style={{
+                  padding: '1.5rem',
+                  borderRadius: 'var(--border-radius-lg)',
+                  border: '1px solid var(--border-color)',
+                  backgroundColor: 'var(--bg-surface)',
+                  boxShadow: 'var(--shadow-md)',
+                  marginBottom: '1.5rem'
+                }}>
+                  <h3 style={{ fontSize: '1.25rem', fontWeight: 800, color: 'var(--text-primary)', display: 'flex', alignItems: 'center', gap: '0.5rem', marginBottom: '1.25rem', borderBottom: '1px solid var(--border-color)', paddingBottom: '0.75rem' }}>
+                    <Sparkles size={20} color="var(--primary)" />
+                    Thông tin Tuyển sinh & Chi phí Hệ tiếng (Cập nhật từ XLSX)
+                  </h3>
+
+                  <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(250px, 1fr))', gap: '1.25rem' }}>
+                    {/* Col 1: Costs */}
+                    <div style={{ padding: '1rem', borderRadius: 'var(--border-radius-sm)', border: '1px solid var(--border-color)', backgroundColor: 'var(--bg-surface-hover)' }}>
+                      <span style={{ fontSize: '0.75rem', color: 'var(--text-tertiary)', fontWeight: 700, textTransform: 'uppercase', display: 'block', marginBottom: '0.5rem' }}>Chi phí Hệ tiếng</span>
+                      <div style={{ display: 'flex', flexDirection: 'column', gap: '0.4rem', fontSize: '0.85rem' }}>
+                        {language_tuition_desc && (
+                          <div style={{ display: 'flex', justifyContent: 'space-between' }}>
+                            <span style={{ color: 'var(--text-secondary)' }}>Học phí:</span>
+                            <strong style={{ color: 'var(--text-primary)' }}>{language_tuition_desc}</strong>
+                          </div>
+                        )}
+                        {registration_fee_desc && (
+                          <div style={{ display: 'flex', justifyContent: 'space-between' }}>
+                            <span style={{ color: 'var(--text-secondary)' }}>Phí nhập học:</span>
+                            <strong style={{ color: 'var(--text-primary)' }}>{registration_fee_desc}</strong>
+                          </div>
+                        )}
+                        {insurance_fee_desc && (
+                          <div style={{ display: 'flex', justifyContent: 'space-between' }}>
+                            <span style={{ color: 'var(--text-secondary)' }}>Bảo hiểm:</span>
+                            <strong style={{ color: 'var(--text-primary)' }}>{insurance_fee_desc}</strong>
+                          </div>
+                        )}
+                        {dorm_fee_desc && (
+                          <div style={{ borderTop: '1px dashed var(--border-color)', paddingTop: '0.4rem', marginTop: '0.2rem' }}>
+                            <span style={{ color: 'var(--text-secondary)', display: 'block', marginBottom: '0.1rem' }}>Ký túc xá (chi tiết):</span>
+                            <strong style={{ color: 'var(--text-primary)', fontSize: '0.8rem' }}>{dorm_fee_desc}</strong>
+                          </div>
+                        )}
+                      </div>
+                    </div>
+
+                    {/* Col 2: Conditions */}
+                    <div style={{ padding: '1rem', borderRadius: 'var(--border-radius-sm)', border: '1px solid var(--border-color)', backgroundColor: 'var(--bg-surface-hover)' }}>
+                      <span style={{ fontSize: '0.75rem', color: 'var(--text-tertiary)', fontWeight: 700, textTransform: 'uppercase', display: 'block', marginBottom: '0.5rem' }}>Điều kiện Học bạ / Vùng miền</span>
+                      <div style={{ display: 'flex', flexDirection: 'column', gap: '0.4rem', fontSize: '0.85rem' }}>
+                        {admission_conditions && (
+                          <div>
+                            <span style={{ color: 'var(--text-secondary)', display: 'block', marginBottom: '0.1rem' }}>Yêu cầu tuyển sinh:</span>
+                            <strong style={{ color: 'var(--text-primary)', display: 'block', whiteSpace: 'pre-line', fontSize: '0.8rem' }}>{admission_conditions}</strong>
+                          </div>
+                        )}
+                        {regional_restrictions && (
+                          <div style={{ borderTop: '1px dashed var(--border-color)', paddingTop: '0.4rem', marginTop: '0.2rem' }}>
+                            <span style={{ color: 'var(--text-secondary)', display: 'block', marginBottom: '0.1rem' }}>Hạn chế vùng miền:</span>
+                            <strong style={{ color: '#dc2626', display: 'block', fontSize: '0.8rem' }}>{regional_restrictions}</strong>
+                          </div>
+                        )}
+                      </div>
+                    </div>
+
+                    {/* Col 3: Majors & Invoice */}
+                    <div style={{ padding: '1rem', borderRadius: 'var(--border-radius-sm)', border: '1px solid var(--border-color)', backgroundColor: 'var(--bg-surface-hover)' }}>
+                      <span style={{ fontSize: '0.75rem', color: 'var(--text-tertiary)', fontWeight: 700, textTransform: 'uppercase', display: 'block', marginBottom: '0.5rem' }}>Thế mạnh & Invoice</span>
+                      <div style={{ display: 'flex', flexDirection: 'column', gap: '0.4rem', fontSize: '0.85rem' }}>
+                        {featured_majors && (
+                          <div>
+                            <span style={{ color: 'var(--text-secondary)', display: 'block', marginBottom: '0.1rem' }}>Ngành đào tạo thế mạnh:</span>
+                            <strong style={{ color: 'var(--text-primary)', display: 'block', fontSize: '0.8rem' }}>{featured_majors}</strong>
+                          </div>
+                        )}
+                        {invoice_details && (
+                          <div style={{ borderTop: '1px dashed var(--border-color)', paddingTop: '0.4rem', marginTop: '0.2rem' }}>
+                            <span style={{ color: 'var(--text-secondary)', display: 'block', marginBottom: '0.1rem' }}>Hóa đơn dự kiến (Invoice):</span>
+                            <span style={{ color: 'var(--text-primary)', display: 'block', fontSize: '0.75rem', fontStyle: 'italic', lineHeight: 1.4 }}>{invoice_details}</span>
+                          </div>
+                        )}
+                      </div>
+                    </div>
+                  </div>
+
+                  {is_restricted_school && (
+                    <div style={{
+                      marginTop: '1rem',
+                      padding: '0.85rem 1rem',
+                      borderRadius: 'var(--border-radius-sm)',
+                      backgroundColor: 'rgba(239, 68, 68, 0.06)',
+                      border: '1px solid rgba(239, 68, 68, 0.2)',
+                      display: 'flex',
+                      alignItems: 'center',
+                      gap: '0.5rem',
+                      fontSize: '0.8rem',
+                      color: '#dc2626',
+                      fontWeight: 600
+                    }}>
+                      <AlertCircle size={16} color="#dc2626" />
+                      <span>Trường học này nằm trong danh sách hạn chế Visa du học Hàn Quốc. Vui lòng liên hệ trung tâm để được hướng dẫn chi tiết về cách chuẩn bị hồ sơ.</span>
+                    </div>
+                  )}
+                </div>
+              )}
 
               {/* Lead Registration Form */}
               <SchoolLeadForm schoolId={uni.id} schoolName={name_vi} />

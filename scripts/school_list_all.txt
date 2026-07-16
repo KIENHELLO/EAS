@@ -1,0 +1,205 @@
+snu: Đại học Quốc gia Seoul | Seoul National University | 서울대학교
+kaist: Viện Khoa học & Công nghệ Tiên tiến Hàn Quốc | KAIST (Korea Advanced Institute of Science and Technology) | 한국과학기술원
+yonsei: Đại học Yonsei | Yonsei University | 연세대학교
+korea: Đại học Korea | Korea University | 고려대학교
+skku: Đại học Sungkyunkwan | Sungkyunkwan University | 성균관대학교
+hanyang: Đại học Hanyang | Hanyang University | 한양대학교
+khu: Đại học Kyung Hee | Kyung Hee University | 경희대학교
+ewha: Đại học Nữ giới Ewha | Ewha Womans University | 이화여자대학교
+sogang: Đại học Sogang | Sogang University | 서강대학교
+cau: Đại học Trung ương (Chung-Ang) | Chung-Ang University | 중앙대학교
+pusan: Đại học Quốc gia Pusan | Pusan National University | 부산대학교
+knu: Đại học Quốc gia Kyungpook | Kyungpook National University | 경북대학교
+hufs: Đại học Ngoại ngữ Hankuk (HUFS) | Hankuk University of Foreign Studies | 한국외국어대학교
+dongguk: Đại học Dongguk | Dongguk University | 동국대학교
+konkuk: Đại học Konkuk | Konkuk University | 건국대학교
+sejong: Đại học Sejong | Sejong University | 세종대학교
+kookmin: Đại học Kookmin | Kookmin University | 국민대학교
+ajou: Đại học Ajou | Ajou University | 아주대학교
+inha: Đại học Inha | Inha University | 인하대학교
+postech: Đại học Khoa học & Công nghệ Pohang (POSTECH) | POSTECH (Pohang University of Science and Technology) | 포항공과대학교
+unist: Viện Khoa học & Công nghệ Quốc gia Ulsan (UNIST) | UNIST (Ulsan National Institute of Science and Technology) | 울산과학기술원
+gist: Viện Khoa học & Công nghệ Gwangju (GIST) | GIST (Gwangju Institute of Science and Technology) | 광주과학기술원
+chonnam: Đại học Quốc gia Chonnam | Chonnam National University | 전남대학교
+jbnu: Đại học Quốc gia Jeonbuk | Jeonbuk National University | 전북대학교
+kangwon: Đại học Quốc gia Kangwon | Kangwon National University | 강원대학교
+jeju: Đại học Quốc gia Jeju | Jeju National University | 제주대학교
+uos: Đại học Seoul (UOS) | University of Seoul | 서울시립대학교
+soongsil: Đại học Soongsil | Soongsil University | 숭실대학교
+yeungnam: Đại học Yeungnam | Yeungnam University | 영남대학교
+nazarene: Đại học Nazarene (Chungnam) | Korea Nazarene University | 나사렛대학교
+kyungil: Đại học Kyungil (Daegu) | Kyungil University | 경일대학교
+dongseo: Đại học Dongseo (Busan) | Dongseo University | 동서대학교
+paichai: Đại học Paichai (Daejeon) | Paichai University | 배재대학교
+seoultech: Đại học Khoa học & Công nghệ Quốc gia Seoul | Seoul National University of Science and Technology | 서울과학기술대학교
+catholic: Đại học Công giáo Hàn Quốc | Catholic University of Korea | 가톨릭대학교
+chungnam: Đại học Quốc gia Chungnam | Chungnam National University | 충남대학교
+konyang: Đại học Konyang (Chungnam) | Konyang University | 건양대학교
+keimyung: Đại học Keimyung (Daegu) | Keimyung University | 계명대학교
+inje: Đại học Inje (Gimhae) | Inje University | 인제대학교
+sangji: Đại học Sangji (Gangwon) | Sangji University | 상지대학교
+seoulventure: Đại học Seoul Venture (Seoul) | Seoul Venture University | 서울벤처대학원대학교
+chonnam_science: Cao đẳng Khoa học Chonnam | Chonnam Science College | 전남과학대학교
+sangji_catholic: Cao đẳng Công giáo Sangji (Gangwon) | Sangji Catholic College | 가톨릭상지대학교
+gangdong: Cao đẳng Gangdong (Chungbuk) | Gangdong College | 강동대학교
+jeonju: Đại học Jeonju | Jeonju University | 전주대학교
+dongeui_science: Cao đẳng Công nghệ Dongeui | Dongeui Science University | 동의과학대학교
+kyungnam_it: Cao đẳng CNTT Kyungnam | Kyungnam College of Information & Technology | 경남정보대학교
+kunjang: Cao đẳng Kunjang (Gunsan) | Kunjang College | 군장대학교
+baekseok: Đại học Baekseok | Baekseok University | 백석대학교
+hosan: Cao đẳng Hosan (Gyeongbuk) | Hosan College | 호산대학교
+kyongbuk_science: Cao đẳng Khoa học Kyongbuk | Kyongbuk Science College | 경북과학대학교
+kyungbuk_college: Cao đẳng Kyungbuk | Kyungbuk College | 경북전문대학교
+hansung: Đại học Hansung | Hansung University | 한성대학교
+bufs: Đại học Ngoại ngữ Busan | Busan University of Foreign Studies | 부산외국어대학교
+wonkwang: Đại học Wonkwang | Wonkwang University | 원광대학교
+uni_1: 가천Đại học  | Gachon University | 가천대학교
+uni_2: 단국Đại học  | Dankook University | 단국대학교
+uni_3: 조선Đại học  | Chosun University | 조선대학교
+uni_4: 동아Đại học  | Dong-A University | 동아대학교
+uni_5: 부경Đại học  | Pukyong University | 부경대학교
+uni_6: 울산Đại học  | Ulsan University | 울산대학교
+uni_7: 창원Đại học  | Changwon University | 창원대학교
+uni_8: 순천향Đại học  | Soonchunhyang University | 순천향대학교
+uni_9: 한림Đại học  | Hallym University | 한림대학교
+uni_10: 명지Đại học  | Myongji University | 명지대학교
+uni_11: 상명Đại học  | Sangmyung University | 상명대학교
+duksung: Đại học Nữ sinh Duksung | Duksung Womans University | 덕성여자대학교
+hongik: Đại học Hongik | Hongik University | 홍익대학교
+seokyeong: Đại học Seokyeong | Seokyeong University | 서경대학교
+sungshin: Đại học Nữ sinh Sungshin | Sungshin Womans University | 성신여자대학교
+seoul_theological: Đại học Thần học Seoul (STU) | Seoul Theological University | 서울신학대학교
+sunmoon: Đại học Sunmoon | Sunmoon University | 선문대학교
+semyung: Đại học Semyung | Semyung University | 세명대학교
+sookmyung: Đại học Nữ sinh Sookmyung | Sookmyung Womans University | 숙명여자대학교
+gyeongsang: Đại học Quốc gia Gyeongsang | Gyeongsang National University | 경상대학교
+myongji: Đại học Myongji | Myongji University | 명지대학교
+namseoul: Đại học Namseoul | Namseoul University | 남서울대학교
+chungbuk: Đại học Quốc gia Chungbuk | Chungbuk National University | 충북대학교
+ulsan: Đại học Ulsan | University of Ulsan | 울산대학교
+youngsan: Đại học Youngsan | Youngsan University | 영산대학교
+kunsan: Đại học Quốc gia Kunsan | Kunsan National University | 군산대학교
+mock_uni_81: Đại học Kyungsung | Kyungsung University | Kyungsung대학교
+mock_uni_82: Đại học Dong-Eui | Dong-Eui University | Dong-Eui대학교
+mock_uni_83: Đại học Silla | Silla University | Silla대학교
+mock_uni_84: Đại học Tongmyong | Tongmyong University | Tongmyong대학교
+mock_uni_85: Đại học Dongseo | Dongseo University | Dongseo대학교
+mock_uni_86: Đại học Kookmin | Kookmin University | Kookmin대학교
+mock_uni_87: Đại học Ajou | Ajou University | Ajou대학교
+mock_uni_88: Đại học Inha | Inha University | Inha대학교
+mock_uni_89: Đại học Soongsil | Soongsil University | Soongsil대학교
+mock_uni_90: Đại học Konyang | Konyang University | Konyang대학교
+mock_uni_91: Đại học Inje | Inje University | Inje대학교
+mock_uni_92: Đại học Sangji | Sangji University | Sangji대학교
+mock_uni_93: Đại học Hansung | Hansung University | Hansung대학교
+mock_uni_94: Đại học Gachon | Gachon University | Gachon대학교
+mock_uni_95: Đại học Dankook | Dankook University | Dankook대학교
+mock_uni_96: Đại học Chosun | Chosun University | Chosun대학교
+mock_uni_97: Đại học Dong-A | Dong-A University | Dong-A대학교
+mock_uni_98: Đại học Pukyong | Pukyong University | Pukyong대학교
+mock_uni_99: Đại học Changwon | Changwon University | Changwon대학교
+mock_uni_100: Đại học Hallym | Hallym University | Hallym대학교
+mock_uni_101: Đại học Myongji | Myongji University | Myongji대학교
+mock_uni_102: Đại học Sangmyung | Sangmyung University | Sangmyung대학교
+mock_uni_103: Đại học Duksung | Duksung University | Duksung대학교
+mock_uni_104: Đại học Hongik | Hongik University | Hongik대학교
+mock_uni_105: Đại học Seokyeong | Seokyeong University | Seokyeong대학교
+mock_uni_106: Đại học Sungshin | Sungshin University | Sungshin대학교
+mock_uni_107: Đại học Semyung | Semyung University | Semyung대학교
+mock_uni_108: Đại học Sookmyung | Sookmyung University | Sookmyung대학교
+mock_uni_109: Đại học Ulsan | Ulsan University | Ulsan대학교
+mock_uni_110: Đại học Youngsan | Youngsan University | Youngsan대학교
+mock_uni_111: Đại học Kunsan | Kunsan University | Kunsan대학교
+mock_uni_112: Đại học Woosuk | Woosuk University | Woosuk대학교
+mock_uni_113: Đại học Kyungwoon | Kyungwoon University | Kyungwoon대학교
+mock_uni_114: Đại học Far East | Far East University | Far East대학교
+mock_uni_115: Đại học Hanseo | Hanseo University | Hanseo대학교
+mock_uni_116: Đại học Chungwoon | Chungwoon University | Chungwoon대학교
+mock_uni_117: Đại học Howon | Howon University | Howon대학교
+mock_uni_118: Đại học Dongshin | Dongshin University | Dongshin대학교
+mock_uni_119: Đại học Nambu | Nambu University | Nambu대학교
+mock_uni_120: Đại học Mokpo | Mokpo University | Mokpo대학교
+mock_uni_121: Đại học Suncheon | Suncheon University | Suncheon대학교
+mock_uni_122: Đại học Gwangju | Gwangju University | Gwangju대학교
+mock_uni_123: Đại học Kosin | Kosin University | Kosin대학교
+mock_uni_124: Đại học Kyungsung | Kyungsung University | Kyungsung대학교
+mock_uni_125: Đại học Dong-Eui | Dong-Eui University | Dong-Eui대학교
+mock_uni_126: Đại học Silla | Silla University | Silla대학교
+mock_uni_127: Đại học Tongmyong | Tongmyong University | Tongmyong대학교
+mock_uni_128: Đại học Dongseo | Dongseo University | Dongseo대학교
+mock_uni_129: Đại học Kookmin | Kookmin University | Kookmin대학교
+mock_uni_130: Đại học Ajou | Ajou University | Ajou대학교
+mock_uni_131: Đại học Inha | Inha University | Inha대학교
+mock_uni_132: Đại học Soongsil | Soongsil University | Soongsil대학교
+mock_uni_133: Đại học Konyang | Konyang University | Konyang대학교
+mock_uni_134: Đại học Inje | Inje University | Inje대학교
+mock_uni_135: Đại học Sangji | Sangji University | Sangji대학교
+mock_uni_136: Đại học Hansung | Hansung University | Hansung대학교
+mock_uni_137: Đại học Gachon | Gachon University | Gachon대학교
+mock_uni_138: Đại học Dankook | Dankook University | Dankook대학교
+mock_uni_139: Đại học Chosun | Chosun University | Chosun대학교
+mock_uni_140: Đại học Dong-A | Dong-A University | Dong-A대학교
+mock_uni_141: Đại học Pukyong | Pukyong University | Pukyong대학교
+mock_uni_142: Đại học Changwon | Changwon University | Changwon대학교
+mock_uni_143: Đại học Hallym | Hallym University | Hallym대학교
+mock_uni_144: Đại học Myongji | Myongji University | Myongji대학교
+mock_uni_145: Đại học Sangmyung | Sangmyung University | Sangmyung대학교
+mock_uni_146: Đại học Duksung | Duksung University | Duksung대학교
+mock_uni_147: Đại học Hongik | Hongik University | Hongik대학교
+mock_uni_148: Đại học Seokyeong | Seokyeong University | Seokyeong대학교
+mock_uni_149: Đại học Sungshin | Sungshin University | Sungshin대학교
+mock_uni_150: Đại học Semyung | Semyung University | Semyung대학교
+mock_uni_151: Đại học Sookmyung | Sookmyung University | Sookmyung대학교
+mock_uni_152: Đại học Ulsan | Ulsan University | Ulsan대학교
+mock_uni_153: Đại học Youngsan | Youngsan University | Youngsan대학교
+mock_uni_154: Đại học Kunsan | Kunsan University | Kunsan대학교
+mock_uni_155: Đại học Woosuk | Woosuk University | Woosuk대학교
+mock_uni_156: Đại học Kyungwoon | Kyungwoon University | Kyungwoon대학교
+mock_uni_157: Đại học Far East | Far East University | Far East대학교
+mock_uni_158: Đại học Hanseo | Hanseo University | Hanseo대학교
+mock_uni_159: Đại học Chungwoon | Chungwoon University | Chungwoon대학교
+mock_uni_160: Đại học Howon | Howon University | Howon대학교
+mock_uni_161: Đại học Dongshin | Dongshin University | Dongshin대학교
+mock_uni_162: Đại học Nambu | Nambu University | Nambu대학교
+mock_uni_163: Đại học Mokpo | Mokpo University | Mokpo대학교
+mock_uni_164: Đại học Suncheon | Suncheon University | Suncheon대학교
+mock_uni_165: Đại học Gwangju | Gwangju University | Gwangju대학교
+mock_uni_166: Đại học Kosin | Kosin University | Kosin대학교
+mock_uni_167: Đại học Kyungsung | Kyungsung University | Kyungsung대학교
+mock_uni_168: Đại học Dong-Eui | Dong-Eui University | Dong-Eui대학교
+mock_uni_169: Đại học Silla | Silla University | Silla대학교
+mock_uni_170: Đại học Tongmyong | Tongmyong University | Tongmyong대학교
+mock_uni_171: Đại học Dongseo | Dongseo University | Dongseo대학교
+mock_uni_172: Đại học Kookmin | Kookmin University | Kookmin대학교
+mock_uni_173: Đại học Ajou | Ajou University | Ajou대학교
+mock_uni_174: Đại học Inha | Inha University | Inha대학교
+mock_uni_175: Đại học Soongsil | Soongsil University | Soongsil대학교
+mock_uni_176: Đại học Konyang | Konyang University | Konyang대학교
+mock_uni_177: Đại học Inje | Inje University | Inje대학교
+mock_uni_178: Đại học Sangji | Sangji University | Sangji대학교
+mock_uni_179: Đại học Hansung | Hansung University | Hansung대학교
+mock_uni_180: Đại học Gachon | Gachon University | Gachon대학교
+mock_uni_181: Đại học Dankook | Dankook University | Dankook대학교
+mock_uni_182: Đại học Chosun | Chosun University | Chosun대학교
+mock_uni_183: Đại học Dong-A | Dong-A University | Dong-A대학교
+mock_uni_184: Đại học Pukyong | Pukyong University | Pukyong대학교
+mock_uni_185: Đại học Changwon | Changwon University | Changwon대학교
+mock_uni_186: Đại học Hallym | Hallym University | Hallym대학교
+mock_uni_187: Đại học Myongji | Myongji University | Myongji대학교
+mock_uni_188: Đại học Sangmyung | Sangmyung University | Sangmyung대학교
+mock_uni_189: Đại học Duksung | Duksung University | Duksung대학교
+mock_uni_190: Đại học Hongik | Hongik University | Hongik대학교
+mock_uni_191: Đại học Seokyeong | Seokyeong University | Seokyeong대학교
+mock_uni_192: Đại học Sungshin | Sungshin University | Sungshin대학교
+mock_uni_193: Đại học Semyung | Semyung University | Semyung대학교
+mock_uni_194: Đại học Sookmyung | Sookmyung University | Sookmyung대학교
+mock_uni_195: Đại học Ulsan | Ulsan University | Ulsan대학교
+mock_uni_196: Đại học Youngsan | Youngsan University | Youngsan대학교
+mock_uni_197: Đại học Kunsan | Kunsan University | Kunsan대학교
+mock_uni_198: Đại học Woosuk | Woosuk University | Woosuk대학교
+mock_uni_199: Đại học Kyungwoon | Kyungwoon University | Kyungwoon대학교
+mock_uni_200: Đại học Far East | Far East University | Far East대학교
+mock_uni_201: Đại học Hanseo | Hanseo University | Hanseo대학교
+mock_uni_202: Đại học Chungwoon | Chungwoon University | Chungwoon대학교
+mock_uni_203: Đại học Howon | Howon University | Howon대학교
+mock_uni_204: Đại học Dongshin | Dongshin University | Dongshin대학교

@@ -16,7 +16,7 @@ export const universities = [
       "arts_sports": 3125000,
       "medicine_pharmacy": 3625000
     },
-    "dorm_fee": 1200000,
+    "dorm_fee": 6200000,
     "living_cost_est": 800000,
     "scholarships": [
       "Học bổng Chính phủ Hàn Quốc (GKS)",
@@ -24,11 +24,19 @@ export const universities = [
       "Học bổng hỗ trợ sinh hoạt phí từ đối tác liên kết"
     ],
     "description": "Trường đại học quốc gia danh giá nhất Hàn Quốc, đứng đầu trong bộ ba bầu trời 'SKY'. Trường có thế mạnh toàn diện về nghiên cứu, công nghệ và các ngành y dược khoa học cơ bản.",
-    "accept_gdtx": null,
+    "accept_gdtx": "top2",
     "visa_metropolitan": false,
     "master_no_topik": true,
     "custom_notes": "",
-    "top_1_percent": false
+    "top_1_percent": false,
+    "language_tuition_desc": "5,800,000-6,200,000 KRW/năm",
+    "registration_fee_desc": "50,000 KRW",
+    "insurance_fee_desc": "150,000 KRW/năm",
+    "invoice_details": "HỌC PHÍ 5,800,000-6,200,000KRW - BẢO HIỂM 150,000KRW - INVOICE 6,010,000-6,450,000KRW",
+    "dorm_fee_desc": "1,1000,000-1,400,000KRW",
+    "admission_conditions": "",
+    "featured_majors": "Thiết kế – Giáo dục – Business",
+    "regional_restrictions": ""
   },
   {
     "id": "kaist",
@@ -77,7 +85,7 @@ export const universities = [
       "arts_sports": 5625000,
       "medicine_pharmacy": 7200000
     },
-    "dorm_fee": 1600000,
+    "dorm_fee": 875000,
     "living_cost_est": 900000,
     "scholarships": [
       "Học bổng Underwood International College (UIC)",
@@ -85,11 +93,19 @@ export const universities = [
       "Học bổng khuyến khích học tập dựa trên kết quả kỳ trước (30% - 100%)"
     ],
     "description": "Một trong ba trường đại học tư thục lâu đời và danh giá nhất Hàn Quốc ('SKY'). Nổi tiếng với khuôn viên tuyệt đẹp và chương trình đào tạo quốc tế hóa cao.",
-    "accept_gdtx": null,
+    "accept_gdtx": "top2",
     "visa_metropolitan": false,
     "master_no_topik": true,
     "custom_notes": "",
-    "top_1_percent": false
+    "top_1_percent": false,
+    "language_tuition_desc": "6,400,000 KRW/năm",
+    "registration_fee_desc": "",
+    "insurance_fee_desc": "150,000 KRW/năm",
+    "invoice_details": " HỌC PHÍ 6,400,000KRW - BẢO HIỂM 150,000KRW - INVOICE 6,630,000KRW ",
+    "dorm_fee_desc": "600,000-1,150,000KRW",
+    "admission_conditions": "",
+    "featured_majors": "Y sinh – IT – Quốc tế học",
+    "regional_restrictions": ""
   },
   {
     "id": "korea",
@@ -108,7 +124,7 @@ export const universities = [
       "arts_sports": 5375000,
       "medicine_pharmacy": 6880000
     },
-    "dorm_fee": 1500000,
+    "dorm_fee": 1100000,
     "living_cost_est": 850000,
     "scholarships": [
       "Học bổng Toàn cầu (Global Korea Scholarship & KU Global Scholarship)",
@@ -116,11 +132,19 @@ export const universities = [
       "Học bổng nhu cầu tài chính (Financial Aid)"
     ],
     "description": "Mảnh ghép cuối cùng của bộ ba 'SKY'. Nổi tiếng với cộng đồng cựu sinh viên vô cùng lớn mạnh và các ngành kinh doanh, luật và kỹ thuật hàng đầu.",
-    "accept_gdtx": null,
+    "accept_gdtx": "top2",
     "visa_metropolitan": false,
     "master_no_topik": true,
     "custom_notes": "",
-    "top_1_percent": true
+    "top_1_percent": false,
+    "language_tuition_desc": "4,800,000 KRW/năm",
+    "registration_fee_desc": "",
+    "insurance_fee_desc": "140,000 KRW/năm",
+    "invoice_details": "HỌC PHÍ 4,800,000- BẢO HIỂM 140,000- INVOICE 6,300,000KRW",
+    "dorm_fee_desc": "1,100,000KRW",
+    "admission_conditions": "",
+    "featured_majors": "Hành chính công, Kinh doanh, CNTT",
+    "regional_restrictions": ""
   },
   {
     "id": "skku",
@@ -170,7 +194,7 @@ export const universities = [
       "arts_sports": 5125000,
       "medicine_pharmacy": 6560000
     },
-    "dorm_fee": 1350000,
+    "dorm_fee": 1700000,
     "living_cost_est": 800000,
     "scholarships": [
       "Học bổng Quốc tế Hanyang (HISP - miễn 30%, 50%, 70% hoặc 100% học phí)",
@@ -178,11 +202,19 @@ export const universities = [
       "Học bổng Hanyang Excellence"
     ],
     "description": "Được mệnh danh là 'cái nôi kỹ sư' của Hàn Quốc, nơi đào tạo ra lượng CEO lớn nhất cho các tập đoàn công nghệ. Có chính sách học bổng học tập và TOPIK rất cởi mở cho sinh viên Việt Nam.",
-    "accept_gdtx": null,
+    "accept_gdtx": "top2",
     "visa_metropolitan": false,
     "master_no_topik": true,
     "custom_notes": "",
-    "top_1_percent": true
+    "top_1_percent": false,
+    "language_tuition_desc": "5,200,000-5,600,000 KRW/năm",
+    "registration_fee_desc": "50,000 KRW",
+    "insurance_fee_desc": "150,000 KRW/năm",
+    "invoice_details": "HỌC PHÍ 5,200,000-5,600,000KRW - BẢO HIỂM 150,000KRW - INVOICE 5,400,000-5,850,000KRW",
+    "dorm_fee_desc": "1,400,000-2,000,000KRW",
+    "admission_conditions": "",
+    "featured_majors": "Điều dưỡng – Làm đẹp – Thiết kế",
+    "regional_restrictions": ""
   },
   {
     "id": "khu",
@@ -201,7 +233,7 @@ export const universities = [
       "arts_sports": 5200000,
       "medicine_pharmacy": 6350000
     },
-    "dorm_fee": 1300000,
+    "dorm_fee": 1410000,
     "living_cost_est": 800000,
     "scholarships": [
       "Học bổng nhập học cho sinh viên quốc tế (miễn 100% học phí kỳ đầu cho SV đạt điểm cao)",
@@ -209,11 +241,19 @@ export const universities = [
       "Học bổng trao đổi học tập lý thuyết và nghiên cứu"
     ],
     "description": "Trường đại học có kiến trúc kiểu Gothic lộng lẫy nhất Hàn Quốc. Đặc biệt xuất sắc trong ngành Y học cổ truyền, Du lịch & Khách sạn, Nghệ thuật biểu diễn.",
-    "accept_gdtx": null,
+    "accept_gdtx": "top2",
     "visa_metropolitan": false,
     "master_no_topik": true,
     "custom_notes": "",
-    "top_1_percent": false
+    "top_1_percent": false,
+    "language_tuition_desc": "7,000,000 KRW/năm",
+    "registration_fee_desc": "",
+    "insurance_fee_desc": "120,000 KRW/năm",
+    "invoice_details": "HỌC PHÍ 7,000,000 - BẢO HIỂM YTE 120,000KRW - INOVICE 7,220,000KRW - ",
+    "dorm_fee_desc": "1,220,000-1,600,000KRW",
+    "admission_conditions": "",
+    "featured_majors": "Khách sạn du lịch – Đông y – Quan hệ quốc tế",
+    "regional_restrictions": ""
   },
   {
     "id": "ewha",
@@ -232,7 +272,7 @@ export const universities = [
       "arts_sports": 5380000,
       "medicine_pharmacy": 6620000
     },
-    "dorm_fee": 1450000,
+    "dorm_fee": 2000000,
     "living_cost_est": 850000,
     "scholarships": [
       "Học bổng Ewha Global Partnership Program (EGPP - toàn phần cho nữ sinh nước đang phát triển)",
@@ -244,7 +284,15 @@ export const universities = [
     "visa_metropolitan": false,
     "master_no_topik": false,
     "custom_notes": "",
-    "top_1_percent": true
+    "top_1_percent": true,
+    "language_tuition_desc": "7,200,000-7,400,000 KRW/năm",
+    "registration_fee_desc": "",
+    "insurance_fee_desc": "300,000 KRW/năm",
+    "invoice_details": "HỌC PHÍ 7,200,000-7,400,000KRW - BẢO HIỂM 300,000KRW - INVOICE 7,600,000-7,820,000KRW",
+    "dorm_fee_desc": "1,500,000-2,500,000KRW",
+    "admission_conditions": "7,0 trở lên\n- vắng ko quá 5 buổi (nhiều hơn cần giải trình)",
+    "featured_majors": "Ngôn ngữ Hàn, Báo chí, Quan hệ công chúng, Âm nhạc & Nghệ thuật và Khoa học chính trị",
+    "regional_restrictions": ""
   },
   {
     "id": "sogang",
@@ -270,11 +318,19 @@ export const universities = [
       "Học bổng học thuật dựa trên GPA kỳ trước (25% - 100% học phí)"
     ],
     "description": "Trường đại học công giáo uy tín tại Seoul với tiêu chuẩn học tập vô cùng khắt khe bậc nhất Hàn Quốc. Thế mạnh vượt trội về Kinh tế học, Truyền thông và Nhân văn.",
-    "accept_gdtx": null,
+    "accept_gdtx": "top2",
     "visa_metropolitan": false,
     "master_no_topik": true,
     "custom_notes": "",
-    "top_1_percent": false
+    "top_1_percent": false,
+    "language_tuition_desc": "6,400,000-6,800,000 KRW/năm",
+    "registration_fee_desc": "",
+    "insurance_fee_desc": "150,000 KRW/năm",
+    "invoice_details": "HỌC PHÍ 6,400,000-6,800,000KRW - BẢO HIỂM 150,000- INVOICE 6,600,000-7,000,000KRW",
+    "dorm_fee_desc": "1,200,000-1,800,000KRW",
+    "admission_conditions": "",
+    "featured_majors": "Kinh tế – Truyền thông – Quốc tế học",
+    "regional_restrictions": ""
   },
   {
     "id": "cau",
@@ -293,18 +349,26 @@ export const universities = [
       "arts_sports": 5150000,
       "medicine_pharmacy": 6300000
     },
-    "dorm_fee": 1300000,
+    "dorm_fee": 1500000,
     "living_cost_est": 800000,
     "scholarships": [
       "Học bổng CAU Global Scholarship (giảm 30% - 100% học phí tùy kết quả TOPIK & hồ sơ)",
       "Học bổng khuyến học kỳ tiếp theo cho sinh viên giữ điểm tích lũy xuất sắc"
     ],
     "description": "Số một Hàn Quốc về truyền thông, nghệ thuật biểu diễn, nhiếp ảnh và sân khấu điện ảnh. Trường thu hút rất đông sinh viên Việt Nam và các nghệ sĩ nổi tiếng K-biz.",
-    "accept_gdtx": null,
+    "accept_gdtx": "top2",
     "visa_metropolitan": false,
     "master_no_topik": true,
     "custom_notes": "",
-    "top_1_percent": true
+    "top_1_percent": false,
+    "language_tuition_desc": "6,800,000- 7,200,000 KRW/năm",
+    "registration_fee_desc": "50,000 KRW",
+    "insurance_fee_desc": "150,000 KRW/năm",
+    "invoice_details": "HỌC PHÍ 6,800,000- 7,200,000KRW - BẢO HIỂM 150,000KRW - INVOICE 7,010,000-7,450,000KRW",
+    "dorm_fee_desc": "1,200,000-1,800,000KRW",
+    "admission_conditions": "",
+    "featured_majors": "Điện ảnh – Truyền thông – Business",
+    "regional_restrictions": ""
   },
   {
     "id": "pusan",
@@ -354,18 +418,26 @@ export const universities = [
       "arts_sports": 5375000,
       "medicine_pharmacy": 6235000
     },
-    "dorm_fee": 950000,
+    "dorm_fee": 1150000,
     "living_cost_est": 550000,
     "scholarships": [
       "Học bổng KNU KPG (Kyungpook Global Scholarship)",
       "Học bổng TOPIK đạt cấp 4 trở lên miễn giảm học phí kỳ đầu"
     ],
     "description": "Tọa lạc tại thành phố Daegu, là đại diện xuất sắc của các trường đại học quốc gia miền Trung Nam. Rất nhiều sinh viên Việt Nam chọn trường này vì học phí siêu tiết kiệm và sinh hoạt phí dễ chịu.",
-    "accept_gdtx": null,
+    "accept_gdtx": "top2",
     "visa_metropolitan": false,
     "master_no_topik": true,
     "custom_notes": "",
-    "top_1_percent": true
+    "top_1_percent": false,
+    "language_tuition_desc": "5,600,000-6,000,000 KRW/năm",
+    "registration_fee_desc": "50,000 KRW",
+    "insurance_fee_desc": "150,000 KRW/năm",
+    "invoice_details": "HỌC PHÍ 5,600,000-6,000,000KRW -  BẢO HIỂM 150,000KRW - INVOICE 5,810,000-6,250,000KRW",
+    "dorm_fee_desc": "800,000-1,500,000KRW",
+    "admission_conditions": "",
+    "featured_majors": "Điều dưỡng – Phúc lợi – Kinh doanh",
+    "regional_restrictions": ""
   },
   {
     "id": "hufs",
@@ -384,18 +456,26 @@ export const universities = [
       "arts_sports": 4300000,
       "medicine_pharmacy": null
     },
-    "dorm_fee": 1250000,
+    "dorm_fee": 16365000,
     "living_cost_est": 800000,
     "scholarships": [
       "Học bổng HUFS International (giảm từ 30% đến 100% học phí)",
       "Học bổng TOPIK điểm cao kỳ đầu"
     ],
     "description": "Trường đại học nghiên cứu ngôn ngữ, quan hệ quốc tế và khoa học xã hội hàng đầu Hàn Quốc. Đào tạo hơn 45 ngôn ngữ trên thế giới và nổi tiếng với khoa tiếng Việt lâu đời.",
-    "accept_gdtx": null,
+    "accept_gdtx": "top2",
     "visa_metropolitan": false,
     "master_no_topik": false,
     "custom_notes": "",
-    "top_1_percent": false
+    "top_1_percent": false,
+    "language_tuition_desc": "6,400,00 KRW/năm",
+    "registration_fee_desc": "",
+    "insurance_fee_desc": "120,000 KRW/năm",
+    "invoice_details": "HỌC PHÍ 6,400,00KRW - BẢO HIỂM 120,000- INVOICE 8,406,500KRW",
+    "dorm_fee_desc": "1,636,5000KRW",
+    "admission_conditions": "",
+    "featured_majors": "Ngoại ngữ – Quốc tế học – Biên phiên dịch",
+    "regional_restrictions": ""
   },
   {
     "id": "dongguk",
@@ -414,18 +494,26 @@ export const universities = [
       "arts_sports": 5100000,
       "medicine_pharmacy": 6100000
     },
-    "dorm_fee": 1380000,
+    "dorm_fee": 1900000,
     "living_cost_est": 820000,
     "scholarships": [
       "Học bổng Phật giáo (dành cho đối tượng đặc biệt)",
       "Học bổng kết quả thi TOPIK và GPA đầu vào (30% - 60% học phí)"
     ],
     "description": "Đại học Phật giáo uy tín hàng đầu nằm ngay trung tâm thủ đô Seoul. Có thế mạnh vượt trội về Điện ảnh, Khoa học Máy tính và Quản trị Kinh doanh.",
-    "accept_gdtx": null,
+    "accept_gdtx": "top2",
     "visa_metropolitan": false,
     "master_no_topik": false,
     "custom_notes": "",
-    "top_1_percent": true
+    "top_1_percent": false,
+    "language_tuition_desc": "4,800,000 KRW/năm",
+    "registration_fee_desc": "50,000 KRW",
+    "insurance_fee_desc": "150,000 KRW/năm",
+    "invoice_details": "HỌC PHÍ 4,800,000KRW - BẢO HIỂM 150,000KRW - INVOICE 4,950,000KRW",
+    "dorm_fee_desc": "1,700,000-2,100,000KRW",
+    "admission_conditions": "",
+    "featured_majors": "Y học – Du lịch – Văn hóa",
+    "regional_restrictions": ""
   },
   {
     "id": "konkuk",
@@ -444,18 +532,26 @@ export const universities = [
       "arts_sports": 5120000,
       "medicine_pharmacy": 6280000
     },
-    "dorm_fee": 1420000,
+    "dorm_fee": 1950000,
     "living_cost_est": 830000,
     "scholarships": [
       "Học bổng TOPIK đầu vào (TOPIK 3 đạt 30%, TOPIK 6 đạt 100% học phí)",
       "Học bổng trao đổi văn hóa quốc tế Konkuk"
     ],
     "description": "Nổi tiếng với khuôn viên rộng lớn và hồ nước tuyệt đẹp ngay trung tâm Seoul. Trường có thế mạnh về nông lâm nghiệp, công nghệ sinh học và các ngành thời trang, nghệ thuật.",
-    "accept_gdtx": null,
+    "accept_gdtx": "top2",
     "visa_metropolitan": false,
     "master_no_topik": false,
     "custom_notes": "",
-    "top_1_percent": true
+    "top_1_percent": false,
+    "language_tuition_desc": "1,800,000 KRW/năm",
+    "registration_fee_desc": "50,000 KRW",
+    "insurance_fee_desc": "100,000 KRW/năm",
+    "invoice_details": "PHÍ ĐKI 150,000KRW - HỌC PHÍ 1,800,000KRW - PHÍ BẢO HIỂM 100,000KRW - INVOICE 7,450,000KRW",
+    "dorm_fee_desc": "1,600,000( 4HT) - 2,300,000( 6TH)",
+    "admission_conditions": "",
+    "featured_majors": "Bất động sản – Thú y – Truyền thông",
+    "regional_restrictions": ""
   },
   {
     "id": "sejong",
@@ -474,18 +570,26 @@ export const universities = [
       "arts_sports": 4875000,
       "medicine_pharmacy": null
     },
-    "dorm_fee": 1280000,
+    "dorm_fee": 1400000,
     "living_cost_est": 800000,
     "scholarships": [
       "Học bổng Sejong International Scholarship (30% - 100% học phí cho SV giỏi học thuật)",
       "Học bổng ưu tiên tiếng Anh (IELTS/TOEFL) và chứng chỉ TOPIK"
     ],
     "description": "Trường đại học tư thục nổi bật tại Seoul. Đứng số một Hàn Quốc về Quản trị Du lịch & Khách sạn, đồng thời phát triển cực mạnh về Hoạt hình (Animation) và Kỹ thuật phần mềm.",
-    "accept_gdtx": null,
+    "accept_gdtx": "top2",
     "visa_metropolitan": false,
     "master_no_topik": true,
     "custom_notes": "",
-    "top_1_percent": false
+    "top_1_percent": false,
+    "language_tuition_desc": "6,400,000-6,800,000 KRW/năm",
+    "registration_fee_desc": "50,000 KRW",
+    "insurance_fee_desc": "150,000 KRW/năm",
+    "invoice_details": "HỌC PHÍ 6,400,000-6,800,000KRW - BẢO HIỂM 150,000- INVOICE 6,610,000-7,050,000KRW",
+    "dorm_fee_desc": "1,200,000-1,600,000KRW",
+    "admission_conditions": "",
+    "featured_majors": "Khách sạn du lịch – Animation – Business",
+    "regional_restrictions": ""
   },
   {
     "id": "kookmin",
@@ -504,18 +608,26 @@ export const universities = [
       "arts_sports": 4937500,
       "medicine_pharmacy": null
     },
-    "dorm_fee": 1150000,
+    "dorm_fee": 653000,
     "living_cost_est": 780000,
     "scholarships": [
       "Học bổng Sungkok (do người sáng lập tài trợ)",
       "Học bổng TOPIK đạt điểm đầu vào (lên tới 50% học phí)"
     ],
     "description": "Trường tư thục đầu tiên được thành lập sau khi Hàn Quốc giải phóng. Thiết kế Công nghiệp và Kỹ thuật Cơ khí (ô tô) của Kookmin nằm ở top đầu của cả nước.",
-    "accept_gdtx": null,
+    "accept_gdtx": "top2",
     "visa_metropolitan": false,
     "master_no_topik": false,
     "custom_notes": "",
-    "top_1_percent": false
+    "top_1_percent": false,
+    "language_tuition_desc": "6,600,000 KRW/năm",
+    "registration_fee_desc": "",
+    "insurance_fee_desc": "100,000 KRW/năm",
+    "invoice_details": "HỌC PHÍ 6,600,000KRW - BẢO HIỂM 100,000KRW - INVOICE 6,800,000KRW ",
+    "dorm_fee_desc": "653,000KRW",
+    "admission_conditions": "",
+    "featured_majors": "Thiết kế ô tô – Business – Design",
+    "regional_restrictions": ""
   },
   {
     "id": "ajou",
@@ -534,18 +646,26 @@ export const universities = [
       "arts_sports": 5125000,
       "medicine_pharmacy": 6560000
     },
-    "dorm_fee": 1220000,
+    "dorm_fee": 800000,
     "living_cost_est": 700000,
     "scholarships": [
       "Học bổng Ajou Global (miễn 100% học phí học kỳ đầu cho hồ sơ ưu tú)",
       "Học bổng TOPIK và ưu tú ngoại ngữ"
     ],
     "description": "Tọa lạc tại thành phố Suwon vệ tinh đáng sống, ngay sát văn phòng lớn của Samsung. Cực mạnh về Kỹ thuật, Công nghệ Thông tin và Y học.",
-    "accept_gdtx": null,
+    "accept_gdtx": "top3",
     "visa_metropolitan": false,
     "master_no_topik": false,
     "custom_notes": "",
-    "top_1_percent": false
+    "top_1_percent": false,
+    "language_tuition_desc": "4,500,000-4,900,000 KRW/năm",
+    "registration_fee_desc": "",
+    "insurance_fee_desc": "150,000 KRW/năm",
+    "invoice_details": "7HỌC PHÍ 4,500,000-4,900,000KRW - BẢO HIỂM 150,000- INOVOICE 4,700,000-5,150,000KRW",
+    "dorm_fee_desc": "600,000-1,000,000KRW",
+    "admission_conditions": "6,0 trở lên (xem xét)",
+    "featured_majors": "",
+    "regional_restrictions": ""
   },
   {
     "id": "inha",
@@ -564,18 +684,26 @@ export const universities = [
       "arts_sports": 5062500,
       "medicine_pharmacy": 6480000
     },
-    "dorm_fee": 1200000,
+    "dorm_fee": 2000000,
     "living_cost_est": 720000,
     "scholarships": [
       "Học bổng toàn cầu Inha (Global Scholarship - hỗ trợ 50% - 100% học phí)",
       "Học bổng nghiên cứu xuất sắc của khoa"
     ],
     "description": "Trường đại học do hãng hàng không Korean Air thành lập tại thành phố cảng Incheon. Dẫn đầu về các ngành Logistics, Kỹ thuật Hàng không Vũ trụ và Kỹ thuật Hóa học.",
-    "accept_gdtx": null,
+    "accept_gdtx": "top2",
     "visa_metropolitan": false,
     "master_no_topik": false,
     "custom_notes": "",
-    "top_1_percent": false
+    "top_1_percent": false,
+    "language_tuition_desc": "5,200,000 KRW/năm",
+    "registration_fee_desc": "50,000 KRW",
+    "insurance_fee_desc": "200,000 KRW/năm",
+    "invoice_details": "HỌC PHÍ 5,200,000KRW - BẢO HIỂM 200,000KRW - INVOICE 5,450,000-5,490,000KRW ",
+    "dorm_fee_desc": "1,500,000-2,500,000KRW",
+    "admission_conditions": "",
+    "featured_majors": "Điều dưỡng, Hàng không, Kinh doanh",
+    "regional_restrictions": ""
   },
   {
     "id": "postech",
@@ -684,18 +812,26 @@ export const universities = [
       "arts_sports": 2450000,
       "medicine_pharmacy": 3250000
     },
-    "dorm_fee": 900000,
+    "dorm_fee": 1550000,
     "living_cost_est": 550000,
     "scholarships": [
       "Học bổng CNU Global Scholarship (giảm 50% - 100% kỳ đầu dựa trên hồ sơ)",
       "Học bổng khuyến học dựa trên xếp hạng học thuật"
     ],
     "description": "Tọa lạc tại thành phố ánh sáng Gwangju, đây là một trong những trường đại học quốc gia lâu đời và phát triển bền vững nhất tại khu vực Tây Nam bộ.",
-    "accept_gdtx": null,
+    "accept_gdtx": "top2",
     "visa_metropolitan": false,
     "master_no_topik": true,
     "custom_notes": "",
-    "top_1_percent": false
+    "top_1_percent": false,
+    "language_tuition_desc": "5,200,000-5,600,000 KRW/năm",
+    "registration_fee_desc": "",
+    "insurance_fee_desc": "150,000 KRW/năm",
+    "invoice_details": "HỌC PHÍ HỌC PHÍ 5,200,000-5,600,000KRW - BẢO HIỂM 150,000- INVOICE 5,410,000-5,810,000KRW",
+    "dorm_fee_desc": "1,200,000--1,900,000KRW",
+    "admission_conditions": "",
+    "featured_majors": "Y khoa – Điều dưỡng – Vật lý trị liệu",
+    "regional_restrictions": ""
   },
   {
     "id": "jbnu",
@@ -714,18 +850,26 @@ export const universities = [
       "arts_sports": 5125000,
       "medicine_pharmacy": 5945000
     },
-    "dorm_fee": 880000,
+    "dorm_fee": 800000,
     "living_cost_est": 530000,
     "scholarships": [
       "Học bổng hỗ trợ sinh viên quốc tế (lên tới 100% học phí)",
       "Học bổng TOPIK khuyến khích"
     ],
     "description": "Tọa lạc tại thành phố cổ Jeonju, nổi tiếng với nét đẹp truyền thống và văn hóa ẩm thực Hàn Quốc. Trường có khuôn viên rộng nhất nhì nước và học phí rất thấp.",
-    "accept_gdtx": null,
+    "accept_gdtx": "top2",
     "visa_metropolitan": false,
     "master_no_topik": true,
     "custom_notes": "",
-    "top_1_percent": false
+    "top_1_percent": false,
+    "language_tuition_desc": "4,400,000-4,800,000 KRW/năm",
+    "registration_fee_desc": "50,000 KRW",
+    "insurance_fee_desc": "150,000 KRW/năm",
+    "invoice_details": "HỌC PHÍ 4,400,000-4,800,000- BẢO HIỂM 150,000KRW- INVOICE 4,600,000-5,050,000KRW",
+    "dorm_fee_desc": "600,000-1,000,000KRW",
+    "admission_conditions": "",
+    "featured_majors": "Điều dưỡng – Công nghệ thực phẩm – Làm đẹp",
+    "regional_restrictions": ""
   },
   {
     "id": "kangwon",
@@ -774,18 +918,26 @@ export const universities = [
       "arts_sports": 4750000,
       "medicine_pharmacy": 5510000
     },
-    "dorm_fee": 780000,
+    "dorm_fee": 1050000,
     "living_cost_est": 550000,
     "scholarships": [
       "Học bổng giao lưu văn hóa quốc tế Jeju (JNU)",
       "Học bổng kết quả kiểm tra năng lực tiếng Hàn TOPIK"
     ],
     "description": "Nằm trên hòn đảo du lịch Jeju nổi tiếng thế giới. Có những ngành học độc đáo như Khoa học biển, Du lịch nghỉ dưỡng, Chăn nuôi ngựa và Y dược nhiệt đới.",
-    "accept_gdtx": null,
+    "accept_gdtx": "top3",
     "visa_metropolitan": false,
     "master_no_topik": true,
     "custom_notes": "",
-    "top_1_percent": false
+    "top_1_percent": false,
+    "language_tuition_desc": "4,800,000 - 5,200,000 KRW/năm",
+    "registration_fee_desc": "50,000 KRW",
+    "insurance_fee_desc": "150,000 KRW/năm",
+    "invoice_details": "HỌC PHÍ 4,800,000 - 5,200,000KRW - BẢO HIỂM 150,000KRW - INVOICE 5,000,000-5,450,000KRW",
+    "dorm_fee_desc": "800,000-1,300,000KRW",
+    "admission_conditions": "6,5 trở lên",
+    "featured_majors": "",
+    "regional_restrictions": ""
   },
   {
     "id": "uos",
@@ -804,18 +956,26 @@ export const universities = [
       "arts_sports": 1610000,
       "medicine_pharmacy": null
     },
-    "dorm_fee": 1100000,
+    "dorm_fee": 1400000,
     "living_cost_est": 800000,
     "scholarships": [
       "Học bổng hỗ trợ sinh viên thủ đô Seoul",
       "Học bổng miễn giảm học phí toàn phần cho SV quốc tế đạt GPA xuất sắc"
     ],
     "description": "Được quản lý và tài trợ trực tiếp bởi chính quyền Thành phố Seoul. Học phí của UOS thuộc hàng siêu rẻ (chỉ bằng 1/4 trường tư thục) nhưng yêu cầu đầu vào rất khắt khe.",
-    "accept_gdtx": null,
+    "accept_gdtx": "top2",
     "visa_metropolitan": false,
-    "master_no_topik": false,
+    "master_no_topik": true,
     "custom_notes": "",
-    "top_1_percent": false
+    "top_1_percent": false,
+    "language_tuition_desc": "6,000,000-6,200,000 KRW/năm",
+    "registration_fee_desc": "",
+    "insurance_fee_desc": "150,000 KRW/năm",
+    "invoice_details": "HỌC PHÍ  6,000,000-6,200,000KRW - BẢO HIỂM 150,000KRW - INVOICE 6,200,000-6,410,000KRW",
+    "dorm_fee_desc": "1,200,000-1,600,000KRW",
+    "admission_conditions": "",
+    "featured_majors": "Công vụ – Đô thị học – Kỹ thuật",
+    "regional_restrictions": ""
   },
   {
     "id": "soongsil",
@@ -834,18 +994,26 @@ export const universities = [
       "arts_sports": 4937500,
       "medicine_pharmacy": null
     },
-    "dorm_fee": 1290000,
+    "dorm_fee": 1300000,
     "living_cost_est": 800000,
     "scholarships": [
       "Học bổng Soongsil Global (hỗ trợ 30% - 100% học phí)",
       "Học bổng TOPIK đầu vào"
     ],
     "description": "Trường đại học tư thục hiện đại tại Seoul. Soongsil nổi danh là trường đại học đầu tiên thành lập khoa Khoa học Máy tính tại Hàn Quốc, là điểm sáng đào tạo CNTT.",
-    "accept_gdtx": null,
+    "accept_gdtx": "top2",
     "visa_metropolitan": false,
     "master_no_topik": true,
     "custom_notes": "",
-    "top_1_percent": false
+    "top_1_percent": false,
+    "language_tuition_desc": "6,000,000-6,400,000 KRW/năm",
+    "registration_fee_desc": "50,000 KRW",
+    "insurance_fee_desc": "150,000 KRW/năm",
+    "invoice_details": "HỌC PHÍ 6,000,000-6,400,000KRW - BẢO HIỂM 150,000KRW - INVOICE 6,210,000-6,650,000KRW",
+    "dorm_fee_desc": "1,100,000-1,500,000KRW",
+    "admission_conditions": "",
+    "featured_majors": "IT – AI – Kinh doanh",
+    "regional_restrictions": ""
   },
   {
     "id": "yeungnam",
@@ -864,18 +1032,26 @@ export const universities = [
       "arts_sports": 4480000,
       "medicine_pharmacy": 5850000
     },
-    "dorm_fee": 850000,
+    "dorm_fee": 705000,
     "living_cost_est": 530000,
     "scholarships": [
       "Học bổng Yeungnam Global (hỗ trợ giảm học phí dựa vào kết quả học tập)",
       "Học bổng TOPIK khuyến khích"
     ],
     "description": "Đại học tư thục lớn nhất khu vực Daegu/Gyeongbuk. Có khuôn viên xanh cực kỳ rộng lớn và có rất nhiều chương trình đào tạo kỹ thuật, quản lý chất lượng liên kết doanh nghiệp.",
-    "accept_gdtx": null,
+    "accept_gdtx": "top2",
     "visa_metropolitan": false,
     "master_no_topik": false,
     "custom_notes": "",
-    "top_1_percent": false
+    "top_1_percent": false,
+    "language_tuition_desc": "5,200,000 KRW/năm",
+    "registration_fee_desc": "",
+    "insurance_fee_desc": "150,000 KRW/năm",
+    "invoice_details": "HỌC PHÍ 5,200,000KRW - BẢO HIỂM 150,000 - INVOICE 4,800,000-5,200,000KRW",
+    "dorm_fee_desc": "630,000-780,000KRW",
+    "admission_conditions": "",
+    "featured_majors": "Điều dưỡng – Khách sạn – Thiết kế",
+    "regional_restrictions": ""
   },
   {
     "id": "nazarene",
@@ -894,7 +1070,7 @@ export const universities = [
       "arts_sports": 4500000,
       "medicine_pharmacy": null
     },
-    "dorm_fee": 1050000,
+    "dorm_fee": 1100000,
     "living_cost_est": 580000,
     "scholarships": [
       "Học bổng sinh viên quốc tế (giảm 30% - 50% học phí)",
@@ -905,7 +1081,15 @@ export const universities = [
     "visa_metropolitan": false,
     "master_no_topik": false,
     "custom_notes": "Trường thuộc nhóm Top 2% nhận học sinh GDTX",
-    "top_1_percent": false
+    "top_1_percent": false,
+    "language_tuition_desc": "4,800,000 KRW/năm",
+    "registration_fee_desc": "",
+    "insurance_fee_desc": "",
+    "invoice_details": "HỌC PHÍ 4,800,000- INVOICE 5,900,000",
+    "dorm_fee_desc": "1,000,000-1,200,000KRW",
+    "admission_conditions": "",
+    "featured_majors": "Phúc lợi xã hội, Giáo dục đặc biệt, Thần học",
+    "regional_restrictions": ""
   },
   {
     "id": "kyungil",
@@ -924,7 +1108,7 @@ export const universities = [
       "arts_sports": 4400000,
       "medicine_pharmacy": 5500000
     },
-    "dorm_fee": 900000,
+    "dorm_fee": 450300,
     "living_cost_est": 530000,
     "scholarships": [
       "Học bổng TOPIK đầu vào (giảm 30% - 100% học phí)",
@@ -935,7 +1119,15 @@ export const universities = [
     "visa_metropolitan": false,
     "master_no_topik": false,
     "custom_notes": "Trường thuộc nhóm Top 2% nhận học sinh GDTX tại Daegu",
-    "top_1_percent": false
+    "top_1_percent": false,
+    "language_tuition_desc": "4,800,000 KRW/năm",
+    "registration_fee_desc": "70,000 KRW",
+    "insurance_fee_desc": "",
+    "invoice_details": "HỌC PHÍ 4,800,000KRW - INVOICE 4,870,000KRW",
+    "dorm_fee_desc": "600-900,000KRW",
+    "admission_conditions": "",
+    "featured_majors": "Thiết kế game – AI – Kiến trúc",
+    "regional_restrictions": ""
   },
   {
     "id": "dongseo",
@@ -954,7 +1146,7 @@ export const universities = [
       "arts_sports": 4700000,
       "medicine_pharmacy": null
     },
-    "dorm_fee": 1100000,
+    "dorm_fee": 1250000,
     "living_cost_est": 600000,
     "scholarships": [
       "Học bổng Dongseo Global (30% - 50% học phí)",
@@ -965,7 +1157,15 @@ export const universities = [
     "visa_metropolitan": false,
     "master_no_topik": false,
     "custom_notes": "Trường thuộc nhóm Top 2% nhận học sinh GDTX tại Busan",
-    "top_1_percent": false
+    "top_1_percent": false,
+    "language_tuition_desc": "5,200,000 KRW/năm",
+    "registration_fee_desc": "",
+    "insurance_fee_desc": "150,000 KRW/năm",
+    "invoice_details": "HỌC PHÍ 5,200,000KRW - BẢO HIỂM 150,000 - INVOICE 5,410,000KRW",
+    "dorm_fee_desc": "1,100,000-1,400,000KRW",
+    "admission_conditions": "",
+    "featured_majors": "Điện ảnh – Animation – Digital Content",
+    "regional_restrictions": ""
   },
   {
     "id": "paichai",
@@ -984,7 +1184,7 @@ export const universities = [
       "arts_sports": 4300000,
       "medicine_pharmacy": null
     },
-    "dorm_fee": 980000,
+    "dorm_fee": 520000,
     "living_cost_est": 600000,
     "scholarships": [
       "Học bổng Paichai International (giảm từ 30% - 70% học phí)",
@@ -995,7 +1195,15 @@ export const universities = [
     "visa_metropolitan": false,
     "master_no_topik": false,
     "custom_notes": "Trường thuộc nhóm Top 2% nhận học sinh GDTX tại Daejeon",
-    "top_1_percent": false
+    "top_1_percent": false,
+    "language_tuition_desc": "5,200,000 KRW/năm",
+    "registration_fee_desc": "70,000 KRW",
+    "insurance_fee_desc": "150,000 KRW/năm",
+    "invoice_details": "HỌC PHÍ 5,200,000- BẢO HIỂM 150,000- INVOICE 5,970,000KW",
+    "dorm_fee_desc": "520,000RKW",
+    "admission_conditions": "6,5 trở lên (xem xét)",
+    "featured_majors": "Business – Du lịch – IT",
+    "regional_restrictions": "hạn chế miền trung"
   },
   {
     "id": "seoultech",
@@ -1014,7 +1222,7 @@ export const universities = [
       "arts_sports": 2900000,
       "medicine_pharmacy": null
     },
-    "dorm_fee": 1150000,
+    "dorm_fee": 1250000,
     "living_cost_est": 800000,
     "scholarships": [
       "Học bổng SeoulTech President (toàn phần)",
@@ -1025,7 +1233,15 @@ export const universities = [
     "visa_metropolitan": false,
     "master_no_topik": false,
     "custom_notes": "Trường công lập nhóm Top 2% nhận học sinh GDTX tại Seoul",
-    "top_1_percent": false
+    "top_1_percent": false,
+    "language_tuition_desc": "5,000,000-5,400,000 KRW/năm",
+    "registration_fee_desc": "",
+    "insurance_fee_desc": "150,000 KRW/năm",
+    "invoice_details": "HỌC PHÍ 5,000,000-5,400,000KRW - BẢO HIỂM 150,000KRW - INVOICE 5,200,000-5,600,000KRW",
+    "dorm_fee_desc": "1,000,000-1,500,000KRW",
+    "admission_conditions": "",
+    "featured_majors": "Kỹ thuật – AI – Công nghệ",
+    "regional_restrictions": ""
   },
   {
     "id": "catholic",
@@ -1044,7 +1260,7 @@ export const universities = [
       "arts_sports": 4900000,
       "medicine_pharmacy": 6200000
     },
-    "dorm_fee": 1300000,
+    "dorm_fee": 1200000,
     "living_cost_est": 700000,
     "scholarships": [
       "Học bổng Catholic Global",
@@ -1055,7 +1271,15 @@ export const universities = [
     "visa_metropolitan": false,
     "master_no_topik": false,
     "custom_notes": "Trường thuộc nhóm Top 2% nhận học sinh GDTX",
-    "top_1_percent": false
+    "top_1_percent": false,
+    "language_tuition_desc": "5,200,000 KRW/năm",
+    "registration_fee_desc": "60,000 KRW",
+    "insurance_fee_desc": "260,000 KRW/năm",
+    "invoice_details": " 5,200,000 - PHÍ NHẠP HỌC 60.000 KRW - INVOICE 5,260,000KRW",
+    "dorm_fee_desc": "1,100,000-1,300,000 KRW",
+    "admission_conditions": "",
+    "featured_majors": "Y khoa, Điều dưỡng, Thần học",
+    "regional_restrictions": ""
   },
   {
     "id": "chungnam",
@@ -1074,7 +1298,7 @@ export const universities = [
       "arts_sports": 5250000,
       "medicine_pharmacy": 6090000
     },
-    "dorm_fee": 920000,
+    "dorm_fee": 900000,
     "living_cost_est": 600000,
     "scholarships": [
       "Học bổng CNU Merit Scholarship",
@@ -1085,7 +1309,15 @@ export const universities = [
     "visa_metropolitan": false,
     "master_no_topik": false,
     "custom_notes": "Trường trong nhóm Top 2% nhận học sinh GDTX",
-    "top_1_percent": true
+    "top_1_percent": false,
+    "language_tuition_desc": "5,200,000 KRW/năm",
+    "registration_fee_desc": "50,000 KRW",
+    "insurance_fee_desc": "150,000 KRW/năm",
+    "invoice_details": "HỌC PHÍ 5,200,000- BẢO HIỂM 150,000- INVOICE 6,350,000KRW",
+    "dorm_fee_desc": "900,000KRW",
+    "admission_conditions": "",
+    "featured_majors": "Kỹ thuật, Quản trị công, Sinh học",
+    "regional_restrictions": ""
   },
   {
     "id": "konyang",
@@ -1104,7 +1336,7 @@ export const universities = [
       "arts_sports": 4200000,
       "medicine_pharmacy": 6000000
     },
-    "dorm_fee": 900000,
+    "dorm_fee": 1000000,
     "living_cost_est": 550000,
     "scholarships": [
       "Học bổng Konyang Global",
@@ -1115,7 +1347,15 @@ export const universities = [
     "visa_metropolitan": false,
     "master_no_topik": false,
     "custom_notes": "Trường thuộc nhóm Top 2% nhận học sinh GDTX",
-    "top_1_percent": false
+    "top_1_percent": false,
+    "language_tuition_desc": "4,400,000 KRW/năm",
+    "registration_fee_desc": "60,000 KRW",
+    "insurance_fee_desc": "140,000 KRW/năm",
+    "invoice_details": "HỌC PHÍ 4,400,000KRW - BẢO HIỂM 140,000- INOVICE 5,760,000KRW",
+    "dorm_fee_desc": "1,000,000KRW",
+    "admission_conditions": "7,0 trở lên\n- vắng ko quá 5 buổi (nhiều hơn cần giải trình)",
+    "featured_majors": "Y khoa – Điều dưỡng – AI y tế",
+    "regional_restrictions": ""
   },
   {
     "id": "keimyung",
@@ -1134,18 +1374,27 @@ export const universities = [
       "arts_sports": 4800000,
       "medicine_pharmacy": 6100000
     },
-    "dorm_fee": 980000,
+    "dorm_fee": 624320,
     "living_cost_est": 550000,
     "scholarships": [
       "Học bổng ngoại ngữ TOPIK đầu vào",
       "Học bổng hữu nghị Keimyung"
     ],
     "description": "Trường đại học tư thục nổi tiếng tại Daegu với kiến trúc gạch đỏ phương Tây vô cùng lộng lẫy (từng là bối cảnh phim Boys Over Flowers). Thuộc nhóm trường Top 3% nhận học sinh GDTX.",
-    "accept_gdtx": "top3",
+    "accept_gdtx": "top2",
     "visa_metropolitan": false,
     "master_no_topik": false,
     "custom_notes": "Trường thuộc nhóm Top 3% nhận học sinh GDTX tại Daegu",
-    "top_1_percent": true
+    "top_1_percent": false,
+    "language_tuition_desc": "5,200,000 KRW/năm",
+    "registration_fee_desc": "",
+    "insurance_fee_desc": "100 KRW/năm",
+    "invoice_details": "HỌC PHÍ 5,200,000 KRW - BẢO HIỂM 100-200,000KRW - INVOICE 5,500,000KRW",
+    "dorm_fee_desc": "641-1,248,000KRW",
+    "admission_conditions": "",
+    "featured_majors": "Âm nhạc – Mỹ thuật – Business",
+    "regional_restrictions": "",
+    "is_restricted_school": true
   },
   {
     "id": "inje",
@@ -1164,18 +1413,26 @@ export const universities = [
       "arts_sports": 4437500,
       "medicine_pharmacy": 5680000
     },
-    "dorm_fee": 950000,
+    "dorm_fee": 1550000,
     "living_cost_est": 550000,
     "scholarships": [
       "Học bổng Inje Global (30% - 70% học phí)",
       "Học bổng hỗ trợ ký túc xá"
     ],
     "description": "Tọa lạc tại Gimhae gần Busan, sở hữu hệ thống bệnh viện Paik Hospital lớn bậc nhất Hàn Quốc. Thuộc nhóm trường Top 3% nhận học sinh GDTX.",
-    "accept_gdtx": "top3",
+    "accept_gdtx": "top2",
     "visa_metropolitan": false,
     "master_no_topik": false,
     "custom_notes": "Trường thuộc nhóm Top 3% nhận học sinh GDTX",
-    "top_1_percent": false
+    "top_1_percent": false,
+    "language_tuition_desc": "4,800,000-5,200,000 KRW/năm",
+    "registration_fee_desc": "",
+    "insurance_fee_desc": "150,000 KRW/năm",
+    "invoice_details": "HỌC PHÍ 4,800,000-5,200,000KRW - BẢO HIỂM 150,000 - INVOICE 5,000,000-5,400,000KRW",
+    "dorm_fee_desc": "1,300,000-1,800,000KRW",
+    "admission_conditions": "",
+    "featured_majors": "Y khoa – Business – Ngôn ngữ",
+    "regional_restrictions": ""
   },
   {
     "id": "sangji",
@@ -1205,7 +1462,8 @@ export const universities = [
     "visa_metropolitan": false,
     "master_no_topik": false,
     "custom_notes": "Trường thuộc nhóm Top 3% nhận học sinh GDTX tại Gangwon",
-    "top_1_percent": false
+    "top_1_percent": false,
+    "is_restricted_school": true
   },
   {
     "id": "seoulventure",
@@ -1464,18 +1722,26 @@ export const universities = [
       "arts_sports": 3900000,
       "medicine_pharmacy": 3799000
     },
-    "dorm_fee": 1050000,
+    "dorm_fee": 1200000,
     "living_cost_est": 580000,
     "scholarships": [
       "Học bổng Baekseok Global Leaders",
       "Học bổng giới thiệu tôn giáo & hữu nghị quốc tế"
     ],
     "description": "Đại học tổng hợp danh tiếng tại Cheonan. Trường thuộc diện Visa Đại đô thị (với ngành Điều dưỡng học phí 3.799.000 KRW) và cũng tuyển sinh hệ Thạc sĩ CNTT nợ TOPIK.",
-    "accept_gdtx": null,
+    "accept_gdtx": "top2",
     "visa_metropolitan": true,
     "master_no_topik": true,
     "custom_notes": "Diện Visa Đại đô thị & Thạc sĩ nợ TOPIK (Điều dưỡng: 3.799.000 KRW, Thạc sĩ IT nợ TOPIK)",
-    "top_1_percent": false
+    "top_1_percent": false,
+    "language_tuition_desc": "4,800,000 KRW/năm",
+    "registration_fee_desc": "50,000 KRW",
+    "insurance_fee_desc": "150,000 KRW/năm",
+    "invoice_details": "HỌC PHÍ 4,800,000- BẢO HIỂM 150,000KRW- INVOICE 6,250,000KRW",
+    "dorm_fee_desc": "1,200,000KRW",
+    "admission_conditions": "",
+    "featured_majors": "Thần học – Điều dưỡng – Giáo dục",
+    "regional_restrictions": ""
   },
   {
     "id": "hosan",
@@ -1591,11 +1857,19 @@ export const universities = [
       "Học bổng TOPIK khuyến học sau khi nhập học"
     ],
     "description": "Đại học uy tín nằm ngay tại thủ đô Seoul. Nổi bật với chương trình Thạc sĩ nợ TOPIK chuyên ngành Tư vấn quản lý toàn cầu với mức học phí cực kỳ thấp chỉ 1.050.000 KRW.",
-    "accept_gdtx": null,
+    "accept_gdtx": "top2",
     "visa_metropolitan": false,
     "master_no_topik": true,
     "custom_notes": "Tuyển Thạc sĩ nợ TOPIK ngành Tư vấn quản lý toàn cầu (Học phí chỉ 1.050.000 KRW)",
-    "top_1_percent": true
+    "top_1_percent": false,
+    "language_tuition_desc": "5,600,000 KRW/năm",
+    "registration_fee_desc": "",
+    "insurance_fee_desc": "150,000 KRW/năm",
+    "invoice_details": "HỌC PHÍ 5,600,000KRW - BẢO HIỂM 150,000- INVOICE 7,270,00KRW",
+    "dorm_fee_desc": "1,300,000KRW",
+    "admission_conditions": "",
+    "featured_majors": "Thiết kế – IT – Fashion",
+    "regional_restrictions": ""
   },
   {
     "id": "bufs",
@@ -1614,18 +1888,26 @@ export const universities = [
       "arts_sports": 3700000,
       "medicine_pharmacy": 3600000
     },
-    "dorm_fee": 1050000,
+    "dorm_fee": 1400000,
     "living_cost_est": 600000,
     "scholarships": [
       "Học bổng hữu nghị BUFS",
       "Học bổng thạc sĩ nợ TOPIK ưu đãi"
     ],
     "description": "Đại học tư thục đào tạo ngoại ngữ hàng đầu tại Busan. Trường tuyển sinh hệ Thạc sĩ nợ TOPIK cho các ngành: Ngôn ngữ quốc tế, Y học tổng hợp, Trị liệu tự nhiên.",
-    "accept_gdtx": null,
+    "accept_gdtx": "top2",
     "visa_metropolitan": false,
     "master_no_topik": true,
     "custom_notes": "Tuyển Thạc sĩ nợ TOPIK ngành Ngôn ngữ quốc tế, Y học tổng hợp, Trị liệu tự nhiên",
-    "top_1_percent": false
+    "top_1_percent": false,
+    "language_tuition_desc": "4,800,000-5,200,000 KRW/năm",
+    "registration_fee_desc": "",
+    "insurance_fee_desc": "150,000 KRW/năm",
+    "invoice_details": "HỌC PHÍ 4,800,000-5,200,000KRW - BẢO HIỂM 150,000 - INVOICE 5,000,000-5,400,000KRW",
+    "dorm_fee_desc": "1,200,000-1,600,000KRW",
+    "admission_conditions": "",
+    "featured_majors": "Ngoại ngữ – Thương mại quốc tế – Du lịch",
+    "regional_restrictions": ""
   },
   {
     "id": "wonkwang",
@@ -1644,18 +1926,26 @@ export const universities = [
       "arts_sports": 3400000,
       "medicine_pharmacy": 5600000
     },
-    "dorm_fee": 850000,
+    "dorm_fee": 750000,
     "living_cost_est": 530000,
     "scholarships": [
       "Học bổng thiết kế nghệ thuật Wonkwang",
       "Học bổng TOPIK thạc sĩ"
     ],
     "description": "Trường đại học tư thục quy mô lớn tại Iksan, Jeonbuk. Nổi bật với chương trình tuyển sinh Thạc sĩ nợ TOPIK các khối ngành đặc thù: Thiết kế làm đẹp, Sáng tác văn học.",
-    "accept_gdtx": null,
+    "accept_gdtx": "top2",
     "visa_metropolitan": false,
     "master_no_topik": true,
     "custom_notes": "Tuyển Thạc sĩ nợ TOPIK ngành Thiết kế làm đẹp, Sáng tác văn học",
-    "top_1_percent": false
+    "top_1_percent": false,
+    "language_tuition_desc": "4,000,000-4,400,000 KRW/năm",
+    "registration_fee_desc": "",
+    "insurance_fee_desc": "150,000 KRW/năm",
+    "invoice_details": "HỌC PHÍ 4,000,000-4,400,000KRW - BẢO HIỂM 150,000KRW - INVOICE 4,200,000-4,600,000KRW",
+    "dorm_fee_desc": "600,000-900,000KRW",
+    "admission_conditions": "",
+    "featured_majors": "Điều dưỡng, Vật lý trị liệu, Dược",
+    "regional_restrictions": ""
   },
   {
     "id": "uni_1",
@@ -1674,7 +1964,7 @@ export const universities = [
       "arts_sports": 5062500,
       "medicine_pharmacy": 6480000
     },
-    "dorm_fee": 950000,
+    "dorm_fee": 1050000,
     "living_cost_est": 550000,
     "scholarships": [
       "Học bổng Chính phủ Hàn Quốc (GKS)",
@@ -1682,11 +1972,20 @@ export const universities = [
       "Học bổng khuyến khích kết quả học tập GPA xuất sắc hàng kỳ"
     ],
     "description": "Trường đại học đào tạo đa ngành tại khu vực Gyeonggi. Trường có môi trường quốc tế năng động và nhiều hỗ trợ dành cho du học sinh Việt Nam.",
-    "accept_gdtx": null,
+    "accept_gdtx": "top3",
     "visa_metropolitan": false,
-    "master_no_topik": false,
+    "master_no_topik": true,
     "custom_notes": "",
-    "top_1_percent": false
+    "top_1_percent": false,
+    "language_tuition_desc": "4,600,000-5,000,000 KRW/năm",
+    "registration_fee_desc": "",
+    "insurance_fee_desc": "150,000 KRW/năm",
+    "invoice_details": "HỌC PHÍ 4,600,000-5,000,000KRW - BẢO HIỂM 150,000KRW - INVOICE 4,800,000-5,300,000KRW",
+    "dorm_fee_desc": "800,000-1,300,000KRW",
+    "admission_conditions": "6,0 trở lên",
+    "featured_majors": "",
+    "regional_restrictions": "",
+    "is_restricted_school": true
   },
   {
     "id": "uni_2",
@@ -1705,7 +2004,7 @@ export const universities = [
       "arts_sports": 5000000,
       "medicine_pharmacy": 6400000
     },
-    "dorm_fee": 950000,
+    "dorm_fee": 1050000,
     "living_cost_est": 550000,
     "scholarships": [
       "Học bổng Chính phủ Hàn Quốc (GKS)",
@@ -1713,11 +2012,20 @@ export const universities = [
       "Học bổng khuyến khích kết quả học tập GPA xuất sắc hàng kỳ"
     ],
     "description": "Trường đại học đào tạo đa ngành tại khu vực Gyeonggi. Trường có môi trường quốc tế năng động và nhiều hỗ trợ dành cho du học sinh Việt Nam.",
-    "accept_gdtx": null,
+    "accept_gdtx": "top3",
     "visa_metropolitan": false,
-    "master_no_topik": false,
+    "master_no_topik": true,
     "custom_notes": "",
-    "top_1_percent": false
+    "top_1_percent": false,
+    "language_tuition_desc": "4,600,000-5,000,000 KRW/năm",
+    "registration_fee_desc": "",
+    "insurance_fee_desc": "150,000 KRW/năm",
+    "invoice_details": "HỌC PHÍ 4,600,000-5,000,000KRW - BẢO HIỂM 150,000KRW - INVOICE 4,800,000-5,300,000KRW",
+    "dorm_fee_desc": "800,000-1,300,000KRW",
+    "admission_conditions": "6,0 trở lên",
+    "featured_majors": "",
+    "regional_restrictions": "",
+    "is_restricted_school": true
   },
   {
     "id": "uni_3",
@@ -1736,7 +2044,7 @@ export const universities = [
       "arts_sports": 4375000,
       "medicine_pharmacy": 5600000
     },
-    "dorm_fee": 950000,
+    "dorm_fee": 1050000,
     "living_cost_est": 550000,
     "scholarships": [
       "Học bổng Chính phủ Hàn Quốc (GKS)",
@@ -1744,11 +2052,20 @@ export const universities = [
       "Học bổng khuyến khích kết quả học tập GPA xuất sắc hàng kỳ"
     ],
     "description": "Trường đại học đào tạo đa ngành tại khu vực Gwangju. Trường có môi trường quốc tế năng động và nhiều hỗ trợ dành cho du học sinh Việt Nam.",
-    "accept_gdtx": null,
+    "accept_gdtx": "top3",
     "visa_metropolitan": false,
-    "master_no_topik": false,
+    "master_no_topik": true,
     "custom_notes": "",
-    "top_1_percent": false
+    "top_1_percent": false,
+    "language_tuition_desc": "4,600,000-5,000,000 KRW/năm",
+    "registration_fee_desc": "",
+    "insurance_fee_desc": "150,000 KRW/năm",
+    "invoice_details": "HỌC PHÍ 4,600,000-5,000,000KRW - BẢO HIỂM 150,000KRW - INVOICE 4,800,000-5,300,000KRW",
+    "dorm_fee_desc": "800,000-1,300,000KRW",
+    "admission_conditions": "6,0 trở lên",
+    "featured_majors": "",
+    "regional_restrictions": "",
+    "is_restricted_school": true
   },
   {
     "id": "uni_4",
@@ -1767,7 +2084,7 @@ export const universities = [
       "arts_sports": 4250000,
       "medicine_pharmacy": 5440000
     },
-    "dorm_fee": 950000,
+    "dorm_fee": 1050000,
     "living_cost_est": 550000,
     "scholarships": [
       "Học bổng Chính phủ Hàn Quốc (GKS)",
@@ -1775,11 +2092,20 @@ export const universities = [
       "Học bổng khuyến khích kết quả học tập GPA xuất sắc hàng kỳ"
     ],
     "description": "Trường đại học đào tạo đa ngành tại khu vực Busan. Trường có môi trường quốc tế năng động và nhiều hỗ trợ dành cho du học sinh Việt Nam.",
-    "accept_gdtx": null,
+    "accept_gdtx": "top3",
     "visa_metropolitan": false,
-    "master_no_topik": false,
+    "master_no_topik": true,
     "custom_notes": "",
-    "top_1_percent": false
+    "top_1_percent": false,
+    "language_tuition_desc": "4,600,000-5,000,000 KRW/năm",
+    "registration_fee_desc": "",
+    "insurance_fee_desc": "150,000 KRW/năm",
+    "invoice_details": "HỌC PHÍ 4,600,000-5,000,000KRW - BẢO HIỂM 150,000KRW - INVOICE 4,800,000-5,300,000KRW",
+    "dorm_fee_desc": "800,000-1,300,000KRW",
+    "admission_conditions": "6,0 trở lên",
+    "featured_majors": "",
+    "regional_restrictions": "",
+    "is_restricted_school": true
   },
   {
     "id": "uni_5",
@@ -1798,7 +2124,7 @@ export const universities = [
       "arts_sports": 5000000,
       "medicine_pharmacy": 5800000
     },
-    "dorm_fee": 950000,
+    "dorm_fee": 1050000,
     "living_cost_est": 550000,
     "scholarships": [
       "Học bổng Chính phủ Hàn Quốc (GKS)",
@@ -1806,11 +2132,20 @@ export const universities = [
       "Học bổng khuyến khích kết quả học tập GPA xuất sắc hàng kỳ"
     ],
     "description": "Trường đại học đào tạo đa ngành tại khu vực Busan. Trường có môi trường quốc tế năng động và nhiều hỗ trợ dành cho du học sinh Việt Nam.",
-    "accept_gdtx": null,
+    "accept_gdtx": "top3",
     "visa_metropolitan": false,
-    "master_no_topik": false,
+    "master_no_topik": true,
     "custom_notes": "",
-    "top_1_percent": false
+    "top_1_percent": false,
+    "language_tuition_desc": "4,600,000-5,000,000 KRW/năm",
+    "registration_fee_desc": "",
+    "insurance_fee_desc": "150,000 KRW/năm",
+    "invoice_details": "HỌC PHÍ 4,600,000-5,000,000KRW - BẢO HIỂM 150,000KRW - INVOICE 4,800,000-5,300,000KRW",
+    "dorm_fee_desc": "800,000-1,300,000KRW",
+    "admission_conditions": "6,0 trở lên",
+    "featured_majors": "",
+    "regional_restrictions": "",
+    "is_restricted_school": true
   },
   {
     "id": "uni_6",
@@ -1829,7 +2164,7 @@ export const universities = [
       "arts_sports": 4562500,
       "medicine_pharmacy": 5840000
     },
-    "dorm_fee": 950000,
+    "dorm_fee": 1050000,
     "living_cost_est": 550000,
     "scholarships": [
       "Học bổng Chính phủ Hàn Quốc (GKS)",
@@ -1837,11 +2172,20 @@ export const universities = [
       "Học bổng khuyến khích kết quả học tập GPA xuất sắc hàng kỳ"
     ],
     "description": "Trường đại học đào tạo đa ngành tại khu vực Ulsan. Trường có môi trường quốc tế năng động và nhiều hỗ trợ dành cho du học sinh Việt Nam.",
-    "accept_gdtx": null,
+    "accept_gdtx": "top3",
     "visa_metropolitan": false,
-    "master_no_topik": false,
+    "master_no_topik": true,
     "custom_notes": "",
-    "top_1_percent": false
+    "top_1_percent": false,
+    "language_tuition_desc": "4,600,000-5,000,000 KRW/năm",
+    "registration_fee_desc": "",
+    "insurance_fee_desc": "150,000 KRW/năm",
+    "invoice_details": "HỌC PHÍ 4,600,000-5,000,000KRW - BẢO HIỂM 150,000KRW - INVOICE 4,800,000-5,300,000KRW",
+    "dorm_fee_desc": "800,000-1,300,000KRW",
+    "admission_conditions": "6,0 trở lên",
+    "featured_majors": "",
+    "regional_restrictions": "",
+    "is_restricted_school": true
   },
   {
     "id": "uni_7",
@@ -1860,7 +2204,7 @@ export const universities = [
       "arts_sports": 4875000,
       "medicine_pharmacy": 5655000
     },
-    "dorm_fee": 1400000,
+    "dorm_fee": 1050000,
     "living_cost_est": 800000,
     "scholarships": [
       "Học bổng Chính phủ Hàn Quốc (GKS)",
@@ -1868,11 +2212,20 @@ export const universities = [
       "Học bổng khuyến khích kết quả học tập GPA xuất sắc hàng kỳ"
     ],
     "description": "Trường đại học đào tạo đa ngành tại khu vực Seoul. Trường có môi trường quốc tế năng động và nhiều hỗ trợ dành cho du học sinh Việt Nam.",
-    "accept_gdtx": null,
+    "accept_gdtx": "top3",
     "visa_metropolitan": false,
-    "master_no_topik": false,
+    "master_no_topik": true,
     "custom_notes": "",
-    "top_1_percent": false
+    "top_1_percent": false,
+    "language_tuition_desc": "4,600,000-5,000,000 KRW/năm",
+    "registration_fee_desc": "",
+    "insurance_fee_desc": "150,000 KRW/năm",
+    "invoice_details": "HỌC PHÍ 4,600,000-5,000,000KRW - BẢO HIỂM 150,000KRW - INVOICE 4,800,000-5,300,000KRW",
+    "dorm_fee_desc": "800,000-1,300,000KRW",
+    "admission_conditions": "6,0 trở lên",
+    "featured_majors": "",
+    "regional_restrictions": "",
+    "is_restricted_school": true
   },
   {
     "id": "uni_8",
@@ -1891,7 +2244,7 @@ export const universities = [
       "arts_sports": 4687500,
       "medicine_pharmacy": 6000000
     },
-    "dorm_fee": 1400000,
+    "dorm_fee": 1050000,
     "living_cost_est": 800000,
     "scholarships": [
       "Học bổng Chính phủ Hàn Quốc (GKS)",
@@ -1899,11 +2252,20 @@ export const universities = [
       "Học bổng khuyến khích kết quả học tập GPA xuất sắc hàng kỳ"
     ],
     "description": "Trường đại học đào tạo đa ngành tại khu vực Seoul. Trường có môi trường quốc tế năng động và nhiều hỗ trợ dành cho du học sinh Việt Nam.",
-    "accept_gdtx": null,
+    "accept_gdtx": "top3",
     "visa_metropolitan": false,
-    "master_no_topik": false,
+    "master_no_topik": true,
     "custom_notes": "",
-    "top_1_percent": false
+    "top_1_percent": false,
+    "language_tuition_desc": "4,600,000-5,000,000 KRW/năm",
+    "registration_fee_desc": "",
+    "insurance_fee_desc": "150,000 KRW/năm",
+    "invoice_details": "HỌC PHÍ 4,600,000-5,000,000KRW - BẢO HIỂM 150,000KRW - INVOICE 4,800,000-5,300,000KRW",
+    "dorm_fee_desc": "800,000-1,300,000KRW",
+    "admission_conditions": "6,0 trở lên",
+    "featured_majors": "",
+    "regional_restrictions": "",
+    "is_restricted_school": true
   },
   {
     "id": "uni_9",
@@ -1922,7 +2284,7 @@ export const universities = [
       "arts_sports": 4625000,
       "medicine_pharmacy": 5920000
     },
-    "dorm_fee": 950000,
+    "dorm_fee": 1050000,
     "living_cost_est": 550000,
     "scholarships": [
       "Học bổng Chính phủ Hàn Quốc (GKS)",
@@ -1930,11 +2292,20 @@ export const universities = [
       "Học bổng khuyến khích kết quả học tập GPA xuất sắc hàng kỳ"
     ],
     "description": "Trường đại học đào tạo đa ngành tại khu vực Gangwon. Trường có môi trường quốc tế năng động và nhiều hỗ trợ dành cho du học sinh Việt Nam.",
-    "accept_gdtx": null,
+    "accept_gdtx": "top3",
     "visa_metropolitan": false,
-    "master_no_topik": false,
+    "master_no_topik": true,
     "custom_notes": "",
-    "top_1_percent": false
+    "top_1_percent": false,
+    "language_tuition_desc": "4,600,000-5,000,000 KRW/năm",
+    "registration_fee_desc": "",
+    "insurance_fee_desc": "150,000 KRW/năm",
+    "invoice_details": "HỌC PHÍ 4,600,000-5,000,000KRW - BẢO HIỂM 150,000KRW - INVOICE 4,800,000-5,300,000KRW",
+    "dorm_fee_desc": "800,000-1,300,000KRW",
+    "admission_conditions": "6,0 trở lên",
+    "featured_majors": "",
+    "regional_restrictions": "",
+    "is_restricted_school": true
   },
   {
     "id": "uni_10",
@@ -1953,7 +2324,7 @@ export const universities = [
       "arts_sports": 4937500,
       "medicine_pharmacy": 6320000
     },
-    "dorm_fee": 1400000,
+    "dorm_fee": 1050000,
     "living_cost_est": 800000,
     "scholarships": [
       "Học bổng Chính phủ Hàn Quốc (GKS)",
@@ -1961,11 +2332,20 @@ export const universities = [
       "Học bổng khuyến khích kết quả học tập GPA xuất sắc hàng kỳ"
     ],
     "description": "Trường đại học đào tạo đa ngành tại khu vực Seoul. Trường có môi trường quốc tế năng động và nhiều hỗ trợ dành cho du học sinh Việt Nam.",
-    "accept_gdtx": null,
+    "accept_gdtx": "top3",
     "visa_metropolitan": false,
-    "master_no_topik": false,
+    "master_no_topik": true,
     "custom_notes": "",
-    "top_1_percent": false
+    "top_1_percent": false,
+    "language_tuition_desc": "4,600,000-5,000,000 KRW/năm",
+    "registration_fee_desc": "",
+    "insurance_fee_desc": "150,000 KRW/năm",
+    "invoice_details": "HỌC PHÍ 4,600,000-5,000,000KRW - BẢO HIỂM 150,000KRW - INVOICE 4,800,000-5,300,000KRW",
+    "dorm_fee_desc": "800,000-1,300,000KRW",
+    "admission_conditions": "6,0 trở lên",
+    "featured_majors": "",
+    "regional_restrictions": "",
+    "is_restricted_school": true
   },
   {
     "id": "uni_11",
@@ -1984,7 +2364,7 @@ export const universities = [
       "arts_sports": 4875000,
       "medicine_pharmacy": 6240000
     },
-    "dorm_fee": 1400000,
+    "dorm_fee": 1050000,
     "living_cost_est": 800000,
     "scholarships": [
       "Học bổng Chính phủ Hàn Quốc (GKS)",
@@ -1992,11 +2372,20 @@ export const universities = [
       "Học bổng khuyến khích kết quả học tập GPA xuất sắc hàng kỳ"
     ],
     "description": "Trường đại học đào tạo đa ngành tại khu vực Seoul. Trường có môi trường quốc tế năng động và nhiều hỗ trợ dành cho du học sinh Việt Nam.",
-    "accept_gdtx": null,
+    "accept_gdtx": "top3",
     "visa_metropolitan": false,
-    "master_no_topik": false,
+    "master_no_topik": true,
     "custom_notes": "",
-    "top_1_percent": false
+    "top_1_percent": false,
+    "language_tuition_desc": "4,600,000-5,000,000 KRW/năm",
+    "registration_fee_desc": "",
+    "insurance_fee_desc": "150,000 KRW/năm",
+    "invoice_details": "HỌC PHÍ 4,600,000-5,000,000KRW - BẢO HIỂM 150,000KRW - INVOICE 4,800,000-5,300,000KRW",
+    "dorm_fee_desc": "800,000-1,300,000KRW",
+    "admission_conditions": "6,0 trở lên",
+    "featured_majors": "",
+    "regional_restrictions": "",
+    "is_restricted_school": true
   },
   {
     "id": "duksung",
@@ -2047,18 +2436,26 @@ export const universities = [
       "arts_sports": 4900000,
       "medicine_pharmacy": null
     },
-    "dorm_fee": 1400000,
+    "dorm_fee": 1600000,
     "living_cost_est": 800000,
     "scholarships": [
       "Học bổng Hongik Global (giảm 30% - 100% học phí)",
       "Học bổng thành tích GPA"
     ],
     "description": "Nằm ngay khu phố nghệ thuật Mapo của Seoul, Hongik là trường đại học hàng đầu và danh giá bậc nhất Hàn Quốc về thiết kế mỹ thuật, kiến trúc và nghệ thuật ứng dụng.",
-    "accept_gdtx": null,
+    "accept_gdtx": "top2",
     "visa_metropolitan": false,
     "master_no_topik": false,
-    "top_1_percent": true,
-    "custom_notes": ""
+    "top_1_percent": false,
+    "custom_notes": "",
+    "language_tuition_desc": "7,100,000 KRW/năm",
+    "registration_fee_desc": "",
+    "insurance_fee_desc": "150,000 KRW/năm",
+    "invoice_details": "HỌC PHÍ 7,100,000KRW - BẢO HIỂM 150,000- INVOICE 9,210,000KRW",
+    "dorm_fee_desc": "1,600,000KRW",
+    "admission_conditions": "",
+    "featured_majors": "Mỹ thuật – Thiết kế – Kiến trúc",
+    "regional_restrictions": ""
   },
   {
     "id": "seokyeong",
@@ -2084,11 +2481,19 @@ export const universities = [
       "Học bổng TOPIK khuyến học"
     ],
     "description": "Ngôi trường đi đầu Hàn Quốc về đào tạo Nghệ thuật thẩm mỹ (make-up, chăm sóc da & tóc), được ví như thánh đường nghệ thuật làm đẹp tại Seoul.",
-    "accept_gdtx": null,
+    "accept_gdtx": "top2",
     "visa_metropolitan": false,
     "master_no_topik": false,
-    "top_1_percent": true,
-    "custom_notes": "Thế mạnh: Nghệ thuật thẩm mỹ, làm đẹp chuyên nghiệp."
+    "top_1_percent": false,
+    "custom_notes": "Thế mạnh: Nghệ thuật thẩm mỹ, làm đẹp chuyên nghiệp.",
+    "language_tuition_desc": "5,200,000-5,600,000 KRW/năm",
+    "registration_fee_desc": "50,000 KRW",
+    "insurance_fee_desc": "150,000 KRW/năm",
+    "invoice_details": "HỌC PHÍ 5,200,000-5,600,000KRW - BẢO HIỂM 150,000KRW - INVOICE 5,400,000-5,850,000KRW",
+    "dorm_fee_desc": "1,000,000-1,400,000KRW",
+    "admission_conditions": "",
+    "featured_majors": "Làm đẹp – Nghệ thuật – Diễn xuất",
+    "regional_restrictions": ""
   },
   {
     "id": "sungshin",
@@ -2107,7 +2512,7 @@ export const universities = [
       "arts_sports": 4350000,
       "medicine_pharmacy": 4600000
     },
-    "dorm_fee": 1280000,
+    "dorm_fee": 1500000,
     "living_cost_est": 800000,
     "scholarships": [
       "Học bổng Sungshin Bright (giảm 30% - 100% học phí)",
@@ -2118,13 +2523,20 @@ export const universities = [
     "visa_metropolitan": false,
     "master_no_topik": false,
     "top_1_percent": true,
-    "custom_notes": ""
+    "custom_notes": "",
+    "language_tuition_desc": "6,000,000-6,400,000 KRW/năm",
+    "registration_fee_desc": "50,000 KRW",
+    "insurance_fee_desc": "150,000 KRW/năm",
+    "invoice_details": "HỌC PHÍ 6,000,000-6,400,000KRW - BẢO HIỂM 150,000 - INVOICE 6,210,000-6,650,000KRW",
+    "dorm_fee_desc": "1,200,000-1,800,000KRW",
+    "admission_conditions": "",
+    "featured_majors": "",
+    "regional_restrictions": ""
   },
   {
     "id": "seoul_theological",
     "name_en": "Seoul Theological University",
     "name_ko": "서울신학대학교",
-    "name_vi: ": "Đại học Thần học Seoul (STU)",
     "name_vi": "Đại học Thần học Seoul (STU)",
     "type": "private",
     "region": "Gyeonggi",
@@ -2138,19 +2550,26 @@ export const universities = [
       "arts_sports": 3800000,
       "medicine_pharmacy": null
     },
-    "dorm_fee": 1050000,
+    "dorm_fee": 415315,
     "living_cost_est": 700000,
     "scholarships": [
       "Học bổng hữu nghị STU Global",
       "Học bổng TOPIK đầu vào"
     ],
     "description": "Tọa lạc tại Bucheon giáp ranh Seoul, trường đào tạo đa ngành về Nhân văn, Sư phạm, IT tổng hợp và Nghệ thuật với chi phí tiết kiệm và chính sách cấp mã code visa thẳng.",
-    "accept_gdtx": null,
-    "visa_metropolitan: ": false,
+    "accept_gdtx": "top2",
     "visa_metropolitan": false,
     "master_no_topik": false,
-    "top_1_percent": true,
-    "custom_notes": "Cấp mã code thẳng không cần phỏng vấn Lãnh sự quán."
+    "top_1_percent": false,
+    "custom_notes": "Cấp mã code thẳng không cần phỏng vấn Lãnh sự quán.",
+    "language_tuition_desc": "4,960,000-5,800,000 KRW/năm",
+    "registration_fee_desc": "50,000 KRW",
+    "insurance_fee_desc": "150,000 KRW/năm",
+    "invoice_details": "HỌC PHÍ 4,960,000-5,800,000KRW - BẢO HIỂM 150,000KRW - INVOICE 5,210,000-6,050,000KRW",
+    "dorm_fee_desc": "630-830,000KRW",
+    "admission_conditions": "",
+    "featured_majors": "Thần học – Giáo dục – Phúc lợi",
+    "regional_restrictions": ""
   },
   {
     "id": "sunmoon",
@@ -2169,19 +2588,26 @@ export const universities = [
       "arts_sports": 3800000,
       "medicine_pharmacy": null
     },
-    "dorm_fee": 950000,
-    "living_cost_est: ": 550000,
+    "dorm_fee": 1100000,
     "living_cost_est": 550000,
     "scholarships": [
       "Học bổng Sunmoon Global (30% - 100% học phí)",
       "Hỗ trợ tiền ký túc xá cho tân sinh viên"
     ],
     "description": "Ngôi trường có môi trường quốc tế hóa cực cao tại Asan, Chungnam. Cơ sở vật chất khang trang, chất lượng giảng dạy xuất sắc và học phí cực mềm.",
-    "accept_gdtx": null,
+    "accept_gdtx": "top2",
     "visa_metropolitan": false,
     "master_no_topik": false,
-    "top_1_percent": true,
-    "custom_notes": ""
+    "top_1_percent": false,
+    "custom_notes": "",
+    "language_tuition_desc": "4,800,000 KRW/năm",
+    "registration_fee_desc": "",
+    "insurance_fee_desc": "150,000 KRW/năm",
+    "invoice_details": "HỌC PHSI 4,800,000KRW - BẢO HIỂM 150,000KRW- INVOICE 6,150,000KRW",
+    "dorm_fee_desc": "1,100,000KRW",
+    "admission_conditions": "",
+    "featured_majors": "Hàn ngữ, Kinh doanh quốc tế, CNTT",
+    "regional_restrictions": ""
   },
   {
     "id": "semyung",
@@ -2201,18 +2627,26 @@ export const universities = [
       "medicine_pharmacy: ": 3800000,
       "medicine_pharmacy": 3800000
     },
-    "dorm_fee": 850000,
+    "dorm_fee": 1100000,
     "living_cost_est": 520000,
     "scholarships": [
       "Học bổng hữu nghị quốc tế Semyung",
       "Học bổng hỗ trợ KTX"
     ],
     "description": "Đại học tư thục năng động tại Jecheon, Chungbuk. Có thế mạnh đào tạo về CNTT, Truyền thông đa phương tiện và Y học Đông y cổ truyền.",
-    "accept_gdtx": null,
+    "accept_gdtx": "top2",
     "visa_metropolitan": false,
     "master_no_topik": false,
-    "top_1_percent": true,
-    "custom_notes": ""
+    "top_1_percent": false,
+    "custom_notes": "",
+    "language_tuition_desc": "4,400,000 KRW/năm",
+    "registration_fee_desc": "50,000 KRW",
+    "insurance_fee_desc": "300,000 KRW/năm",
+    "invoice_details": "HỌC PHÍ  4,400,000KRW- BẢO HIỂM 300,000KRW- INVOICE 5,850,000KRW",
+    "dorm_fee_desc": "1,100,000KRW",
+    "admission_conditions": "",
+    "featured_majors": "Đông y – Điều dưỡng – Du lịch",
+    "regional_restrictions": ""
   },
   {
     "id": "sookmyung",
@@ -2231,7 +2665,7 @@ export const universities = [
       "arts_sports": 4200000,
       "medicine_pharmacy": null
     },
-    "dorm_fee": 1350000,
+    "dorm_fee": 1650000,
     "living_cost_est": 850000,
     "scholarships": [
       "Học bổng danh dự Sookmyung",
@@ -2242,7 +2676,15 @@ export const universities = [
     "visa_metropolitan": false,
     "master_no_topik": false,
     "top_1_percent": true,
-    "custom_notes": "Chỉ tuyển sinh nữ. Có kiểm tra năng lực đầu vào nếu chưa có TOPIK 2."
+    "custom_notes": "Chỉ tuyển sinh nữ. Có kiểm tra năng lực đầu vào nếu chưa có TOPIK 2.",
+    "language_tuition_desc": "6,400,000-6,800,000 KRW/năm",
+    "registration_fee_desc": "50,000 KRW",
+    "insurance_fee_desc": "150,000 KRW/năm",
+    "invoice_details": "HỌC PHÍ 6,400,000-6,800,000KRW - BẢO HIỂM 150,000KRW - INVOICE 6,610,000-7,050,000KRW",
+    "dorm_fee_desc": "1,300,000-2,000,000KRW'",
+    "admission_conditions": "",
+    "featured_majors": "Kinh doanh khách sạn, quốc tế học, ngôn ngữ Hàn",
+    "regional_restrictions": ""
   },
   {
     "id": "gyeongsang",
@@ -2291,18 +2733,26 @@ export const universities = [
       "arts_sports": 4500000,
       "medicine_pharmacy": null
     },
-    "dorm_fee": 1250000,
+    "dorm_fee": 1000000,
     "living_cost_est": 800000,
     "scholarships": [
       "Học bổng Myongji Global (30% - 100% học phí)",
       "Học bổng TOPIK tiếng Hàn"
     ],
     "description": "Trường đại học tư thục chất lượng cao có hai cơ sở tại Seoul (khối nhân văn) và Yongin (khối tự nhiên/kỹ thuật). Trường có lượng sinh viên quốc tế lớn bậc nhất Hàn Quốc.",
-    "accept_gdtx": null,
+    "accept_gdtx": "top2",
     "visa_metropolitan": false,
     "master_no_topik": true,
     "top_1_percent": false,
-    "custom_notes": ""
+    "custom_notes": "",
+    "language_tuition_desc": "5,000,000 KRW/năm",
+    "registration_fee_desc": "",
+    "insurance_fee_desc": "150,000 KRW/năm",
+    "invoice_details": "HỌC PHÍ 5,000,000KRW - BẢO HIỂM 150,000KRW - INVOICE 5,200,000KRW",
+    "dorm_fee_desc": "800,000-1,200,000KRW",
+    "admission_conditions": "",
+    "featured_majors": "Thiết kế – Diễn xuất – Truyền thông",
+    "regional_restrictions": ""
   },
   {
     "id": "namseoul",
@@ -2321,18 +2771,26 @@ export const universities = [
       "arts_sports": 3850000,
       "medicine_pharmacy": null
     },
-    "dorm_fee": 900000,
+    "dorm_fee": 1168500,
     "living_cost_est": 580000,
     "scholarships": [
       "Học bổng Namseoul Global",
       "Học bổng KTX"
     ],
     "description": "Tọa lạc tại thành phố Cheonan vệ tinh của Seoul, Namseoul nổi bật với khuôn viên xanh rộng lớn và các chương trình thực hành kỹ thuật, điều dưỡng.",
-    "accept_gdtx": null,
+    "accept_gdtx": "top2",
     "visa_metropolitan": false,
     "master_no_topik": true,
     "top_1_percent": false,
-    "custom_notes": ""
+    "custom_notes": "",
+    "language_tuition_desc": "5,000,000 KRW/năm",
+    "registration_fee_desc": "",
+    "insurance_fee_desc": "110,000 KRW/năm",
+    "invoice_details": "5,000,000 KRW Phí bảo hiểm 110,000 KRW- INVOICE 6,696,500KRW",
+    "dorm_fee_desc": "1,168,500KRW",
+    "admission_conditions": "",
+    "featured_majors": "Làm đẹp, CNTT, Kinh doanh",
+    "regional_restrictions": ""
   },
   {
     "id": "chungbuk",
@@ -2351,24 +2809,31 @@ export const universities = [
       "arts_sports": 2350000,
       "medicine_pharmacy": 3180000
     },
-    "dorm_fee": 850000,
+    "dorm_fee": 600450,
     "living_cost_est": 520000,
     "scholarships": [
       "Học bổng CBNU Global (giảm 50% - 100% học phí)",
       "Học bổng khuyến học thành tích"
     ],
     "description": "Trường đại học quốc gia đại diện cho tỉnh Chungcheongbuk, nằm tại thành phố công nghệ sinh học Cheongju. Học phí rẻ và cơ hội việc làm phong phú.",
-    "accept_gdtx": null,
+    "accept_gdtx": "top2",
     "visa_metropolitan": false,
     "master_no_topik": true,
     "top_1_percent": false,
-    "custom_notes": ""
+    "custom_notes": "",
+    "language_tuition_desc": "5,200,000 KRW/năm",
+    "registration_fee_desc": "",
+    "insurance_fee_desc": "150,000 KRW/năm",
+    "invoice_details": "HỌC PHÍ 5,200,000- BẢO HIỂM 150,000- INVOICE 6,300,000KRW",
+    "dorm_fee_desc": "900-1,200,000KRW",
+    "admission_conditions": "",
+    "featured_majors": "Dược, CNTT, Kỹ thuật",
+    "regional_restrictions": ""
   },
   {
     "id": "ulsan",
     "name_en": "University of Ulsan",
     "name_ko": "울산대학교",
-    "name_vi: ": "Đại học Ulsan",
     "name_vi": "Đại học Ulsan",
     "type": "private",
     "region": "Ulsan",
@@ -2382,18 +2847,26 @@ export const universities = [
       "arts_sports": 3980000,
       "medicine_pharmacy": 5600000
     },
-    "dorm_fee": 900000,
+    "dorm_fee": 1500000,
     "living_cost_est": 550000,
     "scholarships": [
       "Học bổng Hyundai (nhà tài trợ chính của trường)",
       "Học bổng nhập học tiếng Hàn"
     ],
     "description": "Được tài trợ chính bởi tập đoàn công nghiệp lớn Hyundai, Ulsan có thế mạnh đặc biệt trong kỹ thuật đóng tàu, công nghiệp nặng và kỹ thuật ô tô điện.",
-    "accept_gdtx": null,
+    "accept_gdtx": "top2",
     "visa_metropolitan": false,
     "master_no_topik": true,
     "top_1_percent": false,
-    "custom_notes": ""
+    "custom_notes": "",
+    "language_tuition_desc": "5,200,000-5,600,000 KRW/năm",
+    "registration_fee_desc": "",
+    "insurance_fee_desc": "150,000 KRW/năm",
+    "invoice_details": "HỌC PHÍ 5,200,000-5,600,000- BẢO HIỂM 150,000- INVOICE 5,410,000-5,810,000KRW",
+    "dorm_fee_desc": "1,100,000-1,900,000KRW",
+    "admission_conditions": "",
+    "featured_majors": "Ô tô – Đóng tàu – Kỹ thuật",
+    "regional_restrictions": ""
   },
   {
     "id": "youngsan",
@@ -2412,18 +2885,26 @@ export const universities = [
       "arts_sports": 3750000,
       "medicine_pharmacy": null
     },
-    "dorm_fee": 980000,
+    "dorm_fee": 1550000,
     "living_cost_est": 580000,
     "scholarships": [
       "Học bổng hữu nghị Youngsan",
       "Hỗ trợ giảm giá tiền ký túc xá"
     ],
     "description": "Có cơ sở đào tạo chính nằm ngay tại bãi biển Haeundae nổi tiếng của Busan. Trường cực kỳ mạnh về ngành Quản trị du lịch, dịch vụ khách sạn và ẩm thực.",
-    "accept_gdtx": null,
+    "accept_gdtx": "top2",
     "visa_metropolitan": false,
     "master_no_topik": true,
     "top_1_percent": false,
-    "custom_notes": ""
+    "custom_notes": "",
+    "language_tuition_desc": "4,800,000 KRW/năm",
+    "registration_fee_desc": "",
+    "insurance_fee_desc": "150,000 KRW/năm",
+    "invoice_details": "HỌC PHÍ 4,800,000KRW - BẢO HIỂM 150,000KRW - INVOICE 5,000,000KRW",
+    "dorm_fee_desc": "1,300,000-1,800,000KRW",
+    "admission_conditions": "",
+    "featured_majors": "Luật – Khách sạn – Làm đẹp",
+    "regional_restrictions": ""
   },
   {
     "id": "kunsan",
@@ -2442,18 +2923,26 @@ export const universities = [
       "arts_sports": 2300000,
       "medicine_pharmacy": null
     },
-    "dorm_fee": 820000,
+    "dorm_fee": 800000,
     "living_cost_est": 530000,
     "scholarships": [
       "Học bổng Kunsan Merit (giảm 50% - 100% học phí)",
       "Học bổng khuyến khích TOPIK"
     ],
     "description": "Trường đại học quốc gia nằm tại thành phố cảng Gunsan. Chi phí học tập cực thấp, nổi bật về Khoa học hàng hải, kỹ thuật đóng tàu và khoa học cơ bản.",
-    "accept_gdtx": null,
+    "accept_gdtx": "top2",
     "visa_metropolitan": false,
     "master_no_topik": true,
     "top_1_percent": false,
-    "custom_notes": ""
+    "custom_notes": "",
+    "language_tuition_desc": "4,800,000 KRW/năm",
+    "registration_fee_desc": "",
+    "insurance_fee_desc": "140,000 KRW/năm",
+    "invoice_details": "HỌC PHÍ 4,800,000- BẢO HIỂM 140,000- INVOICE 6,140,000KRW",
+    "dorm_fee_desc": "800,000KRW",
+    "admission_conditions": "",
+    "featured_majors": "Hàng hải, Kỹ thuật, Kinh doanh",
+    "regional_restrictions": ""
   },
   {
     "id": "mock_uni_81",
@@ -2472,7 +2961,7 @@ export const universities = [
       "arts_sports": 3947000,
       "medicine_pharmacy": 4273000
     },
-    "dorm_fee": 1351000,
+    "dorm_fee": 725000,
     "living_cost_est": 696000,
     "scholarships": [
       "Học bổng Chính phủ Hàn Quốc (GKS)",
@@ -2483,7 +2972,15 @@ export const universities = [
     "visa_metropolitan": false,
     "master_no_topik": true,
     "custom_notes": "Trường ưu tiên phỏng vấn visa thẳng",
-    "top_1_percent": false
+    "top_1_percent": false,
+    "language_tuition_desc": "4,400,000 KRW/năm",
+    "registration_fee_desc": "",
+    "insurance_fee_desc": "45,000 KRW/năm",
+    "invoice_details": "HỌC PHÍ 4,400,000KRW- BẢO HIỂM 45,000KRW - 4,495,000KRW",
+    "dorm_fee_desc": "550,000-900,000KRW",
+    "admission_conditions": "",
+    "featured_majors": "Thiết kế – Truyền thông – Du lịch",
+    "regional_restrictions": ""
   },
   {
     "id": "mock_uni_82",
@@ -2513,7 +3010,8 @@ export const universities = [
     "visa_metropolitan": false,
     "master_no_topik": true,
     "custom_notes": "Trường ưu tiên phỏng vấn visa thẳng",
-    "top_1_percent": false
+    "top_1_percent": false,
+    "is_restricted_school": true
   },
   {
     "id": "mock_uni_83",
@@ -2532,7 +3030,7 @@ export const universities = [
       "arts_sports": 4252000,
       "medicine_pharmacy": 2821000
     },
-    "dorm_fee": 1390000,
+    "dorm_fee": 1450000,
     "living_cost_est": 632000,
     "scholarships": [
       "Học bổng Chính phủ Hàn Quốc (GKS)",
@@ -2543,7 +3041,15 @@ export const universities = [
     "visa_metropolitan": false,
     "master_no_topik": true,
     "custom_notes": "",
-    "top_1_percent": false
+    "top_1_percent": false,
+    "language_tuition_desc": "4,800,000 KRW/năm",
+    "registration_fee_desc": "",
+    "insurance_fee_desc": "150,000 KRW/năm",
+    "invoice_details": "HỌC PHÍ 4,800,000 - BẢO HIỂM 150,000- INVOICE 5,000,000KRW",
+    "dorm_fee_desc": "1,200,000-1,700,000KRW",
+    "admission_conditions": "",
+    "featured_majors": "Du lịch – Hàng không – Khách sạn",
+    "regional_restrictions": ""
   },
   {
     "id": "mock_uni_84",
@@ -2592,7 +3098,7 @@ export const universities = [
       "arts_sports": null,
       "medicine_pharmacy": null
     },
-    "dorm_fee": 1515000,
+    "dorm_fee": 1250000,
     "living_cost_est": 884000,
     "scholarships": [
       "Học bổng Chính phủ Hàn Quốc (GKS)",
@@ -2603,7 +3109,15 @@ export const universities = [
     "visa_metropolitan": true,
     "master_no_topik": false,
     "custom_notes": "Trường ưu tiên phỏng vấn visa thẳng",
-    "top_1_percent": true
+    "top_1_percent": false,
+    "language_tuition_desc": "5,200,000 KRW/năm",
+    "registration_fee_desc": "",
+    "insurance_fee_desc": "150,000 KRW/năm",
+    "invoice_details": "HỌC PHÍ 5,200,000KRW - BẢO HIỂM 150,000 - INVOICE 5,410,000KRW",
+    "dorm_fee_desc": "1,100,000-1,400,000KRW",
+    "admission_conditions": "",
+    "featured_majors": "Điện ảnh – Animation – Digital Content",
+    "regional_restrictions": ""
   },
   {
     "id": "mock_uni_86",
@@ -2622,7 +3136,7 @@ export const universities = [
       "arts_sports": 3758000,
       "medicine_pharmacy": 2129000
     },
-    "dorm_fee": 889000,
+    "dorm_fee": 653000,
     "living_cost_est": 589000,
     "scholarships": [
       "Học bổng Chính phủ Hàn Quốc (GKS)",
@@ -2633,7 +3147,15 @@ export const universities = [
     "visa_metropolitan": false,
     "master_no_topik": false,
     "custom_notes": "",
-    "top_1_percent": false
+    "top_1_percent": false,
+    "language_tuition_desc": "6,600,000 KRW/năm",
+    "registration_fee_desc": "",
+    "insurance_fee_desc": "100,000 KRW/năm",
+    "invoice_details": "HỌC PHÍ 6,600,000KRW - BẢO HIỂM 100,000KRW - INVOICE 6,800,000KRW ",
+    "dorm_fee_desc": "653,000KRW",
+    "admission_conditions": "",
+    "featured_majors": "Thiết kế ô tô – Business – Design",
+    "regional_restrictions": ""
   },
   {
     "id": "mock_uni_87",
@@ -2652,18 +3174,26 @@ export const universities = [
       "arts_sports": 3700000,
       "medicine_pharmacy": 2287000
     },
-    "dorm_fee": 983000,
+    "dorm_fee": 800000,
     "living_cost_est": 547000,
     "scholarships": [
       "Học bổng Chính phủ Hàn Quốc (GKS)",
       "Học bổng khuyến khích từ đại học Ajou"
     ],
     "description": "Đại học Ajou là trường đại học uy tín tại khu vực Daegu, đào tạo đa ngành với học phí hợp lý và học bổng hấp dẫn cho sinh viên Việt Nam.",
-    "accept_gdtx": "top2",
+    "accept_gdtx": "top3",
     "visa_metropolitan": false,
     "master_no_topik": true,
     "custom_notes": "",
-    "top_1_percent": false
+    "top_1_percent": false,
+    "language_tuition_desc": "4,500,000-4,900,000 KRW/năm",
+    "registration_fee_desc": "",
+    "insurance_fee_desc": "150,000 KRW/năm",
+    "invoice_details": "7HỌC PHÍ 4,500,000-4,900,000KRW - BẢO HIỂM 150,000- INOVOICE 4,700,000-5,150,000KRW",
+    "dorm_fee_desc": "600,000-1,000,000KRW",
+    "admission_conditions": "6,0 trở lên (xem xét)",
+    "featured_majors": "",
+    "regional_restrictions": ""
   },
   {
     "id": "mock_uni_88",
@@ -2682,18 +3212,26 @@ export const universities = [
       "arts_sports": 4843000,
       "medicine_pharmacy": null
     },
-    "dorm_fee": 1260000,
+    "dorm_fee": 2000000,
     "living_cost_est": 727000,
     "scholarships": [
       "Học bổng Chính phủ Hàn Quốc (GKS)",
       "Học bổng khuyến khích từ đại học Inha"
     ],
     "description": "Đại học Inha là trường đại học uy tín tại khu vực Incheon, đào tạo đa ngành với học phí hợp lý và học bổng hấp dẫn cho sinh viên Việt Nam.",
-    "accept_gdtx": "top3",
+    "accept_gdtx": "top2",
     "visa_metropolitan": true,
     "master_no_topik": false,
     "custom_notes": "",
-    "top_1_percent": false
+    "top_1_percent": false,
+    "language_tuition_desc": "5,200,000 KRW/năm",
+    "registration_fee_desc": "50,000 KRW",
+    "insurance_fee_desc": "200,000 KRW/năm",
+    "invoice_details": "HỌC PHÍ 5,200,000KRW - BẢO HIỂM 200,000KRW - INVOICE 5,450,000-5,490,000KRW ",
+    "dorm_fee_desc": "1,500,000-2,500,000KRW",
+    "admission_conditions": "",
+    "featured_majors": "Điều dưỡng, Hàng không, Kinh doanh",
+    "regional_restrictions": ""
   },
   {
     "id": "mock_uni_89",
@@ -2712,18 +3250,26 @@ export const universities = [
       "arts_sports": 3248000,
       "medicine_pharmacy": null
     },
-    "dorm_fee": 1380000,
+    "dorm_fee": 1300000,
     "living_cost_est": 558000,
     "scholarships": [
       "Học bổng Chính phủ Hàn Quốc (GKS)",
       "Học bổng khuyến khích từ đại học Soongsil"
     ],
     "description": "Đại học Soongsil là trường đại học uy tín tại khu vực Gwangju, đào tạo đa ngành với học phí hợp lý và học bổng hấp dẫn cho sinh viên Việt Nam.",
-    "accept_gdtx": null,
+    "accept_gdtx": "top2",
     "visa_metropolitan": false,
     "master_no_topik": true,
     "custom_notes": "",
-    "top_1_percent": false
+    "top_1_percent": false,
+    "language_tuition_desc": "6,000,000-6,400,000 KRW/năm",
+    "registration_fee_desc": "50,000 KRW",
+    "insurance_fee_desc": "150,000 KRW/năm",
+    "invoice_details": "HỌC PHÍ 6,000,000-6,400,000KRW - BẢO HIỂM 150,000KRW - INVOICE 6,210,000-6,650,000KRW",
+    "dorm_fee_desc": "1,100,000-1,500,000KRW",
+    "admission_conditions": "",
+    "featured_majors": "IT – AI – Kinh doanh",
+    "regional_restrictions": ""
   },
   {
     "id": "mock_uni_90",
@@ -2742,7 +3288,7 @@ export const universities = [
       "arts_sports": null,
       "medicine_pharmacy": null
     },
-    "dorm_fee": 1338000,
+    "dorm_fee": 1000000,
     "living_cost_est": 612000,
     "scholarships": [
       "Học bổng Chính phủ Hàn Quốc (GKS)",
@@ -2753,7 +3299,15 @@ export const universities = [
     "visa_metropolitan": false,
     "master_no_topik": false,
     "custom_notes": "Trường ưu tiên phỏng vấn visa thẳng",
-    "top_1_percent": false
+    "top_1_percent": false,
+    "language_tuition_desc": "4,400,000 KRW/năm",
+    "registration_fee_desc": "60,000 KRW",
+    "insurance_fee_desc": "140,000 KRW/năm",
+    "invoice_details": "HỌC PHÍ 4,400,000KRW - BẢO HIỂM 140,000- INOVICE 5,760,000KRW",
+    "dorm_fee_desc": "1,000,000KRW",
+    "admission_conditions": "7,0 trở lên\n- vắng ko quá 5 buổi (nhiều hơn cần giải trình)",
+    "featured_majors": "Y khoa – Điều dưỡng – AI y tế",
+    "regional_restrictions": ""
   },
   {
     "id": "mock_uni_91",
@@ -2772,7 +3326,7 @@ export const universities = [
       "arts_sports": 3974000,
       "medicine_pharmacy": 4630000
     },
-    "dorm_fee": 1038000,
+    "dorm_fee": 1550000,
     "living_cost_est": 577000,
     "scholarships": [
       "Học bổng Chính phủ Hàn Quốc (GKS)",
@@ -2783,7 +3337,15 @@ export const universities = [
     "visa_metropolitan": false,
     "master_no_topik": true,
     "custom_notes": "",
-    "top_1_percent": true
+    "top_1_percent": false,
+    "language_tuition_desc": "4,800,000-5,200,000 KRW/năm",
+    "registration_fee_desc": "",
+    "insurance_fee_desc": "150,000 KRW/năm",
+    "invoice_details": "HỌC PHÍ 4,800,000-5,200,000KRW - BẢO HIỂM 150,000 - INVOICE 5,000,000-5,400,000KRW",
+    "dorm_fee_desc": "1,300,000-1,800,000KRW",
+    "admission_conditions": "",
+    "featured_majors": "Y khoa – Business – Ngôn ngữ",
+    "regional_restrictions": ""
   },
   {
     "id": "mock_uni_92",
@@ -2813,7 +3375,8 @@ export const universities = [
     "visa_metropolitan": false,
     "master_no_topik": false,
     "custom_notes": "Trường ưu tiên phỏng vấn visa thẳng",
-    "top_1_percent": true
+    "top_1_percent": true,
+    "is_restricted_school": true
   },
   {
     "id": "mock_uni_93",
@@ -2832,7 +3395,7 @@ export const universities = [
       "arts_sports": 3879000,
       "medicine_pharmacy": 3165000
     },
-    "dorm_fee": 1059000,
+    "dorm_fee": 1300000,
     "living_cost_est": 631000,
     "scholarships": [
       "Học bổng Chính phủ Hàn Quốc (GKS)",
@@ -2843,7 +3406,15 @@ export const universities = [
     "visa_metropolitan": true,
     "master_no_topik": false,
     "custom_notes": "",
-    "top_1_percent": true
+    "top_1_percent": false,
+    "language_tuition_desc": "5,600,000 KRW/năm",
+    "registration_fee_desc": "",
+    "insurance_fee_desc": "150,000 KRW/năm",
+    "invoice_details": "HỌC PHÍ 5,600,000KRW - BẢO HIỂM 150,000- INVOICE 7,270,00KRW",
+    "dorm_fee_desc": "1,300,000KRW",
+    "admission_conditions": "",
+    "featured_majors": "Thiết kế – IT – Fashion",
+    "regional_restrictions": ""
   },
   {
     "id": "mock_uni_94",
@@ -2862,18 +3433,26 @@ export const universities = [
       "arts_sports": 2126000,
       "medicine_pharmacy": 4467000
     },
-    "dorm_fee": 1322000,
+    "dorm_fee": 11824000,
     "living_cost_est": 672000,
     "scholarships": [
       "Học bổng Chính phủ Hàn Quốc (GKS)",
       "Học bổng khuyến khích từ đại học Gachon"
     ],
     "description": "Đại học Gachon là trường đại học uy tín tại khu vực Gangwon, đào tạo đa ngành với học phí hợp lý và học bổng hấp dẫn cho sinh viên Việt Nam.",
-    "accept_gdtx": "top3",
+    "accept_gdtx": "top2",
     "visa_metropolitan": false,
     "master_no_topik": false,
     "custom_notes": "",
-    "top_1_percent": false
+    "top_1_percent": false,
+    "language_tuition_desc": "5,200,000 KRW/năm",
+    "registration_fee_desc": "70,000 KRW",
+    "insurance_fee_desc": "270,000 KRW/năm",
+    "invoice_details": "5,200,000 KRW PHÍ NHẬP HỌC 70,000KRW  INVOICE CƠ BẢN 5,270,000KRW",
+    "dorm_fee_desc": "1,182,4000KRW",
+    "admission_conditions": "",
+    "featured_majors": "Y khoa – AI – Quản trị kinh doanh",
+    "regional_restrictions": ""
   },
   {
     "id": "mock_uni_95",
@@ -2892,7 +3471,7 @@ export const universities = [
       "arts_sports": 2087000,
       "medicine_pharmacy": 4171000
     },
-    "dorm_fee": 1561000,
+    "dorm_fee": 1400000,
     "living_cost_est": 867000,
     "scholarships": [
       "Học bổng Chính phủ Hàn Quốc (GKS)",
@@ -2903,7 +3482,15 @@ export const universities = [
     "visa_metropolitan": false,
     "master_no_topik": false,
     "custom_notes": "",
-    "top_1_percent": false
+    "top_1_percent": false,
+    "language_tuition_desc": "5,600,000 KRW/năm",
+    "registration_fee_desc": "",
+    "insurance_fee_desc": "200,000 KRW/năm",
+    "invoice_details": "HỌC PHÍ 5,600,000KRW - BẢO HÊM 200,000KRW - INVOICE 7,300,000KRW",
+    "dorm_fee_desc": "1,400,000KRW",
+    "admission_conditions": "",
+    "featured_majors": "Nha khoa – Business – Truyền thông",
+    "regional_restrictions": ""
   },
   {
     "id": "mock_uni_96",
@@ -2922,7 +3509,7 @@ export const universities = [
       "arts_sports": 2014000,
       "medicine_pharmacy": 4284000
     },
-    "dorm_fee": 1478000,
+    "dorm_fee": 1500000,
     "living_cost_est": 844000,
     "scholarships": [
       "Học bổng Chính phủ Hàn Quốc (GKS)",
@@ -2933,7 +3520,15 @@ export const universities = [
     "visa_metropolitan": false,
     "master_no_topik": false,
     "custom_notes": "",
-    "top_1_percent": false
+    "top_1_percent": false,
+    "language_tuition_desc": "4,800,000-5,200,000 KRW/năm",
+    "registration_fee_desc": "",
+    "insurance_fee_desc": "150,000 KRW/năm",
+    "invoice_details": "HỌC PHÍ 4,800,000-5,200,000KRW - BẢO HIỂM 150,000- INVOICE 5,000,000-5,400,000KRW",
+    "dorm_fee_desc": "1,200,000-1,800,000KRW",
+    "admission_conditions": "",
+    "featured_majors": "Nha khoa – Y khoa – Kỹ thuật",
+    "regional_restrictions": ""
   },
   {
     "id": "mock_uni_97",
@@ -2952,7 +3547,7 @@ export const universities = [
       "arts_sports": 2561000,
       "medicine_pharmacy": 2738000
     },
-    "dorm_fee": 1025000,
+    "dorm_fee": 810000,
     "living_cost_est": 839000,
     "scholarships": [
       "Học bổng Chính phủ Hàn Quốc (GKS)",
@@ -2963,7 +3558,15 @@ export const universities = [
     "visa_metropolitan": false,
     "master_no_topik": false,
     "custom_notes": "",
-    "top_1_percent": false
+    "top_1_percent": false,
+    "language_tuition_desc": "5,200,000 KRW/năm",
+    "registration_fee_desc": "",
+    "insurance_fee_desc": "150,000 KRW/năm",
+    "invoice_details": "HỌC PHÍ 5,200,000- BẢO HIỂM 150,000 - INVOICE 5,400,000KRW",
+    "dorm_fee_desc": "700,000-920,000KRW",
+    "admission_conditions": "- 7.0 trở lên\n- vắng không quá 10 buổi",
+    "featured_majors": "Y khoa – Luật – Kinh doanh",
+    "regional_restrictions": "Không nhận Quảng Bình"
   },
   {
     "id": "mock_uni_98",
@@ -2982,18 +3585,26 @@ export const universities = [
       "arts_sports": 3036000,
       "medicine_pharmacy": null
     },
-    "dorm_fee": 1299000,
+    "dorm_fee": 2150000,
     "living_cost_est": 713000,
     "scholarships": [
       "Học bổng Chính phủ Hàn Quốc (GKS)",
       "Học bổng khuyến khích từ đại học Pukyong"
     ],
     "description": "Đại học Pukyong là trường đại học uy tín tại khu vực Jeonnam, đào tạo đa ngành với học phí hợp lý và học bổng hấp dẫn cho sinh viên Việt Nam.",
-    "accept_gdtx": "top3",
+    "accept_gdtx": "top2",
     "visa_metropolitan": false,
     "master_no_topik": true,
     "custom_notes": "",
-    "top_1_percent": false
+    "top_1_percent": false,
+    "language_tuition_desc": "5,200,000 KRW/năm",
+    "registration_fee_desc": "",
+    "insurance_fee_desc": "110,000 KRW/năm",
+    "invoice_details": "HỌC PHÍ 5,200,000KRW - BẢO HIỂM 110,000KRW - INVOICE 5,410,000KRW ",
+    "dorm_fee_desc": "1,700,000-2,600,000KRW",
+    "admission_conditions": "",
+    "featured_majors": "Hải dương – Thủy sản – Logistics",
+    "regional_restrictions": ""
   },
   {
     "id": "mock_uni_99",
@@ -3012,18 +3623,27 @@ export const universities = [
       "arts_sports": 4691000,
       "medicine_pharmacy": 3286000
     },
-    "dorm_fee": 1089000,
+    "dorm_fee": 542920,
     "living_cost_est": 694000,
     "scholarships": [
       "Học bổng Chính phủ Hàn Quốc (GKS)",
       "Học bổng khuyến khích từ đại học Changwon"
     ],
     "description": "Đại học Changwon là trường đại học uy tín tại khu vực Gyeongbuk, đào tạo đa ngành với học phí hợp lý và học bổng hấp dẫn cho sinh viên Việt Nam.",
-    "accept_gdtx": null,
+    "accept_gdtx": "top2",
     "visa_metropolitan": false,
     "master_no_topik": true,
     "custom_notes": "Trường ưu tiên phỏng vấn visa thẳng",
-    "top_1_percent": false
+    "top_1_percent": false,
+    "language_tuition_desc": "4,800,000 KRW/năm",
+    "registration_fee_desc": "",
+    "insurance_fee_desc": "150,000 KRW/năm",
+    "invoice_details": "HỌC PHÍ 4,800,000KRW - BẢO HIỂM 150,000KRW - INVOICE 5,020,000KRW",
+    "dorm_fee_desc": "471,520-614,320 KRW",
+    "admission_conditions": "",
+    "featured_majors": "Cơ khí – Robot – Công nghiệp",
+    "regional_restrictions": "",
+    "is_restricted_school": true
   },
   {
     "id": "mock_uni_100",
@@ -3072,18 +3692,26 @@ export const universities = [
       "arts_sports": 4359000,
       "medicine_pharmacy": 4404000
     },
-    "dorm_fee": 1517000,
+    "dorm_fee": 1000000,
     "living_cost_est": 530000,
     "scholarships": [
       "Học bổng Chính phủ Hàn Quốc (GKS)",
       "Học bổng khuyến khích từ đại học Myongji"
     ],
     "description": "Đại học Myongji là trường đại học uy tín tại khu vực Jeju, đào tạo đa ngành với học phí hợp lý và học bổng hấp dẫn cho sinh viên Việt Nam.",
-    "accept_gdtx": null,
+    "accept_gdtx": "top2",
     "visa_metropolitan": false,
-    "master_no_topik": false,
+    "master_no_topik": true,
     "custom_notes": "Trường ưu tiên phỏng vấn visa thẳng",
-    "top_1_percent": false
+    "top_1_percent": false,
+    "language_tuition_desc": "5,000,000 KRW/năm",
+    "registration_fee_desc": "",
+    "insurance_fee_desc": "150,000 KRW/năm",
+    "invoice_details": "HỌC PHÍ 5,000,000KRW - BẢO HIỂM 150,000KRW - INVOICE 5,200,000KRW",
+    "dorm_fee_desc": "800,000-1,200,000KRW",
+    "admission_conditions": "",
+    "featured_majors": "Thiết kế – Diễn xuất – Truyền thông",
+    "regional_restrictions": ""
   },
   {
     "id": "mock_uni_102",
@@ -3162,18 +3790,26 @@ export const universities = [
       "arts_sports": 4302000,
       "medicine_pharmacy": 4545000
     },
-    "dorm_fee": 890000,
+    "dorm_fee": 1600000,
     "living_cost_est": 860000,
     "scholarships": [
       "Học bổng Chính phủ Hàn Quốc (GKS)",
       "Học bổng khuyến khích từ đại học Hongik"
     ],
     "description": "Đại học Hongik là trường đại học uy tín tại khu vực Daegu, đào tạo đa ngành với học phí hợp lý và học bổng hấp dẫn cho sinh viên Việt Nam.",
-    "accept_gdtx": "top3",
+    "accept_gdtx": "top2",
     "visa_metropolitan": false,
     "master_no_topik": false,
     "custom_notes": "",
-    "top_1_percent": false
+    "top_1_percent": false,
+    "language_tuition_desc": "7,100,000 KRW/năm",
+    "registration_fee_desc": "",
+    "insurance_fee_desc": "150,000 KRW/năm",
+    "invoice_details": "HỌC PHÍ 7,100,000KRW - BẢO HIỂM 150,000- INVOICE 9,210,000KRW",
+    "dorm_fee_desc": "1,600,000KRW",
+    "admission_conditions": "",
+    "featured_majors": "Mỹ thuật – Thiết kế – Kiến trúc",
+    "regional_restrictions": ""
   },
   {
     "id": "mock_uni_105",
@@ -3192,18 +3828,26 @@ export const universities = [
       "arts_sports": 4369000,
       "medicine_pharmacy": 4370000
     },
-    "dorm_fee": 1107000,
+    "dorm_fee": 1200000,
     "living_cost_est": 675000,
     "scholarships": [
       "Học bổng Chính phủ Hàn Quốc (GKS)",
       "Học bổng khuyến khích từ đại học Seokyeong"
     ],
     "description": "Đại học Seokyeong là trường đại học uy tín tại khu vực Incheon, đào tạo đa ngành với học phí hợp lý và học bổng hấp dẫn cho sinh viên Việt Nam.",
-    "accept_gdtx": null,
+    "accept_gdtx": "top2",
     "visa_metropolitan": true,
     "master_no_topik": false,
     "custom_notes": "",
-    "top_1_percent": false
+    "top_1_percent": false,
+    "language_tuition_desc": "5,200,000-5,600,000 KRW/năm",
+    "registration_fee_desc": "50,000 KRW",
+    "insurance_fee_desc": "150,000 KRW/năm",
+    "invoice_details": "HỌC PHÍ 5,200,000-5,600,000KRW - BẢO HIỂM 150,000KRW - INVOICE 5,400,000-5,850,000KRW",
+    "dorm_fee_desc": "1,000,000-1,400,000KRW",
+    "admission_conditions": "",
+    "featured_majors": "Làm đẹp – Nghệ thuật – Diễn xuất",
+    "regional_restrictions": ""
   },
   {
     "id": "mock_uni_106",
@@ -3222,7 +3866,7 @@ export const universities = [
       "arts_sports": 4563000,
       "medicine_pharmacy": 2234000
     },
-    "dorm_fee": 1527000,
+    "dorm_fee": 1500000,
     "living_cost_est": 854000,
     "scholarships": [
       "Học bổng Chính phủ Hàn Quốc (GKS)",
@@ -3233,7 +3877,15 @@ export const universities = [
     "visa_metropolitan": false,
     "master_no_topik": false,
     "custom_notes": "",
-    "top_1_percent": false
+    "top_1_percent": true,
+    "language_tuition_desc": "6,000,000-6,400,000 KRW/năm",
+    "registration_fee_desc": "50,000 KRW",
+    "insurance_fee_desc": "150,000 KRW/năm",
+    "invoice_details": "HỌC PHÍ 6,000,000-6,400,000KRW - BẢO HIỂM 150,000 - INVOICE 6,210,000-6,650,000KRW",
+    "dorm_fee_desc": "1,200,000-1,800,000KRW",
+    "admission_conditions": "",
+    "featured_majors": "",
+    "regional_restrictions": ""
   },
   {
     "id": "mock_uni_107",
@@ -3252,7 +3904,7 @@ export const universities = [
       "arts_sports": 3314000,
       "medicine_pharmacy": 4780000
     },
-    "dorm_fee": 1251000,
+    "dorm_fee": 1100000,
     "living_cost_est": 506000,
     "scholarships": [
       "Học bổng Chính phủ Hàn Quốc (GKS)",
@@ -3263,7 +3915,15 @@ export const universities = [
     "visa_metropolitan": false,
     "master_no_topik": true,
     "custom_notes": "Trường ưu tiên phỏng vấn visa thẳng",
-    "top_1_percent": false
+    "top_1_percent": false,
+    "language_tuition_desc": "4,400,000 KRW/năm",
+    "registration_fee_desc": "50,000 KRW",
+    "insurance_fee_desc": "300,000 KRW/năm",
+    "invoice_details": "HỌC PHÍ  4,400,000KRW- BẢO HIỂM 300,000KRW- INVOICE 5,850,000KRW",
+    "dorm_fee_desc": "1,100,000KRW",
+    "admission_conditions": "",
+    "featured_majors": "Đông y – Điều dưỡng – Du lịch",
+    "regional_restrictions": ""
   },
   {
     "id": "mock_uni_108",
@@ -3282,18 +3942,26 @@ export const universities = [
       "arts_sports": 2573000,
       "medicine_pharmacy": 4974000
     },
-    "dorm_fee": 1397000,
+    "dorm_fee": 1650000,
     "living_cost_est": 758000,
     "scholarships": [
       "Học bổng Chính phủ Hàn Quốc (GKS)",
       "Học bổng khuyến khích từ đại học Sookmyung"
     ],
     "description": "Đại học Sookmyung là trường đại học uy tín tại khu vực Ulsan, đào tạo đa ngành với học phí hợp lý và học bổng hấp dẫn cho sinh viên Việt Nam.",
-    "accept_gdtx": "top2",
+    "accept_gdtx": null,
     "visa_metropolitan": false,
     "master_no_topik": false,
     "custom_notes": "",
-    "top_1_percent": false
+    "top_1_percent": true,
+    "language_tuition_desc": "6,400,000-6,800,000 KRW/năm",
+    "registration_fee_desc": "50,000 KRW",
+    "insurance_fee_desc": "150,000 KRW/năm",
+    "invoice_details": "HỌC PHÍ 6,400,000-6,800,000KRW - BẢO HIỂM 150,000KRW - INVOICE 6,610,000-7,050,000KRW",
+    "dorm_fee_desc": "1,300,000-2,000,000KRW'",
+    "admission_conditions": "",
+    "featured_majors": "Kinh doanh khách sạn, quốc tế học, ngôn ngữ Hàn",
+    "regional_restrictions": ""
   },
   {
     "id": "mock_uni_109",
@@ -3312,18 +3980,26 @@ export const universities = [
       "arts_sports": 3959000,
       "medicine_pharmacy": 2163000
     },
-    "dorm_fee": 1199000,
+    "dorm_fee": 1500000,
     "living_cost_est": 787000,
     "scholarships": [
       "Học bổng Chính phủ Hàn Quốc (GKS)",
       "Học bổng khuyến khích từ đại học Ulsan"
     ],
     "description": "Đại học Ulsan là trường đại học uy tín tại khu vực Sejong, đào tạo đa ngành với học phí hợp lý và học bổng hấp dẫn cho sinh viên Việt Nam.",
-    "accept_gdtx": "top3",
+    "accept_gdtx": "top2",
     "visa_metropolitan": false,
-    "master_no_topik": false,
+    "master_no_topik": true,
     "custom_notes": "",
-    "top_1_percent": true
+    "top_1_percent": false,
+    "language_tuition_desc": "5,200,000-5,600,000 KRW/năm",
+    "registration_fee_desc": "",
+    "insurance_fee_desc": "150,000 KRW/năm",
+    "invoice_details": "HỌC PHÍ 5,200,000-5,600,000- BẢO HIỂM 150,000- INVOICE 5,410,000-5,810,000KRW",
+    "dorm_fee_desc": "1,100,000-1,900,000KRW",
+    "admission_conditions": "",
+    "featured_majors": "Ô tô – Đóng tàu – Kỹ thuật",
+    "regional_restrictions": ""
   },
   {
     "id": "mock_uni_110",
@@ -3342,7 +4018,7 @@ export const universities = [
       "arts_sports": 2440000,
       "medicine_pharmacy": null
     },
-    "dorm_fee": 1336000,
+    "dorm_fee": 1550000,
     "living_cost_est": 756000,
     "scholarships": [
       "Học bổng Chính phủ Hàn Quốc (GKS)",
@@ -3351,9 +4027,17 @@ export const universities = [
     "description": "Đại học Youngsan là trường đại học uy tín tại khu vực Gyeonggi, đào tạo đa ngành với học phí hợp lý và học bổng hấp dẫn cho sinh viên Việt Nam.",
     "accept_gdtx": "top2",
     "visa_metropolitan": true,
-    "master_no_topik": false,
+    "master_no_topik": true,
     "custom_notes": "",
-    "top_1_percent": false
+    "top_1_percent": false,
+    "language_tuition_desc": "4,800,000 KRW/năm",
+    "registration_fee_desc": "",
+    "insurance_fee_desc": "150,000 KRW/năm",
+    "invoice_details": "HỌC PHÍ 4,800,000KRW - BẢO HIỂM 150,000KRW - INVOICE 5,000,000KRW",
+    "dorm_fee_desc": "1,300,000-1,800,000KRW",
+    "admission_conditions": "",
+    "featured_majors": "Luật – Khách sạn – Làm đẹp",
+    "regional_restrictions": ""
   },
   {
     "id": "mock_uni_111",
@@ -3372,7 +4056,7 @@ export const universities = [
       "arts_sports": 3679000,
       "medicine_pharmacy": 3607000
     },
-    "dorm_fee": 1057000,
+    "dorm_fee": 800000,
     "living_cost_est": 572000,
     "scholarships": [
       "Học bổng Chính phủ Hàn Quốc (GKS)",
@@ -3383,7 +4067,15 @@ export const universities = [
     "visa_metropolitan": false,
     "master_no_topik": true,
     "custom_notes": "",
-    "top_1_percent": true
+    "top_1_percent": false,
+    "language_tuition_desc": "4,800,000 KRW/năm",
+    "registration_fee_desc": "",
+    "insurance_fee_desc": "140,000 KRW/năm",
+    "invoice_details": "HỌC PHÍ 4,800,000- BẢO HIỂM 140,000- INVOICE 6,140,000KRW",
+    "dorm_fee_desc": "800,000KRW",
+    "admission_conditions": "",
+    "featured_majors": "Hàng hải, Kỹ thuật, Kinh doanh",
+    "regional_restrictions": ""
   },
   {
     "id": "mock_uni_112",
@@ -3432,7 +4124,7 @@ export const universities = [
       "arts_sports": 4134000,
       "medicine_pharmacy": 2725000
     },
-    "dorm_fee": 900000,
+    "dorm_fee": 450300,
     "living_cost_est": 634000,
     "scholarships": [
       "Học bổng Chính phủ Hàn Quốc (GKS)",
@@ -3443,7 +4135,15 @@ export const universities = [
     "visa_metropolitan": false,
     "master_no_topik": true,
     "custom_notes": "",
-    "top_1_percent": false
+    "top_1_percent": false,
+    "language_tuition_desc": "4,800,000 KRW/năm",
+    "registration_fee_desc": "70,000 KRW",
+    "insurance_fee_desc": "",
+    "invoice_details": "HỌC PHÍ 4,800,000KRW - INVOICE 4,870,000KRW",
+    "dorm_fee_desc": "600-900,000KRW",
+    "admission_conditions": "",
+    "featured_majors": "Hàng không – IT – Điều dưỡng",
+    "regional_restrictions": ""
   },
   {
     "id": "mock_uni_114",
@@ -3492,18 +4192,26 @@ export const universities = [
       "arts_sports": 4849000,
       "medicine_pharmacy": 2287000
     },
-    "dorm_fee": 1119000,
+    "dorm_fee": 1000000,
     "living_cost_est": 864000,
     "scholarships": [
       "Học bổng Chính phủ Hàn Quốc (GKS)",
       "Học bổng khuyến khích từ đại học Hanseo"
     ],
     "description": "Đại học Hanseo là trường đại học uy tín tại khu vực Jeonnam, đào tạo đa ngành với học phí hợp lý và học bổng hấp dẫn cho sinh viên Việt Nam.",
-    "accept_gdtx": "top3",
+    "accept_gdtx": "top2",
     "visa_metropolitan": false,
     "master_no_topik": false,
     "custom_notes": "Trường ưu tiên phỏng vấn visa thẳng",
-    "top_1_percent": true
+    "top_1_percent": false,
+    "language_tuition_desc": "5,000,000 KRW/năm",
+    "registration_fee_desc": "",
+    "insurance_fee_desc": "150,000 KRW/năm",
+    "invoice_details": "HỌC PHÍ 5,000,000KRW - BH 150,000- INVOICE 6,250,00KRW",
+    "dorm_fee_desc": "1,000,000 KRW/năm",
+    "admission_conditions": "",
+    "featured_majors": "Hàng không – Du lịch – Logistics",
+    "regional_restrictions": ""
   },
   {
     "id": "mock_uni_116",
@@ -3653,7 +4361,8 @@ export const universities = [
     "visa_metropolitan": false,
     "master_no_topik": true,
     "custom_notes": "",
-    "top_1_percent": false
+    "top_1_percent": false,
+    "is_restricted_school": true
   },
   {
     "id": "mock_uni_121",
@@ -3702,18 +4411,26 @@ export const universities = [
       "arts_sports": 4652000,
       "medicine_pharmacy": 4436000
     },
-    "dorm_fee": 1085000,
+    "dorm_fee": 405225,
     "living_cost_est": 873000,
     "scholarships": [
       "Học bổng Chính phủ Hàn Quốc (GKS)",
       "Học bổng khuyến khích từ đại học Gwangju"
     ],
     "description": "Đại học Gwangju là trường đại học uy tín tại khu vực Incheon, đào tạo đa ngành với học phí hợp lý và học bổng hấp dẫn cho sinh viên Việt Nam.",
-    "accept_gdtx": null,
+    "accept_gdtx": "top2",
     "visa_metropolitan": true,
     "master_no_topik": true,
     "custom_notes": "",
-    "top_1_percent": false
+    "top_1_percent": false,
+    "language_tuition_desc": "4,000,000 KRW/năm",
+    "registration_fee_desc": "",
+    "insurance_fee_desc": "200,000 KRW/năm",
+    "invoice_details": "HỌC PHÍ 4,000,000KRW - BẢO HIỂM 200,000KRW - INVOICE 4,600,000KRW",
+    "dorm_fee_desc": "450-810,000KRW",
+    "admission_conditions": "",
+    "featured_majors": "Làm đẹp – Thiết kế – Business",
+    "regional_restrictions": ""
   },
   {
     "id": "mock_uni_123",
@@ -3762,18 +4479,26 @@ export const universities = [
       "arts_sports": 2470000,
       "medicine_pharmacy": null
     },
-    "dorm_fee": 843000,
+    "dorm_fee": 725000,
     "living_cost_est": 752000,
     "scholarships": [
       "Học bổng Chính phủ Hàn Quốc (GKS)",
       "Học bổng khuyến khích từ đại học Kyungsung"
     ],
     "description": "Đại học Kyungsung là trường đại học uy tín tại khu vực Daejeon, đào tạo đa ngành với học phí hợp lý và học bổng hấp dẫn cho sinh viên Việt Nam.",
-    "accept_gdtx": null,
+    "accept_gdtx": "top2",
     "visa_metropolitan": false,
     "master_no_topik": true,
     "custom_notes": "Trường ưu tiên phỏng vấn visa thẳng",
-    "top_1_percent": true
+    "top_1_percent": false,
+    "language_tuition_desc": "4,400,000 KRW/năm",
+    "registration_fee_desc": "",
+    "insurance_fee_desc": "45,000 KRW/năm",
+    "invoice_details": "HỌC PHÍ 4,400,000KRW- BẢO HIỂM 45,000KRW - 4,495,000KRW",
+    "dorm_fee_desc": "550,000-900,000KRW",
+    "admission_conditions": "",
+    "featured_majors": "Thiết kế – Truyền thông – Du lịch",
+    "regional_restrictions": ""
   },
   {
     "id": "mock_uni_125",
@@ -3803,7 +4528,8 @@ export const universities = [
     "visa_metropolitan": false,
     "master_no_topik": true,
     "custom_notes": "Trường ưu tiên phỏng vấn visa thẳng",
-    "top_1_percent": false
+    "top_1_percent": false,
+    "is_restricted_school": true
   },
   {
     "id": "mock_uni_126",
@@ -3822,18 +4548,26 @@ export const universities = [
       "arts_sports": 4666000,
       "medicine_pharmacy": 2222000
     },
-    "dorm_fee": 950000,
+    "dorm_fee": 1450000,
     "living_cost_est": 703000,
     "scholarships": [
       "Học bổng Chính phủ Hàn Quốc (GKS)",
       "Học bổng khuyến khích từ đại học Silla"
     ],
     "description": "Đại học Silla là trường đại học uy tín tại khu vực Sejong, đào tạo đa ngành với học phí hợp lý và học bổng hấp dẫn cho sinh viên Việt Nam.",
-    "accept_gdtx": "top3",
+    "accept_gdtx": "top2",
     "visa_metropolitan": false,
     "master_no_topik": true,
     "custom_notes": "Trường ưu tiên phỏng vấn visa thẳng",
-    "top_1_percent": false
+    "top_1_percent": false,
+    "language_tuition_desc": "4,800,000 KRW/năm",
+    "registration_fee_desc": "",
+    "insurance_fee_desc": "150,000 KRW/năm",
+    "invoice_details": "HỌC PHÍ 4,800,000 - BẢO HIỂM 150,000- INVOICE 5,000,000KRW",
+    "dorm_fee_desc": "1,200,000-1,700,000KRW",
+    "admission_conditions": "",
+    "featured_majors": "Du lịch – Hàng không – Khách sạn",
+    "regional_restrictions": ""
   },
   {
     "id": "mock_uni_127",
@@ -3882,7 +4616,7 @@ export const universities = [
       "arts_sports": 3061000,
       "medicine_pharmacy": 3453000
     },
-    "dorm_fee": 1178000,
+    "dorm_fee": 1250000,
     "living_cost_est": 701000,
     "scholarships": [
       "Học bổng Chính phủ Hàn Quốc (GKS)",
@@ -3893,7 +4627,15 @@ export const universities = [
     "visa_metropolitan": false,
     "master_no_topik": false,
     "custom_notes": "",
-    "top_1_percent": false
+    "top_1_percent": false,
+    "language_tuition_desc": "5,200,000 KRW/năm",
+    "registration_fee_desc": "",
+    "insurance_fee_desc": "150,000 KRW/năm",
+    "invoice_details": "HỌC PHÍ 5,200,000KRW - BẢO HIỂM 150,000 - INVOICE 5,410,000KRW",
+    "dorm_fee_desc": "1,100,000-1,400,000KRW",
+    "admission_conditions": "",
+    "featured_majors": "Điện ảnh – Animation – Digital Content",
+    "regional_restrictions": ""
   },
   {
     "id": "mock_uni_129",
@@ -3912,7 +4654,7 @@ export const universities = [
       "arts_sports": null,
       "medicine_pharmacy": 3453000
     },
-    "dorm_fee": 979000,
+    "dorm_fee": 653000,
     "living_cost_est": 865000,
     "scholarships": [
       "Học bổng Chính phủ Hàn Quốc (GKS)",
@@ -3923,7 +4665,15 @@ export const universities = [
     "visa_metropolitan": false,
     "master_no_topik": false,
     "custom_notes": "",
-    "top_1_percent": false
+    "top_1_percent": false,
+    "language_tuition_desc": "6,600,000 KRW/năm",
+    "registration_fee_desc": "",
+    "insurance_fee_desc": "100,000 KRW/năm",
+    "invoice_details": "HỌC PHÍ 6,600,000KRW - BẢO HIỂM 100,000KRW - INVOICE 6,800,000KRW ",
+    "dorm_fee_desc": "653,000KRW",
+    "admission_conditions": "",
+    "featured_majors": "Thiết kế ô tô – Business – Design",
+    "regional_restrictions": ""
   },
   {
     "id": "mock_uni_130",
@@ -3942,18 +4692,26 @@ export const universities = [
       "arts_sports": 4471000,
       "medicine_pharmacy": 4442000
     },
-    "dorm_fee": 1247000,
+    "dorm_fee": 800000,
     "living_cost_est": 735000,
     "scholarships": [
       "Học bổng Chính phủ Hàn Quốc (GKS)",
       "Học bổng khuyến khích từ đại học Ajou"
     ],
     "description": "Đại học Ajou là trường đại học uy tín tại khu vực Chungnam, đào tạo đa ngành với học phí hợp lý và học bổng hấp dẫn cho sinh viên Việt Nam.",
-    "accept_gdtx": "top2",
+    "accept_gdtx": "top3",
     "visa_metropolitan": false,
     "master_no_topik": true,
     "custom_notes": "",
-    "top_1_percent": false
+    "top_1_percent": false,
+    "language_tuition_desc": "4,500,000-4,900,000 KRW/năm",
+    "registration_fee_desc": "",
+    "insurance_fee_desc": "150,000 KRW/năm",
+    "invoice_details": "7HỌC PHÍ 4,500,000-4,900,000KRW - BẢO HIỂM 150,000- INOVOICE 4,700,000-5,150,000KRW",
+    "dorm_fee_desc": "600,000-1,000,000KRW",
+    "admission_conditions": "6,0 trở lên (xem xét)",
+    "featured_majors": "",
+    "regional_restrictions": ""
   },
   {
     "id": "mock_uni_131",
@@ -3972,7 +4730,7 @@ export const universities = [
       "arts_sports": 4466000,
       "medicine_pharmacy": 3213000
     },
-    "dorm_fee": 1199000,
+    "dorm_fee": 2000000,
     "living_cost_est": 732000,
     "scholarships": [
       "Học bổng Chính phủ Hàn Quốc (GKS)",
@@ -3983,7 +4741,15 @@ export const universities = [
     "visa_metropolitan": false,
     "master_no_topik": false,
     "custom_notes": "",
-    "top_1_percent": true
+    "top_1_percent": false,
+    "language_tuition_desc": "5,200,000 KRW/năm",
+    "registration_fee_desc": "50,000 KRW",
+    "insurance_fee_desc": "200,000 KRW/năm",
+    "invoice_details": "HỌC PHÍ 5,200,000KRW - BẢO HIỂM 200,000KRW - INVOICE 5,450,000-5,490,000KRW ",
+    "dorm_fee_desc": "1,500,000-2,500,000KRW",
+    "admission_conditions": "",
+    "featured_majors": "Điều dưỡng, Hàng không, Kinh doanh",
+    "regional_restrictions": ""
   },
   {
     "id": "mock_uni_132",
@@ -4002,7 +4768,7 @@ export const universities = [
       "arts_sports": 2714000,
       "medicine_pharmacy": 3731000
     },
-    "dorm_fee": 1122000,
+    "dorm_fee": 1300000,
     "living_cost_est": 776000,
     "scholarships": [
       "Học bổng Chính phủ Hàn Quốc (GKS)",
@@ -4011,9 +4777,17 @@ export const universities = [
     "description": "Đại học Soongsil là trường đại học uy tín tại khu vực Jeonnam, đào tạo đa ngành với học phí hợp lý và học bổng hấp dẫn cho sinh viên Việt Nam.",
     "accept_gdtx": "top2",
     "visa_metropolitan": false,
-    "master_no_topik": false,
+    "master_no_topik": true,
     "custom_notes": "",
-    "top_1_percent": true
+    "top_1_percent": false,
+    "language_tuition_desc": "6,000,000-6,400,000 KRW/năm",
+    "registration_fee_desc": "50,000 KRW",
+    "insurance_fee_desc": "150,000 KRW/năm",
+    "invoice_details": "HỌC PHÍ 6,000,000-6,400,000KRW - BẢO HIỂM 150,000KRW - INVOICE 6,210,000-6,650,000KRW",
+    "dorm_fee_desc": "1,100,000-1,500,000KRW",
+    "admission_conditions": "",
+    "featured_majors": "IT – AI – Kinh doanh",
+    "regional_restrictions": ""
   },
   {
     "id": "mock_uni_133",
@@ -4032,18 +4806,26 @@ export const universities = [
       "arts_sports": 3020000,
       "medicine_pharmacy": null
     },
-    "dorm_fee": 815000,
+    "dorm_fee": 1000000,
     "living_cost_est": 533000,
     "scholarships": [
       "Học bổng Chính phủ Hàn Quốc (GKS)",
       "Học bổng khuyến khích từ đại học Konyang"
     ],
     "description": "Đại học Konyang là trường đại học uy tín tại khu vực Gyeongbuk, đào tạo đa ngành với học phí hợp lý và học bổng hấp dẫn cho sinh viên Việt Nam.",
-    "accept_gdtx": "top3",
+    "accept_gdtx": "top2",
     "visa_metropolitan": false,
     "master_no_topik": true,
     "custom_notes": "",
-    "top_1_percent": false
+    "top_1_percent": false,
+    "language_tuition_desc": "4,400,000 KRW/năm",
+    "registration_fee_desc": "60,000 KRW",
+    "insurance_fee_desc": "140,000 KRW/năm",
+    "invoice_details": "HỌC PHÍ 4,400,000KRW - BẢO HIỂM 140,000- INOVICE 5,760,000KRW",
+    "dorm_fee_desc": "1,000,000KRW",
+    "admission_conditions": "7,0 trở lên\n- vắng ko quá 5 buổi (nhiều hơn cần giải trình)",
+    "featured_majors": "Y khoa – Điều dưỡng – AI y tế",
+    "regional_restrictions": ""
   },
   {
     "id": "mock_uni_134",
@@ -4062,7 +4844,7 @@ export const universities = [
       "arts_sports": null,
       "medicine_pharmacy": 3924000
     },
-    "dorm_fee": 890000,
+    "dorm_fee": 1550000,
     "living_cost_est": 518000,
     "scholarships": [
       "Học bổng Chính phủ Hàn Quốc (GKS)",
@@ -4073,7 +4855,15 @@ export const universities = [
     "visa_metropolitan": false,
     "master_no_topik": false,
     "custom_notes": "",
-    "top_1_percent": false
+    "top_1_percent": false,
+    "language_tuition_desc": "4,800,000-5,200,000 KRW/năm",
+    "registration_fee_desc": "",
+    "insurance_fee_desc": "150,000 KRW/năm",
+    "invoice_details": "HỌC PHÍ 4,800,000-5,200,000KRW - BẢO HIỂM 150,000 - INVOICE 5,000,000-5,400,000KRW",
+    "dorm_fee_desc": "1,300,000-1,800,000KRW",
+    "admission_conditions": "",
+    "featured_majors": "Y khoa – Business – Ngôn ngữ",
+    "regional_restrictions": ""
   },
   {
     "id": "mock_uni_135",
@@ -4103,7 +4893,8 @@ export const universities = [
     "visa_metropolitan": false,
     "master_no_topik": true,
     "custom_notes": "",
-    "top_1_percent": false
+    "top_1_percent": false,
+    "is_restricted_school": true
   },
   {
     "id": "mock_uni_136",
@@ -4122,18 +4913,26 @@ export const universities = [
       "arts_sports": 3969000,
       "medicine_pharmacy": 4009000
     },
-    "dorm_fee": 1205000,
+    "dorm_fee": 1300000,
     "living_cost_est": 562000,
     "scholarships": [
       "Học bổng Chính phủ Hàn Quốc (GKS)",
       "Học bổng khuyến khích từ đại học Hansung"
     ],
     "description": "Đại học Hansung là trường đại học uy tín tại khu vực Seoul, đào tạo đa ngành với học phí hợp lý và học bổng hấp dẫn cho sinh viên Việt Nam.",
-    "accept_gdtx": null,
+    "accept_gdtx": "top2",
     "visa_metropolitan": true,
     "master_no_topik": false,
     "custom_notes": "",
-    "top_1_percent": false
+    "top_1_percent": false,
+    "language_tuition_desc": "5,600,000 KRW/năm",
+    "registration_fee_desc": "",
+    "insurance_fee_desc": "150,000 KRW/năm",
+    "invoice_details": "HỌC PHÍ 5,600,000KRW - BẢO HIỂM 150,000- INVOICE 7,270,00KRW",
+    "dorm_fee_desc": "1,300,000KRW",
+    "admission_conditions": "",
+    "featured_majors": "Thiết kế – IT – Fashion",
+    "regional_restrictions": ""
   },
   {
     "id": "mock_uni_137",
@@ -4152,18 +4951,26 @@ export const universities = [
       "arts_sports": 3609000,
       "medicine_pharmacy": 3425000
     },
-    "dorm_fee": 1013000,
+    "dorm_fee": 11824000,
     "living_cost_est": 733000,
     "scholarships": [
       "Học bổng Chính phủ Hàn Quốc (GKS)",
       "Học bổng khuyến khích từ đại học Gachon"
     ],
     "description": "Đại học Gachon là trường đại học uy tín tại khu vực Busan, đào tạo đa ngành với học phí hợp lý và học bổng hấp dẫn cho sinh viên Việt Nam.",
-    "accept_gdtx": null,
+    "accept_gdtx": "top2",
     "visa_metropolitan": false,
     "master_no_topik": true,
     "custom_notes": "Trường ưu tiên phỏng vấn visa thẳng",
-    "top_1_percent": false
+    "top_1_percent": false,
+    "language_tuition_desc": "5,200,000 KRW/năm",
+    "registration_fee_desc": "70,000 KRW",
+    "insurance_fee_desc": "270,000 KRW/năm",
+    "invoice_details": "5,200,000 KRW PHÍ NHẬP HỌC 70,000KRW  INVOICE CƠ BẢN 5,270,000KRW",
+    "dorm_fee_desc": "1,182,4000KRW",
+    "admission_conditions": "",
+    "featured_majors": "Y khoa – AI – Quản trị kinh doanh",
+    "regional_restrictions": ""
   },
   {
     "id": "mock_uni_138",
@@ -4182,18 +4989,26 @@ export const universities = [
       "arts_sports": 3938000,
       "medicine_pharmacy": 3752000
     },
-    "dorm_fee": 1193000,
+    "dorm_fee": 1400000,
     "living_cost_est": 782000,
     "scholarships": [
       "Học bổng Chính phủ Hàn Quốc (GKS)",
       "Học bổng khuyến khích từ đại học Dankook"
     ],
     "description": "Đại học Dankook là trường đại học uy tín tại khu vực Daegu, đào tạo đa ngành với học phí hợp lý và học bổng hấp dẫn cho sinh viên Việt Nam.",
-    "accept_gdtx": "top3",
+    "accept_gdtx": "top2",
     "visa_metropolitan": false,
     "master_no_topik": false,
     "custom_notes": "",
-    "top_1_percent": false
+    "top_1_percent": false,
+    "language_tuition_desc": "5,600,000 KRW/năm",
+    "registration_fee_desc": "",
+    "insurance_fee_desc": "200,000 KRW/năm",
+    "invoice_details": "HỌC PHÍ 5,600,000KRW - BẢO HÊM 200,000KRW - INVOICE 7,300,000KRW",
+    "dorm_fee_desc": "1,400,000KRW",
+    "admission_conditions": "",
+    "featured_majors": "Nha khoa – Business – Truyền thông",
+    "regional_restrictions": ""
   },
   {
     "id": "mock_uni_139",
@@ -4212,7 +5027,7 @@ export const universities = [
       "arts_sports": 2506000,
       "medicine_pharmacy": null
     },
-    "dorm_fee": 1338000,
+    "dorm_fee": 1500000,
     "living_cost_est": 515000,
     "scholarships": [
       "Học bổng Chính phủ Hàn Quốc (GKS)",
@@ -4223,7 +5038,15 @@ export const universities = [
     "visa_metropolitan": true,
     "master_no_topik": true,
     "custom_notes": "",
-    "top_1_percent": false
+    "top_1_percent": false,
+    "language_tuition_desc": "4,800,000-5,200,000 KRW/năm",
+    "registration_fee_desc": "",
+    "insurance_fee_desc": "150,000 KRW/năm",
+    "invoice_details": "HỌC PHÍ 4,800,000-5,200,000KRW - BẢO HIỂM 150,000- INVOICE 5,000,000-5,400,000KRW",
+    "dorm_fee_desc": "1,200,000-1,800,000KRW",
+    "admission_conditions": "",
+    "featured_majors": "Nha khoa – Y khoa – Kỹ thuật",
+    "regional_restrictions": ""
   },
   {
     "id": "mock_uni_140",
@@ -4242,18 +5065,26 @@ export const universities = [
       "arts_sports": 4399000,
       "medicine_pharmacy": 2289000
     },
-    "dorm_fee": 1400000,
+    "dorm_fee": 810000,
     "living_cost_est": 610000,
     "scholarships": [
       "Học bổng Chính phủ Hàn Quốc (GKS)",
       "Học bổng khuyến khích từ đại học Dong-A"
     ],
     "description": "Đại học Dong-A là trường đại học uy tín tại khu vực Gwangju, đào tạo đa ngành với học phí hợp lý và học bổng hấp dẫn cho sinh viên Việt Nam.",
-    "accept_gdtx": "top3",
+    "accept_gdtx": "top2",
     "visa_metropolitan": false,
     "master_no_topik": true,
     "custom_notes": "",
-    "top_1_percent": true
+    "top_1_percent": false,
+    "language_tuition_desc": "5,200,000 KRW/năm",
+    "registration_fee_desc": "",
+    "insurance_fee_desc": "150,000 KRW/năm",
+    "invoice_details": "HỌC PHÍ 5,200,000- BẢO HIỂM 150,000 - INVOICE 5,400,000KRW",
+    "dorm_fee_desc": "700,000-920,000KRW",
+    "admission_conditions": "- 7.0 trở lên\n- vắng không quá 10 buổi",
+    "featured_majors": "Y khoa – Luật – Kinh doanh",
+    "regional_restrictions": "Không nhận Quảng Bình"
   },
   {
     "id": "mock_uni_141",
@@ -4272,18 +5103,26 @@ export const universities = [
       "arts_sports": 2151000,
       "medicine_pharmacy": 2266000
     },
-    "dorm_fee": 1312000,
+    "dorm_fee": 2150000,
     "living_cost_est": 735000,
     "scholarships": [
       "Học bổng Chính phủ Hàn Quốc (GKS)",
       "Học bổng khuyến khích từ đại học Pukyong"
     ],
     "description": "Đại học Pukyong là trường đại học uy tín tại khu vực Daejeon, đào tạo đa ngành với học phí hợp lý và học bổng hấp dẫn cho sinh viên Việt Nam.",
-    "accept_gdtx": "top3",
+    "accept_gdtx": "top2",
     "visa_metropolitan": false,
     "master_no_topik": false,
     "custom_notes": "Trường ưu tiên phỏng vấn visa thẳng",
-    "top_1_percent": false
+    "top_1_percent": false,
+    "language_tuition_desc": "5,200,000 KRW/năm",
+    "registration_fee_desc": "",
+    "insurance_fee_desc": "110,000 KRW/năm",
+    "invoice_details": "HỌC PHÍ 5,200,000KRW - BẢO HIỂM 110,000KRW - INVOICE 5,410,000KRW ",
+    "dorm_fee_desc": "1,700,000-2,600,000KRW",
+    "admission_conditions": "",
+    "featured_majors": "Hải dương – Thủy sản – Logistics",
+    "regional_restrictions": ""
   },
   {
     "id": "mock_uni_142",
@@ -4302,18 +5141,27 @@ export const universities = [
       "arts_sports": 2862000,
       "medicine_pharmacy": 4188000
     },
-    "dorm_fee": 1584000,
+    "dorm_fee": 542920,
     "living_cost_est": 696000,
     "scholarships": [
       "Học bổng Chính phủ Hàn Quốc (GKS)",
       "Học bổng khuyến khích từ đại học Changwon"
     ],
     "description": "Đại học Changwon là trường đại học uy tín tại khu vực Ulsan, đào tạo đa ngành với học phí hợp lý và học bổng hấp dẫn cho sinh viên Việt Nam.",
-    "accept_gdtx": null,
+    "accept_gdtx": "top2",
     "visa_metropolitan": false,
     "master_no_topik": false,
     "custom_notes": "",
-    "top_1_percent": false
+    "top_1_percent": false,
+    "language_tuition_desc": "4,800,000 KRW/năm",
+    "registration_fee_desc": "",
+    "insurance_fee_desc": "150,000 KRW/năm",
+    "invoice_details": "HỌC PHÍ 4,800,000KRW - BẢO HIỂM 150,000KRW - INVOICE 5,020,000KRW",
+    "dorm_fee_desc": "471,520-614,320 KRW",
+    "admission_conditions": "",
+    "featured_majors": "Cơ khí – Robot – Công nghiệp",
+    "regional_restrictions": "",
+    "is_restricted_school": true
   },
   {
     "id": "mock_uni_143",
@@ -4362,7 +5210,7 @@ export const universities = [
       "arts_sports": null,
       "medicine_pharmacy": 2048000
     },
-    "dorm_fee": 935000,
+    "dorm_fee": 1000000,
     "living_cost_est": 768000,
     "scholarships": [
       "Học bổng Chính phủ Hàn Quốc (GKS)",
@@ -4371,9 +5219,17 @@ export const universities = [
     "description": "Đại học Myongji là trường đại học uy tín tại khu vực Gyeonggi, đào tạo đa ngành với học phí hợp lý và học bổng hấp dẫn cho sinh viên Việt Nam.",
     "accept_gdtx": "top2",
     "visa_metropolitan": true,
-    "master_no_topik": false,
+    "master_no_topik": true,
     "custom_notes": "",
-    "top_1_percent": false
+    "top_1_percent": false,
+    "language_tuition_desc": "5,000,000 KRW/năm",
+    "registration_fee_desc": "",
+    "insurance_fee_desc": "150,000 KRW/năm",
+    "invoice_details": "HỌC PHÍ 5,000,000KRW - BẢO HIỂM 150,000KRW - INVOICE 5,200,000KRW",
+    "dorm_fee_desc": "800,000-1,200,000KRW",
+    "admission_conditions": "",
+    "featured_majors": "Thiết kế – Diễn xuất – Truyền thông",
+    "regional_restrictions": ""
   },
   {
     "id": "mock_uni_145",
@@ -4452,7 +5308,7 @@ export const universities = [
       "arts_sports": 4363000,
       "medicine_pharmacy": 2449000
     },
-    "dorm_fee": 1175000,
+    "dorm_fee": 1600000,
     "living_cost_est": 746000,
     "scholarships": [
       "Học bổng Chính phủ Hàn Quốc (GKS)",
@@ -4463,7 +5319,15 @@ export const universities = [
     "visa_metropolitan": false,
     "master_no_topik": true,
     "custom_notes": "Trường ưu tiên phỏng vấn visa thẳng",
-    "top_1_percent": true
+    "top_1_percent": false,
+    "language_tuition_desc": "7,100,000 KRW/năm",
+    "registration_fee_desc": "",
+    "insurance_fee_desc": "150,000 KRW/năm",
+    "invoice_details": "HỌC PHÍ 7,100,000KRW - BẢO HIỂM 150,000- INVOICE 9,210,000KRW",
+    "dorm_fee_desc": "1,600,000KRW",
+    "admission_conditions": "",
+    "featured_majors": "Mỹ thuật – Thiết kế – Kiến trúc",
+    "regional_restrictions": ""
   },
   {
     "id": "mock_uni_148",
@@ -4482,18 +5346,26 @@ export const universities = [
       "arts_sports": 3313000,
       "medicine_pharmacy": 4345000
     },
-    "dorm_fee": 1334000,
+    "dorm_fee": 1200000,
     "living_cost_est": 614000,
     "scholarships": [
       "Học bổng Chính phủ Hàn Quốc (GKS)",
       "Học bổng khuyến khích từ đại học Seokyeong"
     ],
     "description": "Đại học Seokyeong là trường đại học uy tín tại khu vực Jeonbuk, đào tạo đa ngành với học phí hợp lý và học bổng hấp dẫn cho sinh viên Việt Nam.",
-    "accept_gdtx": null,
+    "accept_gdtx": "top2",
     "visa_metropolitan": false,
     "master_no_topik": true,
     "custom_notes": "Trường ưu tiên phỏng vấn visa thẳng",
-    "top_1_percent": true
+    "top_1_percent": false,
+    "language_tuition_desc": "5,200,000-5,600,000 KRW/năm",
+    "registration_fee_desc": "50,000 KRW",
+    "insurance_fee_desc": "150,000 KRW/năm",
+    "invoice_details": "HỌC PHÍ 5,200,000-5,600,000KRW - BẢO HIỂM 150,000KRW - INVOICE 5,400,000-5,850,000KRW",
+    "dorm_fee_desc": "1,000,000-1,400,000KRW",
+    "admission_conditions": "",
+    "featured_majors": "Làm đẹp – Nghệ thuật – Diễn xuất",
+    "regional_restrictions": ""
   },
   {
     "id": "mock_uni_149",
@@ -4512,7 +5384,7 @@ export const universities = [
       "arts_sports": 3344000,
       "medicine_pharmacy": 4364000
     },
-    "dorm_fee": 1166000,
+    "dorm_fee": 1500000,
     "living_cost_est": 581000,
     "scholarships": [
       "Học bổng Chính phủ Hàn Quốc (GKS)",
@@ -4523,7 +5395,15 @@ export const universities = [
     "visa_metropolitan": false,
     "master_no_topik": false,
     "custom_notes": "Trường ưu tiên phỏng vấn visa thẳng",
-    "top_1_percent": false
+    "top_1_percent": true,
+    "language_tuition_desc": "6,000,000-6,400,000 KRW/năm",
+    "registration_fee_desc": "50,000 KRW",
+    "insurance_fee_desc": "150,000 KRW/năm",
+    "invoice_details": "HỌC PHÍ 6,000,000-6,400,000KRW - BẢO HIỂM 150,000 - INVOICE 6,210,000-6,650,000KRW",
+    "dorm_fee_desc": "1,200,000-1,800,000KRW",
+    "admission_conditions": "",
+    "featured_majors": "",
+    "regional_restrictions": ""
   },
   {
     "id": "mock_uni_150",
@@ -4542,18 +5422,26 @@ export const universities = [
       "arts_sports": 4590000,
       "medicine_pharmacy": 3465000
     },
-    "dorm_fee": 840000,
+    "dorm_fee": 1100000,
     "living_cost_est": 504000,
     "scholarships": [
       "Học bổng Chính phủ Hàn Quốc (GKS)",
       "Học bổng khuyến khích từ đại học Semyung"
     ],
     "description": "Đại học Semyung là trường đại học uy tín tại khu vực Gyeongbuk, đào tạo đa ngành với học phí hợp lý và học bổng hấp dẫn cho sinh viên Việt Nam.",
-    "accept_gdtx": null,
+    "accept_gdtx": "top2",
     "visa_metropolitan": false,
     "master_no_topik": true,
     "custom_notes": "Trường ưu tiên phỏng vấn visa thẳng",
-    "top_1_percent": true
+    "top_1_percent": false,
+    "language_tuition_desc": "4,400,000 KRW/năm",
+    "registration_fee_desc": "50,000 KRW",
+    "insurance_fee_desc": "300,000 KRW/năm",
+    "invoice_details": "HỌC PHÍ  4,400,000KRW- BẢO HIỂM 300,000KRW- INVOICE 5,850,000KRW",
+    "dorm_fee_desc": "1,100,000KRW",
+    "admission_conditions": "",
+    "featured_majors": "Đông y – Điều dưỡng – Du lịch",
+    "regional_restrictions": ""
   },
   {
     "id": "mock_uni_151",
@@ -4572,18 +5460,26 @@ export const universities = [
       "arts_sports": 2108000,
       "medicine_pharmacy": 2206000
     },
-    "dorm_fee": 1080000,
+    "dorm_fee": 1650000,
     "living_cost_est": 563000,
     "scholarships": [
       "Học bổng Chính phủ Hàn Quốc (GKS)",
       "Học bổng khuyến khích từ đại học Sookmyung"
     ],
     "description": "Đại học Sookmyung là trường đại học uy tín tại khu vực Gyeongnam, đào tạo đa ngành với học phí hợp lý và học bổng hấp dẫn cho sinh viên Việt Nam.",
-    "accept_gdtx": "top2",
+    "accept_gdtx": null,
     "visa_metropolitan": false,
     "master_no_topik": true,
     "custom_notes": "",
-    "top_1_percent": false
+    "top_1_percent": true,
+    "language_tuition_desc": "6,400,000-6,800,000 KRW/năm",
+    "registration_fee_desc": "50,000 KRW",
+    "insurance_fee_desc": "150,000 KRW/năm",
+    "invoice_details": "HỌC PHÍ 6,400,000-6,800,000KRW - BẢO HIỂM 150,000KRW - INVOICE 6,610,000-7,050,000KRW",
+    "dorm_fee_desc": "1,300,000-2,000,000KRW'",
+    "admission_conditions": "",
+    "featured_majors": "Kinh doanh khách sạn, quốc tế học, ngôn ngữ Hàn",
+    "regional_restrictions": ""
   },
   {
     "id": "mock_uni_152",
@@ -4602,7 +5498,7 @@ export const universities = [
       "arts_sports": 2536000,
       "medicine_pharmacy": 2100000
     },
-    "dorm_fee": 1276000,
+    "dorm_fee": 1500000,
     "living_cost_est": 877000,
     "scholarships": [
       "Học bổng Chính phủ Hàn Quốc (GKS)",
@@ -4613,7 +5509,15 @@ export const universities = [
     "visa_metropolitan": false,
     "master_no_topik": true,
     "custom_notes": "Trường ưu tiên phỏng vấn visa thẳng",
-    "top_1_percent": false
+    "top_1_percent": false,
+    "language_tuition_desc": "5,200,000-5,600,000 KRW/năm",
+    "registration_fee_desc": "",
+    "insurance_fee_desc": "150,000 KRW/năm",
+    "invoice_details": "HỌC PHÍ 5,200,000-5,600,000- BẢO HIỂM 150,000- INVOICE 5,410,000-5,810,000KRW",
+    "dorm_fee_desc": "1,100,000-1,900,000KRW",
+    "admission_conditions": "",
+    "featured_majors": "Ô tô – Đóng tàu – Kỹ thuật",
+    "regional_restrictions": ""
   },
   {
     "id": "mock_uni_153",
@@ -4632,7 +5536,7 @@ export const universities = [
       "arts_sports": 2675000,
       "medicine_pharmacy": 3984000
     },
-    "dorm_fee": 1122000,
+    "dorm_fee": 1550000,
     "living_cost_est": 827000,
     "scholarships": [
       "Học bổng Chính phủ Hàn Quốc (GKS)",
@@ -4641,9 +5545,17 @@ export const universities = [
     "description": "Đại học Youngsan là trường đại học uy tín tại khu vực Seoul, đào tạo đa ngành với học phí hợp lý và học bổng hấp dẫn cho sinh viên Việt Nam.",
     "accept_gdtx": "top2",
     "visa_metropolitan": true,
-    "master_no_topik": false,
+    "master_no_topik": true,
     "custom_notes": "",
-    "top_1_percent": false
+    "top_1_percent": false,
+    "language_tuition_desc": "4,800,000 KRW/năm",
+    "registration_fee_desc": "",
+    "insurance_fee_desc": "150,000 KRW/năm",
+    "invoice_details": "HỌC PHÍ 4,800,000KRW - BẢO HIỂM 150,000KRW - INVOICE 5,000,000KRW",
+    "dorm_fee_desc": "1,300,000-1,800,000KRW",
+    "admission_conditions": "",
+    "featured_majors": "Luật – Khách sạn – Làm đẹp",
+    "regional_restrictions": ""
   },
   {
     "id": "mock_uni_154",
@@ -4662,18 +5574,26 @@ export const universities = [
       "arts_sports": 4856000,
       "medicine_pharmacy": null
     },
-    "dorm_fee": 1192000,
+    "dorm_fee": 800000,
     "living_cost_est": 537000,
     "scholarships": [
       "Học bổng Chính phủ Hàn Quốc (GKS)",
       "Học bổng khuyến khích từ đại học Kunsan"
     ],
     "description": "Đại học Kunsan là trường đại học uy tín tại khu vực Busan, đào tạo đa ngành với học phí hợp lý và học bổng hấp dẫn cho sinh viên Việt Nam.",
-    "accept_gdtx": "top3",
+    "accept_gdtx": "top2",
     "visa_metropolitan": false,
     "master_no_topik": true,
     "custom_notes": "",
-    "top_1_percent": false
+    "top_1_percent": false,
+    "language_tuition_desc": "4,800,000 KRW/năm",
+    "registration_fee_desc": "",
+    "insurance_fee_desc": "140,000 KRW/năm",
+    "invoice_details": "HỌC PHÍ 4,800,000- BẢO HIỂM 140,000- INVOICE 6,140,000KRW",
+    "dorm_fee_desc": "800,000KRW",
+    "admission_conditions": "",
+    "featured_majors": "Hàng hải, Kỹ thuật, Kinh doanh",
+    "regional_restrictions": ""
   },
   {
     "id": "mock_uni_155",
@@ -4722,18 +5642,26 @@ export const universities = [
       "arts_sports": 2697000,
       "medicine_pharmacy": 3885000
     },
-    "dorm_fee": 1189000,
+    "dorm_fee": 450300,
     "living_cost_est": 735000,
     "scholarships": [
       "Học bổng Chính phủ Hàn Quốc (GKS)",
       "Học bổng khuyến khích từ đại học Kyungwoon"
     ],
     "description": "Đại học Kyungwoon là trường đại học uy tín tại khu vực Incheon, đào tạo đa ngành với học phí hợp lý và học bổng hấp dẫn cho sinh viên Việt Nam.",
-    "accept_gdtx": "top3",
+    "accept_gdtx": "top2",
     "visa_metropolitan": true,
     "master_no_topik": true,
     "custom_notes": "",
-    "top_1_percent": false
+    "top_1_percent": false,
+    "language_tuition_desc": "4,800,000 KRW/năm",
+    "registration_fee_desc": "70,000 KRW",
+    "insurance_fee_desc": "",
+    "invoice_details": "HỌC PHÍ 4,800,000KRW - INVOICE 4,870,000KRW",
+    "dorm_fee_desc": "600-900,000KRW",
+    "admission_conditions": "",
+    "featured_majors": "Hàng không – IT – Điều dưỡng",
+    "regional_restrictions": ""
   },
   {
     "id": "mock_uni_157",
@@ -4782,7 +5710,7 @@ export const universities = [
       "arts_sports": 2175000,
       "medicine_pharmacy": 2367000
     },
-    "dorm_fee": 1143000,
+    "dorm_fee": 1000000,
     "living_cost_est": 565000,
     "scholarships": [
       "Học bổng Chính phủ Hàn Quốc (GKS)",
@@ -4793,7 +5721,15 @@ export const universities = [
     "visa_metropolitan": false,
     "master_no_topik": true,
     "custom_notes": "",
-    "top_1_percent": true
+    "top_1_percent": false,
+    "language_tuition_desc": "5,000,000 KRW/năm",
+    "registration_fee_desc": "",
+    "insurance_fee_desc": "150,000 KRW/năm",
+    "invoice_details": "HỌC PHÍ 5,000,000KRW - BH 150,000- INVOICE 6,250,00KRW",
+    "dorm_fee_desc": "1,000,000 KRW/năm",
+    "admission_conditions": "",
+    "featured_majors": "Hàng không – Du lịch – Logistics",
+    "regional_restrictions": ""
   },
   {
     "id": "mock_uni_159",
@@ -4943,7 +5879,8 @@ export const universities = [
     "visa_metropolitan": false,
     "master_no_topik": false,
     "custom_notes": "",
-    "top_1_percent": false
+    "top_1_percent": false,
+    "is_restricted_school": true
   },
   {
     "id": "mock_uni_164",
@@ -4992,18 +5929,26 @@ export const universities = [
       "arts_sports": 2477000,
       "medicine_pharmacy": 3127000
     },
-    "dorm_fee": 1276000,
+    "dorm_fee": 405225,
     "living_cost_est": 771000,
     "scholarships": [
       "Học bổng Chính phủ Hàn Quốc (GKS)",
       "Học bổng khuyến khích từ đại học Gwangju"
     ],
     "description": "Đại học Gwangju là trường đại học uy tín tại khu vực Jeonbuk, đào tạo đa ngành với học phí hợp lý và học bổng hấp dẫn cho sinh viên Việt Nam.",
-    "accept_gdtx": null,
+    "accept_gdtx": "top2",
     "visa_metropolitan": false,
     "master_no_topik": true,
     "custom_notes": "",
-    "top_1_percent": true
+    "top_1_percent": false,
+    "language_tuition_desc": "4,000,000 KRW/năm",
+    "registration_fee_desc": "",
+    "insurance_fee_desc": "200,000 KRW/năm",
+    "invoice_details": "HỌC PHÍ 4,000,000KRW - BẢO HIỂM 200,000KRW - INVOICE 4,600,000KRW",
+    "dorm_fee_desc": "450-810,000KRW",
+    "admission_conditions": "",
+    "featured_majors": "Làm đẹp – Thiết kế – Business",
+    "regional_restrictions": ""
   },
   {
     "id": "mock_uni_166",
@@ -5052,18 +5997,26 @@ export const universities = [
       "arts_sports": 3677000,
       "medicine_pharmacy": 4940000
     },
-    "dorm_fee": 821000,
+    "dorm_fee": 725000,
     "living_cost_est": 812000,
     "scholarships": [
       "Học bổng Chính phủ Hàn Quốc (GKS)",
       "Học bổng khuyến khích từ đại học Kyungsung"
     ],
     "description": "Đại học Kyungsung là trường đại học uy tín tại khu vực Gyeongbuk, đào tạo đa ngành với học phí hợp lý và học bổng hấp dẫn cho sinh viên Việt Nam.",
-    "accept_gdtx": null,
+    "accept_gdtx": "top2",
     "visa_metropolitan": false,
     "master_no_topik": false,
     "custom_notes": "Trường ưu tiên phỏng vấn visa thẳng",
-    "top_1_percent": false
+    "top_1_percent": false,
+    "language_tuition_desc": "4,400,000 KRW/năm",
+    "registration_fee_desc": "",
+    "insurance_fee_desc": "45,000 KRW/năm",
+    "invoice_details": "HỌC PHÍ 4,400,000KRW- BẢO HIỂM 45,000KRW - 4,495,000KRW",
+    "dorm_fee_desc": "550,000-900,000KRW",
+    "admission_conditions": "",
+    "featured_majors": "Thiết kế – Truyền thông – Du lịch",
+    "regional_restrictions": ""
   },
   {
     "id": "mock_uni_168",
@@ -5093,7 +6046,8 @@ export const universities = [
     "visa_metropolitan": false,
     "master_no_topik": true,
     "custom_notes": "",
-    "top_1_percent": false
+    "top_1_percent": false,
+    "is_restricted_school": true
   },
   {
     "id": "mock_uni_169",
@@ -5112,18 +6066,26 @@ export const universities = [
       "arts_sports": 2866000,
       "medicine_pharmacy": 2893000
     },
-    "dorm_fee": 965000,
+    "dorm_fee": 1450000,
     "living_cost_est": 741000,
     "scholarships": [
       "Học bổng Chính phủ Hàn Quốc (GKS)",
       "Học bổng khuyến khích từ đại học Silla"
     ],
     "description": "Đại học Silla là trường đại học uy tín tại khu vực Jeju, đào tạo đa ngành với học phí hợp lý và học bổng hấp dẫn cho sinh viên Việt Nam.",
-    "accept_gdtx": "top3",
+    "accept_gdtx": "top2",
     "visa_metropolitan": false,
     "master_no_topik": true,
     "custom_notes": "",
-    "top_1_percent": false
+    "top_1_percent": false,
+    "language_tuition_desc": "4,800,000 KRW/năm",
+    "registration_fee_desc": "",
+    "insurance_fee_desc": "150,000 KRW/năm",
+    "invoice_details": "HỌC PHÍ 4,800,000 - BẢO HIỂM 150,000- INVOICE 5,000,000KRW",
+    "dorm_fee_desc": "1,200,000-1,700,000KRW",
+    "admission_conditions": "",
+    "featured_majors": "Du lịch – Hàng không – Khách sạn",
+    "regional_restrictions": ""
   },
   {
     "id": "mock_uni_170",
@@ -5172,7 +6134,7 @@ export const universities = [
       "arts_sports": 4275000,
       "medicine_pharmacy": 3476000
     },
-    "dorm_fee": 1552000,
+    "dorm_fee": 1250000,
     "living_cost_est": 556000,
     "scholarships": [
       "Học bổng Chính phủ Hàn Quốc (GKS)",
@@ -5183,7 +6145,15 @@ export const universities = [
     "visa_metropolitan": false,
     "master_no_topik": true,
     "custom_notes": "",
-    "top_1_percent": false
+    "top_1_percent": false,
+    "language_tuition_desc": "5,200,000 KRW/năm",
+    "registration_fee_desc": "",
+    "insurance_fee_desc": "150,000 KRW/năm",
+    "invoice_details": "HỌC PHÍ 5,200,000KRW - BẢO HIỂM 150,000 - INVOICE 5,410,000KRW",
+    "dorm_fee_desc": "1,100,000-1,400,000KRW",
+    "admission_conditions": "",
+    "featured_majors": "Điện ảnh – Animation – Digital Content",
+    "regional_restrictions": ""
   },
   {
     "id": "mock_uni_172",
@@ -5202,7 +6172,7 @@ export const universities = [
       "arts_sports": 4168000,
       "medicine_pharmacy": 2149000
     },
-    "dorm_fee": 984000,
+    "dorm_fee": 653000,
     "living_cost_est": 634000,
     "scholarships": [
       "Học bổng Chính phủ Hàn Quốc (GKS)",
@@ -5213,7 +6183,15 @@ export const universities = [
     "visa_metropolitan": false,
     "master_no_topik": true,
     "custom_notes": "",
-    "top_1_percent": false
+    "top_1_percent": false,
+    "language_tuition_desc": "6,600,000 KRW/năm",
+    "registration_fee_desc": "",
+    "insurance_fee_desc": "100,000 KRW/năm",
+    "invoice_details": "HỌC PHÍ 6,600,000KRW - BẢO HIỂM 100,000KRW - INVOICE 6,800,000KRW ",
+    "dorm_fee_desc": "653,000KRW",
+    "admission_conditions": "",
+    "featured_majors": "Thiết kế ô tô – Business – Design",
+    "regional_restrictions": ""
   },
   {
     "id": "mock_uni_173",
@@ -5232,18 +6210,26 @@ export const universities = [
       "arts_sports": 4387000,
       "medicine_pharmacy": 4571000
     },
-    "dorm_fee": 1077000,
+    "dorm_fee": 800000,
     "living_cost_est": 638000,
     "scholarships": [
       "Học bổng Chính phủ Hàn Quốc (GKS)",
       "Học bổng khuyến khích từ đại học Ajou"
     ],
     "description": "Đại học Ajou là trường đại học uy tín tại khu vực Incheon, đào tạo đa ngành với học phí hợp lý và học bổng hấp dẫn cho sinh viên Việt Nam.",
-    "accept_gdtx": null,
+    "accept_gdtx": "top3",
     "visa_metropolitan": true,
     "master_no_topik": true,
     "custom_notes": "",
-    "top_1_percent": false
+    "top_1_percent": false,
+    "language_tuition_desc": "4,500,000-4,900,000 KRW/năm",
+    "registration_fee_desc": "",
+    "insurance_fee_desc": "150,000 KRW/năm",
+    "invoice_details": "7HỌC PHÍ 4,500,000-4,900,000KRW - BẢO HIỂM 150,000- INOVOICE 4,700,000-5,150,000KRW",
+    "dorm_fee_desc": "600,000-1,000,000KRW",
+    "admission_conditions": "6,0 trở lên (xem xét)",
+    "featured_majors": "",
+    "regional_restrictions": ""
   },
   {
     "id": "mock_uni_174",
@@ -5262,18 +6248,26 @@ export const universities = [
       "arts_sports": 4069000,
       "medicine_pharmacy": 3138000
     },
-    "dorm_fee": 916000,
+    "dorm_fee": 2000000,
     "living_cost_est": 871000,
     "scholarships": [
       "Học bổng Chính phủ Hàn Quốc (GKS)",
       "Học bổng khuyến khích từ đại học Inha"
     ],
     "description": "Đại học Inha là trường đại học uy tín tại khu vực Gwangju, đào tạo đa ngành với học phí hợp lý và học bổng hấp dẫn cho sinh viên Việt Nam.",
-    "accept_gdtx": null,
+    "accept_gdtx": "top2",
     "visa_metropolitan": false,
     "master_no_topik": false,
     "custom_notes": "",
-    "top_1_percent": false
+    "top_1_percent": false,
+    "language_tuition_desc": "5,200,000 KRW/năm",
+    "registration_fee_desc": "50,000 KRW",
+    "insurance_fee_desc": "200,000 KRW/năm",
+    "invoice_details": "HỌC PHÍ 5,200,000KRW - BẢO HIỂM 200,000KRW - INVOICE 5,450,000-5,490,000KRW ",
+    "dorm_fee_desc": "1,500,000-2,500,000KRW",
+    "admission_conditions": "",
+    "featured_majors": "Điều dưỡng, Hàng không, Kinh doanh",
+    "regional_restrictions": ""
   },
   {
     "id": "mock_uni_175",
@@ -5292,18 +6286,26 @@ export const universities = [
       "arts_sports": 3519000,
       "medicine_pharmacy": 4995000
     },
-    "dorm_fee": 1313000,
+    "dorm_fee": 1300000,
     "living_cost_est": 881000,
     "scholarships": [
       "Học bổng Chính phủ Hàn Quốc (GKS)",
       "Học bổng khuyến khích từ đại học Soongsil"
     ],
     "description": "Đại học Soongsil là trường đại học uy tín tại khu vực Daejeon, đào tạo đa ngành với học phí hợp lý và học bổng hấp dẫn cho sinh viên Việt Nam.",
-    "accept_gdtx": null,
+    "accept_gdtx": "top2",
     "visa_metropolitan": false,
     "master_no_topik": true,
     "custom_notes": "",
-    "top_1_percent": false
+    "top_1_percent": false,
+    "language_tuition_desc": "6,000,000-6,400,000 KRW/năm",
+    "registration_fee_desc": "50,000 KRW",
+    "insurance_fee_desc": "150,000 KRW/năm",
+    "invoice_details": "HỌC PHÍ 6,000,000-6,400,000KRW - BẢO HIỂM 150,000KRW - INVOICE 6,210,000-6,650,000KRW",
+    "dorm_fee_desc": "1,100,000-1,500,000KRW",
+    "admission_conditions": "",
+    "featured_majors": "IT – AI – Kinh doanh",
+    "regional_restrictions": ""
   },
   {
     "id": "mock_uni_176",
@@ -5322,18 +6324,26 @@ export const universities = [
       "arts_sports": 4262000,
       "medicine_pharmacy": 4156000
     },
-    "dorm_fee": 1099000,
+    "dorm_fee": 1000000,
     "living_cost_est": 650000,
     "scholarships": [
       "Học bổng Chính phủ Hàn Quốc (GKS)",
       "Học bổng khuyến khích từ đại học Konyang"
     ],
     "description": "Đại học Konyang là trường đại học uy tín tại khu vực Ulsan, đào tạo đa ngành với học phí hợp lý và học bổng hấp dẫn cho sinh viên Việt Nam.",
-    "accept_gdtx": null,
+    "accept_gdtx": "top2",
     "visa_metropolitan": false,
     "master_no_topik": true,
     "custom_notes": "",
-    "top_1_percent": false
+    "top_1_percent": false,
+    "language_tuition_desc": "4,400,000 KRW/năm",
+    "registration_fee_desc": "60,000 KRW",
+    "insurance_fee_desc": "140,000 KRW/năm",
+    "invoice_details": "HỌC PHÍ 4,400,000KRW - BẢO HIỂM 140,000- INOVICE 5,760,000KRW",
+    "dorm_fee_desc": "1,000,000KRW",
+    "admission_conditions": "7,0 trở lên\n- vắng ko quá 5 buổi (nhiều hơn cần giải trình)",
+    "featured_majors": "Y khoa – Điều dưỡng – AI y tế",
+    "regional_restrictions": ""
   },
   {
     "id": "mock_uni_177",
@@ -5352,18 +6362,26 @@ export const universities = [
       "arts_sports": 3374000,
       "medicine_pharmacy": 3245000
     },
-    "dorm_fee": 1279000,
+    "dorm_fee": 1550000,
     "living_cost_est": 547000,
     "scholarships": [
       "Học bổng Chính phủ Hàn Quốc (GKS)",
       "Học bổng khuyến khích từ đại học Inje"
     ],
     "description": "Đại học Inje là trường đại học uy tín tại khu vực Sejong, đào tạo đa ngành với học phí hợp lý và học bổng hấp dẫn cho sinh viên Việt Nam.",
-    "accept_gdtx": "top3",
+    "accept_gdtx": "top2",
     "visa_metropolitan": false,
     "master_no_topik": false,
     "custom_notes": "",
-    "top_1_percent": false
+    "top_1_percent": false,
+    "language_tuition_desc": "4,800,000-5,200,000 KRW/năm",
+    "registration_fee_desc": "",
+    "insurance_fee_desc": "150,000 KRW/năm",
+    "invoice_details": "HỌC PHÍ 4,800,000-5,200,000KRW - BẢO HIỂM 150,000 - INVOICE 5,000,000-5,400,000KRW",
+    "dorm_fee_desc": "1,300,000-1,800,000KRW",
+    "admission_conditions": "",
+    "featured_majors": "Y khoa – Business – Ngôn ngữ",
+    "regional_restrictions": ""
   },
   {
     "id": "mock_uni_178",
@@ -5393,7 +6411,8 @@ export const universities = [
     "visa_metropolitan": true,
     "master_no_topik": true,
     "custom_notes": "",
-    "top_1_percent": false
+    "top_1_percent": false,
+    "is_restricted_school": true
   },
   {
     "id": "mock_uni_179",
@@ -5412,7 +6431,7 @@ export const universities = [
       "arts_sports": 4401000,
       "medicine_pharmacy": 3991000
     },
-    "dorm_fee": 902000,
+    "dorm_fee": 1300000,
     "living_cost_est": 513000,
     "scholarships": [
       "Học bổng Chính phủ Hàn Quốc (GKS)",
@@ -5423,7 +6442,15 @@ export const universities = [
     "visa_metropolitan": false,
     "master_no_topik": false,
     "custom_notes": "Trường ưu tiên phỏng vấn visa thẳng",
-    "top_1_percent": true
+    "top_1_percent": false,
+    "language_tuition_desc": "5,600,000 KRW/năm",
+    "registration_fee_desc": "",
+    "insurance_fee_desc": "150,000 KRW/năm",
+    "invoice_details": "HỌC PHÍ 5,600,000KRW - BẢO HIỂM 150,000- INVOICE 7,270,00KRW",
+    "dorm_fee_desc": "1,300,000KRW",
+    "admission_conditions": "",
+    "featured_majors": "Thiết kế – IT – Fashion",
+    "regional_restrictions": ""
   },
   {
     "id": "mock_uni_180",
@@ -5442,7 +6469,7 @@ export const universities = [
       "arts_sports": 4857000,
       "medicine_pharmacy": 2228000
     },
-    "dorm_fee": 1539000,
+    "dorm_fee": 11824000,
     "living_cost_est": 652000,
     "scholarships": [
       "Học bổng Chính phủ Hàn Quốc (GKS)",
@@ -5453,7 +6480,15 @@ export const universities = [
     "visa_metropolitan": false,
     "master_no_topik": true,
     "custom_notes": "",
-    "top_1_percent": false
+    "top_1_percent": false,
+    "language_tuition_desc": "5,200,000 KRW/năm",
+    "registration_fee_desc": "70,000 KRW",
+    "insurance_fee_desc": "270,000 KRW/năm",
+    "invoice_details": "5,200,000 KRW PHÍ NHẬP HỌC 70,000KRW  INVOICE CƠ BẢN 5,270,000KRW",
+    "dorm_fee_desc": "1,182,4000KRW",
+    "admission_conditions": "",
+    "featured_majors": "Y khoa – AI – Quản trị kinh doanh",
+    "regional_restrictions": ""
   },
   {
     "id": "mock_uni_181",
@@ -5472,18 +6507,26 @@ export const universities = [
       "arts_sports": 4863000,
       "medicine_pharmacy": 4923000
     },
-    "dorm_fee": 1126000,
+    "dorm_fee": 1400000,
     "living_cost_est": 845000,
     "scholarships": [
       "Học bổng Chính phủ Hàn Quốc (GKS)",
       "Học bổng khuyến khích từ đại học Dankook"
     ],
     "description": "Đại học Dankook là trường đại học uy tín tại khu vực Chungnam, đào tạo đa ngành với học phí hợp lý và học bổng hấp dẫn cho sinh viên Việt Nam.",
-    "accept_gdtx": null,
+    "accept_gdtx": "top2",
     "visa_metropolitan": false,
     "master_no_topik": true,
     "custom_notes": "",
-    "top_1_percent": true
+    "top_1_percent": false,
+    "language_tuition_desc": "5,600,000 KRW/năm",
+    "registration_fee_desc": "",
+    "insurance_fee_desc": "200,000 KRW/năm",
+    "invoice_details": "HỌC PHÍ 5,600,000KRW - BẢO HÊM 200,000KRW - INVOICE 7,300,000KRW",
+    "dorm_fee_desc": "1,400,000KRW",
+    "admission_conditions": "",
+    "featured_majors": "Nha khoa – Business – Truyền thông",
+    "regional_restrictions": ""
   },
   {
     "id": "mock_uni_182",
@@ -5502,18 +6545,26 @@ export const universities = [
       "arts_sports": null,
       "medicine_pharmacy": null
     },
-    "dorm_fee": 1430000,
+    "dorm_fee": 1500000,
     "living_cost_est": 522000,
     "scholarships": [
       "Học bổng Chính phủ Hàn Quốc (GKS)",
       "Học bổng khuyến khích từ đại học Chosun"
     ],
     "description": "Đại học Chosun là trường đại học uy tín tại khu vực Jeonbuk, đào tạo đa ngành với học phí hợp lý và học bổng hấp dẫn cho sinh viên Việt Nam.",
-    "accept_gdtx": null,
+    "accept_gdtx": "top2",
     "visa_metropolitan": false,
     "master_no_topik": false,
     "custom_notes": "",
-    "top_1_percent": false
+    "top_1_percent": false,
+    "language_tuition_desc": "4,800,000-5,200,000 KRW/năm",
+    "registration_fee_desc": "",
+    "insurance_fee_desc": "150,000 KRW/năm",
+    "invoice_details": "HỌC PHÍ 4,800,000-5,200,000KRW - BẢO HIỂM 150,000- INVOICE 5,000,000-5,400,000KRW",
+    "dorm_fee_desc": "1,200,000-1,800,000KRW",
+    "admission_conditions": "",
+    "featured_majors": "Nha khoa – Y khoa – Kỹ thuật",
+    "regional_restrictions": ""
   },
   {
     "id": "mock_uni_183",
@@ -5532,7 +6583,7 @@ export const universities = [
       "arts_sports": 2258000,
       "medicine_pharmacy": 4005000
     },
-    "dorm_fee": 1416000,
+    "dorm_fee": 810000,
     "living_cost_est": 639000,
     "scholarships": [
       "Học bổng Chính phủ Hàn Quốc (GKS)",
@@ -5543,7 +6594,15 @@ export const universities = [
     "visa_metropolitan": false,
     "master_no_topik": false,
     "custom_notes": "Trường ưu tiên phỏng vấn visa thẳng",
-    "top_1_percent": false
+    "top_1_percent": false,
+    "language_tuition_desc": "5,200,000 KRW/năm",
+    "registration_fee_desc": "",
+    "insurance_fee_desc": "150,000 KRW/năm",
+    "invoice_details": "HỌC PHÍ 5,200,000- BẢO HIỂM 150,000 - INVOICE 5,400,000KRW",
+    "dorm_fee_desc": "700,000-920,000KRW",
+    "admission_conditions": "- 7.0 trở lên\n- vắng không quá 10 buổi",
+    "featured_majors": "Y khoa – Luật – Kinh doanh",
+    "regional_restrictions": "Không nhận Quảng Bình"
   },
   {
     "id": "mock_uni_184",
@@ -5562,7 +6621,7 @@ export const universities = [
       "arts_sports": 3018000,
       "medicine_pharmacy": 3142000
     },
-    "dorm_fee": 964000,
+    "dorm_fee": 2150000,
     "living_cost_est": 891000,
     "scholarships": [
       "Học bổng Chính phủ Hàn Quốc (GKS)",
@@ -5573,7 +6632,15 @@ export const universities = [
     "visa_metropolitan": false,
     "master_no_topik": true,
     "custom_notes": "Trường ưu tiên phỏng vấn visa thẳng",
-    "top_1_percent": false
+    "top_1_percent": false,
+    "language_tuition_desc": "5,200,000 KRW/năm",
+    "registration_fee_desc": "",
+    "insurance_fee_desc": "110,000 KRW/năm",
+    "invoice_details": "HỌC PHÍ 5,200,000KRW - BẢO HIỂM 110,000KRW - INVOICE 5,410,000KRW ",
+    "dorm_fee_desc": "1,700,000-2,600,000KRW",
+    "admission_conditions": "",
+    "featured_majors": "Hải dương – Thủy sản – Logistics",
+    "regional_restrictions": ""
   },
   {
     "id": "mock_uni_185",
@@ -5592,7 +6659,7 @@ export const universities = [
       "arts_sports": 4650000,
       "medicine_pharmacy": null
     },
-    "dorm_fee": 1377000,
+    "dorm_fee": 542920,
     "living_cost_est": 577000,
     "scholarships": [
       "Học bổng Chính phủ Hàn Quốc (GKS)",
@@ -5603,7 +6670,16 @@ export const universities = [
     "visa_metropolitan": false,
     "master_no_topik": true,
     "custom_notes": "",
-    "top_1_percent": false
+    "top_1_percent": false,
+    "language_tuition_desc": "4,800,000 KRW/năm",
+    "registration_fee_desc": "",
+    "insurance_fee_desc": "150,000 KRW/năm",
+    "invoice_details": "HỌC PHÍ 4,800,000KRW - BẢO HIỂM 150,000KRW - INVOICE 5,020,000KRW",
+    "dorm_fee_desc": "471,520-614,320 KRW",
+    "admission_conditions": "",
+    "featured_majors": "Cơ khí – Robot – Công nghiệp",
+    "regional_restrictions": "",
+    "is_restricted_school": true
   },
   {
     "id": "mock_uni_186",
@@ -5652,18 +6728,26 @@ export const universities = [
       "arts_sports": 3890000,
       "medicine_pharmacy": 3826000
     },
-    "dorm_fee": 1472000,
+    "dorm_fee": 1000000,
     "living_cost_est": 729000,
     "scholarships": [
       "Học bổng Chính phủ Hàn Quốc (GKS)",
       "Học bổng khuyến khích từ đại học Myongji"
     ],
     "description": "Đại học Myongji là trường đại học uy tín tại khu vực Seoul, đào tạo đa ngành với học phí hợp lý và học bổng hấp dẫn cho sinh viên Việt Nam.",
-    "accept_gdtx": null,
+    "accept_gdtx": "top2",
     "visa_metropolitan": true,
-    "master_no_topik": false,
+    "master_no_topik": true,
     "custom_notes": "Trường ưu tiên phỏng vấn visa thẳng",
-    "top_1_percent": false
+    "top_1_percent": false,
+    "language_tuition_desc": "5,000,000 KRW/năm",
+    "registration_fee_desc": "",
+    "insurance_fee_desc": "150,000 KRW/năm",
+    "invoice_details": "HỌC PHÍ 5,000,000KRW - BẢO HIỂM 150,000KRW - INVOICE 5,200,000KRW",
+    "dorm_fee_desc": "800,000-1,200,000KRW",
+    "admission_conditions": "",
+    "featured_majors": "Thiết kế – Diễn xuất – Truyền thông",
+    "regional_restrictions": ""
   },
   {
     "id": "mock_uni_188",
@@ -5742,18 +6826,26 @@ export const universities = [
       "arts_sports": 4851000,
       "medicine_pharmacy": null
     },
-    "dorm_fee": 861000,
+    "dorm_fee": 1600000,
     "living_cost_est": 581000,
     "scholarships": [
       "Học bổng Chính phủ Hàn Quốc (GKS)",
       "Học bổng khuyến khích từ đại học Hongik"
     ],
     "description": "Đại học Hongik là trường đại học uy tín tại khu vực Incheon, đào tạo đa ngành với học phí hợp lý và học bổng hấp dẫn cho sinh viên Việt Nam.",
-    "accept_gdtx": "top3",
+    "accept_gdtx": "top2",
     "visa_metropolitan": true,
     "master_no_topik": false,
     "custom_notes": "",
-    "top_1_percent": false
+    "top_1_percent": false,
+    "language_tuition_desc": "7,100,000 KRW/năm",
+    "registration_fee_desc": "",
+    "insurance_fee_desc": "150,000 KRW/năm",
+    "invoice_details": "HỌC PHÍ 7,100,000KRW - BẢO HIỂM 150,000- INVOICE 9,210,000KRW",
+    "dorm_fee_desc": "1,600,000KRW",
+    "admission_conditions": "",
+    "featured_majors": "Mỹ thuật – Thiết kế – Kiến trúc",
+    "regional_restrictions": ""
   },
   {
     "id": "mock_uni_191",
@@ -5772,7 +6864,7 @@ export const universities = [
       "arts_sports": 4949000,
       "medicine_pharmacy": 4883000
     },
-    "dorm_fee": 1052000,
+    "dorm_fee": 1200000,
     "living_cost_est": 721000,
     "scholarships": [
       "Học bổng Chính phủ Hàn Quốc (GKS)",
@@ -5783,7 +6875,15 @@ export const universities = [
     "visa_metropolitan": false,
     "master_no_topik": false,
     "custom_notes": "",
-    "top_1_percent": true
+    "top_1_percent": false,
+    "language_tuition_desc": "5,200,000-5,600,000 KRW/năm",
+    "registration_fee_desc": "50,000 KRW",
+    "insurance_fee_desc": "150,000 KRW/năm",
+    "invoice_details": "HỌC PHÍ 5,200,000-5,600,000KRW - BẢO HIỂM 150,000KRW - INVOICE 5,400,000-5,850,000KRW",
+    "dorm_fee_desc": "1,000,000-1,400,000KRW",
+    "admission_conditions": "",
+    "featured_majors": "Làm đẹp – Nghệ thuật – Diễn xuất",
+    "regional_restrictions": ""
   },
   {
     "id": "mock_uni_192",
@@ -5802,7 +6902,7 @@ export const universities = [
       "arts_sports": 3599000,
       "medicine_pharmacy": 4842000
     },
-    "dorm_fee": 1207000,
+    "dorm_fee": 1500000,
     "living_cost_est": 767000,
     "scholarships": [
       "Học bổng Chính phủ Hàn Quốc (GKS)",
@@ -5813,7 +6913,15 @@ export const universities = [
     "visa_metropolitan": false,
     "master_no_topik": false,
     "custom_notes": "Trường ưu tiên phỏng vấn visa thẳng",
-    "top_1_percent": true
+    "top_1_percent": true,
+    "language_tuition_desc": "6,000,000-6,400,000 KRW/năm",
+    "registration_fee_desc": "50,000 KRW",
+    "insurance_fee_desc": "150,000 KRW/năm",
+    "invoice_details": "HỌC PHÍ 6,000,000-6,400,000KRW - BẢO HIỂM 150,000 - INVOICE 6,210,000-6,650,000KRW",
+    "dorm_fee_desc": "1,200,000-1,800,000KRW",
+    "admission_conditions": "",
+    "featured_majors": "",
+    "regional_restrictions": ""
   },
   {
     "id": "mock_uni_193",
@@ -5832,18 +6940,26 @@ export const universities = [
       "arts_sports": 2053000,
       "medicine_pharmacy": 4596000
     },
-    "dorm_fee": 870000,
+    "dorm_fee": 1100000,
     "living_cost_est": 661000,
     "scholarships": [
       "Học bổng Chính phủ Hàn Quốc (GKS)",
       "Học bổng khuyến khích từ đại học Semyung"
     ],
     "description": "Đại học Semyung là trường đại học uy tín tại khu vực Ulsan, đào tạo đa ngành với học phí hợp lý và học bổng hấp dẫn cho sinh viên Việt Nam.",
-    "accept_gdtx": null,
+    "accept_gdtx": "top2",
     "visa_metropolitan": false,
     "master_no_topik": true,
     "custom_notes": "",
-    "top_1_percent": false
+    "top_1_percent": false,
+    "language_tuition_desc": "4,400,000 KRW/năm",
+    "registration_fee_desc": "50,000 KRW",
+    "insurance_fee_desc": "300,000 KRW/năm",
+    "invoice_details": "HỌC PHÍ  4,400,000KRW- BẢO HIỂM 300,000KRW- INVOICE 5,850,000KRW",
+    "dorm_fee_desc": "1,100,000KRW",
+    "admission_conditions": "",
+    "featured_majors": "Đông y – Điều dưỡng – Du lịch",
+    "regional_restrictions": ""
   },
   {
     "id": "mock_uni_194",
@@ -5862,18 +6978,26 @@ export const universities = [
       "arts_sports": 4429000,
       "medicine_pharmacy": null
     },
-    "dorm_fee": 1412000,
+    "dorm_fee": 1650000,
     "living_cost_est": 870000,
     "scholarships": [
       "Học bổng Chính phủ Hàn Quốc (GKS)",
       "Học bổng khuyến khích từ đại học Sookmyung"
     ],
     "description": "Đại học Sookmyung là trường đại học uy tín tại khu vực Sejong, đào tạo đa ngành với học phí hợp lý và học bổng hấp dẫn cho sinh viên Việt Nam.",
-    "accept_gdtx": "top3",
+    "accept_gdtx": null,
     "visa_metropolitan": false,
     "master_no_topik": true,
     "custom_notes": "",
-    "top_1_percent": false
+    "top_1_percent": true,
+    "language_tuition_desc": "6,400,000-6,800,000 KRW/năm",
+    "registration_fee_desc": "50,000 KRW",
+    "insurance_fee_desc": "150,000 KRW/năm",
+    "invoice_details": "HỌC PHÍ 6,400,000-6,800,000KRW - BẢO HIỂM 150,000KRW - INVOICE 6,610,000-7,050,000KRW",
+    "dorm_fee_desc": "1,300,000-2,000,000KRW'",
+    "admission_conditions": "",
+    "featured_majors": "Kinh doanh khách sạn, quốc tế học, ngôn ngữ Hàn",
+    "regional_restrictions": ""
   },
   {
     "id": "mock_uni_195",
@@ -5892,18 +7016,26 @@ export const universities = [
       "arts_sports": null,
       "medicine_pharmacy": 4079000
     },
-    "dorm_fee": 1380000,
+    "dorm_fee": 1500000,
     "living_cost_est": 857000,
     "scholarships": [
       "Học bổng Chính phủ Hàn Quốc (GKS)",
       "Học bổng khuyến khích từ đại học Ulsan"
     ],
     "description": "Đại học Ulsan là trường đại học uy tín tại khu vực Gyeonggi, đào tạo đa ngành với học phí hợp lý và học bổng hấp dẫn cho sinh viên Việt Nam.",
-    "accept_gdtx": null,
+    "accept_gdtx": "top2",
     "visa_metropolitan": true,
-    "master_no_topik": false,
+    "master_no_topik": true,
     "custom_notes": "",
-    "top_1_percent": false
+    "top_1_percent": false,
+    "language_tuition_desc": "5,200,000-5,600,000 KRW/năm",
+    "registration_fee_desc": "",
+    "insurance_fee_desc": "150,000 KRW/năm",
+    "invoice_details": "HỌC PHÍ 5,200,000-5,600,000- BẢO HIỂM 150,000- INVOICE 5,410,000-5,810,000KRW",
+    "dorm_fee_desc": "1,100,000-1,900,000KRW",
+    "admission_conditions": "",
+    "featured_majors": "Ô tô – Đóng tàu – Kỹ thuật",
+    "regional_restrictions": ""
   },
   {
     "id": "mock_uni_196",
@@ -5922,18 +7054,26 @@ export const universities = [
       "arts_sports": 3026000,
       "medicine_pharmacy": 4787000
     },
-    "dorm_fee": 1193000,
+    "dorm_fee": 1550000,
     "living_cost_est": 711000,
     "scholarships": [
       "Học bổng Chính phủ Hàn Quốc (GKS)",
       "Học bổng khuyến khích từ đại học Youngsan"
     ],
     "description": "Đại học Youngsan là trường đại học uy tín tại khu vực Gangwon, đào tạo đa ngành với học phí hợp lý và học bổng hấp dẫn cho sinh viên Việt Nam.",
-    "accept_gdtx": "top3",
+    "accept_gdtx": "top2",
     "visa_metropolitan": false,
-    "master_no_topik": false,
+    "master_no_topik": true,
     "custom_notes": "Trường ưu tiên phỏng vấn visa thẳng",
-    "top_1_percent": true
+    "top_1_percent": false,
+    "language_tuition_desc": "4,800,000 KRW/năm",
+    "registration_fee_desc": "",
+    "insurance_fee_desc": "150,000 KRW/năm",
+    "invoice_details": "HỌC PHÍ 4,800,000KRW - BẢO HIỂM 150,000KRW - INVOICE 5,000,000KRW",
+    "dorm_fee_desc": "1,300,000-1,800,000KRW",
+    "admission_conditions": "",
+    "featured_majors": "Luật – Khách sạn – Làm đẹp",
+    "regional_restrictions": ""
   },
   {
     "id": "mock_uni_197",
@@ -5952,18 +7092,26 @@ export const universities = [
       "arts_sports": null,
       "medicine_pharmacy": 3135000
     },
-    "dorm_fee": 1488000,
+    "dorm_fee": 800000,
     "living_cost_est": 532000,
     "scholarships": [
       "Học bổng Chính phủ Hàn Quốc (GKS)",
       "Học bổng khuyến khích từ đại học Kunsan"
     ],
     "description": "Đại học Kunsan là trường đại học uy tín tại khu vực Chungbuk, đào tạo đa ngành với học phí hợp lý và học bổng hấp dẫn cho sinh viên Việt Nam.",
-    "accept_gdtx": null,
+    "accept_gdtx": "top2",
     "visa_metropolitan": false,
     "master_no_topik": true,
     "custom_notes": "Trường ưu tiên phỏng vấn visa thẳng",
-    "top_1_percent": true
+    "top_1_percent": false,
+    "language_tuition_desc": "4,800,000 KRW/năm",
+    "registration_fee_desc": "",
+    "insurance_fee_desc": "140,000 KRW/năm",
+    "invoice_details": "HỌC PHÍ 4,800,000- BẢO HIỂM 140,000- INVOICE 6,140,000KRW",
+    "dorm_fee_desc": "800,000KRW",
+    "admission_conditions": "",
+    "featured_majors": "Hàng hải, Kỹ thuật, Kinh doanh",
+    "regional_restrictions": ""
   },
   {
     "id": "mock_uni_198",
@@ -6012,18 +7160,26 @@ export const universities = [
       "arts_sports": 4135000,
       "medicine_pharmacy": null
     },
-    "dorm_fee": 1374000,
+    "dorm_fee": 450300,
     "living_cost_est": 612000,
     "scholarships": [
       "Học bổng Chính phủ Hàn Quốc (GKS)",
       "Học bổng khuyến khích từ đại học Kyungwoon"
     ],
     "description": "Đại học Kyungwoon là trường đại học uy tín tại khu vực Jeonbuk, đào tạo đa ngành với học phí hợp lý và học bổng hấp dẫn cho sinh viên Việt Nam.",
-    "accept_gdtx": null,
+    "accept_gdtx": "top2",
     "visa_metropolitan": false,
     "master_no_topik": true,
     "custom_notes": "Trường ưu tiên phỏng vấn visa thẳng",
-    "top_1_percent": false
+    "top_1_percent": false,
+    "language_tuition_desc": "4,800,000 KRW/năm",
+    "registration_fee_desc": "70,000 KRW",
+    "insurance_fee_desc": "",
+    "invoice_details": "HỌC PHÍ 4,800,000KRW - INVOICE 4,870,000KRW",
+    "dorm_fee_desc": "600-900,000KRW",
+    "admission_conditions": "",
+    "featured_majors": "Hàng không – IT – Điều dưỡng",
+    "regional_restrictions": ""
   },
   {
     "id": "mock_uni_200",
@@ -6053,16 +7209,7 @@ export const universities = [
     "visa_metropolitan": false,
     "master_no_topik": false,
     "custom_notes": "",
-    "top_1_percent": false,
-    "tuition_history": {
-      "2025": {
-        "humanities_social": null,
-        "natural_sciences": null,
-        "engineering": null,
-        "arts_sports": null,
-        "medicine_pharmacy": null
-      }
-    }
+    "top_1_percent": false
   },
   {
     "id": "mock_uni_201",
@@ -6081,18 +7228,26 @@ export const universities = [
       "arts_sports": 2728000,
       "medicine_pharmacy": 2272000
     },
-    "dorm_fee": 1583000,
+    "dorm_fee": 1000000,
     "living_cost_est": 552000,
     "scholarships": [
       "Học bổng Chính phủ Hàn Quốc (GKS)",
       "Học bổng khuyến khích từ đại học Hanseo"
     ],
     "description": "Đại học Hanseo là trường đại học uy tín tại khu vực Gyeongbuk, đào tạo đa ngành với học phí hợp lý và học bổng hấp dẫn cho sinh viên Việt Nam.",
-    "accept_gdtx": "top3",
+    "accept_gdtx": "top2",
     "visa_metropolitan": false,
     "master_no_topik": true,
     "custom_notes": "Trường ưu tiên phỏng vấn visa thẳng",
-    "top_1_percent": false
+    "top_1_percent": false,
+    "language_tuition_desc": "5,000,000 KRW/năm",
+    "registration_fee_desc": "",
+    "insurance_fee_desc": "150,000 KRW/năm",
+    "invoice_details": "HỌC PHÍ 5,000,000KRW - BH 150,000- INVOICE 6,250,00KRW",
+    "dorm_fee_desc": "1,000,000 KRW/năm",
+    "admission_conditions": "",
+    "featured_majors": "Hàng không – Du lịch – Logistics",
+    "regional_restrictions": ""
   },
   {
     "id": "mock_uni_202",
@@ -6183,5 +7338,149 @@ export const universities = [
     "master_no_topik": false,
     "custom_notes": "",
     "top_1_percent": true
+  },
+  {
+    "id": "uni_206",
+    "name_en": "포항공과대학교 (Đại học Khoa học & Công nghệ Pohang - POSTECH) (English)",
+    "name_ko": "포항공과대학교 (Đại học Khoa học & Công nghệ Pohang - POSTECH) (Korean)",
+    "name_vi": "포항공과대학교 (Đại học Khoa học & Công nghệ Pohang - POSTECH)",
+    "type": "private",
+    "region": "Seoul",
+    "ranking": 100,
+    "campus_address": "Seoul, South Korea",
+    "website": "https://google.com",
+    "tuition": {
+      "humanities_social": null,
+      "natural_sciences": null,
+      "engineering": null,
+      "arts_sports": null,
+      "medicine_pharmacy": null
+    },
+    "dorm_fee": 1200000,
+    "living_cost_est": 700000,
+    "scholarships": [],
+    "description": "Trường đại học đào tạo uy tín tại khu vực Seoul.",
+    "accept_gdtx": null,
+    "visa_metropolitan": true,
+    "master_no_topik": false,
+    "custom_notes": "Trường thuộc nhóm TOP 1%",
+    "top_1_percent": true,
+    "is_restricted_school": false,
+    "language_tuition_desc": "6,000,000-7,000,000 KRW/năm",
+    "registration_fee_desc": "",
+    "insurance_fee_desc": "",
+    "invoice_details": "HỌC PHÍ 6,000,000-7,000,000KRW HỆ CHÍNH QUY ĐẠI HỌC",
+    "dorm_fee_desc": "600,000-1,800,000KRW",
+    "admission_conditions": "",
+    "featured_majors": "Đại học Khoa học & Công nghệ Pohang - POSTECH\ncông nghệ",
+    "regional_restrictions": ""
+  },
+  {
+    "id": "caoangyeungjin",
+    "name_en": "Cao đẳng Yeungjin (English)",
+    "name_ko": "Cao đẳng Yeungjin (Korean)",
+    "name_vi": "Cao đẳng Yeungjin",
+    "type": "private",
+    "region": "Daegu",
+    "ranking": 100,
+    "campus_address": "Daegu, South Korea",
+    "website": "https://google.com",
+    "tuition": {
+      "humanities_social": null,
+      "natural_sciences": null,
+      "engineering": null,
+      "arts_sports": null,
+      "medicine_pharmacy": null
+    },
+    "dorm_fee": 850000,
+    "living_cost_est": 500000,
+    "scholarships": [],
+    "description": "Trường đại học đào tạo uy tín tại khu vực Daegu.",
+    "accept_gdtx": "top2",
+    "visa_metropolitan": false,
+    "master_no_topik": false,
+    "custom_notes": "Trường thuộc nhóm TOP 2%",
+    "top_1_percent": false,
+    "is_restricted_school": false,
+    "language_tuition_desc": "4,800,000 KRW/năm",
+    "registration_fee_desc": "50,000 KRW",
+    "insurance_fee_desc": "150,000 KRW/năm",
+    "invoice_details": "HỌC PHÍ 4,800,000KRW-BẢO HIỂM 150,000- INVOICE 6,050,000KRW",
+    "dorm_fee_desc": "700,000- 1,000,000KRW",
+    "admission_conditions": "",
+    "featured_majors": "IT – AI – Cơ điện tử",
+    "regional_restrictions": ""
+  },
+  {
+    "id": "caoangkimpo",
+    "name_en": "Cao đẳng Kimpo (English)",
+    "name_ko": "Cao đẳng Kimpo (Korean)",
+    "name_vi": "Cao đẳng Kimpo",
+    "type": "private",
+    "region": "Gyeonggi",
+    "ranking": 100,
+    "campus_address": "Gyeonggi, South Korea",
+    "website": "https://google.com",
+    "tuition": {
+      "humanities_social": null,
+      "natural_sciences": null,
+      "engineering": null,
+      "arts_sports": null,
+      "medicine_pharmacy": null
+    },
+    "dorm_fee": 1000000,
+    "living_cost_est": 700000,
+    "scholarships": [],
+    "description": "Trường đại học đào tạo uy tín tại khu vực Gyeonggi.",
+    "accept_gdtx": "top3",
+    "visa_metropolitan": true,
+    "master_no_topik": false,
+    "custom_notes": "Trường thuộc nhóm TOP 3%",
+    "top_1_percent": false,
+    "is_restricted_school": false,
+    "language_tuition_desc": "4,200,000-4,600,000 KRW/năm",
+    "registration_fee_desc": "",
+    "insurance_fee_desc": "150,000 KRW/năm",
+    "invoice_details": "HỌC PHÍ 4,200,000-4,600,000KRW - BẢO HIỂM 150,000KRW - INVOICE 4,400,000-4,850,,000KRW",
+    "dorm_fee_desc": "800,000-1,200,000KRW",
+    "admission_conditions": "",
+    "featured_majors": "Điện tử, Làm đẹp và Âm nhạc",
+    "regional_restrictions": ""
+  },
+  {
+    "id": "caoangshingu",
+    "name_en": "Cao đẳng Shingu (English)",
+    "name_ko": "Cao đẳng Shingu (Korean)",
+    "name_vi": "Cao đẳng Shingu",
+    "type": "private",
+    "region": "Gyeonggi",
+    "ranking": 100,
+    "campus_address": "Gyeonggi, South Korea",
+    "website": "https://google.com",
+    "tuition": {
+      "humanities_social": null,
+      "natural_sciences": null,
+      "engineering": null,
+      "arts_sports": null,
+      "medicine_pharmacy": null
+    },
+    "dorm_fee": 1100000,
+    "living_cost_est": 700000,
+    "scholarships": [],
+    "description": "Trường đại học đào tạo uy tín tại khu vực Gyeonggi.",
+    "accept_gdtx": "top3",
+    "visa_metropolitan": true,
+    "master_no_topik": false,
+    "custom_notes": "Trường thuộc nhóm TOP 3%",
+    "top_1_percent": false,
+    "is_restricted_school": false,
+    "language_tuition_desc": "4,600,000-5,000,000 KRW/năm",
+    "registration_fee_desc": "50,000 KRW",
+    "insurance_fee_desc": "150,000 KRW/năm",
+    "invoice_details": "HỌC PHÍ 4,600,000-5,000,000KRW - BẢO HIỂM 150,000KRW - INVOICE 4,800,000-5,250,000KRW",
+    "dorm_fee_desc": "900,000-1,300,000KRW",
+    "admission_conditions": "",
+    "featured_majors": "Thiết kế, Truyền thông và Điều dưỡng",
+    "regional_restrictions": ""
   }
 ];
