@@ -837,7 +837,7 @@ export default function App({ initialViewMode = 'map', initialActiveSchoolId = n
                   key={school.id}
                   university={school}
                   exchangeRate={exchangeRate}
-                  onViewDetails={() => navigate(`/university/${school.id}`)}
+                  onViewDetails={() => navigate(`/university/${school.id}`, { state: { from: 'list' } })}
                   isComparing={selectedSchoolsForCompare.some(s => s.id === school.id)}
                   onToggleCompare={() => handleToggleCompare(school)}
                 />
@@ -940,7 +940,11 @@ export default function App({ initialViewMode = 'map', initialActiveSchoolId = n
           exchangeRate={exchangeRate}
           onClose={() => {
             setActiveSchoolDetails(null);
-            navigate('/');
+            if (location.state?.from === 'list') {
+              navigate('/universities');
+            } else {
+              navigate('/');
+            }
           }}
         />
       )}
