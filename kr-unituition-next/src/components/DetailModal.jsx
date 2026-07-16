@@ -1,10 +1,148 @@
 "use client";
 
+import { useEffect, useState } from 'react';
 import Link from 'next/link';
 import { X, ExternalLink, GraduationCap, MapPin, DollarSign, AlertCircle } from 'lucide-react';
 import { formatCurrency, krwToVnd } from '../utils/currency';
 
 export default function DetailModal({ university, exchangeRate, onClose }) {
+  const [formData, setFormData] = useState({
+    name: '',
+    phone: '',
+    email: '',
+    city: '',
+  });
+  const [isSubmitting, setIsSubmitting] = useState(false);
+  const [submitStatus, setSubmitStatus] = useState(null);
+
+  // 1. Auto-fill and School Tracking on Mount
+  useEffect(() => {
+    // Auto-fill personal profile from localStorage
+    try {
+      const savedProfile = localStorage.getItem('kr_edu_lead_profile');
+      if (savedProfile) {
+        const profile = JSON.parse(savedProfile);
+        setFormData({
+          name: profile.name || '',
+          phone: profile.phone || '',
+          email: profile.email || '',
+          city: profile.city || '',
+        });
+      }
+    } catch (err) {
+      console.error('Failed to read lead profile from localStorage:', err);
+    }
+
+    // Track visited school
+    if (university) {
+      try {
+        const rawVisited = localStorage.getItem('kr_edu_visited_schools') || '[]';
+        let visitedList = JSON.parse(rawVisited);
+        if (!Array.isArray(visitedList)) visitedList = [];
+
+        visitedList = visitedList.filter((item) => item.id !== university.id);
+        visitedList.unshift({
+          id: university.id,
+          name: university.name_vi,
+          timestamp: new Date().toISOString(),
+        });
+
+        localStorage.setItem('kr_edu_visited_schools', JSON.stringify(visitedList.slice(0, 10)));
+      } catch (err) {
+        console.error('Failed to save visited school to localStorage:', err);
+      }
+
+      // Send silent click log to the analytics API
+      try {
+        fetch('/api/analytics/click', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({
+            school_id: university.id,
+            school_name: university.name_vi
+          })
+        }).catch(err => console.error('Failed to send click analytics:', err));
+      } catch (err) {
+        console.error('Failed to dispatch fetch for click analytics:', err);
+      }
+    }
+  }, [university]);
+
+  const handleFormSubmit = async (e) => {
+    e.preventDefault();
+    if (!formData.name.trim() || !formData.phone.trim() || isSubmitting) return;
+
+    setIsSubmitting(true);
+    setSubmitStatus(null);
+
+    // Retrieve visited schools list
+    let visitedSchools = [];
+    try {
+      const rawVisited = localStorage.getItem('kr_edu_visited_schools') || '[]';
+      visitedSchools = JSON.parse(rawVisited);
+      if (!Array.isArray(visitedSchools)) visitedSchools = [];
+    } catch (err) {
+      console.error('Failed to read visited schools for submission:', err);
+    }
+
+    try {
+      const res = await fetch('/api/leads', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          name: formData.name.trim(),
+          phone: formData.phone.trim(),
+          email: formData.email.trim(),
+          city: formData.city.trim() || 'Chưa rõ',
+          school_id: university.id,
+          school_name: university.name_vi,
+          visited_schools: visitedSchools,
+        }),
+      });
+
+      if (res.ok) {
+        setSubmitStatus('success');
+
+        // Save profile details for future Auto-fill
+        try {
+          const profile = {
+            name: formData.name.trim(),
+            phone: formData.phone.trim(),
+            email: formData.email.trim(),
+            city: formData.city.trim(),
+          };
+          localStorage.setItem('kr_edu_lead_profile', JSON.stringify(profile));
+        } catch (err) {
+          console.error('Failed to save profile to localStorage:', err);
+        }
+      } else {
+        setSubmitStatus('error');
+      }
+    } catch (err) {
+      console.error(err);
+      setSubmitStatus('error');
+    } finally {
+      setIsSubmitting(false);
+    }
+  };
+
+  // Add key listener for Escape key to close the modal
+  useEffect(() => {
+    const handleKeyDown = (e) => {
+      if (e.key === 'Escape') {
+        onClose();
+      }
+    };
+    if (typeof window !== 'undefined') {
+      window.addEventListener('keydown', handleKeyDown);
+    }
+    return () => {
+      if (typeof window !== 'undefined') {
+        window.removeEventListener('keydown', handleKeyDown);
+      }
+    };
+  }, [onClose]);
+
   if (!university) return null;
 
   const { 
@@ -49,31 +187,59 @@ export default function DetailModal({ university, exchangeRate, onClose }) {
 
   return (
     <div 
+      className="modal-outer-container"
       style={{
         position: 'fixed',
         top: 0,
         left: 0,
         right: 0,
         bottom: 0,
-        backgroundColor: 'rgba(0, 0, 0, 0.6)',
+        backgroundColor: 'rgba(0, 0, 0, 0.5)',
         backdropFilter: 'blur(4px)',
         zIndex: 1000,
         display: 'flex',
         alignItems: 'center',
         justifyContent: 'center',
-        padding: '1.5rem',
       }}
       onClick={onClose}
     >
+      <style dangerouslySetInnerHTML={{__html: `
+        .modal-outer-container {
+          padding: 1.5rem;
+        }
+        .modal-inner-dialog {
+          max-height: 90vh;
+          border-radius: var(--border-radius-lg);
+        }
+        .modal-header-section {
+          padding: 2rem;
+        }
+        .modal-body-content {
+          padding: 1.75rem;
+        }
+        @media (max-width: 640px) {
+          .modal-outer-container {
+            padding: 0.5rem;
+          }
+          .modal-inner-dialog {
+            max-height: 95vh;
+            border-radius: 16px !important;
+          }
+          .modal-header-section {
+            padding: 1.25rem;
+          }
+          .modal-body-content {
+            padding: 1rem;
+            gap: 1.25rem !important;
+          }
+        }
+      `}} />
       {/* Modal Dialog */}
       <div 
-        className="glass-effect animate-scale-in"
+        className="glass-effect animate-scale-in modal-inner-dialog"
         style={{
           width: '100%',
           maxWidth: '900px',
-          maxHeight: '90vh',
-          borderRadius: 'var(--border-radius-lg)',
-          boxShadow: 'var(--shadow-xl)',
           overflowY: 'auto',
           display: 'flex',
           flexDirection: 'column',
@@ -83,25 +249,28 @@ export default function DetailModal({ university, exchangeRate, onClose }) {
         onClick={(e) => e.stopPropagation()} // stop close on clicking modal content
       >
         {/* Header Section */}
-        <div style={{
-          padding: '1.75rem',
-          borderBottom: '1px solid var(--border-color)',
-          position: 'relative',
-          background: 'linear-gradient(135deg, var(--bg-surface) 60%, var(--primary-light) 100%)'
-        }}>
+        <div 
+          className="modal-header-section"
+          style={{
+            borderBottom: '1px solid var(--border-color)',
+            position: 'relative',
+            backgroundColor: 'var(--bg-surface)'
+          }}
+        >
           {/* Close button */}
           <button 
             onClick={onClose}
+            aria-label="Đóng cửa sổ"
             style={{
               position: 'absolute',
               top: '1.25rem',
               right: '1.25rem',
-              border: '1px solid var(--border-color)',
-              background: 'var(--bg-surface)',
-              color: 'var(--text-secondary)',
+              border: 'none',
+              background: 'var(--bg-surface-hover)',
+              color: 'var(--text-primary)',
               borderRadius: '50%',
-              width: '2rem',
-              height: '2rem',
+              width: '40px',
+              height: '40px',
               display: 'flex',
               alignItems: 'center',
               justifyContent: 'center',
@@ -109,12 +278,10 @@ export default function DetailModal({ university, exchangeRate, onClose }) {
               transition: 'all var(--transition-fast)'
             }}
             onMouseEnter={(e) => {
-              e.currentTarget.style.color = 'var(--accent)';
-              e.currentTarget.style.borderColor = 'var(--accent)';
+              e.currentTarget.style.filter = 'brightness(0.95)';
             }}
             onMouseLeave={(e) => {
-              e.currentTarget.style.color = 'var(--text-secondary)';
-              e.currentTarget.style.borderColor = 'var(--border-color)';
+              e.currentTarget.style.filter = 'none';
             }}
           >
             <X size={18} />
@@ -202,7 +369,7 @@ export default function DetailModal({ university, exchangeRate, onClose }) {
             {name_vi}
           </h3>
           <p style={{ fontSize: '0.9rem', color: 'var(--text-secondary)', margin: 0, fontWeight: 500 }}>
-            {name_en} &bull; <span style={{ color: 'var(--text-tertiary)' }}>{name_ko}</span>
+            {name_en} • <span style={{ color: 'var(--text-tertiary)' }}>{name_ko}</span>
           </p>
 
           <div style={{ display: 'flex', gap: '1rem', flexWrap: 'wrap', marginTop: '0.85rem', fontSize: '0.8rem', color: 'var(--text-tertiary)' }}>
@@ -252,12 +419,14 @@ export default function DetailModal({ university, exchangeRate, onClose }) {
         )}
 
         {/* Content Body Grid */}
-        <div style={{
-          display: 'grid',
-          gridTemplateColumns: 'repeat(auto-fit, minmax(380px, 1fr))',
-          gap: '2rem',
-          padding: '1.75rem'
-        }}>
+        <div 
+          className="modal-body-content"
+          style={{
+            display: 'grid',
+            gridTemplateColumns: 'repeat(auto-fit, minmax(min(100%, 300px), 1fr))',
+            gap: '2rem',
+          }}
+        >
           {/* LEFT: Detailed Tuition Breakdown */}
           <div>
             <h4 style={{
@@ -454,6 +623,190 @@ export default function DetailModal({ university, exchangeRate, onClose }) {
           </div>
         </div>
 
+        {/* Lead Registration Form */}
+        <div style={{
+          padding: '1.75rem',
+          backgroundColor: 'rgba(230, 0, 35, 0.02)',
+          borderTop: '1px solid var(--border-color)',
+          borderBottom: '1px solid var(--border-color)',
+        }}>
+          <div style={{
+            maxWidth: '600px',
+            margin: '0 auto',
+          }}>
+            <h4 style={{
+              fontSize: '1.1rem',
+              fontWeight: 800,
+              marginBottom: '0.5rem',
+              color: 'var(--text-primary)',
+              textAlign: 'center',
+              display: 'flex',
+              alignItems: 'center',
+              justifyContent: 'center',
+              gap: '0.5rem'
+            }}>
+              <GraduationCap size={20} color="var(--primary)" />
+              Đăng ký Tư vấn Học phí & Nhận Học bổng {name_vi}
+            </h4>
+            <p style={{
+              fontSize: '0.8rem',
+              color: 'var(--text-secondary)',
+              textAlign: 'center',
+              marginBottom: '1.25rem',
+              lineHeight: 1.4
+            }}>
+              Nhập thông tin đăng ký tư vấn du học. Ban tuyển sinh KoreaEdu sẽ liên hệ tư vấn lộ trình và gửi bảng chi phí chi tiết cho bạn trong vòng 24h.
+            </p>
+
+            {submitStatus === 'success' ? (
+              <div style={{
+                backgroundColor: 'var(--success-light)',
+                border: '1px solid var(--success)',
+                color: 'var(--success)',
+                padding: '1rem',
+                borderRadius: 'var(--border-radius-md)',
+                textAlign: 'center',
+                fontSize: '0.85rem',
+                fontWeight: 700,
+              }}>
+                ✓ Đăng ký tư vấn thành công! Ban tư vấn KoreaEdu sẽ liên hệ với bạn trong thời gian sớm nhất qua số điện thoại {formData.phone}.
+              </div>
+            ) : (
+              <form onSubmit={handleFormSubmit} style={{ display: 'flex', flexDirection: 'column', gap: '0.85rem' }}>
+                <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(200px, 1fr))', gap: '0.85rem' }}>
+                  <div>
+                    <label style={{ display: 'block', fontSize: '0.75rem', fontWeight: 700, marginBottom: '0.35rem', color: 'var(--text-primary)' }}>
+                      Họ và tên <span style={{ color: 'var(--primary)' }}>*</span>
+                    </label>
+                    <input
+                      type="text"
+                      required
+                      placeholder="Nguyễn Văn A"
+                      value={formData.name}
+                      onChange={(e) => setFormData({ ...formData, name: e.target.value })}
+                      style={{
+                        width: '100%',
+                        height: '38px',
+                        padding: '0 0.75rem',
+                        borderRadius: 'var(--border-radius-md)',
+                        border: '1px solid var(--border-color)',
+                        backgroundColor: 'var(--bg-surface)',
+                        color: 'var(--text-primary)',
+                        fontSize: '0.85rem',
+                        outline: 'none'
+                      }}
+                    />
+                  </div>
+
+                  <div>
+                    <label style={{ display: 'block', fontSize: '0.75rem', fontWeight: 700, marginBottom: '0.35rem', color: 'var(--text-primary)' }}>
+                      Số điện thoại <span style={{ color: 'var(--primary)' }}>*</span>
+                    </label>
+                    <input
+                      type="tel"
+                      required
+                      placeholder="0987654321"
+                      value={formData.phone}
+                      onChange={(e) => setFormData({ ...formData, phone: e.target.value })}
+                      style={{
+                        width: '100%',
+                        height: '38px',
+                        padding: '0 0.75rem',
+                        borderRadius: 'var(--border-radius-md)',
+                        border: '1px solid var(--border-color)',
+                        backgroundColor: 'var(--bg-surface)',
+                        color: 'var(--text-primary)',
+                        fontSize: '0.85rem',
+                        outline: 'none'
+                      }}
+                    />
+                  </div>
+                </div>
+
+                <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(200px, 1fr))', gap: '0.85rem' }}>
+                  <div>
+                    <label style={{ display: 'block', fontSize: '0.75rem', fontWeight: 700, marginBottom: '0.35rem', color: 'var(--text-primary)' }}>
+                      Email (Nhận bảng phí)
+                    </label>
+                    <input
+                      type="email"
+                      placeholder="email@example.com"
+                      value={formData.email}
+                      onChange={(e) => setFormData({ ...formData, email: e.target.value })}
+                      style={{
+                        width: '100%',
+                        height: '38px',
+                        padding: '0 0.75rem',
+                        borderRadius: 'var(--border-radius-md)',
+                        border: '1px solid var(--border-color)',
+                        backgroundColor: 'var(--bg-surface)',
+                        color: 'var(--text-primary)',
+                        fontSize: '0.85rem',
+                        outline: 'none'
+                      }}
+                    />
+                  </div>
+
+                  <div>
+                    <label style={{ display: 'block', fontSize: '0.75rem', fontWeight: 700, marginBottom: '0.35rem', color: 'var(--text-primary)' }}>
+                      Tỉnh / Thành phố
+                    </label>
+                    <input
+                      type="text"
+                      placeholder="Hà Nội, TP.HCM, Đà Nẵng..."
+                      value={formData.city}
+                      onChange={(e) => setFormData({ ...formData, city: e.target.value })}
+                      style={{
+                        width: '100%',
+                        height: '38px',
+                        padding: '0 0.75rem',
+                        borderRadius: 'var(--border-radius-md)',
+                        border: '1px solid var(--border-color)',
+                        backgroundColor: 'var(--bg-surface)',
+                        color: 'var(--text-primary)',
+                        fontSize: '0.85rem',
+                        outline: 'none'
+                      }}
+                    />
+                  </div>
+                </div>
+
+                {submitStatus === 'error' && (
+                  <p style={{ color: 'var(--primary)', fontSize: '0.75rem', fontWeight: 600, margin: 0 }}>
+                    ❌ Đã xảy ra lỗi khi gửi thông tin. Vui lòng kiểm tra lại kết nối mạng!
+                  </p>
+                )}
+
+                <button
+                  type="submit"
+                  disabled={isSubmitting}
+                  style={{
+                    width: '100%',
+                    height: '40px',
+                    borderRadius: 'var(--border-radius-md)',
+                    backgroundColor: 'var(--primary)',
+                    color: 'white',
+                    border: 'none',
+                    fontWeight: 700,
+                    fontSize: '0.85rem',
+                    cursor: 'pointer',
+                    marginTop: '0.5rem',
+                    display: 'flex',
+                    alignItems: 'center',
+                    justifyContent: 'center',
+                    gap: '0.5rem',
+                    boxShadow: '0 4px 12px rgba(230, 0, 35, 0.2)',
+                    opacity: isSubmitting ? 0.7 : 1,
+                    transition: 'all var(--transition-fast)'
+                  }}
+                >
+                  {isSubmitting ? 'Đang gửi thông tin...' : 'Gửi đăng ký tư vấn ngay'}
+                </button>
+              </form>
+            )}
+          </div>
+        </div>
+
         {/* Footer Area */}
         <div style={{
           padding: '1.25rem 1.75rem',
@@ -467,8 +820,8 @@ export default function DetailModal({ university, exchangeRate, onClose }) {
             href={`/universities/${university.id}`}
             style={{
               padding: '0.5rem 1.5rem',
-              borderRadius: 'var(--border-radius-sm)',
-              background: 'linear-gradient(135deg, var(--primary) 0%, var(--primary-hover) 100%)',
+              borderRadius: 'var(--border-radius-md)',
+              backgroundColor: 'var(--primary)',
               color: 'white',
               fontSize: '0.85rem',
               fontWeight: 700,
@@ -479,6 +832,12 @@ export default function DetailModal({ university, exchangeRate, onClose }) {
               boxShadow: 'var(--shadow-sm)',
               transition: 'all var(--transition-fast)'
             }}
+            onMouseEnter={(e) => {
+              e.currentTarget.style.backgroundColor = 'var(--primary-hover)';
+            }}
+            onMouseLeave={(e) => {
+              e.currentTarget.style.backgroundColor = 'var(--primary)';
+            }}
           >
             <span>Trang chi tiết đầy đủ</span>
             <ExternalLink size={14} />
@@ -487,7 +846,7 @@ export default function DetailModal({ university, exchangeRate, onClose }) {
             onClick={onClose}
             style={{
               padding: '0.5rem 1.5rem',
-              borderRadius: 'var(--border-radius-sm)',
+              borderRadius: 'var(--border-radius-md)',
               border: '1px solid var(--border-color)',
               background: 'var(--bg-surface)',
               color: 'var(--text-secondary)',

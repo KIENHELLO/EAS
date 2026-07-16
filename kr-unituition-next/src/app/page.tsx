@@ -13,6 +13,7 @@ import ComparePanel from '../components/ComparePanel';
 import FilterBar from '../components/FilterBar';
 import UniversityPanel from '../components/UniversityPanel';
 import CostCalculator from '../components/CostCalculator';
+import MajorSearchFilter from '../components/MajorSearchFilter';
 import { useExchangeRate } from '../context/ExchangeRateContext';
 
 // Dynamically import Leaflet Map to avoid SSR errors
@@ -48,6 +49,7 @@ export default function Home() {
   const [selectedRegion, setSelectedRegion] = useState('All');
   const [selectedType, setSelectedType] = useState('All');
   const [selectedGdtx, setSelectedGdtx] = useState('All');
+  const [selectedMajor, setSelectedMajor] = useState('All');
   const [visaMetropolitanOnly, setVisaMetropolitanOnly] = useState(false);
   const [masterNoTopikOnly, setMasterNoTopikOnly] = useState(false);
   const [top1PercentOnly, setTop1PercentOnly] = useState(false);
@@ -66,6 +68,7 @@ export default function Home() {
   // Compare & Detail State
   const [selectedSchoolsForCompare, setSelectedSchoolsForCompare] = useState<any[]>([]);
   const [activeSchoolDetails, setActiveSchoolDetails] = useState<any>(null);
+  const [isCompareOpen, setIsCompareOpen] = useState(false);
 
   // Sync comparison state from localStorage
   useEffect(() => {
@@ -88,6 +91,7 @@ export default function Home() {
     setSelectedRegion('All');
     setSelectedType('All');
     setSelectedGdtx('All');
+    setSelectedMajor('All');
     setVisaMetropolitanOnly(false);
     setMasterNoTopikOnly(false);
     setTop1PercentOnly(false);
@@ -102,6 +106,24 @@ export default function Home() {
   };
 
   // 5. Filter & Sort Logic for list view
+  const matchSchoolByMajor = (school: any, majorName: string) => {
+    if (!majorName || majorName === 'All') return true;
+    const query = majorName.toLowerCase();
+    
+    // Check specific fields
+    if (school.custom_notes && school.custom_notes.toLowerCase().includes(query)) return true;
+    if (school.description && school.description.toLowerCase().includes(query)) return true;
+    
+    // Map keywords to tuition categories
+    if ((query.includes("công nghệ") || query.includes("kỹ thuật") || query.includes("cơ khí") || query.includes("điện") || query.includes("bán dẫn") || query.includes("máy tính") || query.includes("it")) && school.tuition.engineering !== null && school.tuition.engineering !== undefined) return true;
+    if ((query.includes("y") || query.includes("dược") || query.includes("điều dưỡng") || query.includes("sức khỏe")) && school.tuition.medicine_pharmacy !== null && school.tuition.medicine_pharmacy !== undefined) return true;
+    if ((query.includes("nghệ thuật") || query.includes("thiết kế") || query.includes("làm đẹp") || query.includes("thẩm mỹ") || query.includes("makeup") || query.includes("trang điểm") || query.includes("sân khấu") || query.includes("điện ảnh") || query.includes("âm nhạc") || query.includes("thể thao")) && school.tuition.arts_sports !== null && school.tuition.arts_sports !== undefined) return true;
+    if ((query.includes("khoa học") || query.includes("tự nhiên") || query.includes("sinh học") || query.includes("nông nghiệp")) && school.tuition.natural_sciences !== null && school.tuition.natural_sciences !== undefined) return true;
+    if ((query.includes("kinh doanh") || query.includes("kinh tế") || query.includes("thương mại") || query.includes("quản trị") || query.includes("truyền thông") || query.includes("marketing") || query.includes("ngôn ngữ") || query.includes("nhân văn") || query.includes("văn học") || query.includes("luật") || query.includes("du lịch") || query.includes("khách sạn") || query.includes("logistics")) && school.tuition.humanities_social !== null && school.tuition.humanities_social !== undefined) return true;
+    
+    return false;
+  };
+
   const filteredUniversities = universities
     .filter((u: any) => {
       const matchQuery = 
@@ -112,11 +134,12 @@ export default function Home() {
       const matchRegion = selectedRegion === 'All' || u.region === selectedRegion;
       const matchType = selectedType === 'All' || u.type === selectedType;
       const matchGdtx = selectedGdtx === 'All' || u.accept_gdtx === selectedGdtx;
+      const matchMajor = matchSchoolByMajor(u, selectedMajor);
       const matchVisa = !visaMetropolitanOnly || u.visa_metropolitan === true;
       const matchNoTopik = !masterNoTopikOnly || u.master_no_topik === true;
       const matchTop1 = !top1PercentOnly || u.top_1_percent === true;
 
-      return matchQuery && matchRegion && matchType && matchGdtx && matchVisa && matchNoTopik && matchTop1;
+      return matchQuery && matchRegion && matchType && matchGdtx && matchMajor && matchVisa && matchNoTopik && matchTop1;
     })
     .sort((a: any, b: any) => {
       if (sortBy === 'rank') {
@@ -227,7 +250,7 @@ export default function Home() {
         rateDate={rateDate}
         compareCount={selectedSchoolsForCompare.length}
         onOpenCompare={() => {
-          // ComparePanel opens its modal internally, but can be triggered if needed.
+          setIsCompareOpen(true);
         }}
       />
 
@@ -240,10 +263,10 @@ export default function Home() {
         {/* View Mode & Calculator Toggle buttons */}
         <div style={{
           display: 'flex',
-          justifyContent: 'center',
+          justifyContent: 'flex-start',
           gap: '1rem',
           flexWrap: 'wrap',
-          marginBottom: '2.5rem',
+          marginBottom: '1.5rem',
           borderBottom: '1px solid var(--border-color)',
           paddingBottom: '1.25rem'
         }}>
@@ -383,7 +406,7 @@ export default function Home() {
               style={{
                 padding: '1.25rem',
                 borderRadius: 'var(--border-radius-md)',
-                marginBottom: '2rem',
+                marginBottom: '1.5rem',
                 boxShadow: 'var(--shadow-sm)',
                 display: 'flex',
                 flexDirection: 'column',
@@ -418,27 +441,34 @@ export default function Home() {
                     <input 
                       type="text"
                       placeholder="Tìm tên trường (Anh, Hàn, Việt)..."
+                      aria-label="Tìm kiếm trường đại học"
                       value={searchQuery}
                       onChange={(e) => setSearchQuery(e.target.value)}
                       style={{
                         width: '100%',
                         padding: '0.6rem 0.6rem 0.6rem 2.25rem',
-                        borderRadius: 'var(--border-radius-sm)',
+                        borderRadius: '9999px',
                         border: '1px solid var(--border-color)',
-                        backgroundColor: 'var(--bg-app)',
+                        backgroundColor: 'var(--bg-surface-hover)',
                         color: 'var(--text-primary)',
                         fontSize: '0.85rem',
                         fontWeight: 500,
                         outline: 'none',
-                        transition: 'border-color var(--transition-fast)'
+                        transition: 'all var(--transition-fast)'
                       }}
-                      onFocus={(e) => e.target.style.borderColor = 'var(--primary)'}
-                      onBlur={(e) => e.target.style.borderColor = 'var(--border-color)'}
+                      onFocus={(e) => {
+                        e.target.style.borderColor = 'var(--primary)';
+                        e.target.style.backgroundColor = 'var(--bg-surface)';
+                      }}
+                      onBlur={(e) => {
+                        e.target.style.borderColor = 'var(--border-color)';
+                        e.target.style.backgroundColor = 'var(--bg-surface-hover)';
+                      }}
                     />
                   </div>
 
                   {/* Reset Button */}
-                  {(searchQuery || selectedRegion !== 'All' || selectedType !== 'All' || sortBy !== 'rank' || selectedGdtx !== 'All' || visaMetropolitanOnly || masterNoTopikOnly || top1PercentOnly) && (
+                  {(searchQuery || selectedRegion !== 'All' || selectedType !== 'All' || sortBy !== 'rank' || selectedGdtx !== 'All' || selectedMajor !== 'All' || visaMetropolitanOnly || masterNoTopikOnly || top1PercentOnly) && (
                     <button
                       onClick={handleResetFilters}
                       style={{
@@ -447,7 +477,7 @@ export default function Home() {
                         justifyContent: 'center',
                         gap: '0.4rem',
                         padding: '0.6rem 1rem',
-                        borderRadius: 'var(--border-radius-sm)',
+                        borderRadius: 'var(--border-radius-md)',
                         border: '1px solid var(--accent-light)',
                         backgroundColor: 'var(--accent-light)',
                         color: 'var(--accent)',
@@ -480,22 +510,27 @@ export default function Home() {
                 <div className="filter-dropdowns-grid">
                   
                   {/* Region Select */}
-                  <div style={{ display: 'flex', flexDirection: 'column', gap: '0.25rem' }}>
+                  <div style={{ display: 'flex', flexDirection: 'column', gap: '0.35rem' }}>
+                    <label htmlFor="region-select-next" style={{ fontSize: '0.75rem', fontWeight: 700, color: 'var(--text-secondary)', textTransform: 'uppercase', letterSpacing: '0.02em' }}>Khu vực đào tạo</label>
                     <select
+                      id="region-select-next"
                       value={selectedRegion}
                       onChange={(e) => setSelectedRegion(e.target.value)}
                       style={{
                         width: '100%',
                         padding: '0.6rem',
-                        borderRadius: 'var(--border-radius-sm)',
+                        borderRadius: 'var(--border-radius-md)',
                         border: '1px solid var(--border-color)',
-                        backgroundColor: 'var(--bg-app)',
+                        backgroundColor: 'var(--bg-surface)',
                         color: 'var(--text-primary)',
                         fontSize: '0.85rem',
-                        fontWeight: 500,
+                        fontWeight: 600,
                         outline: 'none',
-                        cursor: 'pointer'
+                        cursor: 'pointer',
+                        transition: 'border-color var(--transition-fast)'
                       }}
+                      onFocus={(e) => e.target.style.borderColor = 'var(--primary)'}
+                      onBlur={(e) => e.target.style.borderColor = 'var(--border-color)'}
                     >
                       <option value="All">Tất cả Khu vực ({uniqueRegions.length - 1})</option>
                       {uniqueRegions.filter(r => r !== 'All').map(r => (
@@ -505,22 +540,27 @@ export default function Home() {
                   </div>
 
                   {/* Type Select */}
-                  <div style={{ display: 'flex', flexDirection: 'column', gap: '0.25rem' }}>
+                  <div style={{ display: 'flex', flexDirection: 'column', gap: '0.35rem' }}>
+                    <label htmlFor="type-select-next" style={{ fontSize: '0.75rem', fontWeight: 700, color: 'var(--text-secondary)', textTransform: 'uppercase', letterSpacing: '0.02em' }}>Loại hình trường</label>
                     <select
+                      id="type-select-next"
                       value={selectedType}
                       onChange={(e) => setSelectedType(e.target.value)}
                       style={{
                         width: '100%',
                         padding: '0.6rem',
-                        borderRadius: 'var(--border-radius-sm)',
+                        borderRadius: 'var(--border-radius-md)',
                         border: '1px solid var(--border-color)',
-                        backgroundColor: 'var(--bg-app)',
+                        backgroundColor: 'var(--bg-surface)',
                         color: 'var(--text-primary)',
                         fontSize: '0.85rem',
-                        fontWeight: 500,
+                        fontWeight: 600,
                         outline: 'none',
-                        cursor: 'pointer'
+                        cursor: 'pointer',
+                        transition: 'border-color var(--transition-fast)'
                       }}
+                      onFocus={(e) => e.target.style.borderColor = 'var(--primary)'}
+                      onBlur={(e) => e.target.style.borderColor = 'var(--border-color)'}
                     >
                       <option value="All">Tất cả Loại hình</option>
                       <option value="public">Quốc lập / Công lập</option>
@@ -529,24 +569,29 @@ export default function Home() {
                   </div>
 
                   {/* Sort Select */}
-                  <div style={{ display: 'flex', flexDirection: 'column', gap: '0.25rem' }}>
+                  <div style={{ display: 'flex', flexDirection: 'column', gap: '0.35rem' }}>
+                    <label htmlFor="sort-select-next" style={{ fontSize: '0.75rem', fontWeight: 700, color: 'var(--text-secondary)', textTransform: 'uppercase', letterSpacing: '0.02em' }}>Sắp xếp học phí</label>
                     <select
+                      id="sort-select-next"
                       value={sortBy}
                       onChange={(e) => setSortBy(e.target.value)}
                       style={{
                         width: '100%',
                         padding: '0.6rem',
-                        borderRadius: 'var(--border-radius-sm)',
+                        borderRadius: 'var(--border-radius-md)',
                         border: '1px solid var(--border-color)',
-                        backgroundColor: 'var(--bg-app)',
+                        backgroundColor: 'var(--bg-surface)',
                         color: 'var(--text-primary)',
                         fontSize: '0.85rem',
-                        fontWeight: 500,
+                        fontWeight: 600,
                         outline: 'none',
-                        cursor: 'pointer'
+                        cursor: 'pointer',
+                        transition: 'border-color var(--transition-fast)'
                       }}
+                      onFocus={(e) => e.target.style.borderColor = 'var(--primary)'}
+                      onBlur={(e) => e.target.style.borderColor = 'var(--border-color)'}
                     >
-                      <option value="rank">Sắp xếp: Thứ hạng tốt nhất</option>
+                      <option value="rank">Thứ hạng tốt nhất</option>
                       <option value="tuition_asc">Học phí: Thấp đến cao</option>
                       <option value="tuition_desc">Học phí: Cao đến thấp</option>
                       <option value="name">Tên trường: A - Z</option>
@@ -554,28 +599,36 @@ export default function Home() {
                   </div>
 
                   {/* GDTX Dropdown */}
-                  <div style={{ display: 'flex', flexDirection: 'column', gap: '0.25rem' }}>
+                  <div style={{ display: 'flex', flexDirection: 'column', gap: '0.35rem' }}>
+                    <label htmlFor="gdtx-select-next" style={{ fontSize: '0.75rem', fontWeight: 700, color: 'var(--text-secondary)', textTransform: 'uppercase', letterSpacing: '0.02em' }}>Hệ đào tạo GDTX</label>
                     <select
+                      id="gdtx-select-next"
                       value={selectedGdtx}
                       onChange={(e) => setSelectedGdtx(e.target.value)}
                       style={{
                         width: '100%',
                         padding: '0.6rem',
-                        borderRadius: 'var(--border-radius-sm)',
+                        borderRadius: 'var(--border-radius-md)',
                         border: '1px solid var(--border-color)',
-                        backgroundColor: 'var(--bg-app)',
+                        backgroundColor: 'var(--bg-surface)',
                         color: 'var(--text-primary)',
                         fontSize: '0.85rem',
-                        fontWeight: 500,
+                        fontWeight: 600,
                         outline: 'none',
-                        cursor: 'pointer'
+                        cursor: 'pointer',
+                        transition: 'border-color var(--transition-fast)'
                       }}
+                      onFocus={(e) => e.target.style.borderColor = 'var(--primary)'}
+                      onBlur={(e) => e.target.style.borderColor = 'var(--border-color)'}
                     >
-                      <option value="All">Hệ GDTX: Tất cả</option>
-                      <option value="top2">Hệ GDTX: Nhận Top 2%</option>
-                      <option value="top3">Hệ GDTX: Nhận Top 3%</option>
+                      <option value="All">Tất cả hệ đào tạo</option>
+                      <option value="top2">Nhận Top 2%</option>
+                      <option value="top3">Nhận Top 3%</option>
                     </select>
                   </div>
+
+                  {/* Major Autocomplete Search (List View) */}
+                  <MajorSearchFilter value={selectedMajor} onChange={setSelectedMajor} />
 
                 </div>
 
@@ -663,7 +716,7 @@ export default function Home() {
 
             {/* Results Counter */}
             <div style={{ 
-              marginBottom: '1.25rem', 
+              marginBottom: '1.5rem', 
               fontSize: '0.9rem', 
               color: 'var(--text-secondary)',
               display: 'flex',
@@ -685,15 +738,14 @@ export default function Home() {
             {/* Schools Card Grid */}
             <div className="university-grid">
               {filteredUniversities.map(school => (
-                <div key={school.id}>
-                  <SchoolCard 
-                    university={school}
-                    exchangeRate={exchangeRate}
-                    onViewDetails={() => setActiveSchoolDetails(school)}
-                    isComparing={selectedSchoolsForCompare.some(s => s.id === school.id)}
-                    onToggleCompare={() => handleToggleCompare(school)}
-                  />
-                </div>
+                <SchoolCard 
+                  key={school.id}
+                  university={school}
+                  exchangeRate={exchangeRate}
+                  onViewDetails={() => setActiveSchoolDetails(school)}
+                  isComparing={selectedSchoolsForCompare.some(s => s.id === school.id)}
+                  onToggleCompare={() => handleToggleCompare(school)}
+                />
               ))}
             </div>
           </>
@@ -706,6 +758,9 @@ export default function Home() {
         onRemoveSchool={handleRemoveCompareSchool}
         onClearAll={handleClearAllCompare}
         exchangeRate={exchangeRate}
+        isOpenOverride={isCompareOpen}
+        onOpenOverride={() => setIsCompareOpen(true)}
+        onCloseOverride={() => setIsCompareOpen(false)}
       />
 
       {/* University Detail Modal */}

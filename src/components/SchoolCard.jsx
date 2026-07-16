@@ -29,46 +29,36 @@ export default function SchoolCard({
   const minTuition = Math.min(...tuitionValues);
   const maxTuition = Math.max(...tuitionValues);
 
-  // Generate color palette based on school ID/name for unique brand feel
-  const getGradient = (id) => {
-    const gradients = {
-      snu: 'linear-gradient(135deg, #1d4ed8 0%, #1e40af 100%)', // SNU Blue
-      kaist: 'linear-gradient(135deg, #0284c7 0%, #0369a1 100%)', // KAIST Blue
-      yonsei: 'linear-gradient(135deg, #0f172a 0%, #1e3a8a 100%)', // Yonsei Dark Blue
-      korea: 'linear-gradient(135deg, #991b1b 0%, #7f1d1d 100%)', // Korea Crimson
-      skku: 'linear-gradient(135deg, #065f46 0%, #0f766e 100%)', // SKKU Green/Teal
-      hanyang: 'linear-gradient(135deg, #1e3a8a 0%, #0284c7 100%)', // Hanyang Blue
-    };
-    return gradients[id] || 'linear-gradient(135deg, var(--primary) 0%, var(--secondary) 100%)';
-  };
+
 
   const getInitials = (name) => {
-    return name.split(' ').map(w => w[0]).slice(0, 3).join('').toUpperCase();
+    const clean = name.replace(/\([^)]*\)/g, '').replace(/[^a-zA-Z\s]/g, '').trim();
+    const words = clean.split(/\s+/).filter(Boolean);
+    if (words.length === 1) {
+      return words[0].slice(0, 3).toUpperCase();
+    }
+    return words.map(w => w[0]).slice(0, 3).join('').toUpperCase();
   };
 
   return (
     <div 
-      className="glass-effect animate-fade-in"
+      className="animate-fade-in"
       style={{
         borderRadius: 'var(--border-radius-md)',
         overflow: 'hidden',
         display: 'flex',
         flexDirection: 'column',
-        boxShadow: 'var(--shadow-md)',
-        transition: 'transform var(--transition-normal), box-shadow var(--transition-normal), border-color var(--transition-fast)',
+        backgroundColor: 'var(--bg-surface-hover)',
+        transition: 'border-color var(--transition-fast)',
         position: 'relative',
         height: '100%',
         cursor: 'default',
         border: isComparing ? '2px solid var(--primary)' : '1px solid var(--border-color)',
       }}
       onMouseEnter={(e) => {
-        e.currentTarget.style.transform = 'translateY(-6px)';
-        e.currentTarget.style.boxShadow = 'var(--shadow-xl)';
         if (!isComparing) e.currentTarget.style.borderColor = 'var(--border-focus)';
       }}
       onMouseLeave={(e) => {
-        e.currentTarget.style.transform = 'translateY(0)';
-        e.currentTarget.style.boxShadow = 'var(--shadow-md)';
         if (!isComparing) e.currentTarget.style.borderColor = 'var(--border-color)';
       }}
     >
@@ -179,15 +169,15 @@ export default function SchoolCard({
           width: '3.25rem',
           height: '3.25rem',
           borderRadius: 'var(--border-radius-sm)',
-          background: getGradient(university.id),
-          color: 'white',
+          background: 'var(--secondary-light)',
+          color: 'var(--text-primary)',
           display: 'flex',
           alignItems: 'center',
           justifyContent: 'center',
           fontWeight: 800,
           fontSize: '0.95rem',
           flexShrink: 0,
-          boxShadow: '0 4px 8px rgba(0,0,0,0.1)'
+          boxShadow: '0 2px 5px rgba(0,0,0,0.05)'
         }}>
           {getInitials(name_en)}
         </div>
@@ -216,7 +206,7 @@ export default function SchoolCard({
             overflow: 'hidden',
             textOverflow: 'ellipsis'
           }}>
-            {name_en} &bull; {name_ko}
+            {name_en} • {name_ko}
           </p>
           
           <div style={{ display: 'flex', gap: '0.75rem', marginTop: '0.5rem', flexWrap: 'wrap' }}>
@@ -291,44 +281,44 @@ export default function SchoolCard({
           gap: '0.35rem',
           lineHeight: '1.4'
         }}>
-          <span style={{ color: 'var(--accent)', fontWeight: 800 }}>&bull;</span>
+          <span style={{ color: 'var(--accent)', fontWeight: 800 }}>•</span>
           <span>{custom_notes}</span>
         </div>
       )}
 
-      {/* View Detail trigger Button */}
-      <button 
-        onClick={onViewDetails}
-        className="card-detail-btn"
-        style={{
-          width: '100%',
-          border: 'none',
-          background: 'none',
-          padding: '1rem',
-          fontWeight: 700,
-          color: 'var(--primary)',
-          fontSize: '0.85rem',
-          display: 'flex',
-          alignItems: 'center',
-          justifyContent: 'center',
-          gap: '0.4rem',
-          cursor: 'pointer',
-          transition: 'all var(--transition-fast)',
-          backgroundColor: 'var(--bg-surface)'
-        }}
-        onMouseEnter={(e) => {
-          e.currentTarget.style.backgroundColor = 'var(--primary)';
-          e.currentTarget.style.color = 'white';
-        }}
-        onMouseLeave={(e) => {
-          e.currentTarget.style.backgroundColor = 'var(--bg-surface)';
-          e.currentTarget.style.color = 'var(--primary)';
-        }}
-      >
-        <Eye size={14} />
-        <span>Xem chi tiết học phí</span>
-        <ArrowRight size={12} />
-      </button>
+      {/* View Detail trigger Button Container */}
+      <div style={{ padding: '1rem 1.25rem 1.25rem 1.25rem', backgroundColor: 'var(--bg-surface-hover)' }}>
+        <button 
+          onClick={onViewDetails}
+          className="card-detail-btn"
+          style={{
+            width: '100%',
+            height: '40px',
+            border: 'none',
+            borderRadius: 'var(--border-radius-md)',
+            backgroundColor: 'var(--primary)',
+            color: 'white',
+            fontWeight: 700,
+            fontSize: '0.85rem',
+            display: 'flex',
+            alignItems: 'center',
+            justifyContent: 'center',
+            gap: '0.4rem',
+            cursor: 'pointer',
+            transition: 'all var(--transition-fast)',
+          }}
+          onMouseEnter={(e) => {
+            e.currentTarget.style.backgroundColor = 'var(--primary-hover)';
+          }}
+          onMouseLeave={(e) => {
+            e.currentTarget.style.backgroundColor = 'var(--primary)';
+          }}
+        >
+          <Eye size={14} />
+          <span>Xem chi tiết học phí</span>
+          <ArrowRight size={12} />
+        </button>
+      </div>
     </div>
   );
 }

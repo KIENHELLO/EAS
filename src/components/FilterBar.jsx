@@ -67,22 +67,26 @@ export default function FilterBar({
       }}>
         {/* Dropdown Ngành Học */}
         <div style={{ display: 'flex', flexDirection: 'column', gap: '0.4rem' }}>
-          <label style={{ fontSize: '0.75rem', fontWeight: 700, color: 'var(--text-secondary)', display: 'flex', alignItems: 'center', gap: '0.25rem' }}>
+          <label 
+            htmlFor="selected-major-select"
+            style={{ fontSize: '0.75rem', fontWeight: 700, color: 'var(--text-secondary)', display: 'flex', alignItems: 'center', gap: '0.25rem' }}
+          >
             <GraduationCap size={12} color="var(--primary)" />
             NHÓM NGÀNH ĐÀO TẠO
           </label>
           <select
+            id="selected-major-select"
             value={selectedMajor}
             onChange={(e) => setSelectedMajor(e.target.value)}
             style={{
               width: '100%',
               padding: '0.6rem',
-              borderRadius: 'var(--border-radius-sm)',
+              borderRadius: 'var(--border-radius-md)',
               border: '1px solid var(--border-color)',
-              backgroundColor: 'var(--bg-app)',
+              backgroundColor: 'var(--bg-surface)',
               color: 'var(--text-primary)',
               fontSize: '0.85rem',
-              fontWeight: 500,
+              fontWeight: 600,
               outline: 'none',
               cursor: 'pointer'
             }}
@@ -100,8 +104,11 @@ export default function FilterBar({
         {/* Slider Học phí */}
         <div style={{ display: 'flex', flexDirection: 'column', gap: '0.4rem' }}>
           <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
-            <label style={{ fontSize: '0.75rem', fontWeight: 700, color: 'var(--text-secondary)', display: 'flex', alignItems: 'center', gap: '0.25rem' }}>
-              <DollarSign size={12} color="var(--success)" />
+            <label 
+              htmlFor="max-tuition-range"
+              style={{ fontSize: '0.75rem', fontWeight: 700, color: 'var(--text-secondary)', display: 'flex', alignItems: 'center', gap: '0.25rem' }}
+            >
+              <DollarSign size={12} color="var(--primary)" />
               HỌC PHÍ TỐI ĐA / KỲ
             </label>
             <span style={{ fontSize: '0.8rem', fontWeight: 700, color: 'var(--primary)' }}>
@@ -109,6 +116,7 @@ export default function FilterBar({
             </span>
           </div>
           <input
+            id="max-tuition-range"
             type="range"
             min="2000000"
             max="10000000"
@@ -133,17 +141,21 @@ export default function FilterBar({
 
         {/* Toggle Học bổng GKS */}
         <div style={{ display: 'flex', alignItems: 'center', height: '100%' }}>
-          <label style={{
-            display: 'flex',
-            alignItems: 'center',
-            gap: '0.6rem',
-            fontSize: '0.82rem',
-            fontWeight: 700,
-            color: 'var(--text-secondary)',
-            cursor: 'pointer',
-            userSelect: 'none'
-          }}>
+          <label 
+            htmlFor="gks-checkbox"
+            style={{
+              display: 'flex',
+              alignItems: 'center',
+              gap: '0.6rem',
+              fontSize: '0.82rem',
+              fontWeight: 700,
+              color: 'var(--text-secondary)',
+              cursor: 'pointer',
+              userSelect: 'none'
+            }}
+          >
             <input
+              id="gks-checkbox"
               type="checkbox"
               checked={gksOnly}
               onChange={(e) => setGksOnly(e.target.checked)}

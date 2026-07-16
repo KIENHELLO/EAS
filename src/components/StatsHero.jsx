@@ -52,7 +52,7 @@ export default function StatsHero({ universities, exchangeRate }) {
       <div className="bg-glow-2" />
 
       {/* Main Title and Intro */}
-      <div style={{ textAlign: 'center', maxWidth: '800px', margin: '0 auto 3rem auto' }}>
+      <div style={{ textAlign: 'center', maxWidth: '800px', margin: '0 auto 1.75rem auto' }}>
         <div style={{
           display: 'inline-flex',
           alignItems: 'center',
@@ -70,7 +70,7 @@ export default function StatsHero({ universities, exchangeRate }) {
           <Award size={14} />
           <span>Hệ Thống Dữ Liệu Du Học Hàn Quốc 2025/2026</span>
         </div>
-        <h2 style={{
+        <h1 style={{
           fontSize: 'clamp(1.8rem, 4.5vw, 2.5rem)',
           fontWeight: 800,
           letterSpacing: '-0.03em',
@@ -83,14 +83,14 @@ export default function StatsHero({ universities, exchangeRate }) {
           maxWidth: '30ch',
           margin: '0 auto 1rem'
         }}>
-          {"Tra Cứu & So Sánh Học Phí Hàn Quốc Dễ\u00a0Dàng"}
-        </h2>
+          {"Tra Cứu & So Sánh Học\u00a0Phí Hàn\u00a0Quốc Dễ\u00a0Dàng"}
+        </h1>
         <p style={{
           color: 'var(--text-secondary)',
           fontSize: '1.05rem',
           fontWeight: 500,
           lineHeight: 1.6,
-          margin: 0
+          margin: '0 auto 1rem auto'
         }}>
           Cổng thông tin hỗ trợ tìm kiếm học phí chi tiết của các trường đại học tại Hàn Quốc. Tự động quy đổi từ đồng Won sang Việt Nam Đồng theo tỷ giá tùy chỉnh.
         </p>
@@ -99,7 +99,7 @@ export default function StatsHero({ universities, exchangeRate }) {
           flexDirection: 'column',
           alignItems: 'center',
           gap: '0.4rem',
-          marginTop: '1.75rem',
+          marginTop: '2rem',
           padding: '0.75rem 1.25rem',
           borderRadius: 'var(--border-radius-md)',
           border: '1px dashed var(--border-color)',
@@ -121,10 +121,10 @@ export default function StatsHero({ universities, exchangeRate }) {
       </div>
 
       {/* Stats Cards Grid */}
-      <div style={{
+      <div className="stats-grid" style={{
         display: 'grid',
-        gridTemplateColumns: 'repeat(auto-fit, minmax(260px, 1fr))',
-        gap: '1.25rem'
+        width: '100%',
+        margin: '0 auto'
       }}>
         {/* Total Schools */}
         <div className="glass-effect" style={{
@@ -148,11 +148,11 @@ export default function StatsHero({ universities, exchangeRate }) {
           }}>
             <School size={24} />
           </div>
-          <div>
+          <div style={{ flex: 1 }}>
             <span style={{ fontSize: '0.8rem', fontWeight: 600, color: 'var(--text-tertiary)' }}>Tổng số trường đại học</span>
             <h3 style={{ fontSize: '1.75rem', fontWeight: 800, margin: '0.1rem 0' }}>{totalUniversities}</h3>
             <span style={{ fontSize: '0.75rem', color: 'var(--text-secondary)', fontWeight: 500 }}>
-              {publicUniversities.length} trường công lập &middot; {privateUniversities.length} tư thục
+              {publicUniversities.length} trường công lập · {privateUniversities.length} tư thục
             </span>
           </div>
         </div>

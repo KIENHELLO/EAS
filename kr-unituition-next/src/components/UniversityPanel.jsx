@@ -103,7 +103,7 @@ export default function UniversityPanel({
             Khu vực: {name_vi}
           </h3>
           <span style={{ fontSize: '0.8rem', color: 'var(--text-tertiary)', fontWeight: 600 }}>
-            {name_ko} &bull; Có <strong>{schools.length}</strong> trường thỏa mãn
+            {name_ko} • Có <strong>{schools.length}</strong> trường thỏa mãn
           </span>
         </div>
         {onCloseMobilePanel && (
@@ -163,7 +163,7 @@ export default function UniversityPanel({
                     {school.name_vi}
                   </h4>
                   <span style={{ fontSize: '0.75rem', color: 'var(--text-tertiary)', fontWeight: 500 }}>
-                    {school.name_en} &bull; {school.name_ko}
+                    {school.name_en} • {school.name_ko}
                   </span>
                 </div>
 

@@ -19,10 +19,21 @@ export default defineConfig({
         baseUrl: '',
         js: {
           minify: false
+        },
+        html: {
+          lang: 'vi'
         }
       }
     })
   ],
+  server: {
+    proxy: {
+      '/api': {
+        target: 'http://localhost:3000',
+        changeOrigin: true
+      }
+    }
+  },
   build: {
     rollupOptions: {
       output: {

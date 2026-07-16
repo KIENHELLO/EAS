@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from 'react';
-import { Sun, Moon, RefreshCw, BarChart2 } from 'lucide-react';
+import { Sun, Moon, RefreshCw, BarChart2, Lock } from 'lucide-react';
 
 export default function Navbar({ 
   theme, 
@@ -33,16 +33,21 @@ export default function Navbar({
       padding: '1rem 1.5rem',
       borderRadius: '0 0 var(--border-radius-md) var(--border-radius-md)',
       marginBottom: '2rem',
-      display: 'flex',
-      alignItems: 'center',
-      justifyContent: 'space-between',
       boxShadow: 'var(--shadow-sm)',
       transition: 'all var(--transition-normal)'
     }}>
-      {/* Brand logo */}
+      <div style={{
+        maxWidth: '1400px',
+        margin: '0 auto',
+        width: '100%',
+        display: 'flex',
+        alignItems: 'center',
+        justifyContent: 'space-between'
+      }}>
+        {/* Brand logo */}
       <div style={{ display: 'flex', alignItems: 'center', gap: '0.75rem' }}>
         <div style={{
-          background: 'linear-gradient(135deg, var(--primary) 0%, var(--secondary) 100%)',
+          background: 'var(--primary)',
           color: 'white',
           width: '2.5rem',
           height: '2.5rem',
@@ -52,14 +57,14 @@ export default function Navbar({
           justifyContent: 'center',
           fontWeight: 800,
           fontSize: '1.25rem',
-          boxShadow: '0 4px 10px rgba(79, 70, 229, 0.3)'
+          boxShadow: '0 4px 10px rgba(230, 0, 35, 0.25)'
         }}>
           KR
         </div>
         <div>
-          <h1 style={{ fontSize: '1.25rem', fontWeight: 800, margin: 0, letterSpacing: '-0.025em', lineHeight: 1.2 }}>
+          <div style={{ fontSize: '1.25rem', fontWeight: 800, margin: 0, letterSpacing: '-0.025em', lineHeight: 1.2, color: 'var(--text-primary)' }}>
             KR-UniTuition
-          </h1>
+          </div>
           <span style={{ fontSize: '0.75rem', color: 'var(--text-tertiary)', fontWeight: 500 }}>
             Cổng Tra Cứu Học Phí Đại Học Hàn Quốc
           </span>
@@ -78,16 +83,18 @@ export default function Navbar({
               display: 'flex',
               alignItems: 'center',
               gap: '0.5rem',
-              background: isApiRate ? 'var(--primary-light)' : 'rgba(245, 158, 11, 0.15)',
-              color: isApiRate ? 'var(--primary)' : 'var(--warning)',
+              background: 'var(--secondary-light)',
+              color: 'var(--text-primary)',
               border: 'none',
               padding: '0.5rem 0.85rem',
-              borderRadius: 'var(--border-radius-sm)',
-              fontWeight: 600,
+              borderRadius: 'var(--border-radius-md)',
+              fontWeight: 700,
               fontSize: '0.85rem',
               cursor: 'pointer',
               transition: 'all var(--transition-fast)'
             }}
+            onMouseEnter={(e) => e.currentTarget.style.background = '#dadad3'}
+            onMouseLeave={(e) => e.currentTarget.style.background = 'var(--secondary-light)'}
           >
             <RefreshCw size={14} style={{ transform: showRateMenu ? 'rotate(180deg)' : 'none', transition: 'transform var(--transition-normal)' }} />
             <span>
@@ -110,19 +117,21 @@ export default function Navbar({
                   position: 'absolute',
                   top: '120%',
                   right: 0,
-                  width: '240px',
+                  width: '250px',
                   padding: '1.25rem',
                   borderRadius: 'var(--border-radius-md)',
                   boxShadow: 'var(--shadow-lg)',
                   zIndex: 20,
                   display: 'flex',
                   flexDirection: 'column',
-                  gap: '0.75rem'
+                  gap: '0.75rem',
+                  backgroundColor: 'var(--bg-surface)',
+                  border: '1px solid var(--border-color)'
                 }}
               >
-                <h4 style={{ fontSize: '0.9rem', fontWeight: 700, margin: 0 }}>Cấu hình tỷ giá KRW/VND</h4>
-                <p style={{ fontSize: '0.75rem', color: 'var(--text-tertiary)', margin: 0 }}>
-                  Nhập tỷ giá tùy chỉnh để chuyển đổi tiền Won sang tiền Việt.
+                <h4 style={{ fontSize: '0.9rem', fontWeight: 800, margin: 0, color: 'var(--text-primary)' }}>Cấu hình tỷ giá KRW/VND</h4>
+                <p style={{ fontSize: '0.75rem', color: 'var(--text-tertiary)', margin: 0, lineHeight: 1.4 }}>
+                  Nhập tỷ giá tùy chỉnh để chuyển đổi Won sang Việt Nam Đồng.
                 </p>
                 <div style={{
                   display: 'flex',
@@ -145,44 +154,78 @@ export default function Navbar({
                   }} />
                   <span>{rateDate}</span>
                 </div>
-                <form onSubmit={handleRateSubmit} style={{ display: 'flex', gap: '0.5rem' }}>
-                  <input 
-                    type="number" 
-                    step="0.1" 
-                    min="1"
-                    value={customRate}
-                    onChange={(e) => setCustomRate(e.target.value)}
-                    style={{
-                      flex: 1,
-                      padding: '0.4rem 0.6rem',
-                      borderRadius: 'var(--border-radius-sm)',
-                      border: '1px solid var(--border-color)',
-                      backgroundColor: 'var(--bg-app)',
-                      color: 'var(--text-primary)',
-                      fontSize: '0.85rem',
-                      fontWeight: 600,
-                      outline: 'none'
-                    }}
-                  />
-                  <button 
-                    type="submit"
-                    style={{
-                      background: 'var(--primary)',
-                      color: 'white',
-                      border: 'none',
-                      padding: '0.4rem 0.8rem',
-                      borderRadius: 'var(--border-radius-sm)',
-                      fontWeight: 600,
-                      fontSize: '0.85rem',
-                      cursor: 'pointer'
-                    }}
-                  >
-                    Áp dụng
-                  </button>
+                
+                <form 
+                  onSubmit={handleRateSubmit} 
+                  style={{ display: 'flex', gap: '0.5rem', flexDirection: 'column' }}
+                >
+                  <div style={{ display: 'flex', gap: '0.5rem' }}>
+                    <input 
+                      type="number" 
+                      step="0.1" 
+                      min="1"
+                      placeholder="Tỷ giá..."
+                      aria-label="Tỷ giá Won sang VND"
+                      value={customRate}
+                      onChange={(e) => setCustomRate(e.target.value)}
+                      style={{
+                        flex: 1,
+                        padding: '0.5rem 0.75rem',
+                        borderRadius: 'var(--border-radius-md)',
+                        border: customRate !== '' && (isNaN(parseFloat(customRate)) || parseFloat(customRate) <= 0)
+                          ? '1px solid var(--primary)'
+                          : '1px solid var(--border-color)',
+                        backgroundColor: 'var(--bg-surface)',
+                        color: 'var(--text-primary)',
+                        fontSize: '0.85rem',
+                        fontWeight: 600,
+                        outline: 'none',
+                        height: '38px',
+                        transition: 'all var(--transition-fast)'
+                      }}
+                    />
+                    <button 
+                      type="submit"
+                      disabled={customRate === '' || isNaN(parseFloat(customRate)) || parseFloat(customRate) <= 0}
+                      style={{
+                        background: 'var(--primary)',
+                        color: 'white',
+                        border: 'none',
+                        padding: '0 1rem',
+                        borderRadius: 'var(--border-radius-md)',
+                        fontWeight: 700,
+                        fontSize: '0.82rem',
+                        cursor: 'pointer',
+                        height: '38px',
+                        opacity: (customRate === '' || isNaN(parseFloat(customRate)) || parseFloat(customRate) <= 0) ? 0.5 : 1,
+                        transition: 'all var(--transition-fast)'
+                      }}
+                      onMouseEnter={(e) => {
+                        if (parseFloat(customRate) > 0) e.currentTarget.style.background = 'var(--primary-hover)';
+                      }}
+                      onMouseLeave={(e) => {
+                        e.currentTarget.style.background = 'var(--primary)';
+                      }}
+                    >
+                      Áp dụng
+                    </button>
+                  </div>
+                  {customRate !== '' && (isNaN(parseFloat(customRate)) || parseFloat(customRate) <= 0) && (
+                    <span style={{ fontSize: '0.65rem', color: 'var(--primary)', fontWeight: 600 }}>
+                      Tỷ giá phải lớn hơn 0!
+                    </span>
+                  )}
                 </form>
                 
                 {/* Preset exchange rates */}
-                <div style={{ display: 'flex', flexWrap: 'wrap', gap: '0.35rem', marginTop: '0.25rem' }}>
+                <div style={{ 
+                  display: 'flex', 
+                  flexWrap: 'wrap', 
+                  gap: '0.35rem', 
+                  marginTop: '0.25rem',
+                  borderTop: '1px solid var(--border-color)',
+                  paddingTop: '0.65rem'
+                }}>
                   {[18.0, 18.5, 19.0, 19.5].map((preset) => (
                     <button
                       key={preset}
@@ -193,14 +236,21 @@ export default function Navbar({
                         setShowRateMenu(false);
                       }}
                       style={{
-                        padding: '0.25rem 0.5rem',
-                        borderRadius: '4px',
-                        border: '1px solid var(--border-color)',
-                        backgroundColor: exchangeRate === preset ? 'var(--primary)' : 'transparent',
-                        color: exchangeRate === preset ? 'white' : 'var(--text-secondary)',
+                        padding: '0.3rem 0.65rem',
+                        borderRadius: '9999px',
+                        border: 'none',
+                        backgroundColor: exchangeRate === preset ? 'var(--text-primary)' : 'var(--bg-surface-hover)',
+                        color: exchangeRate === preset ? 'var(--bg-surface)' : 'var(--text-primary)',
                         fontSize: '0.75rem',
-                        fontWeight: 500,
-                        cursor: 'pointer'
+                        fontWeight: 700,
+                        cursor: 'pointer',
+                        transition: 'all var(--transition-fast)'
+                      }}
+                      onMouseEnter={(e) => {
+                        if (exchangeRate !== preset) e.currentTarget.style.filter = 'brightness(0.9)';
+                      }}
+                      onMouseLeave={(e) => {
+                        e.currentTarget.style.filter = 'none';
                       }}
                     >
                       {preset}
@@ -224,17 +274,56 @@ export default function Navbar({
               color: 'var(--success)',
               border: 'none',
               padding: '0.5rem 0.85rem',
-              borderRadius: 'var(--border-radius-sm)',
-              fontWeight: 600,
+              borderRadius: 'var(--border-radius-md)',
+              fontWeight: 700,
               fontSize: '0.85rem',
               cursor: 'pointer',
               transition: 'all var(--transition-fast)'
             }}
+            onMouseEnter={(e) => e.currentTarget.style.filter = 'brightness(0.95)'}
+            onMouseLeave={(e) => e.currentTarget.style.filter = 'none'}
           >
             <BarChart2 size={14} />
             <span>So sánh ({compareCount})</span>
           </button>
         )}
+
+        {/* Admin Link */}
+        <a
+          href="/admin"
+          style={{
+            background: 'var(--secondary-light)',
+            border: '1px solid var(--border-color)',
+            color: 'var(--text-secondary)',
+            height: '2.5rem',
+            padding: '0 0.85rem',
+            borderRadius: 'var(--border-radius-sm)',
+            display: 'flex',
+            alignItems: 'center',
+            justifyContent: 'center',
+            gap: '0.5rem',
+            cursor: 'pointer',
+            transition: 'all var(--transition-fast)',
+            outline: 'none',
+            fontSize: '0.85rem',
+            fontWeight: 700,
+            textDecoration: 'none'
+          }}
+          onMouseEnter={(e) => {
+            e.currentTarget.style.background = 'var(--primary-hover)';
+            e.currentTarget.style.color = 'white';
+            e.currentTarget.style.borderColor = 'var(--primary)';
+          }}
+          onMouseLeave={(e) => {
+            e.currentTarget.style.background = 'var(--secondary-light)';
+            e.currentTarget.style.color = 'var(--text-secondary)';
+            e.currentTarget.style.borderColor = 'var(--border-color)';
+          }}
+          title="Hệ thống quản trị Admin"
+        >
+          <Lock size={14} />
+          <span>Admin</span>
+        </a>
 
         {/* Theme toggle */}
         <button
@@ -258,6 +347,7 @@ export default function Navbar({
           {theme === 'dark' ? <Sun size={18} /> : <Moon size={18} />}
         </button>
 
+      </div>
       </div>
     </nav>
   );

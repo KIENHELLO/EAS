@@ -6053,7 +6053,16 @@ export const universities = [
     "visa_metropolitan": false,
     "master_no_topik": false,
     "custom_notes": "",
-    "top_1_percent": false
+    "top_1_percent": false,
+    "tuition_history": {
+      "2025": {
+        "humanities_social": null,
+        "natural_sciences": null,
+        "engineering": null,
+        "arts_sports": null,
+        "medicine_pharmacy": null
+      }
+    }
   },
   {
     "id": "mock_uni_201",

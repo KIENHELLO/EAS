@@ -1,77 +1,77 @@
-@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Manrope:wght@600;700;800&display=swap');
 @import "tailwindcss";
 
 :root {
-  font-family: 'Plus Jakarta Sans', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+  font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
   line-height: 1.5;
   font-weight: 400;
 
   color-scheme: light dark;
 
-  /* Premium Color System */
-  --primary: #6366f1; /* Indigo */
-  --primary-hover: #4f46e5;
-  --primary-light: rgba(99, 102, 241, 0.1);
-  --primary-light-hover: rgba(99, 102, 241, 0.18);
+  /* Pinterest Design Tokens (DESIGN.md) */
+  --primary: #e60023; /* Pinterest Red */
+  --primary-hover: #cc001f; /* Pinterest Red Pressed */
+  --primary-light: rgba(230, 0, 35, 0.08);
+  --primary-light-hover: rgba(230, 0, 35, 0.15);
   
-  --secondary: #06b6d4; /* Cyan */
-  --secondary-hover: #0891b2;
-  --secondary-light: rgba(6, 182, 212, 0.1);
+  --secondary: #62625b; /* Mute */
+  --secondary-hover: #262622; /* Charcoal */
+  --secondary-light: #e5e5e0; /* Secondary BG */
   
-  --accent: #f43f5e; /* Rose */
-  --accent-light: rgba(244, 63, 94, 0.1);
+  --accent: #7e238b; /* Accent Purple */
+  --accent-light: rgba(126, 35, 139, 0.1);
   
-  --success: #10b981; /* Emerald */
-  --success-light: rgba(16, 185, 129, 0.1);
+  --success: #103c25; /* Success Deep */
+  --success-light: #c7f0da; /* Success Pale */
   
   --warning: #f59e0b;
   
-  /* Light Theme Variables */
-  --bg-app: #f1f5f9;
-  --bg-surface: #ffffff;
-  --bg-surface-hover: #f8fafc;
-  --bg-glass: rgba(255, 255, 255, 0.65);
-  --border-color: rgba(226, 232, 240, 0.8);
-  --border-focus: rgba(99, 102, 241, 0.4);
+  /* Light Theme Variables (Cream Chrome) */
+  --bg-app: #fbfbf9; /* surface-soft */
+  --bg-surface: #ffffff; /* canvas */
+  --bg-surface-hover: #f6f6f3; /* surface-card */
+  --bg-glass: rgba(251, 251, 249, 0.85);
+  --border-color: #dadad3; /* hairline */
+  --border-focus: #435ee5; /* focus-outer */
   
-  --text-primary: #0f172a;
-  --text-secondary: #334155;
-  --text-tertiary: #64748b;
+  --text-primary: #000000; /* ink */
+  --text-secondary: #33332e; /* body */
+  --text-tertiary: #62625b; /* mute */
   --text-on-primary: #ffffff;
   
   --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.02);
-  --shadow-md: 0 8px 30px rgba(0, 0, 0, 0.04);
-  --shadow-lg: 0 20px 40px rgba(15, 23, 42, 0.06);
-  --shadow-xl: 0 30px 60px rgba(15, 23, 42, 0.1);
+  --shadow-md: 0 4px 12px rgba(0, 0, 0, 0.05);
+  --shadow-lg: 0 12px 30px rgba(0, 0, 0, 0.08);
+  --shadow-xl: 0 20px 40px rgba(0, 0, 0, 0.12); /* Modal Scrim shadow */
   
-  --glass-blur: 24px;
-  --border-radius-sm: 10px;
-  --border-radius-md: 18px;
-  --border-radius-lg: 26px;
+  --glass-blur: 20px;
+  --border-radius-sm: 8px;   /* rounded.sm */
+  --border-radius-md: 16px;  /* rounded.md - standard buttons, inputs, cards */
+  --border-radius-lg: 32px;  /* rounded.lg - modal cards, large cards */
   
   --transition-fast: 0.15s cubic-bezier(0.4, 0, 0.2, 1);
-  --transition-normal: 0.3s cubic-bezier(0.34, 1.56, 0.64, 1); /* Snappy overshoot */
-  --transition-slow: 0.6s cubic-bezier(0.16, 1, 0.3, 1);
+  --transition-normal: 0.3s cubic-bezier(0.34, 1.56, 0.64, 1);
+  --transition-slow: 0.5s cubic-bezier(0.16, 1, 0.3, 1);
 }
 
-/* Dark Theme Variables */
+/* Dark Theme Variables (Editorial Warm Dark) */
 [data-theme="dark"] {
-  --bg-app: #030712;
-  --bg-surface: #0b111e;
-  --bg-surface-hover: #121a2d;
-  --bg-glass: rgba(11, 17, 30, 0.7);
-  --border-color: rgba(30, 41, 59, 0.7);
-  --border-focus: rgba(99, 102, 241, 0.5);
+  --bg-app: #1a1a16;
+  --bg-surface: #262622; /* surface-dark */
+  --bg-surface-hover: #33332e;
+  --bg-glass: rgba(38, 38, 34, 0.85);
+  --border-color: #4d4d48;
+  --border-focus: #617bff; /* accent-pressed-blue */
   
-  --text-primary: #f8fafc;
-  --text-secondary: #94a3b8;
-  --text-tertiary: #64748b;
+  --text-primary: #ffffff; /* on-dark */
+  --text-secondary: rgba(255, 255, 255, 0.8); /* on-dark-mute */
+  --text-tertiary: rgba(255, 255, 255, 0.6);
   --text-on-primary: #ffffff;
   
-  --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.5);
-  --shadow-md: 0 8px 30px rgba(0, 0, 0, 0.35);
-  --shadow-lg: 0 20px 40px rgba(0, 0, 0, 0.45);
-  --shadow-xl: 0 30px 60px rgba(0, 0, 0, 0.55);
+  --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.3);
+  --shadow-md: 0 4px 12px rgba(0, 0, 0, 0.4);
+  --shadow-lg: 0 12px 30px rgba(0, 0, 0, 0.5);
+  --shadow-xl: 0 20px 40px rgba(0, 0, 0, 0.6);
 }
 
 * {
@@ -104,8 +104,8 @@
 
 body {
   background-color: var(--bg-app);
-  background-image: radial-gradient(at 50% 0%, var(--bg-surface) 0px, transparent 65%);
-  color: var(--text-primary);
+  background-image: radial-gradient(at 50% 0%, var(--bg-surface) 0px, transparent 80%);
+  color: var(--text-secondary);
   min-height: 100vh;
   overflow-x: hidden;
   position: relative;
@@ -296,6 +296,9 @@ button, input, select, textarea {
   grid-template-columns: repeat(4, 1fr); /* desktop ≥1400px */
   gap: 1.5rem;
   margin-bottom: 5rem;
+  width: 100%;
+  max-width: 100%;
+  margin: 0 auto;
 }
 @media (max-width: 1399px) {
   .university-grid { grid-template-columns: repeat(3, 1fr); }
@@ -307,6 +310,26 @@ button, input, select, textarea {
   .university-grid { grid-template-columns: 1fr; }
 }
 
+/* Stats Cards Grid Breakpoints */
+.stats-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1.25rem;
+  width: 100%;
+  max-width: 100%;
+  margin: 0 auto;
+}
+@media (max-width: 1024px) {
+  .stats-grid {
+    grid-template-columns: repeat(2, 1fr) !important;
+  }
+}
+@media (max-width: 640px) {
+  .stats-grid {
+    grid-template-columns: 1fr !important;
+  }
+}
+
 /* Filter Bar Responsive Classes */
 .filter-toggle-btn {
   display: none;
@@ -314,7 +337,7 @@ button, input, select, textarea {
 
 .filter-dropdowns-grid {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
   gap: 1rem;
 }
 
@@ -375,4 +398,11 @@ button, input, select, textarea {
 
 #root {
   width: 100%;
+}
+
+/* Premium Focus Glow for Inputs, Selects, and Textareas */
+input:focus, select:focus, textarea:focus {
+  border-color: var(--primary) !important;
+  box-shadow: 0 0 0 3px var(--primary-light) !important;
+  transition: all var(--transition-fast);
 }

@@ -1,27 +1,64 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import { BarChart2, Trash2, X, Star, Check, AlertCircle, ArrowRight, HelpCircle, MapPin, Landmark, Award, Home, ShieldAlert } from 'lucide-react';
 import { formatCurrency, krwToVnd, formatCompact } from '../utils/currency';
 
+/**
+ * @param {object} props
+ * @param {any[]} props.selectedSchools
+ * @param {Function} props.onRemoveSchool
+ * @param {Function} props.onClearAll
+ * @param {number} props.exchangeRate
+ * @param {boolean} [props.isOpenOverride]
+ * @param {Function} [props.onCloseOverride]
+ * @param {Function} [props.onOpenOverride]
+ */
 export default function ComparePanel({ 
   selectedSchools, 
   onRemoveSchool, 
   onClearAll, 
   exchangeRate,
-  isOpenOverride = null,
-  onCloseOverride = null
+  isOpenOverride = undefined,
+  onCloseOverride = undefined,
+  onOpenOverride = undefined
 }) {
   const [isOpenState, setIsOpenState] = useState(false);
-  const isOpen = isOpenOverride !== null ? isOpenOverride : isOpenState;
+  const [highlightOptimal, setHighlightOptimal] = useState(false);
+  const isOpen = isOpenOverride !== undefined ? isOpenOverride : isOpenState;
   const setIsOpen = (val) => {
-    if (onCloseOverride && !val) {
-      onCloseOverride();
+    if (val) {
+      if (onOpenOverride) {
+        onOpenOverride();
+      } else {
+        setIsOpenState(true);
+      }
     } else {
-      setIsOpenState(val);
+      if (onCloseOverride) {
+        onCloseOverride();
+      } else {
+        setIsOpenState(false);
+      }
     }
   };
 
+  // Add key listener for Escape key to close the modal
+  useEffect(() => {
+    const handleKeyDown = (e) => {
+      if (e.key === 'Escape' && isOpen) {
+        setIsOpen(false);
+      }
+    };
+    if (typeof window !== 'undefined') {
+      window.addEventListener('keydown', handleKeyDown);
+    }
+    return () => {
+      if (typeof window !== 'undefined') {
+        window.removeEventListener('keydown', handleKeyDown);
+      }
+    };
+  }, [isOpen]);
+
   // Floating compare bar only shows when at least 2 schools are selected
-  if (selectedSchools.length < 2 && isOpenOverride === null) return null;
+  if (selectedSchools.length < 2 && isOpenOverride === undefined) return null;
 
   const getGradient = (id) => {
     const gradients = {
@@ -36,7 +73,12 @@ export default function ComparePanel({
   };
 
   const getInitials = (name) => {
-    return name.replace('Đại học ', '').split(' ').map(w => w[0]).slice(0, 3).join('').toUpperCase();
+    const clean = name.replace('Đại học ', '').replace(/\([^)]*\)/g, '').replace(/[^a-zA-Z\s]/g, '').trim();
+    const words = clean.split(/\s+/).filter(Boolean);
+    if (words.length === 1) {
+      return words[0].slice(0, 3).toUpperCase();
+    }
+    return words.map(w => w[0]).slice(0, 3).join('').toUpperCase();
   };
 
   const getTuitionInfo = (school) => {
@@ -188,7 +230,7 @@ export default function ComparePanel({
                 border: '1px solid rgba(255, 255, 255, 0.2)',
                 color: '#cbd5e1',
                 padding: '0.5rem 0.85rem',
-                borderRadius: 'var(--border-radius-sm)',
+                borderRadius: 'var(--border-radius-md)',
                 fontWeight: 700,
                 fontSize: '0.8rem',
                 cursor: 'pointer',
@@ -213,15 +255,15 @@ export default function ComparePanel({
             <button 
               onClick={() => setIsOpen(true)}
               style={{
-                background: 'linear-gradient(135deg, var(--primary) 0%, var(--primary-hover) 100%)',
+                background: 'var(--primary)',
                 color: 'white',
                 border: 'none',
                 padding: '0.55rem 1.35rem',
-                borderRadius: 'var(--border-radius-sm)',
+                borderRadius: 'var(--border-radius-md)',
                 fontWeight: 800,
                 fontSize: '0.8rem',
                 cursor: 'pointer',
-                boxShadow: '0 4px 14px rgba(99, 102, 241, 0.4)',
+                boxShadow: '0 4px 14px rgba(230, 0, 35, 0.3)',
                 transition: 'all var(--transition-fast)',
                 display: 'flex',
                 alignItems: 'center',
@@ -229,11 +271,13 @@ export default function ComparePanel({
               }}
               onMouseEnter={(e) => {
                 e.currentTarget.style.transform = 'scale(1.03)';
-                e.currentTarget.style.boxShadow = '0 6px 20px rgba(99, 102, 241, 0.6)';
+                e.currentTarget.style.background = 'var(--primary-hover)';
+                e.currentTarget.style.boxShadow = '0 6px 20px rgba(230, 0, 35, 0.5)';
               }}
               onMouseLeave={(e) => {
                 e.currentTarget.style.transform = 'scale(1)';
-                e.currentTarget.style.boxShadow = '0 4px 14px rgba(99, 102, 241, 0.4)';
+                e.currentTarget.style.background = 'var(--primary)';
+                e.currentTarget.style.boxShadow = '0 4px 14px rgba(230, 0, 35, 0.3)';
               }}
             >
               <span>So sánh ngay</span>
@@ -299,20 +343,59 @@ export default function ComparePanel({
               </div>
 
               <div style={{ display: 'flex', gap: '1rem', alignItems: 'center' }}>
+                {/* Highlight Advantages Button */}
+                <button
+                  onClick={() => setHighlightOptimal(!highlightOptimal)}
+                  style={{
+                    padding: '0.5rem 1rem',
+                    border: '1px solid ' + (highlightOptimal ? 'var(--primary)' : 'var(--border-color)'),
+                    backgroundColor: highlightOptimal ? 'var(--primary-light)' : 'var(--bg-surface-hover)',
+                    color: highlightOptimal ? 'var(--primary)' : 'var(--text-secondary)',
+                    borderRadius: 'var(--border-radius-md)',
+                    fontWeight: 700,
+                    fontSize: '0.8rem',
+                    cursor: 'pointer',
+                    transition: 'all var(--transition-fast)',
+                    display: 'flex',
+                    alignItems: 'center',
+                    gap: '0.35rem'
+                  }}
+                  onMouseEnter={(e) => {
+                    if (!highlightOptimal) {
+                      e.currentTarget.style.backgroundColor = 'var(--primary-light)';
+                      e.currentTarget.style.color = 'var(--primary)';
+                    }
+                  }}
+                  onMouseLeave={(e) => {
+                    if (!highlightOptimal) {
+                      e.currentTarget.style.backgroundColor = 'var(--bg-surface-hover)';
+                      e.currentTarget.style.color = 'var(--text-secondary)';
+                    }
+                  }}
+                >
+                  <Star size={13} fill={highlightOptimal ? 'var(--primary)' : 'none'} color={highlightOptimal ? 'var(--primary)' : 'currentColor'} />
+                  <span>Highlight điểm khác biệt</span>
+                </button>
+
                 <button
                   onClick={onClearAll}
                   style={{
                     padding: '0.5rem 1rem',
-                    border: '1px solid var(--border-color)',
-                    backgroundColor: 'transparent',
-                    color: 'var(--accent)',
-                    borderRadius: 'var(--border-radius-sm)',
+                    border: 'none',
+                    backgroundColor: 'var(--bg-surface-hover)',
+                    color: 'var(--primary)',
+                    borderRadius: 'var(--border-radius-md)',
                     fontWeight: 700,
                     fontSize: '0.8rem',
-                    cursor: 'pointer'
+                    cursor: 'pointer',
+                    transition: 'all var(--transition-fast)'
                   }}
-                  onMouseEnter={(e) => e.currentTarget.style.backgroundColor = 'var(--accent-light)'}
-                  onMouseLeave={(e) => e.currentTarget.style.backgroundColor = 'transparent'}
+                  onMouseEnter={(e) => {
+                    e.currentTarget.style.backgroundColor = 'var(--primary-light)';
+                  }}
+                  onMouseLeave={(e) => {
+                    e.currentTarget.style.backgroundColor = 'var(--bg-surface-hover)';
+                  }}
                 >
                   Xóa tất cả ghim
                 </button>
@@ -320,9 +403,9 @@ export default function ComparePanel({
                 <button 
                   onClick={() => setIsOpen(false)}
                   style={{
-                    border: '1px solid var(--border-color)',
-                    background: 'var(--bg-surface)',
-                    color: 'var(--text-secondary)',
+                    border: 'none',
+                    background: 'var(--bg-surface-hover)',
+                    color: 'var(--text-primary)',
                     borderRadius: '50%',
                     width: '2.5rem',
                     height: '2.5rem',
@@ -332,8 +415,12 @@ export default function ComparePanel({
                     cursor: 'pointer',
                     transition: 'all var(--transition-fast)'
                   }}
-                  onMouseEnter={(e) => { e.currentTarget.style.color = 'var(--accent)'; e.currentTarget.style.borderColor = 'var(--accent)'; }}
-                  onMouseLeave={(e) => { e.currentTarget.style.color = 'var(--text-secondary)'; e.currentTarget.style.borderColor = 'var(--border-color)'; }}
+                  onMouseEnter={(e) => {
+                    e.currentTarget.style.filter = 'brightness(0.95)';
+                  }}
+                  onMouseLeave={(e) => {
+                    e.currentTarget.style.filter = 'none';
+                  }}
                 >
                   <X size={20} />
                 </button>
@@ -342,199 +429,290 @@ export default function ComparePanel({
 
             {/* Matrix Table Container - Scrollable */}
             <div style={{ flex: 1, overflow: 'auto', padding: '2.5rem' }}>
-              <div className="glass-effect" style={{
-                borderRadius: 'var(--border-radius-lg)',
-                backgroundColor: 'var(--bg-surface)',
-                overflow: 'hidden',
-                border: '1px solid var(--border-color)',
-                boxShadow: 'var(--shadow-xl)',
-                width: '100%',
-                minWidth: '950px'
-              }}>
-                <table style={{
-                  width: '100%',
-                  borderCollapse: 'collapse',
-                  textAlign: 'left',
-                  fontSize: '0.9rem',
-                  lineHeight: '1.5'
-                }}>
-                  <thead>
-                    <tr style={{ 
-                      borderBottom: '2px solid var(--border-color)', 
-                      backgroundColor: 'var(--bg-surface-hover)'
+              {/* Find optimal values */}
+              {(() => {
+                const minTuitionVal = Math.min(...selectedSchools.map(s => {
+                  const t = getTuitionInfo(s);
+                  return t.rawMin !== undefined ? t.rawMin : Infinity;
+                }));
+
+                const validDormFees = selectedSchools.map(s => s.dorm_fee).filter(f => f !== null && f !== undefined && f > 0);
+                const minDormFeeVal = validDormFees.length > 0 ? Math.min(...validDormFees) : Infinity;
+
+                return (
+                  <div className="glass-effect" style={{
+                    borderRadius: 'var(--border-radius-lg)',
+                    backgroundColor: 'var(--bg-surface)',
+                    overflow: 'hidden',
+                    border: '1px solid var(--border-color)',
+                    boxShadow: 'var(--shadow-xl)',
+                    width: '100%',
+                    minWidth: '1100px'
+                  }}>
+                    <table style={{
+                      width: '100%',
+                      borderCollapse: 'collapse',
+                      textAlign: 'left',
+                      fontSize: '0.9rem',
+                      lineHeight: '1.5'
                     }}>
-                      <th style={{ padding: '1.25rem 1.5rem', color: 'var(--text-tertiary)', fontWeight: 700, textTransform: 'uppercase', fontSize: '0.75rem', width: '22%' }}>Tên trường</th>
-                      <th style={{ padding: '1.25rem 1rem', color: 'var(--text-tertiary)', fontWeight: 700, textTransform: 'uppercase', fontSize: '0.75rem', width: '9%' }}>Xếp hạng</th>
-                      <th style={{ padding: '1.25rem 1rem', color: 'var(--text-tertiary)', fontWeight: 700, textTransform: 'uppercase', fontSize: '0.75rem', width: '10%' }}>Loại hình</th>
-                      <th style={{ padding: '1.25rem 1rem', color: 'var(--text-tertiary)', fontWeight: 700, textTransform: 'uppercase', fontSize: '0.75rem', width: '20%' }}>Học phí/kỳ (KRW + VND)</th>
-                      <th style={{ padding: '1.25rem 1rem', color: 'var(--text-tertiary)', fontWeight: 700, textTransform: 'uppercase', fontSize: '0.75rem', width: '14%' }}>Ký túc xá/kỳ</th>
-                      <th style={{ padding: '1.25rem 1rem', color: 'var(--text-tertiary)', fontWeight: 700, textTransform: 'uppercase', fontSize: '0.75rem', width: '10%' }}>Khu vực</th>
-                      <th style={{ padding: '1.25rem 1rem', color: 'var(--text-tertiary)', fontWeight: 700, textTransform: 'uppercase', fontSize: '0.75rem', width: '15%' }}>TOPIK yêu cầu</th>
-                      <th style={{ padding: '1.25rem 1rem', color: 'var(--text-tertiary)', fontWeight: 700, textTransform: 'uppercase', fontSize: '0.75rem', width: '11%' }}>Diện Visa đô thị</th>
-                      <th style={{ padding: '1.25rem 1rem', color: 'var(--text-tertiary)', fontWeight: 700, textTransform: 'uppercase', fontSize: '0.75rem', width: '11%' }}>Có GKS không</th>
-                    </tr>
-                  </thead>
-                  <tbody>
-                    {selectedSchools.map((school, idx) => {
-                      const tuition = getTuitionInfo(school);
-                      const hasGks = checkHasGks(school);
-                      const dormFeeVnd = school.dorm_fee ? krwToVnd(school.dorm_fee, exchangeRate) : null;
-                      
-                      return (
-                        <tr 
-                          key={school.id} 
-                          style={{ 
-                            borderBottom: idx < selectedSchools.length - 1 ? '1px solid var(--border-color)' : 'none',
-                            transition: 'background-color var(--transition-fast)',
-                            backgroundColor: idx % 2 === 0 ? 'transparent' : 'var(--bg-surface-hover)'
-                          }}
-                        >
-                          {/* Column 1: Tên trường */}
-                          <td style={{ padding: '1.5rem 1.5rem' }}>
-                            <div style={{ display: 'flex', gap: '0.75rem', alignItems: 'center' }}>
-                              <div style={{
-                                width: '2.5rem',
-                                height: '2.5rem',
-                                borderRadius: 'var(--border-radius-sm)',
-                                background: getGradient(school.id),
-                                color: 'white',
-                                display: 'flex',
-                                alignItems: 'center',
-                                justifyContent: 'center',
-                                fontWeight: 800,
-                                fontSize: '0.8rem',
-                                flexShrink: 0
-                              }}>
-                                {getInitials(school.name_en)}
-                              </div>
-                              <div style={{ display: 'flex', flexDirection: 'column' }}>
-                                <strong style={{ color: 'var(--text-primary)', fontSize: '0.95rem' }}>{school.name_vi}</strong>
-                                <span style={{ fontSize: '0.75rem', color: 'var(--text-tertiary)' }}>{school.name_en}</span>
-                                <span style={{ fontSize: '0.75rem', color: 'var(--text-tertiary)', fontStyle: 'italic' }}>{school.name_ko}</span>
-                              </div>
-                            </div>
-                          </td>
-
-                          {/* Column 2: Xếp hạng */}
-                          <td style={{ padding: '1.5rem 1rem' }}>
-                            <div style={{ display: 'flex', alignItems: 'center', gap: '0.2rem', fontWeight: 700, color: 'var(--text-primary)' }}>
-                              <Star size={14} fill="#f59e0b" color="#f59e0b" />
-                              <span>Hạng {school.ranking}</span>
-                            </div>
-                          </td>
-
-                          {/* Column 3: Loại hình */}
-                          <td style={{ padding: '1.5rem 1rem' }}>
-                            <span style={{
-                              fontSize: '0.75rem',
-                              fontWeight: 700,
-                              padding: '0.25rem 0.5rem',
-                              borderRadius: '4px',
-                              backgroundColor: school.type === 'public' ? 'var(--success-light)' : 'var(--primary-light)',
-                              color: school.type === 'public' ? 'var(--success)' : 'var(--primary)'
-                            }}>
-                              {school.type === 'public' ? 'Công lập' : 'Tư thục'}
-                            </span>
-                          </td>
-
-                          {/* Column 4: Học phí/kỳ (KRW + VND) */}
-                          <td style={{ padding: '1.5rem 1rem' }}>
-                            <div style={{ display: 'flex', flexDirection: 'column', gap: '0.1rem' }}>
-                              <strong style={{ color: 'var(--primary)', fontSize: '0.95rem' }}>
-                                {tuition.textVnd}
-                              </strong>
-                              <span style={{ fontSize: '0.8rem', color: 'var(--text-secondary)', fontWeight: 500 }}>
-                                {tuition.textKrw}
-                              </span>
-                            </div>
-                          </td>
-
-                          {/* Column 5: Ký túc xá/kỳ */}
-                          <td style={{ padding: '1.5rem 1rem' }}>
-                            {school.dorm_fee ? (
-                              <div style={{ display: 'flex', flexDirection: 'column', gap: '0.1rem' }}>
-                                <strong style={{ color: 'var(--text-primary)' }}>
-                                  {formatCompact(dormFeeVnd, 'VND')}
-                                </strong>
-                                <span style={{ fontSize: '0.75rem', color: 'var(--text-tertiary)' }}>
-                                  {formatCurrency(school.dorm_fee, 'KRW')}
-                                </span>
-                              </div>
-                            ) : (
-                              <span style={{ color: 'var(--text-tertiary)' }}>N/A</span>
-                            )}
-                          </td>
-
-                          {/* Column 6: Khu vực */}
-                          <td style={{ padding: '1.5rem 1rem' }}>
-                            <div style={{ display: 'flex', alignItems: 'center', gap: '0.25rem', color: 'var(--text-secondary)', fontWeight: 500 }}>
-                              <MapPin size={13} color="var(--text-tertiary)" />
-                              <span>{school.region}</span>
-                            </div>
-                          </td>
-
-                          {/* Column 7: TOPIK yêu cầu */}
-                          <td style={{ padding: '1.5rem 1rem' }}>
-                            {school.master_no_topik ? (
-                              <span style={{
-                                fontSize: '0.75rem',
-                                fontWeight: 700,
-                                padding: '0.2rem 0.5rem',
-                                borderRadius: '4px',
-                                backgroundColor: 'rgba(99, 102, 241, 0.1)',
-                                color: 'var(--primary)',
-                                display: 'inline-block'
-                              }}>
-                                Cho nợ TOPIK (Thạc sĩ)
-                              </span>
-                            ) : (
-                              <span style={{
-                                fontSize: '0.75rem',
-                                fontWeight: 600,
-                                color: 'var(--text-secondary)'
-                              }}>
-                                Yêu cầu TOPIK đầu vào
-                              </span>
-                            )}
-                          </td>
-
-                          {/* Column 8: Diện Visa đô thị */}
-                          <td style={{ padding: '1.5rem 1rem' }}>
-                            <span style={{
-                              fontWeight: 600,
-                              color: school.visa_metropolitan ? 'var(--primary)' : 'var(--text-tertiary)',
-                              fontSize: '0.85rem'
-                            }}>
-                              {school.visa_metropolitan ? '✓ Có hỗ trợ' : '✕ Không'}
-                            </span>
-                          </td>
-
-                          {/* Column 9: Có GKS không */}
-                          <td style={{ padding: '1.5rem 1rem' }}>
-                            {hasGks ? (
-                              <span style={{
-                                fontSize: '0.75rem',
-                                fontWeight: 700,
-                                padding: '0.2rem 0.5rem',
-                                borderRadius: '4px',
-                                backgroundColor: 'rgba(16, 185, 129, 0.1)',
-                                color: 'var(--success)',
-                                display: 'inline-flex',
-                                alignItems: 'center',
-                                gap: '0.2rem'
-                              }}>
-                                <Award size={12} /> Có (GKS ✓)
-                              </span>
-                            ) : (
-                              <span style={{ color: 'var(--text-tertiary)', fontSize: '0.85rem' }}>Không</span>
-                            )}
-                          </td>
+                      <thead>
+                        <tr style={{ 
+                          borderBottom: '2px solid var(--border-color)', 
+                          backgroundColor: 'var(--bg-surface-hover)'
+                        }}>
+                          <th style={{ padding: '1.25rem 0.75rem', color: 'var(--text-tertiary)', fontWeight: 700, textTransform: 'uppercase', fontSize: '0.75rem', width: '22%' }}>Tên trường</th>
+                          <th style={{ padding: '1.25rem 0.75rem', color: 'var(--text-tertiary)', fontWeight: 700, textTransform: 'uppercase', fontSize: '0.75rem', width: '9%' }}>Xếp hạng</th>
+                          <th style={{ padding: '1.25rem 0.75rem', color: 'var(--text-tertiary)', fontWeight: 700, textTransform: 'uppercase', fontSize: '0.75rem', width: '10%' }}>Loại hình</th>
+                          <th style={{ padding: '1.25rem 0.75rem', color: 'var(--text-tertiary)', fontWeight: 700, textTransform: 'uppercase', fontSize: '0.75rem', width: '18%' }}>Học phí/kỳ (KRW + VND)</th>
+                          <th style={{ padding: '1.25rem 0.75rem', color: 'var(--text-tertiary)', fontWeight: 700, textTransform: 'uppercase', fontSize: '0.75rem', width: '11%' }}>Ký túc xá/kỳ</th>
+                          <th style={{ padding: '1.25rem 0.75rem', color: 'var(--text-tertiary)', fontWeight: 700, textTransform: 'uppercase', fontSize: '0.75rem', width: '11%' }}>Khu vực</th>
+                          <th style={{ padding: '1.25rem 0.75rem', color: 'var(--text-tertiary)', fontWeight: 700, textTransform: 'uppercase', fontSize: '0.75rem', width: '11%' }}>TOPIK yêu cầu</th>
+                          <th style={{ padding: '1.25rem 0.75rem', color: 'var(--text-tertiary)', fontWeight: 700, textTransform: 'uppercase', fontSize: '0.75rem', width: '11%', whiteSpace: 'nowrap' }}>Diện Visa đô thị</th>
+                          <th style={{ padding: '1.25rem 0.75rem', color: 'var(--text-tertiary)', fontWeight: 700, textTransform: 'uppercase', fontSize: '0.75rem', width: '11%', whiteSpace: 'nowrap' }}>Có GKS không</th>
                         </tr>
-                      );
-                    })}
-                  </tbody>
-                </table>
-              </div>
+                      </thead>
+                      <tbody>
+                        {selectedSchools.map((school, idx) => {
+                          const tuition = getTuitionInfo(school);
+                          const hasGks = checkHasGks(school);
+                          const dormFeeVnd = school.dorm_fee ? krwToVnd(school.dorm_fee, exchangeRate) : null;
+                          
+                          const isOptimalTuition = highlightOptimal && tuition.rawMin === minTuitionVal && minTuitionVal !== Infinity;
+                          const isOptimalDorm = highlightOptimal && school.dorm_fee === minDormFeeVal && minDormFeeVal !== Infinity;
+                          const isOptimalTopik = highlightOptimal && school.master_no_topik === true;
+                          const isOptimalVisa = highlightOptimal && school.visa_metropolitan === true;
+                          const isOptimalGksTrue = highlightOptimal && hasGks === true;
+                          
+                          return (
+                            <tr 
+                              key={school.id} 
+                              style={{ 
+                                borderBottom: idx < selectedSchools.length - 1 ? '1px solid var(--border-color)' : 'none',
+                                transition: 'background-color var(--transition-fast)',
+                                backgroundColor: idx % 2 === 0 ? 'transparent' : 'var(--bg-surface-hover)'
+                              }}
+                            >
+                              {/* Column 1: Tên trường */}
+                              <td style={{ padding: '1.5rem 0.75rem' }}>
+                                <div style={{ display: 'flex', gap: '0.75rem', alignItems: 'center' }}>
+                                  <div style={{
+                                    width: '2.5rem',
+                                    height: '2.5rem',
+                                    borderRadius: 'var(--border-radius-sm)',
+                                    background: getGradient(school.id),
+                                    color: 'white',
+                                    display: 'flex',
+                                    alignItems: 'center',
+                                    justifyContent: 'center',
+                                    fontWeight: 800,
+                                    fontSize: '0.8rem',
+                                    flexShrink: 0
+                                  }}>
+                                    {getInitials(school.name_en)}
+                                  </div>
+                                  <div style={{ display: 'flex', flexDirection: 'column' }}>
+                                    <strong style={{ color: 'var(--text-primary)', fontSize: '0.95rem' }}>{school.name_vi}</strong>
+                                    <span style={{ fontSize: '0.75rem', color: 'var(--text-tertiary)' }}>{school.name_en}</span>
+                                    <span style={{ fontSize: '0.75rem', color: 'var(--text-tertiary)', fontStyle: 'italic' }}>{school.name_ko}</span>
+                                  </div>
+                                </div>
+                              </td>
+
+                              {/* Column 2: Xếp hạng */}
+                              <td style={{ padding: '1.5rem 0.75rem' }}>
+                                <div style={{ display: 'flex', alignItems: 'center', gap: '0.2rem', fontWeight: 700, color: 'var(--text-primary)' }}>
+                                  <Star size={14} fill="#f59e0b" color="#f59e0b" />
+                                  <span>Hạng {school.ranking}</span>
+                                </div>
+                              </td>
+
+                              {/* Column 3: Loại hình */}
+                              <td style={{ padding: '1.5rem 0.75rem' }}>
+                                <span style={{
+                                  fontSize: '0.75rem',
+                                  fontWeight: 700,
+                                  padding: '0.25rem 0.5rem',
+                                  borderRadius: '4px',
+                                  backgroundColor: school.type === 'public' ? 'var(--success-light)' : 'var(--primary-light)',
+                                  color: school.type === 'public' ? 'var(--success)' : 'var(--primary)'
+                                }}>
+                                  {school.type === 'public' ? 'Công lập' : 'Tư thục'}
+                                </span>
+                              </td>
+
+                              {/* Column 4: Học phí/kỳ (KRW + VND) */}
+                              <td style={{ 
+                                padding: '1.5rem 0.75rem',
+                                backgroundColor: isOptimalTuition ? 'rgba(16, 185, 129, 0.06)' : 'transparent',
+                                borderLeft: isOptimalTuition ? '3px solid #10b981' : 'none',
+                                transition: 'all var(--transition-fast)'
+                              }}>
+                                <div style={{ display: 'flex', flexDirection: 'column', gap: '0.1rem' }}>
+                                  <strong style={{ color: 'var(--primary)', fontSize: '0.95rem' }}>
+                                    {tuition.textVnd}
+                                  </strong>
+                                  <span style={{ fontSize: '0.8rem', color: 'var(--text-secondary)', fontWeight: 500 }}>
+                                    {tuition.textKrw}
+                                  </span>
+                                  {isOptimalTuition && (
+                                    <span style={{ fontSize: '0.7rem', color: '#10b981', fontWeight: 700, marginTop: '0.15rem' }}>
+                                      ✓ Học phí thấp nhất
+                                    </span>
+                                  )}
+                                </div>
+                              </td>
+
+                              {/* Column 5: Ký túc xá/kỳ */}
+                              <td style={{ 
+                                padding: '1.5rem 0.75rem',
+                                backgroundColor: isOptimalDorm ? 'rgba(16, 185, 129, 0.06)' : 'transparent',
+                                borderLeft: isOptimalDorm ? '3px solid #10b981' : 'none',
+                                transition: 'all var(--transition-fast)'
+                              }}>
+                                {school.dorm_fee ? (
+                                  <div style={{ display: 'flex', flexDirection: 'column', gap: '0.1rem' }}>
+                                    <strong style={{ color: 'var(--text-primary)' }}>
+                                      {formatCompact(dormFeeVnd, 'VND')}
+                                    </strong>
+                                    <span style={{ fontSize: '0.75rem', color: 'var(--text-tertiary)' }}>
+                                      {formatCurrency(school.dorm_fee, 'KRW')}
+                                    </span>
+                                    {isOptimalDorm && (
+                                      <span style={{ fontSize: '0.7rem', color: '#10b981', fontWeight: 700, marginTop: '0.15rem' }}>
+                                        ✓ KTX rẻ nhất
+                                      </span>
+                                    )}
+                                  </div>
+                                ) : (
+                                  <span style={{ color: 'var(--text-tertiary)' }}>N/A</span>
+                                )}
+                              </td>
+
+                              {/* Column 6: Khu vực */}
+                              <td style={{ padding: '1.5rem 0.75rem' }}>
+                                <div style={{ display: 'flex', flexDirection: 'column', gap: '0.25rem' }}>
+                                  <div style={{ display: 'flex', alignItems: 'center', gap: '0.25rem', color: 'var(--text-secondary)', fontWeight: 500 }}>
+                                    <MapPin size={13} color="var(--text-tertiary)" />
+                                    <span>{school.region}</span>
+                                  </div>
+                                  <span style={{
+                                    fontSize: '0.65rem',
+                                    fontWeight: 700,
+                                    padding: '0.15rem 0.35rem',
+                                    borderRadius: '4px',
+                                    width: 'fit-content',
+                                    backgroundColor: (school.region === 'Seoul' || school.region === 'Incheon' || school.region === 'Gyeonggi') ? 'rgba(59, 130, 246, 0.1)' : 'rgba(100, 116, 139, 0.1)',
+                                    color: (school.region === 'Seoul' || school.region === 'Incheon' || school.region === 'Gyeonggi') ? '#2563eb' : '#475569'
+                                  }}>
+                                    {(school.region === 'Seoul' || school.region === 'Incheon' || school.region === 'Gyeonggi') ? 'Vùng Thủ đô' : 'Ngoại tỉnh'}
+                                  </span>
+                                </div>
+                              </td>
+
+                              {/* Column 7: TOPIK yêu cầu */}
+                              <td style={{ 
+                                padding: '1.5rem 0.75rem',
+                                backgroundColor: isOptimalTopik ? 'rgba(16, 185, 129, 0.06)' : 'transparent',
+                                borderLeft: isOptimalTopik ? '3px solid #10b981' : 'none',
+                                transition: 'all var(--transition-fast)'
+                              }}>
+                                {school.master_no_topik ? (
+                                  <div style={{ display: 'flex', flexDirection: 'column', gap: '0.15rem' }}>
+                                    <span style={{
+                                      fontSize: '0.75rem',
+                                      fontWeight: 700,
+                                      padding: '0.2rem 0.5rem',
+                                      borderRadius: '4px',
+                                      backgroundColor: 'rgba(99, 102, 241, 0.1)',
+                                      color: 'var(--primary)',
+                                      display: 'inline-block',
+                                      width: 'fit-content'
+                                    }}>
+                                      Cho nợ TOPIK (Thạc sĩ)
+                                    </span>
+                                    {isOptimalTopik && (
+                                      <span style={{ fontSize: '0.7rem', color: '#10b981', fontWeight: 700, display: 'block' }}>
+                                        ✓ Ưu thế tuyển sinh
+                                      </span>
+                                    )}
+                                  </div>
+                                ) : (
+                                  <span style={{
+                                    fontSize: '0.75rem',
+                                    fontWeight: 600,
+                                    color: 'var(--text-secondary)'
+                                  }}>
+                                    Yêu cầu TOPIK đầu vào
+                                  </span>
+                                )}
+                              </td>
+
+                              {/* Column 8: Diện Visa đô thị */}
+                              <td style={{ 
+                                padding: '1.5rem 0.75rem',
+                                backgroundColor: isOptimalVisa ? 'rgba(16, 185, 129, 0.06)' : 'transparent',
+                                borderLeft: isOptimalVisa ? '3px solid #10b981' : 'none',
+                                transition: 'all var(--transition-fast)'
+                              }}>
+                                <div style={{ display: 'flex', flexDirection: 'column', gap: '0.15rem' }}>
+                                  <span style={{
+                                    fontWeight: 600,
+                                    color: school.visa_metropolitan ? 'var(--primary)' : 'var(--text-tertiary)',
+                                    fontSize: '0.85rem'
+                                  }}>
+                                    {school.visa_metropolitan ? '✓ Có hỗ trợ' : '✕ Không'}
+                                  </span>
+                                  {isOptimalVisa && (
+                                    <span style={{ fontSize: '0.7rem', color: '#10b981', fontWeight: 700, display: 'block' }}>
+                                      ✓ Hỗ trợ Visa tốt hơn
+                                    </span>
+                                  )}
+                                </div>
+                              </td>
+
+                              {/* Column 9: Có GKS không */}
+                              <td style={{ 
+                                padding: '1.5rem 0.75rem',
+                                backgroundColor: isOptimalGksTrue ? 'rgba(16, 185, 129, 0.06)' : 'transparent',
+                                borderLeft: isOptimalGksTrue ? '3px solid #10b981' : 'none',
+                                transition: 'all var(--transition-fast)'
+                              }}>
+                                <div style={{ display: 'flex', flexDirection: 'column', gap: '0.15rem' }}>
+                                  {hasGks ? (
+                                    <span style={{
+                                      fontSize: '0.75rem',
+                                      fontWeight: 700,
+                                      padding: '0.2rem 0.5rem',
+                                      borderRadius: '4px',
+                                      backgroundColor: 'rgba(16, 185, 129, 0.1)',
+                                      color: 'var(--success)',
+                                      display: 'inline-flex',
+                                      alignItems: 'center',
+                                      gap: '0.2rem',
+                                      whiteSpace: 'nowrap',
+                                      width: 'fit-content'
+                                    }}>
+                                      <Award size={12} /> Có (GKS ✓)
+                                    </span>
+                                  ) : (
+                                    <span style={{ color: 'var(--text-tertiary)', fontSize: '0.85rem' }}>Không</span>
+                                  )}
+                                  {isOptimalGksTrue && (
+                                    <span style={{ fontSize: '0.7rem', color: '#10b981', fontWeight: 700, display: 'block' }}>
+                                      ✓ Có học bổng Chính phủ
+                                    </span>
+                                  )}
+                                </div>
+                              </td>
+                            </tr>
+                          );
+                        })}
+                      </tbody>
+                    </table>
+                  </div>
+                );
+              })()}
             </div>
 
             {/* Modal Footer Note */}

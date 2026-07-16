@@ -6,6 +6,7 @@ import { universities } from '../../../data/universities';
 import schoolCoordinates from '../../../data/school_coordinates.json';
 import UniDetailActions from '../../../components/UniDetailActions';
 import MiniMapWrapper from '../../../components/MiniMapWrapper';
+import SchoolLeadForm from '../../../components/SchoolLeadForm';
 
 interface PageProps {
   params: Promise<{
@@ -219,7 +220,7 @@ export default async function UniversityPage({ params }: PageProps) {
                   {name_vi}
                 </h1>
                 <p style={{ fontSize: '1.05rem', color: 'var(--text-secondary)', fontWeight: 500, margin: 0 }}>
-                  {name_en} &bull; <span style={{ color: 'var(--text-tertiary)' }}>{name_ko}</span>
+                  {name_en} • <span style={{ color: 'var(--text-tertiary)' }}>{name_ko}</span>
                 </p>
               </div>
 
@@ -364,6 +365,9 @@ export default async function UniversityPage({ params }: PageProps) {
                   </div>
                 </div>
               </div>
+
+              {/* Lead Registration Form */}
+              <SchoolLeadForm schoolId={uni.id} schoolName={name_vi} />
 
             </div>
           </div>
