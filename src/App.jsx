@@ -49,7 +49,8 @@ export default function App({ initialViewMode = 'map', initialActiveSchoolId = n
   const [searchQuery, setSearchQuery] = useState('');
   const [selectedRegion, setSelectedRegion] = useState('All');
   const [selectedType, setSelectedType] = useState('All');
-  const [selectedGdtx, setSelectedGdtx] = useState('All'); // 'All', 'top2', 'top3'
+  const [top2PercentOnly, setTop2PercentOnly] = useState(false);
+  const [top3PercentOnly, setTop3PercentOnly] = useState(false);
   const [selectedMajor, setSelectedMajor] = useState('All');
   const [visaMetropolitanOnly, setVisaMetropolitanOnly] = useState(false);
   const [masterNoTopikOnly, setMasterNoTopikOnly] = useState(false);
@@ -124,7 +125,8 @@ export default function App({ initialViewMode = 'map', initialActiveSchoolId = n
     setSearchQuery('');
     setSelectedRegion('All');
     setSelectedType('All');
-    setSelectedGdtx('All');
+    setTop2PercentOnly(false);
+    setTop3PercentOnly(false);
     setSelectedMajor('All');
     setVisaMetropolitanOnly(false);
     setMasterNoTopikOnly(false);
@@ -183,7 +185,7 @@ export default function App({ initialViewMode = 'map', initialActiveSchoolId = n
       
       const matchRegion = selectedRegion === 'All' || u.region === selectedRegion;
       const matchType = selectedType === 'All' || u.type === selectedType;
-      const matchGdtx = selectedGdtx === 'All' || u.accept_gdtx === selectedGdtx;
+      const matchGdtx = (!top2PercentOnly || u.accept_gdtx === 'top2') && (!top3PercentOnly || u.accept_gdtx === 'top3');
       const matchMajor = matchSchoolByMajor(u, selectedMajor);
       const matchVisa = !visaMetropolitanOnly || u.visa_metropolitan === true;
       const matchNoTopik = !masterNoTopikOnly || u.master_no_topik === true;
@@ -538,7 +540,7 @@ export default function App({ initialViewMode = 'map', initialActiveSchoolId = n
                   </div>
 
                   {/* Reset Button */}
-                  {(searchQuery || selectedRegion !== 'All' || selectedType !== 'All' || sortBy !== 'rank' || selectedGdtx !== 'All' || selectedMajor !== 'All' || visaMetropolitanOnly || masterNoTopikOnly || top1PercentOnly) && (
+                  {(searchQuery || selectedRegion !== 'All' || selectedType !== 'All' || sortBy !== 'rank' || top2PercentOnly || top3PercentOnly || selectedMajor !== 'All' || visaMetropolitanOnly || masterNoTopikOnly || top1PercentOnly) && (
                     <button
                       onClick={handleResetFilters}
                       style={{
@@ -668,34 +670,7 @@ export default function App({ initialViewMode = 'map', initialActiveSchoolId = n
                     </select>
                   </div>
 
-                  {/* GDTX Dropdown */}
-                  <div style={{ display: 'flex', flexDirection: 'column', gap: '0.35rem' }}>
-                    <label htmlFor="gdtx-select-vite" style={{ fontSize: '0.75rem', fontWeight: 700, color: 'var(--text-secondary)', textTransform: 'uppercase', letterSpacing: '0.02em' }}>Hệ đào tạo GDTX</label>
-                    <select
-                      id="gdtx-select-vite"
-                      value={selectedGdtx}
-                      onChange={(e) => setSelectedGdtx(e.target.value)}
-                      style={{
-                        width: '100%',
-                        padding: '0.6rem',
-                        borderRadius: 'var(--border-radius-md)',
-                        border: '1px solid var(--border-color)',
-                        backgroundColor: 'var(--bg-surface)',
-                        color: 'var(--text-primary)',
-                        fontSize: '0.85rem',
-                        fontWeight: 600,
-                        outline: 'none',
-                        cursor: 'pointer',
-                        transition: 'border-color var(--transition-fast)'
-                      }}
-                      onFocus={(e) => e.target.style.borderColor = 'var(--primary)'}
-                      onBlur={(e) => e.target.style.borderColor = 'var(--border-color)'}
-                    >
-                      <option value="All">Tất cả hệ đào tạo</option>
-                      <option value="top2">Nhận Top 2%</option>
-                      <option value="top3">Nhận Top 3%</option>
-                    </select>
-                  </div>
+
 
                   {/* Major Autocomplete Search (List View) */}
                   <MajorSearchFilter value={selectedMajor} onChange={setSelectedMajor} />
@@ -753,6 +728,56 @@ export default function App({ initialViewMode = 'map', initialActiveSchoolId = n
                       }}
                     />
                     <span>Trường TOP 1%</span>
+                  </label>
+
+                  {/* Checkbox TOP 2% */}
+                  <label style={{
+                    display: 'flex',
+                    alignItems: 'center',
+                    gap: '0.5rem',
+                    fontSize: '0.82rem',
+                    fontWeight: 600,
+                    color: 'var(--text-secondary)',
+                    cursor: 'pointer',
+                    userSelect: 'none'
+                  }}>
+                    <input 
+                      type="checkbox"
+                      checked={top2PercentOnly}
+                      onChange={(e) => setTop2PercentOnly(e.target.checked)}
+                      style={{
+                        cursor: 'pointer',
+                        accentColor: 'var(--primary)',
+                        width: '15px',
+                        height: '15px'
+                      }}
+                    />
+                    <span>Trường TOP 2%</span>
+                  </label>
+
+                  {/* Checkbox TOP 3% */}
+                  <label style={{
+                    display: 'flex',
+                    alignItems: 'center',
+                    gap: '0.5rem',
+                    fontSize: '0.82rem',
+                    fontWeight: 600,
+                    color: 'var(--text-secondary)',
+                    cursor: 'pointer',
+                    userSelect: 'none'
+                  }}>
+                    <input 
+                      type="checkbox"
+                      checked={top3PercentOnly}
+                      onChange={(e) => setTop3PercentOnly(e.target.checked)}
+                      style={{
+                        cursor: 'pointer',
+                        accentColor: 'var(--primary)',
+                        width: '15px',
+                        height: '15px'
+                      }}
+                    />
+                    <span>Trường TOP 3%</span>
                   </label>
 
                   {/* Checkbox TOPIK delay */}
