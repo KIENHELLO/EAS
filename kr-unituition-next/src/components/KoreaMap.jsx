@@ -151,10 +151,17 @@ export default function KoreaMap({
           },
           click: () => {
             onSelectProvince(appRegion);
-            leafletMapRef.current.fitBounds(layer.getBounds(), {
-              maxZoom: 9,
-              padding: [40, 40]
-            });
+            try {
+              const bounds = layer.getBounds();
+              if (bounds && (typeof bounds.isValid === 'function' ? bounds.isValid() : true)) {
+                leafletMapRef.current.fitBounds(bounds, {
+                  maxZoom: 9,
+                  padding: [40, 40]
+                });
+              }
+            } catch (err) {
+              console.error("fitBounds error:", err);
+            }
           }
         });
       }
