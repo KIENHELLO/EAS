@@ -140,20 +140,36 @@ export default function App({ initialViewMode = 'map', initialActiveSchoolId = n
   };
 
   // 5. Filter & Sort Logic
+  const removeVietnameseTones = (str) => {
+    if (!str) return '';
+    return str
+      .normalize('NFD')
+      .replace(/[\u0300-\u036f]/g, '')
+      .replace(/đ/g, 'd')
+      .replace(/Đ/g, 'D');
+  };
+
   const matchSchoolByMajor = (school, majorName) => {
     if (!majorName || majorName === 'All') return true;
     const query = majorName.toLowerCase();
+    const normQuery = removeVietnameseTones(query);
     
-    // Check specific fields
-    if (school.custom_notes && school.custom_notes.toLowerCase().includes(query)) return true;
-    if (school.description && school.description.toLowerCase().includes(query)) return true;
+    // Check specific fields (accents-insensitive and accented)
+    if (school.custom_notes) {
+      const notesLower = school.custom_notes.toLowerCase();
+      if (notesLower.includes(query) || removeVietnameseTones(notesLower).includes(normQuery)) return true;
+    }
+    if (school.description) {
+      const descLower = school.description.toLowerCase();
+      if (descLower.includes(query) || removeVietnameseTones(descLower).includes(normQuery)) return true;
+    }
     
-    // Map keywords to tuition categories
-    if ((query.includes("công nghệ") || query.includes("kỹ thuật") || query.includes("cơ khí") || query.includes("điện") || query.includes("bán dẫn") || query.includes("máy tính") || query.includes("it")) && school.tuition.engineering !== null && school.tuition.engineering !== undefined) return true;
-    if ((query.includes("y") || query.includes("dược") || query.includes("điều dưỡng") || query.includes("sức khỏe")) && school.tuition.medicine_pharmacy !== null && school.tuition.medicine_pharmacy !== undefined) return true;
-    if ((query.includes("nghệ thuật") || query.includes("thiết kế") || query.includes("làm đẹp") || query.includes("thẩm mỹ") || query.includes("makeup") || query.includes("trang điểm") || query.includes("sân khấu") || query.includes("điện ảnh") || query.includes("âm nhạc") || query.includes("thể thao")) && school.tuition.arts_sports !== null && school.tuition.arts_sports !== undefined) return true;
-    if ((query.includes("khoa học") || query.includes("tự nhiên") || query.includes("sinh học") || query.includes("nông nghiệp")) && school.tuition.natural_sciences !== null && school.tuition.natural_sciences !== undefined) return true;
-    if ((query.includes("kinh doanh") || query.includes("kinh tế") || query.includes("thương mại") || query.includes("quản trị") || query.includes("truyền thông") || query.includes("marketing") || query.includes("ngôn ngữ") || query.includes("nhân văn") || query.includes("văn học") || query.includes("luật") || query.includes("du lịch") || query.includes("khách sạn") || query.includes("logistics")) && school.tuition.humanities_social !== null && school.tuition.humanities_social !== undefined) return true;
+    // Map keywords to tuition categories (accents-insensitive)
+    if ((normQuery.includes("cong nghe") || normQuery.includes("ky thuat") || normQuery.includes("co khi") || normQuery.includes("dien") || normQuery.includes("ban dan") || normQuery.includes("may tinh") || normQuery.includes("it")) && school.tuition.engineering !== null && school.tuition.engineering !== undefined) return true;
+    if ((normQuery.includes("y") || normQuery.includes("duoc") || normQuery.includes("dieu duong") || normQuery.includes("suc khoe")) && school.tuition.medicine_pharmacy !== null && school.tuition.medicine_pharmacy !== undefined) return true;
+    if ((normQuery.includes("nghe thuat") || normQuery.includes("thiet ke") || normQuery.includes("lam dep") || normQuery.includes("tham my") || normQuery.includes("makeup") || normQuery.includes("trang diem") || normQuery.includes("san khau") || normQuery.includes("dien anh") || normQuery.includes("am nhac") || normQuery.includes("the thao")) && school.tuition.arts_sports !== null && school.tuition.arts_sports !== undefined) return true;
+    if ((normQuery.includes("khoa hoc") || normQuery.includes("tu nhien") || normQuery.includes("sinh hoc") || normQuery.includes("nong nghiep")) && school.tuition.natural_sciences !== null && school.tuition.natural_sciences !== undefined) return true;
+    if ((normQuery.includes("kinh doanh") || normQuery.includes("kinh te") || normQuery.includes("thuong mai") || normQuery.includes("quan tri") || normQuery.includes("truyen thong") || normQuery.includes("marketing") || normQuery.includes("ngon ngu") || normQuery.includes("nhan van") || normQuery.includes("van hoc") || normQuery.includes("luat") || normQuery.includes("du lich") || normQuery.includes("khach san") || normQuery.includes("logistics")) && school.tuition.humanities_social !== null && school.tuition.humanities_social !== undefined) return true;
     
     return false;
   };
@@ -899,11 +915,7 @@ export default function App({ initialViewMode = 'map', initialActiveSchoolId = n
           exchangeRate={exchangeRate}
           onClose={() => {
             setActiveSchoolDetails(null);
-            if (viewMode === 'list') {
-              navigate('/universities');
-            } else {
-              navigate('/');
-            }
+            navigate('/');
           }}
         />
       )}

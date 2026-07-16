@@ -3,6 +3,15 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { Search, X, Check } from 'lucide-react';
 
+function removeVietnameseTones(str) {
+  if (!str) return '';
+  return str
+    .normalize('NFD')
+    .replace(/[\u0300-\u036f]/g, '')
+    .replace(/đ/g, 'd')
+    .replace(/Đ/g, 'D');
+}
+
 const AVAILABLE_MAJORS = [
   "Truyền thông",
   "Marketing",
@@ -62,9 +71,11 @@ export default function MajorSearchFilter({ value, onChange }) {
     if (inputValue.trim() === '') {
       setFilteredSuggestions(AVAILABLE_MAJORS);
     } else {
-      const filtered = AVAILABLE_MAJORS.filter(major =>
-        major.toLowerCase().includes(inputValue.toLowerCase())
-      );
+      const filtered = AVAILABLE_MAJORS.filter(major => {
+        const normMajor = removeVietnameseTones(major.toLowerCase());
+        const normInput = removeVietnameseTones(inputValue.toLowerCase());
+        return normMajor.includes(normInput) || major.toLowerCase().includes(inputValue.toLowerCase());
+      });
       setFilteredSuggestions(filtered);
     }
     setActiveIndex(-1);
