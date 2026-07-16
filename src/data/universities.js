@@ -2202,9 +2202,9 @@ export const universities = [
     "name_ko": "창원대학교",
     "name_vi": "창원Đại học ",
     "type": "public",
-    "region": "Seoul",
+    "region": "Gyeongnam",
     "ranking": 99,
-    "campus_address": "Seoul, South Korea",
+    "campus_address": "경상남도 창원시 의창구 창원대학로 20",
     "website": "http://www.uni_7.ac.kr",
     "tuition": {
       "humanities_social": 3510000,
@@ -2220,7 +2220,7 @@ export const universities = [
       "Học bổng dựa trên chứng chỉ tiếng Hàn TOPIK (30% - 100% học phí)",
       "Học bổng khuyến khích kết quả học tập GPA xuất sắc hàng kỳ"
     ],
-    "description": "Trường đại học đào tạo đa ngành tại khu vực Seoul. Trường có môi trường quốc tế năng động và nhiều hỗ trợ dành cho du học sinh Việt Nam.",
+    "description": "Trường đại học công lập đào tạo đa ngành hàng đầu tại khu vực Gyeongnam.",
     "accept_gdtx": "top3",
     "visa_metropolitan": false,
     "master_no_topik": true,
@@ -2242,9 +2242,9 @@ export const universities = [
     "name_ko": "순천향대학교",
     "name_vi": "순천향Đại học ",
     "type": "private",
-    "region": "Seoul",
+    "region": "Chungnam",
     "ranking": 100,
-    "campus_address": "Seoul, South Korea",
+    "campus_address": "충청남도 아산시 신창면 순천향로 22",
     "website": "http://www.uni_8.ac.kr",
     "tuition": {
       "humanities_social": 3375000,
@@ -2260,7 +2260,7 @@ export const universities = [
       "Học bổng dựa trên chứng chỉ tiếng Hàn TOPIK (30% - 100% học phí)",
       "Học bổng khuyến khích kết quả học tập GPA xuất sắc hàng kỳ"
     ],
-    "description": "Trường đại học đào tạo đa ngành tại khu vực Seoul. Trường có môi trường quốc tế năng động và nhiều hỗ trợ dành cho du học sinh Việt Nam.",
+    "description": "Trường đại học tư thục danh tiếng tại khu vực Chungnam.",
     "accept_gdtx": "top3",
     "visa_metropolitan": false,
     "master_no_topik": true,
