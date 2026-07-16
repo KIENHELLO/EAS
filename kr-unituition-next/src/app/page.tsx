@@ -9,7 +9,7 @@ import Navbar from '../components/Navbar';
 import StatsHero from '../components/StatsHero';
 import SchoolCard from '../components/SchoolCard';
 import DetailModal from '../components/DetailModal';
-import ComparePanel from '../components/ComparePanel';
+
 import FilterBar from '../components/FilterBar';
 import UniversityPanel from '../components/UniversityPanel';
 import CostCalculator from '../components/CostCalculator';
@@ -792,17 +792,6 @@ export default function Home() {
           </>
         )}
       </div>
-
-      {/* Floating Compare Panel and Modal */}
-      <ComparePanel 
-        selectedSchools={selectedSchoolsForCompare}
-        onRemoveSchool={handleRemoveCompareSchool}
-        onClearAll={handleClearAllCompare}
-        exchangeRate={exchangeRate}
-        isOpenOverride={isCompareOpen}
-        onOpenOverride={() => setIsCompareOpen(true)}
-        onCloseOverride={() => setIsCompareOpen(false)}
-      />
 
       {/* University Detail Modal */}
       {activeSchoolDetails && (

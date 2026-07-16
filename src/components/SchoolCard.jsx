@@ -132,29 +132,6 @@ export default function SchoolCard({
           )}
         </div>
 
-        {/* Compare Checkbox */}
-        <label style={{
-          display: 'flex',
-          alignItems: 'center',
-          gap: '0.4rem',
-          fontSize: '0.75rem',
-          fontWeight: 600,
-          color: 'var(--text-secondary)',
-          cursor: 'pointer'
-        }}>
-          <input 
-            type="checkbox"
-            checked={isComparing}
-            onChange={onToggleCompare}
-            style={{
-              cursor: 'pointer',
-              accentColor: 'var(--primary)',
-              width: '14px',
-              height: '14px'
-            }}
-          />
-          <span>So sánh</span>
-        </label>
       </div>
 
       {/* Main Info */}

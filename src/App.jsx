@@ -8,7 +8,7 @@ import Navbar from './components/Navbar';
 import StatsHero from './components/StatsHero';
 import SchoolCard from './components/SchoolCard';
 import DetailModal from './components/DetailModal';
-import ComparePanel from './components/ComparePanel';
+
 const KoreaMap = lazy(() => import('./components/KoreaMap'));
 import { provinceMeta } from './utils/constants';
 import FilterBar from './components/FilterBar';
@@ -921,17 +921,6 @@ export default function App({ initialViewMode = 'map', initialActiveSchoolId = n
           </p>
         </section>
       </div>
-
-      {/* Floating Compare Panel and Modal */}
-      <ComparePanel 
-        selectedSchools={selectedSchoolsForCompare}
-        onRemoveSchool={handleRemoveCompareSchool}
-        onClearAll={handleClearAllCompare}
-        exchangeRate={exchangeRate}
-        isOpenOverride={viewMode === 'compare' && selectedSchoolsForCompare.length >= 2}
-        onOpenOverride={() => navigate('/compare')}
-        onCloseOverride={() => navigate('/')}
-      />
 
       {/* University Detail Modal */}
       {activeSchoolDetails && (
