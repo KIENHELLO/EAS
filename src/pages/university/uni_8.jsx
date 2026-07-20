@@ -7,18 +7,18 @@ export const ssgOptions = {
   Head: () => (
     <>
       <title>순천향Đại học  - Học Phí & Thông Tin Tuyển Sinh 2025 | KR-UniTuition</title>
-      <meta name="description" content="Học phí trường 순천향Đại học  (Soonchunhyang University): 3,375,000 - 6,000,000 KRW (62,437,500 - 111,000,000 VND) mỗi học kỳ. Địa chỉ: Seoul, South Korea. Xếp hạng: #100." />
-      <meta name="keywords" content="순천향Đại học , học phí 순천향Đại học , Soonchunhyang University, 순천향대학교, đại học Seoul" />
+      <meta name="description" content="Học phí trường 순천향Đại học  (Soonchunhyang University): 3,375,000 - 6,000,000 KRW (62,437,500 - 111,000,000 VND) mỗi học kỳ. Địa chỉ: 충청남도 아산시 신창면 순천향로 22. Xếp hạng: #100." />
+      <meta name="keywords" content="순천향Đại học , học phí 순천향Đại học , Soonchunhyang University, 순천향대학교, đại học Chungnam" />
       <link rel="canonical" href="https://eas-tuition.onrender.com/university/uni_8" />
       <meta property="og:title" content="순천향Đại học  - Học Phí & Thông Tin Tuyển Sinh 2025" />
-      <meta property="og:description" content="Học phí trường 순천향Đại học  (Soonchunhyang University): 3,375,000 - 6,000,000 KRW (62,437,500 - 111,000,000 VND) mỗi học kỳ. Địa chỉ: Seoul, South Korea. Xếp hạng: #100." />
+      <meta property="og:description" content="Học phí trường 순천향Đại học  (Soonchunhyang University): 3,375,000 - 6,000,000 KRW (62,437,500 - 111,000,000 VND) mỗi học kỳ. Địa chỉ: 충청남도 아산시 신창면 순천향로 22. Xếp hạng: #100." />
       <meta property="og:url" content="https://eas-tuition.onrender.com/university/uni_8" />
       <meta property="og:type" content="website" />
       <meta property="og:image" content="https://eas-tuition.onrender.com/og-image.png" />
       <meta property="og:locale" content="vi_VN" />
       <meta name="twitter:card" content="summary_large_image" />
       <meta name="twitter:title" content="순천향Đại học  - Học Phí & Thông Tin Tuyển Sinh 2025" />
-      <meta name="twitter:description" content="Học phí trường 순천향Đại học  (Soonchunhyang University): 3,375,000 - 6,000,000 KRW (62,437,500 - 111,000,000 VND) mỗi học kỳ. Địa chỉ: Seoul, South Korea. Xếp hạng: #100." />
+      <meta name="twitter:description" content="Học phí trường 순천향Đại học  (Soonchunhyang University): 3,375,000 - 6,000,000 KRW (62,437,500 - 111,000,000 VND) mỗi học kỳ. Địa chỉ: 충청남도 아산시 신창면 순천향로 22. Xếp hạng: #100." />
       <meta name="twitter:image" content="https://eas-tuition.onrender.com/og-image.png" />
       <meta name="robots" content="index, follow" />
       <link rel="alternate" hreflang="vi" href="https://eas-tuition.onrender.com/university/uni_8" />
@@ -32,7 +32,7 @@ export const ssgOptions = {
           "address": {
             "@type": "PostalAddress",
             "addressCountry": "KR",
-            "addressRegion": "Seoul"
+            "addressRegion": "Chungnam"
           }
         }`}
       </script>

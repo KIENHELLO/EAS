@@ -26,5 +26,33 @@
     "clicked_at": "2026-07-16T07:54:51.234Z",
     "ip_address": "::1",
     "city": "Chưa rõ"
+  },
+  {
+    "school_id": "snu",
+    "school_name": "Đại học Quốc gia Seoul",
+    "clicked_at": "2026-07-16T08:15:17.818Z",
+    "ip_address": "::1",
+    "city": "Chưa rõ"
+  },
+  {
+    "school_id": "yonsei",
+    "school_name": "Đại học Yonsei",
+    "clicked_at": "2026-07-16T08:31:45.801Z",
+    "ip_address": "::1",
+    "city": "Chưa rõ"
+  },
+  {
+    "school_id": "skku",
+    "school_name": "Đại học Sungkyunkwan",
+    "clicked_at": "2026-07-16T08:35:09.575Z",
+    "ip_address": "::1",
+    "city": "Chưa rõ"
+  },
+  {
+    "school_id": "mock_uni_204",
+    "school_name": "Đại học Dongshin",
+    "clicked_at": "2026-07-16T08:35:44.960Z",
+    "ip_address": "::1",
+    "city": "Chưa rõ"
   }
 ]
