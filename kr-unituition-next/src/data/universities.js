@@ -2999,10 +2999,10 @@ export const universities = [
       "Học bổng TOPIK và ưu tú ngoại ngữ"
     ],
     "description": "Tọa lạc tại thành phố Suwon vệ tinh đáng sống, ngay sát văn phòng lớn của Samsung. Cực mạnh về Kỹ thuật, Công nghệ Thông tin và Y học.",
-    "accept_gdtx": "top2",
+    "accept_gdtx": "top3",
     "visa_metropolitan": false,
     "master_no_topik": false,
-    "custom_notes": "",
+    "custom_notes": "6,0 trở lên (xem xét)",
     "top_1_percent": false,
     "language_tuition_desc": "4,500,000-4,900,000 KRW/năm",
     "registration_fee_desc": "",
@@ -4383,10 +4383,10 @@ export const universities = [
       "Học bổng kết quả kiểm tra năng lực tiếng Hàn TOPIK"
     ],
     "description": "Nằm trên hòn đảo du lịch Jeju nổi tiếng thế giới. Có những ngành học độc đáo như Khoa học biển, Du lịch nghỉ dưỡng, Chăn nuôi ngựa và Y dược nhiệt đới.",
-    "accept_gdtx": "top2",
+    "accept_gdtx": "top3",
     "visa_metropolitan": false,
     "master_no_topik": true,
-    "custom_notes": "",
+    "custom_notes": "6,5 trở lên",
     "top_1_percent": false,
     "language_tuition_desc": "4,800,000 - 5,200,000 KRW/năm",
     "registration_fee_desc": "50,000 KRW",
@@ -8535,7 +8535,7 @@ export const universities = [
       "Hỗ trợ tiền ăn ở ký túc xá"
     ],
     "description": "Tọa lạc tại thành phố Gyeongsan gần Daegu, là trường đào tạo khối sức khỏe chất lượng. Thuộc diện Visa Đại đô thị, ngành nổi bật nhất là Điều dưỡng với học phí chỉ 2.000.000 KRW.",
-    "accept_gdtx": "top2",
+    "accept_gdtx": "top3",
     "visa_metropolitan": true,
     "master_no_topik": false,
     "custom_notes": "Ngành nổi bật: Điều dưỡng (Học phí cực tốt: 2.000.000 KRW)",
@@ -8677,7 +8677,9 @@ export const universities = [
         ]
       }
     ],
-    "is_restricted_school": false
+    "is_restricted_school": false,
+    "featured_majors": "Kỹ thuật, xã hội và nhân văn, nghệ thuật và thiết kế",
+    "invoice_details": "HỌC PHÍ 4,200,000-4,600,000KRW - BẢO HIỂM 150,000KRW - INVOICE 4,400,000-4,850,,000KRW"
   },
   {
     "id": "kyongbuk_science",
@@ -12918,11 +12920,11 @@ export const universities = [
       "Học bổng hỗ trợ KTX"
     ],
     "description": "Trường đại học quốc gia trọng điểm tại Jinju, tỉnh Gyeongsangnam. Có thế mạnh vượt trội về Khoa học nông nghiệp, Kỹ thuật cơ khí hàng không và Y dược.",
-    "accept_gdtx": "top2",
+    "accept_gdtx": "top3",
     "visa_metropolitan": false,
     "master_no_topik": false,
     "top_1_percent": false,
-    "custom_notes": "",
+    "custom_notes": "7,0 trở lên",
     "majors_detail": [
       {
         "category": "humanities_social",
@@ -13060,7 +13062,8 @@ export const universities = [
         ]
       }
     ],
-    "is_restricted_school": false
+    "is_restricted_school": false,
+    "invoice_details": "HỌC PHÍ 4,400,000-4,800,000KRW - BẢO HIỂM 150,000KRW - INVOICE 4,600,000-5,050,000KRW"
   },
   {
     "id": "myongji",
@@ -20409,7 +20412,7 @@ export const universities = [
     "accept_gdtx": "top3",
     "visa_metropolitan": false,
     "master_no_topik": false,
-    "custom_notes": "",
+    "custom_notes": "- miền Bắc 6,5 trở lên\n- miền Trung 7,0 trở lên",
     "top_1_percent": false,
     "majors_detail": [
       {
@@ -20548,7 +20551,8 @@ export const universities = [
         ]
       }
     ],
-    "is_restricted_school": false
+    "is_restricted_school": false,
+    "invoice_details": "HỌC PHÍ 4,200,000-4,600,000KRW - BẢO HIỂM 150,000KRW - INVOICE 4,400,000-4,850,,000KRW"
   },
   {
     "id": "mock_uni_118",
@@ -20577,7 +20581,7 @@ export const universities = [
     "accept_gdtx": "top3",
     "visa_metropolitan": false,
     "master_no_topik": false,
-    "custom_notes": "Trường ưu tiên phỏng vấn visa thẳng",
+    "custom_notes": "6,5 trở lên",
     "top_1_percent": false,
     "majors_detail": [
       {
@@ -20716,7 +20720,8 @@ export const universities = [
         ]
       }
     ],
-    "is_restricted_school": false
+    "is_restricted_school": false,
+    "invoice_details": "HỌC PHÍ 4,000,000-4,400,000KRW - BẢO HIỂM 150,000 - INVOICE 4,200,000-4,650,000KRW"
   },
   {
     "id": "mock_uni_119",
@@ -21425,7 +21430,7 @@ export const universities = [
     "accept_gdtx": "top3",
     "visa_metropolitan": false,
     "master_no_topik": false,
-    "custom_notes": "",
+    "custom_notes": "6,5 trở lên (xem xét)",
     "top_1_percent": false,
     "majors_detail": [
       {
@@ -21564,7 +21569,8 @@ export const universities = [
         ]
       }
     ],
-    "is_restricted_school": false
+    "is_restricted_school": false,
+    "invoice_details": "HỌC PHÍ 4,400,000-4,800,000KRW - BẢO HIỂM 150,000KRW - INVOICE 4,600,000-5,050,000KRW"
   },
   {
     "id": "mock_uni_124",
@@ -36127,6 +36133,1455 @@ export const universities = [
           {
             "name_vi": "Dược học",
             "name_ko": "약학과",
+            "is_hot": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "top3_school_1",
+    "name_vi": "Đại học Phật Giáo",
+    "name_en": "Đại học Phật Giáo (TOP 3%)",
+    "name_ko": "Đại học Phật Giáo",
+    "type": "Private",
+    "region": "Seoul",
+    "ranking": 151,
+    "campus_address": "Seoul, Hàn Quốc",
+    "website": "https://www.studyinkorea.go.kr",
+    "tuition": {
+      "humanities_social": 3200000,
+      "natural_sciences": 3520000,
+      "engineering": 4000000,
+      "arts_sports": 4160000,
+      "medicine_pharmacy": null
+    },
+    "dorm_fee": 1500000,
+    "living_cost_est": 3500000,
+    "scholarships": [
+      "Học bổng khuyến học TOP 3%: Giảm 20% - 50% học phí kỳ đầu cho tân sinh viên",
+      "Học bổng thành tích học tập: Giảm 30% - 70% dựa trên GPA"
+    ],
+    "accept_gdtx": "top3",
+    "visa_metropolitan": true,
+    "master_no_topik": false,
+    "top_1_percent": false,
+    "is_restricted_school": false,
+    "featured_majors": "Phật giáo, tư vấn tâm lý, chữa lành cơ thể và tâm lý tích hợp",
+    "custom_notes": "Trường nằm trong danh sách TOP 3% năm 2026",
+    "invoice_details": "HỌC PHÍ 6,400,000-6,800,000KRW - BẢO HIỂM 150,000KRW - INVOICE 6,610,000-7,050,000KRW",
+    "coordinates": {
+      "latitude": 37.570499999999996,
+      "longitude": 126.982
+    },
+    "majors_detail": [
+      {
+        "category": "humanities_social",
+        "faculty_name_vi": "Khoa Nhân văn & Xã hội",
+        "faculty_name_ko": "인문사회대학",
+        "tuition_krw": 3200000,
+        "majors": [
+          {
+            "name_vi": "Quản trị Kinh doanh & Du lịch",
+            "name_ko": "경영관광학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Ngôn ngữ Hàn Quốc",
+            "name_ko": "한국어학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "engineering",
+        "faculty_name_vi": "Khoa Kỹ thuật & Công nghệ",
+        "faculty_name_ko": "공과대학",
+        "tuition_krw": 4000000,
+        "majors": [
+          {
+            "name_vi": "Công nghệ Thông tin & Ô tô",
+            "name_ko": "IT자동차학과",
+            "is_hot": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "top3_school_2",
+    "name_vi": "Đại học Ansan",
+    "name_en": "Đại học Ansan (TOP 3%)",
+    "name_ko": "Đại học Ansan",
+    "type": "Private",
+    "region": "Gyeonggi",
+    "ranking": 152,
+    "campus_address": "Gyeonggi, Hàn Quốc",
+    "website": "https://www.studyinkorea.go.kr",
+    "tuition": {
+      "humanities_social": 2200000,
+      "natural_sciences": 2420000,
+      "engineering": 2750000,
+      "arts_sports": 2860000,
+      "medicine_pharmacy": null
+    },
+    "dorm_fee": 800000,
+    "living_cost_est": 3500000,
+    "scholarships": [
+      "Học bổng khuyến học TOP 3%: Giảm 20% - 50% học phí kỳ đầu cho tân sinh viên",
+      "Học bổng thành tích học tập: Giảm 30% - 70% dựa trên GPA"
+    ],
+    "accept_gdtx": "top3",
+    "visa_metropolitan": true,
+    "master_no_topik": false,
+    "top_1_percent": false,
+    "is_restricted_school": false,
+    "featured_majors": "Điều dưỡng, làm đẹp, du lịch khách sạn",
+    "custom_notes": "Trường nằm trong danh sách TOP 3% năm 2026",
+    "invoice_details": "HỌC PHÍ 4,400,000-4,800,000KRW - BẢO HIỂM 150,000KRW - INVOICE 4,600,000-5,050,000KRW",
+    "coordinates": {
+      "latitude": 37.289,
+      "longitude": 127.0234
+    },
+    "majors_detail": [
+      {
+        "category": "humanities_social",
+        "faculty_name_vi": "Khoa Nhân văn & Xã hội",
+        "faculty_name_ko": "인문사회대학",
+        "tuition_krw": 2200000,
+        "majors": [
+          {
+            "name_vi": "Quản trị Kinh doanh & Du lịch",
+            "name_ko": "경영관광학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Ngôn ngữ Hàn Quốc",
+            "name_ko": "한국어학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "engineering",
+        "faculty_name_vi": "Khoa Kỹ thuật & Công nghệ",
+        "faculty_name_ko": "공과대학",
+        "tuition_krw": 2750000,
+        "majors": [
+          {
+            "name_vi": "Công nghệ Thông tin & Ô tô",
+            "name_ko": "IT자동차학과",
+            "is_hot": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "top3_school_3",
+    "name_vi": "Đại học Bucheon",
+    "name_en": "Đại học Bucheon (TOP 3%)",
+    "name_ko": "Đại học Bucheon",
+    "type": "Private",
+    "region": "Gyeonggi",
+    "ranking": 153,
+    "campus_address": "Gyeonggi, Hàn Quốc",
+    "website": "https://www.studyinkorea.go.kr",
+    "tuition": {
+      "humanities_social": 2400000,
+      "natural_sciences": 2640000,
+      "engineering": 3000000,
+      "arts_sports": 3120000,
+      "medicine_pharmacy": null
+    },
+    "dorm_fee": 900000,
+    "living_cost_est": 3500000,
+    "scholarships": [
+      "Học bổng khuyến học TOP 3%: Giảm 20% - 50% học phí kỳ đầu cho tân sinh viên",
+      "Học bổng thành tích học tập: Giảm 30% - 70% dựa trên GPA"
+    ],
+    "accept_gdtx": "top3",
+    "visa_metropolitan": true,
+    "master_no_topik": false,
+    "top_1_percent": false,
+    "is_restricted_school": false,
+    "featured_majors": "Kỹ thuật, kinh doanh và quản trị, nghệ thuật và thiết kế",
+    "custom_notes": "Trường nằm trong danh sách TOP 3% năm 2026",
+    "invoice_details": "HỌC PHÍ 4,800,000 - 5,200,000KRW - BẢO HIỂM 150,000KRW - INVOICE 5,000,000-5,450,000KRW",
+    "coordinates": {
+      "latitude": 37.367,
+      "longitude": 127.1014
+    },
+    "majors_detail": [
+      {
+        "category": "humanities_social",
+        "faculty_name_vi": "Khoa Nhân văn & Xã hội",
+        "faculty_name_ko": "인문사회대학",
+        "tuition_krw": 2400000,
+        "majors": [
+          {
+            "name_vi": "Quản trị Kinh doanh & Du lịch",
+            "name_ko": "경영관광학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Ngôn ngữ Hàn Quốc",
+            "name_ko": "한국어학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "engineering",
+        "faculty_name_vi": "Khoa Kỹ thuật & Công nghệ",
+        "faculty_name_ko": "공과대학",
+        "tuition_krw": 3000000,
+        "majors": [
+          {
+            "name_vi": "Công nghệ Thông tin & Ô tô",
+            "name_ko": "IT자동차학과",
+            "is_hot": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "top3_school_4",
+    "name_vi": "Đại học Y Dongnam",
+    "name_en": "Đại học Y Dongnam (TOP 3%)",
+    "name_ko": "Đại học Y Dongnam",
+    "type": "Private",
+    "region": "Gyeonggi",
+    "ranking": 154,
+    "campus_address": "Gyeonggi, Hàn Quốc",
+    "website": "https://www.studyinkorea.go.kr",
+    "tuition": {
+      "humanities_social": 2300000,
+      "natural_sciences": 2530000,
+      "engineering": 2875000,
+      "arts_sports": 2990000,
+      "medicine_pharmacy": null
+    },
+    "dorm_fee": 800000,
+    "living_cost_est": 3500000,
+    "scholarships": [
+      "Học bổng khuyến học TOP 3%: Giảm 20% - 50% học phí kỳ đầu cho tân sinh viên",
+      "Học bổng thành tích học tập: Giảm 30% - 70% dựa trên GPA"
+    ],
+    "accept_gdtx": "top3",
+    "visa_metropolitan": true,
+    "master_no_topik": false,
+    "top_1_percent": false,
+    "is_restricted_school": false,
+    "featured_majors": "Điều dưỡng, y học, công tác xã hội",
+    "custom_notes": "Trường nằm trong danh sách TOP 3% năm 2026",
+    "invoice_details": "HỌC PHÍ 4,600,000-5,000,000KRW - BẢO HIỂM 150,000KRW - INVOICE 4,800,000-5,250,000KRW",
+    "coordinates": {
+      "latitude": 37.314,
+      "longitude": 127.0484
+    },
+    "majors_detail": [
+      {
+        "category": "humanities_social",
+        "faculty_name_vi": "Khoa Nhân văn & Xã hội",
+        "faculty_name_ko": "인문사회대학",
+        "tuition_krw": 2300000,
+        "majors": [
+          {
+            "name_vi": "Quản trị Kinh doanh & Du lịch",
+            "name_ko": "경영관광학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Ngôn ngữ Hàn Quốc",
+            "name_ko": "한국어학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "engineering",
+        "faculty_name_vi": "Khoa Kỹ thuật & Công nghệ",
+        "faculty_name_ko": "공과대학",
+        "tuition_krw": 2875000,
+        "majors": [
+          {
+            "name_vi": "Công nghệ Thông tin & Ô tô",
+            "name_ko": "IT자동차학과",
+            "is_hot": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "top3_school_6",
+    "name_vi": "Đại học Jangan",
+    "name_en": "Đại học Jangan (TOP 3%)",
+    "name_ko": "Đại học Jangan",
+    "type": "Private",
+    "region": "Gyeonggi",
+    "ranking": 156,
+    "campus_address": "Gyeonggi, Hàn Quốc",
+    "website": "https://www.studyinkorea.go.kr",
+    "tuition": {
+      "humanities_social": 2000000,
+      "natural_sciences": 2200000,
+      "engineering": 2500000,
+      "arts_sports": 2600000,
+      "medicine_pharmacy": null
+    },
+    "dorm_fee": 700000,
+    "living_cost_est": 3500000,
+    "scholarships": [
+      "Học bổng khuyến học TOP 3%: Giảm 20% - 50% học phí kỳ đầu cho tân sinh viên",
+      "Học bổng thành tích học tập: Giảm 30% - 70% dựa trên GPA"
+    ],
+    "accept_gdtx": "top3",
+    "visa_metropolitan": true,
+    "master_no_topik": false,
+    "top_1_percent": false,
+    "is_restricted_school": false,
+    "featured_majors": "Kỹ thuật Ô tô, Kỹ thuật Cơ khí và Điện tử, Quản trị kinh doanh và quản lý",
+    "custom_notes": "Trường nằm trong danh sách TOP 3% năm 2026",
+    "invoice_details": "HỌC PHÍ 4,000,000-4,400,000KRW - BẢO HIỂM 150,000 - INVOICE 4,200,000-4,650,000KRW",
+    "coordinates": {
+      "latitude": 37.333,
+      "longitude": 127.0674
+    },
+    "majors_detail": [
+      {
+        "category": "humanities_social",
+        "faculty_name_vi": "Khoa Nhân văn & Xã hội",
+        "faculty_name_ko": "인문사회대학",
+        "tuition_krw": 2000000,
+        "majors": [
+          {
+            "name_vi": "Quản trị Kinh doanh & Du lịch",
+            "name_ko": "경영관광학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Ngôn ngữ Hàn Quốc",
+            "name_ko": "한국어학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "engineering",
+        "faculty_name_vi": "Khoa Kỹ thuật & Công nghệ",
+        "faculty_name_ko": "공과대학",
+        "tuition_krw": 2500000,
+        "majors": [
+          {
+            "name_vi": "Công nghệ Thông tin & Ô tô",
+            "name_ko": "IT자동차학과",
+            "is_hot": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "top3_school_8",
+    "name_vi": "Đại học Kyonggi",
+    "name_en": "Đại học Kyonggi (TOP 3%)",
+    "name_ko": "Đại học Kyonggi",
+    "type": "Private",
+    "region": "Gyeonggi",
+    "ranking": 158,
+    "campus_address": "Gyeonggi, Hàn Quốc",
+    "website": "https://www.studyinkorea.go.kr",
+    "tuition": {
+      "humanities_social": 2800000,
+      "natural_sciences": 3080000,
+      "engineering": 3500000,
+      "arts_sports": 3640000,
+      "medicine_pharmacy": null
+    },
+    "dorm_fee": 1000000,
+    "living_cost_est": 3500000,
+    "scholarships": [
+      "Học bổng khuyến học TOP 3%: Giảm 20% - 50% học phí kỳ đầu cho tân sinh viên",
+      "Học bổng thành tích học tập: Giảm 30% - 70% dựa trên GPA"
+    ],
+    "accept_gdtx": "top3",
+    "visa_metropolitan": true,
+    "master_no_topik": false,
+    "top_1_percent": false,
+    "is_restricted_school": false,
+    "featured_majors": "Du lịch, tổ chức sự kiện, kinh doanh, thiết kế và đồ họa",
+    "custom_notes": "Trường nằm trong danh sách TOP 3% năm 2026",
+    "invoice_details": "HỌC PHÍ 5,600,000-6,000,000KRW - BẢO HIỂM 150,000KRW - INVOICE 5,810,000-6,250,000KRW",
+    "coordinates": {
+      "latitude": 37.353,
+      "longitude": 127.0874
+    },
+    "majors_detail": [
+      {
+        "category": "humanities_social",
+        "faculty_name_vi": "Khoa Nhân văn & Xã hội",
+        "faculty_name_ko": "인문사회대학",
+        "tuition_krw": 2800000,
+        "majors": [
+          {
+            "name_vi": "Quản trị Kinh doanh & Du lịch",
+            "name_ko": "경영관광학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Ngôn ngữ Hàn Quốc",
+            "name_ko": "한국어학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "engineering",
+        "faculty_name_vi": "Khoa Kỹ thuật & Công nghệ",
+        "faculty_name_ko": "공과대학",
+        "tuition_krw": 3500000,
+        "majors": [
+          {
+            "name_vi": "Công nghệ Thông tin & Ô tô",
+            "name_ko": "IT자동차학과",
+            "is_hot": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "top3_school_9",
+    "name_vi": "Đại học Kyungmin",
+    "name_en": "Đại học Kyungmin (TOP 3%)",
+    "name_ko": "Đại học Kyungmin",
+    "type": "Private",
+    "region": "Gyeonggi",
+    "ranking": 159,
+    "campus_address": "Gyeonggi, Hàn Quốc",
+    "website": "https://www.studyinkorea.go.kr",
+    "tuition": {
+      "humanities_social": 2000000,
+      "natural_sciences": 2200000,
+      "engineering": 2500000,
+      "arts_sports": 2600000,
+      "medicine_pharmacy": null
+    },
+    "dorm_fee": 700000,
+    "living_cost_est": 3500000,
+    "scholarships": [
+      "Học bổng khuyến học TOP 3%: Giảm 20% - 50% học phí kỳ đầu cho tân sinh viên",
+      "Học bổng thành tích học tập: Giảm 30% - 70% dựa trên GPA"
+    ],
+    "accept_gdtx": "top3",
+    "visa_metropolitan": true,
+    "master_no_topik": false,
+    "top_1_percent": false,
+    "is_restricted_school": false,
+    "featured_majors": "Giáo dục mầm non, Kiến trúc và Nghệ thuật biểu diễn",
+    "custom_notes": "-7,0 trở lên",
+    "invoice_details": "HỌC PHÍ 4,000,000-4,400,000KRW - BẢO HIỂM 150,000 - INVOICE 4,200,000-4,650,000KRW",
+    "coordinates": {
+      "latitude": 37.365,
+      "longitude": 127.0994
+    },
+    "majors_detail": [
+      {
+        "category": "humanities_social",
+        "faculty_name_vi": "Khoa Nhân văn & Xã hội",
+        "faculty_name_ko": "인문사회대학",
+        "tuition_krw": 2000000,
+        "majors": [
+          {
+            "name_vi": "Quản trị Kinh doanh & Du lịch",
+            "name_ko": "경영관광학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Ngôn ngữ Hàn Quốc",
+            "name_ko": "한국어학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "engineering",
+        "faculty_name_vi": "Khoa Kỹ thuật & Công nghệ",
+        "faculty_name_ko": "공과대학",
+        "tuition_krw": 2500000,
+        "majors": [
+          {
+            "name_vi": "Công nghệ Thông tin & Ô tô",
+            "name_ko": "IT자동차학과",
+            "is_hot": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "top3_school_10",
+    "name_vi": "Đại học Seojeong",
+    "name_en": "Đại học Seojeong (TOP 3%)",
+    "name_ko": "Đại học Seojeong",
+    "type": "Private",
+    "region": "Gyeonggi",
+    "ranking": 160,
+    "campus_address": "Gyeonggi, Hàn Quốc",
+    "website": "https://www.studyinkorea.go.kr",
+    "tuition": {
+      "humanities_social": 2000000,
+      "natural_sciences": 2200000,
+      "engineering": 2500000,
+      "arts_sports": 2600000,
+      "medicine_pharmacy": null
+    },
+    "dorm_fee": 700000,
+    "living_cost_est": 3500000,
+    "scholarships": [
+      "Học bổng khuyến học TOP 3%: Giảm 20% - 50% học phí kỳ đầu cho tân sinh viên",
+      "Học bổng thành tích học tập: Giảm 30% - 70% dựa trên GPA"
+    ],
+    "accept_gdtx": "top3",
+    "visa_metropolitan": true,
+    "master_no_topik": false,
+    "top_1_percent": false,
+    "is_restricted_school": false,
+    "featured_majors": "Quản lý khách sạn và du lịch, Dịch vụ hàng không, Thiết kế",
+    "custom_notes": "Trường nằm trong danh sách TOP 3% năm 2026",
+    "invoice_details": "HỌC PHÍ 4,000,000-4,400,000KRW - BẢO HIỂM 150,000 - INVOICE 4,200,000-4,650,000KRW",
+    "coordinates": {
+      "latitude": 37.306999999999995,
+      "longitude": 127.0414
+    },
+    "majors_detail": [
+      {
+        "category": "humanities_social",
+        "faculty_name_vi": "Khoa Nhân văn & Xã hội",
+        "faculty_name_ko": "인문사회대학",
+        "tuition_krw": 2000000,
+        "majors": [
+          {
+            "name_vi": "Quản trị Kinh doanh & Du lịch",
+            "name_ko": "경영관광학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Ngôn ngữ Hàn Quốc",
+            "name_ko": "한국어학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "engineering",
+        "faculty_name_vi": "Khoa Kỹ thuật & Công nghệ",
+        "faculty_name_ko": "공과대학",
+        "tuition_krw": 2500000,
+        "majors": [
+          {
+            "name_vi": "Công nghệ Thông tin & Ô tô",
+            "name_ko": "IT자동차학과",
+            "is_hot": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "top3_school_11",
+    "name_vi": "Đại học Shin Asan",
+    "name_en": "Đại học Shin Asan (TOP 3%)",
+    "name_ko": "Đại học Shin Asan",
+    "type": "Private",
+    "region": "Gyeonggi",
+    "ranking": 161,
+    "campus_address": "Gyeonggi, Hàn Quốc",
+    "website": "https://www.studyinkorea.go.kr",
+    "tuition": {
+      "humanities_social": 2100000,
+      "natural_sciences": 2310000,
+      "engineering": 2625000,
+      "arts_sports": 2730000,
+      "medicine_pharmacy": null
+    },
+    "dorm_fee": 800000,
+    "living_cost_est": 3500000,
+    "scholarships": [
+      "Học bổng khuyến học TOP 3%: Giảm 20% - 50% học phí kỳ đầu cho tân sinh viên",
+      "Học bổng thành tích học tập: Giảm 30% - 70% dựa trên GPA"
+    ],
+    "accept_gdtx": "top3",
+    "visa_metropolitan": true,
+    "master_no_topik": false,
+    "top_1_percent": false,
+    "is_restricted_school": false,
+    "featured_majors": "Điều dưỡng, phòng thí nghiệm lâm sàng, làm đẹp",
+    "custom_notes": "Trường nằm trong danh sách TOP 3% năm 2026",
+    "invoice_details": "HỌC PHÍ 4,200,000-4,600,000KRW - BẢO HIỂM 150,000KRW - INVOICE 4,400,000-4,850,,000KRW",
+    "coordinates": {
+      "latitude": 37.330999999999996,
+      "longitude": 127.0654
+    },
+    "majors_detail": [
+      {
+        "category": "humanities_social",
+        "faculty_name_vi": "Khoa Nhân văn & Xã hội",
+        "faculty_name_ko": "인문사회대학",
+        "tuition_krw": 2100000,
+        "majors": [
+          {
+            "name_vi": "Quản trị Kinh doanh & Du lịch",
+            "name_ko": "경영관광학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Ngôn ngữ Hàn Quốc",
+            "name_ko": "한국어학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "engineering",
+        "faculty_name_vi": "Khoa Kỹ thuật & Công nghệ",
+        "faculty_name_ko": "공과대학",
+        "tuition_krw": 2625000,
+        "majors": [
+          {
+            "name_vi": "Công nghệ Thông tin & Ô tô",
+            "name_ko": "IT자동차학과",
+            "is_hot": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "top3_school_13",
+    "name_vi": "Đại học kỹ thuật Doowon",
+    "name_en": "Đại học kỹ thuật Doowon (TOP 3%)",
+    "name_ko": "Đại học kỹ thuật Doowon",
+    "type": "Private",
+    "region": "Gyeonggi",
+    "ranking": 163,
+    "campus_address": "Gyeonggi, Hàn Quốc",
+    "website": "https://www.studyinkorea.go.kr",
+    "tuition": {
+      "humanities_social": 2100000,
+      "natural_sciences": 2310000,
+      "engineering": 2625000,
+      "arts_sports": 2730000,
+      "medicine_pharmacy": null
+    },
+    "dorm_fee": 700000,
+    "living_cost_est": 3500000,
+    "scholarships": [
+      "Học bổng khuyến học TOP 3%: Giảm 20% - 50% học phí kỳ đầu cho tân sinh viên",
+      "Học bổng thành tích học tập: Giảm 30% - 70% dựa trên GPA"
+    ],
+    "accept_gdtx": "top3",
+    "visa_metropolitan": true,
+    "master_no_topik": false,
+    "top_1_percent": false,
+    "is_restricted_school": false,
+    "featured_majors": "Cơ khí oto, thiết kế game, du lịch khách sạn",
+    "custom_notes": "6,0 trở lên",
+    "invoice_details": "HỌC PHÍ 4,600,000-5,000,000KRW - BẢO HIỂM 150,000KRW - INVOICE 4,800,000-5,300,000KRW",
+    "coordinates": {
+      "latitude": 37.286,
+      "longitude": 127.0204
+    },
+    "majors_detail": [
+      {
+        "category": "humanities_social",
+        "faculty_name_vi": "Khoa Nhân văn & Xã hội",
+        "faculty_name_ko": "인문사회대학",
+        "tuition_krw": 2100000,
+        "majors": [
+          {
+            "name_vi": "Quản trị Kinh doanh & Du lịch",
+            "name_ko": "경영관광학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Ngôn ngữ Hàn Quốc",
+            "name_ko": "한국어학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "engineering",
+        "faculty_name_vi": "Khoa Kỹ thuật & Công nghệ",
+        "faculty_name_ko": "공과대학",
+        "tuition_krw": 2625000,
+        "majors": [
+          {
+            "name_vi": "Công nghệ Thông tin & Ô tô",
+            "name_ko": "IT자동차학과",
+            "is_hot": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "top3_school_14",
+    "name_vi": "Đại học Tongwon",
+    "name_en": "Đại học Tongwon (TOP 3%)",
+    "name_ko": "Đại học Tongwon",
+    "type": "Private",
+    "region": "Gyeonggi",
+    "ranking": 164,
+    "campus_address": "Gyeonggi, Hàn Quốc",
+    "website": "https://www.studyinkorea.go.kr",
+    "tuition": {
+      "humanities_social": 2000000,
+      "natural_sciences": 2200000,
+      "engineering": 2500000,
+      "arts_sports": 2600000,
+      "medicine_pharmacy": null
+    },
+    "dorm_fee": 700000,
+    "living_cost_est": 3500000,
+    "scholarships": [
+      "Học bổng khuyến học TOP 3%: Giảm 20% - 50% học phí kỳ đầu cho tân sinh viên",
+      "Học bổng thành tích học tập: Giảm 30% - 70% dựa trên GPA"
+    ],
+    "accept_gdtx": "top3",
+    "visa_metropolitan": true,
+    "master_no_topik": false,
+    "top_1_percent": false,
+    "is_restricted_school": false,
+    "featured_majors": "Công nghệ thông tin, du lịch khách sạn",
+    "custom_notes": "Trường nằm trong danh sách TOP 3% năm 2026",
+    "invoice_details": "HỌC PHÍ 4,000,000-4,400,000KRW - BẢO HIỂM 150,000 - INVOICE 4,200,000-4,650,000KRW",
+    "coordinates": {
+      "latitude": 37.327,
+      "longitude": 127.0614
+    },
+    "majors_detail": [
+      {
+        "category": "humanities_social",
+        "faculty_name_vi": "Khoa Nhân văn & Xã hội",
+        "faculty_name_ko": "인문사회대학",
+        "tuition_krw": 2000000,
+        "majors": [
+          {
+            "name_vi": "Quản trị Kinh doanh & Du lịch",
+            "name_ko": "경영관광학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Ngôn ngữ Hàn Quốc",
+            "name_ko": "한국어학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "engineering",
+        "faculty_name_vi": "Khoa Kỹ thuật & Công nghệ",
+        "faculty_name_ko": "공과대학",
+        "tuition_krw": 2500000,
+        "majors": [
+          {
+            "name_vi": "Công nghệ Thông tin & Ô tô",
+            "name_ko": "IT자동차학과",
+            "is_hot": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "top3_school_15",
+    "name_vi": "Đại học Khoa học và Nghệ thuật Yongin",
+    "name_en": "Đại học Khoa học và Nghệ thuật Yongin (TOP 3%)",
+    "name_ko": "Đại học Khoa học và Nghệ thuật Yongin",
+    "type": "Private",
+    "region": "Gyeonggi",
+    "ranking": 165,
+    "campus_address": "Gyeonggi, Hàn Quốc",
+    "website": "https://www.studyinkorea.go.kr",
+    "tuition": {
+      "humanities_social": 2200000,
+      "natural_sciences": 2420000,
+      "engineering": 2750000,
+      "arts_sports": 2860000,
+      "medicine_pharmacy": null
+    },
+    "dorm_fee": 800000,
+    "living_cost_est": 3500000,
+    "scholarships": [
+      "Học bổng khuyến học TOP 3%: Giảm 20% - 50% học phí kỳ đầu cho tân sinh viên",
+      "Học bổng thành tích học tập: Giảm 30% - 70% dựa trên GPA"
+    ],
+    "accept_gdtx": "top3",
+    "visa_metropolitan": true,
+    "master_no_topik": false,
+    "top_1_percent": false,
+    "is_restricted_school": false,
+    "featured_majors": "Đào tạo đa ngành, Công nghệ & Dịch vụ",
+    "custom_notes": "Trường nằm trong danh sách TOP 3% năm 2026",
+    "invoice_details": "HỌC PHÍ 4,400,000-4,800,000KRW - BẢO HIỂM 150,000KRW - INVOICE 4,600,000-5,050,000KRW",
+    "coordinates": {
+      "latitude": 37.304,
+      "longitude": 127.0384
+    },
+    "majors_detail": [
+      {
+        "category": "humanities_social",
+        "faculty_name_vi": "Khoa Nhân văn & Xã hội",
+        "faculty_name_ko": "인문사회대학",
+        "tuition_krw": 2200000,
+        "majors": [
+          {
+            "name_vi": "Quản trị Kinh doanh & Du lịch",
+            "name_ko": "경영관광학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Ngôn ngữ Hàn Quốc",
+            "name_ko": "한국어학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "engineering",
+        "faculty_name_vi": "Khoa Kỹ thuật & Công nghệ",
+        "faculty_name_ko": "공과대학",
+        "tuition_krw": 2750000,
+        "majors": [
+          {
+            "name_vi": "Công nghệ Thông tin & Ô tô",
+            "name_ko": "IT자동차학과",
+            "is_hot": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "top3_school_16",
+    "name_vi": "Đại học Nữ Sinh Kwangju",
+    "name_en": "Đại học Nữ Sinh Kwangju (TOP 3%)",
+    "name_ko": "Đại học Nữ Sinh Kwangju",
+    "type": "Private",
+    "region": "Gwangju",
+    "ranking": 166,
+    "campus_address": "Gwangju, Hàn Quốc",
+    "website": "https://www.studyinkorea.go.kr",
+    "tuition": {
+      "humanities_social": 2200000,
+      "natural_sciences": 2420000,
+      "engineering": 2750000,
+      "arts_sports": 2860000,
+      "medicine_pharmacy": null
+    },
+    "dorm_fee": 700000,
+    "living_cost_est": 3500000,
+    "scholarships": [
+      "Học bổng khuyến học TOP 3%: Giảm 20% - 50% học phí kỳ đầu cho tân sinh viên",
+      "Học bổng thành tích học tập: Giảm 30% - 70% dựa trên GPA"
+    ],
+    "accept_gdtx": "top3",
+    "visa_metropolitan": false,
+    "master_no_topik": false,
+    "top_1_percent": false,
+    "is_restricted_school": false,
+    "featured_majors": "Đào tạo đa ngành, Công nghệ & Dịch vụ",
+    "custom_notes": "Trường nằm trong danh sách TOP 3% năm 2026",
+    "invoice_details": "HỌC PHÍ 4,400,000-4,800,000KRW - BẢO HIỂM 150,000KRW - INVOICE 4,600,000-5,050,000KRW",
+    "coordinates": {
+      "latitude": 35.1755,
+      "longitude": 126.8686
+    },
+    "majors_detail": [
+      {
+        "category": "humanities_social",
+        "faculty_name_vi": "Khoa Nhân văn & Xã hội",
+        "faculty_name_ko": "인문사회대학",
+        "tuition_krw": 2200000,
+        "majors": [
+          {
+            "name_vi": "Quản trị Kinh doanh & Du lịch",
+            "name_ko": "경영관광학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Ngôn ngữ Hàn Quốc",
+            "name_ko": "한국어학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "engineering",
+        "faculty_name_vi": "Khoa Kỹ thuật & Công nghệ",
+        "faculty_name_ko": "공과대학",
+        "tuition_krw": 2750000,
+        "majors": [
+          {
+            "name_vi": "Công nghệ Thông tin & Ô tô",
+            "name_ko": "IT자동차학과",
+            "is_hot": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "top3_school_17",
+    "name_vi": "Đại học Songwon",
+    "name_en": "Đại học Songwon (TOP 3%)",
+    "name_ko": "Đại học Songwon",
+    "type": "Private",
+    "region": "Gwangju",
+    "ranking": 167,
+    "campus_address": "Gwangju, Hàn Quốc",
+    "website": "https://www.studyinkorea.go.kr",
+    "tuition": {
+      "humanities_social": 2000000,
+      "natural_sciences": 2200000,
+      "engineering": 2500000,
+      "arts_sports": 2600000,
+      "medicine_pharmacy": null
+    },
+    "dorm_fee": 700000,
+    "living_cost_est": 3500000,
+    "scholarships": [
+      "Học bổng khuyến học TOP 3%: Giảm 20% - 50% học phí kỳ đầu cho tân sinh viên",
+      "Học bổng thành tích học tập: Giảm 30% - 70% dựa trên GPA"
+    ],
+    "accept_gdtx": "top3",
+    "visa_metropolitan": false,
+    "master_no_topik": false,
+    "top_1_percent": false,
+    "is_restricted_school": false,
+    "featured_majors": "Đào tạo đa ngành, Công nghệ & Dịch vụ",
+    "custom_notes": "Trường nằm trong danh sách TOP 3% năm 2026",
+    "invoice_details": "HỌC PHÍ 4,000,000-4,400,000KRW - BẢO HIỂM 150,000 - INVOICE 4,200,000-4,650,000KRW",
+    "coordinates": {
+      "latitude": 35.1975,
+      "longitude": 126.89059999999999
+    },
+    "majors_detail": [
+      {
+        "category": "humanities_social",
+        "faculty_name_vi": "Khoa Nhân văn & Xã hội",
+        "faculty_name_ko": "인문사회대학",
+        "tuition_krw": 2000000,
+        "majors": [
+          {
+            "name_vi": "Quản trị Kinh doanh & Du lịch",
+            "name_ko": "경영관광학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Ngôn ngữ Hàn Quốc",
+            "name_ko": "한국어학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "engineering",
+        "faculty_name_vi": "Khoa Kỹ thuật & Công nghệ",
+        "faculty_name_ko": "공과대학",
+        "tuition_krw": 2500000,
+        "majors": [
+          {
+            "name_vi": "Công nghệ Thông tin & Ô tô",
+            "name_ko": "IT자동차학과",
+            "is_hot": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "top3_school_18",
+    "name_vi": "Đại học Gangneung yeongdong",
+    "name_en": "Đại học Gangneung yeongdong (TOP 3%)",
+    "name_ko": "Đại học Gangneung yeongdong",
+    "type": "Private",
+    "region": "Gangwon",
+    "ranking": 168,
+    "campus_address": "Gangwon, Hàn Quốc",
+    "website": "https://www.studyinkorea.go.kr",
+    "tuition": {
+      "humanities_social": 1900000,
+      "natural_sciences": 2090000,
+      "engineering": 2375000,
+      "arts_sports": 2470000,
+      "medicine_pharmacy": null
+    },
+    "dorm_fee": 600000,
+    "living_cost_est": 3500000,
+    "scholarships": [
+      "Học bổng khuyến học TOP 3%: Giảm 20% - 50% học phí kỳ đầu cho tân sinh viên",
+      "Học bổng thành tích học tập: Giảm 30% - 70% dựa trên GPA"
+    ],
+    "accept_gdtx": "top3",
+    "visa_metropolitan": false,
+    "master_no_topik": false,
+    "top_1_percent": false,
+    "is_restricted_school": false,
+    "featured_majors": "Đào tạo đa ngành, Công nghệ & Dịch vụ",
+    "custom_notes": "6,5 trở lên",
+    "invoice_details": "HỌC PHÍ 3,800,000-4,200,000KRW - BẢO HIỂM 150,000KRW - INVOICE 4,000,000-4,450,000KRW",
+    "coordinates": {
+      "latitude": 37.9604,
+      "longitude": 127.8048
+    },
+    "majors_detail": [
+      {
+        "category": "humanities_social",
+        "faculty_name_vi": "Khoa Nhân văn & Xã hội",
+        "faculty_name_ko": "인문사회대학",
+        "tuition_krw": 1900000,
+        "majors": [
+          {
+            "name_vi": "Quản trị Kinh doanh & Du lịch",
+            "name_ko": "경영관광학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Ngôn ngữ Hàn Quốc",
+            "name_ko": "한국어학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "engineering",
+        "faculty_name_vi": "Khoa Kỹ thuật & Công nghệ",
+        "faculty_name_ko": "공과대학",
+        "tuition_krw": 2375000,
+        "majors": [
+          {
+            "name_vi": "Công nghệ Thông tin & Ô tô",
+            "name_ko": "IT자동차학과",
+            "is_hot": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "top3_school_19",
+    "name_vi": "Đại học Halla",
+    "name_en": "Đại học Halla (TOP 3%)",
+    "name_ko": "Đại học Halla",
+    "type": "Private",
+    "region": "Gangwon",
+    "ranking": 169,
+    "campus_address": "Gangwon, Hàn Quốc",
+    "website": "https://www.studyinkorea.go.kr",
+    "tuition": {
+      "humanities_social": 2200000,
+      "natural_sciences": 2420000,
+      "engineering": 2750000,
+      "arts_sports": 2860000,
+      "medicine_pharmacy": null
+    },
+    "dorm_fee": 800000,
+    "living_cost_est": 3500000,
+    "scholarships": [
+      "Học bổng khuyến học TOP 3%: Giảm 20% - 50% học phí kỳ đầu cho tân sinh viên",
+      "Học bổng thành tích học tập: Giảm 30% - 70% dựa trên GPA"
+    ],
+    "accept_gdtx": "top3",
+    "visa_metropolitan": false,
+    "master_no_topik": false,
+    "top_1_percent": false,
+    "is_restricted_school": false,
+    "featured_majors": "Đào tạo đa ngành, Công nghệ & Dịch vụ",
+    "custom_notes": "Trường nằm trong danh sách TOP 3% năm 2026",
+    "invoice_details": "HỌC PHÍ 4,400,000-4,800,000KRW - BẢO HIỂM 150,000KRW - INVOICE 4,600,000-5,050,000KRW",
+    "coordinates": {
+      "latitude": 37.886399999999995,
+      "longitude": 127.7308
+    },
+    "majors_detail": [
+      {
+        "category": "humanities_social",
+        "faculty_name_vi": "Khoa Nhân văn & Xã hội",
+        "faculty_name_ko": "인문사회대학",
+        "tuition_krw": 2200000,
+        "majors": [
+          {
+            "name_vi": "Quản trị Kinh doanh & Du lịch",
+            "name_ko": "경영관광학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Ngôn ngữ Hàn Quốc",
+            "name_ko": "한국어학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "engineering",
+        "faculty_name_vi": "Khoa Kỹ thuật & Công nghệ",
+        "faculty_name_ko": "공과대학",
+        "tuition_krw": 2750000,
+        "majors": [
+          {
+            "name_vi": "Công nghệ Thông tin & Ô tô",
+            "name_ko": "IT자동차학과",
+            "is_hot": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "top3_school_20",
+    "name_vi": "Đại học Kyungdong",
+    "name_en": "Đại học Kyungdong (TOP 3%)",
+    "name_ko": "Đại học Kyungdong",
+    "type": "Private",
+    "region": "Gangwon",
+    "ranking": 170,
+    "campus_address": "Gangwon, Hàn Quốc",
+    "website": "https://www.studyinkorea.go.kr",
+    "tuition": {
+      "humanities_social": 2400000,
+      "natural_sciences": 2640000,
+      "engineering": 3000000,
+      "arts_sports": 3120000,
+      "medicine_pharmacy": null
+    },
+    "dorm_fee": 800000,
+    "living_cost_est": 3500000,
+    "scholarships": [
+      "Học bổng khuyến học TOP 3%: Giảm 20% - 50% học phí kỳ đầu cho tân sinh viên",
+      "Học bổng thành tích học tập: Giảm 30% - 70% dựa trên GPA"
+    ],
+    "accept_gdtx": "top3",
+    "visa_metropolitan": false,
+    "master_no_topik": false,
+    "top_1_percent": false,
+    "is_restricted_school": false,
+    "featured_majors": "Đào tạo đa ngành, Công nghệ & Dịch vụ",
+    "custom_notes": "Trường nằm trong danh sách TOP 3% năm 2026",
+    "invoice_details": "HỌC PHÍ 4,800,000 - 5,200,000KRW - BẢO HIỂM 150,000KRW - INVOICE 5,000,000-5,450,000KRW",
+    "coordinates": {
+      "latitude": 37.956399999999995,
+      "longitude": 127.8008
+    },
+    "majors_detail": [
+      {
+        "category": "humanities_social",
+        "faculty_name_vi": "Khoa Nhân văn & Xã hội",
+        "faculty_name_ko": "인문사회대학",
+        "tuition_krw": 2400000,
+        "majors": [
+          {
+            "name_vi": "Quản trị Kinh doanh & Du lịch",
+            "name_ko": "경영관광학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Ngôn ngữ Hàn Quốc",
+            "name_ko": "한국어학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "engineering",
+        "faculty_name_vi": "Khoa Kỹ thuật & Công nghệ",
+        "faculty_name_ko": "공과대학",
+        "tuition_krw": 3000000,
+        "majors": [
+          {
+            "name_vi": "Công nghệ Thông tin & Ô tô",
+            "name_ko": "IT자동차학과",
+            "is_hot": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "top3_school_21",
+    "name_vi": "Đại học Sanji",
+    "name_en": "Đại học Sanji (TOP 3%)",
+    "name_ko": "Đại học Sanji",
+    "type": "Private",
+    "region": "Gangwon",
+    "ranking": 171,
+    "campus_address": "Gangwon, Hàn Quốc",
+    "website": "https://www.studyinkorea.go.kr",
+    "tuition": {
+      "humanities_social": 2100000,
+      "natural_sciences": 2310000,
+      "engineering": 2625000,
+      "arts_sports": 2730000,
+      "medicine_pharmacy": null
+    },
+    "dorm_fee": 700000,
+    "living_cost_est": 3500000,
+    "scholarships": [
+      "Học bổng khuyến học TOP 3%: Giảm 20% - 50% học phí kỳ đầu cho tân sinh viên",
+      "Học bổng thành tích học tập: Giảm 30% - 70% dựa trên GPA"
+    ],
+    "accept_gdtx": "top3",
+    "visa_metropolitan": false,
+    "master_no_topik": false,
+    "top_1_percent": false,
+    "is_restricted_school": false,
+    "featured_majors": "Đào tạo đa ngành, Công nghệ & Dịch vụ",
+    "custom_notes": "Trường nằm trong danh sách TOP 3% năm 2026",
+    "invoice_details": "HỌC PHÍ 4,200,000-4,600,000KRW - BẢO HIỂM 150,000KRW - INVOICE 4,400,000-4,850,,000KRW",
+    "coordinates": {
+      "latitude": 37.922399999999996,
+      "longitude": 127.7668
+    },
+    "majors_detail": [
+      {
+        "category": "humanities_social",
+        "faculty_name_vi": "Khoa Nhân văn & Xã hội",
+        "faculty_name_ko": "인문사회대학",
+        "tuition_krw": 2100000,
+        "majors": [
+          {
+            "name_vi": "Quản trị Kinh doanh & Du lịch",
+            "name_ko": "경영관광학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Ngôn ngữ Hàn Quốc",
+            "name_ko": "한국어학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "engineering",
+        "faculty_name_vi": "Khoa Kỹ thuật & Công nghệ",
+        "faculty_name_ko": "공과대학",
+        "tuition_krw": 2625000,
+        "majors": [
+          {
+            "name_vi": "Công nghệ Thông tin & Ô tô",
+            "name_ko": "IT자동차학과",
+            "is_hot": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "top3_school_22",
+    "name_vi": "Đại học Songho",
+    "name_en": "Đại học Songho (TOP 3%)",
+    "name_ko": "Đại học Songho",
+    "type": "Private",
+    "region": "Gangwon",
+    "ranking": 172,
+    "campus_address": "Gangwon, Hàn Quốc",
+    "website": "https://www.studyinkorea.go.kr",
+    "tuition": {
+      "humanities_social": 1800000,
+      "natural_sciences": 1980000,
+      "engineering": 2250000,
+      "arts_sports": 2340000,
+      "medicine_pharmacy": null
+    },
+    "dorm_fee": 500000,
+    "living_cost_est": 3500000,
+    "scholarships": [
+      "Học bổng khuyến học TOP 3%: Giảm 20% - 50% học phí kỳ đầu cho tân sinh viên",
+      "Học bổng thành tích học tập: Giảm 30% - 70% dựa trên GPA"
+    ],
+    "accept_gdtx": "top3",
+    "visa_metropolitan": false,
+    "master_no_topik": false,
+    "top_1_percent": false,
+    "is_restricted_school": false,
+    "featured_majors": "Đào tạo đa ngành, Công nghệ & Dịch vụ",
+    "custom_notes": "Trường nằm trong danh sách TOP 3% năm 2026",
+    "invoice_details": "HỌC PHÍ 3,600,000-4,000,000KRW - BẢO HIỂM 150,000KRW - INVOICE 3,800,000-4,250,000KRW",
+    "coordinates": {
+      "latitude": 37.926399999999994,
+      "longitude": 127.7708
+    },
+    "majors_detail": [
+      {
+        "category": "humanities_social",
+        "faculty_name_vi": "Khoa Nhân văn & Xã hội",
+        "faculty_name_ko": "인문사회대학",
+        "tuition_krw": 1800000,
+        "majors": [
+          {
+            "name_vi": "Quản trị Kinh doanh & Du lịch",
+            "name_ko": "경영관광학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Ngôn ngữ Hàn Quốc",
+            "name_ko": "한국어학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "engineering",
+        "faculty_name_vi": "Khoa Kỹ thuật & Công nghệ",
+        "faculty_name_ko": "공과대학",
+        "tuition_krw": 2250000,
+        "majors": [
+          {
+            "name_vi": "Công nghệ Thông tin & Ô tô",
+            "name_ko": "IT자동차학과",
+            "is_hot": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "top3_school_23",
+    "name_vi": "Đại học Gangwon State",
+    "name_en": "Đại học Gangwon State (TOP 3%)",
+    "name_ko": "Đại học Gangwon State",
+    "type": "Private",
+    "region": "Gangwon",
+    "ranking": 173,
+    "campus_address": "Gangwon, Hàn Quốc",
+    "website": "https://www.studyinkorea.go.kr",
+    "tuition": {
+      "humanities_social": 1700000,
+      "natural_sciences": 1870000,
+      "engineering": 2125000,
+      "arts_sports": 2210000,
+      "medicine_pharmacy": null
+    },
+    "dorm_fee": 500000,
+    "living_cost_est": 3500000,
+    "scholarships": [
+      "Học bổng khuyến học TOP 3%: Giảm 20% - 50% học phí kỳ đầu cho tân sinh viên",
+      "Học bổng thành tích học tập: Giảm 30% - 70% dựa trên GPA"
+    ],
+    "accept_gdtx": "top3",
+    "visa_metropolitan": false,
+    "master_no_topik": false,
+    "top_1_percent": false,
+    "is_restricted_school": false,
+    "featured_majors": "Đào tạo đa ngành, Công nghệ & Dịch vụ",
+    "custom_notes": "6,0 trở lên",
+    "invoice_details": "HỌC PHÍ 3,400,000-3,800,000KRW - BẢO HIỂM 150,000KRW - INVOICE 3,600,000-4,050,000KRW",
+    "coordinates": {
+      "latitude": 37.9244,
+      "longitude": 127.7688
+    },
+    "majors_detail": [
+      {
+        "category": "humanities_social",
+        "faculty_name_vi": "Khoa Nhân văn & Xã hội",
+        "faculty_name_ko": "인문사회대학",
+        "tuition_krw": 1700000,
+        "majors": [
+          {
+            "name_vi": "Quản trị Kinh doanh & Du lịch",
+            "name_ko": "경영관광학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Ngôn ngữ Hàn Quốc",
+            "name_ko": "한국어학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "engineering",
+        "faculty_name_vi": "Khoa Kỹ thuật & Công nghệ",
+        "faculty_name_ko": "공과대학",
+        "tuition_krw": 2125000,
+        "majors": [
+          {
+            "name_vi": "Công nghệ Thông tin & Ô tô",
+            "name_ko": "IT자동차학과",
+            "is_hot": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "top3_school_28",
+    "name_vi": "Đại học Masan",
+    "name_en": "Đại học Masan (TOP 3%)",
+    "name_ko": "Đại học Masan",
+    "type": "Private",
+    "region": "Gyeongsangnam",
+    "ranking": 178,
+    "campus_address": "Gyeongsangnam, Hàn Quốc",
+    "website": "https://www.studyinkorea.go.kr",
+    "tuition": {
+      "humanities_social": 2000000,
+      "natural_sciences": 2200000,
+      "engineering": 2500000,
+      "arts_sports": 2600000,
+      "medicine_pharmacy": null
+    },
+    "dorm_fee": 600000,
+    "living_cost_est": 3500000,
+    "scholarships": [
+      "Học bổng khuyến học TOP 3%: Giảm 20% - 50% học phí kỳ đầu cho tân sinh viên",
+      "Học bổng thành tích học tập: Giảm 30% - 70% dựa trên GPA"
+    ],
+    "accept_gdtx": "top3",
+    "visa_metropolitan": false,
+    "master_no_topik": false,
+    "top_1_percent": false,
+    "is_restricted_school": false,
+    "featured_majors": "Đào tạo đa ngành, Công nghệ & Dịch vụ",
+    "custom_notes": "-7,0 trở lên",
+    "invoice_details": "HỌC PHÍ 4,000,000-4,400,000KRW - BẢO HIỂM 150,000 - INVOICE 4,200,000-4,650,000KRW",
+    "coordinates": {
+      "latitude": 35.2651,
+      "longitude": 128.7181
+    },
+    "majors_detail": [
+      {
+        "category": "humanities_social",
+        "faculty_name_vi": "Khoa Nhân văn & Xã hội",
+        "faculty_name_ko": "인문사회대학",
+        "tuition_krw": 2000000,
+        "majors": [
+          {
+            "name_vi": "Quản trị Kinh doanh & Du lịch",
+            "name_ko": "경영관광학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Ngôn ngữ Hàn Quốc",
+            "name_ko": "한국어학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "engineering",
+        "faculty_name_vi": "Khoa Kỹ thuật & Công nghệ",
+        "faculty_name_ko": "공과대학",
+        "tuition_krw": 2500000,
+        "majors": [
+          {
+            "name_vi": "Công nghệ Thông tin & Ô tô",
+            "name_ko": "IT자동차학과",
             "is_hot": true
           }
         ]
