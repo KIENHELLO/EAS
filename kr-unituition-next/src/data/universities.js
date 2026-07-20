@@ -173,7 +173,8 @@ export const universities = [
           }
         ]
       }
-    ]
+    ],
+    "is_restricted_school": false
   },
   {
     "id": "kaist",
@@ -199,11 +200,11 @@ export const universities = [
       "Học bổng Chính phủ Hàn Quốc (GKS)"
     ],
     "description": "Viện nghiên cứu khoa học công nghệ hàng đầu châu Á. Hầu hết sinh viên quốc tế tại KAIST đều được miễn học phí 100% nếu duy trì kết quả học tập đạt chuẩn.",
-    "accept_gdtx": null,
+    "accept_gdtx": "top1",
     "visa_metropolitan": false,
     "master_no_topik": false,
     "custom_notes": "",
-    "top_1_percent": false,
+    "top_1_percent": true,
     "majors_detail": [
       {
         "category": "humanities_social",
@@ -340,7 +341,8 @@ export const universities = [
           }
         ]
       }
-    ]
+    ],
+    "is_restricted_school": false
   },
   {
     "id": "yonsei",
@@ -516,7 +518,8 @@ export const universities = [
           }
         ]
       }
-    ]
+    ],
+    "is_restricted_school": false
   },
   {
     "id": "korea",
@@ -692,7 +695,8 @@ export const universities = [
           }
         ]
       }
-    ]
+    ],
+    "is_restricted_school": false
   },
   {
     "id": "skku",
@@ -719,7 +723,7 @@ export const universities = [
       "Học bổng kết quả học tập xuất sắc hàng kỳ"
     ],
     "description": "Trường đại học có lịch sử lâu đời nhất Hàn Quốc (thành lập năm 1398 dưới triều đại Joseon). Hiện được đầu tư mạnh mẽ bởi tập đoàn Samsung, cực mạnh về công nghệ bán dẫn và kỹ thuật.",
-    "accept_gdtx": null,
+    "accept_gdtx": "top1",
     "visa_metropolitan": false,
     "master_no_topik": false,
     "custom_notes": "",
@@ -860,7 +864,8 @@ export const universities = [
           }
         ]
       }
-    ]
+    ],
+    "is_restricted_school": false
   },
   {
     "id": "hanyang",
@@ -887,11 +892,11 @@ export const universities = [
       "Học bổng Hanyang Excellence"
     ],
     "description": "Được mệnh danh là 'cái nôi kỹ sư' của Hàn Quốc, nơi đào tạo ra lượng CEO lớn nhất cho các tập đoàn công nghệ. Có chính sách học bổng học tập và TOPIK rất cởi mở cho sinh viên Việt Nam.",
-    "accept_gdtx": "top2",
+    "accept_gdtx": "top1",
     "visa_metropolitan": false,
     "master_no_topik": true,
     "custom_notes": "",
-    "top_1_percent": false,
+    "top_1_percent": true,
     "language_tuition_desc": "5,200,000-5,600,000 KRW/năm",
     "registration_fee_desc": "50,000 KRW",
     "insurance_fee_desc": "150,000 KRW/năm",
@@ -1036,7 +1041,8 @@ export const universities = [
           }
         ]
       }
-    ]
+    ],
+    "is_restricted_school": false
   },
   {
     "id": "khu",
@@ -1212,7 +1218,8 @@ export const universities = [
           }
         ]
       }
-    ]
+    ],
+    "is_restricted_school": false
   },
   {
     "id": "ewha",
@@ -1239,7 +1246,7 @@ export const universities = [
       "Học bổng TOPIK"
     ],
     "description": "Đại học nữ lớn nhất thế giới, cái nôi của rất nhiều nữ chính trị gia và phu nhân tổng thống Hàn Quốc. Trường có học phí tương đối cao nhưng nhiều quỹ học bổng riêng.",
-    "accept_gdtx": null,
+    "accept_gdtx": "top1",
     "visa_metropolitan": false,
     "master_no_topik": false,
     "custom_notes": "",
@@ -1388,7 +1395,8 @@ export const universities = [
           }
         ]
       }
-    ]
+    ],
+    "is_restricted_school": false
   },
   {
     "id": "sogang",
@@ -1563,7 +1571,8 @@ export const universities = [
           }
         ]
       }
-    ]
+    ],
+    "is_restricted_school": false
   },
   {
     "id": "cau",
@@ -1589,11 +1598,11 @@ export const universities = [
       "Học bổng khuyến học kỳ tiếp theo cho sinh viên giữ điểm tích lũy xuất sắc"
     ],
     "description": "Số một Hàn Quốc về truyền thông, nghệ thuật biểu diễn, nhiếp ảnh và sân khấu điện ảnh. Trường thu hút rất đông sinh viên Việt Nam và các nghệ sĩ nổi tiếng K-biz.",
-    "accept_gdtx": "top2",
+    "accept_gdtx": "top1",
     "visa_metropolitan": false,
     "master_no_topik": true,
     "custom_notes": "",
-    "top_1_percent": false,
+    "top_1_percent": true,
     "language_tuition_desc": "6,800,000- 7,200,000 KRW/năm",
     "registration_fee_desc": "50,000 KRW",
     "insurance_fee_desc": "150,000 KRW/năm",
@@ -1738,7 +1747,8 @@ export const universities = [
           }
         ]
       }
-    ]
+    ],
+    "is_restricted_school": false
   },
   {
     "id": "pusan",
@@ -1765,7 +1775,7 @@ export const universities = [
       "Học bổng miễn giảm học phí cho SV gia đình khó khăn"
     ],
     "description": "Trường đại học quốc gia lớn thứ 2 Hàn Quốc, tọa lạc tại thành phố cảng Busan. Chi phí học tập cực kỳ rẻ so với các trường tư thục tại Seoul, trong khi chất lượng giảng dạy thuộc hàng top đầu đất nước.",
-    "accept_gdtx": null,
+    "accept_gdtx": "top1",
     "visa_metropolitan": false,
     "master_no_topik": true,
     "custom_notes": "",
@@ -1906,7 +1916,8 @@ export const universities = [
           }
         ]
       }
-    ]
+    ],
+    "is_restricted_school": false
   },
   {
     "id": "knu",
@@ -1932,11 +1943,11 @@ export const universities = [
       "Học bổng TOPIK đạt cấp 4 trở lên miễn giảm học phí kỳ đầu"
     ],
     "description": "Tọa lạc tại thành phố Daegu, là đại diện xuất sắc của các trường đại học quốc gia miền Trung Nam. Rất nhiều sinh viên Việt Nam chọn trường này vì học phí siêu tiết kiệm và sinh hoạt phí dễ chịu.",
-    "accept_gdtx": "top2",
+    "accept_gdtx": "top1",
     "visa_metropolitan": false,
     "master_no_topik": true,
     "custom_notes": "",
-    "top_1_percent": false,
+    "top_1_percent": true,
     "language_tuition_desc": "5,600,000-6,000,000 KRW/năm",
     "registration_fee_desc": "50,000 KRW",
     "insurance_fee_desc": "150,000 KRW/năm",
@@ -2081,7 +2092,8 @@ export const universities = [
           }
         ]
       }
-    ]
+    ],
+    "is_restricted_school": false
   },
   {
     "id": "hufs",
@@ -2256,7 +2268,8 @@ export const universities = [
           }
         ]
       }
-    ]
+    ],
+    "is_restricted_school": false
   },
   {
     "id": "dongguk",
@@ -2282,11 +2295,11 @@ export const universities = [
       "Học bổng kết quả thi TOPIK và GPA đầu vào (30% - 60% học phí)"
     ],
     "description": "Đại học Phật giáo uy tín hàng đầu nằm ngay trung tâm thủ đô Seoul. Có thế mạnh vượt trội về Điện ảnh, Khoa học Máy tính và Quản trị Kinh doanh.",
-    "accept_gdtx": "top2",
+    "accept_gdtx": "top1",
     "visa_metropolitan": false,
     "master_no_topik": false,
     "custom_notes": "",
-    "top_1_percent": false,
+    "top_1_percent": true,
     "language_tuition_desc": "4,800,000 KRW/năm",
     "registration_fee_desc": "50,000 KRW",
     "insurance_fee_desc": "150,000 KRW/năm",
@@ -2431,7 +2444,8 @@ export const universities = [
           }
         ]
       }
-    ]
+    ],
+    "is_restricted_school": false
   },
   {
     "id": "konkuk",
@@ -2457,11 +2471,11 @@ export const universities = [
       "Học bổng trao đổi văn hóa quốc tế Konkuk"
     ],
     "description": "Nổi tiếng với khuôn viên rộng lớn và hồ nước tuyệt đẹp ngay trung tâm Seoul. Trường có thế mạnh về nông lâm nghiệp, công nghệ sinh học và các ngành thời trang, nghệ thuật.",
-    "accept_gdtx": "top2",
+    "accept_gdtx": "top1",
     "visa_metropolitan": false,
     "master_no_topik": false,
     "custom_notes": "",
-    "top_1_percent": false,
+    "top_1_percent": true,
     "language_tuition_desc": "1,800,000 KRW/năm",
     "registration_fee_desc": "50,000 KRW",
     "insurance_fee_desc": "100,000 KRW/năm",
@@ -2606,7 +2620,8 @@ export const universities = [
           }
         ]
       }
-    ]
+    ],
+    "is_restricted_school": false
   },
   {
     "id": "sejong",
@@ -2781,7 +2796,8 @@ export const universities = [
           }
         ]
       }
-    ]
+    ],
+    "is_restricted_school": false
   },
   {
     "id": "kookmin",
@@ -2956,7 +2972,8 @@ export const universities = [
           }
         ]
       }
-    ]
+    ],
+    "is_restricted_school": false
   },
   {
     "id": "ajou",
@@ -2982,7 +2999,7 @@ export const universities = [
       "Học bổng TOPIK và ưu tú ngoại ngữ"
     ],
     "description": "Tọa lạc tại thành phố Suwon vệ tinh đáng sống, ngay sát văn phòng lớn của Samsung. Cực mạnh về Kỹ thuật, Công nghệ Thông tin và Y học.",
-    "accept_gdtx": "top3",
+    "accept_gdtx": "top2",
     "visa_metropolitan": false,
     "master_no_topik": false,
     "custom_notes": "",
@@ -3131,7 +3148,8 @@ export const universities = [
           }
         ]
       }
-    ]
+    ],
+    "is_restricted_school": false
   },
   {
     "id": "inha",
@@ -3306,7 +3324,8 @@ export const universities = [
           }
         ]
       }
-    ]
+    ],
+    "is_restricted_school": false
   },
   {
     "id": "postech",
@@ -3332,7 +3351,7 @@ export const universities = [
       "Trợ cấp sinh hoạt phí hàng tháng cho sinh viên nghiên cứu khoa học"
     ],
     "description": "Đại học nghiên cứu kỹ thuật chất lượng hàng đầu thế giới được tập đoàn POSCO sáng lập. Rất kén sinh viên đầu vào nhưng chế độ tài trợ học tập và nghiên cứu cực kỳ tốt.",
-    "accept_gdtx": null,
+    "accept_gdtx": "top1",
     "visa_metropolitan": false,
     "master_no_topik": false,
     "custom_notes": "",
@@ -3508,7 +3527,7 @@ export const universities = [
       "Hỗ trợ sinh hoạt phí từ các quỹ thí nghiệm nghiên cứu"
     ],
     "description": "Trường đại học nghiên cứu quốc tế giảng dạy 100% bằng tiếng Anh tại Ulsan. Thế mạnh về Năng lượng sạch, Vật liệu mới và Kỹ thuật Nano.",
-    "accept_gdtx": null,
+    "accept_gdtx": "top2",
     "visa_metropolitan": false,
     "master_no_topik": false,
     "custom_notes": "",
@@ -3649,7 +3668,8 @@ export const universities = [
           }
         ]
       }
-    ]
+    ],
+    "is_restricted_school": false
   },
   {
     "id": "gist",
@@ -3675,7 +3695,7 @@ export const universities = [
       "Học bổng Chính phủ GKS"
     ],
     "description": "Được tài trợ mạnh mẽ bởi chính phủ Hàn Quốc nhằm nghiên cứu và phát triển khoa học ứng dụng miền Tây Nam. Môi trường nghiên cứu hiện đại, tỷ lệ giảng viên/sinh viên lý tưởng.",
-    "accept_gdtx": null,
+    "accept_gdtx": "top2",
     "visa_metropolitan": false,
     "master_no_topik": false,
     "custom_notes": "",
@@ -3816,7 +3836,8 @@ export const universities = [
           }
         ]
       }
-    ]
+    ],
+    "is_restricted_school": false
   },
   {
     "id": "chonnam",
@@ -3991,7 +4012,8 @@ export const universities = [
           }
         ]
       }
-    ]
+    ],
+    "is_restricted_school": false
   },
   {
     "id": "jbnu",
@@ -4166,7 +4188,8 @@ export const universities = [
           }
         ]
       }
-    ]
+    ],
+    "is_restricted_school": false
   },
   {
     "id": "kangwon",
@@ -4192,7 +4215,7 @@ export const universities = [
       "Học bổng miễn giảm tiền ở ký túc xá"
     ],
     "description": "Trường đại học quốc gia đại diện cho tỉnh Gangwon, cách thủ đô Seoul 1 tiếng đi tàu điện ngầm. Chi phí sinh hoạt tại thành phố Chuncheon cực kỳ rẻ và trong lành.",
-    "accept_gdtx": null,
+    "accept_gdtx": "top2",
     "visa_metropolitan": false,
     "master_no_topik": true,
     "custom_notes": "",
@@ -4333,7 +4356,8 @@ export const universities = [
           }
         ]
       }
-    ]
+    ],
+    "is_restricted_school": false
   },
   {
     "id": "jeju",
@@ -4359,7 +4383,7 @@ export const universities = [
       "Học bổng kết quả kiểm tra năng lực tiếng Hàn TOPIK"
     ],
     "description": "Nằm trên hòn đảo du lịch Jeju nổi tiếng thế giới. Có những ngành học độc đáo như Khoa học biển, Du lịch nghỉ dưỡng, Chăn nuôi ngựa và Y dược nhiệt đới.",
-    "accept_gdtx": "top3",
+    "accept_gdtx": "top2",
     "visa_metropolitan": false,
     "master_no_topik": true,
     "custom_notes": "",
@@ -4508,7 +4532,8 @@ export const universities = [
           }
         ]
       }
-    ]
+    ],
+    "is_restricted_school": false
   },
   {
     "id": "uos",
@@ -4536,7 +4561,7 @@ export const universities = [
     "description": "Được quản lý và tài trợ trực tiếp bởi chính quyền Thành phố Seoul. Học phí của UOS thuộc hàng siêu rẻ (chỉ bằng 1/4 trường tư thục) nhưng yêu cầu đầu vào rất khắt khe.",
     "accept_gdtx": "top2",
     "visa_metropolitan": false,
-    "master_no_topik": true,
+    "master_no_topik": false,
     "custom_notes": "",
     "top_1_percent": false,
     "language_tuition_desc": "6,000,000-6,200,000 KRW/năm",
@@ -4683,7 +4708,8 @@ export const universities = [
           }
         ]
       }
-    ]
+    ],
+    "is_restricted_school": false
   },
   {
     "id": "soongsil",
@@ -4858,7 +4884,8 @@ export const universities = [
           }
         ]
       }
-    ]
+    ],
+    "is_restricted_school": false
   },
   {
     "id": "yeungnam",
@@ -5033,7 +5060,8 @@ export const universities = [
           }
         ]
       }
-    ]
+    ],
+    "is_restricted_school": false
   },
   {
     "id": "nazarene",
@@ -5208,7 +5236,8 @@ export const universities = [
           }
         ]
       }
-    ]
+    ],
+    "is_restricted_school": false
   },
   {
     "id": "kyungil",
@@ -5383,7 +5412,8 @@ export const universities = [
           }
         ]
       }
-    ]
+    ],
+    "is_restricted_school": false
   },
   {
     "id": "dongseo",
@@ -5558,7 +5588,8 @@ export const universities = [
           }
         ]
       }
-    ]
+    ],
+    "is_restricted_school": false
   },
   {
     "id": "paichai",
@@ -5733,7 +5764,8 @@ export const universities = [
           }
         ]
       }
-    ]
+    ],
+    "is_restricted_school": false
   },
   {
     "id": "seoultech",
@@ -5908,7 +5940,8 @@ export const universities = [
           }
         ]
       }
-    ]
+    ],
+    "is_restricted_school": false
   },
   {
     "id": "catholic",
@@ -6083,7 +6116,8 @@ export const universities = [
           }
         ]
       }
-    ]
+    ],
+    "is_restricted_school": false
   },
   {
     "id": "chungnam",
@@ -6109,11 +6143,11 @@ export const universities = [
       "Học bổng hỗ trợ phí ký túc xá cho sinh viên quốc tế"
     ],
     "description": "Một trường quốc gia tiêu biểu nằm tại thành phố Daejeon - 'thung lũng Silicon' của Hàn Quốc. Có thế mạnh vượt trội về Công nghệ sinh học và Khoa học nông nghiệp.",
-    "accept_gdtx": "top2",
+    "accept_gdtx": "top1",
     "visa_metropolitan": false,
     "master_no_topik": false,
     "custom_notes": "Trường trong nhóm Top 2% nhận học sinh GDTX",
-    "top_1_percent": false,
+    "top_1_percent": true,
     "language_tuition_desc": "5,200,000 KRW/năm",
     "registration_fee_desc": "50,000 KRW",
     "insurance_fee_desc": "150,000 KRW/năm",
@@ -6258,7 +6292,8 @@ export const universities = [
           }
         ]
       }
-    ]
+    ],
+    "is_restricted_school": false
   },
   {
     "id": "konyang",
@@ -6433,7 +6468,8 @@ export const universities = [
           }
         ]
       }
-    ]
+    ],
+    "is_restricted_school": false
   },
   {
     "id": "keimyung",
@@ -6459,11 +6495,11 @@ export const universities = [
       "Học bổng hữu nghị Keimyung"
     ],
     "description": "Trường đại học tư thục nổi tiếng tại Daegu với kiến trúc gạch đỏ phương Tây vô cùng lộng lẫy (từng là bối cảnh phim Boys Over Flowers). Thuộc nhóm trường Top 3% nhận học sinh GDTX.",
-    "accept_gdtx": "top2",
+    "accept_gdtx": "top1",
     "visa_metropolitan": false,
     "master_no_topik": false,
     "custom_notes": "Trường thuộc nhóm Top 3% nhận học sinh GDTX tại Daegu",
-    "top_1_percent": false,
+    "top_1_percent": true,
     "language_tuition_desc": "5,200,000 KRW/năm",
     "registration_fee_desc": "",
     "insurance_fee_desc": "100 KRW/năm",
@@ -6784,7 +6820,8 @@ export const universities = [
           }
         ]
       }
-    ]
+    ],
+    "is_restricted_school": false
   },
   {
     "id": "sangji",
@@ -6810,7 +6847,7 @@ export const universities = [
       "Học bổng ưu tiên TOPIK"
     ],
     "description": "Trường đại học tư thục lớn tại thành phố Wonju, Gangwon. Chi phí sinh hoạt thấp, thuộc nhóm trường Top 3% nhận học sinh hệ GDTX.",
-    "accept_gdtx": "top3",
+    "accept_gdtx": "top2",
     "visa_metropolitan": false,
     "master_no_topik": false,
     "custom_notes": "Trường thuộc nhóm Top 3% nhận học sinh GDTX tại Gangwon",
@@ -6978,7 +7015,7 @@ export const universities = [
       "Học bổng nghiên cứu khoa học"
     ],
     "description": "Trường đại học chuyên đào tạo bậc cao học (Thạc sĩ, Tiến sĩ) tọa lạc ngay quận Gangnam sầm uất của Seoul. Thuộc nhóm trường Top 3% nhận học sinh hệ GDTX ở bậc sau đại học.",
-    "accept_gdtx": "top3",
+    "accept_gdtx": "top2",
     "visa_metropolitan": false,
     "master_no_topik": false,
     "custom_notes": "Trường cao học tại Gangnam, nhóm Top 3% nhận học sinh GDTX",
@@ -7119,7 +7156,8 @@ export const universities = [
           }
         ]
       }
-    ]
+    ],
+    "is_restricted_school": false
   },
   {
     "id": "chonnam_science",
@@ -7145,7 +7183,7 @@ export const universities = [
       "Học bổng ưu tiên ký túc xá"
     ],
     "description": "Trường cao đẳng khoa học kỹ thuật ứng dụng nổi tiếng với các ngành nghề thực hành thực tiễn. Thuộc nhóm trường Top 3% nhận học sinh hệ GDTX.",
-    "accept_gdtx": "top3",
+    "accept_gdtx": "top2",
     "visa_metropolitan": false,
     "master_no_topik": false,
     "custom_notes": "Trường Cao đẳng nghề nhóm Top 3% nhận học sinh GDTX",
@@ -7286,7 +7324,8 @@ export const universities = [
           }
         ]
       }
-    ]
+    ],
+    "is_restricted_school": false
   },
   {
     "id": "sangji_catholic",
@@ -7312,7 +7351,7 @@ export const universities = [
       "Học bổng nghề kỹ thuật"
     ],
     "description": "Trường cao đẳng công giáo đào tạo thực hành lâu đời tại Andong. Nhóm trường Top 3% nhận học sinh GDTX với chi phí cực thấp.",
-    "accept_gdtx": "top3",
+    "accept_gdtx": "top2",
     "visa_metropolitan": false,
     "master_no_topik": false,
     "custom_notes": "Trường Cao đẳng Công giáo Andong, nhóm Top 3% nhận học sinh GDTX",
@@ -7453,7 +7492,8 @@ export const universities = [
           }
         ]
       }
-    ]
+    ],
+    "is_restricted_school": false
   },
   {
     "id": "gangdong",
@@ -7479,9 +7519,9 @@ export const universities = [
       "Học bổng TOPIK đầu vào"
     ],
     "description": "Trường cao đẳng nghề thực hành nằm tại khu vực Eumseong, Chungbuk. Thuộc nhóm trường Top 3% nhận học sinh GDTX, chi phí sinh hoạt vừa túi tiền.",
-    "accept_gdtx": "top3",
+    "accept_gdtx": "top2",
     "visa_metropolitan": false,
-    "master_no_topik": false,
+    "master_no_topik": true,
     "custom_notes": "Cao đẳng nghề tỉnh Chungbuk, nhóm Top 3% nhận học sinh GDTX",
     "top_1_percent": false,
     "majors_detail": [
@@ -7620,7 +7660,8 @@ export const universities = [
           }
         ]
       }
-    ]
+    ],
+    "is_restricted_school": false
   },
   {
     "id": "jeonju",
@@ -7646,7 +7687,7 @@ export const universities = [
       "Học bổng kết quả học tập xuất sắc"
     ],
     "description": "Đại học tư thục nổi bật tại Jeonju. Đây là trường thuộc danh sách diện Visa Đại đô thị, nổi bật với khối ngành Công nghệ & Phương tiện di động tương lai.",
-    "accept_gdtx": null,
+    "accept_gdtx": "top2",
     "visa_metropolitan": true,
     "master_no_topik": false,
     "custom_notes": "Ngành nổi bật: Công nghệ và phương tiện di động tương lai (Học phí đồng nhất 2.778.000 KRW)",
@@ -7787,7 +7828,8 @@ export const universities = [
           }
         ]
       }
-    ]
+    ],
+    "is_restricted_school": false
   },
   {
     "id": "dongeui_science",
@@ -7813,7 +7855,7 @@ export const universities = [
       "Học bổng tiếng Hàn TOPIK"
     ],
     "description": "Trường cao đẳng công nghệ thực hành uy tín hàng đầu tại trung tâm Busan. Thuộc diện Visa Đại đô thị, thu hút đông sinh viên Việt Nam cho khối ngành Cơ khí và Điều dưỡng.",
-    "accept_gdtx": null,
+    "accept_gdtx": "top2",
     "visa_metropolitan": true,
     "master_no_topik": false,
     "custom_notes": "Ngành nổi bật: Cơ khí và Điều dưỡng (Học phí đồng nhất 2.455.000 KRW)",
@@ -7954,7 +7996,8 @@ export const universities = [
           }
         ]
       }
-    ]
+    ],
+    "is_restricted_school": false
   },
   {
     "id": "kyungnam_it",
@@ -7980,7 +8023,7 @@ export const universities = [
       "Hỗ trợ chỗ ở ký túc xá cho SV nước ngoài"
     ],
     "description": "Trường đào tạo kỹ thuật thực hành lâu đời tại Busan. Thuộc diện Visa Đại đô thị, đào tạo xuất sắc các chuyên ngành: Khoa điện, Cơ khí, Ô tô điện, Kỹ thuật điện tử, Điều dưỡng.",
-    "accept_gdtx": null,
+    "accept_gdtx": "top2",
     "visa_metropolitan": true,
     "master_no_topik": false,
     "custom_notes": "Ngành nổi bật: Điện, Cơ khí, Ô tô điện, Kỹ thuật điện tử, Điều dưỡng (Học phí 3.468.000 KRW)",
@@ -8121,7 +8164,8 @@ export const universities = [
           }
         ]
       }
-    ]
+    ],
+    "is_restricted_school": false
   },
   {
     "id": "kunjang",
@@ -8147,7 +8191,7 @@ export const universities = [
       "Học bổng TOPIK đầu vào"
     ],
     "description": "Tọa lạc tại Gunsan, trường cao đẳng có truyền thống đào tạo các ngành kỹ thuật đóng tàu và y khoa thực hành. Thuộc diện Visa Đại đô thị, ngành nổi bật nhất là Điều dưỡng.",
-    "accept_gdtx": null,
+    "accept_gdtx": "top2",
     "visa_metropolitan": true,
     "master_no_topik": false,
     "custom_notes": "Ngành nổi bật: Điều dưỡng (Học phí Y khoa/Điều dưỡng: 2.750.000 KRW)",
@@ -8288,7 +8332,8 @@ export const universities = [
           }
         ]
       }
-    ]
+    ],
+    "is_restricted_school": false
   },
   {
     "id": "baekseok",
@@ -8316,7 +8361,7 @@ export const universities = [
     "description": "Đại học tổng hợp danh tiếng tại Cheonan. Trường thuộc diện Visa Đại đô thị (với ngành Điều dưỡng học phí 3.799.000 KRW) và cũng tuyển sinh hệ Thạc sĩ CNTT nợ TOPIK.",
     "accept_gdtx": "top2",
     "visa_metropolitan": true,
-    "master_no_topik": true,
+    "master_no_topik": false,
     "custom_notes": "Diện Visa Đại đô thị & Thạc sĩ nợ TOPIK (Điều dưỡng: 3.799.000 KRW, Thạc sĩ IT nợ TOPIK)",
     "top_1_percent": false,
     "language_tuition_desc": "4,800,000 KRW/năm",
@@ -8463,7 +8508,8 @@ export const universities = [
           }
         ]
       }
-    ]
+    ],
+    "is_restricted_school": false
   },
   {
     "id": "hosan",
@@ -8489,7 +8535,7 @@ export const universities = [
       "Hỗ trợ tiền ăn ở ký túc xá"
     ],
     "description": "Tọa lạc tại thành phố Gyeongsan gần Daegu, là trường đào tạo khối sức khỏe chất lượng. Thuộc diện Visa Đại đô thị, ngành nổi bật nhất là Điều dưỡng với học phí chỉ 2.000.000 KRW.",
-    "accept_gdtx": null,
+    "accept_gdtx": "top2",
     "visa_metropolitan": true,
     "master_no_topik": false,
     "custom_notes": "Ngành nổi bật: Điều dưỡng (Học phí cực tốt: 2.000.000 KRW)",
@@ -8630,7 +8676,8 @@ export const universities = [
           }
         ]
       }
-    ]
+    ],
+    "is_restricted_school": false
   },
   {
     "id": "kyongbuk_science",
@@ -8656,7 +8703,7 @@ export const universities = [
       "Học bổng TOPIK"
     ],
     "description": "Trường cao đẳng công nghệ thực hành tại Chilgok, Gyeongbuk. Thuộc diện Visa Đại đô thị với chương trình đào tạo Điều dưỡng học phí chỉ 2.105.000 KRW.",
-    "accept_gdtx": null,
+    "accept_gdtx": "top2",
     "visa_metropolitan": true,
     "master_no_topik": false,
     "custom_notes": "Ngành nổi bật: Điều dưỡng (Học phí: 2.105.000 KRW)",
@@ -8797,7 +8844,8 @@ export const universities = [
           }
         ]
       }
-    ]
+    ],
+    "is_restricted_school": true
   },
   {
     "id": "kyungbuk_college",
@@ -8823,7 +8871,7 @@ export const universities = [
       "Học bổng hỗ trợ sinh hoạt phí"
     ],
     "description": "Được biết đến với chất lượng đào tạo nghề kỹ thuật và y tế chuẩn quốc gia tại Yeongju. Thuộc diện Visa Đại đô thị, ngành nổi bật: Kỹ thuật toàn cầu & Điều dưỡng học phí 2.000.000 KRW.",
-    "accept_gdtx": null,
+    "accept_gdtx": "top2",
     "visa_metropolitan": true,
     "master_no_topik": false,
     "custom_notes": "Ngành nổi bật: Kỹ thuật toàn cầu & Điều dưỡng (Học phí đồng giá 2.000.000 KRW)",
@@ -8964,7 +9012,8 @@ export const universities = [
           }
         ]
       }
-    ]
+    ],
+    "is_restricted_school": false
   },
   {
     "id": "hansung",
@@ -8990,11 +9039,11 @@ export const universities = [
       "Học bổng TOPIK khuyến học sau khi nhập học"
     ],
     "description": "Đại học uy tín nằm ngay tại thủ đô Seoul. Nổi bật với chương trình Thạc sĩ nợ TOPIK chuyên ngành Tư vấn quản lý toàn cầu với mức học phí cực kỳ thấp chỉ 1.050.000 KRW.",
-    "accept_gdtx": "top2",
+    "accept_gdtx": "top1",
     "visa_metropolitan": false,
-    "master_no_topik": true,
+    "master_no_topik": false,
     "custom_notes": "Tuyển Thạc sĩ nợ TOPIK ngành Tư vấn quản lý toàn cầu (Học phí chỉ 1.050.000 KRW)",
-    "top_1_percent": false,
+    "top_1_percent": true,
     "language_tuition_desc": "5,600,000 KRW/năm",
     "registration_fee_desc": "",
     "insurance_fee_desc": "150,000 KRW/năm",
@@ -9139,7 +9188,8 @@ export const universities = [
           }
         ]
       }
-    ]
+    ],
+    "is_restricted_school": false
   },
   {
     "id": "bufs",
@@ -9167,7 +9217,7 @@ export const universities = [
     "description": "Đại học tư thục đào tạo ngoại ngữ hàng đầu tại Busan. Trường tuyển sinh hệ Thạc sĩ nợ TOPIK cho các ngành: Ngôn ngữ quốc tế, Y học tổng hợp, Trị liệu tự nhiên.",
     "accept_gdtx": "top2",
     "visa_metropolitan": false,
-    "master_no_topik": true,
+    "master_no_topik": false,
     "custom_notes": "Tuyển Thạc sĩ nợ TOPIK ngành Ngôn ngữ quốc tế, Y học tổng hợp, Trị liệu tự nhiên",
     "top_1_percent": false,
     "language_tuition_desc": "4,800,000-5,200,000 KRW/năm",
@@ -9314,7 +9364,8 @@ export const universities = [
           }
         ]
       }
-    ]
+    ],
+    "is_restricted_school": false
   },
   {
     "id": "wonkwang",
@@ -9342,7 +9393,7 @@ export const universities = [
     "description": "Trường đại học tư thục quy mô lớn tại Iksan, Jeonbuk. Nổi bật với chương trình tuyển sinh Thạc sĩ nợ TOPIK các khối ngành đặc thù: Thiết kế làm đẹp, Sáng tác văn học.",
     "accept_gdtx": "top2",
     "visa_metropolitan": false,
-    "master_no_topik": true,
+    "master_no_topik": false,
     "custom_notes": "Tuyển Thạc sĩ nợ TOPIK ngành Thiết kế làm đẹp, Sáng tác văn học",
     "top_1_percent": false,
     "language_tuition_desc": "4,000,000-4,400,000 KRW/năm",
@@ -9489,7 +9540,8 @@ export const universities = [
           }
         ]
       }
-    ]
+    ],
+    "is_restricted_school": false
   },
   {
     "id": "uni_1",
@@ -9516,9 +9568,9 @@ export const universities = [
       "Học bổng khuyến khích kết quả học tập GPA xuất sắc hàng kỳ"
     ],
     "description": "Trường đại học đào tạo đa ngành tại khu vực Gyeonggi. Trường có môi trường quốc tế năng động và nhiều hỗ trợ dành cho du học sinh Việt Nam.",
-    "accept_gdtx": "top3",
+    "accept_gdtx": "top2",
     "visa_metropolitan": false,
-    "master_no_topik": true,
+    "master_no_topik": false,
     "custom_notes": "",
     "top_1_percent": false,
     "language_tuition_desc": "4,600,000-5,000,000 KRW/năm",
@@ -9529,7 +9581,7 @@ export const universities = [
     "admission_conditions": "6,0 trở lên",
     "featured_majors": "",
     "regional_restrictions": "",
-    "is_restricted_school": true,
+    "is_restricted_school": false,
     "majors_detail": [
       {
         "category": "humanities_social",
@@ -9693,9 +9745,9 @@ export const universities = [
       "Học bổng khuyến khích kết quả học tập GPA xuất sắc hàng kỳ"
     ],
     "description": "Trường đại học đào tạo đa ngành tại khu vực Gyeonggi. Trường có môi trường quốc tế năng động và nhiều hỗ trợ dành cho du học sinh Việt Nam.",
-    "accept_gdtx": "top3",
+    "accept_gdtx": "top2",
     "visa_metropolitan": false,
-    "master_no_topik": true,
+    "master_no_topik": false,
     "custom_notes": "",
     "top_1_percent": false,
     "language_tuition_desc": "4,600,000-5,000,000 KRW/năm",
@@ -9706,7 +9758,7 @@ export const universities = [
     "admission_conditions": "6,0 trở lên",
     "featured_majors": "",
     "regional_restrictions": "",
-    "is_restricted_school": true,
+    "is_restricted_school": false,
     "majors_detail": [
       {
         "category": "humanities_social",
@@ -9870,9 +9922,9 @@ export const universities = [
       "Học bổng khuyến khích kết quả học tập GPA xuất sắc hàng kỳ"
     ],
     "description": "Trường đại học đào tạo đa ngành tại khu vực Gwangju. Trường có môi trường quốc tế năng động và nhiều hỗ trợ dành cho du học sinh Việt Nam.",
-    "accept_gdtx": "top3",
+    "accept_gdtx": "top2",
     "visa_metropolitan": false,
-    "master_no_topik": true,
+    "master_no_topik": false,
     "custom_notes": "",
     "top_1_percent": false,
     "language_tuition_desc": "4,600,000-5,000,000 KRW/năm",
@@ -9883,7 +9935,7 @@ export const universities = [
     "admission_conditions": "6,0 trở lên",
     "featured_majors": "",
     "regional_restrictions": "",
-    "is_restricted_school": true,
+    "is_restricted_school": false,
     "majors_detail": [
       {
         "category": "humanities_social",
@@ -10047,9 +10099,9 @@ export const universities = [
       "Học bổng khuyến khích kết quả học tập GPA xuất sắc hàng kỳ"
     ],
     "description": "Trường đại học đào tạo đa ngành tại khu vực Busan. Trường có môi trường quốc tế năng động và nhiều hỗ trợ dành cho du học sinh Việt Nam.",
-    "accept_gdtx": "top3",
+    "accept_gdtx": "top2",
     "visa_metropolitan": false,
-    "master_no_topik": true,
+    "master_no_topik": false,
     "custom_notes": "",
     "top_1_percent": false,
     "language_tuition_desc": "4,600,000-5,000,000 KRW/năm",
@@ -10060,7 +10112,7 @@ export const universities = [
     "admission_conditions": "6,0 trở lên",
     "featured_majors": "",
     "regional_restrictions": "",
-    "is_restricted_school": true,
+    "is_restricted_school": false,
     "majors_detail": [
       {
         "category": "humanities_social",
@@ -10224,9 +10276,9 @@ export const universities = [
       "Học bổng khuyến khích kết quả học tập GPA xuất sắc hàng kỳ"
     ],
     "description": "Trường đại học đào tạo đa ngành tại khu vực Busan. Trường có môi trường quốc tế năng động và nhiều hỗ trợ dành cho du học sinh Việt Nam.",
-    "accept_gdtx": "top3",
+    "accept_gdtx": "top2",
     "visa_metropolitan": false,
-    "master_no_topik": true,
+    "master_no_topik": false,
     "custom_notes": "",
     "top_1_percent": false,
     "language_tuition_desc": "4,600,000-5,000,000 KRW/năm",
@@ -10237,7 +10289,7 @@ export const universities = [
     "admission_conditions": "6,0 trở lên",
     "featured_majors": "",
     "regional_restrictions": "",
-    "is_restricted_school": true,
+    "is_restricted_school": false,
     "majors_detail": [
       {
         "category": "humanities_social",
@@ -10401,7 +10453,7 @@ export const universities = [
       "Học bổng khuyến khích kết quả học tập GPA xuất sắc hàng kỳ"
     ],
     "description": "Trường đại học đào tạo đa ngành tại khu vực Ulsan. Trường có môi trường quốc tế năng động và nhiều hỗ trợ dành cho du học sinh Việt Nam.",
-    "accept_gdtx": "top3",
+    "accept_gdtx": "top2",
     "visa_metropolitan": false,
     "master_no_topik": true,
     "custom_notes": "",
@@ -10414,7 +10466,7 @@ export const universities = [
     "admission_conditions": "6,0 trở lên",
     "featured_majors": "",
     "regional_restrictions": "",
-    "is_restricted_school": true,
+    "is_restricted_school": false,
     "majors_detail": [
       {
         "category": "humanities_social",
@@ -10578,9 +10630,9 @@ export const universities = [
       "Học bổng khuyến khích kết quả học tập GPA xuất sắc hàng kỳ"
     ],
     "description": "Trường đại học công lập đào tạo đa ngành hàng đầu tại khu vực Gyeongnam.",
-    "accept_gdtx": "top3",
+    "accept_gdtx": "top2",
     "visa_metropolitan": false,
-    "master_no_topik": true,
+    "master_no_topik": false,
     "custom_notes": "",
     "top_1_percent": false,
     "language_tuition_desc": "4,600,000-5,000,000 KRW/năm",
@@ -10755,9 +10807,9 @@ export const universities = [
       "Học bổng khuyến khích kết quả học tập GPA xuất sắc hàng kỳ"
     ],
     "description": "Trường đại học tư thục danh tiếng tại khu vực Chungnam.",
-    "accept_gdtx": "top3",
+    "accept_gdtx": "top2",
     "visa_metropolitan": false,
-    "master_no_topik": true,
+    "master_no_topik": false,
     "custom_notes": "",
     "top_1_percent": false,
     "language_tuition_desc": "4,600,000-5,000,000 KRW/năm",
@@ -10932,9 +10984,9 @@ export const universities = [
       "Học bổng khuyến khích kết quả học tập GPA xuất sắc hàng kỳ"
     ],
     "description": "Trường đại học đào tạo đa ngành tại khu vực Gangwon. Trường có môi trường quốc tế năng động và nhiều hỗ trợ dành cho du học sinh Việt Nam.",
-    "accept_gdtx": "top3",
+    "accept_gdtx": "top2",
     "visa_metropolitan": false,
-    "master_no_topik": true,
+    "master_no_topik": false,
     "custom_notes": "",
     "top_1_percent": false,
     "language_tuition_desc": "4,600,000-5,000,000 KRW/năm",
@@ -10945,7 +10997,7 @@ export const universities = [
     "admission_conditions": "6,0 trở lên",
     "featured_majors": "",
     "regional_restrictions": "",
-    "is_restricted_school": true,
+    "is_restricted_school": false,
     "majors_detail": [
       {
         "category": "humanities_social",
@@ -11109,7 +11161,7 @@ export const universities = [
       "Học bổng khuyến khích kết quả học tập GPA xuất sắc hàng kỳ"
     ],
     "description": "Trường đại học đào tạo đa ngành tại khu vực Seoul. Trường có môi trường quốc tế năng động và nhiều hỗ trợ dành cho du học sinh Việt Nam.",
-    "accept_gdtx": "top3",
+    "accept_gdtx": "top2",
     "visa_metropolitan": false,
     "master_no_topik": true,
     "custom_notes": "",
@@ -11122,7 +11174,7 @@ export const universities = [
     "admission_conditions": "6,0 trở lên",
     "featured_majors": "",
     "regional_restrictions": "",
-    "is_restricted_school": true,
+    "is_restricted_school": false,
     "majors_detail": [
       {
         "category": "humanities_social",
@@ -11286,9 +11338,9 @@ export const universities = [
       "Học bổng khuyến khích kết quả học tập GPA xuất sắc hàng kỳ"
     ],
     "description": "Trường đại học đào tạo đa ngành tại khu vực Seoul. Trường có môi trường quốc tế năng động và nhiều hỗ trợ dành cho du học sinh Việt Nam.",
-    "accept_gdtx": "top3",
+    "accept_gdtx": "top2",
     "visa_metropolitan": false,
-    "master_no_topik": true,
+    "master_no_topik": false,
     "custom_notes": "",
     "top_1_percent": false,
     "language_tuition_desc": "4,600,000-5,000,000 KRW/năm",
@@ -11299,7 +11351,7 @@ export const universities = [
     "admission_conditions": "6,0 trở lên",
     "featured_majors": "",
     "regional_restrictions": "",
-    "is_restricted_school": true,
+    "is_restricted_school": false,
     "majors_detail": [
       {
         "category": "humanities_social",
@@ -11463,7 +11515,7 @@ export const universities = [
       "Học bổng TOPIK xuất sắc"
     ],
     "description": "Trường đại học nữ sinh lâu đời tại Seoul. Nổi tiếng về các chuyên ngành Quản trị, Thiết kế nghệ thuật, và Y dược với chính sách học bổng cởi mở.",
-    "accept_gdtx": null,
+    "accept_gdtx": "top1",
     "visa_metropolitan": false,
     "master_no_topik": false,
     "top_1_percent": true,
@@ -11605,7 +11657,8 @@ export const universities = [
           }
         ]
       }
-    ]
+    ],
+    "is_restricted_school": false
   },
   {
     "id": "hongik",
@@ -11632,10 +11685,10 @@ export const universities = [
       "Học bổng thành tích GPA"
     ],
     "description": "Nằm ngay khu phố nghệ thuật Mapo của Seoul, Hongik là trường đại học hàng đầu và danh giá bậc nhất Hàn Quốc về thiết kế mỹ thuật, kiến trúc và nghệ thuật ứng dụng.",
-    "accept_gdtx": "top2",
+    "accept_gdtx": "top1",
     "visa_metropolitan": false,
     "master_no_topik": false,
-    "top_1_percent": false,
+    "top_1_percent": true,
     "custom_notes": "",
     "language_tuition_desc": "7,100,000 KRW/năm",
     "registration_fee_desc": "",
@@ -11781,7 +11834,8 @@ export const universities = [
           }
         ]
       }
-    ]
+    ],
+    "is_restricted_school": false
   },
   {
     "id": "seokyeong",
@@ -11807,10 +11861,10 @@ export const universities = [
       "Học bổng TOPIK khuyến học"
     ],
     "description": "Ngôi trường đi đầu Hàn Quốc về đào tạo Nghệ thuật thẩm mỹ (make-up, chăm sóc da & tóc), được ví như thánh đường nghệ thuật làm đẹp tại Seoul.",
-    "accept_gdtx": "top2",
+    "accept_gdtx": "top1",
     "visa_metropolitan": false,
     "master_no_topik": false,
-    "top_1_percent": false,
+    "top_1_percent": true,
     "custom_notes": "Thế mạnh: Nghệ thuật thẩm mỹ, làm đẹp chuyên nghiệp.",
     "language_tuition_desc": "5,200,000-5,600,000 KRW/năm",
     "registration_fee_desc": "50,000 KRW",
@@ -11956,7 +12010,8 @@ export const universities = [
           }
         ]
       }
-    ]
+    ],
+    "is_restricted_school": false
   },
   {
     "id": "sungshin",
@@ -11982,7 +12037,7 @@ export const universities = [
       "Học bổng TOPIK tiếng Hàn"
     ],
     "description": "Một trong những trường đại học nữ sinh uy tín tại Seoul. Nổi danh với ngành trang điểm (make-up) và nghệ thuật biểu diễn đẳng cấp.",
-    "accept_gdtx": null,
+    "accept_gdtx": "top1",
     "visa_metropolitan": false,
     "master_no_topik": false,
     "top_1_percent": true,
@@ -12131,7 +12186,8 @@ export const universities = [
           }
         ]
       }
-    ]
+    ],
+    "is_restricted_school": false
   },
   {
     "id": "seoul_theological",
@@ -12157,10 +12213,10 @@ export const universities = [
       "Học bổng TOPIK đầu vào"
     ],
     "description": "Tọa lạc tại Bucheon giáp ranh Seoul, trường đào tạo đa ngành về Nhân văn, Sư phạm, IT tổng hợp và Nghệ thuật với chi phí tiết kiệm và chính sách cấp mã code visa thẳng.",
-    "accept_gdtx": "top2",
+    "accept_gdtx": "top1",
     "visa_metropolitan": false,
     "master_no_topik": false,
-    "top_1_percent": false,
+    "top_1_percent": true,
     "custom_notes": "Cấp mã code thẳng không cần phỏng vấn Lãnh sự quán.",
     "language_tuition_desc": "4,960,000-5,800,000 KRW/năm",
     "registration_fee_desc": "50,000 KRW",
@@ -12306,7 +12362,8 @@ export const universities = [
           }
         ]
       }
-    ]
+    ],
+    "is_restricted_school": false
   },
   {
     "id": "sunmoon",
@@ -12332,10 +12389,10 @@ export const universities = [
       "Hỗ trợ tiền ký túc xá cho tân sinh viên"
     ],
     "description": "Ngôi trường có môi trường quốc tế hóa cực cao tại Asan, Chungnam. Cơ sở vật chất khang trang, chất lượng giảng dạy xuất sắc và học phí cực mềm.",
-    "accept_gdtx": "top2",
+    "accept_gdtx": "top1",
     "visa_metropolitan": false,
     "master_no_topik": false,
-    "top_1_percent": false,
+    "top_1_percent": true,
     "custom_notes": "",
     "language_tuition_desc": "4,800,000 KRW/năm",
     "registration_fee_desc": "",
@@ -12481,7 +12538,8 @@ export const universities = [
           }
         ]
       }
-    ]
+    ],
+    "is_restricted_school": false
   },
   {
     "id": "semyung",
@@ -12508,10 +12566,10 @@ export const universities = [
       "Học bổng hỗ trợ KTX"
     ],
     "description": "Đại học tư thục năng động tại Jecheon, Chungbuk. Có thế mạnh đào tạo về CNTT, Truyền thông đa phương tiện và Y học Đông y cổ truyền.",
-    "accept_gdtx": "top2",
+    "accept_gdtx": "top1",
     "visa_metropolitan": false,
     "master_no_topik": false,
-    "top_1_percent": false,
+    "top_1_percent": true,
     "custom_notes": "",
     "language_tuition_desc": "4,400,000 KRW/năm",
     "registration_fee_desc": "50,000 KRW",
@@ -12657,7 +12715,8 @@ export const universities = [
           }
         ]
       }
-    ]
+    ],
+    "is_restricted_school": false
   },
   {
     "id": "sookmyung",
@@ -12683,7 +12742,7 @@ export const universities = [
       "Học bổng TOPIK tiếng Hàn đầu vào"
     ],
     "description": "Trường nữ sinh hoàng gia danh tiếng nằm ở trung tâm Yongsan, Seoul. Rất mạnh về Kinh tế, Khách sạn du lịch, Quan hệ quốc tế và Ngôn ngữ.",
-    "accept_gdtx": null,
+    "accept_gdtx": "top1",
     "visa_metropolitan": false,
     "master_no_topik": false,
     "top_1_percent": true,
@@ -12832,7 +12891,8 @@ export const universities = [
           }
         ]
       }
-    ]
+    ],
+    "is_restricted_school": false
   },
   {
     "id": "gyeongsang",
@@ -12858,9 +12918,9 @@ export const universities = [
       "Học bổng hỗ trợ KTX"
     ],
     "description": "Trường đại học quốc gia trọng điểm tại Jinju, tỉnh Gyeongsangnam. Có thế mạnh vượt trội về Khoa học nông nghiệp, Kỹ thuật cơ khí hàng không và Y dược.",
-    "accept_gdtx": null,
+    "accept_gdtx": "top2",
     "visa_metropolitan": false,
-    "master_no_topik": true,
+    "master_no_topik": false,
     "top_1_percent": false,
     "custom_notes": "",
     "majors_detail": [
@@ -12999,7 +13059,8 @@ export const universities = [
           }
         ]
       }
-    ]
+    ],
+    "is_restricted_school": false
   },
   {
     "id": "myongji",
@@ -13027,7 +13088,7 @@ export const universities = [
     "description": "Trường đại học tư thục chất lượng cao có hai cơ sở tại Seoul (khối nhân văn) và Yongin (khối tự nhiên/kỹ thuật). Trường có lượng sinh viên quốc tế lớn bậc nhất Hàn Quốc.",
     "accept_gdtx": "top2",
     "visa_metropolitan": false,
-    "master_no_topik": true,
+    "master_no_topik": false,
     "top_1_percent": false,
     "custom_notes": "",
     "language_tuition_desc": "5,000,000 KRW/năm",
@@ -13174,7 +13235,8 @@ export const universities = [
           }
         ]
       }
-    ]
+    ],
+    "is_restricted_school": false
   },
   {
     "id": "namseoul",
@@ -13202,7 +13264,7 @@ export const universities = [
     "description": "Tọa lạc tại thành phố Cheonan vệ tinh của Seoul, Namseoul nổi bật với khuôn viên xanh rộng lớn và các chương trình thực hành kỹ thuật, điều dưỡng.",
     "accept_gdtx": "top2",
     "visa_metropolitan": false,
-    "master_no_topik": true,
+    "master_no_topik": false,
     "top_1_percent": false,
     "custom_notes": "",
     "language_tuition_desc": "5,000,000 KRW/năm",
@@ -13349,7 +13411,8 @@ export const universities = [
           }
         ]
       }
-    ]
+    ],
+    "is_restricted_school": false
   },
   {
     "id": "chungbuk",
@@ -13377,7 +13440,7 @@ export const universities = [
     "description": "Trường đại học quốc gia đại diện cho tỉnh Chungcheongbuk, nằm tại thành phố công nghệ sinh học Cheongju. Học phí rẻ và cơ hội việc làm phong phú.",
     "accept_gdtx": "top2",
     "visa_metropolitan": false,
-    "master_no_topik": true,
+    "master_no_topik": false,
     "top_1_percent": false,
     "custom_notes": "",
     "language_tuition_desc": "5,200,000 KRW/năm",
@@ -13524,7 +13587,8 @@ export const universities = [
           }
         ]
       }
-    ]
+    ],
+    "is_restricted_school": false
   },
   {
     "id": "ulsan",
@@ -13552,7 +13616,7 @@ export const universities = [
     "description": "Được tài trợ chính bởi tập đoàn công nghiệp lớn Hyundai, Ulsan có thế mạnh đặc biệt trong kỹ thuật đóng tàu, công nghiệp nặng và kỹ thuật ô tô điện.",
     "accept_gdtx": "top2",
     "visa_metropolitan": false,
-    "master_no_topik": true,
+    "master_no_topik": false,
     "top_1_percent": false,
     "custom_notes": "",
     "language_tuition_desc": "5,200,000-5,600,000 KRW/năm",
@@ -13699,7 +13763,8 @@ export const universities = [
           }
         ]
       }
-    ]
+    ],
+    "is_restricted_school": false
   },
   {
     "id": "youngsan",
@@ -13874,7 +13939,8 @@ export const universities = [
           }
         ]
       }
-    ]
+    ],
+    "is_restricted_school": false
   },
   {
     "id": "kunsan",
@@ -13902,7 +13968,7 @@ export const universities = [
     "description": "Trường đại học quốc gia nằm tại thành phố cảng Gunsan. Chi phí học tập cực thấp, nổi bật về Khoa học hàng hải, kỹ thuật đóng tàu và khoa học cơ bản.",
     "accept_gdtx": "top2",
     "visa_metropolitan": false,
-    "master_no_topik": true,
+    "master_no_topik": false,
     "top_1_percent": false,
     "custom_notes": "",
     "language_tuition_desc": "4,800,000 KRW/năm",
@@ -14049,7 +14115,8 @@ export const universities = [
           }
         ]
       }
-    ]
+    ],
+    "is_restricted_school": false
   },
   {
     "id": "mock_uni_81",
@@ -14077,7 +14144,7 @@ export const universities = [
     "description": "Đại học Kyungsung là trường đại học uy tín tại khu vực Jeonnam, đào tạo đa ngành với học phí hợp lý và học bổng hấp dẫn cho sinh viên Việt Nam.",
     "accept_gdtx": "top2",
     "visa_metropolitan": false,
-    "master_no_topik": true,
+    "master_no_topik": false,
     "custom_notes": "Trường ưu tiên phỏng vấn visa thẳng",
     "top_1_percent": false,
     "language_tuition_desc": "4,400,000 KRW/năm",
@@ -14224,7 +14291,8 @@ export const universities = [
           }
         ]
       }
-    ]
+    ],
+    "is_restricted_school": false
   },
   {
     "id": "mock_uni_82",
@@ -14252,7 +14320,7 @@ export const universities = [
     "description": "Đại học Dong-Eui là trường đại học uy tín tại khu vực Gyeongbuk, đào tạo đa ngành với học phí hợp lý và học bổng hấp dẫn cho sinh viên Việt Nam.",
     "accept_gdtx": "top2",
     "visa_metropolitan": false,
-    "master_no_topik": true,
+    "master_no_topik": false,
     "custom_notes": "Trường ưu tiên phỏng vấn visa thẳng",
     "top_1_percent": false,
     "is_restricted_school": true,
@@ -14420,7 +14488,7 @@ export const universities = [
     "description": "Đại học Silla là trường đại học uy tín tại khu vực Gyeongnam, đào tạo đa ngành với học phí hợp lý và học bổng hấp dẫn cho sinh viên Việt Nam.",
     "accept_gdtx": "top2",
     "visa_metropolitan": false,
-    "master_no_topik": true,
+    "master_no_topik": false,
     "custom_notes": "",
     "top_1_percent": false,
     "language_tuition_desc": "4,800,000 KRW/năm",
@@ -14567,7 +14635,8 @@ export const universities = [
           }
         ]
       }
-    ]
+    ],
+    "is_restricted_school": false
   },
   {
     "id": "mock_uni_84",
@@ -14593,11 +14662,11 @@ export const universities = [
       "Học bổng khuyến khích từ đại học Tongmyong"
     ],
     "description": "Đại học Tongmyong là trường đại học uy tín tại khu vực Jeju, đào tạo đa ngành với học phí hợp lý và học bổng hấp dẫn cho sinh viên Việt Nam.",
-    "accept_gdtx": "top3",
+    "accept_gdtx": "top2",
     "visa_metropolitan": false,
-    "master_no_topik": true,
+    "master_no_topik": false,
     "custom_notes": "",
-    "top_1_percent": true,
+    "top_1_percent": false,
     "majors_detail": [
       {
         "category": "humanities_social",
@@ -14734,7 +14803,8 @@ export const universities = [
           }
         ]
       }
-    ]
+    ],
+    "is_restricted_school": false
   },
   {
     "id": "mock_uni_85",
@@ -14909,7 +14979,8 @@ export const universities = [
           }
         ]
       }
-    ]
+    ],
+    "is_restricted_school": false
   },
   {
     "id": "mock_uni_86",
@@ -15084,7 +15155,8 @@ export const universities = [
           }
         ]
       }
-    ]
+    ],
+    "is_restricted_school": false
   },
   {
     "id": "mock_uni_87",
@@ -15110,9 +15182,9 @@ export const universities = [
       "Học bổng khuyến khích từ đại học Ajou"
     ],
     "description": "Đại học Ajou là trường đại học uy tín tại khu vực Daegu, đào tạo đa ngành với học phí hợp lý và học bổng hấp dẫn cho sinh viên Việt Nam.",
-    "accept_gdtx": "top3",
+    "accept_gdtx": "top2",
     "visa_metropolitan": false,
-    "master_no_topik": true,
+    "master_no_topik": false,
     "custom_notes": "",
     "top_1_percent": false,
     "language_tuition_desc": "4,500,000-4,900,000 KRW/năm",
@@ -15259,7 +15331,8 @@ export const universities = [
           }
         ]
       }
-    ]
+    ],
+    "is_restricted_school": false
   },
   {
     "id": "mock_uni_88",
@@ -15434,7 +15507,8 @@ export const universities = [
           }
         ]
       }
-    ]
+    ],
+    "is_restricted_school": false
   },
   {
     "id": "mock_uni_89",
@@ -15462,7 +15536,7 @@ export const universities = [
     "description": "Đại học Soongsil là trường đại học uy tín tại khu vực Gwangju, đào tạo đa ngành với học phí hợp lý và học bổng hấp dẫn cho sinh viên Việt Nam.",
     "accept_gdtx": "top2",
     "visa_metropolitan": false,
-    "master_no_topik": true,
+    "master_no_topik": false,
     "custom_notes": "",
     "top_1_percent": false,
     "language_tuition_desc": "6,000,000-6,400,000 KRW/năm",
@@ -15609,7 +15683,8 @@ export const universities = [
           }
         ]
       }
-    ]
+    ],
+    "is_restricted_school": false
   },
   {
     "id": "mock_uni_90",
@@ -15784,7 +15859,8 @@ export const universities = [
           }
         ]
       }
-    ]
+    ],
+    "is_restricted_school": false
   },
   {
     "id": "mock_uni_91",
@@ -15812,7 +15888,7 @@ export const universities = [
     "description": "Đại học Inje là trường đại học uy tín tại khu vực Ulsan, đào tạo đa ngành với học phí hợp lý và học bổng hấp dẫn cho sinh viên Việt Nam.",
     "accept_gdtx": "top2",
     "visa_metropolitan": false,
-    "master_no_topik": true,
+    "master_no_topik": false,
     "custom_notes": "",
     "top_1_percent": false,
     "language_tuition_desc": "4,800,000-5,200,000 KRW/năm",
@@ -15959,7 +16035,8 @@ export const universities = [
           }
         ]
       }
-    ]
+    ],
+    "is_restricted_school": false
   },
   {
     "id": "mock_uni_92",
@@ -15985,12 +16062,12 @@ export const universities = [
       "Học bổng khuyến khích từ đại học Sangji"
     ],
     "description": "Đại học Sangji là trường đại học uy tín tại khu vực Sejong, đào tạo đa ngành với học phí hợp lý và học bổng hấp dẫn cho sinh viên Việt Nam.",
-    "accept_gdtx": "top3",
+    "accept_gdtx": "top2",
     "visa_metropolitan": false,
     "master_no_topik": false,
     "custom_notes": "Trường ưu tiên phỏng vấn visa thẳng",
-    "top_1_percent": true,
-    "is_restricted_school": true,
+    "top_1_percent": false,
+    "is_restricted_school": false,
     "majors_detail": [
       {
         "category": "humanities_social",
@@ -16302,7 +16379,8 @@ export const universities = [
           }
         ]
       }
-    ]
+    ],
+    "is_restricted_school": false
   },
   {
     "id": "mock_uni_94",
@@ -16477,7 +16555,8 @@ export const universities = [
           }
         ]
       }
-    ]
+    ],
+    "is_restricted_school": false
   },
   {
     "id": "mock_uni_95",
@@ -16652,7 +16731,8 @@ export const universities = [
           }
         ]
       }
-    ]
+    ],
+    "is_restricted_school": false
   },
   {
     "id": "mock_uni_96",
@@ -16827,7 +16907,8 @@ export const universities = [
           }
         ]
       }
-    ]
+    ],
+    "is_restricted_school": false
   },
   {
     "id": "mock_uni_97",
@@ -17002,7 +17083,8 @@ export const universities = [
           }
         ]
       }
-    ]
+    ],
+    "is_restricted_school": false
   },
   {
     "id": "mock_uni_98",
@@ -17030,7 +17112,7 @@ export const universities = [
     "description": "Đại học Pukyong là trường đại học uy tín tại khu vực Jeonnam, đào tạo đa ngành với học phí hợp lý và học bổng hấp dẫn cho sinh viên Việt Nam.",
     "accept_gdtx": "top2",
     "visa_metropolitan": false,
-    "master_no_topik": true,
+    "master_no_topik": false,
     "custom_notes": "",
     "top_1_percent": false,
     "language_tuition_desc": "5,200,000 KRW/năm",
@@ -17177,7 +17259,8 @@ export const universities = [
           }
         ]
       }
-    ]
+    ],
+    "is_restricted_school": false
   },
   {
     "id": "mock_uni_99",
@@ -17205,7 +17288,7 @@ export const universities = [
     "description": "Đại học Changwon là trường đại học uy tín tại khu vực Gyeongbuk, đào tạo đa ngành với học phí hợp lý và học bổng hấp dẫn cho sinh viên Việt Nam.",
     "accept_gdtx": "top2",
     "visa_metropolitan": false,
-    "master_no_topik": true,
+    "master_no_topik": false,
     "custom_notes": "Trường ưu tiên phỏng vấn visa thẳng",
     "top_1_percent": false,
     "language_tuition_desc": "4,800,000 KRW/năm",
@@ -17216,7 +17299,7 @@ export const universities = [
     "admission_conditions": "",
     "featured_majors": "Cơ khí – Robot – Công nghiệp",
     "regional_restrictions": "",
-    "is_restricted_school": true,
+    "is_restricted_school": false,
     "majors_detail": [
       {
         "category": "humanities_social",
@@ -17520,7 +17603,8 @@ export const universities = [
           }
         ]
       }
-    ]
+    ],
+    "is_restricted_school": false
   },
   {
     "id": "mock_uni_101",
@@ -17548,7 +17632,7 @@ export const universities = [
     "description": "Đại học Myongji là trường đại học uy tín tại khu vực Jeju, đào tạo đa ngành với học phí hợp lý và học bổng hấp dẫn cho sinh viên Việt Nam.",
     "accept_gdtx": "top2",
     "visa_metropolitan": false,
-    "master_no_topik": true,
+    "master_no_topik": false,
     "custom_notes": "Trường ưu tiên phỏng vấn visa thẳng",
     "top_1_percent": false,
     "language_tuition_desc": "5,000,000 KRW/năm",
@@ -17695,7 +17779,8 @@ export const universities = [
           }
         ]
       }
-    ]
+    ],
+    "is_restricted_school": false
   },
   {
     "id": "mock_uni_102",
@@ -17721,9 +17806,9 @@ export const universities = [
       "Học bổng khuyến khích từ đại học Sangmyung"
     ],
     "description": "Đại học Sangmyung là trường đại học uy tín tại khu vực Seoul, đào tạo đa ngành với học phí hợp lý và học bổng hấp dẫn cho sinh viên Việt Nam.",
-    "accept_gdtx": null,
+    "accept_gdtx": "top2",
     "visa_metropolitan": true,
-    "master_no_topik": true,
+    "master_no_topik": false,
     "custom_notes": "",
     "top_1_percent": false,
     "majors_detail": [
@@ -17862,7 +17947,8 @@ export const universities = [
           }
         ]
       }
-    ]
+    ],
+    "is_restricted_school": false
   },
   {
     "id": "mock_uni_103",
@@ -18029,7 +18115,8 @@ export const universities = [
           }
         ]
       }
-    ]
+    ],
+    "is_restricted_school": false
   },
   {
     "id": "mock_uni_104",
@@ -18204,7 +18291,8 @@ export const universities = [
           }
         ]
       }
-    ]
+    ],
+    "is_restricted_school": false
   },
   {
     "id": "mock_uni_105",
@@ -18379,7 +18467,8 @@ export const universities = [
           }
         ]
       }
-    ]
+    ],
+    "is_restricted_school": false
   },
   {
     "id": "mock_uni_106",
@@ -18405,11 +18494,11 @@ export const universities = [
       "Học bổng khuyến khích từ đại học Sungshin"
     ],
     "description": "Đại học Sungshin là trường đại học uy tín tại khu vực Gwangju, đào tạo đa ngành với học phí hợp lý và học bổng hấp dẫn cho sinh viên Việt Nam.",
-    "accept_gdtx": null,
+    "accept_gdtx": "top2",
     "visa_metropolitan": false,
     "master_no_topik": false,
     "custom_notes": "",
-    "top_1_percent": true,
+    "top_1_percent": false,
     "language_tuition_desc": "6,000,000-6,400,000 KRW/năm",
     "registration_fee_desc": "50,000 KRW",
     "insurance_fee_desc": "150,000 KRW/năm",
@@ -18554,7 +18643,8 @@ export const universities = [
           }
         ]
       }
-    ]
+    ],
+    "is_restricted_school": false
   },
   {
     "id": "mock_uni_107",
@@ -18582,7 +18672,7 @@ export const universities = [
     "description": "Đại học Semyung là trường đại học uy tín tại khu vực Daejeon, đào tạo đa ngành với học phí hợp lý và học bổng hấp dẫn cho sinh viên Việt Nam.",
     "accept_gdtx": "top2",
     "visa_metropolitan": false,
-    "master_no_topik": true,
+    "master_no_topik": false,
     "custom_notes": "Trường ưu tiên phỏng vấn visa thẳng",
     "top_1_percent": false,
     "language_tuition_desc": "4,400,000 KRW/năm",
@@ -18729,7 +18819,8 @@ export const universities = [
           }
         ]
       }
-    ]
+    ],
+    "is_restricted_school": false
   },
   {
     "id": "mock_uni_108",
@@ -18755,11 +18846,11 @@ export const universities = [
       "Học bổng khuyến khích từ đại học Sookmyung"
     ],
     "description": "Đại học Sookmyung là trường đại học uy tín tại khu vực Ulsan, đào tạo đa ngành với học phí hợp lý và học bổng hấp dẫn cho sinh viên Việt Nam.",
-    "accept_gdtx": null,
+    "accept_gdtx": "top2",
     "visa_metropolitan": false,
     "master_no_topik": false,
     "custom_notes": "",
-    "top_1_percent": true,
+    "top_1_percent": false,
     "language_tuition_desc": "6,400,000-6,800,000 KRW/năm",
     "registration_fee_desc": "50,000 KRW",
     "insurance_fee_desc": "150,000 KRW/năm",
@@ -18904,7 +18995,8 @@ export const universities = [
           }
         ]
       }
-    ]
+    ],
+    "is_restricted_school": false
   },
   {
     "id": "mock_uni_109",
@@ -18932,7 +19024,7 @@ export const universities = [
     "description": "Đại học Ulsan là trường đại học uy tín tại khu vực Sejong, đào tạo đa ngành với học phí hợp lý và học bổng hấp dẫn cho sinh viên Việt Nam.",
     "accept_gdtx": "top2",
     "visa_metropolitan": false,
-    "master_no_topik": true,
+    "master_no_topik": false,
     "custom_notes": "",
     "top_1_percent": false,
     "language_tuition_desc": "5,200,000-5,600,000 KRW/năm",
@@ -19079,7 +19171,8 @@ export const universities = [
           }
         ]
       }
-    ]
+    ],
+    "is_restricted_school": false
   },
   {
     "id": "mock_uni_110",
@@ -19107,7 +19200,7 @@ export const universities = [
     "description": "Đại học Youngsan là trường đại học uy tín tại khu vực Gyeonggi, đào tạo đa ngành với học phí hợp lý và học bổng hấp dẫn cho sinh viên Việt Nam.",
     "accept_gdtx": "top2",
     "visa_metropolitan": true,
-    "master_no_topik": true,
+    "master_no_topik": false,
     "custom_notes": "",
     "top_1_percent": false,
     "language_tuition_desc": "4,800,000 KRW/năm",
@@ -19254,7 +19347,8 @@ export const universities = [
           }
         ]
       }
-    ]
+    ],
+    "is_restricted_school": false
   },
   {
     "id": "mock_uni_111",
@@ -19282,7 +19376,7 @@ export const universities = [
     "description": "Đại học Kunsan là trường đại học uy tín tại khu vực Gangwon, đào tạo đa ngành với học phí hợp lý và học bổng hấp dẫn cho sinh viên Việt Nam.",
     "accept_gdtx": "top2",
     "visa_metropolitan": false,
-    "master_no_topik": true,
+    "master_no_topik": false,
     "custom_notes": "",
     "top_1_percent": false,
     "language_tuition_desc": "4,800,000 KRW/năm",
@@ -19429,7 +19523,8 @@ export const universities = [
           }
         ]
       }
-    ]
+    ],
+    "is_restricted_school": false
   },
   {
     "id": "mock_uni_112",
@@ -19457,7 +19552,7 @@ export const universities = [
     "description": "Đại học Woosuk là trường đại học uy tín tại khu vực Chungbuk, đào tạo đa ngành với học phí hợp lý và học bổng hấp dẫn cho sinh viên Việt Nam.",
     "accept_gdtx": "top2",
     "visa_metropolitan": false,
-    "master_no_topik": true,
+    "master_no_topik": false,
     "custom_notes": "",
     "top_1_percent": false,
     "majors_detail": [
@@ -19596,7 +19691,8 @@ export const universities = [
           }
         ]
       }
-    ]
+    ],
+    "is_restricted_school": false
   },
   {
     "id": "mock_uni_113",
@@ -19624,7 +19720,7 @@ export const universities = [
     "description": "Đại học Kyungwoon là trường đại học uy tín tại khu vực Chungnam, đào tạo đa ngành với học phí hợp lý và học bổng hấp dẫn cho sinh viên Việt Nam.",
     "accept_gdtx": "top2",
     "visa_metropolitan": false,
-    "master_no_topik": true,
+    "master_no_topik": false,
     "custom_notes": "",
     "top_1_percent": false,
     "language_tuition_desc": "4,800,000 KRW/năm",
@@ -19771,7 +19867,8 @@ export const universities = [
           }
         ]
       }
-    ]
+    ],
+    "is_restricted_school": false
   },
   {
     "id": "mock_uni_114",
@@ -19799,7 +19896,7 @@ export const universities = [
     "description": "Đại học Far East là trường đại học uy tín tại khu vực Jeonbuk, đào tạo đa ngành với học phí hợp lý và học bổng hấp dẫn cho sinh viên Việt Nam.",
     "accept_gdtx": "top2",
     "visa_metropolitan": false,
-    "master_no_topik": true,
+    "master_no_topik": false,
     "custom_notes": "",
     "top_1_percent": false,
     "majors_detail": [
@@ -19938,7 +20035,8 @@ export const universities = [
           }
         ]
       }
-    ]
+    ],
+    "is_restricted_school": false
   },
   {
     "id": "mock_uni_115",
@@ -20113,7 +20211,8 @@ export const universities = [
           }
         ]
       }
-    ]
+    ],
+    "is_restricted_school": false
   },
   {
     "id": "mock_uni_116",
@@ -20141,9 +20240,9 @@ export const universities = [
     "description": "Đại học Chungwoon là trường đại học uy tín tại khu vực Gyeongbuk, đào tạo đa ngành với học phí hợp lý và học bổng hấp dẫn cho sinh viên Việt Nam.",
     "accept_gdtx": "top2",
     "visa_metropolitan": false,
-    "master_no_topik": true,
+    "master_no_topik": false,
     "custom_notes": "",
-    "top_1_percent": true,
+    "top_1_percent": false,
     "majors_detail": [
       {
         "category": "humanities_social",
@@ -20280,7 +20379,8 @@ export const universities = [
           }
         ]
       }
-    ]
+    ],
+    "is_restricted_school": false
   },
   {
     "id": "mock_uni_117",
@@ -20306,7 +20406,7 @@ export const universities = [
       "Học bổng khuyến khích từ đại học Howon"
     ],
     "description": "Đại học Howon là trường đại học uy tín tại khu vực Gyeongnam, đào tạo đa ngành với học phí hợp lý và học bổng hấp dẫn cho sinh viên Việt Nam.",
-    "accept_gdtx": "top2",
+    "accept_gdtx": "top3",
     "visa_metropolitan": false,
     "master_no_topik": false,
     "custom_notes": "",
@@ -20447,7 +20547,8 @@ export const universities = [
           }
         ]
       }
-    ]
+    ],
+    "is_restricted_school": false
   },
   {
     "id": "mock_uni_118",
@@ -20473,7 +20574,7 @@ export const universities = [
       "Học bổng khuyến khích từ đại học Dongshin"
     ],
     "description": "Đại học Dongshin là trường đại học uy tín tại khu vực Jeju, đào tạo đa ngành với học phí hợp lý và học bổng hấp dẫn cho sinh viên Việt Nam.",
-    "accept_gdtx": "top2",
+    "accept_gdtx": "top3",
     "visa_metropolitan": false,
     "master_no_topik": false,
     "custom_notes": "Trường ưu tiên phỏng vấn visa thẳng",
@@ -20614,7 +20715,8 @@ export const universities = [
           }
         ]
       }
-    ]
+    ],
+    "is_restricted_school": false
   },
   {
     "id": "mock_uni_119",
@@ -20642,7 +20744,7 @@ export const universities = [
     "description": "Đại học Nambu là trường đại học uy tín tại khu vực Seoul, đào tạo đa ngành với học phí hợp lý và học bổng hấp dẫn cho sinh viên Việt Nam.",
     "accept_gdtx": "top2",
     "visa_metropolitan": true,
-    "master_no_topik": true,
+    "master_no_topik": false,
     "custom_notes": "",
     "top_1_percent": false,
     "majors_detail": [
@@ -20781,7 +20883,8 @@ export const universities = [
           }
         ]
       }
-    ]
+    ],
+    "is_restricted_school": false
   },
   {
     "id": "mock_uni_120",
@@ -20809,7 +20912,7 @@ export const universities = [
     "description": "Đại học Mokpo là trường đại học uy tín tại khu vực Busan, đào tạo đa ngành với học phí hợp lý và học bổng hấp dẫn cho sinh viên Việt Nam.",
     "accept_gdtx": "top2",
     "visa_metropolitan": false,
-    "master_no_topik": true,
+    "master_no_topik": false,
     "custom_notes": "",
     "top_1_percent": false,
     "is_restricted_school": true,
@@ -20975,7 +21078,7 @@ export const universities = [
       "Học bổng khuyến khích từ đại học Suncheon"
     ],
     "description": "Đại học Suncheon là trường đại học uy tín tại khu vực Daegu, đào tạo đa ngành với học phí hợp lý và học bổng hấp dẫn cho sinh viên Việt Nam.",
-    "accept_gdtx": "top3",
+    "accept_gdtx": "top2",
     "visa_metropolitan": false,
     "master_no_topik": false,
     "custom_notes": "Trường ưu tiên phỏng vấn visa thẳng",
@@ -21116,7 +21219,8 @@ export const universities = [
           }
         ]
       }
-    ]
+    ],
+    "is_restricted_school": false
   },
   {
     "id": "mock_uni_122",
@@ -21144,7 +21248,7 @@ export const universities = [
     "description": "Đại học Gwangju là trường đại học uy tín tại khu vực Incheon, đào tạo đa ngành với học phí hợp lý và học bổng hấp dẫn cho sinh viên Việt Nam.",
     "accept_gdtx": "top2",
     "visa_metropolitan": true,
-    "master_no_topik": true,
+    "master_no_topik": false,
     "custom_notes": "",
     "top_1_percent": false,
     "language_tuition_desc": "4,000,000 KRW/năm",
@@ -21291,7 +21395,8 @@ export const universities = [
           }
         ]
       }
-    ]
+    ],
+    "is_restricted_school": false
   },
   {
     "id": "mock_uni_123",
@@ -21317,9 +21422,9 @@ export const universities = [
       "Học bổng khuyến khích từ đại học Kosin"
     ],
     "description": "Đại học Kosin là trường đại học uy tín tại khu vực Gwangju, đào tạo đa ngành với học phí hợp lý và học bổng hấp dẫn cho sinh viên Việt Nam.",
-    "accept_gdtx": null,
+    "accept_gdtx": "top3",
     "visa_metropolitan": false,
-    "master_no_topik": true,
+    "master_no_topik": false,
     "custom_notes": "",
     "top_1_percent": false,
     "majors_detail": [
@@ -21458,7 +21563,8 @@ export const universities = [
           }
         ]
       }
-    ]
+    ],
+    "is_restricted_school": false
   },
   {
     "id": "mock_uni_124",
@@ -21486,7 +21592,7 @@ export const universities = [
     "description": "Đại học Kyungsung là trường đại học uy tín tại khu vực Daejeon, đào tạo đa ngành với học phí hợp lý và học bổng hấp dẫn cho sinh viên Việt Nam.",
     "accept_gdtx": "top2",
     "visa_metropolitan": false,
-    "master_no_topik": true,
+    "master_no_topik": false,
     "custom_notes": "Trường ưu tiên phỏng vấn visa thẳng",
     "top_1_percent": false,
     "language_tuition_desc": "4,400,000 KRW/năm",
@@ -21633,7 +21739,8 @@ export const universities = [
           }
         ]
       }
-    ]
+    ],
+    "is_restricted_school": false
   },
   {
     "id": "mock_uni_125",
@@ -21661,10 +21768,10 @@ export const universities = [
     "description": "Đại học Dong-Eui là trường đại học uy tín tại khu vực Ulsan, đào tạo đa ngành với học phí hợp lý và học bổng hấp dẫn cho sinh viên Việt Nam.",
     "accept_gdtx": "top2",
     "visa_metropolitan": false,
-    "master_no_topik": true,
+    "master_no_topik": false,
     "custom_notes": "Trường ưu tiên phỏng vấn visa thẳng",
     "top_1_percent": false,
-    "is_restricted_school": true,
+    "is_restricted_school": false,
     "majors_detail": [
       {
         "category": "humanities_social",
@@ -21829,7 +21936,7 @@ export const universities = [
     "description": "Đại học Silla là trường đại học uy tín tại khu vực Sejong, đào tạo đa ngành với học phí hợp lý và học bổng hấp dẫn cho sinh viên Việt Nam.",
     "accept_gdtx": "top2",
     "visa_metropolitan": false,
-    "master_no_topik": true,
+    "master_no_topik": false,
     "custom_notes": "Trường ưu tiên phỏng vấn visa thẳng",
     "top_1_percent": false,
     "language_tuition_desc": "4,800,000 KRW/năm",
@@ -21976,7 +22083,8 @@ export const universities = [
           }
         ]
       }
-    ]
+    ],
+    "is_restricted_school": false
   },
   {
     "id": "mock_uni_127",
@@ -22143,7 +22251,8 @@ export const universities = [
           }
         ]
       }
-    ]
+    ],
+    "is_restricted_school": false
   },
   {
     "id": "mock_uni_128",
@@ -22318,7 +22427,8 @@ export const universities = [
           }
         ]
       }
-    ]
+    ],
+    "is_restricted_school": false
   },
   {
     "id": "mock_uni_129",
@@ -22493,7 +22603,8 @@ export const universities = [
           }
         ]
       }
-    ]
+    ],
+    "is_restricted_school": false
   },
   {
     "id": "mock_uni_130",
@@ -22519,9 +22630,9 @@ export const universities = [
       "Học bổng khuyến khích từ đại học Ajou"
     ],
     "description": "Đại học Ajou là trường đại học uy tín tại khu vực Chungnam, đào tạo đa ngành với học phí hợp lý và học bổng hấp dẫn cho sinh viên Việt Nam.",
-    "accept_gdtx": "top3",
+    "accept_gdtx": "top2",
     "visa_metropolitan": false,
-    "master_no_topik": true,
+    "master_no_topik": false,
     "custom_notes": "",
     "top_1_percent": false,
     "language_tuition_desc": "4,500,000-4,900,000 KRW/năm",
@@ -22668,7 +22779,8 @@ export const universities = [
           }
         ]
       }
-    ]
+    ],
+    "is_restricted_school": false
   },
   {
     "id": "mock_uni_131",
@@ -22843,7 +22955,8 @@ export const universities = [
           }
         ]
       }
-    ]
+    ],
+    "is_restricted_school": false
   },
   {
     "id": "mock_uni_132",
@@ -22871,7 +22984,7 @@ export const universities = [
     "description": "Đại học Soongsil là trường đại học uy tín tại khu vực Jeonnam, đào tạo đa ngành với học phí hợp lý và học bổng hấp dẫn cho sinh viên Việt Nam.",
     "accept_gdtx": "top2",
     "visa_metropolitan": false,
-    "master_no_topik": true,
+    "master_no_topik": false,
     "custom_notes": "",
     "top_1_percent": false,
     "language_tuition_desc": "6,000,000-6,400,000 KRW/năm",
@@ -23018,7 +23131,8 @@ export const universities = [
           }
         ]
       }
-    ]
+    ],
+    "is_restricted_school": false
   },
   {
     "id": "mock_uni_133",
@@ -23046,7 +23160,7 @@ export const universities = [
     "description": "Đại học Konyang là trường đại học uy tín tại khu vực Gyeongbuk, đào tạo đa ngành với học phí hợp lý và học bổng hấp dẫn cho sinh viên Việt Nam.",
     "accept_gdtx": "top2",
     "visa_metropolitan": false,
-    "master_no_topik": true,
+    "master_no_topik": false,
     "custom_notes": "",
     "top_1_percent": false,
     "language_tuition_desc": "4,400,000 KRW/năm",
@@ -23193,7 +23307,8 @@ export const universities = [
           }
         ]
       }
-    ]
+    ],
+    "is_restricted_school": false
   },
   {
     "id": "mock_uni_134",
@@ -23368,7 +23483,8 @@ export const universities = [
           }
         ]
       }
-    ]
+    ],
+    "is_restricted_school": false
   },
   {
     "id": "mock_uni_135",
@@ -23396,10 +23512,10 @@ export const universities = [
     "description": "Đại học Sangji là trường đại học uy tín tại khu vực Jeju, đào tạo đa ngành với học phí hợp lý và học bổng hấp dẫn cho sinh viên Việt Nam.",
     "accept_gdtx": "top2",
     "visa_metropolitan": false,
-    "master_no_topik": true,
+    "master_no_topik": false,
     "custom_notes": "",
     "top_1_percent": false,
-    "is_restricted_school": true,
+    "is_restricted_school": false,
     "majors_detail": [
       {
         "category": "humanities_social",
@@ -23711,7 +23827,8 @@ export const universities = [
           }
         ]
       }
-    ]
+    ],
+    "is_restricted_school": false
   },
   {
     "id": "mock_uni_137",
@@ -23739,7 +23856,7 @@ export const universities = [
     "description": "Đại học Gachon là trường đại học uy tín tại khu vực Busan, đào tạo đa ngành với học phí hợp lý và học bổng hấp dẫn cho sinh viên Việt Nam.",
     "accept_gdtx": "top2",
     "visa_metropolitan": false,
-    "master_no_topik": true,
+    "master_no_topik": false,
     "custom_notes": "Trường ưu tiên phỏng vấn visa thẳng",
     "top_1_percent": false,
     "language_tuition_desc": "5,200,000 KRW/năm",
@@ -23886,7 +24003,8 @@ export const universities = [
           }
         ]
       }
-    ]
+    ],
+    "is_restricted_school": false
   },
   {
     "id": "mock_uni_138",
@@ -24061,7 +24179,8 @@ export const universities = [
           }
         ]
       }
-    ]
+    ],
+    "is_restricted_school": false
   },
   {
     "id": "mock_uni_139",
@@ -24089,7 +24208,7 @@ export const universities = [
     "description": "Đại học Chosun là trường đại học uy tín tại khu vực Incheon, đào tạo đa ngành với học phí hợp lý và học bổng hấp dẫn cho sinh viên Việt Nam.",
     "accept_gdtx": "top2",
     "visa_metropolitan": true,
-    "master_no_topik": true,
+    "master_no_topik": false,
     "custom_notes": "",
     "top_1_percent": false,
     "language_tuition_desc": "4,800,000-5,200,000 KRW/năm",
@@ -24236,7 +24355,8 @@ export const universities = [
           }
         ]
       }
-    ]
+    ],
+    "is_restricted_school": false
   },
   {
     "id": "mock_uni_140",
@@ -24264,7 +24384,7 @@ export const universities = [
     "description": "Đại học Dong-A là trường đại học uy tín tại khu vực Gwangju, đào tạo đa ngành với học phí hợp lý và học bổng hấp dẫn cho sinh viên Việt Nam.",
     "accept_gdtx": "top2",
     "visa_metropolitan": false,
-    "master_no_topik": true,
+    "master_no_topik": false,
     "custom_notes": "",
     "top_1_percent": false,
     "language_tuition_desc": "5,200,000 KRW/năm",
@@ -24411,7 +24531,8 @@ export const universities = [
           }
         ]
       }
-    ]
+    ],
+    "is_restricted_school": false
   },
   {
     "id": "mock_uni_141",
@@ -24586,7 +24707,8 @@ export const universities = [
           }
         ]
       }
-    ]
+    ],
+    "is_restricted_school": false
   },
   {
     "id": "mock_uni_142",
@@ -24625,7 +24747,7 @@ export const universities = [
     "admission_conditions": "",
     "featured_majors": "Cơ khí – Robot – Công nghiệp",
     "regional_restrictions": "",
-    "is_restricted_school": true,
+    "is_restricted_school": false,
     "majors_detail": [
       {
         "category": "humanities_social",
@@ -24929,7 +25051,8 @@ export const universities = [
           }
         ]
       }
-    ]
+    ],
+    "is_restricted_school": false
   },
   {
     "id": "mock_uni_144",
@@ -24957,7 +25080,7 @@ export const universities = [
     "description": "Đại học Myongji là trường đại học uy tín tại khu vực Gyeonggi, đào tạo đa ngành với học phí hợp lý và học bổng hấp dẫn cho sinh viên Việt Nam.",
     "accept_gdtx": "top2",
     "visa_metropolitan": true,
-    "master_no_topik": true,
+    "master_no_topik": false,
     "custom_notes": "",
     "top_1_percent": false,
     "language_tuition_desc": "5,000,000 KRW/năm",
@@ -25104,7 +25227,8 @@ export const universities = [
           }
         ]
       }
-    ]
+    ],
+    "is_restricted_school": false
   },
   {
     "id": "mock_uni_145",
@@ -25271,7 +25395,8 @@ export const universities = [
           }
         ]
       }
-    ]
+    ],
+    "is_restricted_school": false
   },
   {
     "id": "mock_uni_146",
@@ -25438,7 +25563,8 @@ export const universities = [
           }
         ]
       }
-    ]
+    ],
+    "is_restricted_school": false
   },
   {
     "id": "mock_uni_147",
@@ -25466,7 +25592,7 @@ export const universities = [
     "description": "Đại học Hongik là trường đại học uy tín tại khu vực Chungnam, đào tạo đa ngành với học phí hợp lý và học bổng hấp dẫn cho sinh viên Việt Nam.",
     "accept_gdtx": "top2",
     "visa_metropolitan": false,
-    "master_no_topik": true,
+    "master_no_topik": false,
     "custom_notes": "Trường ưu tiên phỏng vấn visa thẳng",
     "top_1_percent": false,
     "language_tuition_desc": "7,100,000 KRW/năm",
@@ -25613,7 +25739,8 @@ export const universities = [
           }
         ]
       }
-    ]
+    ],
+    "is_restricted_school": false
   },
   {
     "id": "mock_uni_148",
@@ -25641,7 +25768,7 @@ export const universities = [
     "description": "Đại học Seokyeong là trường đại học uy tín tại khu vực Jeonbuk, đào tạo đa ngành với học phí hợp lý và học bổng hấp dẫn cho sinh viên Việt Nam.",
     "accept_gdtx": "top2",
     "visa_metropolitan": false,
-    "master_no_topik": true,
+    "master_no_topik": false,
     "custom_notes": "Trường ưu tiên phỏng vấn visa thẳng",
     "top_1_percent": false,
     "language_tuition_desc": "5,200,000-5,600,000 KRW/năm",
@@ -25788,7 +25915,8 @@ export const universities = [
           }
         ]
       }
-    ]
+    ],
+    "is_restricted_school": false
   },
   {
     "id": "mock_uni_149",
@@ -25814,11 +25942,11 @@ export const universities = [
       "Học bổng khuyến khích từ đại học Sungshin"
     ],
     "description": "Đại học Sungshin là trường đại học uy tín tại khu vực Jeonnam, đào tạo đa ngành với học phí hợp lý và học bổng hấp dẫn cho sinh viên Việt Nam.",
-    "accept_gdtx": null,
+    "accept_gdtx": "top2",
     "visa_metropolitan": false,
     "master_no_topik": false,
     "custom_notes": "Trường ưu tiên phỏng vấn visa thẳng",
-    "top_1_percent": true,
+    "top_1_percent": false,
     "language_tuition_desc": "6,000,000-6,400,000 KRW/năm",
     "registration_fee_desc": "50,000 KRW",
     "insurance_fee_desc": "150,000 KRW/năm",
@@ -25963,7 +26091,8 @@ export const universities = [
           }
         ]
       }
-    ]
+    ],
+    "is_restricted_school": false
   },
   {
     "id": "mock_uni_150",
@@ -25991,7 +26120,7 @@ export const universities = [
     "description": "Đại học Semyung là trường đại học uy tín tại khu vực Gyeongbuk, đào tạo đa ngành với học phí hợp lý và học bổng hấp dẫn cho sinh viên Việt Nam.",
     "accept_gdtx": "top2",
     "visa_metropolitan": false,
-    "master_no_topik": true,
+    "master_no_topik": false,
     "custom_notes": "Trường ưu tiên phỏng vấn visa thẳng",
     "top_1_percent": false,
     "language_tuition_desc": "4,400,000 KRW/năm",
@@ -26138,7 +26267,8 @@ export const universities = [
           }
         ]
       }
-    ]
+    ],
+    "is_restricted_school": false
   },
   {
     "id": "mock_uni_151",
@@ -26164,11 +26294,11 @@ export const universities = [
       "Học bổng khuyến khích từ đại học Sookmyung"
     ],
     "description": "Đại học Sookmyung là trường đại học uy tín tại khu vực Gyeongnam, đào tạo đa ngành với học phí hợp lý và học bổng hấp dẫn cho sinh viên Việt Nam.",
-    "accept_gdtx": null,
+    "accept_gdtx": "top2",
     "visa_metropolitan": false,
-    "master_no_topik": true,
+    "master_no_topik": false,
     "custom_notes": "",
-    "top_1_percent": true,
+    "top_1_percent": false,
     "language_tuition_desc": "6,400,000-6,800,000 KRW/năm",
     "registration_fee_desc": "50,000 KRW",
     "insurance_fee_desc": "150,000 KRW/năm",
@@ -26313,7 +26443,8 @@ export const universities = [
           }
         ]
       }
-    ]
+    ],
+    "is_restricted_school": false
   },
   {
     "id": "mock_uni_152",
@@ -26341,7 +26472,7 @@ export const universities = [
     "description": "Đại học Ulsan là trường đại học uy tín tại khu vực Jeju, đào tạo đa ngành với học phí hợp lý và học bổng hấp dẫn cho sinh viên Việt Nam.",
     "accept_gdtx": "top2",
     "visa_metropolitan": false,
-    "master_no_topik": true,
+    "master_no_topik": false,
     "custom_notes": "Trường ưu tiên phỏng vấn visa thẳng",
     "top_1_percent": false,
     "language_tuition_desc": "5,200,000-5,600,000 KRW/năm",
@@ -26488,7 +26619,8 @@ export const universities = [
           }
         ]
       }
-    ]
+    ],
+    "is_restricted_school": false
   },
   {
     "id": "mock_uni_153",
@@ -26516,7 +26648,7 @@ export const universities = [
     "description": "Đại học Youngsan là trường đại học uy tín tại khu vực Seoul, đào tạo đa ngành với học phí hợp lý và học bổng hấp dẫn cho sinh viên Việt Nam.",
     "accept_gdtx": "top2",
     "visa_metropolitan": true,
-    "master_no_topik": true,
+    "master_no_topik": false,
     "custom_notes": "",
     "top_1_percent": false,
     "language_tuition_desc": "4,800,000 KRW/năm",
@@ -26663,7 +26795,8 @@ export const universities = [
           }
         ]
       }
-    ]
+    ],
+    "is_restricted_school": false
   },
   {
     "id": "mock_uni_154",
@@ -26691,7 +26824,7 @@ export const universities = [
     "description": "Đại học Kunsan là trường đại học uy tín tại khu vực Busan, đào tạo đa ngành với học phí hợp lý và học bổng hấp dẫn cho sinh viên Việt Nam.",
     "accept_gdtx": "top2",
     "visa_metropolitan": false,
-    "master_no_topik": true,
+    "master_no_topik": false,
     "custom_notes": "",
     "top_1_percent": false,
     "language_tuition_desc": "4,800,000 KRW/năm",
@@ -26838,7 +26971,8 @@ export const universities = [
           }
         ]
       }
-    ]
+    ],
+    "is_restricted_school": false
   },
   {
     "id": "mock_uni_155",
@@ -26864,7 +26998,7 @@ export const universities = [
       "Học bổng khuyến khích từ đại học Woosuk"
     ],
     "description": "Đại học Woosuk là trường đại học uy tín tại khu vực Daegu, đào tạo đa ngành với học phí hợp lý và học bổng hấp dẫn cho sinh viên Việt Nam.",
-    "accept_gdtx": "top3",
+    "accept_gdtx": "top2",
     "visa_metropolitan": false,
     "master_no_topik": false,
     "custom_notes": "",
@@ -27005,7 +27139,8 @@ export const universities = [
           }
         ]
       }
-    ]
+    ],
+    "is_restricted_school": false
   },
   {
     "id": "mock_uni_156",
@@ -27033,7 +27168,7 @@ export const universities = [
     "description": "Đại học Kyungwoon là trường đại học uy tín tại khu vực Incheon, đào tạo đa ngành với học phí hợp lý và học bổng hấp dẫn cho sinh viên Việt Nam.",
     "accept_gdtx": "top2",
     "visa_metropolitan": true,
-    "master_no_topik": true,
+    "master_no_topik": false,
     "custom_notes": "",
     "top_1_percent": false,
     "language_tuition_desc": "4,800,000 KRW/năm",
@@ -27180,7 +27315,8 @@ export const universities = [
           }
         ]
       }
-    ]
+    ],
+    "is_restricted_school": false
   },
   {
     "id": "mock_uni_157",
@@ -27347,7 +27483,8 @@ export const universities = [
           }
         ]
       }
-    ]
+    ],
+    "is_restricted_school": false
   },
   {
     "id": "mock_uni_158",
@@ -27375,7 +27512,7 @@ export const universities = [
     "description": "Đại học Hanseo là trường đại học uy tín tại khu vực Daejeon, đào tạo đa ngành với học phí hợp lý và học bổng hấp dẫn cho sinh viên Việt Nam.",
     "accept_gdtx": "top2",
     "visa_metropolitan": false,
-    "master_no_topik": true,
+    "master_no_topik": false,
     "custom_notes": "",
     "top_1_percent": false,
     "language_tuition_desc": "5,000,000 KRW/năm",
@@ -27522,7 +27659,8 @@ export const universities = [
           }
         ]
       }
-    ]
+    ],
+    "is_restricted_school": false
   },
   {
     "id": "mock_uni_159",
@@ -27548,11 +27686,11 @@ export const universities = [
       "Học bổng khuyến khích từ đại học Chungwoon"
     ],
     "description": "Đại học Chungwoon là trường đại học uy tín tại khu vực Ulsan, đào tạo đa ngành với học phí hợp lý và học bổng hấp dẫn cho sinh viên Việt Nam.",
-    "accept_gdtx": "top3",
+    "accept_gdtx": "top2",
     "visa_metropolitan": false,
-    "master_no_topik": true,
+    "master_no_topik": false,
     "custom_notes": "",
-    "top_1_percent": true,
+    "top_1_percent": false,
     "majors_detail": [
       {
         "category": "humanities_social",
@@ -27689,7 +27827,8 @@ export const universities = [
           }
         ]
       }
-    ]
+    ],
+    "is_restricted_school": false
   },
   {
     "id": "mock_uni_160",
@@ -27717,7 +27856,7 @@ export const universities = [
     "description": "Đại học Howon là trường đại học uy tín tại khu vực Sejong, đào tạo đa ngành với học phí hợp lý và học bổng hấp dẫn cho sinh viên Việt Nam.",
     "accept_gdtx": "top2",
     "visa_metropolitan": false,
-    "master_no_topik": true,
+    "master_no_topik": false,
     "custom_notes": "Trường ưu tiên phỏng vấn visa thẳng",
     "top_1_percent": false,
     "majors_detail": [
@@ -27856,7 +27995,8 @@ export const universities = [
           }
         ]
       }
-    ]
+    ],
+    "is_restricted_school": false
   },
   {
     "id": "mock_uni_161",
@@ -27882,9 +28022,9 @@ export const universities = [
       "Học bổng khuyến khích từ đại học Dongshin"
     ],
     "description": "Đại học Dongshin là trường đại học uy tín tại khu vực Gyeonggi, đào tạo đa ngành với học phí hợp lý và học bổng hấp dẫn cho sinh viên Việt Nam.",
-    "accept_gdtx": null,
+    "accept_gdtx": "top2",
     "visa_metropolitan": true,
-    "master_no_topik": true,
+    "master_no_topik": false,
     "custom_notes": "",
     "top_1_percent": false,
     "majors_detail": [
@@ -28023,7 +28163,8 @@ export const universities = [
           }
         ]
       }
-    ]
+    ],
+    "is_restricted_school": false
   },
   {
     "id": "mock_uni_162",
@@ -28049,7 +28190,7 @@ export const universities = [
       "Học bổng khuyến khích từ đại học Nambu"
     ],
     "description": "Đại học Nambu là trường đại học uy tín tại khu vực Gangwon, đào tạo đa ngành với học phí hợp lý và học bổng hấp dẫn cho sinh viên Việt Nam.",
-    "accept_gdtx": "top3",
+    "accept_gdtx": "top2",
     "visa_metropolitan": false,
     "master_no_topik": false,
     "custom_notes": "Trường ưu tiên phỏng vấn visa thẳng",
@@ -28190,7 +28331,8 @@ export const universities = [
           }
         ]
       }
-    ]
+    ],
+    "is_restricted_school": false
   },
   {
     "id": "mock_uni_163",
@@ -28216,12 +28358,12 @@ export const universities = [
       "Học bổng khuyến khích từ đại học Mokpo"
     ],
     "description": "Đại học Mokpo là trường đại học uy tín tại khu vực Chungbuk, đào tạo đa ngành với học phí hợp lý và học bổng hấp dẫn cho sinh viên Việt Nam.",
-    "accept_gdtx": "top3",
+    "accept_gdtx": "top2",
     "visa_metropolitan": false,
     "master_no_topik": false,
     "custom_notes": "",
     "top_1_percent": false,
-    "is_restricted_school": true,
+    "is_restricted_school": false,
     "majors_detail": [
       {
         "category": "humanities_social",
@@ -28384,9 +28526,9 @@ export const universities = [
       "Học bổng khuyến khích từ đại học Suncheon"
     ],
     "description": "Đại học Suncheon là trường đại học uy tín tại khu vực Chungnam, đào tạo đa ngành với học phí hợp lý và học bổng hấp dẫn cho sinh viên Việt Nam.",
-    "accept_gdtx": "top3",
+    "accept_gdtx": "top2",
     "visa_metropolitan": false,
-    "master_no_topik": true,
+    "master_no_topik": false,
     "custom_notes": "Trường ưu tiên phỏng vấn visa thẳng",
     "top_1_percent": false,
     "majors_detail": [
@@ -28525,7 +28667,8 @@ export const universities = [
           }
         ]
       }
-    ]
+    ],
+    "is_restricted_school": false
   },
   {
     "id": "mock_uni_165",
@@ -28553,7 +28696,7 @@ export const universities = [
     "description": "Đại học Gwangju là trường đại học uy tín tại khu vực Jeonbuk, đào tạo đa ngành với học phí hợp lý và học bổng hấp dẫn cho sinh viên Việt Nam.",
     "accept_gdtx": "top2",
     "visa_metropolitan": false,
-    "master_no_topik": true,
+    "master_no_topik": false,
     "custom_notes": "",
     "top_1_percent": false,
     "language_tuition_desc": "4,000,000 KRW/năm",
@@ -28700,7 +28843,8 @@ export const universities = [
           }
         ]
       }
-    ]
+    ],
+    "is_restricted_school": false
   },
   {
     "id": "mock_uni_166",
@@ -28726,7 +28870,7 @@ export const universities = [
       "Học bổng khuyến khích từ đại học Kosin"
     ],
     "description": "Đại học Kosin là trường đại học uy tín tại khu vực Jeonnam, đào tạo đa ngành với học phí hợp lý và học bổng hấp dẫn cho sinh viên Việt Nam.",
-    "accept_gdtx": null,
+    "accept_gdtx": "top2",
     "visa_metropolitan": false,
     "master_no_topik": false,
     "custom_notes": "",
@@ -28867,7 +29011,8 @@ export const universities = [
           }
         ]
       }
-    ]
+    ],
+    "is_restricted_school": false
   },
   {
     "id": "mock_uni_167",
@@ -29042,7 +29187,8 @@ export const universities = [
           }
         ]
       }
-    ]
+    ],
+    "is_restricted_school": false
   },
   {
     "id": "mock_uni_168",
@@ -29068,12 +29214,12 @@ export const universities = [
       "Học bổng khuyến khích từ đại học Dong-Eui"
     ],
     "description": "Đại học Dong-Eui là trường đại học uy tín tại khu vực Gyeongnam, đào tạo đa ngành với học phí hợp lý và học bổng hấp dẫn cho sinh viên Việt Nam.",
-    "accept_gdtx": null,
+    "accept_gdtx": "top2",
     "visa_metropolitan": false,
-    "master_no_topik": true,
+    "master_no_topik": false,
     "custom_notes": "",
     "top_1_percent": false,
-    "is_restricted_school": true,
+    "is_restricted_school": false,
     "majors_detail": [
       {
         "category": "humanities_social",
@@ -29238,7 +29384,7 @@ export const universities = [
     "description": "Đại học Silla là trường đại học uy tín tại khu vực Jeju, đào tạo đa ngành với học phí hợp lý và học bổng hấp dẫn cho sinh viên Việt Nam.",
     "accept_gdtx": "top2",
     "visa_metropolitan": false,
-    "master_no_topik": true,
+    "master_no_topik": false,
     "custom_notes": "",
     "top_1_percent": false,
     "language_tuition_desc": "4,800,000 KRW/năm",
@@ -29385,7 +29531,8 @@ export const universities = [
           }
         ]
       }
-    ]
+    ],
+    "is_restricted_school": false
   },
   {
     "id": "mock_uni_170",
@@ -29552,7 +29699,8 @@ export const universities = [
           }
         ]
       }
-    ]
+    ],
+    "is_restricted_school": false
   },
   {
     "id": "mock_uni_171",
@@ -29580,7 +29728,7 @@ export const universities = [
     "description": "Đại học Dongseo là trường đại học uy tín tại khu vực Busan, đào tạo đa ngành với học phí hợp lý và học bổng hấp dẫn cho sinh viên Việt Nam.",
     "accept_gdtx": "top2",
     "visa_metropolitan": false,
-    "master_no_topik": true,
+    "master_no_topik": false,
     "custom_notes": "",
     "top_1_percent": false,
     "language_tuition_desc": "5,200,000 KRW/năm",
@@ -29727,7 +29875,8 @@ export const universities = [
           }
         ]
       }
-    ]
+    ],
+    "is_restricted_school": false
   },
   {
     "id": "mock_uni_172",
@@ -29755,7 +29904,7 @@ export const universities = [
     "description": "Đại học Kookmin là trường đại học uy tín tại khu vực Daegu, đào tạo đa ngành với học phí hợp lý và học bổng hấp dẫn cho sinh viên Việt Nam.",
     "accept_gdtx": "top2",
     "visa_metropolitan": false,
-    "master_no_topik": true,
+    "master_no_topik": false,
     "custom_notes": "",
     "top_1_percent": false,
     "language_tuition_desc": "6,600,000 KRW/năm",
@@ -29902,7 +30051,8 @@ export const universities = [
           }
         ]
       }
-    ]
+    ],
+    "is_restricted_school": false
   },
   {
     "id": "mock_uni_173",
@@ -29928,9 +30078,9 @@ export const universities = [
       "Học bổng khuyến khích từ đại học Ajou"
     ],
     "description": "Đại học Ajou là trường đại học uy tín tại khu vực Incheon, đào tạo đa ngành với học phí hợp lý và học bổng hấp dẫn cho sinh viên Việt Nam.",
-    "accept_gdtx": "top3",
+    "accept_gdtx": "top2",
     "visa_metropolitan": true,
-    "master_no_topik": true,
+    "master_no_topik": false,
     "custom_notes": "",
     "top_1_percent": false,
     "language_tuition_desc": "4,500,000-4,900,000 KRW/năm",
@@ -30077,7 +30227,8 @@ export const universities = [
           }
         ]
       }
-    ]
+    ],
+    "is_restricted_school": false
   },
   {
     "id": "mock_uni_174",
@@ -30252,7 +30403,8 @@ export const universities = [
           }
         ]
       }
-    ]
+    ],
+    "is_restricted_school": false
   },
   {
     "id": "mock_uni_175",
@@ -30280,7 +30432,7 @@ export const universities = [
     "description": "Đại học Soongsil là trường đại học uy tín tại khu vực Daejeon, đào tạo đa ngành với học phí hợp lý và học bổng hấp dẫn cho sinh viên Việt Nam.",
     "accept_gdtx": "top2",
     "visa_metropolitan": false,
-    "master_no_topik": true,
+    "master_no_topik": false,
     "custom_notes": "",
     "top_1_percent": false,
     "language_tuition_desc": "6,000,000-6,400,000 KRW/năm",
@@ -30427,7 +30579,8 @@ export const universities = [
           }
         ]
       }
-    ]
+    ],
+    "is_restricted_school": false
   },
   {
     "id": "mock_uni_176",
@@ -30455,7 +30608,7 @@ export const universities = [
     "description": "Đại học Konyang là trường đại học uy tín tại khu vực Ulsan, đào tạo đa ngành với học phí hợp lý và học bổng hấp dẫn cho sinh viên Việt Nam.",
     "accept_gdtx": "top2",
     "visa_metropolitan": false,
-    "master_no_topik": true,
+    "master_no_topik": false,
     "custom_notes": "",
     "top_1_percent": false,
     "language_tuition_desc": "4,400,000 KRW/năm",
@@ -30602,7 +30755,8 @@ export const universities = [
           }
         ]
       }
-    ]
+    ],
+    "is_restricted_school": false
   },
   {
     "id": "mock_uni_177",
@@ -30777,7 +30931,8 @@ export const universities = [
           }
         ]
       }
-    ]
+    ],
+    "is_restricted_school": false
   },
   {
     "id": "mock_uni_178",
@@ -30805,10 +30960,10 @@ export const universities = [
     "description": "Đại học Sangji là trường đại học uy tín tại khu vực Gyeonggi, đào tạo đa ngành với học phí hợp lý và học bổng hấp dẫn cho sinh viên Việt Nam.",
     "accept_gdtx": "top2",
     "visa_metropolitan": true,
-    "master_no_topik": true,
+    "master_no_topik": false,
     "custom_notes": "",
     "top_1_percent": false,
-    "is_restricted_school": true,
+    "is_restricted_school": false,
     "majors_detail": [
       {
         "category": "humanities_social",
@@ -31120,7 +31275,8 @@ export const universities = [
           }
         ]
       }
-    ]
+    ],
+    "is_restricted_school": false
   },
   {
     "id": "mock_uni_180",
@@ -31148,7 +31304,7 @@ export const universities = [
     "description": "Đại học Gachon là trường đại học uy tín tại khu vực Chungbuk, đào tạo đa ngành với học phí hợp lý và học bổng hấp dẫn cho sinh viên Việt Nam.",
     "accept_gdtx": "top2",
     "visa_metropolitan": false,
-    "master_no_topik": true,
+    "master_no_topik": false,
     "custom_notes": "",
     "top_1_percent": false,
     "language_tuition_desc": "5,200,000 KRW/năm",
@@ -31295,7 +31451,8 @@ export const universities = [
           }
         ]
       }
-    ]
+    ],
+    "is_restricted_school": false
   },
   {
     "id": "mock_uni_181",
@@ -31323,7 +31480,7 @@ export const universities = [
     "description": "Đại học Dankook là trường đại học uy tín tại khu vực Chungnam, đào tạo đa ngành với học phí hợp lý và học bổng hấp dẫn cho sinh viên Việt Nam.",
     "accept_gdtx": "top2",
     "visa_metropolitan": false,
-    "master_no_topik": true,
+    "master_no_topik": false,
     "custom_notes": "",
     "top_1_percent": false,
     "language_tuition_desc": "5,600,000 KRW/năm",
@@ -31470,7 +31627,8 @@ export const universities = [
           }
         ]
       }
-    ]
+    ],
+    "is_restricted_school": false
   },
   {
     "id": "mock_uni_182",
@@ -31645,7 +31803,8 @@ export const universities = [
           }
         ]
       }
-    ]
+    ],
+    "is_restricted_school": false
   },
   {
     "id": "mock_uni_183",
@@ -31820,7 +31979,8 @@ export const universities = [
           }
         ]
       }
-    ]
+    ],
+    "is_restricted_school": false
   },
   {
     "id": "mock_uni_184",
@@ -31848,7 +32008,7 @@ export const universities = [
     "description": "Đại học Pukyong là trường đại học uy tín tại khu vực Gyeongbuk, đào tạo đa ngành với học phí hợp lý và học bổng hấp dẫn cho sinh viên Việt Nam.",
     "accept_gdtx": "top2",
     "visa_metropolitan": false,
-    "master_no_topik": true,
+    "master_no_topik": false,
     "custom_notes": "Trường ưu tiên phỏng vấn visa thẳng",
     "top_1_percent": false,
     "language_tuition_desc": "5,200,000 KRW/năm",
@@ -31995,7 +32155,8 @@ export const universities = [
           }
         ]
       }
-    ]
+    ],
+    "is_restricted_school": false
   },
   {
     "id": "mock_uni_185",
@@ -32023,7 +32184,7 @@ export const universities = [
     "description": "Đại học Changwon là trường đại học uy tín tại khu vực Gyeongnam, đào tạo đa ngành với học phí hợp lý và học bổng hấp dẫn cho sinh viên Việt Nam.",
     "accept_gdtx": "top2",
     "visa_metropolitan": false,
-    "master_no_topik": true,
+    "master_no_topik": false,
     "custom_notes": "",
     "top_1_percent": false,
     "language_tuition_desc": "4,800,000 KRW/năm",
@@ -32034,7 +32195,7 @@ export const universities = [
     "admission_conditions": "",
     "featured_majors": "Cơ khí – Robot – Công nghiệp",
     "regional_restrictions": "",
-    "is_restricted_school": true,
+    "is_restricted_school": false,
     "majors_detail": [
       {
         "category": "humanities_social",
@@ -32197,9 +32358,9 @@ export const universities = [
       "Học bổng khuyến khích từ đại học Hallym"
     ],
     "description": "Đại học Hallym là trường đại học uy tín tại khu vực Jeju, đào tạo đa ngành với học phí hợp lý và học bổng hấp dẫn cho sinh viên Việt Nam.",
-    "accept_gdtx": "top3",
+    "accept_gdtx": "top2",
     "visa_metropolitan": false,
-    "master_no_topik": true,
+    "master_no_topik": false,
     "custom_notes": "",
     "top_1_percent": false,
     "majors_detail": [
@@ -32338,7 +32499,8 @@ export const universities = [
           }
         ]
       }
-    ]
+    ],
+    "is_restricted_school": false
   },
   {
     "id": "mock_uni_187",
@@ -32366,7 +32528,7 @@ export const universities = [
     "description": "Đại học Myongji là trường đại học uy tín tại khu vực Seoul, đào tạo đa ngành với học phí hợp lý và học bổng hấp dẫn cho sinh viên Việt Nam.",
     "accept_gdtx": "top2",
     "visa_metropolitan": true,
-    "master_no_topik": true,
+    "master_no_topik": false,
     "custom_notes": "Trường ưu tiên phỏng vấn visa thẳng",
     "top_1_percent": false,
     "language_tuition_desc": "5,000,000 KRW/năm",
@@ -32513,7 +32675,8 @@ export const universities = [
           }
         ]
       }
-    ]
+    ],
+    "is_restricted_school": false
   },
   {
     "id": "mock_uni_188",
@@ -32539,7 +32702,7 @@ export const universities = [
       "Học bổng khuyến khích từ đại học Sangmyung"
     ],
     "description": "Đại học Sangmyung là trường đại học uy tín tại khu vực Busan, đào tạo đa ngành với học phí hợp lý và học bổng hấp dẫn cho sinh viên Việt Nam.",
-    "accept_gdtx": null,
+    "accept_gdtx": "top2",
     "visa_metropolitan": false,
     "master_no_topik": false,
     "custom_notes": "",
@@ -32680,7 +32843,8 @@ export const universities = [
           }
         ]
       }
-    ]
+    ],
+    "is_restricted_school": false
   },
   {
     "id": "mock_uni_189",
@@ -32708,7 +32872,7 @@ export const universities = [
     "description": "Đại học Duksung là trường đại học uy tín tại khu vực Daegu, đào tạo đa ngành với học phí hợp lý và học bổng hấp dẫn cho sinh viên Việt Nam.",
     "accept_gdtx": "top2",
     "visa_metropolitan": false,
-    "master_no_topik": true,
+    "master_no_topik": false,
     "custom_notes": "",
     "top_1_percent": false,
     "majors_detail": [
@@ -32847,7 +33011,8 @@ export const universities = [
           }
         ]
       }
-    ]
+    ],
+    "is_restricted_school": false
   },
   {
     "id": "mock_uni_190",
@@ -33022,7 +33187,8 @@ export const universities = [
           }
         ]
       }
-    ]
+    ],
+    "is_restricted_school": false
   },
   {
     "id": "mock_uni_191",
@@ -33197,7 +33363,8 @@ export const universities = [
           }
         ]
       }
-    ]
+    ],
+    "is_restricted_school": false
   },
   {
     "id": "mock_uni_192",
@@ -33223,11 +33390,11 @@ export const universities = [
       "Học bổng khuyến khích từ đại học Sungshin"
     ],
     "description": "Đại học Sungshin là trường đại học uy tín tại khu vực Daejeon, đào tạo đa ngành với học phí hợp lý và học bổng hấp dẫn cho sinh viên Việt Nam.",
-    "accept_gdtx": null,
+    "accept_gdtx": "top2",
     "visa_metropolitan": false,
     "master_no_topik": false,
     "custom_notes": "Trường ưu tiên phỏng vấn visa thẳng",
-    "top_1_percent": true,
+    "top_1_percent": false,
     "language_tuition_desc": "6,000,000-6,400,000 KRW/năm",
     "registration_fee_desc": "50,000 KRW",
     "insurance_fee_desc": "150,000 KRW/năm",
@@ -33372,7 +33539,8 @@ export const universities = [
           }
         ]
       }
-    ]
+    ],
+    "is_restricted_school": false
   },
   {
     "id": "mock_uni_193",
@@ -33400,7 +33568,7 @@ export const universities = [
     "description": "Đại học Semyung là trường đại học uy tín tại khu vực Ulsan, đào tạo đa ngành với học phí hợp lý và học bổng hấp dẫn cho sinh viên Việt Nam.",
     "accept_gdtx": "top2",
     "visa_metropolitan": false,
-    "master_no_topik": true,
+    "master_no_topik": false,
     "custom_notes": "",
     "top_1_percent": false,
     "language_tuition_desc": "4,400,000 KRW/năm",
@@ -33547,7 +33715,8 @@ export const universities = [
           }
         ]
       }
-    ]
+    ],
+    "is_restricted_school": false
   },
   {
     "id": "mock_uni_194",
@@ -33573,11 +33742,11 @@ export const universities = [
       "Học bổng khuyến khích từ đại học Sookmyung"
     ],
     "description": "Đại học Sookmyung là trường đại học uy tín tại khu vực Sejong, đào tạo đa ngành với học phí hợp lý và học bổng hấp dẫn cho sinh viên Việt Nam.",
-    "accept_gdtx": null,
+    "accept_gdtx": "top2",
     "visa_metropolitan": false,
-    "master_no_topik": true,
+    "master_no_topik": false,
     "custom_notes": "",
-    "top_1_percent": true,
+    "top_1_percent": false,
     "language_tuition_desc": "6,400,000-6,800,000 KRW/năm",
     "registration_fee_desc": "50,000 KRW",
     "insurance_fee_desc": "150,000 KRW/năm",
@@ -33722,7 +33891,8 @@ export const universities = [
           }
         ]
       }
-    ]
+    ],
+    "is_restricted_school": false
   },
   {
     "id": "mock_uni_195",
@@ -33750,7 +33920,7 @@ export const universities = [
     "description": "Đại học Ulsan là trường đại học uy tín tại khu vực Gyeonggi, đào tạo đa ngành với học phí hợp lý và học bổng hấp dẫn cho sinh viên Việt Nam.",
     "accept_gdtx": "top2",
     "visa_metropolitan": true,
-    "master_no_topik": true,
+    "master_no_topik": false,
     "custom_notes": "",
     "top_1_percent": false,
     "language_tuition_desc": "5,200,000-5,600,000 KRW/năm",
@@ -33897,7 +34067,8 @@ export const universities = [
           }
         ]
       }
-    ]
+    ],
+    "is_restricted_school": false
   },
   {
     "id": "mock_uni_196",
@@ -33925,7 +34096,7 @@ export const universities = [
     "description": "Đại học Youngsan là trường đại học uy tín tại khu vực Gangwon, đào tạo đa ngành với học phí hợp lý và học bổng hấp dẫn cho sinh viên Việt Nam.",
     "accept_gdtx": "top2",
     "visa_metropolitan": false,
-    "master_no_topik": true,
+    "master_no_topik": false,
     "custom_notes": "Trường ưu tiên phỏng vấn visa thẳng",
     "top_1_percent": false,
     "language_tuition_desc": "4,800,000 KRW/năm",
@@ -34072,7 +34243,8 @@ export const universities = [
           }
         ]
       }
-    ]
+    ],
+    "is_restricted_school": false
   },
   {
     "id": "mock_uni_197",
@@ -34100,7 +34272,7 @@ export const universities = [
     "description": "Đại học Kunsan là trường đại học uy tín tại khu vực Chungbuk, đào tạo đa ngành với học phí hợp lý và học bổng hấp dẫn cho sinh viên Việt Nam.",
     "accept_gdtx": "top2",
     "visa_metropolitan": false,
-    "master_no_topik": true,
+    "master_no_topik": false,
     "custom_notes": "Trường ưu tiên phỏng vấn visa thẳng",
     "top_1_percent": false,
     "language_tuition_desc": "4,800,000 KRW/năm",
@@ -34247,7 +34419,8 @@ export const universities = [
           }
         ]
       }
-    ]
+    ],
+    "is_restricted_school": false
   },
   {
     "id": "mock_uni_198",
@@ -34277,7 +34450,7 @@ export const universities = [
     "visa_metropolitan": false,
     "master_no_topik": false,
     "custom_notes": "",
-    "top_1_percent": true,
+    "top_1_percent": false,
     "majors_detail": [
       {
         "category": "humanities_social",
@@ -34414,7 +34587,8 @@ export const universities = [
           }
         ]
       }
-    ]
+    ],
+    "is_restricted_school": false
   },
   {
     "id": "mock_uni_199",
@@ -34442,7 +34616,7 @@ export const universities = [
     "description": "Đại học Kyungwoon là trường đại học uy tín tại khu vực Jeonbuk, đào tạo đa ngành với học phí hợp lý và học bổng hấp dẫn cho sinh viên Việt Nam.",
     "accept_gdtx": "top2",
     "visa_metropolitan": false,
-    "master_no_topik": true,
+    "master_no_topik": false,
     "custom_notes": "Trường ưu tiên phỏng vấn visa thẳng",
     "top_1_percent": false,
     "language_tuition_desc": "4,800,000 KRW/năm",
@@ -34589,7 +34763,8 @@ export const universities = [
           }
         ]
       }
-    ]
+    ],
+    "is_restricted_school": false
   },
   {
     "id": "mock_uni_200",
@@ -34756,7 +34931,8 @@ export const universities = [
           }
         ]
       }
-    ]
+    ],
+    "is_restricted_school": false
   },
   {
     "id": "mock_uni_201",
@@ -34784,7 +34960,7 @@ export const universities = [
     "description": "Đại học Hanseo là trường đại học uy tín tại khu vực Gyeongbuk, đào tạo đa ngành với học phí hợp lý và học bổng hấp dẫn cho sinh viên Việt Nam.",
     "accept_gdtx": "top2",
     "visa_metropolitan": false,
-    "master_no_topik": true,
+    "master_no_topik": false,
     "custom_notes": "Trường ưu tiên phỏng vấn visa thẳng",
     "top_1_percent": false,
     "language_tuition_desc": "5,000,000 KRW/năm",
@@ -34931,7 +35107,8 @@ export const universities = [
           }
         ]
       }
-    ]
+    ],
+    "is_restricted_school": false
   },
   {
     "id": "mock_uni_202",
@@ -34957,7 +35134,7 @@ export const universities = [
       "Học bổng khuyến khích từ đại học Chungwoon"
     ],
     "description": "Đại học Chungwoon là trường đại học uy tín tại khu vực Gyeongnam, đào tạo đa ngành với học phí hợp lý và học bổng hấp dẫn cho sinh viên Việt Nam.",
-    "accept_gdtx": null,
+    "accept_gdtx": "top2",
     "visa_metropolitan": false,
     "master_no_topik": false,
     "custom_notes": "",
@@ -35098,7 +35275,8 @@ export const universities = [
           }
         ]
       }
-    ]
+    ],
+    "is_restricted_school": false
   },
   {
     "id": "mock_uni_203",
@@ -35124,7 +35302,7 @@ export const universities = [
       "Học bổng khuyến khích từ đại học Howon"
     ],
     "description": "Đại học Howon là trường đại học uy tín tại khu vực Jeju, đào tạo đa ngành với học phí hợp lý và học bổng hấp dẫn cho sinh viên Việt Nam.",
-    "accept_gdtx": null,
+    "accept_gdtx": "top2",
     "visa_metropolitan": false,
     "master_no_topik": false,
     "custom_notes": "",
@@ -35265,7 +35443,8 @@ export const universities = [
           }
         ]
       }
-    ]
+    ],
+    "is_restricted_school": false
   },
   {
     "id": "mock_uni_204",
@@ -35295,7 +35474,7 @@ export const universities = [
     "visa_metropolitan": true,
     "master_no_topik": false,
     "custom_notes": "",
-    "top_1_percent": true,
+    "top_1_percent": false,
     "majors_detail": [
       {
         "category": "humanities_social",
@@ -35432,7 +35611,8 @@ export const universities = [
           }
         ]
       }
-    ]
+    ],
+    "is_restricted_school": false
   },
   {
     "id": "caoangyeungjin",
