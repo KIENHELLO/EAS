@@ -156,18 +156,32 @@ export default function App({ initialViewMode = 'map', initialActiveSchoolId = n
 
     const rawQuery = majorName.trim().toLowerCase();
     const normQuery = removeVietnameseTones(rawQuery);
-
-    // Clean parenthetical notes like "(IT)", "(Nursing)"
     const cleanQueryStr = rawQuery.replace(/\(.*?\)/g, '');
     const normCleanStr = removeVietnameseTones(cleanQueryStr);
 
-    // Split compound queries (e.g. "Truyền thông & Báo chí" -> ["truyền thông", "báo chí"])
-    const queryTokens = normCleanStr
+    // Split by symbols AND words
+    const symbolTokens = normCleanStr
       .split(/[\&\/\,\-\+]|\bva\b|\bhoac\b|\bor\b|\band\b/)
       .map(t => t.trim())
       .filter(t => t.length >= 2);
 
-    const allKeywords = Array.from(new Set([normCleanStr, normQuery, ...queryTokens]));
+    // Core keyword mappings for broad choices
+    let coreKeywords = [...symbolTokens];
+    if (normCleanStr.includes('kinh doanh')) coreKeywords.push('kinh doanh', 'quan tri', 'thuong mai', 'kinh te');
+    if (normCleanStr.includes('truyen thong')) coreKeywords.push('truyen thong', 'bao chi', 'quang cao', 'media');
+    if (normCleanStr.includes('han quoc') || normCleanStr.includes('ngon ngu han')) coreKeywords.push('ngon ngu han', 'han quoc', 'han hoc');
+    if (normCleanStr.includes('may tinh') || normCleanStr.includes('ai') || normCleanStr.includes('it')) coreKeywords.push('may tinh', 'it', 'thong tin', 'phan mem', 'cong nghe thong tin');
+    if (normCleanStr.includes('o to')) coreKeywords.push('o to', 'co khi', 'xe');
+    if (normCleanStr.includes('thiet ke')) coreKeywords.push('thiet ke', 'do hoa', 'my thuat');
+    if (normCleanStr.includes('lam dep') || normCleanStr.includes('tham my')) coreKeywords.push('lam dep', 'tham my', 'trang diem', 'beauty');
+    if (normCleanStr.includes('du lich') || normCleanStr.includes('khach san')) coreKeywords.push('du lich', 'khach san');
+    if (normCleanStr.includes('dien anh') || normCleanStr.includes('san khau')) coreKeywords.push('dien anh', 'san khau', 'truyen hinh', 'dien xuat');
+    if (normCleanStr.includes('am nhac') || normCleanStr.includes('k-pop')) coreKeywords.push('am nhac', 'k-pop', 'vocal', 'nghe thuat');
+    if (normCleanStr.includes('dieu duong')) coreKeywords.push('dieu duong', 'nursing', 'y te');
+    if (normCleanStr.includes('ban dan')) coreKeywords.push('ban dan', 'vi mach');
+    if (normCleanStr.includes('duoc')) coreKeywords.push('duoc', 'thuoc');
+
+    const allKeywords = Array.from(new Set([normCleanStr, normQuery, ...coreKeywords]));
 
     const textMatchesAnyKeyword = (text) => {
       if (!text) return false;
@@ -176,41 +190,14 @@ export default function App({ initialViewMode = 'map', initialActiveSchoolId = n
       return allKeywords.some(kw => textLower.includes(kw) || textNorm.includes(kw));
     };
 
-    // 1. Check featured_majors from XLSX
-    if (school.featured_majors && textMatchesAnyKeyword(school.featured_majors)) {
-      return true;
+    // 1. Check featured_majors from XLSX first (if school has explicit featured_majors)
+    if (school.featured_majors && school.featured_majors.trim()) {
+      return textMatchesAnyKeyword(school.featured_majors) || textMatchesAnyKeyword(school.custom_notes) || textMatchesAnyKeyword(school.description);
     }
 
-    // 2. Check structured majors_detail
-    if (school.majors_detail && Array.isArray(school.majors_detail)) {
-      const hasInDetail = school.majors_detail.some(faculty => {
-        if (textMatchesAnyKeyword(faculty.faculty_name_vi) || textMatchesAnyKeyword(faculty.faculty_name_ko)) {
-          return true;
-        }
-        return (faculty.majors || []).some(m => 
-          textMatchesAnyKeyword(m.name_vi) || textMatchesAnyKeyword(m.name_ko)
-        );
-      });
-      if (hasInDetail) return true;
-    }
-
-    // 3. Check custom_notes & description
+    // 2. Fallback for mock/other schools: match custom_notes or description
     if (textMatchesAnyKeyword(school.custom_notes) || textMatchesAnyKeyword(school.description)) {
       return true;
-    }
-
-    // 4. Fallback category matching for broad terms
-    if (school.tuition) {
-      if (allKeywords.some(k => ["cong nghe", "ky thuat", "co khi", "dien", "ban dan", "may tinh", "it", "ai", "software", "lap trinh"].includes(k)) 
-          && school.tuition.engineering !== null && school.tuition.engineering !== undefined) return true;
-      if (allKeywords.some(k => ["y", "duoc", "dieu duong", "nursing", "suc khoe", "y te", "vat ly tri lieu"].includes(k)) 
-          && school.tuition.medicine_pharmacy !== null && school.tuition.medicine_pharmacy !== undefined) return true;
-      if (allKeywords.some(k => ["nghe thuat", "thiet ke", "lam dep", "tham my", "makeup", "trang diem", "san khau", "dien anh", "am nhac", "the thao", "kpop", "fashion", "thoi trang"].includes(k)) 
-          && school.tuition.arts_sports !== null && school.tuition.arts_sports !== undefined) return true;
-      if (allKeywords.some(k => ["khoa hoc", "tu nhien", "sinh hoc", "nong nghiep", "thuc pham"].includes(k)) 
-          && school.tuition.natural_sciences !== null && school.tuition.natural_sciences !== undefined) return true;
-      if (allKeywords.some(k => ["kinh doanh", "kinh te", "thuong mai", "quan tri", "truyen thong", "bao chi", "marketing", "ngon ngu", "han quoc", "nhan van", "van hoc", "luat", "du lich", "khach san", "logistics", "tam ly"].includes(k)) 
-          && school.tuition.humanities_social !== null && school.tuition.humanities_social !== undefined) return true;
     }
 
     return false;
