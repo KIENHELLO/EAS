@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react';
 import { X, ExternalLink, GraduationCap, MapPin, DollarSign, AlertCircle, BookOpen, BarChart2, Search, Flame } from 'lucide-react';
 import { formatCurrency, krwToVnd } from '../utils/currency';
 
-export default function DetailModal({ university, exchangeRate, onClose }) {
+export default function DetailModal({ university, exchangeRate, onClose, initialMajor = 'All' }) {
   const [formData, setFormData] = useState({
     name: '',
     phone: '',
@@ -11,8 +11,12 @@ export default function DetailModal({ university, exchangeRate, onClose }) {
   });
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [submitStatus, setSubmitStatus] = useState(null);
-  const [activeTab, setActiveTab] = useState('overview'); // 'overview' | 'majors'
-  const [majorQuery, setMajorQuery] = useState('');
+  const [activeTab, setActiveTab] = useState(
+    initialMajor && initialMajor !== 'All' ? 'majors' : 'overview'
+  );
+  const [majorQuery, setMajorQuery] = useState(
+    initialMajor && initialMajor !== 'All' ? initialMajor : ''
+  );
 
   // 1. Auto-fill and School Tracking on Mount
   useEffect(() => {
@@ -559,10 +563,22 @@ export default function DetailModal({ university, exchangeRate, onClose }) {
                   .map(faculty => {
                     const filteredMajors = (faculty.majors || []).filter(m => {
                       if (!majorQuery.trim()) return true;
-                      const q = majorQuery.toLowerCase();
-                      return m.name_vi.toLowerCase().includes(q) || 
-                             m.name_ko.toLowerCase().includes(q) || 
-                             faculty.faculty_name_vi.toLowerCase().includes(q);
+                      const rawQ = majorQuery.trim().toLowerCase();
+                      const normQ = removeVietnameseTones(rawQ);
+                      const tokens = normQ
+                        .split(/[\&\/\,\-\+]|\bva\b|\bhoac\b|\bor\b|\band\b/)
+                        .map(t => t.trim())
+                        .filter(t => t.length >= 2);
+                      const allKws = Array.from(new Set([rawQ, normQ, ...tokens]));
+
+                      const matchText = (txt) => {
+                        if (!txt) return false;
+                        const txtLower = txt.toLowerCase();
+                        const txtNorm = removeVietnameseTones(txtLower);
+                        return allKws.some(kw => txtLower.includes(kw) || txtNorm.includes(kw));
+                      };
+
+                      return matchText(m.name_vi) || matchText(m.name_ko) || matchText(faculty.faculty_name_vi) || matchText(faculty.faculty_name_ko);
                     });
 
                     if (majorQuery.trim() && filteredMajors.length === 0) return null;

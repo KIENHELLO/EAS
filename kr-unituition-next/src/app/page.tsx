@@ -118,47 +118,67 @@ export default function Home() {
   };
 
   const matchSchoolByMajor = (school: any, majorName: string) => {
-    if (!majorName || majorName === 'All') return true;
-    const query = majorName.toLowerCase();
-    const normQuery = removeVietnameseTones(query);
+    if (!majorName || majorName === 'All' || !majorName.trim()) return true;
+
+    const rawQuery = majorName.trim().toLowerCase();
+    const normQuery = removeVietnameseTones(rawQuery);
+
+    // Clean parenthetical notes like "(IT)", "(Nursing)"
+    const cleanQueryStr = rawQuery.replace(/\(.*?\)/g, '');
+    const normCleanStr = removeVietnameseTones(cleanQueryStr);
+
+    // Split compound queries (e.g. "Truyền thông & Báo chí" -> ["truyền thông", "báo chí"])
+    const queryTokens = normCleanStr
+      .split(/[\&\/\,\-\+]|\bva\b|\bhoac\b|\bor\b|\band\b/)
+      .map(t => t.trim())
+      .filter(t => t.length >= 2);
+
+    const allKeywords = Array.from(new Set([normCleanStr, normQuery, ...queryTokens]));
+
+    const textMatchesAnyKeyword = (text: string) => {
+      if (!text) return false;
+      const textLower = text.toLowerCase();
+      const textNorm = removeVietnameseTones(textLower);
+      return allKeywords.some(kw => textLower.includes(kw) || textNorm.includes(kw));
+    };
 
     // 1. Check featured_majors from XLSX
-    if (school.featured_majors) {
-      const fmLower = school.featured_majors.toLowerCase();
-      if (fmLower.includes(query) || removeVietnameseTones(fmLower).includes(normQuery)) return true;
+    if (school.featured_majors && textMatchesAnyKeyword(school.featured_majors)) {
+      return true;
     }
 
     // 2. Check structured majors_detail
     if (school.majors_detail && Array.isArray(school.majors_detail)) {
       const hasInDetail = school.majors_detail.some((faculty: any) => {
-        const facName = faculty.faculty_name_vi.toLowerCase();
-        if (facName.includes(query) || removeVietnameseTones(facName).includes(normQuery)) return true;
-        return (faculty.majors || []).some((m: any) => {
-          const mVi = m.name_vi.toLowerCase();
-          const mKo = m.name_ko.toLowerCase();
-          return mVi.includes(query) || mKo.includes(query) || removeVietnameseTones(mVi).includes(normQuery);
-        });
+        if (textMatchesAnyKeyword(faculty.faculty_name_vi) || textMatchesAnyKeyword(faculty.faculty_name_ko)) {
+          return true;
+        }
+        return (faculty.majors || []).some((m: any) => 
+          textMatchesAnyKeyword(m.name_vi) || textMatchesAnyKeyword(m.name_ko)
+        );
       });
       if (hasInDetail) return true;
     }
-    
+
     // 3. Check custom_notes & description
-    if (school.custom_notes) {
-      const notesLower = school.custom_notes.toLowerCase();
-      if (notesLower.includes(query) || removeVietnameseTones(notesLower).includes(normQuery)) return true;
+    if (textMatchesAnyKeyword(school.custom_notes) || textMatchesAnyKeyword(school.description)) {
+      return true;
     }
-    if (school.description) {
-      const descLower = school.description.toLowerCase();
-      if (descLower.includes(query) || removeVietnameseTones(descLower).includes(normQuery)) return true;
+
+    // 4. Fallback category matching for broad terms
+    if (school.tuition) {
+      if (allKeywords.some(k => ["cong nghe", "ky thuat", "co khi", "dien", "ban dan", "may tinh", "it", "ai", "software", "lap trinh"].includes(k)) 
+          && school.tuition.engineering !== null && school.tuition.engineering !== undefined) return true;
+      if (allKeywords.some(k => ["y", "duoc", "dieu duong", "nursing", "suc khoe", "y te", "vat ly tri lieu"].includes(k)) 
+          && school.tuition.medicine_pharmacy !== null && school.tuition.medicine_pharmacy !== undefined) return true;
+      if (allKeywords.some(k => ["nghe thuat", "thiet ke", "lam dep", "tham my", "makeup", "trang diem", "san khau", "dien anh", "am nhac", "the thao", "kpop", "fashion", "thoi trang"].includes(k)) 
+          && school.tuition.arts_sports !== null && school.tuition.arts_sports !== undefined) return true;
+      if (allKeywords.some(k => ["khoa hoc", "tu nhien", "sinh hoc", "nong nghiep", "thuc pham"].includes(k)) 
+          && school.tuition.natural_sciences !== null && school.tuition.natural_sciences !== undefined) return true;
+      if (allKeywords.some(k => ["kinh doanh", "kinh te", "thuong mai", "quan tri", "truyen thong", "bao chi", "marketing", "ngon ngu", "han quoc", "nhan van", "van hoc", "luat", "du lich", "khach san", "logistics", "tam ly"].includes(k)) 
+          && school.tuition.humanities_social !== null && school.tuition.humanities_social !== undefined) return true;
     }
-    
-    // 4. Map keywords to tuition categories (accents-insensitive)
-    if ((normQuery.includes("cong nghe") || normQuery.includes("ky thuat") || normQuery.includes("co khi") || normQuery.includes("dien") || normQuery.includes("ban dan") || normQuery.includes("may tinh") || normQuery.includes("it")) && school.tuition.engineering !== null && school.tuition.engineering !== undefined) return true;
-    if ((normQuery.includes("y") || normQuery.includes("duoc") || normQuery.includes("dieu duong") || normQuery.includes("suc khoe")) && school.tuition.medicine_pharmacy !== null && school.tuition.medicine_pharmacy !== undefined) return true;
-    if ((normQuery.includes("nghe thuat") || normQuery.includes("thiet ke") || normQuery.includes("lam dep") || normQuery.includes("tham my") || normQuery.includes("makeup") || normQuery.includes("trang diem") || normQuery.includes("san khau") || normQuery.includes("dien anh") || normQuery.includes("am nhac") || normQuery.includes("the thao")) && school.tuition.arts_sports !== null && school.tuition.arts_sports !== undefined) return true;
-    if ((normQuery.includes("khoa hoc") || normQuery.includes("tu nhien") || normQuery.includes("sinh hoc") || normQuery.includes("nong nghiep")) && school.tuition.natural_sciences !== null && school.tuition.natural_sciences !== undefined) return true;
-    if ((normQuery.includes("kinh doanh") || normQuery.includes("kinh te") || normQuery.includes("thuong mai") || normQuery.includes("quan tri") || normQuery.includes("truyen thong") || normQuery.includes("marketing") || normQuery.includes("ngon ngu") || normQuery.includes("nhan van") || normQuery.includes("van hoc") || normQuery.includes("luat") || normQuery.includes("du lich") || normQuery.includes("khach san") || normQuery.includes("logistics")) && school.tuition.humanities_social !== null && school.tuition.humanities_social !== undefined) return true;
-    
+
     return false;
   };
 
@@ -818,6 +838,7 @@ export default function Home() {
         <DetailModal 
           university={activeSchoolDetails}
           exchangeRate={exchangeRate}
+          initialMajor={selectedMajor}
           onClose={() => setActiveSchoolDetails(null)}
         />
       )}

@@ -139,11 +139,10 @@ export default function MajorSearchFilter({ value, onChange }) {
           placeholder="Gõ tìm ngành (ví dụ: Truyền thông, IT...)"
           value={inputValue}
           onChange={(e) => {
-            setInputValue(e.target.value);
+            const val = e.target.value;
+            setInputValue(val);
             if (!isOpen) setIsOpen(true);
-            if (e.target.value === '') {
-              onChange('All');
-            }
+            onChange(val.trim() === '' ? 'All' : val.trim());
           }}
           onFocus={() => setIsOpen(true)}
           onKeyDown={handleKeyDown}
