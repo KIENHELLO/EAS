@@ -623,8 +623,9 @@ export default function DetailModal({ university, exchangeRate, onClose }) {
           </div>
         ) : (
           /* OVERVIEW TAB VIEW */
-          <div 
-            className="modal-body-content"
+          <>
+            <div 
+              className="modal-body-content"
             style={{
               display: 'grid',
               gridTemplateColumns: 'repeat(auto-fit, minmax(min(100%, 300px), 1fr))',
@@ -1004,8 +1005,12 @@ export default function DetailModal({ university, exchangeRate, onClose }) {
                     transition: 'all var(--transition-fast)'
                   }}
                 >
+                  {isSubmitting ? 'Đang gửi thông tin...' : 'Gửi đăng ký tư vấn ngay'}
+                </button>
+              </form>
             )}
           </div>
+          </>
         )}
 
         {/* Footer Area */}
