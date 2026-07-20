@@ -1,4 +1,4 @@
-import { useState, useEffect, lazy, Suspense } from 'react';
+import { useState, useEffect, useMemo, lazy, Suspense } from 'react';
 import { Search, Filter, RotateCcw, HelpCircle, Map, List, Landmark } from 'lucide-react';
 import { useLocation, useNavigate } from 'react-router-dom';
 import { HelmetProvider } from 'react-helmet-async';
@@ -203,38 +203,52 @@ export default function App({ initialViewMode = 'map', initialActiveSchoolId = n
     return false;
   };
 
-  const filteredUniversities = universities
-    .filter(u => {
-      const matchQuery = 
-        u.name_vi.toLowerCase().includes(searchQuery.toLowerCase()) ||
-        u.name_en.toLowerCase().includes(searchQuery.toLowerCase()) ||
-        u.name_ko.toLowerCase().includes(searchQuery.toLowerCase());
-      
-      const matchRegion = selectedRegion === 'All' || u.region === selectedRegion;
-      const matchType = selectedType === 'All' || u.type === selectedType;
-      const matchGdtx = (!top2PercentOnly || u.accept_gdtx === 'top2') && (!top3PercentOnly || u.accept_gdtx === 'top3');
-      const matchMajor = matchSchoolByMajor(u, selectedMajor);
-      const matchVisa = !visaMetropolitanOnly || u.visa_metropolitan === true;
-      const matchNoTopik = !masterNoTopikOnly || u.master_no_topik === true;
-      const matchTop1 = !top1PercentOnly || u.top_1_percent === true;
+  // Pagination / Load More state for smooth 60fps rendering
+  const [displayLimit, setDisplayLimit] = useState(24);
 
-      return matchQuery && matchRegion && matchType && matchGdtx && matchMajor && matchVisa && matchNoTopik && matchTop1;
-    })
-    .sort((a, b) => {
-      if (sortBy === 'rank') {
-        return a.ranking - b.ranking; // Rank 1 is top
-      }
-      if (sortBy === 'tuition_asc') {
-        return getSchoolAvgTuition(a) - getSchoolAvgTuition(b);
-      }
-      if (sortBy === 'tuition_desc') {
-        return getSchoolAvgTuition(b) - getSchoolAvgTuition(a);
-      }
-      if (sortBy === 'name') {
-        return a.name_vi.localeCompare(b.name_vi);
-      }
-      return 0;
-    });
+  // Reset displayLimit whenever any filter changes
+  useEffect(() => {
+    setDisplayLimit(24);
+  }, [searchQuery, selectedRegion, selectedType, top2PercentOnly, top3PercentOnly, selectedMajor, visaMetropolitanOnly, masterNoTopikOnly, top1PercentOnly, sortBy]);
+
+  const filteredUniversities = useMemo(() => {
+    return universities
+      .filter(u => {
+        const matchQuery = 
+          u.name_vi.toLowerCase().includes(searchQuery.toLowerCase()) ||
+          u.name_en.toLowerCase().includes(searchQuery.toLowerCase()) ||
+          u.name_ko.toLowerCase().includes(searchQuery.toLowerCase());
+        
+        const matchRegion = selectedRegion === 'All' || u.region === selectedRegion;
+        const matchType = selectedType === 'All' || u.type === selectedType;
+        const matchGdtx = (!top2PercentOnly || u.accept_gdtx === 'top2') && (!top3PercentOnly || u.accept_gdtx === 'top3');
+        const matchMajor = matchSchoolByMajor(u, selectedMajor);
+        const matchVisa = !visaMetropolitanOnly || u.visa_metropolitan === true;
+        const matchNoTopik = !masterNoTopikOnly || u.master_no_topik === true;
+        const matchTop1 = !top1PercentOnly || u.top_1_percent === true;
+
+        return matchQuery && matchRegion && matchType && matchGdtx && matchMajor && matchVisa && matchNoTopik && matchTop1;
+      })
+      .sort((a, b) => {
+        if (sortBy === 'rank') {
+          return a.ranking - b.ranking; // Rank 1 is top
+        }
+        if (sortBy === 'tuition_asc') {
+          return getSchoolAvgTuition(a) - getSchoolAvgTuition(b);
+        }
+        if (sortBy === 'tuition_desc') {
+          return getSchoolAvgTuition(b) - getSchoolAvgTuition(a);
+        }
+        if (sortBy === 'name') {
+          return a.name_vi.localeCompare(b.name_vi);
+        }
+        return 0;
+      });
+  }, [searchQuery, selectedRegion, selectedType, top2PercentOnly, top3PercentOnly, selectedMajor, visaMetropolitanOnly, masterNoTopikOnly, top1PercentOnly, sortBy]);
+
+  const displayedUniversities = useMemo(() => {
+    return filteredUniversities.slice(0, displayLimit);
+  }, [filteredUniversities, displayLimit]);
 
   // Map View Filters & Sorting Logic
   const checkHasGks = (scholarships) => {
@@ -859,7 +873,7 @@ export default function App({ initialViewMode = 'map', initialActiveSchoolId = n
 
             {/* Schools Card Grid */}
             <div className="university-grid">
-              {filteredUniversities.map(school => (
+              {displayedUniversities.map(school => (
                 <SchoolCard 
                   key={school.id}
                   university={school}
@@ -870,6 +884,37 @@ export default function App({ initialViewMode = 'map', initialActiveSchoolId = n
                 />
               ))}
             </div>
+
+            {/* Load More Button for Smooth Scrolling Performance */}
+            {filteredUniversities.length > displayLimit && (
+              <div style={{ display: 'flex', justifyContent: 'center', marginTop: '2rem', marginBottom: '2rem' }}>
+                <button
+                  onClick={() => setDisplayLimit(prev => prev + 24)}
+                  className="glass-effect"
+                  style={{
+                    padding: '0.8rem 2rem',
+                    borderRadius: '9999px',
+                    border: '1px solid var(--primary)',
+                    color: 'var(--primary)',
+                    fontWeight: 700,
+                    fontSize: '0.9rem',
+                    cursor: 'pointer',
+                    boxShadow: 'var(--shadow-sm)',
+                    transition: 'all var(--transition-fast)'
+                  }}
+                  onMouseEnter={(e) => {
+                    e.currentTarget.style.backgroundColor = 'var(--primary)';
+                    e.currentTarget.style.color = '#ffffff';
+                  }}
+                  onMouseLeave={(e) => {
+                    e.currentTarget.style.backgroundColor = 'transparent';
+                    e.currentTarget.style.color = 'var(--primary)';
+                  }}
+                >
+                  Xem thêm trường học (Còn {filteredUniversities.length - displayLimit} trường) 👇
+                </button>
+              </div>
+            )}
           </>
         ) : (
           /* Compare view placeholder when fewer than 2 schools selected */

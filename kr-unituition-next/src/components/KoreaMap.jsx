@@ -65,7 +65,8 @@ export default function KoreaMap({
     const map = window.L.map(mapContainerRef.current, {
       zoomControl: true,
       scrollWheelZoom: true,
-      attributionControl: false
+      attributionControl: false,
+      preferCanvas: true
     }).setView([35.8, 127.8], 7);
 
     // Thêm CartoDB Positron làm base map
