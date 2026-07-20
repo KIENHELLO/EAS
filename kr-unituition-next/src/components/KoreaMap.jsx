@@ -86,7 +86,13 @@ export default function KoreaMap({
 
     // Xóa layer cũ nếu tồn tại
     if (geoJsonLayerRef.current) {
-      leafletMapRef.current.removeLayer(geoJsonLayerRef.current);
+      try {
+        if (leafletMapRef.current.hasLayer(geoJsonLayerRef.current)) {
+          leafletMapRef.current.removeLayer(geoJsonLayerRef.current);
+        }
+      } catch (e) {
+        // ignore leaflet internal removal error if layer already unmounted
+      }
     }
 
     const geoJsonLayer = window.L.geoJSON(geoJsonData, {
