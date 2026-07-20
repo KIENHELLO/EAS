@@ -36,7 +36,144 @@ export const universities = [
     "dorm_fee_desc": "1,1000,000-1,400,000KRW",
     "admission_conditions": "",
     "featured_majors": "Thiết kế – Giáo dục – Business",
-    "regional_restrictions": ""
+    "regional_restrictions": "",
+    "majors_detail": [
+      {
+        "category": "humanities_social",
+        "faculty_name_vi": "Khoa Nhân văn & Khoa học Xã hội",
+        "faculty_name_ko": "인문사회대학",
+        "tuition_krw": 2250000,
+        "majors": [
+          {
+            "name_vi": "Quản trị Kinh doanh",
+            "name_ko": "경영학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Ngôn ngữ & Văn hóa Hàn Quốc",
+            "name_ko": "한국언어문화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Truyền thông & Báo chí",
+            "name_ko": "미디어언론학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Thương mại Quốc tế",
+            "name_ko": "국제무역학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "engineering",
+        "faculty_name_vi": "Khoa Kỹ thuật & Công nghệ Thông tin",
+        "faculty_name_ko": "공과대학",
+        "tuition_krw": 2950000,
+        "majors": [
+          {
+            "name_vi": "Khoa học Máy tính & AI",
+            "name_ko": "컴퓨터공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Công nghệ Thông tin (IT)",
+            "name_ko": "정보통신공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Kỹ thuật Điện - Điện tử",
+            "name_ko": "전기전자공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Kỹ thuật Cơ khí",
+            "name_ko": "기계공학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "natural_sciences",
+        "faculty_name_vi": "Khoa Khoa học Tự nhiên & Sinh học",
+        "faculty_name_ko": "자연과학대학",
+        "tuition_krw": 2625000,
+        "majors": [
+          {
+            "name_vi": "Hóa học & Vật liệu mới",
+            "name_ko": "화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Công nghệ Thực phẩm & Dinh dưỡng",
+            "name_ko": "식품영양학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Sinh học Ứng dụng & Công nghệ Sinh học",
+            "name_ko": "생명공학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "arts_sports",
+        "faculty_name_vi": "Khoa Nghệ thuật & Thể dục Thể thao",
+        "faculty_name_ko": "예체능대학",
+        "tuition_krw": 3125000,
+        "majors": [
+          {
+            "name_vi": "Thiết kế Đồ họa & Kỹ thuật số",
+            "name_ko": "시각디자인학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Nghệ thuật Thẩm mỹ & Trang điểm (Make-up)",
+            "name_ko": "뷰티미용학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Diễn xuất, Sân khấu & Điện ảnh",
+            "name_ko": "연극영화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Âm nhạc K-Pop & Vẫn nghệ",
+            "name_ko": "실용음악학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "medicine_pharmacy",
+        "faculty_name_vi": "Khoa Y - Dược & Khoa học Y tế",
+        "faculty_name_ko": "의치약학/보건대학",
+        "tuition_krw": 3625000,
+        "majors": [
+          {
+            "name_vi": "Điều dưỡng (Nursing)",
+            "name_ko": "간호학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Quản lý Y tế & Bệnh viện",
+            "name_ko": "보건행정학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Vật lý trị liệu & Phục hồi chức năng",
+            "name_ko": "물리치료학과",
+            "is_hot": false
+          },
+          {
+            "name_vi": "Dược học",
+            "name_ko": "약학과",
+            "is_hot": true
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "kaist",
@@ -66,7 +203,144 @@ export const universities = [
     "visa_metropolitan": false,
     "master_no_topik": false,
     "custom_notes": "",
-    "top_1_percent": false
+    "top_1_percent": false,
+    "majors_detail": [
+      {
+        "category": "humanities_social",
+        "faculty_name_vi": "Khoa Nhân văn & Khoa học Xã hội",
+        "faculty_name_ko": "인문사회대학",
+        "tuition_krw": 3060000,
+        "majors": [
+          {
+            "name_vi": "Quản trị Kinh doanh",
+            "name_ko": "경영학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Ngôn ngữ & Văn hóa Hàn Quốc",
+            "name_ko": "한국언어문화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Truyền thông & Báo chí",
+            "name_ko": "미디어언론학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Thương mại Quốc tế",
+            "name_ko": "국제무역학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "engineering",
+        "faculty_name_vi": "Khoa Kỹ thuật & Công nghệ Thông tin",
+        "faculty_name_ko": "공과대학",
+        "tuition_krw": 4012000,
+        "majors": [
+          {
+            "name_vi": "Khoa học Máy tính & AI",
+            "name_ko": "컴퓨터공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Công nghệ Thông tin (IT)",
+            "name_ko": "정보통신공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Kỹ thuật Điện - Điện tử",
+            "name_ko": "전기전자공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Kỹ thuật Cơ khí",
+            "name_ko": "기계공학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "natural_sciences",
+        "faculty_name_vi": "Khoa Khoa học Tự nhiên & Sinh học",
+        "faculty_name_ko": "자연과학대학",
+        "tuition_krw": 3570000,
+        "majors": [
+          {
+            "name_vi": "Hóa học & Vật liệu mới",
+            "name_ko": "화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Công nghệ Thực phẩm & Dinh dưỡng",
+            "name_ko": "식품영양학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Sinh học Ứng dụng & Công nghệ Sinh học",
+            "name_ko": "생명공학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "arts_sports",
+        "faculty_name_vi": "Khoa Nghệ thuật & Thể dục Thể thao",
+        "faculty_name_ko": "예체능대학",
+        "tuition_krw": 4250000,
+        "majors": [
+          {
+            "name_vi": "Thiết kế Đồ họa & Kỹ thuật số",
+            "name_ko": "시각디자인학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Nghệ thuật Thẩm mỹ & Trang điểm (Make-up)",
+            "name_ko": "뷰티미용학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Diễn xuất, Sân khấu & Điện ảnh",
+            "name_ko": "연극영화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Âm nhạc K-Pop & Vẫn nghệ",
+            "name_ko": "실용음악학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "medicine_pharmacy",
+        "faculty_name_vi": "Khoa Y - Dược & Khoa học Y tế",
+        "faculty_name_ko": "의치약학/보건대학",
+        "tuition_krw": 3060000,
+        "majors": [
+          {
+            "name_vi": "Điều dưỡng (Nursing)",
+            "name_ko": "간호학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Quản lý Y tế & Bệnh viện",
+            "name_ko": "보건행정학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Vật lý trị liệu & Phục hồi chức năng",
+            "name_ko": "물리치료학과",
+            "is_hot": false
+          },
+          {
+            "name_vi": "Dược học",
+            "name_ko": "약학과",
+            "is_hot": true
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "yonsei",
@@ -105,7 +379,144 @@ export const universities = [
     "dorm_fee_desc": "600,000-1,150,000KRW",
     "admission_conditions": "",
     "featured_majors": "Y sinh – IT – Quốc tế học",
-    "regional_restrictions": ""
+    "regional_restrictions": "",
+    "majors_detail": [
+      {
+        "category": "humanities_social",
+        "faculty_name_vi": "Khoa Nhân văn & Khoa học Xã hội",
+        "faculty_name_ko": "인문사회대학",
+        "tuition_krw": 4050000,
+        "majors": [
+          {
+            "name_vi": "Quản trị Kinh doanh",
+            "name_ko": "경영학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Ngôn ngữ & Văn hóa Hàn Quốc",
+            "name_ko": "한국언어문화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Truyền thông & Báo chí",
+            "name_ko": "미디어언론학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Thương mại Quốc tế",
+            "name_ko": "국제무역학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "engineering",
+        "faculty_name_vi": "Khoa Kỹ thuật & Công nghệ Thông tin",
+        "faculty_name_ko": "공과대학",
+        "tuition_krw": 5310000,
+        "majors": [
+          {
+            "name_vi": "Khoa học Máy tính & AI",
+            "name_ko": "컴퓨터공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Công nghệ Thông tin (IT)",
+            "name_ko": "정보통신공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Kỹ thuật Điện - Điện tử",
+            "name_ko": "전기전자공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Kỹ thuật Cơ khí",
+            "name_ko": "기계공학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "natural_sciences",
+        "faculty_name_vi": "Khoa Khoa học Tự nhiên & Sinh học",
+        "faculty_name_ko": "자연과학대학",
+        "tuition_krw": 4725000,
+        "majors": [
+          {
+            "name_vi": "Hóa học & Vật liệu mới",
+            "name_ko": "화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Công nghệ Thực phẩm & Dinh dưỡng",
+            "name_ko": "식품영양학과",
+            "is_hot": false
+          },
+          {
+            "name_vi": "Sinh học Ứng dụng & Công nghệ Sinh học",
+            "name_ko": "생명공학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "arts_sports",
+        "faculty_name_vi": "Khoa Nghệ thuật & Thể dục Thể thao",
+        "faculty_name_ko": "예체능대학",
+        "tuition_krw": 5625000,
+        "majors": [
+          {
+            "name_vi": "Thiết kế Đồ họa & Kỹ thuật số",
+            "name_ko": "시각디자인학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Nghệ thuật Thẩm mỹ & Trang điểm (Make-up)",
+            "name_ko": "뷰티미용학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Diễn xuất, Sân khấu & Điện ảnh",
+            "name_ko": "연극영화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Âm nhạc K-Pop & Vẫn nghệ",
+            "name_ko": "실용음악학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "medicine_pharmacy",
+        "faculty_name_vi": "Khoa Y - Dược & Khoa học Y tế",
+        "faculty_name_ko": "의치약학/보건대학",
+        "tuition_krw": 7200000,
+        "majors": [
+          {
+            "name_vi": "Điều dưỡng (Nursing)",
+            "name_ko": "간호학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Quản lý Y tế & Bệnh viện",
+            "name_ko": "보건행정학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Vật lý trị liệu & Phục hồi chức năng",
+            "name_ko": "물리치료학과",
+            "is_hot": false
+          },
+          {
+            "name_vi": "Dược học",
+            "name_ko": "약학과",
+            "is_hot": true
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "korea",
@@ -144,7 +555,144 @@ export const universities = [
     "dorm_fee_desc": "1,100,000KRW",
     "admission_conditions": "",
     "featured_majors": "Hành chính công, Kinh doanh, CNTT",
-    "regional_restrictions": ""
+    "regional_restrictions": "",
+    "majors_detail": [
+      {
+        "category": "humanities_social",
+        "faculty_name_vi": "Khoa Nhân văn & Khoa học Xã hội",
+        "faculty_name_ko": "인문사회대학",
+        "tuition_krw": 3870000,
+        "majors": [
+          {
+            "name_vi": "Quản trị Kinh doanh",
+            "name_ko": "경영학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Ngôn ngữ & Văn hóa Hàn Quốc",
+            "name_ko": "한국언어문화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Truyền thông & Báo chí",
+            "name_ko": "미디어언론학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Thương mại Quốc tế",
+            "name_ko": "국제무역학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "engineering",
+        "faculty_name_vi": "Khoa Kỹ thuật & Công nghệ Thông tin",
+        "faculty_name_ko": "공과대학",
+        "tuition_krw": 5074000,
+        "majors": [
+          {
+            "name_vi": "Khoa học Máy tính & AI",
+            "name_ko": "컴퓨터공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Công nghệ Thông tin (IT)",
+            "name_ko": "정보통신공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Kỹ thuật Điện - Điện tử",
+            "name_ko": "전기전자공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Kỹ thuật Cơ khí",
+            "name_ko": "기계공학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "natural_sciences",
+        "faculty_name_vi": "Khoa Khoa học Tự nhiên & Sinh học",
+        "faculty_name_ko": "자연과학대학",
+        "tuition_krw": 4515000,
+        "majors": [
+          {
+            "name_vi": "Hóa học & Vật liệu mới",
+            "name_ko": "화학과",
+            "is_hot": false
+          },
+          {
+            "name_vi": "Công nghệ Thực phẩm & Dinh dưỡng",
+            "name_ko": "식품영양학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Sinh học Ứng dụng & Công nghệ Sinh học",
+            "name_ko": "생명공학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "arts_sports",
+        "faculty_name_vi": "Khoa Nghệ thuật & Thể dục Thể thao",
+        "faculty_name_ko": "예체능대학",
+        "tuition_krw": 5375000,
+        "majors": [
+          {
+            "name_vi": "Thiết kế Đồ họa & Kỹ thuật số",
+            "name_ko": "시각디자인학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Nghệ thuật Thẩm mỹ & Trang điểm (Make-up)",
+            "name_ko": "뷰티미용학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Diễn xuất, Sân khấu & Điện ảnh",
+            "name_ko": "연극영화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Âm nhạc K-Pop & Vẫn nghệ",
+            "name_ko": "실용음악학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "medicine_pharmacy",
+        "faculty_name_vi": "Khoa Y - Dược & Khoa học Y tế",
+        "faculty_name_ko": "의치약학/보건대학",
+        "tuition_krw": 6880000,
+        "majors": [
+          {
+            "name_vi": "Điều dưỡng (Nursing)",
+            "name_ko": "간호학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Quản lý Y tế & Bệnh viện",
+            "name_ko": "보건행정학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Vật lý trị liệu & Phục hồi chức năng",
+            "name_ko": "물리치료학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Dược học",
+            "name_ko": "약학과",
+            "is_hot": false
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "skku",
@@ -175,7 +723,144 @@ export const universities = [
     "visa_metropolitan": false,
     "master_no_topik": false,
     "custom_notes": "",
-    "top_1_percent": true
+    "top_1_percent": true,
+    "majors_detail": [
+      {
+        "category": "humanities_social",
+        "faculty_name_vi": "Khoa Nhân văn & Khoa học Xã hội",
+        "faculty_name_ko": "인문사회대학",
+        "tuition_krw": 3780000,
+        "majors": [
+          {
+            "name_vi": "Quản trị Kinh doanh",
+            "name_ko": "경영학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Ngôn ngữ & Văn hóa Hàn Quốc",
+            "name_ko": "한국언어문화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Truyền thông & Báo chí",
+            "name_ko": "미디어언론학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Thương mại Quốc tế",
+            "name_ko": "국제무역학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "engineering",
+        "faculty_name_vi": "Khoa Kỹ thuật & Công nghệ Thông tin",
+        "faculty_name_ko": "공과대학",
+        "tuition_krw": 4956000,
+        "majors": [
+          {
+            "name_vi": "Khoa học Máy tính & AI",
+            "name_ko": "컴퓨터공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Công nghệ Thông tin (IT)",
+            "name_ko": "정보통신공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Kỹ thuật Điện - Điện tử",
+            "name_ko": "전기전자공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Kỹ thuật Cơ khí",
+            "name_ko": "기계공학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "natural_sciences",
+        "faculty_name_vi": "Khoa Khoa học Tự nhiên & Sinh học",
+        "faculty_name_ko": "자연과학대학",
+        "tuition_krw": 4410000,
+        "majors": [
+          {
+            "name_vi": "Hóa học & Vật liệu mới",
+            "name_ko": "화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Công nghệ Thực phẩm & Dinh dưỡng",
+            "name_ko": "식품영양학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Sinh học Ứng dụng & Công nghệ Sinh học",
+            "name_ko": "생명공학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "arts_sports",
+        "faculty_name_vi": "Khoa Nghệ thuật & Thể dục Thể thao",
+        "faculty_name_ko": "예체능대학",
+        "tuition_krw": 5250000,
+        "majors": [
+          {
+            "name_vi": "Thiết kế Đồ họa & Kỹ thuật số",
+            "name_ko": "시각디자인학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Nghệ thuật Thẩm mỹ & Trang điểm (Make-up)",
+            "name_ko": "뷰티미용학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Diễn xuất, Sân khấu & Điện ảnh",
+            "name_ko": "연극영화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Âm nhạc K-Pop & Vẫn nghệ",
+            "name_ko": "실용음악학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "medicine_pharmacy",
+        "faculty_name_vi": "Khoa Y - Dược & Khoa học Y tế",
+        "faculty_name_ko": "의치약학/보건대학",
+        "tuition_krw": 6720000,
+        "majors": [
+          {
+            "name_vi": "Điều dưỡng (Nursing)",
+            "name_ko": "간호학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Quản lý Y tế & Bệnh viện",
+            "name_ko": "보건행정학과",
+            "is_hot": false
+          },
+          {
+            "name_vi": "Vật lý trị liệu & Phục hồi chức năng",
+            "name_ko": "물리치료학과",
+            "is_hot": false
+          },
+          {
+            "name_vi": "Dược học",
+            "name_ko": "약학과",
+            "is_hot": true
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "hanyang",
@@ -214,7 +899,144 @@ export const universities = [
     "dorm_fee_desc": "1,400,000-2,000,000KRW",
     "admission_conditions": "",
     "featured_majors": "Điều dưỡng – Làm đẹp – Thiết kế",
-    "regional_restrictions": ""
+    "regional_restrictions": "",
+    "majors_detail": [
+      {
+        "category": "humanities_social",
+        "faculty_name_vi": "Khoa Nhân văn & Khoa học Xã hội",
+        "faculty_name_ko": "인문사회대학",
+        "tuition_krw": 3690000,
+        "majors": [
+          {
+            "name_vi": "Quản trị Kinh doanh",
+            "name_ko": "경영학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Ngôn ngữ & Văn hóa Hàn Quốc",
+            "name_ko": "한국언어문화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Truyền thông & Báo chí",
+            "name_ko": "미디어언론학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Thương mại Quốc tế",
+            "name_ko": "국제무역학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "engineering",
+        "faculty_name_vi": "Khoa Kỹ thuật & Công nghệ Thông tin",
+        "faculty_name_ko": "공과대학",
+        "tuition_krw": 4838000,
+        "majors": [
+          {
+            "name_vi": "Khoa học Máy tính & AI",
+            "name_ko": "컴퓨터공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Công nghệ Thông tin (IT)",
+            "name_ko": "정보통신공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Kỹ thuật Điện - Điện tử",
+            "name_ko": "전기전자공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Kỹ thuật Cơ khí",
+            "name_ko": "기계공학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "natural_sciences",
+        "faculty_name_vi": "Khoa Khoa học Tự nhiên & Sinh học",
+        "faculty_name_ko": "자연과학대학",
+        "tuition_krw": 4305000,
+        "majors": [
+          {
+            "name_vi": "Hóa học & Vật liệu mới",
+            "name_ko": "화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Công nghệ Thực phẩm & Dinh dưỡng",
+            "name_ko": "식품영양학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Sinh học Ứng dụng & Công nghệ Sinh học",
+            "name_ko": "생명공학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "arts_sports",
+        "faculty_name_vi": "Khoa Nghệ thuật & Thể dục Thể thao",
+        "faculty_name_ko": "예체능대학",
+        "tuition_krw": 5125000,
+        "majors": [
+          {
+            "name_vi": "Thiết kế Đồ họa & Kỹ thuật số",
+            "name_ko": "시각디자인학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Nghệ thuật Thẩm mỹ & Trang điểm (Make-up)",
+            "name_ko": "뷰티미용학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Diễn xuất, Sân khấu & Điện ảnh",
+            "name_ko": "연극영화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Âm nhạc K-Pop & Vẫn nghệ",
+            "name_ko": "실용음악학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "medicine_pharmacy",
+        "faculty_name_vi": "Khoa Y - Dược & Khoa học Y tế",
+        "faculty_name_ko": "의치약학/보건대학",
+        "tuition_krw": 6560000,
+        "majors": [
+          {
+            "name_vi": "Điều dưỡng (Nursing)",
+            "name_ko": "간호학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Quản lý Y tế & Bệnh viện",
+            "name_ko": "보건행정학과",
+            "is_hot": false
+          },
+          {
+            "name_vi": "Vật lý trị liệu & Phục hồi chức năng",
+            "name_ko": "물리치료학과",
+            "is_hot": false
+          },
+          {
+            "name_vi": "Dược học",
+            "name_ko": "약학과",
+            "is_hot": true
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "khu",
@@ -253,7 +1075,144 @@ export const universities = [
     "dorm_fee_desc": "1,220,000-1,600,000KRW",
     "admission_conditions": "",
     "featured_majors": "Khách sạn du lịch – Đông y – Quan hệ quốc tế",
-    "regional_restrictions": ""
+    "regional_restrictions": "",
+    "majors_detail": [
+      {
+        "category": "humanities_social",
+        "faculty_name_vi": "Khoa Nhân văn & Khoa học Xã hội",
+        "faculty_name_ko": "인문사회대학",
+        "tuition_krw": 3820000,
+        "majors": [
+          {
+            "name_vi": "Quản trị Kinh doanh",
+            "name_ko": "경영학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Ngôn ngữ & Văn hóa Hàn Quốc",
+            "name_ko": "한국언어문화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Truyền thông & Báo chí",
+            "name_ko": "미디어언론학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Thương mại Quốc tế",
+            "name_ko": "국제무역학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "engineering",
+        "faculty_name_vi": "Khoa Kỹ thuật & Công nghệ Thông tin",
+        "faculty_name_ko": "공과대학",
+        "tuition_krw": 4950000,
+        "majors": [
+          {
+            "name_vi": "Khoa học Máy tính & AI",
+            "name_ko": "컴퓨터공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Công nghệ Thông tin (IT)",
+            "name_ko": "정보통신공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Kỹ thuật Điện - Điện tử",
+            "name_ko": "전기전자공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Kỹ thuật Cơ khí",
+            "name_ko": "기계공학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "natural_sciences",
+        "faculty_name_vi": "Khoa Khoa học Tự nhiên & Sinh học",
+        "faculty_name_ko": "자연과학대학",
+        "tuition_krw": 4550000,
+        "majors": [
+          {
+            "name_vi": "Hóa học & Vật liệu mới",
+            "name_ko": "화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Công nghệ Thực phẩm & Dinh dưỡng",
+            "name_ko": "식품영양학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Sinh học Ứng dụng & Công nghệ Sinh học",
+            "name_ko": "생명공학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "arts_sports",
+        "faculty_name_vi": "Khoa Nghệ thuật & Thể dục Thể thao",
+        "faculty_name_ko": "예체능대학",
+        "tuition_krw": 5200000,
+        "majors": [
+          {
+            "name_vi": "Thiết kế Đồ họa & Kỹ thuật số",
+            "name_ko": "시각디자인학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Nghệ thuật Thẩm mỹ & Trang điểm (Make-up)",
+            "name_ko": "뷰티미용학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Diễn xuất, Sân khấu & Điện ảnh",
+            "name_ko": "연극영화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Âm nhạc K-Pop & Vẫn nghệ",
+            "name_ko": "실용음악학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "medicine_pharmacy",
+        "faculty_name_vi": "Khoa Y - Dược & Khoa học Y tế",
+        "faculty_name_ko": "의치약학/보건대학",
+        "tuition_krw": 6350000,
+        "majors": [
+          {
+            "name_vi": "Điều dưỡng (Nursing)",
+            "name_ko": "간호학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Quản lý Y tế & Bệnh viện",
+            "name_ko": "보건행정학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Vật lý trị liệu & Phục hồi chức năng",
+            "name_ko": "물리치료학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Dược học",
+            "name_ko": "약학과",
+            "is_hot": true
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "ewha",
@@ -292,7 +1251,144 @@ export const universities = [
     "dorm_fee_desc": "1,500,000-2,500,000KRW",
     "admission_conditions": "7,0 trở lên\n- vắng ko quá 5 buổi (nhiều hơn cần giải trình)",
     "featured_majors": "Ngôn ngữ Hàn, Báo chí, Quan hệ công chúng, Âm nhạc & Nghệ thuật và Khoa học chính trị",
-    "regional_restrictions": ""
+    "regional_restrictions": "",
+    "majors_detail": [
+      {
+        "category": "humanities_social",
+        "faculty_name_vi": "Khoa Nhân văn & Khoa học Xã hội",
+        "faculty_name_ko": "인문사회대학",
+        "tuition_krw": 4100000,
+        "majors": [
+          {
+            "name_vi": "Quản trị Kinh doanh",
+            "name_ko": "경영학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Ngôn ngữ & Văn hóa Hàn Quốc",
+            "name_ko": "한국언어문화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Truyền thông & Báo chí",
+            "name_ko": "미디어언론학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Thương mại Quốc tế",
+            "name_ko": "국제무역학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "engineering",
+        "faculty_name_vi": "Khoa Kỹ thuật & Công nghệ Thông tin",
+        "faculty_name_ko": "공과대학",
+        "tuition_krw": 5190000,
+        "majors": [
+          {
+            "name_vi": "Khoa học Máy tính & AI",
+            "name_ko": "컴퓨터공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Công nghệ Thông tin (IT)",
+            "name_ko": "정보통신공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Kỹ thuật Điện - Điện tử",
+            "name_ko": "전기전자공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Kỹ thuật Cơ khí",
+            "name_ko": "기계공학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "natural_sciences",
+        "faculty_name_vi": "Khoa Khoa học Tự nhiên & Sinh học",
+        "faculty_name_ko": "자연과학대학",
+        "tuition_krw": 4850000,
+        "majors": [
+          {
+            "name_vi": "Hóa học & Vật liệu mới",
+            "name_ko": "화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Công nghệ Thực phẩm & Dinh dưỡng",
+            "name_ko": "식품영양학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Sinh học Ứng dụng & Công nghệ Sinh học",
+            "name_ko": "생명공학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "arts_sports",
+        "faculty_name_vi": "Khoa Nghệ thuật & Thể dục Thể thao",
+        "faculty_name_ko": "예체능대학",
+        "tuition_krw": 5380000,
+        "majors": [
+          {
+            "name_vi": "Thiết kế Đồ họa & Kỹ thuật số",
+            "name_ko": "시각디자인학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Nghệ thuật Thẩm mỹ & Trang điểm (Make-up)",
+            "name_ko": "뷰티미용학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Diễn xuất, Sân khấu & Điện ảnh",
+            "name_ko": "연극영화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Âm nhạc K-Pop & Vẫn nghệ",
+            "name_ko": "실용음악학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "medicine_pharmacy",
+        "faculty_name_vi": "Khoa Y - Dược & Khoa học Y tế",
+        "faculty_name_ko": "의치약학/보건대학",
+        "tuition_krw": 6620000,
+        "majors": [
+          {
+            "name_vi": "Điều dưỡng (Nursing)",
+            "name_ko": "간호학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Quản lý Y tế & Bệnh viện",
+            "name_ko": "보건행정학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Vật lý trị liệu & Phục hồi chức năng",
+            "name_ko": "물리치료학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Dược học",
+            "name_ko": "약학과",
+            "is_hot": true
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "sogang",
@@ -330,7 +1426,144 @@ export const universities = [
     "dorm_fee_desc": "1,200,000-1,800,000KRW",
     "admission_conditions": "",
     "featured_majors": "Kinh tế – Truyền thông – Quốc tế học",
-    "regional_restrictions": ""
+    "regional_restrictions": "",
+    "majors_detail": [
+      {
+        "category": "humanities_social",
+        "faculty_name_vi": "Khoa Nhân văn & Khoa học Xã hội",
+        "faculty_name_ko": "인문사회대학",
+        "tuition_krw": 3850000,
+        "majors": [
+          {
+            "name_vi": "Quản trị Kinh doanh",
+            "name_ko": "경영학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Ngôn ngữ & Văn hóa Hàn Quốc",
+            "name_ko": "한국언어문화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Truyền thông & Báo chí",
+            "name_ko": "미디어언론학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Thương mại Quốc tế",
+            "name_ko": "국제무역학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "engineering",
+        "faculty_name_vi": "Khoa Kỹ thuật & Công nghệ Thông tin",
+        "faculty_name_ko": "공과대학",
+        "tuition_krw": 4980000,
+        "majors": [
+          {
+            "name_vi": "Khoa học Máy tính & AI",
+            "name_ko": "컴퓨터공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Công nghệ Thông tin (IT)",
+            "name_ko": "정보통신공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Kỹ thuật Điện - Điện tử",
+            "name_ko": "전기전자공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Kỹ thuật Cơ khí",
+            "name_ko": "기계공학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "natural_sciences",
+        "faculty_name_vi": "Khoa Khoa học Tự nhiên & Sinh học",
+        "faculty_name_ko": "자연과학대학",
+        "tuition_krw": 4620000,
+        "majors": [
+          {
+            "name_vi": "Hóa học & Vật liệu mới",
+            "name_ko": "화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Công nghệ Thực phẩm & Dinh dưỡng",
+            "name_ko": "식품영양학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Sinh học Ứng dụng & Công nghệ Sinh học",
+            "name_ko": "생명공학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "arts_sports",
+        "faculty_name_vi": "Khoa Nghệ thuật & Thể dục Thể thao",
+        "faculty_name_ko": "예체능대학",
+        "tuition_krw": 4700000,
+        "majors": [
+          {
+            "name_vi": "Thiết kế Đồ họa & Kỹ thuật số",
+            "name_ko": "시각디자인학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Nghệ thuật Thẩm mỹ & Trang điểm (Make-up)",
+            "name_ko": "뷰티미용학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Diễn xuất, Sân khấu & Điện ảnh",
+            "name_ko": "연극영화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Âm nhạc K-Pop & Vẫn nghệ",
+            "name_ko": "실용음악학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "medicine_pharmacy",
+        "faculty_name_vi": "Khoa Y - Dược & Khoa học Y tế",
+        "faculty_name_ko": "의치약학/보건대학",
+        "tuition_krw": 3850000,
+        "majors": [
+          {
+            "name_vi": "Điều dưỡng (Nursing)",
+            "name_ko": "간호학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Quản lý Y tế & Bệnh viện",
+            "name_ko": "보건행정학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Vật lý trị liệu & Phục hồi chức năng",
+            "name_ko": "물리치료학과",
+            "is_hot": false
+          },
+          {
+            "name_vi": "Dược học",
+            "name_ko": "약학과",
+            "is_hot": true
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "cau",
@@ -368,7 +1601,144 @@ export const universities = [
     "dorm_fee_desc": "1,200,000-1,800,000KRW",
     "admission_conditions": "",
     "featured_majors": "Điện ảnh – Truyền thông – Business",
-    "regional_restrictions": ""
+    "regional_restrictions": "",
+    "majors_detail": [
+      {
+        "category": "humanities_social",
+        "faculty_name_vi": "Khoa Nhân văn & Khoa học Xã hội",
+        "faculty_name_ko": "인문사회대학",
+        "tuition_krw": 3790000,
+        "majors": [
+          {
+            "name_vi": "Quản trị Kinh doanh",
+            "name_ko": "경영학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Ngôn ngữ & Văn hóa Hàn Quốc",
+            "name_ko": "한국언어문화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Truyền thông & Báo chí",
+            "name_ko": "미디어언론학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Thương mại Quốc tế",
+            "name_ko": "국제무역학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "engineering",
+        "faculty_name_vi": "Khoa Kỹ thuật & Công nghệ Thông tin",
+        "faculty_name_ko": "공과대학",
+        "tuition_krw": 4890000,
+        "majors": [
+          {
+            "name_vi": "Khoa học Máy tính & AI",
+            "name_ko": "컴퓨터공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Công nghệ Thông tin (IT)",
+            "name_ko": "정보통신공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Kỹ thuật Điện - Điện tử",
+            "name_ko": "전기전자공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Kỹ thuật Cơ khí",
+            "name_ko": "기계공학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "natural_sciences",
+        "faculty_name_vi": "Khoa Khoa học Tự nhiên & Sinh học",
+        "faculty_name_ko": "자연과학대학",
+        "tuition_krw": 4500000,
+        "majors": [
+          {
+            "name_vi": "Hóa học & Vật liệu mới",
+            "name_ko": "화학과",
+            "is_hot": false
+          },
+          {
+            "name_vi": "Công nghệ Thực phẩm & Dinh dưỡng",
+            "name_ko": "식품영양학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Sinh học Ứng dụng & Công nghệ Sinh học",
+            "name_ko": "생명공학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "arts_sports",
+        "faculty_name_vi": "Khoa Nghệ thuật & Thể dục Thể thao",
+        "faculty_name_ko": "예체능대학",
+        "tuition_krw": 5150000,
+        "majors": [
+          {
+            "name_vi": "Thiết kế Đồ họa & Kỹ thuật số",
+            "name_ko": "시각디자인학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Nghệ thuật Thẩm mỹ & Trang điểm (Make-up)",
+            "name_ko": "뷰티미용학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Diễn xuất, Sân khấu & Điện ảnh",
+            "name_ko": "연극영화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Âm nhạc K-Pop & Vẫn nghệ",
+            "name_ko": "실용음악학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "medicine_pharmacy",
+        "faculty_name_vi": "Khoa Y - Dược & Khoa học Y tế",
+        "faculty_name_ko": "의치약학/보건대학",
+        "tuition_krw": 6300000,
+        "majors": [
+          {
+            "name_vi": "Điều dưỡng (Nursing)",
+            "name_ko": "간호학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Quản lý Y tế & Bệnh viện",
+            "name_ko": "보건행정학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Vật lý trị liệu & Phục hồi chức năng",
+            "name_ko": "물리치료학과",
+            "is_hot": false
+          },
+          {
+            "name_vi": "Dược học",
+            "name_ko": "약학과",
+            "is_hot": false
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "pusan",
@@ -399,7 +1769,144 @@ export const universities = [
     "visa_metropolitan": false,
     "master_no_topik": true,
     "custom_notes": "",
-    "top_1_percent": true
+    "top_1_percent": true,
+    "majors_detail": [
+      {
+        "category": "humanities_social",
+        "faculty_name_vi": "Khoa Nhân văn & Khoa học Xã hội",
+        "faculty_name_ko": "인문사회대학",
+        "tuition_krw": 3960000,
+        "majors": [
+          {
+            "name_vi": "Quản trị Kinh doanh",
+            "name_ko": "경영학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Ngôn ngữ & Văn hóa Hàn Quốc",
+            "name_ko": "한국언어문화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Truyền thông & Báo chí",
+            "name_ko": "미디어언론학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Thương mại Quốc tế",
+            "name_ko": "국제무역학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "engineering",
+        "faculty_name_vi": "Khoa Kỹ thuật & Công nghệ Thông tin",
+        "faculty_name_ko": "공과대학",
+        "tuition_krw": 5192000,
+        "majors": [
+          {
+            "name_vi": "Khoa học Máy tính & AI",
+            "name_ko": "컴퓨터공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Công nghệ Thông tin (IT)",
+            "name_ko": "정보통신공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Kỹ thuật Điện - Điện tử",
+            "name_ko": "전기전자공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Kỹ thuật Cơ khí",
+            "name_ko": "기계공학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "natural_sciences",
+        "faculty_name_vi": "Khoa Khoa học Tự nhiên & Sinh học",
+        "faculty_name_ko": "자연과학대학",
+        "tuition_krw": 4620000,
+        "majors": [
+          {
+            "name_vi": "Hóa học & Vật liệu mới",
+            "name_ko": "화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Công nghệ Thực phẩm & Dinh dưỡng",
+            "name_ko": "식품영양학과",
+            "is_hot": false
+          },
+          {
+            "name_vi": "Sinh học Ứng dụng & Công nghệ Sinh học",
+            "name_ko": "생명공학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "arts_sports",
+        "faculty_name_vi": "Khoa Nghệ thuật & Thể dục Thể thao",
+        "faculty_name_ko": "예체능대학",
+        "tuition_krw": 5500000,
+        "majors": [
+          {
+            "name_vi": "Thiết kế Đồ họa & Kỹ thuật số",
+            "name_ko": "시각디자인학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Nghệ thuật Thẩm mỹ & Trang điểm (Make-up)",
+            "name_ko": "뷰티미용학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Diễn xuất, Sân khấu & Điện ảnh",
+            "name_ko": "연극영화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Âm nhạc K-Pop & Vẫn nghệ",
+            "name_ko": "실용음악학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "medicine_pharmacy",
+        "faculty_name_vi": "Khoa Y - Dược & Khoa học Y tế",
+        "faculty_name_ko": "의치약학/보건대학",
+        "tuition_krw": 6380000,
+        "majors": [
+          {
+            "name_vi": "Điều dưỡng (Nursing)",
+            "name_ko": "간호학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Quản lý Y tế & Bệnh viện",
+            "name_ko": "보건행정학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Vật lý trị liệu & Phục hồi chức năng",
+            "name_ko": "물리치료학과",
+            "is_hot": false
+          },
+          {
+            "name_vi": "Dược học",
+            "name_ko": "약학과",
+            "is_hot": true
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "knu",
@@ -437,7 +1944,144 @@ export const universities = [
     "dorm_fee_desc": "800,000-1,500,000KRW",
     "admission_conditions": "",
     "featured_majors": "Điều dưỡng – Phúc lợi – Kinh doanh",
-    "regional_restrictions": ""
+    "regional_restrictions": "",
+    "majors_detail": [
+      {
+        "category": "humanities_social",
+        "faculty_name_vi": "Khoa Nhân văn & Khoa học Xã hội",
+        "faculty_name_ko": "인문사회대학",
+        "tuition_krw": 3870000,
+        "majors": [
+          {
+            "name_vi": "Quản trị Kinh doanh",
+            "name_ko": "경영학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Ngôn ngữ & Văn hóa Hàn Quốc",
+            "name_ko": "한국언어문화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Truyền thông & Báo chí",
+            "name_ko": "미디어언론학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Thương mại Quốc tế",
+            "name_ko": "국제무역학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "engineering",
+        "faculty_name_vi": "Khoa Kỹ thuật & Công nghệ Thông tin",
+        "faculty_name_ko": "공과대학",
+        "tuition_krw": 5074000,
+        "majors": [
+          {
+            "name_vi": "Khoa học Máy tính & AI",
+            "name_ko": "컴퓨터공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Công nghệ Thông tin (IT)",
+            "name_ko": "정보통신공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Kỹ thuật Điện - Điện tử",
+            "name_ko": "전기전자공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Kỹ thuật Cơ khí",
+            "name_ko": "기계공학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "natural_sciences",
+        "faculty_name_vi": "Khoa Khoa học Tự nhiên & Sinh học",
+        "faculty_name_ko": "자연과학대학",
+        "tuition_krw": 4515000,
+        "majors": [
+          {
+            "name_vi": "Hóa học & Vật liệu mới",
+            "name_ko": "화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Công nghệ Thực phẩm & Dinh dưỡng",
+            "name_ko": "식품영양학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Sinh học Ứng dụng & Công nghệ Sinh học",
+            "name_ko": "생명공학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "arts_sports",
+        "faculty_name_vi": "Khoa Nghệ thuật & Thể dục Thể thao",
+        "faculty_name_ko": "예체능대학",
+        "tuition_krw": 5375000,
+        "majors": [
+          {
+            "name_vi": "Thiết kế Đồ họa & Kỹ thuật số",
+            "name_ko": "시각디자인학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Nghệ thuật Thẩm mỹ & Trang điểm (Make-up)",
+            "name_ko": "뷰티미용학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Diễn xuất, Sân khấu & Điện ảnh",
+            "name_ko": "연극영화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Âm nhạc K-Pop & Vẫn nghệ",
+            "name_ko": "실용음악학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "medicine_pharmacy",
+        "faculty_name_vi": "Khoa Y - Dược & Khoa học Y tế",
+        "faculty_name_ko": "의치약학/보건대학",
+        "tuition_krw": 6235000,
+        "majors": [
+          {
+            "name_vi": "Điều dưỡng (Nursing)",
+            "name_ko": "간호학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Quản lý Y tế & Bệnh viện",
+            "name_ko": "보건행정학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Vật lý trị liệu & Phục hồi chức năng",
+            "name_ko": "물리치료학과",
+            "is_hot": false
+          },
+          {
+            "name_vi": "Dược học",
+            "name_ko": "약학과",
+            "is_hot": true
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "hufs",
@@ -475,7 +2119,144 @@ export const universities = [
     "dorm_fee_desc": "1,636,5000KRW",
     "admission_conditions": "",
     "featured_majors": "Ngoại ngữ – Quốc tế học – Biên phiên dịch",
-    "regional_restrictions": ""
+    "regional_restrictions": "",
+    "majors_detail": [
+      {
+        "category": "humanities_social",
+        "faculty_name_vi": "Khoa Nhân văn & Khoa học Xã hội",
+        "faculty_name_ko": "인문사회대학",
+        "tuition_krw": 3620000,
+        "majors": [
+          {
+            "name_vi": "Quản trị Kinh doanh",
+            "name_ko": "경영학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Ngôn ngữ & Văn hóa Hàn Quốc",
+            "name_ko": "한국언어문화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Truyền thông & Báo chí",
+            "name_ko": "미디어언론학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Thương mại Quốc tế",
+            "name_ko": "국제무역학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "engineering",
+        "faculty_name_vi": "Khoa Kỹ thuật & Công nghệ Thông tin",
+        "faculty_name_ko": "공과대학",
+        "tuition_krw": 4680000,
+        "majors": [
+          {
+            "name_vi": "Khoa học Máy tính & AI",
+            "name_ko": "컴퓨터공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Công nghệ Thông tin (IT)",
+            "name_ko": "정보통신공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Kỹ thuật Điện - Điện tử",
+            "name_ko": "전기전자공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Kỹ thuật Cơ khí",
+            "name_ko": "기계공학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "natural_sciences",
+        "faculty_name_vi": "Khoa Khoa học Tự nhiên & Sinh học",
+        "faculty_name_ko": "자연과학대학",
+        "tuition_krw": 4250000,
+        "majors": [
+          {
+            "name_vi": "Hóa học & Vật liệu mới",
+            "name_ko": "화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Công nghệ Thực phẩm & Dinh dưỡng",
+            "name_ko": "식품영양학과",
+            "is_hot": false
+          },
+          {
+            "name_vi": "Sinh học Ứng dụng & Công nghệ Sinh học",
+            "name_ko": "생명공학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "arts_sports",
+        "faculty_name_vi": "Khoa Nghệ thuật & Thể dục Thể thao",
+        "faculty_name_ko": "예체능대학",
+        "tuition_krw": 4300000,
+        "majors": [
+          {
+            "name_vi": "Thiết kế Đồ họa & Kỹ thuật số",
+            "name_ko": "시각디자인학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Nghệ thuật Thẩm mỹ & Trang điểm (Make-up)",
+            "name_ko": "뷰티미용학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Diễn xuất, Sân khấu & Điện ảnh",
+            "name_ko": "연극영화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Âm nhạc K-Pop & Vẫn nghệ",
+            "name_ko": "실용음악학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "medicine_pharmacy",
+        "faculty_name_vi": "Khoa Y - Dược & Khoa học Y tế",
+        "faculty_name_ko": "의치약학/보건대학",
+        "tuition_krw": 3620000,
+        "majors": [
+          {
+            "name_vi": "Điều dưỡng (Nursing)",
+            "name_ko": "간호학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Quản lý Y tế & Bệnh viện",
+            "name_ko": "보건행정학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Vật lý trị liệu & Phục hồi chức năng",
+            "name_ko": "물리치료학과",
+            "is_hot": false
+          },
+          {
+            "name_vi": "Dược học",
+            "name_ko": "약학과",
+            "is_hot": true
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "dongguk",
@@ -513,7 +2294,144 @@ export const universities = [
     "dorm_fee_desc": "1,700,000-2,100,000KRW",
     "admission_conditions": "",
     "featured_majors": "Y học – Du lịch – Văn hóa",
-    "regional_restrictions": ""
+    "regional_restrictions": "",
+    "majors_detail": [
+      {
+        "category": "humanities_social",
+        "faculty_name_vi": "Khoa Nhân văn & Khoa học Xã hội",
+        "faculty_name_ko": "인문사회대학",
+        "tuition_krw": 3820000,
+        "majors": [
+          {
+            "name_vi": "Quản trị Kinh doanh",
+            "name_ko": "경영학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Ngôn ngữ & Văn hóa Hàn Quốc",
+            "name_ko": "한국언어문화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Truyền thông & Báo chí",
+            "name_ko": "미디어언론학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Thương mại Quốc tế",
+            "name_ko": "국제무역학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "engineering",
+        "faculty_name_vi": "Khoa Kỹ thuật & Công nghệ Thông tin",
+        "faculty_name_ko": "공과대학",
+        "tuition_krw": 4900000,
+        "majors": [
+          {
+            "name_vi": "Khoa học Máy tính & AI",
+            "name_ko": "컴퓨터공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Công nghệ Thông tin (IT)",
+            "name_ko": "정보통신공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Kỹ thuật Điện - Điện tử",
+            "name_ko": "전기전자공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Kỹ thuật Cơ khí",
+            "name_ko": "기계공학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "natural_sciences",
+        "faculty_name_vi": "Khoa Khoa học Tự nhiên & Sinh học",
+        "faculty_name_ko": "자연과학대학",
+        "tuition_krw": 4480000,
+        "majors": [
+          {
+            "name_vi": "Hóa học & Vật liệu mới",
+            "name_ko": "화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Công nghệ Thực phẩm & Dinh dưỡng",
+            "name_ko": "식품영양학과",
+            "is_hot": false
+          },
+          {
+            "name_vi": "Sinh học Ứng dụng & Công nghệ Sinh học",
+            "name_ko": "생명공학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "arts_sports",
+        "faculty_name_vi": "Khoa Nghệ thuật & Thể dục Thể thao",
+        "faculty_name_ko": "예체능대학",
+        "tuition_krw": 5100000,
+        "majors": [
+          {
+            "name_vi": "Thiết kế Đồ họa & Kỹ thuật số",
+            "name_ko": "시각디자인학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Nghệ thuật Thẩm mỹ & Trang điểm (Make-up)",
+            "name_ko": "뷰티미용학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Diễn xuất, Sân khấu & Điện ảnh",
+            "name_ko": "연극영화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Âm nhạc K-Pop & Vẫn nghệ",
+            "name_ko": "실용음악학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "medicine_pharmacy",
+        "faculty_name_vi": "Khoa Y - Dược & Khoa học Y tế",
+        "faculty_name_ko": "의치약학/보건대학",
+        "tuition_krw": 6100000,
+        "majors": [
+          {
+            "name_vi": "Điều dưỡng (Nursing)",
+            "name_ko": "간호학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Quản lý Y tế & Bệnh viện",
+            "name_ko": "보건행정학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Vật lý trị liệu & Phục hồi chức năng",
+            "name_ko": "물리치료학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Dược học",
+            "name_ko": "약학과",
+            "is_hot": true
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "konkuk",
@@ -551,7 +2469,144 @@ export const universities = [
     "dorm_fee_desc": "1,600,000( 4HT) - 2,300,000( 6TH)",
     "admission_conditions": "",
     "featured_majors": "Bất động sản – Thú y – Truyền thông",
-    "regional_restrictions": ""
+    "regional_restrictions": "",
+    "majors_detail": [
+      {
+        "category": "humanities_social",
+        "faculty_name_vi": "Khoa Nhân văn & Khoa học Xã hội",
+        "faculty_name_ko": "인문사회대학",
+        "tuition_krw": 3900000,
+        "majors": [
+          {
+            "name_vi": "Quản trị Kinh doanh",
+            "name_ko": "경영학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Ngôn ngữ & Văn hóa Hàn Quốc",
+            "name_ko": "한국언어문화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Truyền thông & Báo chí",
+            "name_ko": "미디어언론학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Thương mại Quốc tế",
+            "name_ko": "국제무역학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "engineering",
+        "faculty_name_vi": "Khoa Kỹ thuật & Công nghệ Thông tin",
+        "faculty_name_ko": "공과대학",
+        "tuition_krw": 5050000,
+        "majors": [
+          {
+            "name_vi": "Khoa học Máy tính & AI",
+            "name_ko": "컴퓨터공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Công nghệ Thông tin (IT)",
+            "name_ko": "정보통신공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Kỹ thuật Điện - Điện tử",
+            "name_ko": "전기전자공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Kỹ thuật Cơ khí",
+            "name_ko": "기계공학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "natural_sciences",
+        "faculty_name_vi": "Khoa Khoa học Tự nhiên & Sinh học",
+        "faculty_name_ko": "자연과학대학",
+        "tuition_krw": 4600000,
+        "majors": [
+          {
+            "name_vi": "Hóa học & Vật liệu mới",
+            "name_ko": "화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Công nghệ Thực phẩm & Dinh dưỡng",
+            "name_ko": "식품영양학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Sinh học Ứng dụng & Công nghệ Sinh học",
+            "name_ko": "생명공학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "arts_sports",
+        "faculty_name_vi": "Khoa Nghệ thuật & Thể dục Thể thao",
+        "faculty_name_ko": "예체능대학",
+        "tuition_krw": 5120000,
+        "majors": [
+          {
+            "name_vi": "Thiết kế Đồ họa & Kỹ thuật số",
+            "name_ko": "시각디자인학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Nghệ thuật Thẩm mỹ & Trang điểm (Make-up)",
+            "name_ko": "뷰티미용학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Diễn xuất, Sân khấu & Điện ảnh",
+            "name_ko": "연극영화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Âm nhạc K-Pop & Vẫn nghệ",
+            "name_ko": "실용음악학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "medicine_pharmacy",
+        "faculty_name_vi": "Khoa Y - Dược & Khoa học Y tế",
+        "faculty_name_ko": "의치약학/보건대학",
+        "tuition_krw": 6280000,
+        "majors": [
+          {
+            "name_vi": "Điều dưỡng (Nursing)",
+            "name_ko": "간호학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Quản lý Y tế & Bệnh viện",
+            "name_ko": "보건행정학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Vật lý trị liệu & Phục hồi chức năng",
+            "name_ko": "물리치료학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Dược học",
+            "name_ko": "약학과",
+            "is_hot": true
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "sejong",
@@ -589,7 +2644,144 @@ export const universities = [
     "dorm_fee_desc": "1,200,000-1,600,000KRW",
     "admission_conditions": "",
     "featured_majors": "Khách sạn du lịch – Animation – Business",
-    "regional_restrictions": ""
+    "regional_restrictions": "",
+    "majors_detail": [
+      {
+        "category": "humanities_social",
+        "faculty_name_vi": "Khoa Nhân văn & Khoa học Xã hội",
+        "faculty_name_ko": "인문사회대학",
+        "tuition_krw": 3510000,
+        "majors": [
+          {
+            "name_vi": "Quản trị Kinh doanh",
+            "name_ko": "경영학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Ngôn ngữ & Văn hóa Hàn Quốc",
+            "name_ko": "한국언어문화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Truyền thông & Báo chí",
+            "name_ko": "미디어언론학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Thương mại Quốc tế",
+            "name_ko": "국제무역학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "engineering",
+        "faculty_name_vi": "Khoa Kỹ thuật & Công nghệ Thông tin",
+        "faculty_name_ko": "공과대학",
+        "tuition_krw": 4602000,
+        "majors": [
+          {
+            "name_vi": "Khoa học Máy tính & AI",
+            "name_ko": "컴퓨터공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Công nghệ Thông tin (IT)",
+            "name_ko": "정보통신공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Kỹ thuật Điện - Điện tử",
+            "name_ko": "전기전자공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Kỹ thuật Cơ khí",
+            "name_ko": "기계공학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "natural_sciences",
+        "faculty_name_vi": "Khoa Khoa học Tự nhiên & Sinh học",
+        "faculty_name_ko": "자연과학대학",
+        "tuition_krw": 4095000,
+        "majors": [
+          {
+            "name_vi": "Hóa học & Vật liệu mới",
+            "name_ko": "화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Công nghệ Thực phẩm & Dinh dưỡng",
+            "name_ko": "식품영양학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Sinh học Ứng dụng & Công nghệ Sinh học",
+            "name_ko": "생명공학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "arts_sports",
+        "faculty_name_vi": "Khoa Nghệ thuật & Thể dục Thể thao",
+        "faculty_name_ko": "예체능대학",
+        "tuition_krw": 4875000,
+        "majors": [
+          {
+            "name_vi": "Thiết kế Đồ họa & Kỹ thuật số",
+            "name_ko": "시각디자인학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Nghệ thuật Thẩm mỹ & Trang điểm (Make-up)",
+            "name_ko": "뷰티미용학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Diễn xuất, Sân khấu & Điện ảnh",
+            "name_ko": "연극영화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Âm nhạc K-Pop & Vẫn nghệ",
+            "name_ko": "실용음악학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "medicine_pharmacy",
+        "faculty_name_vi": "Khoa Y - Dược & Khoa học Y tế",
+        "faculty_name_ko": "의치약학/보건대학",
+        "tuition_krw": 3510000,
+        "majors": [
+          {
+            "name_vi": "Điều dưỡng (Nursing)",
+            "name_ko": "간호학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Quản lý Y tế & Bệnh viện",
+            "name_ko": "보건행정학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Vật lý trị liệu & Phục hồi chức năng",
+            "name_ko": "물리치료학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Dược học",
+            "name_ko": "약학과",
+            "is_hot": true
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "kookmin",
@@ -627,7 +2819,144 @@ export const universities = [
     "dorm_fee_desc": "653,000KRW",
     "admission_conditions": "",
     "featured_majors": "Thiết kế ô tô – Business – Design",
-    "regional_restrictions": ""
+    "regional_restrictions": "",
+    "majors_detail": [
+      {
+        "category": "humanities_social",
+        "faculty_name_vi": "Khoa Nhân văn & Khoa học Xã hội",
+        "faculty_name_ko": "인문사회대학",
+        "tuition_krw": 3555000,
+        "majors": [
+          {
+            "name_vi": "Quản trị Kinh doanh",
+            "name_ko": "경영학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Ngôn ngữ & Văn hóa Hàn Quốc",
+            "name_ko": "한국언어문화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Truyền thông & Báo chí",
+            "name_ko": "미디어언론학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Thương mại Quốc tế",
+            "name_ko": "국제무역학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "engineering",
+        "faculty_name_vi": "Khoa Kỹ thuật & Công nghệ Thông tin",
+        "faculty_name_ko": "공과대학",
+        "tuition_krw": 4661000,
+        "majors": [
+          {
+            "name_vi": "Khoa học Máy tính & AI",
+            "name_ko": "컴퓨터공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Công nghệ Thông tin (IT)",
+            "name_ko": "정보통신공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Kỹ thuật Điện - Điện tử",
+            "name_ko": "전기전자공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Kỹ thuật Cơ khí",
+            "name_ko": "기계공학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "natural_sciences",
+        "faculty_name_vi": "Khoa Khoa học Tự nhiên & Sinh học",
+        "faculty_name_ko": "자연과학대학",
+        "tuition_krw": 4147500,
+        "majors": [
+          {
+            "name_vi": "Hóa học & Vật liệu mới",
+            "name_ko": "화학과",
+            "is_hot": false
+          },
+          {
+            "name_vi": "Công nghệ Thực phẩm & Dinh dưỡng",
+            "name_ko": "식품영양학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Sinh học Ứng dụng & Công nghệ Sinh học",
+            "name_ko": "생명공학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "arts_sports",
+        "faculty_name_vi": "Khoa Nghệ thuật & Thể dục Thể thao",
+        "faculty_name_ko": "예체능대학",
+        "tuition_krw": 4937500,
+        "majors": [
+          {
+            "name_vi": "Thiết kế Đồ họa & Kỹ thuật số",
+            "name_ko": "시각디자인학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Nghệ thuật Thẩm mỹ & Trang điểm (Make-up)",
+            "name_ko": "뷰티미용학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Diễn xuất, Sân khấu & Điện ảnh",
+            "name_ko": "연극영화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Âm nhạc K-Pop & Vẫn nghệ",
+            "name_ko": "실용음악학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "medicine_pharmacy",
+        "faculty_name_vi": "Khoa Y - Dược & Khoa học Y tế",
+        "faculty_name_ko": "의치약학/보건대학",
+        "tuition_krw": 3555000,
+        "majors": [
+          {
+            "name_vi": "Điều dưỡng (Nursing)",
+            "name_ko": "간호학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Quản lý Y tế & Bệnh viện",
+            "name_ko": "보건행정학과",
+            "is_hot": false
+          },
+          {
+            "name_vi": "Vật lý trị liệu & Phục hồi chức năng",
+            "name_ko": "물리치료학과",
+            "is_hot": false
+          },
+          {
+            "name_vi": "Dược học",
+            "name_ko": "약학과",
+            "is_hot": false
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "ajou",
@@ -665,7 +2994,144 @@ export const universities = [
     "dorm_fee_desc": "600,000-1,000,000KRW",
     "admission_conditions": "6,0 trở lên (xem xét)",
     "featured_majors": "",
-    "regional_restrictions": ""
+    "regional_restrictions": "",
+    "majors_detail": [
+      {
+        "category": "humanities_social",
+        "faculty_name_vi": "Khoa Nhân văn & Khoa học Xã hội",
+        "faculty_name_ko": "인문사회대학",
+        "tuition_krw": 3690000,
+        "majors": [
+          {
+            "name_vi": "Quản trị Kinh doanh",
+            "name_ko": "경영학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Ngôn ngữ & Văn hóa Hàn Quốc",
+            "name_ko": "한국언어문화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Truyền thông & Báo chí",
+            "name_ko": "미디어언론학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Thương mại Quốc tế",
+            "name_ko": "국제무역학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "engineering",
+        "faculty_name_vi": "Khoa Kỹ thuật & Công nghệ Thông tin",
+        "faculty_name_ko": "공과대학",
+        "tuition_krw": 4838000,
+        "majors": [
+          {
+            "name_vi": "Khoa học Máy tính & AI",
+            "name_ko": "컴퓨터공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Công nghệ Thông tin (IT)",
+            "name_ko": "정보통신공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Kỹ thuật Điện - Điện tử",
+            "name_ko": "전기전자공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Kỹ thuật Cơ khí",
+            "name_ko": "기계공학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "natural_sciences",
+        "faculty_name_vi": "Khoa Khoa học Tự nhiên & Sinh học",
+        "faculty_name_ko": "자연과학대학",
+        "tuition_krw": 4305000,
+        "majors": [
+          {
+            "name_vi": "Hóa học & Vật liệu mới",
+            "name_ko": "화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Công nghệ Thực phẩm & Dinh dưỡng",
+            "name_ko": "식품영양학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Sinh học Ứng dụng & Công nghệ Sinh học",
+            "name_ko": "생명공학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "arts_sports",
+        "faculty_name_vi": "Khoa Nghệ thuật & Thể dục Thể thao",
+        "faculty_name_ko": "예체능대학",
+        "tuition_krw": 5125000,
+        "majors": [
+          {
+            "name_vi": "Thiết kế Đồ họa & Kỹ thuật số",
+            "name_ko": "시각디자인학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Nghệ thuật Thẩm mỹ & Trang điểm (Make-up)",
+            "name_ko": "뷰티미용학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Diễn xuất, Sân khấu & Điện ảnh",
+            "name_ko": "연극영화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Âm nhạc K-Pop & Vẫn nghệ",
+            "name_ko": "실용음악학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "medicine_pharmacy",
+        "faculty_name_vi": "Khoa Y - Dược & Khoa học Y tế",
+        "faculty_name_ko": "의치약학/보건대학",
+        "tuition_krw": 6560000,
+        "majors": [
+          {
+            "name_vi": "Điều dưỡng (Nursing)",
+            "name_ko": "간호학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Quản lý Y tế & Bệnh viện",
+            "name_ko": "보건행정학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Vật lý trị liệu & Phục hồi chức năng",
+            "name_ko": "물리치료학과",
+            "is_hot": false
+          },
+          {
+            "name_vi": "Dược học",
+            "name_ko": "약학과",
+            "is_hot": true
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "inha",
@@ -703,7 +3169,144 @@ export const universities = [
     "dorm_fee_desc": "1,500,000-2,500,000KRW",
     "admission_conditions": "",
     "featured_majors": "Điều dưỡng, Hàng không, Kinh doanh",
-    "regional_restrictions": ""
+    "regional_restrictions": "",
+    "majors_detail": [
+      {
+        "category": "humanities_social",
+        "faculty_name_vi": "Khoa Nhân văn & Khoa học Xã hội",
+        "faculty_name_ko": "인문사회대학",
+        "tuition_krw": 3645000,
+        "majors": [
+          {
+            "name_vi": "Quản trị Kinh doanh",
+            "name_ko": "경영학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Ngôn ngữ & Văn hóa Hàn Quốc",
+            "name_ko": "한국언어문화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Truyền thông & Báo chí",
+            "name_ko": "미디어언론학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Thương mại Quốc tế",
+            "name_ko": "국제무역학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "engineering",
+        "faculty_name_vi": "Khoa Kỹ thuật & Công nghệ Thông tin",
+        "faculty_name_ko": "공과대학",
+        "tuition_krw": 4779000,
+        "majors": [
+          {
+            "name_vi": "Khoa học Máy tính & AI",
+            "name_ko": "컴퓨터공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Công nghệ Thông tin (IT)",
+            "name_ko": "정보통신공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Kỹ thuật Điện - Điện tử",
+            "name_ko": "전기전자공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Kỹ thuật Cơ khí",
+            "name_ko": "기계공학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "natural_sciences",
+        "faculty_name_vi": "Khoa Khoa học Tự nhiên & Sinh học",
+        "faculty_name_ko": "자연과학대학",
+        "tuition_krw": 4252500,
+        "majors": [
+          {
+            "name_vi": "Hóa học & Vật liệu mới",
+            "name_ko": "화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Công nghệ Thực phẩm & Dinh dưỡng",
+            "name_ko": "식품영양학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Sinh học Ứng dụng & Công nghệ Sinh học",
+            "name_ko": "생명공학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "arts_sports",
+        "faculty_name_vi": "Khoa Nghệ thuật & Thể dục Thể thao",
+        "faculty_name_ko": "예체능대학",
+        "tuition_krw": 5062500,
+        "majors": [
+          {
+            "name_vi": "Thiết kế Đồ họa & Kỹ thuật số",
+            "name_ko": "시각디자인학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Nghệ thuật Thẩm mỹ & Trang điểm (Make-up)",
+            "name_ko": "뷰티미용학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Diễn xuất, Sân khấu & Điện ảnh",
+            "name_ko": "연극영화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Âm nhạc K-Pop & Vẫn nghệ",
+            "name_ko": "실용음악학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "medicine_pharmacy",
+        "faculty_name_vi": "Khoa Y - Dược & Khoa học Y tế",
+        "faculty_name_ko": "의치약학/보건대학",
+        "tuition_krw": 6480000,
+        "majors": [
+          {
+            "name_vi": "Điều dưỡng (Nursing)",
+            "name_ko": "간호학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Quản lý Y tế & Bệnh viện",
+            "name_ko": "보건행정학과",
+            "is_hot": false
+          },
+          {
+            "name_vi": "Vật lý trị liệu & Phục hồi chức năng",
+            "name_ko": "물리치료학과",
+            "is_hot": false
+          },
+          {
+            "name_vi": "Dược học",
+            "name_ko": "약학과",
+            "is_hot": true
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "postech",
@@ -742,7 +3345,144 @@ export const universities = [
     "admission_conditions": "",
     "featured_majors": "Đại học Khoa học & Công nghệ Pohang - POSTECH\ncông nghệ",
     "regional_restrictions": "",
-    "is_restricted_school": false
+    "is_restricted_school": false,
+    "majors_detail": [
+      {
+        "category": "humanities_social",
+        "faculty_name_vi": "Khoa Nhân văn & Khoa học Xã hội",
+        "faculty_name_ko": "인문사회대학",
+        "tuition_krw": 3200000,
+        "majors": [
+          {
+            "name_vi": "Quản trị Kinh doanh",
+            "name_ko": "경영학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Ngôn ngữ & Văn hóa Hàn Quốc",
+            "name_ko": "한국언어문화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Truyền thông & Báo chí",
+            "name_ko": "미디어언론학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Thương mại Quốc tế",
+            "name_ko": "국제무역학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "engineering",
+        "faculty_name_vi": "Khoa Kỹ thuật & Công nghệ Thông tin",
+        "faculty_name_ko": "공과대학",
+        "tuition_krw": 3200000,
+        "majors": [
+          {
+            "name_vi": "Khoa học Máy tính & AI",
+            "name_ko": "컴퓨터공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Công nghệ Thông tin (IT)",
+            "name_ko": "정보통신공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Kỹ thuật Điện - Điện tử",
+            "name_ko": "전기전자공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Kỹ thuật Cơ khí",
+            "name_ko": "기계공학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "natural_sciences",
+        "faculty_name_vi": "Khoa Khoa học Tự nhiên & Sinh học",
+        "faculty_name_ko": "자연과학대학",
+        "tuition_krw": 3200000,
+        "majors": [
+          {
+            "name_vi": "Hóa học & Vật liệu mới",
+            "name_ko": "화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Công nghệ Thực phẩm & Dinh dưỡng",
+            "name_ko": "식품영양학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Sinh học Ứng dụng & Công nghệ Sinh học",
+            "name_ko": "생명공학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "arts_sports",
+        "faculty_name_vi": "Khoa Nghệ thuật & Thể dục Thể thao",
+        "faculty_name_ko": "예체능대학",
+        "tuition_krw": 3200000,
+        "majors": [
+          {
+            "name_vi": "Thiết kế Đồ họa & Kỹ thuật số",
+            "name_ko": "시각디자인학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Nghệ thuật Thẩm mỹ & Trang điểm (Make-up)",
+            "name_ko": "뷰티미용학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Diễn xuất, Sân khấu & Điện ảnh",
+            "name_ko": "연극영화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Âm nhạc K-Pop & Vẫn nghệ",
+            "name_ko": "실용음악학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "medicine_pharmacy",
+        "faculty_name_vi": "Khoa Y - Dược & Khoa học Y tế",
+        "faculty_name_ko": "의치약학/보건대학",
+        "tuition_krw": 3200000,
+        "majors": [
+          {
+            "name_vi": "Điều dưỡng (Nursing)",
+            "name_ko": "간호학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Quản lý Y tế & Bệnh viện",
+            "name_ko": "보건행정학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Vật lý trị liệu & Phục hồi chức năng",
+            "name_ko": "물리치료학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Dược học",
+            "name_ko": "약학과",
+            "is_hot": true
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "unist",
@@ -772,7 +3512,144 @@ export const universities = [
     "visa_metropolitan": false,
     "master_no_topik": false,
     "custom_notes": "",
-    "top_1_percent": false
+    "top_1_percent": false,
+    "majors_detail": [
+      {
+        "category": "humanities_social",
+        "faculty_name_vi": "Khoa Nhân văn & Khoa học Xã hội",
+        "faculty_name_ko": "인문사회대학",
+        "tuition_krw": 3150000,
+        "majors": [
+          {
+            "name_vi": "Quản trị Kinh doanh",
+            "name_ko": "경영학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Ngôn ngữ & Văn hóa Hàn Quốc",
+            "name_ko": "한국언어문화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Truyền thông & Báo chí",
+            "name_ko": "미디어언론학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Thương mại Quốc tế",
+            "name_ko": "국제무역학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "engineering",
+        "faculty_name_vi": "Khoa Kỹ thuật & Công nghệ Thông tin",
+        "faculty_name_ko": "공과대학",
+        "tuition_krw": 3180000,
+        "majors": [
+          {
+            "name_vi": "Khoa học Máy tính & AI",
+            "name_ko": "컴퓨터공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Công nghệ Thông tin (IT)",
+            "name_ko": "정보통신공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Kỹ thuật Điện - Điện tử",
+            "name_ko": "전기전자공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Kỹ thuật Cơ khí",
+            "name_ko": "기계공학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "natural_sciences",
+        "faculty_name_vi": "Khoa Khoa học Tự nhiên & Sinh học",
+        "faculty_name_ko": "자연과학대학",
+        "tuition_krw": 3150000,
+        "majors": [
+          {
+            "name_vi": "Hóa học & Vật liệu mới",
+            "name_ko": "화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Công nghệ Thực phẩm & Dinh dưỡng",
+            "name_ko": "식품영양학과",
+            "is_hot": false
+          },
+          {
+            "name_vi": "Sinh học Ứng dụng & Công nghệ Sinh học",
+            "name_ko": "생명공학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "arts_sports",
+        "faculty_name_vi": "Khoa Nghệ thuật & Thể dục Thể thao",
+        "faculty_name_ko": "예체능대학",
+        "tuition_krw": 3150000,
+        "majors": [
+          {
+            "name_vi": "Thiết kế Đồ họa & Kỹ thuật số",
+            "name_ko": "시각디자인학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Nghệ thuật Thẩm mỹ & Trang điểm (Make-up)",
+            "name_ko": "뷰티미용학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Diễn xuất, Sân khấu & Điện ảnh",
+            "name_ko": "연극영화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Âm nhạc K-Pop & Vẫn nghệ",
+            "name_ko": "실용음악학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "medicine_pharmacy",
+        "faculty_name_vi": "Khoa Y - Dược & Khoa học Y tế",
+        "faculty_name_ko": "의치약학/보건대학",
+        "tuition_krw": 3150000,
+        "majors": [
+          {
+            "name_vi": "Điều dưỡng (Nursing)",
+            "name_ko": "간호학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Quản lý Y tế & Bệnh viện",
+            "name_ko": "보건행정학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Vật lý trị liệu & Phục hồi chức năng",
+            "name_ko": "물리치료학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Dược học",
+            "name_ko": "약학과",
+            "is_hot": true
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "gist",
@@ -802,7 +3679,144 @@ export const universities = [
     "visa_metropolitan": false,
     "master_no_topik": false,
     "custom_notes": "",
-    "top_1_percent": false
+    "top_1_percent": false,
+    "majors_detail": [
+      {
+        "category": "humanities_social",
+        "faculty_name_vi": "Khoa Nhân văn & Khoa học Xã hội",
+        "faculty_name_ko": "인문사회대학",
+        "tuition_krw": 2925000,
+        "majors": [
+          {
+            "name_vi": "Quản trị Kinh doanh",
+            "name_ko": "경영학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Ngôn ngữ & Văn hóa Hàn Quốc",
+            "name_ko": "한국언어문화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Truyền thông & Báo chí",
+            "name_ko": "미디어언론학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Thương mại Quốc tế",
+            "name_ko": "국제무역학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "engineering",
+        "faculty_name_vi": "Khoa Kỹ thuật & Công nghệ Thông tin",
+        "faculty_name_ko": "공과대학",
+        "tuition_krw": 3835000,
+        "majors": [
+          {
+            "name_vi": "Khoa học Máy tính & AI",
+            "name_ko": "컴퓨터공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Công nghệ Thông tin (IT)",
+            "name_ko": "정보통신공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Kỹ thuật Điện - Điện tử",
+            "name_ko": "전기전자공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Kỹ thuật Cơ khí",
+            "name_ko": "기계공학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "natural_sciences",
+        "faculty_name_vi": "Khoa Khoa học Tự nhiên & Sinh học",
+        "faculty_name_ko": "자연과학대학",
+        "tuition_krw": 3412500,
+        "majors": [
+          {
+            "name_vi": "Hóa học & Vật liệu mới",
+            "name_ko": "화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Công nghệ Thực phẩm & Dinh dưỡng",
+            "name_ko": "식품영양학과",
+            "is_hot": false
+          },
+          {
+            "name_vi": "Sinh học Ứng dụng & Công nghệ Sinh học",
+            "name_ko": "생명공학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "arts_sports",
+        "faculty_name_vi": "Khoa Nghệ thuật & Thể dục Thể thao",
+        "faculty_name_ko": "예체능대학",
+        "tuition_krw": 2925000,
+        "majors": [
+          {
+            "name_vi": "Thiết kế Đồ họa & Kỹ thuật số",
+            "name_ko": "시각디자인학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Nghệ thuật Thẩm mỹ & Trang điểm (Make-up)",
+            "name_ko": "뷰티미용학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Diễn xuất, Sân khấu & Điện ảnh",
+            "name_ko": "연극영화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Âm nhạc K-Pop & Vẫn nghệ",
+            "name_ko": "실용음악학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "medicine_pharmacy",
+        "faculty_name_vi": "Khoa Y - Dược & Khoa học Y tế",
+        "faculty_name_ko": "의치약학/보건대학",
+        "tuition_krw": 2925000,
+        "majors": [
+          {
+            "name_vi": "Điều dưỡng (Nursing)",
+            "name_ko": "간호학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Quản lý Y tế & Bệnh viện",
+            "name_ko": "보건행정학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Vật lý trị liệu & Phục hồi chức năng",
+            "name_ko": "물리치료학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Dược học",
+            "name_ko": "약학과",
+            "is_hot": true
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "chonnam",
@@ -840,7 +3854,144 @@ export const universities = [
     "dorm_fee_desc": "1,200,000--1,900,000KRW",
     "admission_conditions": "",
     "featured_majors": "Y khoa – Điều dưỡng – Vật lý trị liệu",
-    "regional_restrictions": ""
+    "regional_restrictions": "",
+    "majors_detail": [
+      {
+        "category": "humanities_social",
+        "faculty_name_vi": "Khoa Nhân văn & Khoa học Xã hội",
+        "faculty_name_ko": "인문사회대학",
+        "tuition_krw": 1750000,
+        "majors": [
+          {
+            "name_vi": "Quản trị Kinh doanh",
+            "name_ko": "경영학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Ngôn ngữ & Văn hóa Hàn Quốc",
+            "name_ko": "한국언어문화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Truyền thông & Báo chí",
+            "name_ko": "미디어언론학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Thương mại Quốc tế",
+            "name_ko": "국제무역학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "engineering",
+        "faculty_name_vi": "Khoa Kỹ thuật & Công nghệ Thông tin",
+        "faculty_name_ko": "공과대학",
+        "tuition_krw": 2320000,
+        "majors": [
+          {
+            "name_vi": "Khoa học Máy tính & AI",
+            "name_ko": "컴퓨터공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Công nghệ Thông tin (IT)",
+            "name_ko": "정보통신공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Kỹ thuật Điện - Điện tử",
+            "name_ko": "전기전자공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Kỹ thuật Cơ khí",
+            "name_ko": "기계공학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "natural_sciences",
+        "faculty_name_vi": "Khoa Khoa học Tự nhiên & Sinh học",
+        "faculty_name_ko": "자연과학대학",
+        "tuition_krw": 2150000,
+        "majors": [
+          {
+            "name_vi": "Hóa học & Vật liệu mới",
+            "name_ko": "화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Công nghệ Thực phẩm & Dinh dưỡng",
+            "name_ko": "식품영양학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Sinh học Ứng dụng & Công nghệ Sinh học",
+            "name_ko": "생명공학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "arts_sports",
+        "faculty_name_vi": "Khoa Nghệ thuật & Thể dục Thể thao",
+        "faculty_name_ko": "예체능대학",
+        "tuition_krw": 2450000,
+        "majors": [
+          {
+            "name_vi": "Thiết kế Đồ họa & Kỹ thuật số",
+            "name_ko": "시각디자인학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Nghệ thuật Thẩm mỹ & Trang điểm (Make-up)",
+            "name_ko": "뷰티미용학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Diễn xuất, Sân khấu & Điện ảnh",
+            "name_ko": "연극영화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Âm nhạc K-Pop & Vẫn nghệ",
+            "name_ko": "실용음악학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "medicine_pharmacy",
+        "faculty_name_vi": "Khoa Y - Dược & Khoa học Y tế",
+        "faculty_name_ko": "의치약학/보건대학",
+        "tuition_krw": 3250000,
+        "majors": [
+          {
+            "name_vi": "Điều dưỡng (Nursing)",
+            "name_ko": "간호학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Quản lý Y tế & Bệnh viện",
+            "name_ko": "보건행정학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Vật lý trị liệu & Phục hồi chức năng",
+            "name_ko": "물리치료학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Dược học",
+            "name_ko": "약학과",
+            "is_hot": true
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "jbnu",
@@ -878,7 +4029,144 @@ export const universities = [
     "dorm_fee_desc": "600,000-1,000,000KRW",
     "admission_conditions": "",
     "featured_majors": "Điều dưỡng – Công nghệ thực phẩm – Làm đẹp",
-    "regional_restrictions": ""
+    "regional_restrictions": "",
+    "majors_detail": [
+      {
+        "category": "humanities_social",
+        "faculty_name_vi": "Khoa Nhân văn & Khoa học Xã hội",
+        "faculty_name_ko": "인문사회대학",
+        "tuition_krw": 3690000,
+        "majors": [
+          {
+            "name_vi": "Quản trị Kinh doanh",
+            "name_ko": "경영학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Ngôn ngữ & Văn hóa Hàn Quốc",
+            "name_ko": "한국언어문화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Truyền thông & Báo chí",
+            "name_ko": "미디어언론학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Thương mại Quốc tế",
+            "name_ko": "국제무역학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "engineering",
+        "faculty_name_vi": "Khoa Kỹ thuật & Công nghệ Thông tin",
+        "faculty_name_ko": "공과대학",
+        "tuition_krw": 4838000,
+        "majors": [
+          {
+            "name_vi": "Khoa học Máy tính & AI",
+            "name_ko": "컴퓨터공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Công nghệ Thông tin (IT)",
+            "name_ko": "정보통신공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Kỹ thuật Điện - Điện tử",
+            "name_ko": "전기전자공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Kỹ thuật Cơ khí",
+            "name_ko": "기계공학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "natural_sciences",
+        "faculty_name_vi": "Khoa Khoa học Tự nhiên & Sinh học",
+        "faculty_name_ko": "자연과학대학",
+        "tuition_krw": 4305000,
+        "majors": [
+          {
+            "name_vi": "Hóa học & Vật liệu mới",
+            "name_ko": "화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Công nghệ Thực phẩm & Dinh dưỡng",
+            "name_ko": "식품영양학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Sinh học Ứng dụng & Công nghệ Sinh học",
+            "name_ko": "생명공학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "arts_sports",
+        "faculty_name_vi": "Khoa Nghệ thuật & Thể dục Thể thao",
+        "faculty_name_ko": "예체능대학",
+        "tuition_krw": 5125000,
+        "majors": [
+          {
+            "name_vi": "Thiết kế Đồ họa & Kỹ thuật số",
+            "name_ko": "시각디자인학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Nghệ thuật Thẩm mỹ & Trang điểm (Make-up)",
+            "name_ko": "뷰티미용학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Diễn xuất, Sân khấu & Điện ảnh",
+            "name_ko": "연극영화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Âm nhạc K-Pop & Vẫn nghệ",
+            "name_ko": "실용음악학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "medicine_pharmacy",
+        "faculty_name_vi": "Khoa Y - Dược & Khoa học Y tế",
+        "faculty_name_ko": "의치약학/보건대학",
+        "tuition_krw": 5945000,
+        "majors": [
+          {
+            "name_vi": "Điều dưỡng (Nursing)",
+            "name_ko": "간호학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Quản lý Y tế & Bệnh viện",
+            "name_ko": "보건행정학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Vật lý trị liệu & Phục hồi chức năng",
+            "name_ko": "물리치료학과",
+            "is_hot": false
+          },
+          {
+            "name_vi": "Dược học",
+            "name_ko": "약학과",
+            "is_hot": true
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "kangwon",
@@ -908,7 +4196,144 @@ export const universities = [
     "visa_metropolitan": false,
     "master_no_topik": true,
     "custom_notes": "",
-    "top_1_percent": false
+    "top_1_percent": false,
+    "majors_detail": [
+      {
+        "category": "humanities_social",
+        "faculty_name_vi": "Khoa Nhân văn & Khoa học Xã hội",
+        "faculty_name_ko": "인문사회대학",
+        "tuition_krw": 3600000,
+        "majors": [
+          {
+            "name_vi": "Quản trị Kinh doanh",
+            "name_ko": "경영학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Ngôn ngữ & Văn hóa Hàn Quốc",
+            "name_ko": "한국언어문화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Truyền thông & Báo chí",
+            "name_ko": "미디어언론학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Thương mại Quốc tế",
+            "name_ko": "국제무역학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "engineering",
+        "faculty_name_vi": "Khoa Kỹ thuật & Công nghệ Thông tin",
+        "faculty_name_ko": "공과대학",
+        "tuition_krw": 4720000,
+        "majors": [
+          {
+            "name_vi": "Khoa học Máy tính & AI",
+            "name_ko": "컴퓨터공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Công nghệ Thông tin (IT)",
+            "name_ko": "정보통신공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Kỹ thuật Điện - Điện tử",
+            "name_ko": "전기전자공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Kỹ thuật Cơ khí",
+            "name_ko": "기계공학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "natural_sciences",
+        "faculty_name_vi": "Khoa Khoa học Tự nhiên & Sinh học",
+        "faculty_name_ko": "자연과학대학",
+        "tuition_krw": 4200000,
+        "majors": [
+          {
+            "name_vi": "Hóa học & Vật liệu mới",
+            "name_ko": "화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Công nghệ Thực phẩm & Dinh dưỡng",
+            "name_ko": "식품영양학과",
+            "is_hot": false
+          },
+          {
+            "name_vi": "Sinh học Ứng dụng & Công nghệ Sinh học",
+            "name_ko": "생명공학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "arts_sports",
+        "faculty_name_vi": "Khoa Nghệ thuật & Thể dục Thể thao",
+        "faculty_name_ko": "예체능대학",
+        "tuition_krw": 5000000,
+        "majors": [
+          {
+            "name_vi": "Thiết kế Đồ họa & Kỹ thuật số",
+            "name_ko": "시각디자인학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Nghệ thuật Thẩm mỹ & Trang điểm (Make-up)",
+            "name_ko": "뷰티미용학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Diễn xuất, Sân khấu & Điện ảnh",
+            "name_ko": "연극영화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Âm nhạc K-Pop & Vẫn nghệ",
+            "name_ko": "실용음악학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "medicine_pharmacy",
+        "faculty_name_vi": "Khoa Y - Dược & Khoa học Y tế",
+        "faculty_name_ko": "의치약학/보건대학",
+        "tuition_krw": 5800000,
+        "majors": [
+          {
+            "name_vi": "Điều dưỡng (Nursing)",
+            "name_ko": "간호학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Quản lý Y tế & Bệnh viện",
+            "name_ko": "보건행정학과",
+            "is_hot": false
+          },
+          {
+            "name_vi": "Vật lý trị liệu & Phục hồi chức năng",
+            "name_ko": "물리치료학과",
+            "is_hot": false
+          },
+          {
+            "name_vi": "Dược học",
+            "name_ko": "약학과",
+            "is_hot": true
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "jeju",
@@ -946,7 +4371,144 @@ export const universities = [
     "dorm_fee_desc": "800,000-1,300,000KRW",
     "admission_conditions": "6,5 trở lên",
     "featured_majors": "",
-    "regional_restrictions": ""
+    "regional_restrictions": "",
+    "majors_detail": [
+      {
+        "category": "humanities_social",
+        "faculty_name_vi": "Khoa Nhân văn & Khoa học Xã hội",
+        "faculty_name_ko": "인문사회대학",
+        "tuition_krw": 3420000,
+        "majors": [
+          {
+            "name_vi": "Quản trị Kinh doanh",
+            "name_ko": "경영학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Ngôn ngữ & Văn hóa Hàn Quốc",
+            "name_ko": "한국언어문화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Truyền thông & Báo chí",
+            "name_ko": "미디어언론학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Thương mại Quốc tế",
+            "name_ko": "국제무역학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "engineering",
+        "faculty_name_vi": "Khoa Kỹ thuật & Công nghệ Thông tin",
+        "faculty_name_ko": "공과대학",
+        "tuition_krw": 4484000,
+        "majors": [
+          {
+            "name_vi": "Khoa học Máy tính & AI",
+            "name_ko": "컴퓨터공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Công nghệ Thông tin (IT)",
+            "name_ko": "정보통신공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Kỹ thuật Điện - Điện tử",
+            "name_ko": "전기전자공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Kỹ thuật Cơ khí",
+            "name_ko": "기계공학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "natural_sciences",
+        "faculty_name_vi": "Khoa Khoa học Tự nhiên & Sinh học",
+        "faculty_name_ko": "자연과학대학",
+        "tuition_krw": 3990000,
+        "majors": [
+          {
+            "name_vi": "Hóa học & Vật liệu mới",
+            "name_ko": "화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Công nghệ Thực phẩm & Dinh dưỡng",
+            "name_ko": "식품영양학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Sinh học Ứng dụng & Công nghệ Sinh học",
+            "name_ko": "생명공학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "arts_sports",
+        "faculty_name_vi": "Khoa Nghệ thuật & Thể dục Thể thao",
+        "faculty_name_ko": "예체능대학",
+        "tuition_krw": 4750000,
+        "majors": [
+          {
+            "name_vi": "Thiết kế Đồ họa & Kỹ thuật số",
+            "name_ko": "시각디자인학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Nghệ thuật Thẩm mỹ & Trang điểm (Make-up)",
+            "name_ko": "뷰티미용학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Diễn xuất, Sân khấu & Điện ảnh",
+            "name_ko": "연극영화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Âm nhạc K-Pop & Vẫn nghệ",
+            "name_ko": "실용음악학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "medicine_pharmacy",
+        "faculty_name_vi": "Khoa Y - Dược & Khoa học Y tế",
+        "faculty_name_ko": "의치약학/보건대학",
+        "tuition_krw": 5510000,
+        "majors": [
+          {
+            "name_vi": "Điều dưỡng (Nursing)",
+            "name_ko": "간호학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Quản lý Y tế & Bệnh viện",
+            "name_ko": "보건행정학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Vật lý trị liệu & Phục hồi chức năng",
+            "name_ko": "물리치료학과",
+            "is_hot": false
+          },
+          {
+            "name_vi": "Dược học",
+            "name_ko": "약학과",
+            "is_hot": true
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "uos",
@@ -984,7 +4546,144 @@ export const universities = [
     "dorm_fee_desc": "1,200,000-1,600,000KRW",
     "admission_conditions": "",
     "featured_majors": "Công vụ – Đô thị học – Kỹ thuật",
-    "regional_restrictions": ""
+    "regional_restrictions": "",
+    "majors_detail": [
+      {
+        "category": "humanities_social",
+        "faculty_name_vi": "Khoa Nhân văn & Khoa học Xã hội",
+        "faculty_name_ko": "인문사회대학",
+        "tuition_krw": 1022000,
+        "majors": [
+          {
+            "name_vi": "Quản trị Kinh doanh",
+            "name_ko": "경영학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Ngôn ngữ & Văn hóa Hàn Quốc",
+            "name_ko": "한국언어문화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Truyền thông & Báo chí",
+            "name_ko": "미디어언론학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Thương mại Quốc tế",
+            "name_ko": "국제무역학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "engineering",
+        "faculty_name_vi": "Khoa Kỹ thuật & Công nghệ Thông tin",
+        "faculty_name_ko": "공과대학",
+        "tuition_krw": 1350000,
+        "majors": [
+          {
+            "name_vi": "Khoa học Máy tính & AI",
+            "name_ko": "컴퓨터공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Công nghệ Thông tin (IT)",
+            "name_ko": "정보통신공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Kỹ thuật Điện - Điện tử",
+            "name_ko": "전기전자공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Kỹ thuật Cơ khí",
+            "name_ko": "기계공학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "natural_sciences",
+        "faculty_name_vi": "Khoa Khoa học Tự nhiên & Sinh học",
+        "faculty_name_ko": "자연과학대학",
+        "tuition_krw": 1225000,
+        "majors": [
+          {
+            "name_vi": "Hóa học & Vật liệu mới",
+            "name_ko": "화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Công nghệ Thực phẩm & Dinh dưỡng",
+            "name_ko": "식품영양학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Sinh học Ứng dụng & Công nghệ Sinh học",
+            "name_ko": "생명공학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "arts_sports",
+        "faculty_name_vi": "Khoa Nghệ thuật & Thể dục Thể thao",
+        "faculty_name_ko": "예체능대학",
+        "tuition_krw": 1610000,
+        "majors": [
+          {
+            "name_vi": "Thiết kế Đồ họa & Kỹ thuật số",
+            "name_ko": "시각디자인학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Nghệ thuật Thẩm mỹ & Trang điểm (Make-up)",
+            "name_ko": "뷰티미용학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Diễn xuất, Sân khấu & Điện ảnh",
+            "name_ko": "연극영화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Âm nhạc K-Pop & Vẫn nghệ",
+            "name_ko": "실용음악학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "medicine_pharmacy",
+        "faculty_name_vi": "Khoa Y - Dược & Khoa học Y tế",
+        "faculty_name_ko": "의치약학/보건대학",
+        "tuition_krw": 1022000,
+        "majors": [
+          {
+            "name_vi": "Điều dưỡng (Nursing)",
+            "name_ko": "간호학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Quản lý Y tế & Bệnh viện",
+            "name_ko": "보건행정학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Vật lý trị liệu & Phục hồi chức năng",
+            "name_ko": "물리치료학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Dược học",
+            "name_ko": "약학과",
+            "is_hot": true
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "soongsil",
@@ -1022,7 +4721,144 @@ export const universities = [
     "dorm_fee_desc": "1,100,000-1,500,000KRW",
     "admission_conditions": "",
     "featured_majors": "IT – AI – Kinh doanh",
-    "regional_restrictions": ""
+    "regional_restrictions": "",
+    "majors_detail": [
+      {
+        "category": "humanities_social",
+        "faculty_name_vi": "Khoa Nhân văn & Khoa học Xã hội",
+        "faculty_name_ko": "인문사회대학",
+        "tuition_krw": 3555000,
+        "majors": [
+          {
+            "name_vi": "Quản trị Kinh doanh",
+            "name_ko": "경영학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Ngôn ngữ & Văn hóa Hàn Quốc",
+            "name_ko": "한국언어문화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Truyền thông & Báo chí",
+            "name_ko": "미디어언론학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Thương mại Quốc tế",
+            "name_ko": "국제무역학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "engineering",
+        "faculty_name_vi": "Khoa Kỹ thuật & Công nghệ Thông tin",
+        "faculty_name_ko": "공과대학",
+        "tuition_krw": 4661000,
+        "majors": [
+          {
+            "name_vi": "Khoa học Máy tính & AI",
+            "name_ko": "컴퓨터공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Công nghệ Thông tin (IT)",
+            "name_ko": "정보통신공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Kỹ thuật Điện - Điện tử",
+            "name_ko": "전기전자공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Kỹ thuật Cơ khí",
+            "name_ko": "기계공학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "natural_sciences",
+        "faculty_name_vi": "Khoa Khoa học Tự nhiên & Sinh học",
+        "faculty_name_ko": "자연과학대학",
+        "tuition_krw": 4147500,
+        "majors": [
+          {
+            "name_vi": "Hóa học & Vật liệu mới",
+            "name_ko": "화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Công nghệ Thực phẩm & Dinh dưỡng",
+            "name_ko": "식품영양학과",
+            "is_hot": false
+          },
+          {
+            "name_vi": "Sinh học Ứng dụng & Công nghệ Sinh học",
+            "name_ko": "생명공학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "arts_sports",
+        "faculty_name_vi": "Khoa Nghệ thuật & Thể dục Thể thao",
+        "faculty_name_ko": "예체능대학",
+        "tuition_krw": 4937500,
+        "majors": [
+          {
+            "name_vi": "Thiết kế Đồ họa & Kỹ thuật số",
+            "name_ko": "시각디자인학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Nghệ thuật Thẩm mỹ & Trang điểm (Make-up)",
+            "name_ko": "뷰티미용학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Diễn xuất, Sân khấu & Điện ảnh",
+            "name_ko": "연극영화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Âm nhạc K-Pop & Vẫn nghệ",
+            "name_ko": "실용음악학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "medicine_pharmacy",
+        "faculty_name_vi": "Khoa Y - Dược & Khoa học Y tế",
+        "faculty_name_ko": "의치약학/보건대학",
+        "tuition_krw": 3555000,
+        "majors": [
+          {
+            "name_vi": "Điều dưỡng (Nursing)",
+            "name_ko": "간호학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Quản lý Y tế & Bệnh viện",
+            "name_ko": "보건행정학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Vật lý trị liệu & Phục hồi chức năng",
+            "name_ko": "물리치료학과",
+            "is_hot": false
+          },
+          {
+            "name_vi": "Dược học",
+            "name_ko": "약학과",
+            "is_hot": true
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "yeungnam",
@@ -1060,7 +4896,144 @@ export const universities = [
     "dorm_fee_desc": "630,000-780,000KRW",
     "admission_conditions": "",
     "featured_majors": "Điều dưỡng – Khách sạn – Thiết kế",
-    "regional_restrictions": ""
+    "regional_restrictions": "",
+    "majors_detail": [
+      {
+        "category": "humanities_social",
+        "faculty_name_vi": "Khoa Nhân văn & Khoa học Xã hội",
+        "faculty_name_ko": "인문사회대학",
+        "tuition_krw": 3200000,
+        "majors": [
+          {
+            "name_vi": "Quản trị Kinh doanh",
+            "name_ko": "경영학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Ngôn ngữ & Văn hóa Hàn Quốc",
+            "name_ko": "한국언어문화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Truyền thông & Báo chí",
+            "name_ko": "미디어언론학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Thương mại Quốc tế",
+            "name_ko": "국제무역학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "engineering",
+        "faculty_name_vi": "Khoa Kỹ thuật & Công nghệ Thông tin",
+        "faculty_name_ko": "공과대학",
+        "tuition_krw": 4350000,
+        "majors": [
+          {
+            "name_vi": "Khoa học Máy tính & AI",
+            "name_ko": "컴퓨터공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Công nghệ Thông tin (IT)",
+            "name_ko": "정보통신공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Kỹ thuật Điện - Điện tử",
+            "name_ko": "전기전자공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Kỹ thuật Cơ khí",
+            "name_ko": "기계공학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "natural_sciences",
+        "faculty_name_vi": "Khoa Khoa học Tự nhiên & Sinh học",
+        "faculty_name_ko": "자연과학대학",
+        "tuition_krw": 3950000,
+        "majors": [
+          {
+            "name_vi": "Hóa học & Vật liệu mới",
+            "name_ko": "화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Công nghệ Thực phẩm & Dinh dưỡng",
+            "name_ko": "식품영양학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Sinh học Ứng dụng & Công nghệ Sinh học",
+            "name_ko": "생명공학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "arts_sports",
+        "faculty_name_vi": "Khoa Nghệ thuật & Thể dục Thể thao",
+        "faculty_name_ko": "예체능대학",
+        "tuition_krw": 4480000,
+        "majors": [
+          {
+            "name_vi": "Thiết kế Đồ họa & Kỹ thuật số",
+            "name_ko": "시각디자인학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Nghệ thuật Thẩm mỹ & Trang điểm (Make-up)",
+            "name_ko": "뷰티미용학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Diễn xuất, Sân khấu & Điện ảnh",
+            "name_ko": "연극영화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Âm nhạc K-Pop & Vẫn nghệ",
+            "name_ko": "실용음악학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "medicine_pharmacy",
+        "faculty_name_vi": "Khoa Y - Dược & Khoa học Y tế",
+        "faculty_name_ko": "의치약학/보건대학",
+        "tuition_krw": 5850000,
+        "majors": [
+          {
+            "name_vi": "Điều dưỡng (Nursing)",
+            "name_ko": "간호학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Quản lý Y tế & Bệnh viện",
+            "name_ko": "보건행정학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Vật lý trị liệu & Phục hồi chức năng",
+            "name_ko": "물리치료학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Dược học",
+            "name_ko": "약학과",
+            "is_hot": true
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "nazarene",
@@ -1098,7 +5071,144 @@ export const universities = [
     "dorm_fee_desc": "1,000,000-1,200,000KRW",
     "admission_conditions": "",
     "featured_majors": "Phúc lợi xã hội, Giáo dục đặc biệt, Thần học",
-    "regional_restrictions": ""
+    "regional_restrictions": "",
+    "majors_detail": [
+      {
+        "category": "humanities_social",
+        "faculty_name_vi": "Khoa Nhân văn & Khoa học Xã hội",
+        "faculty_name_ko": "인문사회대학",
+        "tuition_krw": 3500000,
+        "majors": [
+          {
+            "name_vi": "Quản trị Kinh doanh",
+            "name_ko": "경영학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Ngôn ngữ & Văn hóa Hàn Quốc",
+            "name_ko": "한국언어문화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Truyền thông & Báo chí",
+            "name_ko": "미디어언론학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Thương mại Quốc tế",
+            "name_ko": "국제무역학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "engineering",
+        "faculty_name_vi": "Khoa Kỹ thuật & Công nghệ Thông tin",
+        "faculty_name_ko": "공과대학",
+        "tuition_krw": 4400000,
+        "majors": [
+          {
+            "name_vi": "Khoa học Máy tính & AI",
+            "name_ko": "컴퓨터공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Công nghệ Thông tin (IT)",
+            "name_ko": "정보통신공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Kỹ thuật Điện - Điện tử",
+            "name_ko": "전기전자공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Kỹ thuật Cơ khí",
+            "name_ko": "기계공학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "natural_sciences",
+        "faculty_name_vi": "Khoa Khoa học Tự nhiên & Sinh học",
+        "faculty_name_ko": "자연과학대학",
+        "tuition_krw": 4100000,
+        "majors": [
+          {
+            "name_vi": "Hóa học & Vật liệu mới",
+            "name_ko": "화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Công nghệ Thực phẩm & Dinh dưỡng",
+            "name_ko": "식품영양학과",
+            "is_hot": false
+          },
+          {
+            "name_vi": "Sinh học Ứng dụng & Công nghệ Sinh học",
+            "name_ko": "생명공학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "arts_sports",
+        "faculty_name_vi": "Khoa Nghệ thuật & Thể dục Thể thao",
+        "faculty_name_ko": "예체능대학",
+        "tuition_krw": 4500000,
+        "majors": [
+          {
+            "name_vi": "Thiết kế Đồ họa & Kỹ thuật số",
+            "name_ko": "시각디자인학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Nghệ thuật Thẩm mỹ & Trang điểm (Make-up)",
+            "name_ko": "뷰티미용학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Diễn xuất, Sân khấu & Điện ảnh",
+            "name_ko": "연극영화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Âm nhạc K-Pop & Vẫn nghệ",
+            "name_ko": "실용음악학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "medicine_pharmacy",
+        "faculty_name_vi": "Khoa Y - Dược & Khoa học Y tế",
+        "faculty_name_ko": "의치약학/보건대학",
+        "tuition_krw": 3500000,
+        "majors": [
+          {
+            "name_vi": "Điều dưỡng (Nursing)",
+            "name_ko": "간호학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Quản lý Y tế & Bệnh viện",
+            "name_ko": "보건행정학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Vật lý trị liệu & Phục hồi chức năng",
+            "name_ko": "물리치료학과",
+            "is_hot": false
+          },
+          {
+            "name_vi": "Dược học",
+            "name_ko": "약학과",
+            "is_hot": true
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "kyungil",
@@ -1136,7 +5246,144 @@ export const universities = [
     "dorm_fee_desc": "600-900,000KRW",
     "admission_conditions": "",
     "featured_majors": "Thiết kế game – AI – Kiến trúc",
-    "regional_restrictions": ""
+    "regional_restrictions": "",
+    "majors_detail": [
+      {
+        "category": "humanities_social",
+        "faculty_name_vi": "Khoa Nhân văn & Khoa học Xã hội",
+        "faculty_name_ko": "인문사회대학",
+        "tuition_krw": 3400000,
+        "majors": [
+          {
+            "name_vi": "Quản trị Kinh doanh",
+            "name_ko": "경영학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Ngôn ngữ & Văn hóa Hàn Quốc",
+            "name_ko": "한국언어문화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Truyền thông & Báo chí",
+            "name_ko": "미디어언론학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Thương mại Quốc tế",
+            "name_ko": "국제무역학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "engineering",
+        "faculty_name_vi": "Khoa Kỹ thuật & Công nghệ Thông tin",
+        "faculty_name_ko": "공과대학",
+        "tuition_krw": 4300000,
+        "majors": [
+          {
+            "name_vi": "Khoa học Máy tính & AI",
+            "name_ko": "컴퓨터공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Công nghệ Thông tin (IT)",
+            "name_ko": "정보통신공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Kỹ thuật Điện - Điện tử",
+            "name_ko": "전기전자공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Kỹ thuật Cơ khí",
+            "name_ko": "기계공학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "natural_sciences",
+        "faculty_name_vi": "Khoa Khoa học Tự nhiên & Sinh học",
+        "faculty_name_ko": "자연과학대학",
+        "tuition_krw": 4000000,
+        "majors": [
+          {
+            "name_vi": "Hóa học & Vật liệu mới",
+            "name_ko": "화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Công nghệ Thực phẩm & Dinh dưỡng",
+            "name_ko": "식품영양학과",
+            "is_hot": false
+          },
+          {
+            "name_vi": "Sinh học Ứng dụng & Công nghệ Sinh học",
+            "name_ko": "생명공학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "arts_sports",
+        "faculty_name_vi": "Khoa Nghệ thuật & Thể dục Thể thao",
+        "faculty_name_ko": "예체능대학",
+        "tuition_krw": 4400000,
+        "majors": [
+          {
+            "name_vi": "Thiết kế Đồ họa & Kỹ thuật số",
+            "name_ko": "시각디자인학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Nghệ thuật Thẩm mỹ & Trang điểm (Make-up)",
+            "name_ko": "뷰티미용학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Diễn xuất, Sân khấu & Điện ảnh",
+            "name_ko": "연극영화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Âm nhạc K-Pop & Vẫn nghệ",
+            "name_ko": "실용음악학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "medicine_pharmacy",
+        "faculty_name_vi": "Khoa Y - Dược & Khoa học Y tế",
+        "faculty_name_ko": "의치약학/보건대학",
+        "tuition_krw": 5500000,
+        "majors": [
+          {
+            "name_vi": "Điều dưỡng (Nursing)",
+            "name_ko": "간호학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Quản lý Y tế & Bệnh viện",
+            "name_ko": "보건행정학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Vật lý trị liệu & Phục hồi chức năng",
+            "name_ko": "물리치료학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Dược học",
+            "name_ko": "약학과",
+            "is_hot": true
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "dongseo",
@@ -1174,7 +5421,144 @@ export const universities = [
     "dorm_fee_desc": "1,100,000-1,400,000KRW",
     "admission_conditions": "",
     "featured_majors": "Điện ảnh – Animation – Digital Content",
-    "regional_restrictions": ""
+    "regional_restrictions": "",
+    "majors_detail": [
+      {
+        "category": "humanities_social",
+        "faculty_name_vi": "Khoa Nhân văn & Khoa học Xã hội",
+        "faculty_name_ko": "인문사회대학",
+        "tuition_krw": 3600000,
+        "majors": [
+          {
+            "name_vi": "Quản trị Kinh doanh",
+            "name_ko": "경영학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Ngôn ngữ & Văn hóa Hàn Quốc",
+            "name_ko": "한국언어문화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Truyền thông & Báo chí",
+            "name_ko": "미디어언론학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Thương mại Quốc tế",
+            "name_ko": "국제무역학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "engineering",
+        "faculty_name_vi": "Khoa Kỹ thuật & Công nghệ Thông tin",
+        "faculty_name_ko": "공과대학",
+        "tuition_krw": 4500000,
+        "majors": [
+          {
+            "name_vi": "Khoa học Máy tính & AI",
+            "name_ko": "컴퓨터공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Công nghệ Thông tin (IT)",
+            "name_ko": "정보통신공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Kỹ thuật Điện - Điện tử",
+            "name_ko": "전기전자공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Kỹ thuật Cơ khí",
+            "name_ko": "기계공학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "natural_sciences",
+        "faculty_name_vi": "Khoa Khoa học Tự nhiên & Sinh học",
+        "faculty_name_ko": "자연과학대학",
+        "tuition_krw": 4200000,
+        "majors": [
+          {
+            "name_vi": "Hóa học & Vật liệu mới",
+            "name_ko": "화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Công nghệ Thực phẩm & Dinh dưỡng",
+            "name_ko": "식품영양학과",
+            "is_hot": false
+          },
+          {
+            "name_vi": "Sinh học Ứng dụng & Công nghệ Sinh học",
+            "name_ko": "생명공학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "arts_sports",
+        "faculty_name_vi": "Khoa Nghệ thuật & Thể dục Thể thao",
+        "faculty_name_ko": "예체능대학",
+        "tuition_krw": 4700000,
+        "majors": [
+          {
+            "name_vi": "Thiết kế Đồ họa & Kỹ thuật số",
+            "name_ko": "시각디자인학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Nghệ thuật Thẩm mỹ & Trang điểm (Make-up)",
+            "name_ko": "뷰티미용학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Diễn xuất, Sân khấu & Điện ảnh",
+            "name_ko": "연극영화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Âm nhạc K-Pop & Vẫn nghệ",
+            "name_ko": "실용음악학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "medicine_pharmacy",
+        "faculty_name_vi": "Khoa Y - Dược & Khoa học Y tế",
+        "faculty_name_ko": "의치약학/보건대학",
+        "tuition_krw": 3600000,
+        "majors": [
+          {
+            "name_vi": "Điều dưỡng (Nursing)",
+            "name_ko": "간호학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Quản lý Y tế & Bệnh viện",
+            "name_ko": "보건행정학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Vật lý trị liệu & Phục hồi chức năng",
+            "name_ko": "물리치료학과",
+            "is_hot": false
+          },
+          {
+            "name_vi": "Dược học",
+            "name_ko": "약학과",
+            "is_hot": true
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "paichai",
@@ -1212,7 +5596,144 @@ export const universities = [
     "dorm_fee_desc": "520,000RKW",
     "admission_conditions": "6,5 trở lên (xem xét)",
     "featured_majors": "Business – Du lịch – IT",
-    "regional_restrictions": "hạn chế miền trung"
+    "regional_restrictions": "hạn chế miền trung",
+    "majors_detail": [
+      {
+        "category": "humanities_social",
+        "faculty_name_vi": "Khoa Nhân văn & Khoa học Xã hội",
+        "faculty_name_ko": "인문사회대학",
+        "tuition_krw": 3300000,
+        "majors": [
+          {
+            "name_vi": "Quản trị Kinh doanh",
+            "name_ko": "경영학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Ngôn ngữ & Văn hóa Hàn Quốc",
+            "name_ko": "한국언어문화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Truyền thông & Báo chí",
+            "name_ko": "미디어언론학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Thương mại Quốc tế",
+            "name_ko": "국제무역학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "engineering",
+        "faculty_name_vi": "Khoa Kỹ thuật & Công nghệ Thông tin",
+        "faculty_name_ko": "공과대학",
+        "tuition_krw": 4200000,
+        "majors": [
+          {
+            "name_vi": "Khoa học Máy tính & AI",
+            "name_ko": "컴퓨터공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Công nghệ Thông tin (IT)",
+            "name_ko": "정보통신공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Kỹ thuật Điện - Điện tử",
+            "name_ko": "전기전자공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Kỹ thuật Cơ khí",
+            "name_ko": "기계공학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "natural_sciences",
+        "faculty_name_vi": "Khoa Khoa học Tự nhiên & Sinh học",
+        "faculty_name_ko": "자연과학대학",
+        "tuition_krw": 3900000,
+        "majors": [
+          {
+            "name_vi": "Hóa học & Vật liệu mới",
+            "name_ko": "화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Công nghệ Thực phẩm & Dinh dưỡng",
+            "name_ko": "식품영양학과",
+            "is_hot": false
+          },
+          {
+            "name_vi": "Sinh học Ứng dụng & Công nghệ Sinh học",
+            "name_ko": "생명공학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "arts_sports",
+        "faculty_name_vi": "Khoa Nghệ thuật & Thể dục Thể thao",
+        "faculty_name_ko": "예체능대학",
+        "tuition_krw": 4300000,
+        "majors": [
+          {
+            "name_vi": "Thiết kế Đồ họa & Kỹ thuật số",
+            "name_ko": "시각디자인학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Nghệ thuật Thẩm mỹ & Trang điểm (Make-up)",
+            "name_ko": "뷰티미용학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Diễn xuất, Sân khấu & Điện ảnh",
+            "name_ko": "연극영화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Âm nhạc K-Pop & Vẫn nghệ",
+            "name_ko": "실용음악학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "medicine_pharmacy",
+        "faculty_name_vi": "Khoa Y - Dược & Khoa học Y tế",
+        "faculty_name_ko": "의치약학/보건대학",
+        "tuition_krw": 3300000,
+        "majors": [
+          {
+            "name_vi": "Điều dưỡng (Nursing)",
+            "name_ko": "간호학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Quản lý Y tế & Bệnh viện",
+            "name_ko": "보건행정학과",
+            "is_hot": false
+          },
+          {
+            "name_vi": "Vật lý trị liệu & Phục hồi chức năng",
+            "name_ko": "물리치료학과",
+            "is_hot": false
+          },
+          {
+            "name_vi": "Dược học",
+            "name_ko": "약학과",
+            "is_hot": true
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "seoultech",
@@ -1250,7 +5771,144 @@ export const universities = [
     "dorm_fee_desc": "1,000,000-1,500,000KRW",
     "admission_conditions": "",
     "featured_majors": "Kỹ thuật – AI – Công nghệ",
-    "regional_restrictions": ""
+    "regional_restrictions": "",
+    "majors_detail": [
+      {
+        "category": "humanities_social",
+        "faculty_name_vi": "Khoa Nhân văn & Khoa học Xã hội",
+        "faculty_name_ko": "인문사회대학",
+        "tuition_krw": 2200000,
+        "majors": [
+          {
+            "name_vi": "Quản trị Kinh doanh",
+            "name_ko": "경영학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Ngôn ngữ & Văn hóa Hàn Quốc",
+            "name_ko": "한국언어문화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Truyền thông & Báo chí",
+            "name_ko": "미디어언론학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Thương mại Quốc tế",
+            "name_ko": "국제무역학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "engineering",
+        "faculty_name_vi": "Khoa Kỹ thuật & Công nghệ Thông tin",
+        "faculty_name_ko": "공과대학",
+        "tuition_krw": 2750000,
+        "majors": [
+          {
+            "name_vi": "Khoa học Máy tính & AI",
+            "name_ko": "컴퓨터공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Công nghệ Thông tin (IT)",
+            "name_ko": "정보통신공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Kỹ thuật Điện - Điện tử",
+            "name_ko": "전기전자공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Kỹ thuật Cơ khí",
+            "name_ko": "기계공학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "natural_sciences",
+        "faculty_name_vi": "Khoa Khoa học Tự nhiên & Sinh học",
+        "faculty_name_ko": "자연과학대학",
+        "tuition_krw": 2500000,
+        "majors": [
+          {
+            "name_vi": "Hóa học & Vật liệu mới",
+            "name_ko": "화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Công nghệ Thực phẩm & Dinh dưỡng",
+            "name_ko": "식품영양학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Sinh học Ứng dụng & Công nghệ Sinh học",
+            "name_ko": "생명공학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "arts_sports",
+        "faculty_name_vi": "Khoa Nghệ thuật & Thể dục Thể thao",
+        "faculty_name_ko": "예체능대학",
+        "tuition_krw": 2900000,
+        "majors": [
+          {
+            "name_vi": "Thiết kế Đồ họa & Kỹ thuật số",
+            "name_ko": "시각디자인학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Nghệ thuật Thẩm mỹ & Trang điểm (Make-up)",
+            "name_ko": "뷰티미용학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Diễn xuất, Sân khấu & Điện ảnh",
+            "name_ko": "연극영화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Âm nhạc K-Pop & Vẫn nghệ",
+            "name_ko": "실용음악학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "medicine_pharmacy",
+        "faculty_name_vi": "Khoa Y - Dược & Khoa học Y tế",
+        "faculty_name_ko": "의치약학/보건대학",
+        "tuition_krw": 2200000,
+        "majors": [
+          {
+            "name_vi": "Điều dưỡng (Nursing)",
+            "name_ko": "간호학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Quản lý Y tế & Bệnh viện",
+            "name_ko": "보건행정학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Vật lý trị liệu & Phục hồi chức năng",
+            "name_ko": "물리치료학과",
+            "is_hot": false
+          },
+          {
+            "name_vi": "Dược học",
+            "name_ko": "약학과",
+            "is_hot": true
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "catholic",
@@ -1288,7 +5946,144 @@ export const universities = [
     "dorm_fee_desc": "1,100,000-1,300,000 KRW",
     "admission_conditions": "",
     "featured_majors": "Y khoa, Điều dưỡng, Thần học",
-    "regional_restrictions": ""
+    "regional_restrictions": "",
+    "majors_detail": [
+      {
+        "category": "humanities_social",
+        "faculty_name_vi": "Khoa Nhân văn & Khoa học Xã hội",
+        "faculty_name_ko": "인문사회대학",
+        "tuition_krw": 3800000,
+        "majors": [
+          {
+            "name_vi": "Quản trị Kinh doanh",
+            "name_ko": "경영학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Ngôn ngữ & Văn hóa Hàn Quốc",
+            "name_ko": "한국언어문화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Truyền thông & Báo chí",
+            "name_ko": "미디어언론학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Thương mại Quốc tế",
+            "name_ko": "국제무역학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "engineering",
+        "faculty_name_vi": "Khoa Kỹ thuật & Công nghệ Thông tin",
+        "faculty_name_ko": "공과대학",
+        "tuition_krw": 4700000,
+        "majors": [
+          {
+            "name_vi": "Khoa học Máy tính & AI",
+            "name_ko": "컴퓨터공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Công nghệ Thông tin (IT)",
+            "name_ko": "정보통신공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Kỹ thuật Điện - Điện tử",
+            "name_ko": "전기전자공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Kỹ thuật Cơ khí",
+            "name_ko": "기계공학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "natural_sciences",
+        "faculty_name_vi": "Khoa Khoa học Tự nhiên & Sinh học",
+        "faculty_name_ko": "자연과학대학",
+        "tuition_krw": 4400000,
+        "majors": [
+          {
+            "name_vi": "Hóa học & Vật liệu mới",
+            "name_ko": "화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Công nghệ Thực phẩm & Dinh dưỡng",
+            "name_ko": "식품영양학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Sinh học Ứng dụng & Công nghệ Sinh học",
+            "name_ko": "생명공학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "arts_sports",
+        "faculty_name_vi": "Khoa Nghệ thuật & Thể dục Thể thao",
+        "faculty_name_ko": "예체능대학",
+        "tuition_krw": 4900000,
+        "majors": [
+          {
+            "name_vi": "Thiết kế Đồ họa & Kỹ thuật số",
+            "name_ko": "시각디자인학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Nghệ thuật Thẩm mỹ & Trang điểm (Make-up)",
+            "name_ko": "뷰티미용학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Diễn xuất, Sân khấu & Điện ảnh",
+            "name_ko": "연극영화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Âm nhạc K-Pop & Vẫn nghệ",
+            "name_ko": "실용음악학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "medicine_pharmacy",
+        "faculty_name_vi": "Khoa Y - Dược & Khoa học Y tế",
+        "faculty_name_ko": "의치약학/보건대학",
+        "tuition_krw": 6200000,
+        "majors": [
+          {
+            "name_vi": "Điều dưỡng (Nursing)",
+            "name_ko": "간호학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Quản lý Y tế & Bệnh viện",
+            "name_ko": "보건행정학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Vật lý trị liệu & Phục hồi chức năng",
+            "name_ko": "물리치료학과",
+            "is_hot": false
+          },
+          {
+            "name_vi": "Dược học",
+            "name_ko": "약학과",
+            "is_hot": true
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "chungnam",
@@ -1326,7 +6121,144 @@ export const universities = [
     "dorm_fee_desc": "900,000KRW",
     "admission_conditions": "",
     "featured_majors": "Kỹ thuật, Quản trị công, Sinh học",
-    "regional_restrictions": ""
+    "regional_restrictions": "",
+    "majors_detail": [
+      {
+        "category": "humanities_social",
+        "faculty_name_vi": "Khoa Nhân văn & Khoa học Xã hội",
+        "faculty_name_ko": "인문사회대학",
+        "tuition_krw": 3780000,
+        "majors": [
+          {
+            "name_vi": "Quản trị Kinh doanh",
+            "name_ko": "경영학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Ngôn ngữ & Văn hóa Hàn Quốc",
+            "name_ko": "한국언어문화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Truyền thông & Báo chí",
+            "name_ko": "미디어언론학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Thương mại Quốc tế",
+            "name_ko": "국제무역학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "engineering",
+        "faculty_name_vi": "Khoa Kỹ thuật & Công nghệ Thông tin",
+        "faculty_name_ko": "공과대학",
+        "tuition_krw": 4956000,
+        "majors": [
+          {
+            "name_vi": "Khoa học Máy tính & AI",
+            "name_ko": "컴퓨터공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Công nghệ Thông tin (IT)",
+            "name_ko": "정보통신공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Kỹ thuật Điện - Điện tử",
+            "name_ko": "전기전자공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Kỹ thuật Cơ khí",
+            "name_ko": "기계공학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "natural_sciences",
+        "faculty_name_vi": "Khoa Khoa học Tự nhiên & Sinh học",
+        "faculty_name_ko": "자연과학대학",
+        "tuition_krw": 4410000,
+        "majors": [
+          {
+            "name_vi": "Hóa học & Vật liệu mới",
+            "name_ko": "화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Công nghệ Thực phẩm & Dinh dưỡng",
+            "name_ko": "식품영양학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Sinh học Ứng dụng & Công nghệ Sinh học",
+            "name_ko": "생명공학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "arts_sports",
+        "faculty_name_vi": "Khoa Nghệ thuật & Thể dục Thể thao",
+        "faculty_name_ko": "예체능대학",
+        "tuition_krw": 5250000,
+        "majors": [
+          {
+            "name_vi": "Thiết kế Đồ họa & Kỹ thuật số",
+            "name_ko": "시각디자인학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Nghệ thuật Thẩm mỹ & Trang điểm (Make-up)",
+            "name_ko": "뷰티미용학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Diễn xuất, Sân khấu & Điện ảnh",
+            "name_ko": "연극영화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Âm nhạc K-Pop & Vẫn nghệ",
+            "name_ko": "실용음악학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "medicine_pharmacy",
+        "faculty_name_vi": "Khoa Y - Dược & Khoa học Y tế",
+        "faculty_name_ko": "의치약학/보건대학",
+        "tuition_krw": 6090000,
+        "majors": [
+          {
+            "name_vi": "Điều dưỡng (Nursing)",
+            "name_ko": "간호학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Quản lý Y tế & Bệnh viện",
+            "name_ko": "보건행정학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Vật lý trị liệu & Phục hồi chức năng",
+            "name_ko": "물리치료학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Dược học",
+            "name_ko": "약학과",
+            "is_hot": true
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "konyang",
@@ -1364,7 +6296,144 @@ export const universities = [
     "dorm_fee_desc": "1,000,000KRW",
     "admission_conditions": "7,0 trở lên\n- vắng ko quá 5 buổi (nhiều hơn cần giải trình)",
     "featured_majors": "Y khoa – Điều dưỡng – AI y tế",
-    "regional_restrictions": ""
+    "regional_restrictions": "",
+    "majors_detail": [
+      {
+        "category": "humanities_social",
+        "faculty_name_vi": "Khoa Nhân văn & Khoa học Xã hội",
+        "faculty_name_ko": "인문사회대학",
+        "tuition_krw": 3400000,
+        "majors": [
+          {
+            "name_vi": "Quản trị Kinh doanh",
+            "name_ko": "경영학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Ngôn ngữ & Văn hóa Hàn Quốc",
+            "name_ko": "한국언어문화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Truyền thông & Báo chí",
+            "name_ko": "미디어언론학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Thương mại Quốc tế",
+            "name_ko": "국제무역학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "engineering",
+        "faculty_name_vi": "Khoa Kỹ thuật & Công nghệ Thông tin",
+        "faculty_name_ko": "공과대학",
+        "tuition_krw": 4250000,
+        "majors": [
+          {
+            "name_vi": "Khoa học Máy tính & AI",
+            "name_ko": "컴퓨터공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Công nghệ Thông tin (IT)",
+            "name_ko": "정보통신공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Kỹ thuật Điện - Điện tử",
+            "name_ko": "전기전자공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Kỹ thuật Cơ khí",
+            "name_ko": "기계공학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "natural_sciences",
+        "faculty_name_vi": "Khoa Khoa học Tự nhiên & Sinh học",
+        "faculty_name_ko": "자연과학대학",
+        "tuition_krw": 4000000,
+        "majors": [
+          {
+            "name_vi": "Hóa học & Vật liệu mới",
+            "name_ko": "화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Công nghệ Thực phẩm & Dinh dưỡng",
+            "name_ko": "식품영양학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Sinh học Ứng dụng & Công nghệ Sinh học",
+            "name_ko": "생명공학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "arts_sports",
+        "faculty_name_vi": "Khoa Nghệ thuật & Thể dục Thể thao",
+        "faculty_name_ko": "예체능대학",
+        "tuition_krw": 4200000,
+        "majors": [
+          {
+            "name_vi": "Thiết kế Đồ họa & Kỹ thuật số",
+            "name_ko": "시각디자인학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Nghệ thuật Thẩm mỹ & Trang điểm (Make-up)",
+            "name_ko": "뷰티미용학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Diễn xuất, Sân khấu & Điện ảnh",
+            "name_ko": "연극영화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Âm nhạc K-Pop & Vẫn nghệ",
+            "name_ko": "실용음악학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "medicine_pharmacy",
+        "faculty_name_vi": "Khoa Y - Dược & Khoa học Y tế",
+        "faculty_name_ko": "의치약학/보건대학",
+        "tuition_krw": 6000000,
+        "majors": [
+          {
+            "name_vi": "Điều dưỡng (Nursing)",
+            "name_ko": "간호학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Quản lý Y tế & Bệnh viện",
+            "name_ko": "보건행정학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Vật lý trị liệu & Phục hồi chức năng",
+            "name_ko": "물리치료학과",
+            "is_hot": false
+          },
+          {
+            "name_vi": "Dược học",
+            "name_ko": "약학과",
+            "is_hot": true
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "keimyung",
@@ -1403,7 +6472,144 @@ export const universities = [
     "admission_conditions": "",
     "featured_majors": "Âm nhạc – Mỹ thuật – Business",
     "regional_restrictions": "",
-    "is_restricted_school": true
+    "is_restricted_school": true,
+    "majors_detail": [
+      {
+        "category": "humanities_social",
+        "faculty_name_vi": "Khoa Nhân văn & Khoa học Xã hội",
+        "faculty_name_ko": "인문사회대학",
+        "tuition_krw": 3600000,
+        "majors": [
+          {
+            "name_vi": "Quản trị Kinh doanh",
+            "name_ko": "경영학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Ngôn ngữ & Văn hóa Hàn Quốc",
+            "name_ko": "한국언어문화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Truyền thông & Báo chí",
+            "name_ko": "미디어언론학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Thương mại Quốc tế",
+            "name_ko": "국제무역학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "engineering",
+        "faculty_name_vi": "Khoa Kỹ thuật & Công nghệ Thông tin",
+        "faculty_name_ko": "공과대학",
+        "tuition_krw": 4550000,
+        "majors": [
+          {
+            "name_vi": "Khoa học Máy tính & AI",
+            "name_ko": "컴퓨터공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Công nghệ Thông tin (IT)",
+            "name_ko": "정보통신공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Kỹ thuật Điện - Điện tử",
+            "name_ko": "전기전자공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Kỹ thuật Cơ khí",
+            "name_ko": "기계공학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "natural_sciences",
+        "faculty_name_vi": "Khoa Khoa học Tự nhiên & Sinh học",
+        "faculty_name_ko": "자연과학대학",
+        "tuition_krw": 4200000,
+        "majors": [
+          {
+            "name_vi": "Hóa học & Vật liệu mới",
+            "name_ko": "화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Công nghệ Thực phẩm & Dinh dưỡng",
+            "name_ko": "식품영양학과",
+            "is_hot": false
+          },
+          {
+            "name_vi": "Sinh học Ứng dụng & Công nghệ Sinh học",
+            "name_ko": "생명공학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "arts_sports",
+        "faculty_name_vi": "Khoa Nghệ thuật & Thể dục Thể thao",
+        "faculty_name_ko": "예체능대학",
+        "tuition_krw": 4800000,
+        "majors": [
+          {
+            "name_vi": "Thiết kế Đồ họa & Kỹ thuật số",
+            "name_ko": "시각디자인학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Nghệ thuật Thẩm mỹ & Trang điểm (Make-up)",
+            "name_ko": "뷰티미용학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Diễn xuất, Sân khấu & Điện ảnh",
+            "name_ko": "연극영화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Âm nhạc K-Pop & Vẫn nghệ",
+            "name_ko": "실용음악학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "medicine_pharmacy",
+        "faculty_name_vi": "Khoa Y - Dược & Khoa học Y tế",
+        "faculty_name_ko": "의치약학/보건대학",
+        "tuition_krw": 6100000,
+        "majors": [
+          {
+            "name_vi": "Điều dưỡng (Nursing)",
+            "name_ko": "간호학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Quản lý Y tế & Bệnh viện",
+            "name_ko": "보건행정학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Vật lý trị liệu & Phục hồi chức năng",
+            "name_ko": "물리치료학과",
+            "is_hot": false
+          },
+          {
+            "name_vi": "Dược học",
+            "name_ko": "약학과",
+            "is_hot": true
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "inje",
@@ -1441,7 +6647,144 @@ export const universities = [
     "dorm_fee_desc": "1,300,000-1,800,000KRW",
     "admission_conditions": "",
     "featured_majors": "Y khoa – Business – Ngôn ngữ",
-    "regional_restrictions": ""
+    "regional_restrictions": "",
+    "majors_detail": [
+      {
+        "category": "humanities_social",
+        "faculty_name_vi": "Khoa Nhân văn & Khoa học Xã hội",
+        "faculty_name_ko": "인문사회대학",
+        "tuition_krw": 3195000,
+        "majors": [
+          {
+            "name_vi": "Quản trị Kinh doanh",
+            "name_ko": "경영학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Ngôn ngữ & Văn hóa Hàn Quốc",
+            "name_ko": "한국언어문화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Truyền thông & Báo chí",
+            "name_ko": "미디어언론학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Thương mại Quốc tế",
+            "name_ko": "국제무역학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "engineering",
+        "faculty_name_vi": "Khoa Kỹ thuật & Công nghệ Thông tin",
+        "faculty_name_ko": "공과대학",
+        "tuition_krw": 4189000,
+        "majors": [
+          {
+            "name_vi": "Khoa học Máy tính & AI",
+            "name_ko": "컴퓨터공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Công nghệ Thông tin (IT)",
+            "name_ko": "정보통신공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Kỹ thuật Điện - Điện tử",
+            "name_ko": "전기전자공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Kỹ thuật Cơ khí",
+            "name_ko": "기계공학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "natural_sciences",
+        "faculty_name_vi": "Khoa Khoa học Tự nhiên & Sinh học",
+        "faculty_name_ko": "자연과학대학",
+        "tuition_krw": 3727500,
+        "majors": [
+          {
+            "name_vi": "Hóa học & Vật liệu mới",
+            "name_ko": "화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Công nghệ Thực phẩm & Dinh dưỡng",
+            "name_ko": "식품영양학과",
+            "is_hot": false
+          },
+          {
+            "name_vi": "Sinh học Ứng dụng & Công nghệ Sinh học",
+            "name_ko": "생명공학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "arts_sports",
+        "faculty_name_vi": "Khoa Nghệ thuật & Thể dục Thể thao",
+        "faculty_name_ko": "예체능대학",
+        "tuition_krw": 4437500,
+        "majors": [
+          {
+            "name_vi": "Thiết kế Đồ họa & Kỹ thuật số",
+            "name_ko": "시각디자인학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Nghệ thuật Thẩm mỹ & Trang điểm (Make-up)",
+            "name_ko": "뷰티미용학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Diễn xuất, Sân khấu & Điện ảnh",
+            "name_ko": "연극영화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Âm nhạc K-Pop & Vẫn nghệ",
+            "name_ko": "실용음악학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "medicine_pharmacy",
+        "faculty_name_vi": "Khoa Y - Dược & Khoa học Y tế",
+        "faculty_name_ko": "의치약학/보건대학",
+        "tuition_krw": 5680000,
+        "majors": [
+          {
+            "name_vi": "Điều dưỡng (Nursing)",
+            "name_ko": "간호학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Quản lý Y tế & Bệnh viện",
+            "name_ko": "보건행정학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Vật lý trị liệu & Phục hồi chức năng",
+            "name_ko": "물리치료학과",
+            "is_hot": false
+          },
+          {
+            "name_vi": "Dược học",
+            "name_ko": "약학과",
+            "is_hot": true
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "sangji",
@@ -1472,7 +6815,144 @@ export const universities = [
     "master_no_topik": false,
     "custom_notes": "Trường thuộc nhóm Top 3% nhận học sinh GDTX tại Gangwon",
     "top_1_percent": false,
-    "is_restricted_school": true
+    "is_restricted_school": true,
+    "majors_detail": [
+      {
+        "category": "humanities_social",
+        "faculty_name_vi": "Khoa Nhân văn & Khoa học Xã hội",
+        "faculty_name_ko": "인문사회대학",
+        "tuition_krw": 3400000,
+        "majors": [
+          {
+            "name_vi": "Quản trị Kinh doanh",
+            "name_ko": "경영학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Ngôn ngữ & Văn hóa Hàn Quốc",
+            "name_ko": "한국언어문화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Truyền thông & Báo chí",
+            "name_ko": "미디어언론학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Thương mại Quốc tế",
+            "name_ko": "국제무역학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "engineering",
+        "faculty_name_vi": "Khoa Kỹ thuật & Công nghệ Thông tin",
+        "faculty_name_ko": "공과대학",
+        "tuition_krw": 4300000,
+        "majors": [
+          {
+            "name_vi": "Khoa học Máy tính & AI",
+            "name_ko": "컴퓨터공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Công nghệ Thông tin (IT)",
+            "name_ko": "정보통신공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Kỹ thuật Điện - Điện tử",
+            "name_ko": "전기전자공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Kỹ thuật Cơ khí",
+            "name_ko": "기계공학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "natural_sciences",
+        "faculty_name_vi": "Khoa Khoa học Tự nhiên & Sinh học",
+        "faculty_name_ko": "자연과학대학",
+        "tuition_krw": 4000000,
+        "majors": [
+          {
+            "name_vi": "Hóa học & Vật liệu mới",
+            "name_ko": "화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Công nghệ Thực phẩm & Dinh dưỡng",
+            "name_ko": "식품영양학과",
+            "is_hot": false
+          },
+          {
+            "name_vi": "Sinh học Ứng dụng & Công nghệ Sinh học",
+            "name_ko": "생명공학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "arts_sports",
+        "faculty_name_vi": "Khoa Nghệ thuật & Thể dục Thể thao",
+        "faculty_name_ko": "예체능대학",
+        "tuition_krw": 4400000,
+        "majors": [
+          {
+            "name_vi": "Thiết kế Đồ họa & Kỹ thuật số",
+            "name_ko": "시각디자인학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Nghệ thuật Thẩm mỹ & Trang điểm (Make-up)",
+            "name_ko": "뷰티미용학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Diễn xuất, Sân khấu & Điện ảnh",
+            "name_ko": "연극영화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Âm nhạc K-Pop & Vẫn nghệ",
+            "name_ko": "실용음악학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "medicine_pharmacy",
+        "faculty_name_vi": "Khoa Y - Dược & Khoa học Y tế",
+        "faculty_name_ko": "의치약학/보건대학",
+        "tuition_krw": 5800000,
+        "majors": [
+          {
+            "name_vi": "Điều dưỡng (Nursing)",
+            "name_ko": "간호학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Quản lý Y tế & Bệnh viện",
+            "name_ko": "보건행정학과",
+            "is_hot": false
+          },
+          {
+            "name_vi": "Vật lý trị liệu & Phục hồi chức năng",
+            "name_ko": "물리치료학과",
+            "is_hot": false
+          },
+          {
+            "name_vi": "Dược học",
+            "name_ko": "약학과",
+            "is_hot": true
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "seoulventure",
@@ -1502,7 +6982,144 @@ export const universities = [
     "visa_metropolitan": false,
     "master_no_topik": false,
     "custom_notes": "Trường cao học tại Gangnam, nhóm Top 3% nhận học sinh GDTX",
-    "top_1_percent": false
+    "top_1_percent": false,
+    "majors_detail": [
+      {
+        "category": "humanities_social",
+        "faculty_name_vi": "Khoa Nhân văn & Khoa học Xã hội",
+        "faculty_name_ko": "인문사회대학",
+        "tuition_krw": 4000000,
+        "majors": [
+          {
+            "name_vi": "Quản trị Kinh doanh",
+            "name_ko": "경영학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Ngôn ngữ & Văn hóa Hàn Quốc",
+            "name_ko": "한국언어문화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Truyền thông & Báo chí",
+            "name_ko": "미디어언론학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Thương mại Quốc tế",
+            "name_ko": "국제무역학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "engineering",
+        "faculty_name_vi": "Khoa Kỹ thuật & Công nghệ Thông tin",
+        "faculty_name_ko": "공과대학",
+        "tuition_krw": 4000000,
+        "majors": [
+          {
+            "name_vi": "Khoa học Máy tính & AI",
+            "name_ko": "컴퓨터공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Công nghệ Thông tin (IT)",
+            "name_ko": "정보통신공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Kỹ thuật Điện - Điện tử",
+            "name_ko": "전기전자공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Kỹ thuật Cơ khí",
+            "name_ko": "기계공학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "natural_sciences",
+        "faculty_name_vi": "Khoa Khoa học Tự nhiên & Sinh học",
+        "faculty_name_ko": "자연과학대학",
+        "tuition_krw": 4000000,
+        "majors": [
+          {
+            "name_vi": "Hóa học & Vật liệu mới",
+            "name_ko": "화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Công nghệ Thực phẩm & Dinh dưỡng",
+            "name_ko": "식품영양학과",
+            "is_hot": false
+          },
+          {
+            "name_vi": "Sinh học Ứng dụng & Công nghệ Sinh học",
+            "name_ko": "생명공학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "arts_sports",
+        "faculty_name_vi": "Khoa Nghệ thuật & Thể dục Thể thao",
+        "faculty_name_ko": "예체능대학",
+        "tuition_krw": 4000000,
+        "majors": [
+          {
+            "name_vi": "Thiết kế Đồ họa & Kỹ thuật số",
+            "name_ko": "시각디자인학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Nghệ thuật Thẩm mỹ & Trang điểm (Make-up)",
+            "name_ko": "뷰티미용학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Diễn xuất, Sân khấu & Điện ảnh",
+            "name_ko": "연극영화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Âm nhạc K-Pop & Vẫn nghệ",
+            "name_ko": "실용음악학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "medicine_pharmacy",
+        "faculty_name_vi": "Khoa Y - Dược & Khoa học Y tế",
+        "faculty_name_ko": "의치약학/보건대학",
+        "tuition_krw": 4000000,
+        "majors": [
+          {
+            "name_vi": "Điều dưỡng (Nursing)",
+            "name_ko": "간호학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Quản lý Y tế & Bệnh viện",
+            "name_ko": "보건행정학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Vật lý trị liệu & Phục hồi chức năng",
+            "name_ko": "물리치료학과",
+            "is_hot": false
+          },
+          {
+            "name_vi": "Dược học",
+            "name_ko": "약학과",
+            "is_hot": true
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "chonnam_science",
@@ -1532,7 +7149,144 @@ export const universities = [
     "visa_metropolitan": false,
     "master_no_topik": false,
     "custom_notes": "Trường Cao đẳng nghề nhóm Top 3% nhận học sinh GDTX",
-    "top_1_percent": false
+    "top_1_percent": false,
+    "majors_detail": [
+      {
+        "category": "humanities_social",
+        "faculty_name_vi": "Khoa Nhân văn & Khoa học Xã hội",
+        "faculty_name_ko": "인문사회대학",
+        "tuition_krw": 2400000,
+        "majors": [
+          {
+            "name_vi": "Quản trị Kinh doanh",
+            "name_ko": "경영학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Ngôn ngữ & Văn hóa Hàn Quốc",
+            "name_ko": "한국언어문화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Truyền thông & Báo chí",
+            "name_ko": "미디어언론학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Thương mại Quốc tế",
+            "name_ko": "국제무역학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "engineering",
+        "faculty_name_vi": "Khoa Kỹ thuật & Công nghệ Thông tin",
+        "faculty_name_ko": "공과대학",
+        "tuition_krw": 2900000,
+        "majors": [
+          {
+            "name_vi": "Khoa học Máy tính & AI",
+            "name_ko": "컴퓨터공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Công nghệ Thông tin (IT)",
+            "name_ko": "정보통신공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Kỹ thuật Điện - Điện tử",
+            "name_ko": "전기전자공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Kỹ thuật Cơ khí",
+            "name_ko": "기계공학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "natural_sciences",
+        "faculty_name_vi": "Khoa Khoa học Tự nhiên & Sinh học",
+        "faculty_name_ko": "자연과학대학",
+        "tuition_krw": 2800000,
+        "majors": [
+          {
+            "name_vi": "Hóa học & Vật liệu mới",
+            "name_ko": "화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Công nghệ Thực phẩm & Dinh dưỡng",
+            "name_ko": "식품영양학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Sinh học Ứng dụng & Công nghệ Sinh học",
+            "name_ko": "생명공학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "arts_sports",
+        "faculty_name_vi": "Khoa Nghệ thuật & Thể dục Thể thao",
+        "faculty_name_ko": "예체능대학",
+        "tuition_krw": 3000000,
+        "majors": [
+          {
+            "name_vi": "Thiết kế Đồ họa & Kỹ thuật số",
+            "name_ko": "시각디자인학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Nghệ thuật Thẩm mỹ & Trang điểm (Make-up)",
+            "name_ko": "뷰티미용학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Diễn xuất, Sân khấu & Điện ảnh",
+            "name_ko": "연극영화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Âm nhạc K-Pop & Vẫn nghệ",
+            "name_ko": "실용음악학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "medicine_pharmacy",
+        "faculty_name_vi": "Khoa Y - Dược & Khoa học Y tế",
+        "faculty_name_ko": "의치약학/보건대학",
+        "tuition_krw": 3400000,
+        "majors": [
+          {
+            "name_vi": "Điều dưỡng (Nursing)",
+            "name_ko": "간호학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Quản lý Y tế & Bệnh viện",
+            "name_ko": "보건행정학과",
+            "is_hot": false
+          },
+          {
+            "name_vi": "Vật lý trị liệu & Phục hồi chức năng",
+            "name_ko": "물리치료학과",
+            "is_hot": false
+          },
+          {
+            "name_vi": "Dược học",
+            "name_ko": "약학과",
+            "is_hot": true
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "sangji_catholic",
@@ -1562,7 +7316,144 @@ export const universities = [
     "visa_metropolitan": false,
     "master_no_topik": false,
     "custom_notes": "Trường Cao đẳng Công giáo Andong, nhóm Top 3% nhận học sinh GDTX",
-    "top_1_percent": false
+    "top_1_percent": false,
+    "majors_detail": [
+      {
+        "category": "humanities_social",
+        "faculty_name_vi": "Khoa Nhân văn & Khoa học Xã hội",
+        "faculty_name_ko": "인문사회대학",
+        "tuition_krw": 2300000,
+        "majors": [
+          {
+            "name_vi": "Quản trị Kinh doanh",
+            "name_ko": "경영학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Ngôn ngữ & Văn hóa Hàn Quốc",
+            "name_ko": "한국언어문화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Truyền thông & Báo chí",
+            "name_ko": "미디어언론학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Thương mại Quốc tế",
+            "name_ko": "국제무역학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "engineering",
+        "faculty_name_vi": "Khoa Kỹ thuật & Công nghệ Thông tin",
+        "faculty_name_ko": "공과대학",
+        "tuition_krw": 2800000,
+        "majors": [
+          {
+            "name_vi": "Khoa học Máy tính & AI",
+            "name_ko": "컴퓨터공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Công nghệ Thông tin (IT)",
+            "name_ko": "정보통신공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Kỹ thuật Điện - Điện tử",
+            "name_ko": "전기전자공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Kỹ thuật Cơ khí",
+            "name_ko": "기계공학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "natural_sciences",
+        "faculty_name_vi": "Khoa Khoa học Tự nhiên & Sinh học",
+        "faculty_name_ko": "자연과학대학",
+        "tuition_krw": 2700000,
+        "majors": [
+          {
+            "name_vi": "Hóa học & Vật liệu mới",
+            "name_ko": "화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Công nghệ Thực phẩm & Dinh dưỡng",
+            "name_ko": "식품영양학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Sinh học Ứng dụng & Công nghệ Sinh học",
+            "name_ko": "생명공학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "arts_sports",
+        "faculty_name_vi": "Khoa Nghệ thuật & Thể dục Thể thao",
+        "faculty_name_ko": "예체능대학",
+        "tuition_krw": 2800000,
+        "majors": [
+          {
+            "name_vi": "Thiết kế Đồ họa & Kỹ thuật số",
+            "name_ko": "시각디자인학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Nghệ thuật Thẩm mỹ & Trang điểm (Make-up)",
+            "name_ko": "뷰티미용학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Diễn xuất, Sân khấu & Điện ảnh",
+            "name_ko": "연극영화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Âm nhạc K-Pop & Vẫn nghệ",
+            "name_ko": "실용음악학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "medicine_pharmacy",
+        "faculty_name_vi": "Khoa Y - Dược & Khoa học Y tế",
+        "faculty_name_ko": "의치약학/보건대학",
+        "tuition_krw": 3200000,
+        "majors": [
+          {
+            "name_vi": "Điều dưỡng (Nursing)",
+            "name_ko": "간호학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Quản lý Y tế & Bệnh viện",
+            "name_ko": "보건행정학과",
+            "is_hot": false
+          },
+          {
+            "name_vi": "Vật lý trị liệu & Phục hồi chức năng",
+            "name_ko": "물리치료학과",
+            "is_hot": false
+          },
+          {
+            "name_vi": "Dược học",
+            "name_ko": "약학과",
+            "is_hot": true
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "gangdong",
@@ -1592,7 +7483,144 @@ export const universities = [
     "visa_metropolitan": false,
     "master_no_topik": false,
     "custom_notes": "Cao đẳng nghề tỉnh Chungbuk, nhóm Top 3% nhận học sinh GDTX",
-    "top_1_percent": false
+    "top_1_percent": false,
+    "majors_detail": [
+      {
+        "category": "humanities_social",
+        "faculty_name_vi": "Khoa Nhân văn & Khoa học Xã hội",
+        "faculty_name_ko": "인문사회대학",
+        "tuition_krw": 2200000,
+        "majors": [
+          {
+            "name_vi": "Quản trị Kinh doanh",
+            "name_ko": "경영학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Ngôn ngữ & Văn hóa Hàn Quốc",
+            "name_ko": "한국언어문화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Truyền thông & Báo chí",
+            "name_ko": "미디어언론학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Thương mại Quốc tế",
+            "name_ko": "국제무역학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "engineering",
+        "faculty_name_vi": "Khoa Kỹ thuật & Công nghệ Thông tin",
+        "faculty_name_ko": "공과대학",
+        "tuition_krw": 2700000,
+        "majors": [
+          {
+            "name_vi": "Khoa học Máy tính & AI",
+            "name_ko": "컴퓨터공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Công nghệ Thông tin (IT)",
+            "name_ko": "정보통신공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Kỹ thuật Điện - Điện tử",
+            "name_ko": "전기전자공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Kỹ thuật Cơ khí",
+            "name_ko": "기계공학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "natural_sciences",
+        "faculty_name_vi": "Khoa Khoa học Tự nhiên & Sinh học",
+        "faculty_name_ko": "자연과학대학",
+        "tuition_krw": 2600000,
+        "majors": [
+          {
+            "name_vi": "Hóa học & Vật liệu mới",
+            "name_ko": "화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Công nghệ Thực phẩm & Dinh dưỡng",
+            "name_ko": "식품영양학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Sinh học Ứng dụng & Công nghệ Sinh học",
+            "name_ko": "생명공학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "arts_sports",
+        "faculty_name_vi": "Khoa Nghệ thuật & Thể dục Thể thao",
+        "faculty_name_ko": "예체능대학",
+        "tuition_krw": 2800000,
+        "majors": [
+          {
+            "name_vi": "Thiết kế Đồ họa & Kỹ thuật số",
+            "name_ko": "시각디자인학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Nghệ thuật Thẩm mỹ & Trang điểm (Make-up)",
+            "name_ko": "뷰티미용학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Diễn xuất, Sân khấu & Điện ảnh",
+            "name_ko": "연극영화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Âm nhạc K-Pop & Vẫn nghệ",
+            "name_ko": "실용음악학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "medicine_pharmacy",
+        "faculty_name_vi": "Khoa Y - Dược & Khoa học Y tế",
+        "faculty_name_ko": "의치약학/보건대학",
+        "tuition_krw": 3300000,
+        "majors": [
+          {
+            "name_vi": "Điều dưỡng (Nursing)",
+            "name_ko": "간호학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Quản lý Y tế & Bệnh viện",
+            "name_ko": "보건행정학과",
+            "is_hot": false
+          },
+          {
+            "name_vi": "Vật lý trị liệu & Phục hồi chức năng",
+            "name_ko": "물리치료학과",
+            "is_hot": false
+          },
+          {
+            "name_vi": "Dược học",
+            "name_ko": "약학과",
+            "is_hot": true
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "jeonju",
@@ -1622,7 +7650,144 @@ export const universities = [
     "visa_metropolitan": true,
     "master_no_topik": false,
     "custom_notes": "Ngành nổi bật: Công nghệ và phương tiện di động tương lai (Học phí đồng nhất 2.778.000 KRW)",
-    "top_1_percent": false
+    "top_1_percent": false,
+    "majors_detail": [
+      {
+        "category": "humanities_social",
+        "faculty_name_vi": "Khoa Nhân văn & Khoa học Xã hội",
+        "faculty_name_ko": "인문사회대학",
+        "tuition_krw": 2778000,
+        "majors": [
+          {
+            "name_vi": "Quản trị Kinh doanh",
+            "name_ko": "경영학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Ngôn ngữ & Văn hóa Hàn Quốc",
+            "name_ko": "한국언어문화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Truyền thông & Báo chí",
+            "name_ko": "미디어언론학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Thương mại Quốc tế",
+            "name_ko": "국제무역학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "engineering",
+        "faculty_name_vi": "Khoa Kỹ thuật & Công nghệ Thông tin",
+        "faculty_name_ko": "공과대학",
+        "tuition_krw": 2778000,
+        "majors": [
+          {
+            "name_vi": "Khoa học Máy tính & AI",
+            "name_ko": "컴퓨터공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Công nghệ Thông tin (IT)",
+            "name_ko": "정보통신공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Kỹ thuật Điện - Điện tử",
+            "name_ko": "전기전자공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Kỹ thuật Cơ khí",
+            "name_ko": "기계공학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "natural_sciences",
+        "faculty_name_vi": "Khoa Khoa học Tự nhiên & Sinh học",
+        "faculty_name_ko": "자연과학대학",
+        "tuition_krw": 2778000,
+        "majors": [
+          {
+            "name_vi": "Hóa học & Vật liệu mới",
+            "name_ko": "화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Công nghệ Thực phẩm & Dinh dưỡng",
+            "name_ko": "식품영양학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Sinh học Ứng dụng & Công nghệ Sinh học",
+            "name_ko": "생명공학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "arts_sports",
+        "faculty_name_vi": "Khoa Nghệ thuật & Thể dục Thể thao",
+        "faculty_name_ko": "예체능대학",
+        "tuition_krw": 2778000,
+        "majors": [
+          {
+            "name_vi": "Thiết kế Đồ họa & Kỹ thuật số",
+            "name_ko": "시각디자인학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Nghệ thuật Thẩm mỹ & Trang điểm (Make-up)",
+            "name_ko": "뷰티미용학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Diễn xuất, Sân khấu & Điện ảnh",
+            "name_ko": "연극영화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Âm nhạc K-Pop & Vẫn nghệ",
+            "name_ko": "실용음악학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "medicine_pharmacy",
+        "faculty_name_vi": "Khoa Y - Dược & Khoa học Y tế",
+        "faculty_name_ko": "의치약학/보건대학",
+        "tuition_krw": 2778000,
+        "majors": [
+          {
+            "name_vi": "Điều dưỡng (Nursing)",
+            "name_ko": "간호학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Quản lý Y tế & Bệnh viện",
+            "name_ko": "보건행정학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Vật lý trị liệu & Phục hồi chức năng",
+            "name_ko": "물리치료학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Dược học",
+            "name_ko": "약학과",
+            "is_hot": true
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "dongeui_science",
@@ -1652,7 +7817,144 @@ export const universities = [
     "visa_metropolitan": true,
     "master_no_topik": false,
     "custom_notes": "Ngành nổi bật: Cơ khí và Điều dưỡng (Học phí đồng nhất 2.455.000 KRW)",
-    "top_1_percent": false
+    "top_1_percent": false,
+    "majors_detail": [
+      {
+        "category": "humanities_social",
+        "faculty_name_vi": "Khoa Nhân văn & Khoa học Xã hội",
+        "faculty_name_ko": "인문사회대학",
+        "tuition_krw": 2455000,
+        "majors": [
+          {
+            "name_vi": "Quản trị Kinh doanh",
+            "name_ko": "경영학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Ngôn ngữ & Văn hóa Hàn Quốc",
+            "name_ko": "한국언어문화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Truyền thông & Báo chí",
+            "name_ko": "미디어언론학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Thương mại Quốc tế",
+            "name_ko": "국제무역학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "engineering",
+        "faculty_name_vi": "Khoa Kỹ thuật & Công nghệ Thông tin",
+        "faculty_name_ko": "공과대학",
+        "tuition_krw": 2455000,
+        "majors": [
+          {
+            "name_vi": "Khoa học Máy tính & AI",
+            "name_ko": "컴퓨터공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Công nghệ Thông tin (IT)",
+            "name_ko": "정보통신공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Kỹ thuật Điện - Điện tử",
+            "name_ko": "전기전자공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Kỹ thuật Cơ khí",
+            "name_ko": "기계공학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "natural_sciences",
+        "faculty_name_vi": "Khoa Khoa học Tự nhiên & Sinh học",
+        "faculty_name_ko": "자연과학대학",
+        "tuition_krw": 2455000,
+        "majors": [
+          {
+            "name_vi": "Hóa học & Vật liệu mới",
+            "name_ko": "화학과",
+            "is_hot": false
+          },
+          {
+            "name_vi": "Công nghệ Thực phẩm & Dinh dưỡng",
+            "name_ko": "식품영양학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Sinh học Ứng dụng & Công nghệ Sinh học",
+            "name_ko": "생명공학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "arts_sports",
+        "faculty_name_vi": "Khoa Nghệ thuật & Thể dục Thể thao",
+        "faculty_name_ko": "예체능대학",
+        "tuition_krw": 2455000,
+        "majors": [
+          {
+            "name_vi": "Thiết kế Đồ họa & Kỹ thuật số",
+            "name_ko": "시각디자인학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Nghệ thuật Thẩm mỹ & Trang điểm (Make-up)",
+            "name_ko": "뷰티미용학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Diễn xuất, Sân khấu & Điện ảnh",
+            "name_ko": "연극영화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Âm nhạc K-Pop & Vẫn nghệ",
+            "name_ko": "실용음악학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "medicine_pharmacy",
+        "faculty_name_vi": "Khoa Y - Dược & Khoa học Y tế",
+        "faculty_name_ko": "의치약학/보건대학",
+        "tuition_krw": 2455000,
+        "majors": [
+          {
+            "name_vi": "Điều dưỡng (Nursing)",
+            "name_ko": "간호학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Quản lý Y tế & Bệnh viện",
+            "name_ko": "보건행정학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Vật lý trị liệu & Phục hồi chức năng",
+            "name_ko": "물리치료학과",
+            "is_hot": false
+          },
+          {
+            "name_vi": "Dược học",
+            "name_ko": "약학과",
+            "is_hot": false
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "kyungnam_it",
@@ -1682,7 +7984,144 @@ export const universities = [
     "visa_metropolitan": true,
     "master_no_topik": false,
     "custom_notes": "Ngành nổi bật: Điện, Cơ khí, Ô tô điện, Kỹ thuật điện tử, Điều dưỡng (Học phí 3.468.000 KRW)",
-    "top_1_percent": false
+    "top_1_percent": false,
+    "majors_detail": [
+      {
+        "category": "humanities_social",
+        "faculty_name_vi": "Khoa Nhân văn & Khoa học Xã hội",
+        "faculty_name_ko": "인문사회대학",
+        "tuition_krw": 3468000,
+        "majors": [
+          {
+            "name_vi": "Quản trị Kinh doanh",
+            "name_ko": "경영학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Ngôn ngữ & Văn hóa Hàn Quốc",
+            "name_ko": "한국언어문화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Truyền thông & Báo chí",
+            "name_ko": "미디어언론학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Thương mại Quốc tế",
+            "name_ko": "국제무역학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "engineering",
+        "faculty_name_vi": "Khoa Kỹ thuật & Công nghệ Thông tin",
+        "faculty_name_ko": "공과대학",
+        "tuition_krw": 3468000,
+        "majors": [
+          {
+            "name_vi": "Khoa học Máy tính & AI",
+            "name_ko": "컴퓨터공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Công nghệ Thông tin (IT)",
+            "name_ko": "정보통신공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Kỹ thuật Điện - Điện tử",
+            "name_ko": "전기전자공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Kỹ thuật Cơ khí",
+            "name_ko": "기계공학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "natural_sciences",
+        "faculty_name_vi": "Khoa Khoa học Tự nhiên & Sinh học",
+        "faculty_name_ko": "자연과학대학",
+        "tuition_krw": 3468000,
+        "majors": [
+          {
+            "name_vi": "Hóa học & Vật liệu mới",
+            "name_ko": "화학과",
+            "is_hot": false
+          },
+          {
+            "name_vi": "Công nghệ Thực phẩm & Dinh dưỡng",
+            "name_ko": "식품영양학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Sinh học Ứng dụng & Công nghệ Sinh học",
+            "name_ko": "생명공학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "arts_sports",
+        "faculty_name_vi": "Khoa Nghệ thuật & Thể dục Thể thao",
+        "faculty_name_ko": "예체능대학",
+        "tuition_krw": 3468000,
+        "majors": [
+          {
+            "name_vi": "Thiết kế Đồ họa & Kỹ thuật số",
+            "name_ko": "시각디자인학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Nghệ thuật Thẩm mỹ & Trang điểm (Make-up)",
+            "name_ko": "뷰티미용학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Diễn xuất, Sân khấu & Điện ảnh",
+            "name_ko": "연극영화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Âm nhạc K-Pop & Vẫn nghệ",
+            "name_ko": "실용음악학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "medicine_pharmacy",
+        "faculty_name_vi": "Khoa Y - Dược & Khoa học Y tế",
+        "faculty_name_ko": "의치약학/보건대학",
+        "tuition_krw": 3468000,
+        "majors": [
+          {
+            "name_vi": "Điều dưỡng (Nursing)",
+            "name_ko": "간호학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Quản lý Y tế & Bệnh viện",
+            "name_ko": "보건행정학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Vật lý trị liệu & Phục hồi chức năng",
+            "name_ko": "물리치료학과",
+            "is_hot": false
+          },
+          {
+            "name_vi": "Dược học",
+            "name_ko": "약학과",
+            "is_hot": false
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "kunjang",
@@ -1712,7 +8151,144 @@ export const universities = [
     "visa_metropolitan": true,
     "master_no_topik": false,
     "custom_notes": "Ngành nổi bật: Điều dưỡng (Học phí Y khoa/Điều dưỡng: 2.750.000 KRW)",
-    "top_1_percent": false
+    "top_1_percent": false,
+    "majors_detail": [
+      {
+        "category": "humanities_social",
+        "faculty_name_vi": "Khoa Nhân văn & Khoa học Xã hội",
+        "faculty_name_ko": "인문사회대학",
+        "tuition_krw": 2400000,
+        "majors": [
+          {
+            "name_vi": "Quản trị Kinh doanh",
+            "name_ko": "경영학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Ngôn ngữ & Văn hóa Hàn Quốc",
+            "name_ko": "한국언어문화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Truyền thông & Báo chí",
+            "name_ko": "미디어언론학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Thương mại Quốc tế",
+            "name_ko": "국제무역학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "engineering",
+        "faculty_name_vi": "Khoa Kỹ thuật & Công nghệ Thông tin",
+        "faculty_name_ko": "공과대학",
+        "tuition_krw": 2600000,
+        "majors": [
+          {
+            "name_vi": "Khoa học Máy tính & AI",
+            "name_ko": "컴퓨터공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Công nghệ Thông tin (IT)",
+            "name_ko": "정보통신공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Kỹ thuật Điện - Điện tử",
+            "name_ko": "전기전자공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Kỹ thuật Cơ khí",
+            "name_ko": "기계공학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "natural_sciences",
+        "faculty_name_vi": "Khoa Khoa học Tự nhiên & Sinh học",
+        "faculty_name_ko": "자연과학대학",
+        "tuition_krw": 2500000,
+        "majors": [
+          {
+            "name_vi": "Hóa học & Vật liệu mới",
+            "name_ko": "화학과",
+            "is_hot": false
+          },
+          {
+            "name_vi": "Công nghệ Thực phẩm & Dinh dưỡng",
+            "name_ko": "식품영양학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Sinh học Ứng dụng & Công nghệ Sinh học",
+            "name_ko": "생명공학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "arts_sports",
+        "faculty_name_vi": "Khoa Nghệ thuật & Thể dục Thể thao",
+        "faculty_name_ko": "예체능대학",
+        "tuition_krw": 2500000,
+        "majors": [
+          {
+            "name_vi": "Thiết kế Đồ họa & Kỹ thuật số",
+            "name_ko": "시각디자인학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Nghệ thuật Thẩm mỹ & Trang điểm (Make-up)",
+            "name_ko": "뷰티미용학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Diễn xuất, Sân khấu & Điện ảnh",
+            "name_ko": "연극영화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Âm nhạc K-Pop & Vẫn nghệ",
+            "name_ko": "실용음악학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "medicine_pharmacy",
+        "faculty_name_vi": "Khoa Y - Dược & Khoa học Y tế",
+        "faculty_name_ko": "의치약학/보건대학",
+        "tuition_krw": 2750000,
+        "majors": [
+          {
+            "name_vi": "Điều dưỡng (Nursing)",
+            "name_ko": "간호학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Quản lý Y tế & Bệnh viện",
+            "name_ko": "보건행정학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Vật lý trị liệu & Phục hồi chức năng",
+            "name_ko": "물리치료학과",
+            "is_hot": false
+          },
+          {
+            "name_vi": "Dược học",
+            "name_ko": "약학과",
+            "is_hot": false
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "baekseok",
@@ -1750,7 +8326,144 @@ export const universities = [
     "dorm_fee_desc": "1,200,000KRW",
     "admission_conditions": "",
     "featured_majors": "Thần học – Điều dưỡng – Giáo dục",
-    "regional_restrictions": ""
+    "regional_restrictions": "",
+    "majors_detail": [
+      {
+        "category": "humanities_social",
+        "faculty_name_vi": "Khoa Nhân văn & Khoa học Xã hội",
+        "faculty_name_ko": "인문사회대학",
+        "tuition_krw": 3200000,
+        "majors": [
+          {
+            "name_vi": "Quản trị Kinh doanh",
+            "name_ko": "경영학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Ngôn ngữ & Văn hóa Hàn Quốc",
+            "name_ko": "한국언어문화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Truyền thông & Báo chí",
+            "name_ko": "미디어언론학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Thương mại Quốc tế",
+            "name_ko": "국제무역학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "engineering",
+        "faculty_name_vi": "Khoa Kỹ thuật & Công nghệ Thông tin",
+        "faculty_name_ko": "공과대학",
+        "tuition_krw": 3800000,
+        "majors": [
+          {
+            "name_vi": "Khoa học Máy tính & AI",
+            "name_ko": "컴퓨터공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Công nghệ Thông tin (IT)",
+            "name_ko": "정보통신공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Kỹ thuật Điện - Điện tử",
+            "name_ko": "전기전자공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Kỹ thuật Cơ khí",
+            "name_ko": "기계공학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "natural_sciences",
+        "faculty_name_vi": "Khoa Khoa học Tự nhiên & Sinh học",
+        "faculty_name_ko": "자연과학대학",
+        "tuition_krw": 3500000,
+        "majors": [
+          {
+            "name_vi": "Hóa học & Vật liệu mới",
+            "name_ko": "화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Công nghệ Thực phẩm & Dinh dưỡng",
+            "name_ko": "식품영양학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Sinh học Ứng dụng & Công nghệ Sinh học",
+            "name_ko": "생명공학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "arts_sports",
+        "faculty_name_vi": "Khoa Nghệ thuật & Thể dục Thể thao",
+        "faculty_name_ko": "예체능대학",
+        "tuition_krw": 3900000,
+        "majors": [
+          {
+            "name_vi": "Thiết kế Đồ họa & Kỹ thuật số",
+            "name_ko": "시각디자인학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Nghệ thuật Thẩm mỹ & Trang điểm (Make-up)",
+            "name_ko": "뷰티미용학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Diễn xuất, Sân khấu & Điện ảnh",
+            "name_ko": "연극영화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Âm nhạc K-Pop & Vẫn nghệ",
+            "name_ko": "실용음악학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "medicine_pharmacy",
+        "faculty_name_vi": "Khoa Y - Dược & Khoa học Y tế",
+        "faculty_name_ko": "의치약학/보건대학",
+        "tuition_krw": 3799000,
+        "majors": [
+          {
+            "name_vi": "Điều dưỡng (Nursing)",
+            "name_ko": "간호학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Quản lý Y tế & Bệnh viện",
+            "name_ko": "보건행정학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Vật lý trị liệu & Phục hồi chức năng",
+            "name_ko": "물리치료학과",
+            "is_hot": false
+          },
+          {
+            "name_vi": "Dược học",
+            "name_ko": "약학과",
+            "is_hot": true
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "hosan",
@@ -1780,7 +8493,144 @@ export const universities = [
     "visa_metropolitan": true,
     "master_no_topik": false,
     "custom_notes": "Ngành nổi bật: Điều dưỡng (Học phí cực tốt: 2.000.000 KRW)",
-    "top_1_percent": false
+    "top_1_percent": false,
+    "majors_detail": [
+      {
+        "category": "humanities_social",
+        "faculty_name_vi": "Khoa Nhân văn & Khoa học Xã hội",
+        "faculty_name_ko": "인문사회대학",
+        "tuition_krw": 1800000,
+        "majors": [
+          {
+            "name_vi": "Quản trị Kinh doanh",
+            "name_ko": "경영학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Ngôn ngữ & Văn hóa Hàn Quốc",
+            "name_ko": "한국언어문화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Truyền thông & Báo chí",
+            "name_ko": "미디어언론학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Thương mại Quốc tế",
+            "name_ko": "국제무역학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "engineering",
+        "faculty_name_vi": "Khoa Kỹ thuật & Công nghệ Thông tin",
+        "faculty_name_ko": "공과대학",
+        "tuition_krw": 1950000,
+        "majors": [
+          {
+            "name_vi": "Khoa học Máy tính & AI",
+            "name_ko": "컴퓨터공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Công nghệ Thông tin (IT)",
+            "name_ko": "정보통신공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Kỹ thuật Điện - Điện tử",
+            "name_ko": "전기전자공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Kỹ thuật Cơ khí",
+            "name_ko": "기계공학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "natural_sciences",
+        "faculty_name_vi": "Khoa Khoa học Tự nhiên & Sinh học",
+        "faculty_name_ko": "자연과학대학",
+        "tuition_krw": 1900000,
+        "majors": [
+          {
+            "name_vi": "Hóa học & Vật liệu mới",
+            "name_ko": "화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Công nghệ Thực phẩm & Dinh dưỡng",
+            "name_ko": "식품영양학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Sinh học Ứng dụng & Công nghệ Sinh học",
+            "name_ko": "생명공학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "arts_sports",
+        "faculty_name_vi": "Khoa Nghệ thuật & Thể dục Thể thao",
+        "faculty_name_ko": "예체능대학",
+        "tuition_krw": 1900000,
+        "majors": [
+          {
+            "name_vi": "Thiết kế Đồ họa & Kỹ thuật số",
+            "name_ko": "시각디자인학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Nghệ thuật Thẩm mỹ & Trang điểm (Make-up)",
+            "name_ko": "뷰티미용학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Diễn xuất, Sân khấu & Điện ảnh",
+            "name_ko": "연극영화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Âm nhạc K-Pop & Vẫn nghệ",
+            "name_ko": "실용음악학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "medicine_pharmacy",
+        "faculty_name_vi": "Khoa Y - Dược & Khoa học Y tế",
+        "faculty_name_ko": "의치약학/보건대학",
+        "tuition_krw": 2000000,
+        "majors": [
+          {
+            "name_vi": "Điều dưỡng (Nursing)",
+            "name_ko": "간호학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Quản lý Y tế & Bệnh viện",
+            "name_ko": "보건행정학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Vật lý trị liệu & Phục hồi chức năng",
+            "name_ko": "물리치료학과",
+            "is_hot": false
+          },
+          {
+            "name_vi": "Dược học",
+            "name_ko": "약학과",
+            "is_hot": true
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "kyongbuk_science",
@@ -1810,7 +8660,144 @@ export const universities = [
     "visa_metropolitan": true,
     "master_no_topik": false,
     "custom_notes": "Ngành nổi bật: Điều dưỡng (Học phí: 2.105.000 KRW)",
-    "top_1_percent": false
+    "top_1_percent": false,
+    "majors_detail": [
+      {
+        "category": "humanities_social",
+        "faculty_name_vi": "Khoa Nhân văn & Khoa học Xã hội",
+        "faculty_name_ko": "인문사회대학",
+        "tuition_krw": 1900000,
+        "majors": [
+          {
+            "name_vi": "Quản trị Kinh doanh",
+            "name_ko": "경영학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Ngôn ngữ & Văn hóa Hàn Quốc",
+            "name_ko": "한국언어문화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Truyền thông & Báo chí",
+            "name_ko": "미디어언론학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Thương mại Quốc tế",
+            "name_ko": "국제무역학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "engineering",
+        "faculty_name_vi": "Khoa Kỹ thuật & Công nghệ Thông tin",
+        "faculty_name_ko": "공과대학",
+        "tuition_krw": 2050000,
+        "majors": [
+          {
+            "name_vi": "Khoa học Máy tính & AI",
+            "name_ko": "컴퓨터공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Công nghệ Thông tin (IT)",
+            "name_ko": "정보통신공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Kỹ thuật Điện - Điện tử",
+            "name_ko": "전기전자공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Kỹ thuật Cơ khí",
+            "name_ko": "기계공학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "natural_sciences",
+        "faculty_name_vi": "Khoa Khoa học Tự nhiên & Sinh học",
+        "faculty_name_ko": "자연과학대학",
+        "tuition_krw": 2000000,
+        "majors": [
+          {
+            "name_vi": "Hóa học & Vật liệu mới",
+            "name_ko": "화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Công nghệ Thực phẩm & Dinh dưỡng",
+            "name_ko": "식품영양학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Sinh học Ứng dụng & Công nghệ Sinh học",
+            "name_ko": "생명공학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "arts_sports",
+        "faculty_name_vi": "Khoa Nghệ thuật & Thể dục Thể thao",
+        "faculty_name_ko": "예체능대학",
+        "tuition_krw": 2000000,
+        "majors": [
+          {
+            "name_vi": "Thiết kế Đồ họa & Kỹ thuật số",
+            "name_ko": "시각디자인학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Nghệ thuật Thẩm mỹ & Trang điểm (Make-up)",
+            "name_ko": "뷰티미용학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Diễn xuất, Sân khấu & Điện ảnh",
+            "name_ko": "연극영화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Âm nhạc K-Pop & Vẫn nghệ",
+            "name_ko": "실용음악학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "medicine_pharmacy",
+        "faculty_name_vi": "Khoa Y - Dược & Khoa học Y tế",
+        "faculty_name_ko": "의치약학/보건대학",
+        "tuition_krw": 2105000,
+        "majors": [
+          {
+            "name_vi": "Điều dưỡng (Nursing)",
+            "name_ko": "간호학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Quản lý Y tế & Bệnh viện",
+            "name_ko": "보건행정학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Vật lý trị liệu & Phục hồi chức năng",
+            "name_ko": "물리치료학과",
+            "is_hot": false
+          },
+          {
+            "name_vi": "Dược học",
+            "name_ko": "약학과",
+            "is_hot": true
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "kyungbuk_college",
@@ -1840,7 +8827,144 @@ export const universities = [
     "visa_metropolitan": true,
     "master_no_topik": false,
     "custom_notes": "Ngành nổi bật: Kỹ thuật toàn cầu & Điều dưỡng (Học phí đồng giá 2.000.000 KRW)",
-    "top_1_percent": false
+    "top_1_percent": false,
+    "majors_detail": [
+      {
+        "category": "humanities_social",
+        "faculty_name_vi": "Khoa Nhân văn & Khoa học Xã hội",
+        "faculty_name_ko": "인문사회대학",
+        "tuition_krw": 1800000,
+        "majors": [
+          {
+            "name_vi": "Quản trị Kinh doanh",
+            "name_ko": "경영학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Ngôn ngữ & Văn hóa Hàn Quốc",
+            "name_ko": "한국언어문화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Truyền thông & Báo chí",
+            "name_ko": "미디어언론학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Thương mại Quốc tế",
+            "name_ko": "국제무역학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "engineering",
+        "faculty_name_vi": "Khoa Kỹ thuật & Công nghệ Thông tin",
+        "faculty_name_ko": "공과대학",
+        "tuition_krw": 2000000,
+        "majors": [
+          {
+            "name_vi": "Khoa học Máy tính & AI",
+            "name_ko": "컴퓨터공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Công nghệ Thông tin (IT)",
+            "name_ko": "정보통신공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Kỹ thuật Điện - Điện tử",
+            "name_ko": "전기전자공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Kỹ thuật Cơ khí",
+            "name_ko": "기계공학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "natural_sciences",
+        "faculty_name_vi": "Khoa Khoa học Tự nhiên & Sinh học",
+        "faculty_name_ko": "자연과학대학",
+        "tuition_krw": 1950000,
+        "majors": [
+          {
+            "name_vi": "Hóa học & Vật liệu mới",
+            "name_ko": "화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Công nghệ Thực phẩm & Dinh dưỡng",
+            "name_ko": "식품영양학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Sinh học Ứng dụng & Công nghệ Sinh học",
+            "name_ko": "생명공학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "arts_sports",
+        "faculty_name_vi": "Khoa Nghệ thuật & Thể dục Thể thao",
+        "faculty_name_ko": "예체능대학",
+        "tuition_krw": 1900000,
+        "majors": [
+          {
+            "name_vi": "Thiết kế Đồ họa & Kỹ thuật số",
+            "name_ko": "시각디자인학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Nghệ thuật Thẩm mỹ & Trang điểm (Make-up)",
+            "name_ko": "뷰티미용학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Diễn xuất, Sân khấu & Điện ảnh",
+            "name_ko": "연극영화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Âm nhạc K-Pop & Vẫn nghệ",
+            "name_ko": "실용음악학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "medicine_pharmacy",
+        "faculty_name_vi": "Khoa Y - Dược & Khoa học Y tế",
+        "faculty_name_ko": "의치약학/보건대학",
+        "tuition_krw": 2000000,
+        "majors": [
+          {
+            "name_vi": "Điều dưỡng (Nursing)",
+            "name_ko": "간호학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Quản lý Y tế & Bệnh viện",
+            "name_ko": "보건행정학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Vật lý trị liệu & Phục hồi chức năng",
+            "name_ko": "물리치료학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Dược học",
+            "name_ko": "약학과",
+            "is_hot": true
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "hansung",
@@ -1878,7 +9002,144 @@ export const universities = [
     "dorm_fee_desc": "1,300,000KRW",
     "admission_conditions": "",
     "featured_majors": "Thiết kế – IT – Fashion",
-    "regional_restrictions": ""
+    "regional_restrictions": "",
+    "majors_detail": [
+      {
+        "category": "humanities_social",
+        "faculty_name_vi": "Khoa Nhân văn & Khoa học Xã hội",
+        "faculty_name_ko": "인문사회대학",
+        "tuition_krw": 1050000,
+        "majors": [
+          {
+            "name_vi": "Quản trị Kinh doanh",
+            "name_ko": "경영학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Ngôn ngữ & Văn hóa Hàn Quốc",
+            "name_ko": "한국언어문화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Truyền thông & Báo chí",
+            "name_ko": "미디어언론학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Thương mại Quốc tế",
+            "name_ko": "국제무역학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "engineering",
+        "faculty_name_vi": "Khoa Kỹ thuật & Công nghệ Thông tin",
+        "faculty_name_ko": "공과대학",
+        "tuition_krw": 4700000,
+        "majors": [
+          {
+            "name_vi": "Khoa học Máy tính & AI",
+            "name_ko": "컴퓨터공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Công nghệ Thông tin (IT)",
+            "name_ko": "정보통신공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Kỹ thuật Điện - Điện tử",
+            "name_ko": "전기전자공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Kỹ thuật Cơ khí",
+            "name_ko": "기계공학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "natural_sciences",
+        "faculty_name_vi": "Khoa Khoa học Tự nhiên & Sinh học",
+        "faculty_name_ko": "자연과학대학",
+        "tuition_krw": 4300000,
+        "majors": [
+          {
+            "name_vi": "Hóa học & Vật liệu mới",
+            "name_ko": "화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Công nghệ Thực phẩm & Dinh dưỡng",
+            "name_ko": "식품영양학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Sinh học Ứng dụng & Công nghệ Sinh học",
+            "name_ko": "생명공학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "arts_sports",
+        "faculty_name_vi": "Khoa Nghệ thuật & Thể dục Thể thao",
+        "faculty_name_ko": "예체능대학",
+        "tuition_krw": 4800000,
+        "majors": [
+          {
+            "name_vi": "Thiết kế Đồ họa & Kỹ thuật số",
+            "name_ko": "시각디자인학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Nghệ thuật Thẩm mỹ & Trang điểm (Make-up)",
+            "name_ko": "뷰티미용학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Diễn xuất, Sân khấu & Điện ảnh",
+            "name_ko": "연극영화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Âm nhạc K-Pop & Vẫn nghệ",
+            "name_ko": "실용음악학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "medicine_pharmacy",
+        "faculty_name_vi": "Khoa Y - Dược & Khoa học Y tế",
+        "faculty_name_ko": "의치약학/보건대학",
+        "tuition_krw": 1050000,
+        "majors": [
+          {
+            "name_vi": "Điều dưỡng (Nursing)",
+            "name_ko": "간호학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Quản lý Y tế & Bệnh viện",
+            "name_ko": "보건행정학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Vật lý trị liệu & Phục hồi chức năng",
+            "name_ko": "물리치료학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Dược học",
+            "name_ko": "약학과",
+            "is_hot": true
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "bufs",
@@ -1916,7 +9177,144 @@ export const universities = [
     "dorm_fee_desc": "1,200,000-1,600,000KRW",
     "admission_conditions": "",
     "featured_majors": "Ngoại ngữ – Thương mại quốc tế – Du lịch",
-    "regional_restrictions": ""
+    "regional_restrictions": "",
+    "majors_detail": [
+      {
+        "category": "humanities_social",
+        "faculty_name_vi": "Khoa Nhân văn & Khoa học Xã hội",
+        "faculty_name_ko": "인문사회대학",
+        "tuition_krw": 3200000,
+        "majors": [
+          {
+            "name_vi": "Quản trị Kinh doanh",
+            "name_ko": "경영학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Ngôn ngữ & Văn hóa Hàn Quốc",
+            "name_ko": "한국언어문화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Truyền thông & Báo chí",
+            "name_ko": "미디어언론학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Thương mại Quốc tế",
+            "name_ko": "국제무역학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "engineering",
+        "faculty_name_vi": "Khoa Kỹ thuật & Công nghệ Thông tin",
+        "faculty_name_ko": "공과대학",
+        "tuition_krw": 3800000,
+        "majors": [
+          {
+            "name_vi": "Khoa học Máy tính & AI",
+            "name_ko": "컴퓨터공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Công nghệ Thông tin (IT)",
+            "name_ko": "정보통신공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Kỹ thuật Điện - Điện tử",
+            "name_ko": "전기전자공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Kỹ thuật Cơ khí",
+            "name_ko": "기계공학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "natural_sciences",
+        "faculty_name_vi": "Khoa Khoa học Tự nhiên & Sinh học",
+        "faculty_name_ko": "자연과학대학",
+        "tuition_krw": 3600000,
+        "majors": [
+          {
+            "name_vi": "Hóa học & Vật liệu mới",
+            "name_ko": "화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Công nghệ Thực phẩm & Dinh dưỡng",
+            "name_ko": "식품영양학과",
+            "is_hot": false
+          },
+          {
+            "name_vi": "Sinh học Ứng dụng & Công nghệ Sinh học",
+            "name_ko": "생명공학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "arts_sports",
+        "faculty_name_vi": "Khoa Nghệ thuật & Thể dục Thể thao",
+        "faculty_name_ko": "예체능대학",
+        "tuition_krw": 3700000,
+        "majors": [
+          {
+            "name_vi": "Thiết kế Đồ họa & Kỹ thuật số",
+            "name_ko": "시각디자인학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Nghệ thuật Thẩm mỹ & Trang điểm (Make-up)",
+            "name_ko": "뷰티미용학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Diễn xuất, Sân khấu & Điện ảnh",
+            "name_ko": "연극영화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Âm nhạc K-Pop & Vẫn nghệ",
+            "name_ko": "실용음악학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "medicine_pharmacy",
+        "faculty_name_vi": "Khoa Y - Dược & Khoa học Y tế",
+        "faculty_name_ko": "의치약학/보건대학",
+        "tuition_krw": 3600000,
+        "majors": [
+          {
+            "name_vi": "Điều dưỡng (Nursing)",
+            "name_ko": "간호학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Quản lý Y tế & Bệnh viện",
+            "name_ko": "보건행정학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Vật lý trị liệu & Phục hồi chức năng",
+            "name_ko": "물리치료학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Dược học",
+            "name_ko": "약학과",
+            "is_hot": true
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "wonkwang",
@@ -1954,7 +9352,144 @@ export const universities = [
     "dorm_fee_desc": "600,000-900,000KRW",
     "admission_conditions": "",
     "featured_majors": "Điều dưỡng, Vật lý trị liệu, Dược",
-    "regional_restrictions": ""
+    "regional_restrictions": "",
+    "majors_detail": [
+      {
+        "category": "humanities_social",
+        "faculty_name_vi": "Khoa Nhân văn & Khoa học Xã hội",
+        "faculty_name_ko": "인문사회대학",
+        "tuition_krw": 3100000,
+        "majors": [
+          {
+            "name_vi": "Quản trị Kinh doanh",
+            "name_ko": "경영학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Ngôn ngữ & Văn hóa Hàn Quốc",
+            "name_ko": "한국언어문화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Truyền thông & Báo chí",
+            "name_ko": "미디어언론학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Thương mại Quốc tế",
+            "name_ko": "국제무역학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "engineering",
+        "faculty_name_vi": "Khoa Kỹ thuật & Công nghệ Thông tin",
+        "faculty_name_ko": "공과대학",
+        "tuition_krw": 4100000,
+        "majors": [
+          {
+            "name_vi": "Khoa học Máy tính & AI",
+            "name_ko": "컴퓨터공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Công nghệ Thông tin (IT)",
+            "name_ko": "정보통신공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Kỹ thuật Điện - Điện tử",
+            "name_ko": "전기전자공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Kỹ thuật Cơ khí",
+            "name_ko": "기계공학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "natural_sciences",
+        "faculty_name_vi": "Khoa Khoa học Tự nhiên & Sinh học",
+        "faculty_name_ko": "자연과학대학",
+        "tuition_krw": 3700000,
+        "majors": [
+          {
+            "name_vi": "Hóa học & Vật liệu mới",
+            "name_ko": "화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Công nghệ Thực phẩm & Dinh dưỡng",
+            "name_ko": "식품영양학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Sinh học Ứng dụng & Công nghệ Sinh học",
+            "name_ko": "생명공학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "arts_sports",
+        "faculty_name_vi": "Khoa Nghệ thuật & Thể dục Thể thao",
+        "faculty_name_ko": "예체능대학",
+        "tuition_krw": 3400000,
+        "majors": [
+          {
+            "name_vi": "Thiết kế Đồ họa & Kỹ thuật số",
+            "name_ko": "시각디자인학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Nghệ thuật Thẩm mỹ & Trang điểm (Make-up)",
+            "name_ko": "뷰티미용학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Diễn xuất, Sân khấu & Điện ảnh",
+            "name_ko": "연극영화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Âm nhạc K-Pop & Vẫn nghệ",
+            "name_ko": "실용음악학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "medicine_pharmacy",
+        "faculty_name_vi": "Khoa Y - Dược & Khoa học Y tế",
+        "faculty_name_ko": "의치약학/보건대학",
+        "tuition_krw": 5600000,
+        "majors": [
+          {
+            "name_vi": "Điều dưỡng (Nursing)",
+            "name_ko": "간호학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Quản lý Y tế & Bệnh viện",
+            "name_ko": "보건행정학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Vật lý trị liệu & Phục hồi chức năng",
+            "name_ko": "물리치료학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Dược học",
+            "name_ko": "약학과",
+            "is_hot": true
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "uni_1",
@@ -1994,7 +9529,144 @@ export const universities = [
     "admission_conditions": "6,0 trở lên",
     "featured_majors": "",
     "regional_restrictions": "",
-    "is_restricted_school": true
+    "is_restricted_school": true,
+    "majors_detail": [
+      {
+        "category": "humanities_social",
+        "faculty_name_vi": "Khoa Nhân văn & Khoa học Xã hội",
+        "faculty_name_ko": "인문사회대학",
+        "tuition_krw": 3645000,
+        "majors": [
+          {
+            "name_vi": "Quản trị Kinh doanh",
+            "name_ko": "경영학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Ngôn ngữ & Văn hóa Hàn Quốc",
+            "name_ko": "한국언어문화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Truyền thông & Báo chí",
+            "name_ko": "미디어언론학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Thương mại Quốc tế",
+            "name_ko": "국제무역학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "engineering",
+        "faculty_name_vi": "Khoa Kỹ thuật & Công nghệ Thông tin",
+        "faculty_name_ko": "공과대학",
+        "tuition_krw": 4779000,
+        "majors": [
+          {
+            "name_vi": "Khoa học Máy tính & AI",
+            "name_ko": "컴퓨터공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Công nghệ Thông tin (IT)",
+            "name_ko": "정보통신공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Kỹ thuật Điện - Điện tử",
+            "name_ko": "전기전자공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Kỹ thuật Cơ khí",
+            "name_ko": "기계공학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "natural_sciences",
+        "faculty_name_vi": "Khoa Khoa học Tự nhiên & Sinh học",
+        "faculty_name_ko": "자연과학대학",
+        "tuition_krw": 4252500,
+        "majors": [
+          {
+            "name_vi": "Hóa học & Vật liệu mới",
+            "name_ko": "화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Công nghệ Thực phẩm & Dinh dưỡng",
+            "name_ko": "식품영양학과",
+            "is_hot": false
+          },
+          {
+            "name_vi": "Sinh học Ứng dụng & Công nghệ Sinh học",
+            "name_ko": "생명공학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "arts_sports",
+        "faculty_name_vi": "Khoa Nghệ thuật & Thể dục Thể thao",
+        "faculty_name_ko": "예체능대학",
+        "tuition_krw": 5062500,
+        "majors": [
+          {
+            "name_vi": "Thiết kế Đồ họa & Kỹ thuật số",
+            "name_ko": "시각디자인학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Nghệ thuật Thẩm mỹ & Trang điểm (Make-up)",
+            "name_ko": "뷰티미용학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Diễn xuất, Sân khấu & Điện ảnh",
+            "name_ko": "연극영화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Âm nhạc K-Pop & Vẫn nghệ",
+            "name_ko": "실용음악학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "medicine_pharmacy",
+        "faculty_name_vi": "Khoa Y - Dược & Khoa học Y tế",
+        "faculty_name_ko": "의치약학/보건대학",
+        "tuition_krw": 6480000,
+        "majors": [
+          {
+            "name_vi": "Điều dưỡng (Nursing)",
+            "name_ko": "간호학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Quản lý Y tế & Bệnh viện",
+            "name_ko": "보건행정학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Vật lý trị liệu & Phục hồi chức năng",
+            "name_ko": "물리치료학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Dược học",
+            "name_ko": "약학과",
+            "is_hot": true
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "uni_2",
@@ -2034,7 +9706,144 @@ export const universities = [
     "admission_conditions": "6,0 trở lên",
     "featured_majors": "",
     "regional_restrictions": "",
-    "is_restricted_school": true
+    "is_restricted_school": true,
+    "majors_detail": [
+      {
+        "category": "humanities_social",
+        "faculty_name_vi": "Khoa Nhân văn & Khoa học Xã hội",
+        "faculty_name_ko": "인문사회대학",
+        "tuition_krw": 3600000,
+        "majors": [
+          {
+            "name_vi": "Quản trị Kinh doanh",
+            "name_ko": "경영학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Ngôn ngữ & Văn hóa Hàn Quốc",
+            "name_ko": "한국언어문화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Truyền thông & Báo chí",
+            "name_ko": "미디어언론학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Thương mại Quốc tế",
+            "name_ko": "국제무역학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "engineering",
+        "faculty_name_vi": "Khoa Kỹ thuật & Công nghệ Thông tin",
+        "faculty_name_ko": "공과대학",
+        "tuition_krw": 4720000,
+        "majors": [
+          {
+            "name_vi": "Khoa học Máy tính & AI",
+            "name_ko": "컴퓨터공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Công nghệ Thông tin (IT)",
+            "name_ko": "정보통신공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Kỹ thuật Điện - Điện tử",
+            "name_ko": "전기전자공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Kỹ thuật Cơ khí",
+            "name_ko": "기계공학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "natural_sciences",
+        "faculty_name_vi": "Khoa Khoa học Tự nhiên & Sinh học",
+        "faculty_name_ko": "자연과학대학",
+        "tuition_krw": 4200000,
+        "majors": [
+          {
+            "name_vi": "Hóa học & Vật liệu mới",
+            "name_ko": "화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Công nghệ Thực phẩm & Dinh dưỡng",
+            "name_ko": "식품영양학과",
+            "is_hot": false
+          },
+          {
+            "name_vi": "Sinh học Ứng dụng & Công nghệ Sinh học",
+            "name_ko": "생명공학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "arts_sports",
+        "faculty_name_vi": "Khoa Nghệ thuật & Thể dục Thể thao",
+        "faculty_name_ko": "예체능대학",
+        "tuition_krw": 5000000,
+        "majors": [
+          {
+            "name_vi": "Thiết kế Đồ họa & Kỹ thuật số",
+            "name_ko": "시각디자인학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Nghệ thuật Thẩm mỹ & Trang điểm (Make-up)",
+            "name_ko": "뷰티미용학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Diễn xuất, Sân khấu & Điện ảnh",
+            "name_ko": "연극영화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Âm nhạc K-Pop & Vẫn nghệ",
+            "name_ko": "실용음악학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "medicine_pharmacy",
+        "faculty_name_vi": "Khoa Y - Dược & Khoa học Y tế",
+        "faculty_name_ko": "의치약학/보건대학",
+        "tuition_krw": 6400000,
+        "majors": [
+          {
+            "name_vi": "Điều dưỡng (Nursing)",
+            "name_ko": "간호학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Quản lý Y tế & Bệnh viện",
+            "name_ko": "보건행정학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Vật lý trị liệu & Phục hồi chức năng",
+            "name_ko": "물리치료학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Dược học",
+            "name_ko": "약학과",
+            "is_hot": true
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "uni_3",
@@ -2074,7 +9883,144 @@ export const universities = [
     "admission_conditions": "6,0 trở lên",
     "featured_majors": "",
     "regional_restrictions": "",
-    "is_restricted_school": true
+    "is_restricted_school": true,
+    "majors_detail": [
+      {
+        "category": "humanities_social",
+        "faculty_name_vi": "Khoa Nhân văn & Khoa học Xã hội",
+        "faculty_name_ko": "인문사회대학",
+        "tuition_krw": 3150000,
+        "majors": [
+          {
+            "name_vi": "Quản trị Kinh doanh",
+            "name_ko": "경영학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Ngôn ngữ & Văn hóa Hàn Quốc",
+            "name_ko": "한국언어문화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Truyền thông & Báo chí",
+            "name_ko": "미디어언론학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Thương mại Quốc tế",
+            "name_ko": "국제무역학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "engineering",
+        "faculty_name_vi": "Khoa Kỹ thuật & Công nghệ Thông tin",
+        "faculty_name_ko": "공과대학",
+        "tuition_krw": 4130000,
+        "majors": [
+          {
+            "name_vi": "Khoa học Máy tính & AI",
+            "name_ko": "컴퓨터공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Công nghệ Thông tin (IT)",
+            "name_ko": "정보통신공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Kỹ thuật Điện - Điện tử",
+            "name_ko": "전기전자공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Kỹ thuật Cơ khí",
+            "name_ko": "기계공학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "natural_sciences",
+        "faculty_name_vi": "Khoa Khoa học Tự nhiên & Sinh học",
+        "faculty_name_ko": "자연과학대학",
+        "tuition_krw": 3675000,
+        "majors": [
+          {
+            "name_vi": "Hóa học & Vật liệu mới",
+            "name_ko": "화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Công nghệ Thực phẩm & Dinh dưỡng",
+            "name_ko": "식품영양학과",
+            "is_hot": false
+          },
+          {
+            "name_vi": "Sinh học Ứng dụng & Công nghệ Sinh học",
+            "name_ko": "생명공학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "arts_sports",
+        "faculty_name_vi": "Khoa Nghệ thuật & Thể dục Thể thao",
+        "faculty_name_ko": "예체능대학",
+        "tuition_krw": 4375000,
+        "majors": [
+          {
+            "name_vi": "Thiết kế Đồ họa & Kỹ thuật số",
+            "name_ko": "시각디자인학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Nghệ thuật Thẩm mỹ & Trang điểm (Make-up)",
+            "name_ko": "뷰티미용학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Diễn xuất, Sân khấu & Điện ảnh",
+            "name_ko": "연극영화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Âm nhạc K-Pop & Vẫn nghệ",
+            "name_ko": "실용음악학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "medicine_pharmacy",
+        "faculty_name_vi": "Khoa Y - Dược & Khoa học Y tế",
+        "faculty_name_ko": "의치약학/보건대학",
+        "tuition_krw": 5600000,
+        "majors": [
+          {
+            "name_vi": "Điều dưỡng (Nursing)",
+            "name_ko": "간호학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Quản lý Y tế & Bệnh viện",
+            "name_ko": "보건행정학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Vật lý trị liệu & Phục hồi chức năng",
+            "name_ko": "물리치료학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Dược học",
+            "name_ko": "약학과",
+            "is_hot": true
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "uni_4",
@@ -2114,7 +10060,144 @@ export const universities = [
     "admission_conditions": "6,0 trở lên",
     "featured_majors": "",
     "regional_restrictions": "",
-    "is_restricted_school": true
+    "is_restricted_school": true,
+    "majors_detail": [
+      {
+        "category": "humanities_social",
+        "faculty_name_vi": "Khoa Nhân văn & Khoa học Xã hội",
+        "faculty_name_ko": "인문사회대학",
+        "tuition_krw": 3060000,
+        "majors": [
+          {
+            "name_vi": "Quản trị Kinh doanh",
+            "name_ko": "경영학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Ngôn ngữ & Văn hóa Hàn Quốc",
+            "name_ko": "한국언어문화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Truyền thông & Báo chí",
+            "name_ko": "미디어언론학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Thương mại Quốc tế",
+            "name_ko": "국제무역학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "engineering",
+        "faculty_name_vi": "Khoa Kỹ thuật & Công nghệ Thông tin",
+        "faculty_name_ko": "공과대학",
+        "tuition_krw": 4012000,
+        "majors": [
+          {
+            "name_vi": "Khoa học Máy tính & AI",
+            "name_ko": "컴퓨터공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Công nghệ Thông tin (IT)",
+            "name_ko": "정보통신공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Kỹ thuật Điện - Điện tử",
+            "name_ko": "전기전자공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Kỹ thuật Cơ khí",
+            "name_ko": "기계공학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "natural_sciences",
+        "faculty_name_vi": "Khoa Khoa học Tự nhiên & Sinh học",
+        "faculty_name_ko": "자연과학대학",
+        "tuition_krw": 3570000,
+        "majors": [
+          {
+            "name_vi": "Hóa học & Vật liệu mới",
+            "name_ko": "화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Công nghệ Thực phẩm & Dinh dưỡng",
+            "name_ko": "식품영양학과",
+            "is_hot": false
+          },
+          {
+            "name_vi": "Sinh học Ứng dụng & Công nghệ Sinh học",
+            "name_ko": "생명공학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "arts_sports",
+        "faculty_name_vi": "Khoa Nghệ thuật & Thể dục Thể thao",
+        "faculty_name_ko": "예체능대학",
+        "tuition_krw": 4250000,
+        "majors": [
+          {
+            "name_vi": "Thiết kế Đồ họa & Kỹ thuật số",
+            "name_ko": "시각디자인학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Nghệ thuật Thẩm mỹ & Trang điểm (Make-up)",
+            "name_ko": "뷰티미용학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Diễn xuất, Sân khấu & Điện ảnh",
+            "name_ko": "연극영화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Âm nhạc K-Pop & Vẫn nghệ",
+            "name_ko": "실용음악학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "medicine_pharmacy",
+        "faculty_name_vi": "Khoa Y - Dược & Khoa học Y tế",
+        "faculty_name_ko": "의치약학/보건대학",
+        "tuition_krw": 5440000,
+        "majors": [
+          {
+            "name_vi": "Điều dưỡng (Nursing)",
+            "name_ko": "간호학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Quản lý Y tế & Bệnh viện",
+            "name_ko": "보건행정학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Vật lý trị liệu & Phục hồi chức năng",
+            "name_ko": "물리치료학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Dược học",
+            "name_ko": "약학과",
+            "is_hot": true
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "uni_5",
@@ -2154,7 +10237,144 @@ export const universities = [
     "admission_conditions": "6,0 trở lên",
     "featured_majors": "",
     "regional_restrictions": "",
-    "is_restricted_school": true
+    "is_restricted_school": true,
+    "majors_detail": [
+      {
+        "category": "humanities_social",
+        "faculty_name_vi": "Khoa Nhân văn & Khoa học Xã hội",
+        "faculty_name_ko": "인문사회대학",
+        "tuition_krw": 3600000,
+        "majors": [
+          {
+            "name_vi": "Quản trị Kinh doanh",
+            "name_ko": "경영학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Ngôn ngữ & Văn hóa Hàn Quốc",
+            "name_ko": "한국언어문화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Truyền thông & Báo chí",
+            "name_ko": "미디어언론학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Thương mại Quốc tế",
+            "name_ko": "국제무역학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "engineering",
+        "faculty_name_vi": "Khoa Kỹ thuật & Công nghệ Thông tin",
+        "faculty_name_ko": "공과대학",
+        "tuition_krw": 4720000,
+        "majors": [
+          {
+            "name_vi": "Khoa học Máy tính & AI",
+            "name_ko": "컴퓨터공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Công nghệ Thông tin (IT)",
+            "name_ko": "정보통신공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Kỹ thuật Điện - Điện tử",
+            "name_ko": "전기전자공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Kỹ thuật Cơ khí",
+            "name_ko": "기계공학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "natural_sciences",
+        "faculty_name_vi": "Khoa Khoa học Tự nhiên & Sinh học",
+        "faculty_name_ko": "자연과학대학",
+        "tuition_krw": 4200000,
+        "majors": [
+          {
+            "name_vi": "Hóa học & Vật liệu mới",
+            "name_ko": "화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Công nghệ Thực phẩm & Dinh dưỡng",
+            "name_ko": "식품영양학과",
+            "is_hot": false
+          },
+          {
+            "name_vi": "Sinh học Ứng dụng & Công nghệ Sinh học",
+            "name_ko": "생명공학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "arts_sports",
+        "faculty_name_vi": "Khoa Nghệ thuật & Thể dục Thể thao",
+        "faculty_name_ko": "예체능대학",
+        "tuition_krw": 5000000,
+        "majors": [
+          {
+            "name_vi": "Thiết kế Đồ họa & Kỹ thuật số",
+            "name_ko": "시각디자인학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Nghệ thuật Thẩm mỹ & Trang điểm (Make-up)",
+            "name_ko": "뷰티미용학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Diễn xuất, Sân khấu & Điện ảnh",
+            "name_ko": "연극영화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Âm nhạc K-Pop & Vẫn nghệ",
+            "name_ko": "실용음악학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "medicine_pharmacy",
+        "faculty_name_vi": "Khoa Y - Dược & Khoa học Y tế",
+        "faculty_name_ko": "의치약학/보건대학",
+        "tuition_krw": 5800000,
+        "majors": [
+          {
+            "name_vi": "Điều dưỡng (Nursing)",
+            "name_ko": "간호학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Quản lý Y tế & Bệnh viện",
+            "name_ko": "보건행정학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Vật lý trị liệu & Phục hồi chức năng",
+            "name_ko": "물리치료학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Dược học",
+            "name_ko": "약학과",
+            "is_hot": true
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "uni_6",
@@ -2194,7 +10414,144 @@ export const universities = [
     "admission_conditions": "6,0 trở lên",
     "featured_majors": "",
     "regional_restrictions": "",
-    "is_restricted_school": true
+    "is_restricted_school": true,
+    "majors_detail": [
+      {
+        "category": "humanities_social",
+        "faculty_name_vi": "Khoa Nhân văn & Khoa học Xã hội",
+        "faculty_name_ko": "인문사회대학",
+        "tuition_krw": 3285000,
+        "majors": [
+          {
+            "name_vi": "Quản trị Kinh doanh",
+            "name_ko": "경영학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Ngôn ngữ & Văn hóa Hàn Quốc",
+            "name_ko": "한국언어문화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Truyền thông & Báo chí",
+            "name_ko": "미디어언론학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Thương mại Quốc tế",
+            "name_ko": "국제무역학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "engineering",
+        "faculty_name_vi": "Khoa Kỹ thuật & Công nghệ Thông tin",
+        "faculty_name_ko": "공과대학",
+        "tuition_krw": 4307000,
+        "majors": [
+          {
+            "name_vi": "Khoa học Máy tính & AI",
+            "name_ko": "컴퓨터공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Công nghệ Thông tin (IT)",
+            "name_ko": "정보통신공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Kỹ thuật Điện - Điện tử",
+            "name_ko": "전기전자공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Kỹ thuật Cơ khí",
+            "name_ko": "기계공학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "natural_sciences",
+        "faculty_name_vi": "Khoa Khoa học Tự nhiên & Sinh học",
+        "faculty_name_ko": "자연과학대학",
+        "tuition_krw": 3832500,
+        "majors": [
+          {
+            "name_vi": "Hóa học & Vật liệu mới",
+            "name_ko": "화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Công nghệ Thực phẩm & Dinh dưỡng",
+            "name_ko": "식품영양학과",
+            "is_hot": false
+          },
+          {
+            "name_vi": "Sinh học Ứng dụng & Công nghệ Sinh học",
+            "name_ko": "생명공학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "arts_sports",
+        "faculty_name_vi": "Khoa Nghệ thuật & Thể dục Thể thao",
+        "faculty_name_ko": "예체능대학",
+        "tuition_krw": 4562500,
+        "majors": [
+          {
+            "name_vi": "Thiết kế Đồ họa & Kỹ thuật số",
+            "name_ko": "시각디자인학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Nghệ thuật Thẩm mỹ & Trang điểm (Make-up)",
+            "name_ko": "뷰티미용학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Diễn xuất, Sân khấu & Điện ảnh",
+            "name_ko": "연극영화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Âm nhạc K-Pop & Vẫn nghệ",
+            "name_ko": "실용음악학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "medicine_pharmacy",
+        "faculty_name_vi": "Khoa Y - Dược & Khoa học Y tế",
+        "faculty_name_ko": "의치약학/보건대학",
+        "tuition_krw": 5840000,
+        "majors": [
+          {
+            "name_vi": "Điều dưỡng (Nursing)",
+            "name_ko": "간호학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Quản lý Y tế & Bệnh viện",
+            "name_ko": "보건행정학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Vật lý trị liệu & Phục hồi chức năng",
+            "name_ko": "물리치료학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Dược học",
+            "name_ko": "약학과",
+            "is_hot": true
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "uni_7",
@@ -2234,7 +10591,144 @@ export const universities = [
     "admission_conditions": "6,0 trở lên",
     "featured_majors": "",
     "regional_restrictions": "",
-    "is_restricted_school": true
+    "is_restricted_school": true,
+    "majors_detail": [
+      {
+        "category": "humanities_social",
+        "faculty_name_vi": "Khoa Nhân văn & Khoa học Xã hội",
+        "faculty_name_ko": "인문사회대학",
+        "tuition_krw": 3510000,
+        "majors": [
+          {
+            "name_vi": "Quản trị Kinh doanh",
+            "name_ko": "경영학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Ngôn ngữ & Văn hóa Hàn Quốc",
+            "name_ko": "한국언어문화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Truyền thông & Báo chí",
+            "name_ko": "미디어언론학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Thương mại Quốc tế",
+            "name_ko": "국제무역학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "engineering",
+        "faculty_name_vi": "Khoa Kỹ thuật & Công nghệ Thông tin",
+        "faculty_name_ko": "공과대학",
+        "tuition_krw": 4602000,
+        "majors": [
+          {
+            "name_vi": "Khoa học Máy tính & AI",
+            "name_ko": "컴퓨터공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Công nghệ Thông tin (IT)",
+            "name_ko": "정보통신공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Kỹ thuật Điện - Điện tử",
+            "name_ko": "전기전자공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Kỹ thuật Cơ khí",
+            "name_ko": "기계공학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "natural_sciences",
+        "faculty_name_vi": "Khoa Khoa học Tự nhiên & Sinh học",
+        "faculty_name_ko": "자연과학대학",
+        "tuition_krw": 4095000,
+        "majors": [
+          {
+            "name_vi": "Hóa học & Vật liệu mới",
+            "name_ko": "화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Công nghệ Thực phẩm & Dinh dưỡng",
+            "name_ko": "식품영양학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Sinh học Ứng dụng & Công nghệ Sinh học",
+            "name_ko": "생명공학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "arts_sports",
+        "faculty_name_vi": "Khoa Nghệ thuật & Thể dục Thể thao",
+        "faculty_name_ko": "예체능대학",
+        "tuition_krw": 4875000,
+        "majors": [
+          {
+            "name_vi": "Thiết kế Đồ họa & Kỹ thuật số",
+            "name_ko": "시각디자인학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Nghệ thuật Thẩm mỹ & Trang điểm (Make-up)",
+            "name_ko": "뷰티미용학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Diễn xuất, Sân khấu & Điện ảnh",
+            "name_ko": "연극영화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Âm nhạc K-Pop & Vẫn nghệ",
+            "name_ko": "실용음악학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "medicine_pharmacy",
+        "faculty_name_vi": "Khoa Y - Dược & Khoa học Y tế",
+        "faculty_name_ko": "의치약학/보건대학",
+        "tuition_krw": 5655000,
+        "majors": [
+          {
+            "name_vi": "Điều dưỡng (Nursing)",
+            "name_ko": "간호학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Quản lý Y tế & Bệnh viện",
+            "name_ko": "보건행정학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Vật lý trị liệu & Phục hồi chức năng",
+            "name_ko": "물리치료학과",
+            "is_hot": false
+          },
+          {
+            "name_vi": "Dược học",
+            "name_ko": "약학과",
+            "is_hot": true
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "uni_8",
@@ -2274,7 +10768,144 @@ export const universities = [
     "admission_conditions": "6,0 trở lên",
     "featured_majors": "",
     "regional_restrictions": "",
-    "is_restricted_school": true
+    "is_restricted_school": true,
+    "majors_detail": [
+      {
+        "category": "humanities_social",
+        "faculty_name_vi": "Khoa Nhân văn & Khoa học Xã hội",
+        "faculty_name_ko": "인문사회대학",
+        "tuition_krw": 3375000,
+        "majors": [
+          {
+            "name_vi": "Quản trị Kinh doanh",
+            "name_ko": "경영학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Ngôn ngữ & Văn hóa Hàn Quốc",
+            "name_ko": "한국언어문화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Truyền thông & Báo chí",
+            "name_ko": "미디어언론학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Thương mại Quốc tế",
+            "name_ko": "국제무역학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "engineering",
+        "faculty_name_vi": "Khoa Kỹ thuật & Công nghệ Thông tin",
+        "faculty_name_ko": "공과대학",
+        "tuition_krw": 4425000,
+        "majors": [
+          {
+            "name_vi": "Khoa học Máy tính & AI",
+            "name_ko": "컴퓨터공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Công nghệ Thông tin (IT)",
+            "name_ko": "정보통신공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Kỹ thuật Điện - Điện tử",
+            "name_ko": "전기전자공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Kỹ thuật Cơ khí",
+            "name_ko": "기계공학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "natural_sciences",
+        "faculty_name_vi": "Khoa Khoa học Tự nhiên & Sinh học",
+        "faculty_name_ko": "자연과학대학",
+        "tuition_krw": 3937500,
+        "majors": [
+          {
+            "name_vi": "Hóa học & Vật liệu mới",
+            "name_ko": "화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Công nghệ Thực phẩm & Dinh dưỡng",
+            "name_ko": "식품영양학과",
+            "is_hot": false
+          },
+          {
+            "name_vi": "Sinh học Ứng dụng & Công nghệ Sinh học",
+            "name_ko": "생명공학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "arts_sports",
+        "faculty_name_vi": "Khoa Nghệ thuật & Thể dục Thể thao",
+        "faculty_name_ko": "예체능대학",
+        "tuition_krw": 4687500,
+        "majors": [
+          {
+            "name_vi": "Thiết kế Đồ họa & Kỹ thuật số",
+            "name_ko": "시각디자인학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Nghệ thuật Thẩm mỹ & Trang điểm (Make-up)",
+            "name_ko": "뷰티미용학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Diễn xuất, Sân khấu & Điện ảnh",
+            "name_ko": "연극영화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Âm nhạc K-Pop & Vẫn nghệ",
+            "name_ko": "실용음악학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "medicine_pharmacy",
+        "faculty_name_vi": "Khoa Y - Dược & Khoa học Y tế",
+        "faculty_name_ko": "의치약학/보건대학",
+        "tuition_krw": 6000000,
+        "majors": [
+          {
+            "name_vi": "Điều dưỡng (Nursing)",
+            "name_ko": "간호학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Quản lý Y tế & Bệnh viện",
+            "name_ko": "보건행정학과",
+            "is_hot": false
+          },
+          {
+            "name_vi": "Vật lý trị liệu & Phục hồi chức năng",
+            "name_ko": "물리치료학과",
+            "is_hot": false
+          },
+          {
+            "name_vi": "Dược học",
+            "name_ko": "약학과",
+            "is_hot": true
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "uni_9",
@@ -2314,7 +10945,144 @@ export const universities = [
     "admission_conditions": "6,0 trở lên",
     "featured_majors": "",
     "regional_restrictions": "",
-    "is_restricted_school": true
+    "is_restricted_school": true,
+    "majors_detail": [
+      {
+        "category": "humanities_social",
+        "faculty_name_vi": "Khoa Nhân văn & Khoa học Xã hội",
+        "faculty_name_ko": "인문사회대학",
+        "tuition_krw": 3330000,
+        "majors": [
+          {
+            "name_vi": "Quản trị Kinh doanh",
+            "name_ko": "경영학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Ngôn ngữ & Văn hóa Hàn Quốc",
+            "name_ko": "한국언어문화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Truyền thông & Báo chí",
+            "name_ko": "미디어언론학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Thương mại Quốc tế",
+            "name_ko": "국제무역학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "engineering",
+        "faculty_name_vi": "Khoa Kỹ thuật & Công nghệ Thông tin",
+        "faculty_name_ko": "공과대학",
+        "tuition_krw": 4366000,
+        "majors": [
+          {
+            "name_vi": "Khoa học Máy tính & AI",
+            "name_ko": "컴퓨터공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Công nghệ Thông tin (IT)",
+            "name_ko": "정보통신공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Kỹ thuật Điện - Điện tử",
+            "name_ko": "전기전자공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Kỹ thuật Cơ khí",
+            "name_ko": "기계공학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "natural_sciences",
+        "faculty_name_vi": "Khoa Khoa học Tự nhiên & Sinh học",
+        "faculty_name_ko": "자연과학대학",
+        "tuition_krw": 3885000,
+        "majors": [
+          {
+            "name_vi": "Hóa học & Vật liệu mới",
+            "name_ko": "화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Công nghệ Thực phẩm & Dinh dưỡng",
+            "name_ko": "식품영양학과",
+            "is_hot": false
+          },
+          {
+            "name_vi": "Sinh học Ứng dụng & Công nghệ Sinh học",
+            "name_ko": "생명공학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "arts_sports",
+        "faculty_name_vi": "Khoa Nghệ thuật & Thể dục Thể thao",
+        "faculty_name_ko": "예체능대학",
+        "tuition_krw": 4625000,
+        "majors": [
+          {
+            "name_vi": "Thiết kế Đồ họa & Kỹ thuật số",
+            "name_ko": "시각디자인학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Nghệ thuật Thẩm mỹ & Trang điểm (Make-up)",
+            "name_ko": "뷰티미용학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Diễn xuất, Sân khấu & Điện ảnh",
+            "name_ko": "연극영화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Âm nhạc K-Pop & Vẫn nghệ",
+            "name_ko": "실용음악학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "medicine_pharmacy",
+        "faculty_name_vi": "Khoa Y - Dược & Khoa học Y tế",
+        "faculty_name_ko": "의치약학/보건대학",
+        "tuition_krw": 5920000,
+        "majors": [
+          {
+            "name_vi": "Điều dưỡng (Nursing)",
+            "name_ko": "간호학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Quản lý Y tế & Bệnh viện",
+            "name_ko": "보건행정학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Vật lý trị liệu & Phục hồi chức năng",
+            "name_ko": "물리치료학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Dược học",
+            "name_ko": "약학과",
+            "is_hot": true
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "uni_10",
@@ -2354,7 +11122,144 @@ export const universities = [
     "admission_conditions": "6,0 trở lên",
     "featured_majors": "",
     "regional_restrictions": "",
-    "is_restricted_school": true
+    "is_restricted_school": true,
+    "majors_detail": [
+      {
+        "category": "humanities_social",
+        "faculty_name_vi": "Khoa Nhân văn & Khoa học Xã hội",
+        "faculty_name_ko": "인문사회대학",
+        "tuition_krw": 3555000,
+        "majors": [
+          {
+            "name_vi": "Quản trị Kinh doanh",
+            "name_ko": "경영학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Ngôn ngữ & Văn hóa Hàn Quốc",
+            "name_ko": "한국언어문화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Truyền thông & Báo chí",
+            "name_ko": "미디어언론학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Thương mại Quốc tế",
+            "name_ko": "국제무역학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "engineering",
+        "faculty_name_vi": "Khoa Kỹ thuật & Công nghệ Thông tin",
+        "faculty_name_ko": "공과대학",
+        "tuition_krw": 4661000,
+        "majors": [
+          {
+            "name_vi": "Khoa học Máy tính & AI",
+            "name_ko": "컴퓨터공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Công nghệ Thông tin (IT)",
+            "name_ko": "정보통신공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Kỹ thuật Điện - Điện tử",
+            "name_ko": "전기전자공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Kỹ thuật Cơ khí",
+            "name_ko": "기계공학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "natural_sciences",
+        "faculty_name_vi": "Khoa Khoa học Tự nhiên & Sinh học",
+        "faculty_name_ko": "자연과학대학",
+        "tuition_krw": 4147500,
+        "majors": [
+          {
+            "name_vi": "Hóa học & Vật liệu mới",
+            "name_ko": "화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Công nghệ Thực phẩm & Dinh dưỡng",
+            "name_ko": "식품영양학과",
+            "is_hot": false
+          },
+          {
+            "name_vi": "Sinh học Ứng dụng & Công nghệ Sinh học",
+            "name_ko": "생명공학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "arts_sports",
+        "faculty_name_vi": "Khoa Nghệ thuật & Thể dục Thể thao",
+        "faculty_name_ko": "예체능대학",
+        "tuition_krw": 4937500,
+        "majors": [
+          {
+            "name_vi": "Thiết kế Đồ họa & Kỹ thuật số",
+            "name_ko": "시각디자인학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Nghệ thuật Thẩm mỹ & Trang điểm (Make-up)",
+            "name_ko": "뷰티미용학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Diễn xuất, Sân khấu & Điện ảnh",
+            "name_ko": "연극영화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Âm nhạc K-Pop & Vẫn nghệ",
+            "name_ko": "실용음악학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "medicine_pharmacy",
+        "faculty_name_vi": "Khoa Y - Dược & Khoa học Y tế",
+        "faculty_name_ko": "의치약학/보건대학",
+        "tuition_krw": 6320000,
+        "majors": [
+          {
+            "name_vi": "Điều dưỡng (Nursing)",
+            "name_ko": "간호학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Quản lý Y tế & Bệnh viện",
+            "name_ko": "보건행정학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Vật lý trị liệu & Phục hồi chức năng",
+            "name_ko": "물리치료학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Dược học",
+            "name_ko": "약학과",
+            "is_hot": true
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "uni_11",
@@ -2394,7 +11299,144 @@ export const universities = [
     "admission_conditions": "6,0 trở lên",
     "featured_majors": "",
     "regional_restrictions": "",
-    "is_restricted_school": true
+    "is_restricted_school": true,
+    "majors_detail": [
+      {
+        "category": "humanities_social",
+        "faculty_name_vi": "Khoa Nhân văn & Khoa học Xã hội",
+        "faculty_name_ko": "인문사회대학",
+        "tuition_krw": 3510000,
+        "majors": [
+          {
+            "name_vi": "Quản trị Kinh doanh",
+            "name_ko": "경영학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Ngôn ngữ & Văn hóa Hàn Quốc",
+            "name_ko": "한국언어문화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Truyền thông & Báo chí",
+            "name_ko": "미디어언론학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Thương mại Quốc tế",
+            "name_ko": "국제무역학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "engineering",
+        "faculty_name_vi": "Khoa Kỹ thuật & Công nghệ Thông tin",
+        "faculty_name_ko": "공과대학",
+        "tuition_krw": 4602000,
+        "majors": [
+          {
+            "name_vi": "Khoa học Máy tính & AI",
+            "name_ko": "컴퓨터공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Công nghệ Thông tin (IT)",
+            "name_ko": "정보통신공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Kỹ thuật Điện - Điện tử",
+            "name_ko": "전기전자공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Kỹ thuật Cơ khí",
+            "name_ko": "기계공학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "natural_sciences",
+        "faculty_name_vi": "Khoa Khoa học Tự nhiên & Sinh học",
+        "faculty_name_ko": "자연과학대학",
+        "tuition_krw": 4095000,
+        "majors": [
+          {
+            "name_vi": "Hóa học & Vật liệu mới",
+            "name_ko": "화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Công nghệ Thực phẩm & Dinh dưỡng",
+            "name_ko": "식품영양학과",
+            "is_hot": false
+          },
+          {
+            "name_vi": "Sinh học Ứng dụng & Công nghệ Sinh học",
+            "name_ko": "생명공학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "arts_sports",
+        "faculty_name_vi": "Khoa Nghệ thuật & Thể dục Thể thao",
+        "faculty_name_ko": "예체능대학",
+        "tuition_krw": 4875000,
+        "majors": [
+          {
+            "name_vi": "Thiết kế Đồ họa & Kỹ thuật số",
+            "name_ko": "시각디자인학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Nghệ thuật Thẩm mỹ & Trang điểm (Make-up)",
+            "name_ko": "뷰티미용학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Diễn xuất, Sân khấu & Điện ảnh",
+            "name_ko": "연극영화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Âm nhạc K-Pop & Vẫn nghệ",
+            "name_ko": "실용음악학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "medicine_pharmacy",
+        "faculty_name_vi": "Khoa Y - Dược & Khoa học Y tế",
+        "faculty_name_ko": "의치약학/보건대학",
+        "tuition_krw": 6240000,
+        "majors": [
+          {
+            "name_vi": "Điều dưỡng (Nursing)",
+            "name_ko": "간호학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Quản lý Y tế & Bệnh viện",
+            "name_ko": "보건행정학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Vật lý trị liệu & Phục hồi chức năng",
+            "name_ko": "물리치료학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Dược học",
+            "name_ko": "약학과",
+            "is_hot": true
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "duksung",
@@ -2425,7 +11467,145 @@ export const universities = [
     "visa_metropolitan": false,
     "master_no_topik": false,
     "top_1_percent": true,
-    "custom_notes": ""
+    "custom_notes": "",
+    "featured_majors": "Thiết kế, \nQuản trị kinh doanh, Sư phạm mầm non, Y Dược, Tâm lý, Thực phẩm và dinh dưỡng",
+    "majors_detail": [
+      {
+        "category": "humanities_social",
+        "faculty_name_vi": "Khoa Nhân văn & Khoa học Xã hội",
+        "faculty_name_ko": "인문사회대학",
+        "tuition_krw": 3150000,
+        "majors": [
+          {
+            "name_vi": "Quản trị Kinh doanh",
+            "name_ko": "경영학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Ngôn ngữ & Văn hóa Hàn Quốc",
+            "name_ko": "한국언어문화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Truyền thông & Báo chí",
+            "name_ko": "미디어언론학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Thương mại Quốc tế",
+            "name_ko": "국제무역학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "engineering",
+        "faculty_name_vi": "Khoa Kỹ thuật & Công nghệ Thông tin",
+        "faculty_name_ko": "공과대학",
+        "tuition_krw": 3950000,
+        "majors": [
+          {
+            "name_vi": "Khoa học Máy tính & AI",
+            "name_ko": "컴퓨터공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Công nghệ Thông tin (IT)",
+            "name_ko": "정보통신공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Kỹ thuật Điện - Điện tử",
+            "name_ko": "전기전자공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Kỹ thuật Cơ khí",
+            "name_ko": "기계공학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "natural_sciences",
+        "faculty_name_vi": "Khoa Khoa học Tự nhiên & Sinh học",
+        "faculty_name_ko": "자연과학대학",
+        "tuition_krw": 3720000,
+        "majors": [
+          {
+            "name_vi": "Hóa học & Vật liệu mới",
+            "name_ko": "화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Công nghệ Thực phẩm & Dinh dưỡng",
+            "name_ko": "식품영양학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Sinh học Ứng dụng & Công nghệ Sinh học",
+            "name_ko": "생명공학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "arts_sports",
+        "faculty_name_vi": "Khoa Nghệ thuật & Thể dục Thể thao",
+        "faculty_name_ko": "예체능대학",
+        "tuition_krw": 4100000,
+        "majors": [
+          {
+            "name_vi": "Thiết kế Đồ họa & Kỹ thuật số",
+            "name_ko": "시각디자인학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Nghệ thuật Thẩm mỹ & Trang điểm (Make-up)",
+            "name_ko": "뷰티미용학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Diễn xuất, Sân khấu & Điện ảnh",
+            "name_ko": "연극영화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Âm nhạc K-Pop & Vẫn nghệ",
+            "name_ko": "실용음악학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "medicine_pharmacy",
+        "faculty_name_vi": "Khoa Y - Dược & Khoa học Y tế",
+        "faculty_name_ko": "의치약학/보건대학",
+        "tuition_krw": 4650000,
+        "majors": [
+          {
+            "name_vi": "Điều dưỡng (Nursing)",
+            "name_ko": "간호학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Quản lý Y tế & Bệnh viện",
+            "name_ko": "보건행정학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Vật lý trị liệu & Phục hồi chức năng",
+            "name_ko": "물리치료학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Dược học",
+            "name_ko": "약학과",
+            "is_hot": true
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "hongik",
@@ -2464,7 +11644,144 @@ export const universities = [
     "dorm_fee_desc": "1,600,000KRW",
     "admission_conditions": "",
     "featured_majors": "Mỹ thuật – Thiết kế – Kiến trúc",
-    "regional_restrictions": ""
+    "regional_restrictions": "",
+    "majors_detail": [
+      {
+        "category": "humanities_social",
+        "faculty_name_vi": "Khoa Nhân văn & Khoa học Xã hội",
+        "faculty_name_ko": "인문사회대학",
+        "tuition_krw": 3800000,
+        "majors": [
+          {
+            "name_vi": "Quản trị Kinh doanh",
+            "name_ko": "경영학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Ngôn ngữ & Văn hóa Hàn Quốc",
+            "name_ko": "한국언어문화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Truyền thông & Báo chí",
+            "name_ko": "미디어언론학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Thương mại Quốc tế",
+            "name_ko": "국제무역학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "engineering",
+        "faculty_name_vi": "Khoa Kỹ thuật & Công nghệ Thông tin",
+        "faculty_name_ko": "공과대학",
+        "tuition_krw": 4700000,
+        "majors": [
+          {
+            "name_vi": "Khoa học Máy tính & AI",
+            "name_ko": "컴퓨터공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Công nghệ Thông tin (IT)",
+            "name_ko": "정보통신공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Kỹ thuật Điện - Điện tử",
+            "name_ko": "전기전자공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Kỹ thuật Cơ khí",
+            "name_ko": "기계공학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "natural_sciences",
+        "faculty_name_vi": "Khoa Khoa học Tự nhiên & Sinh học",
+        "faculty_name_ko": "자연과학대학",
+        "tuition_krw": 4400000,
+        "majors": [
+          {
+            "name_vi": "Hóa học & Vật liệu mới",
+            "name_ko": "화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Công nghệ Thực phẩm & Dinh dưỡng",
+            "name_ko": "식품영양학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Sinh học Ứng dụng & Công nghệ Sinh học",
+            "name_ko": "생명공학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "arts_sports",
+        "faculty_name_vi": "Khoa Nghệ thuật & Thể dục Thể thao",
+        "faculty_name_ko": "예체능대학",
+        "tuition_krw": 4900000,
+        "majors": [
+          {
+            "name_vi": "Thiết kế Đồ họa & Kỹ thuật số",
+            "name_ko": "시각디자인학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Nghệ thuật Thẩm mỹ & Trang điểm (Make-up)",
+            "name_ko": "뷰티미용학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Diễn xuất, Sân khấu & Điện ảnh",
+            "name_ko": "연극영화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Âm nhạc K-Pop & Vẫn nghệ",
+            "name_ko": "실용음악학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "medicine_pharmacy",
+        "faculty_name_vi": "Khoa Y - Dược & Khoa học Y tế",
+        "faculty_name_ko": "의치약학/보건대학",
+        "tuition_krw": 3800000,
+        "majors": [
+          {
+            "name_vi": "Điều dưỡng (Nursing)",
+            "name_ko": "간호학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Quản lý Y tế & Bệnh viện",
+            "name_ko": "보건행정학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Vật lý trị liệu & Phục hồi chức năng",
+            "name_ko": "물리치료학과",
+            "is_hot": false
+          },
+          {
+            "name_vi": "Dược học",
+            "name_ko": "약학과",
+            "is_hot": true
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "seokyeong",
@@ -2502,7 +11819,144 @@ export const universities = [
     "dorm_fee_desc": "1,000,000-1,400,000KRW",
     "admission_conditions": "",
     "featured_majors": "Làm đẹp – Nghệ thuật – Diễn xuất",
-    "regional_restrictions": ""
+    "regional_restrictions": "",
+    "majors_detail": [
+      {
+        "category": "humanities_social",
+        "faculty_name_vi": "Khoa Nhân văn & Khoa học Xã hội",
+        "faculty_name_ko": "인문사회대학",
+        "tuition_krw": 3400000,
+        "majors": [
+          {
+            "name_vi": "Quản trị Kinh doanh",
+            "name_ko": "경영학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Ngôn ngữ & Văn hóa Hàn Quốc",
+            "name_ko": "한국언어문화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Truyền thông & Báo chí",
+            "name_ko": "미디어언론학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Thương mại Quốc tế",
+            "name_ko": "국제무역학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "engineering",
+        "faculty_name_vi": "Khoa Kỹ thuật & Công nghệ Thông tin",
+        "faculty_name_ko": "공과대학",
+        "tuition_krw": 4200000,
+        "majors": [
+          {
+            "name_vi": "Khoa học Máy tính & AI",
+            "name_ko": "컴퓨터공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Công nghệ Thông tin (IT)",
+            "name_ko": "정보통신공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Kỹ thuật Điện - Điện tử",
+            "name_ko": "전기전자공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Kỹ thuật Cơ khí",
+            "name_ko": "기계공학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "natural_sciences",
+        "faculty_name_vi": "Khoa Khoa học Tự nhiên & Sinh học",
+        "faculty_name_ko": "자연과학대학",
+        "tuition_krw": 3950000,
+        "majors": [
+          {
+            "name_vi": "Hóa học & Vật liệu mới",
+            "name_ko": "화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Công nghệ Thực phẩm & Dinh dưỡng",
+            "name_ko": "식품영양학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Sinh học Ứng dụng & Công nghệ Sinh học",
+            "name_ko": "생명공학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "arts_sports",
+        "faculty_name_vi": "Khoa Nghệ thuật & Thể dục Thể thao",
+        "faculty_name_ko": "예체능대학",
+        "tuition_krw": 4450000,
+        "majors": [
+          {
+            "name_vi": "Thiết kế Đồ họa & Kỹ thuật số",
+            "name_ko": "시각디자인학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Nghệ thuật Thẩm mỹ & Trang điểm (Make-up)",
+            "name_ko": "뷰티미용학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Diễn xuất, Sân khấu & Điện ảnh",
+            "name_ko": "연극영화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Âm nhạc K-Pop & Vẫn nghệ",
+            "name_ko": "실용음악학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "medicine_pharmacy",
+        "faculty_name_vi": "Khoa Y - Dược & Khoa học Y tế",
+        "faculty_name_ko": "의치약학/보건대학",
+        "tuition_krw": 3400000,
+        "majors": [
+          {
+            "name_vi": "Điều dưỡng (Nursing)",
+            "name_ko": "간호학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Quản lý Y tế & Bệnh viện",
+            "name_ko": "보건행정학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Vật lý trị liệu & Phục hồi chức năng",
+            "name_ko": "물리치료학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Dược học",
+            "name_ko": "약학과",
+            "is_hot": false
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "sungshin",
@@ -2540,7 +11994,144 @@ export const universities = [
     "dorm_fee_desc": "1,200,000-1,800,000KRW",
     "admission_conditions": "",
     "featured_majors": "",
-    "regional_restrictions": ""
+    "regional_restrictions": "",
+    "majors_detail": [
+      {
+        "category": "humanities_social",
+        "faculty_name_vi": "Khoa Nhân văn & Khoa học Xã hội",
+        "faculty_name_ko": "인문사회대학",
+        "tuition_krw": 3300000,
+        "majors": [
+          {
+            "name_vi": "Quản trị Kinh doanh",
+            "name_ko": "경영학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Ngôn ngữ & Văn hóa Hàn Quốc",
+            "name_ko": "한국언어문화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Truyền thông & Báo chí",
+            "name_ko": "미디어언론학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Thương mại Quốc tế",
+            "name_ko": "국제무역학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "engineering",
+        "faculty_name_vi": "Khoa Kỹ thuật & Công nghệ Thông tin",
+        "faculty_name_ko": "공과대학",
+        "tuition_krw": 4150000,
+        "majors": [
+          {
+            "name_vi": "Khoa học Máy tính & AI",
+            "name_ko": "컴퓨터공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Công nghệ Thông tin (IT)",
+            "name_ko": "정보통신공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Kỹ thuật Điện - Điện tử",
+            "name_ko": "전기전자공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Kỹ thuật Cơ khí",
+            "name_ko": "기계공학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "natural_sciences",
+        "faculty_name_vi": "Khoa Khoa học Tự nhiên & Sinh học",
+        "faculty_name_ko": "자연과학대학",
+        "tuition_krw": 3900000,
+        "majors": [
+          {
+            "name_vi": "Hóa học & Vật liệu mới",
+            "name_ko": "화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Công nghệ Thực phẩm & Dinh dưỡng",
+            "name_ko": "식품영양학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Sinh học Ứng dụng & Công nghệ Sinh học",
+            "name_ko": "생명공학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "arts_sports",
+        "faculty_name_vi": "Khoa Nghệ thuật & Thể dục Thể thao",
+        "faculty_name_ko": "예체능대학",
+        "tuition_krw": 4350000,
+        "majors": [
+          {
+            "name_vi": "Thiết kế Đồ họa & Kỹ thuật số",
+            "name_ko": "시각디자인학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Nghệ thuật Thẩm mỹ & Trang điểm (Make-up)",
+            "name_ko": "뷰티미용학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Diễn xuất, Sân khấu & Điện ảnh",
+            "name_ko": "연극영화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Âm nhạc K-Pop & Vẫn nghệ",
+            "name_ko": "실용음악학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "medicine_pharmacy",
+        "faculty_name_vi": "Khoa Y - Dược & Khoa học Y tế",
+        "faculty_name_ko": "의치약학/보건대학",
+        "tuition_krw": 4600000,
+        "majors": [
+          {
+            "name_vi": "Điều dưỡng (Nursing)",
+            "name_ko": "간호학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Quản lý Y tế & Bệnh viện",
+            "name_ko": "보건행정학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Vật lý trị liệu & Phục hồi chức năng",
+            "name_ko": "물리치료학과",
+            "is_hot": false
+          },
+          {
+            "name_vi": "Dược học",
+            "name_ko": "약학과",
+            "is_hot": true
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "seoul_theological",
@@ -2578,7 +12169,144 @@ export const universities = [
     "dorm_fee_desc": "630-830,000KRW",
     "admission_conditions": "",
     "featured_majors": "Thần học – Giáo dục – Phúc lợi",
-    "regional_restrictions": ""
+    "regional_restrictions": "",
+    "majors_detail": [
+      {
+        "category": "humanities_social",
+        "faculty_name_vi": "Khoa Nhân văn & Khoa học Xã hội",
+        "faculty_name_ko": "인문사회대학",
+        "tuition_krw": 2900000,
+        "majors": [
+          {
+            "name_vi": "Quản trị Kinh doanh",
+            "name_ko": "경영학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Ngôn ngữ & Văn hóa Hàn Quốc",
+            "name_ko": "한국언어문화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Truyền thông & Báo chí",
+            "name_ko": "미디어언론학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Thương mại Quốc tế",
+            "name_ko": "국제무역학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "engineering",
+        "faculty_name_vi": "Khoa Kỹ thuật & Công nghệ Thông tin",
+        "faculty_name_ko": "공과대학",
+        "tuition_krw": 3600000,
+        "majors": [
+          {
+            "name_vi": "Khoa học Máy tính & AI",
+            "name_ko": "컴퓨터공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Công nghệ Thông tin (IT)",
+            "name_ko": "정보통신공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Kỹ thuật Điện - Điện tử",
+            "name_ko": "전기전자공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Kỹ thuật Cơ khí",
+            "name_ko": "기계공학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "natural_sciences",
+        "faculty_name_vi": "Khoa Khoa học Tự nhiên & Sinh học",
+        "faculty_name_ko": "자연과학대학",
+        "tuition_krw": 3400000,
+        "majors": [
+          {
+            "name_vi": "Hóa học & Vật liệu mới",
+            "name_ko": "화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Công nghệ Thực phẩm & Dinh dưỡng",
+            "name_ko": "식품영양학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Sinh học Ứng dụng & Công nghệ Sinh học",
+            "name_ko": "생명공학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "arts_sports",
+        "faculty_name_vi": "Khoa Nghệ thuật & Thể dục Thể thao",
+        "faculty_name_ko": "예체능대학",
+        "tuition_krw": 3800000,
+        "majors": [
+          {
+            "name_vi": "Thiết kế Đồ họa & Kỹ thuật số",
+            "name_ko": "시각디자인학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Nghệ thuật Thẩm mỹ & Trang điểm (Make-up)",
+            "name_ko": "뷰티미용학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Diễn xuất, Sân khấu & Điện ảnh",
+            "name_ko": "연극영화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Âm nhạc K-Pop & Vẫn nghệ",
+            "name_ko": "실용음악학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "medicine_pharmacy",
+        "faculty_name_vi": "Khoa Y - Dược & Khoa học Y tế",
+        "faculty_name_ko": "의치약학/보건대학",
+        "tuition_krw": 2900000,
+        "majors": [
+          {
+            "name_vi": "Điều dưỡng (Nursing)",
+            "name_ko": "간호학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Quản lý Y tế & Bệnh viện",
+            "name_ko": "보건행정학과",
+            "is_hot": false
+          },
+          {
+            "name_vi": "Vật lý trị liệu & Phục hồi chức năng",
+            "name_ko": "물리치료학과",
+            "is_hot": false
+          },
+          {
+            "name_vi": "Dược học",
+            "name_ko": "약학과",
+            "is_hot": true
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "sunmoon",
@@ -2616,7 +12344,144 @@ export const universities = [
     "dorm_fee_desc": "1,100,000KRW",
     "admission_conditions": "",
     "featured_majors": "Hàn ngữ, Kinh doanh quốc tế, CNTT",
-    "regional_restrictions": ""
+    "regional_restrictions": "",
+    "majors_detail": [
+      {
+        "category": "humanities_social",
+        "faculty_name_vi": "Khoa Nhân văn & Khoa học Xã hội",
+        "faculty_name_ko": "인문사회대학",
+        "tuition_krw": 3097000,
+        "majors": [
+          {
+            "name_vi": "Quản trị Kinh doanh",
+            "name_ko": "경영학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Ngôn ngữ & Văn hóa Hàn Quốc",
+            "name_ko": "한국언어문화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Truyền thông & Báo chí",
+            "name_ko": "미디어언론학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Thương mại Quốc tế",
+            "name_ko": "국제무역학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "engineering",
+        "faculty_name_vi": "Khoa Kỹ thuật & Công nghệ Thông tin",
+        "faculty_name_ko": "공과대학",
+        "tuition_krw": 3950000,
+        "majors": [
+          {
+            "name_vi": "Khoa học Máy tính & AI",
+            "name_ko": "컴퓨터공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Công nghệ Thông tin (IT)",
+            "name_ko": "정보통신공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Kỹ thuật Điện - Điện tử",
+            "name_ko": "전기전자공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Kỹ thuật Cơ khí",
+            "name_ko": "기계공학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "natural_sciences",
+        "faculty_name_vi": "Khoa Khoa học Tự nhiên & Sinh học",
+        "faculty_name_ko": "자연과학대학",
+        "tuition_krw": 3700000,
+        "majors": [
+          {
+            "name_vi": "Hóa học & Vật liệu mới",
+            "name_ko": "화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Công nghệ Thực phẩm & Dinh dưỡng",
+            "name_ko": "식품영양학과",
+            "is_hot": false
+          },
+          {
+            "name_vi": "Sinh học Ứng dụng & Công nghệ Sinh học",
+            "name_ko": "생명공학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "arts_sports",
+        "faculty_name_vi": "Khoa Nghệ thuật & Thể dục Thể thao",
+        "faculty_name_ko": "예체능대학",
+        "tuition_krw": 3800000,
+        "majors": [
+          {
+            "name_vi": "Thiết kế Đồ họa & Kỹ thuật số",
+            "name_ko": "시각디자인학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Nghệ thuật Thẩm mỹ & Trang điểm (Make-up)",
+            "name_ko": "뷰티미용학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Diễn xuất, Sân khấu & Điện ảnh",
+            "name_ko": "연극영화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Âm nhạc K-Pop & Vẫn nghệ",
+            "name_ko": "실용음악학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "medicine_pharmacy",
+        "faculty_name_vi": "Khoa Y - Dược & Khoa học Y tế",
+        "faculty_name_ko": "의치약학/보건대학",
+        "tuition_krw": 3097000,
+        "majors": [
+          {
+            "name_vi": "Điều dưỡng (Nursing)",
+            "name_ko": "간호학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Quản lý Y tế & Bệnh viện",
+            "name_ko": "보건행정학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Vật lý trị liệu & Phục hồi chức năng",
+            "name_ko": "물리치료학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Dược học",
+            "name_ko": "약학과",
+            "is_hot": true
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "semyung",
@@ -2655,7 +12520,144 @@ export const universities = [
     "dorm_fee_desc": "1,100,000KRW",
     "admission_conditions": "",
     "featured_majors": "Đông y – Điều dưỡng – Du lịch",
-    "regional_restrictions": ""
+    "regional_restrictions": "",
+    "majors_detail": [
+      {
+        "category": "humanities_social",
+        "faculty_name_vi": "Khoa Nhân văn & Khoa học Xã hội",
+        "faculty_name_ko": "인문사회대학",
+        "tuition_krw": 2200000,
+        "majors": [
+          {
+            "name_vi": "Quản trị Kinh doanh",
+            "name_ko": "경영학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Ngôn ngữ & Văn hóa Hàn Quốc",
+            "name_ko": "한국언어문화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Truyền thông & Báo chí",
+            "name_ko": "미디어언론학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Thương mại Quốc tế",
+            "name_ko": "국제무역학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "engineering",
+        "faculty_name_vi": "Khoa Kỹ thuật & Công nghệ Thông tin",
+        "faculty_name_ko": "공과대학",
+        "tuition_krw": 3000000,
+        "majors": [
+          {
+            "name_vi": "Khoa học Máy tính & AI",
+            "name_ko": "컴퓨터공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Công nghệ Thông tin (IT)",
+            "name_ko": "정보통신공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Kỹ thuật Điện - Điện tử",
+            "name_ko": "전기전자공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Kỹ thuật Cơ khí",
+            "name_ko": "기계공학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "natural_sciences",
+        "faculty_name_vi": "Khoa Khoa học Tự nhiên & Sinh học",
+        "faculty_name_ko": "자연과학대학",
+        "tuition_krw": 2800000,
+        "majors": [
+          {
+            "name_vi": "Hóa học & Vật liệu mới",
+            "name_ko": "화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Công nghệ Thực phẩm & Dinh dưỡng",
+            "name_ko": "식품영양학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Sinh học Ứng dụng & Công nghệ Sinh học",
+            "name_ko": "생명공학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "arts_sports",
+        "faculty_name_vi": "Khoa Nghệ thuật & Thể dục Thể thao",
+        "faculty_name_ko": "예체능대학",
+        "tuition_krw": 3200000,
+        "majors": [
+          {
+            "name_vi": "Thiết kế Đồ họa & Kỹ thuật số",
+            "name_ko": "시각디자인학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Nghệ thuật Thẩm mỹ & Trang điểm (Make-up)",
+            "name_ko": "뷰티미용학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Diễn xuất, Sân khấu & Điện ảnh",
+            "name_ko": "연극영화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Âm nhạc K-Pop & Vẫn nghệ",
+            "name_ko": "실용음악학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "medicine_pharmacy",
+        "faculty_name_vi": "Khoa Y - Dược & Khoa học Y tế",
+        "faculty_name_ko": "의치약학/보건대학",
+        "tuition_krw": 3800000,
+        "majors": [
+          {
+            "name_vi": "Điều dưỡng (Nursing)",
+            "name_ko": "간호학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Quản lý Y tế & Bệnh viện",
+            "name_ko": "보건행정학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Vật lý trị liệu & Phục hồi chức năng",
+            "name_ko": "물리치료학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Dược học",
+            "name_ko": "약학과",
+            "is_hot": true
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "sookmyung",
@@ -2693,7 +12695,144 @@ export const universities = [
     "dorm_fee_desc": "1,300,000-2,000,000KRW'",
     "admission_conditions": "",
     "featured_majors": "Kinh doanh khách sạn, quốc tế học, ngôn ngữ Hàn",
-    "regional_restrictions": ""
+    "regional_restrictions": "",
+    "majors_detail": [
+      {
+        "category": "humanities_social",
+        "faculty_name_vi": "Khoa Nhân văn & Khoa học Xã hội",
+        "faculty_name_ko": "인문사회대학",
+        "tuition_krw": 3200000,
+        "majors": [
+          {
+            "name_vi": "Quản trị Kinh doanh",
+            "name_ko": "경영학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Ngôn ngữ & Văn hóa Hàn Quốc",
+            "name_ko": "한국언어문화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Truyền thông & Báo chí",
+            "name_ko": "미디어언론학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Thương mại Quốc tế",
+            "name_ko": "국제무역학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "engineering",
+        "faculty_name_vi": "Khoa Kỹ thuật & Công nghệ Thông tin",
+        "faculty_name_ko": "공과대학",
+        "tuition_krw": 4050000,
+        "majors": [
+          {
+            "name_vi": "Khoa học Máy tính & AI",
+            "name_ko": "컴퓨터공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Công nghệ Thông tin (IT)",
+            "name_ko": "정보통신공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Kỹ thuật Điện - Điện tử",
+            "name_ko": "전기전자공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Kỹ thuật Cơ khí",
+            "name_ko": "기계공학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "natural_sciences",
+        "faculty_name_vi": "Khoa Khoa học Tự nhiên & Sinh học",
+        "faculty_name_ko": "자연과학대학",
+        "tuition_krw": 3800000,
+        "majors": [
+          {
+            "name_vi": "Hóa học & Vật liệu mới",
+            "name_ko": "화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Công nghệ Thực phẩm & Dinh dưỡng",
+            "name_ko": "식품영양학과",
+            "is_hot": false
+          },
+          {
+            "name_vi": "Sinh học Ứng dụng & Công nghệ Sinh học",
+            "name_ko": "생명공학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "arts_sports",
+        "faculty_name_vi": "Khoa Nghệ thuật & Thể dục Thể thao",
+        "faculty_name_ko": "예체능대학",
+        "tuition_krw": 4200000,
+        "majors": [
+          {
+            "name_vi": "Thiết kế Đồ họa & Kỹ thuật số",
+            "name_ko": "시각디자인학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Nghệ thuật Thẩm mỹ & Trang điểm (Make-up)",
+            "name_ko": "뷰티미용학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Diễn xuất, Sân khấu & Điện ảnh",
+            "name_ko": "연극영화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Âm nhạc K-Pop & Vẫn nghệ",
+            "name_ko": "실용음악학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "medicine_pharmacy",
+        "faculty_name_vi": "Khoa Y - Dược & Khoa học Y tế",
+        "faculty_name_ko": "의치약학/보건대학",
+        "tuition_krw": 3200000,
+        "majors": [
+          {
+            "name_vi": "Điều dưỡng (Nursing)",
+            "name_ko": "간호학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Quản lý Y tế & Bệnh viện",
+            "name_ko": "보건행정학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Vật lý trị liệu & Phục hồi chức năng",
+            "name_ko": "물리치료학과",
+            "is_hot": false
+          },
+          {
+            "name_vi": "Dược học",
+            "name_ko": "약학과",
+            "is_hot": true
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "gyeongsang",
@@ -2723,7 +12862,144 @@ export const universities = [
     "visa_metropolitan": false,
     "master_no_topik": true,
     "top_1_percent": false,
-    "custom_notes": ""
+    "custom_notes": "",
+    "majors_detail": [
+      {
+        "category": "humanities_social",
+        "faculty_name_vi": "Khoa Nhân văn & Khoa học Xã hội",
+        "faculty_name_ko": "인문사회대학",
+        "tuition_krw": 1750000,
+        "majors": [
+          {
+            "name_vi": "Quản trị Kinh doanh",
+            "name_ko": "경영학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Ngôn ngữ & Văn hóa Hàn Quốc",
+            "name_ko": "한국언어문화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Truyền thông & Báo chí",
+            "name_ko": "미디어언론학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Thương mại Quốc tế",
+            "name_ko": "국제무역학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "engineering",
+        "faculty_name_vi": "Khoa Kỹ thuật & Công nghệ Thông tin",
+        "faculty_name_ko": "공과대학",
+        "tuition_krw": 2300000,
+        "majors": [
+          {
+            "name_vi": "Khoa học Máy tính & AI",
+            "name_ko": "컴퓨터공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Công nghệ Thông tin (IT)",
+            "name_ko": "정보통신공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Kỹ thuật Điện - Điện tử",
+            "name_ko": "전기전자공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Kỹ thuật Cơ khí",
+            "name_ko": "기계공학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "natural_sciences",
+        "faculty_name_vi": "Khoa Khoa học Tự nhiên & Sinh học",
+        "faculty_name_ko": "자연과학대학",
+        "tuition_krw": 2150000,
+        "majors": [
+          {
+            "name_vi": "Hóa học & Vật liệu mới",
+            "name_ko": "화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Công nghệ Thực phẩm & Dinh dưỡng",
+            "name_ko": "식품영양학과",
+            "is_hot": false
+          },
+          {
+            "name_vi": "Sinh học Ứng dụng & Công nghệ Sinh học",
+            "name_ko": "생명공학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "arts_sports",
+        "faculty_name_vi": "Khoa Nghệ thuật & Thể dục Thể thao",
+        "faculty_name_ko": "예체능대학",
+        "tuition_krw": 2400000,
+        "majors": [
+          {
+            "name_vi": "Thiết kế Đồ họa & Kỹ thuật số",
+            "name_ko": "시각디자인학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Nghệ thuật Thẩm mỹ & Trang điểm (Make-up)",
+            "name_ko": "뷰티미용학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Diễn xuất, Sân khấu & Điện ảnh",
+            "name_ko": "연극영화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Âm nhạc K-Pop & Vẫn nghệ",
+            "name_ko": "실용음악학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "medicine_pharmacy",
+        "faculty_name_vi": "Khoa Y - Dược & Khoa học Y tế",
+        "faculty_name_ko": "의치약학/보건대학",
+        "tuition_krw": 3250000,
+        "majors": [
+          {
+            "name_vi": "Điều dưỡng (Nursing)",
+            "name_ko": "간호학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Quản lý Y tế & Bệnh viện",
+            "name_ko": "보건행정학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Vật lý trị liệu & Phục hồi chức năng",
+            "name_ko": "물리치료학과",
+            "is_hot": false
+          },
+          {
+            "name_vi": "Dược học",
+            "name_ko": "약학과",
+            "is_hot": true
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "myongji",
@@ -2761,7 +13037,144 @@ export const universities = [
     "dorm_fee_desc": "800,000-1,200,000KRW",
     "admission_conditions": "",
     "featured_majors": "Thiết kế – Diễn xuất – Truyền thông",
-    "regional_restrictions": ""
+    "regional_restrictions": "",
+    "majors_detail": [
+      {
+        "category": "humanities_social",
+        "faculty_name_vi": "Khoa Nhân văn & Khoa học Xã hội",
+        "faculty_name_ko": "인문사회대학",
+        "tuition_krw": 3450000,
+        "majors": [
+          {
+            "name_vi": "Quản trị Kinh doanh",
+            "name_ko": "경영학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Ngôn ngữ & Văn hóa Hàn Quốc",
+            "name_ko": "한국언어문화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Truyền thông & Báo chí",
+            "name_ko": "미디어언론학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Thương mại Quốc tế",
+            "name_ko": "국제무역학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "engineering",
+        "faculty_name_vi": "Khoa Kỹ thuật & Công nghệ Thông tin",
+        "faculty_name_ko": "공과대학",
+        "tuition_krw": 4380000,
+        "majors": [
+          {
+            "name_vi": "Khoa học Máy tính & AI",
+            "name_ko": "컴퓨터공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Công nghệ Thông tin (IT)",
+            "name_ko": "정보통신공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Kỹ thuật Điện - Điện tử",
+            "name_ko": "전기전자공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Kỹ thuật Cơ khí",
+            "name_ko": "기계공학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "natural_sciences",
+        "faculty_name_vi": "Khoa Khoa học Tự nhiên & Sinh học",
+        "faculty_name_ko": "자연과학대학",
+        "tuition_krw": 4100000,
+        "majors": [
+          {
+            "name_vi": "Hóa học & Vật liệu mới",
+            "name_ko": "화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Công nghệ Thực phẩm & Dinh dưỡng",
+            "name_ko": "식품영양학과",
+            "is_hot": false
+          },
+          {
+            "name_vi": "Sinh học Ứng dụng & Công nghệ Sinh học",
+            "name_ko": "생명공학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "arts_sports",
+        "faculty_name_vi": "Khoa Nghệ thuật & Thể dục Thể thao",
+        "faculty_name_ko": "예체능대학",
+        "tuition_krw": 4500000,
+        "majors": [
+          {
+            "name_vi": "Thiết kế Đồ họa & Kỹ thuật số",
+            "name_ko": "시각디자인학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Nghệ thuật Thẩm mỹ & Trang điểm (Make-up)",
+            "name_ko": "뷰티미용학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Diễn xuất, Sân khấu & Điện ảnh",
+            "name_ko": "연극영화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Âm nhạc K-Pop & Vẫn nghệ",
+            "name_ko": "실용음악학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "medicine_pharmacy",
+        "faculty_name_vi": "Khoa Y - Dược & Khoa học Y tế",
+        "faculty_name_ko": "의치약학/보건대학",
+        "tuition_krw": 3450000,
+        "majors": [
+          {
+            "name_vi": "Điều dưỡng (Nursing)",
+            "name_ko": "간호학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Quản lý Y tế & Bệnh viện",
+            "name_ko": "보건행정학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Vật lý trị liệu & Phục hồi chức năng",
+            "name_ko": "물리치료학과",
+            "is_hot": false
+          },
+          {
+            "name_vi": "Dược học",
+            "name_ko": "약학과",
+            "is_hot": true
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "namseoul",
@@ -2799,7 +13212,144 @@ export const universities = [
     "dorm_fee_desc": "1,168,500KRW",
     "admission_conditions": "",
     "featured_majors": "Làm đẹp, CNTT, Kinh doanh",
-    "regional_restrictions": ""
+    "regional_restrictions": "",
+    "majors_detail": [
+      {
+        "category": "humanities_social",
+        "faculty_name_vi": "Khoa Nhân văn & Khoa học Xã hội",
+        "faculty_name_ko": "인문사회대학",
+        "tuition_krw": 3100000,
+        "majors": [
+          {
+            "name_vi": "Quản trị Kinh doanh",
+            "name_ko": "경영학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Ngôn ngữ & Văn hóa Hàn Quốc",
+            "name_ko": "한국언어문화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Truyền thông & Báo chí",
+            "name_ko": "미디어언론학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Thương mại Quốc tế",
+            "name_ko": "국제무역학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "engineering",
+        "faculty_name_vi": "Khoa Kỹ thuật & Công nghệ Thông tin",
+        "faculty_name_ko": "공과대학",
+        "tuition_krw": 3900000,
+        "majors": [
+          {
+            "name_vi": "Khoa học Máy tính & AI",
+            "name_ko": "컴퓨터공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Công nghệ Thông tin (IT)",
+            "name_ko": "정보통신공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Kỹ thuật Điện - Điện tử",
+            "name_ko": "전기전자공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Kỹ thuật Cơ khí",
+            "name_ko": "기계공학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "natural_sciences",
+        "faculty_name_vi": "Khoa Khoa học Tự nhiên & Sinh học",
+        "faculty_name_ko": "자연과학대학",
+        "tuition_krw": 3600000,
+        "majors": [
+          {
+            "name_vi": "Hóa học & Vật liệu mới",
+            "name_ko": "화학과",
+            "is_hot": false
+          },
+          {
+            "name_vi": "Công nghệ Thực phẩm & Dinh dưỡng",
+            "name_ko": "식품영양학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Sinh học Ứng dụng & Công nghệ Sinh học",
+            "name_ko": "생명공학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "arts_sports",
+        "faculty_name_vi": "Khoa Nghệ thuật & Thể dục Thể thao",
+        "faculty_name_ko": "예체능대학",
+        "tuition_krw": 3850000,
+        "majors": [
+          {
+            "name_vi": "Thiết kế Đồ họa & Kỹ thuật số",
+            "name_ko": "시각디자인학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Nghệ thuật Thẩm mỹ & Trang điểm (Make-up)",
+            "name_ko": "뷰티미용학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Diễn xuất, Sân khấu & Điện ảnh",
+            "name_ko": "연극영화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Âm nhạc K-Pop & Vẫn nghệ",
+            "name_ko": "실용음악학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "medicine_pharmacy",
+        "faculty_name_vi": "Khoa Y - Dược & Khoa học Y tế",
+        "faculty_name_ko": "의치약학/보건대학",
+        "tuition_krw": 3100000,
+        "majors": [
+          {
+            "name_vi": "Điều dưỡng (Nursing)",
+            "name_ko": "간호학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Quản lý Y tế & Bệnh viện",
+            "name_ko": "보건행정학과",
+            "is_hot": false
+          },
+          {
+            "name_vi": "Vật lý trị liệu & Phục hồi chức năng",
+            "name_ko": "물리치료학과",
+            "is_hot": false
+          },
+          {
+            "name_vi": "Dược học",
+            "name_ko": "약학과",
+            "is_hot": false
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "chungbuk",
@@ -2837,7 +13387,144 @@ export const universities = [
     "dorm_fee_desc": "900-1,200,000KRW",
     "admission_conditions": "",
     "featured_majors": "Dược, CNTT, Kỹ thuật",
-    "regional_restrictions": ""
+    "regional_restrictions": "",
+    "majors_detail": [
+      {
+        "category": "humanities_social",
+        "faculty_name_vi": "Khoa Nhân văn & Khoa học Xã hội",
+        "faculty_name_ko": "인문사회대학",
+        "tuition_krw": 1720000,
+        "majors": [
+          {
+            "name_vi": "Quản trị Kinh doanh",
+            "name_ko": "경영학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Ngôn ngữ & Văn hóa Hàn Quốc",
+            "name_ko": "한국언어문화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Truyền thông & Báo chí",
+            "name_ko": "미디어언론학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Thương mại Quốc tế",
+            "name_ko": "국제무역학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "engineering",
+        "faculty_name_vi": "Khoa Kỹ thuật & Công nghệ Thông tin",
+        "faculty_name_ko": "공과대학",
+        "tuition_krw": 2280000,
+        "majors": [
+          {
+            "name_vi": "Khoa học Máy tính & AI",
+            "name_ko": "컴퓨터공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Công nghệ Thông tin (IT)",
+            "name_ko": "정보통신공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Kỹ thuật Điện - Điện tử",
+            "name_ko": "전기전자공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Kỹ thuật Cơ khí",
+            "name_ko": "기계공학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "natural_sciences",
+        "faculty_name_vi": "Khoa Khoa học Tự nhiên & Sinh học",
+        "faculty_name_ko": "자연과학대학",
+        "tuition_krw": 2120000,
+        "majors": [
+          {
+            "name_vi": "Hóa học & Vật liệu mới",
+            "name_ko": "화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Công nghệ Thực phẩm & Dinh dưỡng",
+            "name_ko": "식품영양학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Sinh học Ứng dụng & Công nghệ Sinh học",
+            "name_ko": "생명공학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "arts_sports",
+        "faculty_name_vi": "Khoa Nghệ thuật & Thể dục Thể thao",
+        "faculty_name_ko": "예체능대학",
+        "tuition_krw": 2350000,
+        "majors": [
+          {
+            "name_vi": "Thiết kế Đồ họa & Kỹ thuật số",
+            "name_ko": "시각디자인학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Nghệ thuật Thẩm mỹ & Trang điểm (Make-up)",
+            "name_ko": "뷰티미용학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Diễn xuất, Sân khấu & Điện ảnh",
+            "name_ko": "연극영화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Âm nhạc K-Pop & Vẫn nghệ",
+            "name_ko": "실용음악학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "medicine_pharmacy",
+        "faculty_name_vi": "Khoa Y - Dược & Khoa học Y tế",
+        "faculty_name_ko": "의치약학/보건대학",
+        "tuition_krw": 3180000,
+        "majors": [
+          {
+            "name_vi": "Điều dưỡng (Nursing)",
+            "name_ko": "간호학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Quản lý Y tế & Bệnh viện",
+            "name_ko": "보건행정학과",
+            "is_hot": false
+          },
+          {
+            "name_vi": "Vật lý trị liệu & Phục hồi chức năng",
+            "name_ko": "물리치료학과",
+            "is_hot": false
+          },
+          {
+            "name_vi": "Dược học",
+            "name_ko": "약학과",
+            "is_hot": true
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "ulsan",
@@ -2875,7 +13562,144 @@ export const universities = [
     "dorm_fee_desc": "1,100,000-1,900,000KRW",
     "admission_conditions": "",
     "featured_majors": "Ô tô – Đóng tàu – Kỹ thuật",
-    "regional_restrictions": ""
+    "regional_restrictions": "",
+    "majors_detail": [
+      {
+        "category": "humanities_social",
+        "faculty_name_vi": "Khoa Nhân văn & Khoa học Xã hội",
+        "faculty_name_ko": "인문사회대학",
+        "tuition_krw": 3150000,
+        "majors": [
+          {
+            "name_vi": "Quản trị Kinh doanh",
+            "name_ko": "경영학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Ngôn ngữ & Văn hóa Hàn Quốc",
+            "name_ko": "한국언어문화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Truyền thông & Báo chí",
+            "name_ko": "미디어언론학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Thương mại Quốc tế",
+            "name_ko": "국제무역학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "engineering",
+        "faculty_name_vi": "Khoa Kỹ thuật & Công nghệ Thông tin",
+        "faculty_name_ko": "공과대학",
+        "tuition_krw": 4050000,
+        "majors": [
+          {
+            "name_vi": "Khoa học Máy tính & AI",
+            "name_ko": "컴퓨터공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Công nghệ Thông tin (IT)",
+            "name_ko": "정보통신공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Kỹ thuật Điện - Điện tử",
+            "name_ko": "전기전자공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Kỹ thuật Cơ khí",
+            "name_ko": "기계공학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "natural_sciences",
+        "faculty_name_vi": "Khoa Khoa học Tự nhiên & Sinh học",
+        "faculty_name_ko": "자연과학대학",
+        "tuition_krw": 3750000,
+        "majors": [
+          {
+            "name_vi": "Hóa học & Vật liệu mới",
+            "name_ko": "화학과",
+            "is_hot": false
+          },
+          {
+            "name_vi": "Công nghệ Thực phẩm & Dinh dưỡng",
+            "name_ko": "식품영양학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Sinh học Ứng dụng & Công nghệ Sinh học",
+            "name_ko": "생명공학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "arts_sports",
+        "faculty_name_vi": "Khoa Nghệ thuật & Thể dục Thể thao",
+        "faculty_name_ko": "예체능대학",
+        "tuition_krw": 3980000,
+        "majors": [
+          {
+            "name_vi": "Thiết kế Đồ họa & Kỹ thuật số",
+            "name_ko": "시각디자인학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Nghệ thuật Thẩm mỹ & Trang điểm (Make-up)",
+            "name_ko": "뷰티미용학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Diễn xuất, Sân khấu & Điện ảnh",
+            "name_ko": "연극영화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Âm nhạc K-Pop & Vẫn nghệ",
+            "name_ko": "실용음악학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "medicine_pharmacy",
+        "faculty_name_vi": "Khoa Y - Dược & Khoa học Y tế",
+        "faculty_name_ko": "의치약학/보건대학",
+        "tuition_krw": 5600000,
+        "majors": [
+          {
+            "name_vi": "Điều dưỡng (Nursing)",
+            "name_ko": "간호학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Quản lý Y tế & Bệnh viện",
+            "name_ko": "보건행정학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Vật lý trị liệu & Phục hồi chức năng",
+            "name_ko": "물리치료학과",
+            "is_hot": false
+          },
+          {
+            "name_vi": "Dược học",
+            "name_ko": "약학과",
+            "is_hot": false
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "youngsan",
@@ -2913,7 +13737,144 @@ export const universities = [
     "dorm_fee_desc": "1,300,000-1,800,000KRW",
     "admission_conditions": "",
     "featured_majors": "Luật – Khách sạn – Làm đẹp",
-    "regional_restrictions": ""
+    "regional_restrictions": "",
+    "majors_detail": [
+      {
+        "category": "humanities_social",
+        "faculty_name_vi": "Khoa Nhân văn & Khoa học Xã hội",
+        "faculty_name_ko": "인문사회대학",
+        "tuition_krw": 3100000,
+        "majors": [
+          {
+            "name_vi": "Quản trị Kinh doanh",
+            "name_ko": "경영학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Ngôn ngữ & Văn hóa Hàn Quốc",
+            "name_ko": "한국언어문화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Truyền thông & Báo chí",
+            "name_ko": "미디어언론학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Thương mại Quốc tế",
+            "name_ko": "국제무역학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "engineering",
+        "faculty_name_vi": "Khoa Kỹ thuật & Công nghệ Thông tin",
+        "faculty_name_ko": "공과대학",
+        "tuition_krw": 3800000,
+        "majors": [
+          {
+            "name_vi": "Khoa học Máy tính & AI",
+            "name_ko": "컴퓨터공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Công nghệ Thông tin (IT)",
+            "name_ko": "정보통신공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Kỹ thuật Điện - Điện tử",
+            "name_ko": "전기전자공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Kỹ thuật Cơ khí",
+            "name_ko": "기계공학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "natural_sciences",
+        "faculty_name_vi": "Khoa Khoa học Tự nhiên & Sinh học",
+        "faculty_name_ko": "자연과학대학",
+        "tuition_krw": 3600000,
+        "majors": [
+          {
+            "name_vi": "Hóa học & Vật liệu mới",
+            "name_ko": "화학과",
+            "is_hot": false
+          },
+          {
+            "name_vi": "Công nghệ Thực phẩm & Dinh dưỡng",
+            "name_ko": "식품영양학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Sinh học Ứng dụng & Công nghệ Sinh học",
+            "name_ko": "생명공학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "arts_sports",
+        "faculty_name_vi": "Khoa Nghệ thuật & Thể dục Thể thao",
+        "faculty_name_ko": "예체능대학",
+        "tuition_krw": 3750000,
+        "majors": [
+          {
+            "name_vi": "Thiết kế Đồ họa & Kỹ thuật số",
+            "name_ko": "시각디자인학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Nghệ thuật Thẩm mỹ & Trang điểm (Make-up)",
+            "name_ko": "뷰티미용학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Diễn xuất, Sân khấu & Điện ảnh",
+            "name_ko": "연극영화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Âm nhạc K-Pop & Vẫn nghệ",
+            "name_ko": "실용음악학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "medicine_pharmacy",
+        "faculty_name_vi": "Khoa Y - Dược & Khoa học Y tế",
+        "faculty_name_ko": "의치약학/보건대학",
+        "tuition_krw": 3100000,
+        "majors": [
+          {
+            "name_vi": "Điều dưỡng (Nursing)",
+            "name_ko": "간호학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Quản lý Y tế & Bệnh viện",
+            "name_ko": "보건행정학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Vật lý trị liệu & Phục hồi chức năng",
+            "name_ko": "물리치료학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Dược học",
+            "name_ko": "약학과",
+            "is_hot": false
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "kunsan",
@@ -2951,7 +13912,144 @@ export const universities = [
     "dorm_fee_desc": "800,000KRW",
     "admission_conditions": "",
     "featured_majors": "Hàng hải, Kỹ thuật, Kinh doanh",
-    "regional_restrictions": ""
+    "regional_restrictions": "",
+    "majors_detail": [
+      {
+        "category": "humanities_social",
+        "faculty_name_vi": "Khoa Nhân văn & Khoa học Xã hội",
+        "faculty_name_ko": "인문사회대학",
+        "tuition_krw": 1680000,
+        "majors": [
+          {
+            "name_vi": "Quản trị Kinh doanh",
+            "name_ko": "경영학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Ngôn ngữ & Văn hóa Hàn Quốc",
+            "name_ko": "한국언어문화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Truyền thông & Báo chí",
+            "name_ko": "미디어언론학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Thương mại Quốc tế",
+            "name_ko": "국제무역학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "engineering",
+        "faculty_name_vi": "Khoa Kỹ thuật & Công nghệ Thông tin",
+        "faculty_name_ko": "공과대학",
+        "tuition_krw": 2220000,
+        "majors": [
+          {
+            "name_vi": "Khoa học Máy tính & AI",
+            "name_ko": "컴퓨터공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Công nghệ Thông tin (IT)",
+            "name_ko": "정보통신공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Kỹ thuật Điện - Điện tử",
+            "name_ko": "전기전자공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Kỹ thuật Cơ khí",
+            "name_ko": "기계공학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "natural_sciences",
+        "faculty_name_vi": "Khoa Khoa học Tự nhiên & Sinh học",
+        "faculty_name_ko": "자연과학대학",
+        "tuition_krw": 2080000,
+        "majors": [
+          {
+            "name_vi": "Hóa học & Vật liệu mới",
+            "name_ko": "화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Công nghệ Thực phẩm & Dinh dưỡng",
+            "name_ko": "식품영양학과",
+            "is_hot": false
+          },
+          {
+            "name_vi": "Sinh học Ứng dụng & Công nghệ Sinh học",
+            "name_ko": "생명공학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "arts_sports",
+        "faculty_name_vi": "Khoa Nghệ thuật & Thể dục Thể thao",
+        "faculty_name_ko": "예체능대학",
+        "tuition_krw": 2300000,
+        "majors": [
+          {
+            "name_vi": "Thiết kế Đồ họa & Kỹ thuật số",
+            "name_ko": "시각디자인학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Nghệ thuật Thẩm mỹ & Trang điểm (Make-up)",
+            "name_ko": "뷰티미용학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Diễn xuất, Sân khấu & Điện ảnh",
+            "name_ko": "연극영화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Âm nhạc K-Pop & Vẫn nghệ",
+            "name_ko": "실용음악학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "medicine_pharmacy",
+        "faculty_name_vi": "Khoa Y - Dược & Khoa học Y tế",
+        "faculty_name_ko": "의치약학/보건대학",
+        "tuition_krw": 1680000,
+        "majors": [
+          {
+            "name_vi": "Điều dưỡng (Nursing)",
+            "name_ko": "간호학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Quản lý Y tế & Bệnh viện",
+            "name_ko": "보건행정학과",
+            "is_hot": false
+          },
+          {
+            "name_vi": "Vật lý trị liệu & Phục hồi chức năng",
+            "name_ko": "물리치료학과",
+            "is_hot": false
+          },
+          {
+            "name_vi": "Dược học",
+            "name_ko": "약학과",
+            "is_hot": true
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "mock_uni_81",
@@ -2989,7 +14087,144 @@ export const universities = [
     "dorm_fee_desc": "550,000-900,000KRW",
     "admission_conditions": "",
     "featured_majors": "Thiết kế – Truyền thông – Du lịch",
-    "regional_restrictions": ""
+    "regional_restrictions": "",
+    "majors_detail": [
+      {
+        "category": "humanities_social",
+        "faculty_name_vi": "Khoa Nhân văn & Khoa học Xã hội",
+        "faculty_name_ko": "인문사회대학",
+        "tuition_krw": 3874000,
+        "majors": [
+          {
+            "name_vi": "Quản trị Kinh doanh",
+            "name_ko": "경영학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Ngôn ngữ & Văn hóa Hàn Quốc",
+            "name_ko": "한국언어문화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Truyền thông & Báo chí",
+            "name_ko": "미디어언론학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Thương mại Quốc tế",
+            "name_ko": "국제무역학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "engineering",
+        "faculty_name_vi": "Khoa Kỹ thuật & Công nghệ Thông tin",
+        "faculty_name_ko": "공과대학",
+        "tuition_krw": 4866000,
+        "majors": [
+          {
+            "name_vi": "Khoa học Máy tính & AI",
+            "name_ko": "컴퓨터공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Công nghệ Thông tin (IT)",
+            "name_ko": "정보통신공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Kỹ thuật Điện - Điện tử",
+            "name_ko": "전기전자공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Kỹ thuật Cơ khí",
+            "name_ko": "기계공학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "natural_sciences",
+        "faculty_name_vi": "Khoa Khoa học Tự nhiên & Sinh học",
+        "faculty_name_ko": "자연과학대학",
+        "tuition_krw": 4269000,
+        "majors": [
+          {
+            "name_vi": "Hóa học & Vật liệu mới",
+            "name_ko": "화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Công nghệ Thực phẩm & Dinh dưỡng",
+            "name_ko": "식품영양학과",
+            "is_hot": false
+          },
+          {
+            "name_vi": "Sinh học Ứng dụng & Công nghệ Sinh học",
+            "name_ko": "생명공학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "arts_sports",
+        "faculty_name_vi": "Khoa Nghệ thuật & Thể dục Thể thao",
+        "faculty_name_ko": "예체능대학",
+        "tuition_krw": 3947000,
+        "majors": [
+          {
+            "name_vi": "Thiết kế Đồ họa & Kỹ thuật số",
+            "name_ko": "시각디자인학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Nghệ thuật Thẩm mỹ & Trang điểm (Make-up)",
+            "name_ko": "뷰티미용학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Diễn xuất, Sân khấu & Điện ảnh",
+            "name_ko": "연극영화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Âm nhạc K-Pop & Vẫn nghệ",
+            "name_ko": "실용음악학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "medicine_pharmacy",
+        "faculty_name_vi": "Khoa Y - Dược & Khoa học Y tế",
+        "faculty_name_ko": "의치약학/보건대학",
+        "tuition_krw": 4273000,
+        "majors": [
+          {
+            "name_vi": "Điều dưỡng (Nursing)",
+            "name_ko": "간호학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Quản lý Y tế & Bệnh viện",
+            "name_ko": "보건행정학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Vật lý trị liệu & Phục hồi chức năng",
+            "name_ko": "물리치료학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Dược học",
+            "name_ko": "약학과",
+            "is_hot": true
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "mock_uni_82",
@@ -3020,7 +14255,144 @@ export const universities = [
     "master_no_topik": true,
     "custom_notes": "Trường ưu tiên phỏng vấn visa thẳng",
     "top_1_percent": false,
-    "is_restricted_school": true
+    "is_restricted_school": true,
+    "majors_detail": [
+      {
+        "category": "humanities_social",
+        "faculty_name_vi": "Khoa Nhân văn & Khoa học Xã hội",
+        "faculty_name_ko": "인문사회대학",
+        "tuition_krw": 2075000,
+        "majors": [
+          {
+            "name_vi": "Quản trị Kinh doanh",
+            "name_ko": "경영학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Ngôn ngữ & Văn hóa Hàn Quốc",
+            "name_ko": "한국언어문화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Truyền thông & Báo chí",
+            "name_ko": "미디어언론학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Thương mại Quốc tế",
+            "name_ko": "국제무역학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "engineering",
+        "faculty_name_vi": "Khoa Kỹ thuật & Công nghệ Thông tin",
+        "faculty_name_ko": "공과대학",
+        "tuition_krw": 4839000,
+        "majors": [
+          {
+            "name_vi": "Khoa học Máy tính & AI",
+            "name_ko": "컴퓨터공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Công nghệ Thông tin (IT)",
+            "name_ko": "정보통신공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Kỹ thuật Điện - Điện tử",
+            "name_ko": "전기전자공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Kỹ thuật Cơ khí",
+            "name_ko": "기계공학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "natural_sciences",
+        "faculty_name_vi": "Khoa Khoa học Tự nhiên & Sinh học",
+        "faculty_name_ko": "자연과학대학",
+        "tuition_krw": 3164000,
+        "majors": [
+          {
+            "name_vi": "Hóa học & Vật liệu mới",
+            "name_ko": "화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Công nghệ Thực phẩm & Dinh dưỡng",
+            "name_ko": "식품영양학과",
+            "is_hot": false
+          },
+          {
+            "name_vi": "Sinh học Ứng dụng & Công nghệ Sinh học",
+            "name_ko": "생명공학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "arts_sports",
+        "faculty_name_vi": "Khoa Nghệ thuật & Thể dục Thể thao",
+        "faculty_name_ko": "예체능대학",
+        "tuition_krw": 4643000,
+        "majors": [
+          {
+            "name_vi": "Thiết kế Đồ họa & Kỹ thuật số",
+            "name_ko": "시각디자인학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Nghệ thuật Thẩm mỹ & Trang điểm (Make-up)",
+            "name_ko": "뷰티미용학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Diễn xuất, Sân khấu & Điện ảnh",
+            "name_ko": "연극영화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Âm nhạc K-Pop & Vẫn nghệ",
+            "name_ko": "실용음악학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "medicine_pharmacy",
+        "faculty_name_vi": "Khoa Y - Dược & Khoa học Y tế",
+        "faculty_name_ko": "의치약학/보건대학",
+        "tuition_krw": 3084000,
+        "majors": [
+          {
+            "name_vi": "Điều dưỡng (Nursing)",
+            "name_ko": "간호학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Quản lý Y tế & Bệnh viện",
+            "name_ko": "보건행정학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Vật lý trị liệu & Phục hồi chức năng",
+            "name_ko": "물리치료학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Dược học",
+            "name_ko": "약학과",
+            "is_hot": true
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "mock_uni_83",
@@ -3058,7 +14430,144 @@ export const universities = [
     "dorm_fee_desc": "1,200,000-1,700,000KRW",
     "admission_conditions": "",
     "featured_majors": "Du lịch – Hàng không – Khách sạn",
-    "regional_restrictions": ""
+    "regional_restrictions": "",
+    "majors_detail": [
+      {
+        "category": "humanities_social",
+        "faculty_name_vi": "Khoa Nhân văn & Khoa học Xã hội",
+        "faculty_name_ko": "인문사회대학",
+        "tuition_krw": 3093000,
+        "majors": [
+          {
+            "name_vi": "Quản trị Kinh doanh",
+            "name_ko": "경영학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Ngôn ngữ & Văn hóa Hàn Quốc",
+            "name_ko": "한국언어문화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Truyền thông & Báo chí",
+            "name_ko": "미디어언론학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Thương mại Quốc tế",
+            "name_ko": "국제무역학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "engineering",
+        "faculty_name_vi": "Khoa Kỹ thuật & Công nghệ Thông tin",
+        "faculty_name_ko": "공과대학",
+        "tuition_krw": 2422000,
+        "majors": [
+          {
+            "name_vi": "Khoa học Máy tính & AI",
+            "name_ko": "컴퓨터공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Công nghệ Thông tin (IT)",
+            "name_ko": "정보통신공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Kỹ thuật Điện - Điện tử",
+            "name_ko": "전기전자공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Kỹ thuật Cơ khí",
+            "name_ko": "기계공학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "natural_sciences",
+        "faculty_name_vi": "Khoa Khoa học Tự nhiên & Sinh học",
+        "faculty_name_ko": "자연과학대학",
+        "tuition_krw": 4668000,
+        "majors": [
+          {
+            "name_vi": "Hóa học & Vật liệu mới",
+            "name_ko": "화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Công nghệ Thực phẩm & Dinh dưỡng",
+            "name_ko": "식품영양학과",
+            "is_hot": false
+          },
+          {
+            "name_vi": "Sinh học Ứng dụng & Công nghệ Sinh học",
+            "name_ko": "생명공학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "arts_sports",
+        "faculty_name_vi": "Khoa Nghệ thuật & Thể dục Thể thao",
+        "faculty_name_ko": "예체능대학",
+        "tuition_krw": 4252000,
+        "majors": [
+          {
+            "name_vi": "Thiết kế Đồ họa & Kỹ thuật số",
+            "name_ko": "시각디자인학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Nghệ thuật Thẩm mỹ & Trang điểm (Make-up)",
+            "name_ko": "뷰티미용학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Diễn xuất, Sân khấu & Điện ảnh",
+            "name_ko": "연극영화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Âm nhạc K-Pop & Vẫn nghệ",
+            "name_ko": "실용음악학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "medicine_pharmacy",
+        "faculty_name_vi": "Khoa Y - Dược & Khoa học Y tế",
+        "faculty_name_ko": "의치약학/보건대학",
+        "tuition_krw": 2821000,
+        "majors": [
+          {
+            "name_vi": "Điều dưỡng (Nursing)",
+            "name_ko": "간호학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Quản lý Y tế & Bệnh viện",
+            "name_ko": "보건행정학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Vật lý trị liệu & Phục hồi chức năng",
+            "name_ko": "물리치료학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Dược học",
+            "name_ko": "약학과",
+            "is_hot": true
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "mock_uni_84",
@@ -3088,7 +14597,144 @@ export const universities = [
     "visa_metropolitan": false,
     "master_no_topik": true,
     "custom_notes": "",
-    "top_1_percent": true
+    "top_1_percent": true,
+    "majors_detail": [
+      {
+        "category": "humanities_social",
+        "faculty_name_vi": "Khoa Nhân văn & Khoa học Xã hội",
+        "faculty_name_ko": "인문사회대학",
+        "tuition_krw": 2447000,
+        "majors": [
+          {
+            "name_vi": "Quản trị Kinh doanh",
+            "name_ko": "경영학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Ngôn ngữ & Văn hóa Hàn Quốc",
+            "name_ko": "한국언어문화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Truyền thông & Báo chí",
+            "name_ko": "미디어언론학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Thương mại Quốc tế",
+            "name_ko": "국제무역학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "engineering",
+        "faculty_name_vi": "Khoa Kỹ thuật & Công nghệ Thông tin",
+        "faculty_name_ko": "공과대학",
+        "tuition_krw": 2043000,
+        "majors": [
+          {
+            "name_vi": "Khoa học Máy tính & AI",
+            "name_ko": "컴퓨터공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Công nghệ Thông tin (IT)",
+            "name_ko": "정보통신공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Kỹ thuật Điện - Điện tử",
+            "name_ko": "전기전자공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Kỹ thuật Cơ khí",
+            "name_ko": "기계공학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "natural_sciences",
+        "faculty_name_vi": "Khoa Khoa học Tự nhiên & Sinh học",
+        "faculty_name_ko": "자연과학대학",
+        "tuition_krw": 4367000,
+        "majors": [
+          {
+            "name_vi": "Hóa học & Vật liệu mới",
+            "name_ko": "화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Công nghệ Thực phẩm & Dinh dưỡng",
+            "name_ko": "식품영양학과",
+            "is_hot": false
+          },
+          {
+            "name_vi": "Sinh học Ứng dụng & Công nghệ Sinh học",
+            "name_ko": "생명공학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "arts_sports",
+        "faculty_name_vi": "Khoa Nghệ thuật & Thể dục Thể thao",
+        "faculty_name_ko": "예체능대학",
+        "tuition_krw": 3010000,
+        "majors": [
+          {
+            "name_vi": "Thiết kế Đồ họa & Kỹ thuật số",
+            "name_ko": "시각디자인학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Nghệ thuật Thẩm mỹ & Trang điểm (Make-up)",
+            "name_ko": "뷰티미용학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Diễn xuất, Sân khấu & Điện ảnh",
+            "name_ko": "연극영화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Âm nhạc K-Pop & Vẫn nghệ",
+            "name_ko": "실용음악학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "medicine_pharmacy",
+        "faculty_name_vi": "Khoa Y - Dược & Khoa học Y tế",
+        "faculty_name_ko": "의치약학/보건대학",
+        "tuition_krw": 4135000,
+        "majors": [
+          {
+            "name_vi": "Điều dưỡng (Nursing)",
+            "name_ko": "간호학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Quản lý Y tế & Bệnh viện",
+            "name_ko": "보건행정학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Vật lý trị liệu & Phục hồi chức năng",
+            "name_ko": "물리치료학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Dược học",
+            "name_ko": "약학과",
+            "is_hot": true
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "mock_uni_85",
@@ -3126,7 +14772,144 @@ export const universities = [
     "dorm_fee_desc": "1,100,000-1,400,000KRW",
     "admission_conditions": "",
     "featured_majors": "Điện ảnh – Animation – Digital Content",
-    "regional_restrictions": ""
+    "regional_restrictions": "",
+    "majors_detail": [
+      {
+        "category": "humanities_social",
+        "faculty_name_vi": "Khoa Nhân văn & Khoa học Xã hội",
+        "faculty_name_ko": "인문사회대학",
+        "tuition_krw": 4024000,
+        "majors": [
+          {
+            "name_vi": "Quản trị Kinh doanh",
+            "name_ko": "경영학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Ngôn ngữ & Văn hóa Hàn Quốc",
+            "name_ko": "한국언어문화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Truyền thông & Báo chí",
+            "name_ko": "미디어언론학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Thương mại Quốc tế",
+            "name_ko": "국제무역학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "engineering",
+        "faculty_name_vi": "Khoa Kỹ thuật & Công nghệ Thông tin",
+        "faculty_name_ko": "공과대학",
+        "tuition_krw": 2256000,
+        "majors": [
+          {
+            "name_vi": "Khoa học Máy tính & AI",
+            "name_ko": "컴퓨터공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Công nghệ Thông tin (IT)",
+            "name_ko": "정보통신공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Kỹ thuật Điện - Điện tử",
+            "name_ko": "전기전자공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Kỹ thuật Cơ khí",
+            "name_ko": "기계공학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "natural_sciences",
+        "faculty_name_vi": "Khoa Khoa học Tự nhiên & Sinh học",
+        "faculty_name_ko": "자연과학대학",
+        "tuition_krw": 2879000,
+        "majors": [
+          {
+            "name_vi": "Hóa học & Vật liệu mới",
+            "name_ko": "화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Công nghệ Thực phẩm & Dinh dưỡng",
+            "name_ko": "식품영양학과",
+            "is_hot": false
+          },
+          {
+            "name_vi": "Sinh học Ứng dụng & Công nghệ Sinh học",
+            "name_ko": "생명공학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "arts_sports",
+        "faculty_name_vi": "Khoa Nghệ thuật & Thể dục Thể thao",
+        "faculty_name_ko": "예체능대학",
+        "tuition_krw": 4024000,
+        "majors": [
+          {
+            "name_vi": "Thiết kế Đồ họa & Kỹ thuật số",
+            "name_ko": "시각디자인학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Nghệ thuật Thẩm mỹ & Trang điểm (Make-up)",
+            "name_ko": "뷰티미용학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Diễn xuất, Sân khấu & Điện ảnh",
+            "name_ko": "연극영화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Âm nhạc K-Pop & Vẫn nghệ",
+            "name_ko": "실용음악학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "medicine_pharmacy",
+        "faculty_name_vi": "Khoa Y - Dược & Khoa học Y tế",
+        "faculty_name_ko": "의치약학/보건대학",
+        "tuition_krw": 4024000,
+        "majors": [
+          {
+            "name_vi": "Điều dưỡng (Nursing)",
+            "name_ko": "간호학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Quản lý Y tế & Bệnh viện",
+            "name_ko": "보건행정학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Vật lý trị liệu & Phục hồi chức năng",
+            "name_ko": "물리치료학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Dược học",
+            "name_ko": "약학과",
+            "is_hot": true
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "mock_uni_86",
@@ -3164,7 +14947,144 @@ export const universities = [
     "dorm_fee_desc": "653,000KRW",
     "admission_conditions": "",
     "featured_majors": "Thiết kế ô tô – Business – Design",
-    "regional_restrictions": ""
+    "regional_restrictions": "",
+    "majors_detail": [
+      {
+        "category": "humanities_social",
+        "faculty_name_vi": "Khoa Nhân văn & Khoa học Xã hội",
+        "faculty_name_ko": "인문사회대학",
+        "tuition_krw": 3833000,
+        "majors": [
+          {
+            "name_vi": "Quản trị Kinh doanh",
+            "name_ko": "경영학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Ngôn ngữ & Văn hóa Hàn Quốc",
+            "name_ko": "한국언어문화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Truyền thông & Báo chí",
+            "name_ko": "미디어언론학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Thương mại Quốc tế",
+            "name_ko": "국제무역학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "engineering",
+        "faculty_name_vi": "Khoa Kỹ thuật & Công nghệ Thông tin",
+        "faculty_name_ko": "공과대학",
+        "tuition_krw": 3158000,
+        "majors": [
+          {
+            "name_vi": "Khoa học Máy tính & AI",
+            "name_ko": "컴퓨터공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Công nghệ Thông tin (IT)",
+            "name_ko": "정보통신공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Kỹ thuật Điện - Điện tử",
+            "name_ko": "전기전자공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Kỹ thuật Cơ khí",
+            "name_ko": "기계공학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "natural_sciences",
+        "faculty_name_vi": "Khoa Khoa học Tự nhiên & Sinh học",
+        "faculty_name_ko": "자연과학대학",
+        "tuition_krw": 3635000,
+        "majors": [
+          {
+            "name_vi": "Hóa học & Vật liệu mới",
+            "name_ko": "화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Công nghệ Thực phẩm & Dinh dưỡng",
+            "name_ko": "식품영양학과",
+            "is_hot": false
+          },
+          {
+            "name_vi": "Sinh học Ứng dụng & Công nghệ Sinh học",
+            "name_ko": "생명공학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "arts_sports",
+        "faculty_name_vi": "Khoa Nghệ thuật & Thể dục Thể thao",
+        "faculty_name_ko": "예체능대학",
+        "tuition_krw": 3758000,
+        "majors": [
+          {
+            "name_vi": "Thiết kế Đồ họa & Kỹ thuật số",
+            "name_ko": "시각디자인학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Nghệ thuật Thẩm mỹ & Trang điểm (Make-up)",
+            "name_ko": "뷰티미용학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Diễn xuất, Sân khấu & Điện ảnh",
+            "name_ko": "연극영화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Âm nhạc K-Pop & Vẫn nghệ",
+            "name_ko": "실용음악학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "medicine_pharmacy",
+        "faculty_name_vi": "Khoa Y - Dược & Khoa học Y tế",
+        "faculty_name_ko": "의치약학/보건대학",
+        "tuition_krw": 2129000,
+        "majors": [
+          {
+            "name_vi": "Điều dưỡng (Nursing)",
+            "name_ko": "간호학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Quản lý Y tế & Bệnh viện",
+            "name_ko": "보건행정학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Vật lý trị liệu & Phục hồi chức năng",
+            "name_ko": "물리치료학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Dược học",
+            "name_ko": "약학과",
+            "is_hot": true
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "mock_uni_87",
@@ -3202,7 +15122,144 @@ export const universities = [
     "dorm_fee_desc": "600,000-1,000,000KRW",
     "admission_conditions": "6,0 trở lên (xem xét)",
     "featured_majors": "",
-    "regional_restrictions": ""
+    "regional_restrictions": "",
+    "majors_detail": [
+      {
+        "category": "humanities_social",
+        "faculty_name_vi": "Khoa Nhân văn & Khoa học Xã hội",
+        "faculty_name_ko": "인문사회대학",
+        "tuition_krw": 4864000,
+        "majors": [
+          {
+            "name_vi": "Quản trị Kinh doanh",
+            "name_ko": "경영학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Ngôn ngữ & Văn hóa Hàn Quốc",
+            "name_ko": "한국언어문화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Truyền thông & Báo chí",
+            "name_ko": "미디어언론학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Thương mại Quốc tế",
+            "name_ko": "국제무역학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "engineering",
+        "faculty_name_vi": "Khoa Kỹ thuật & Công nghệ Thông tin",
+        "faculty_name_ko": "공과대학",
+        "tuition_krw": 2226000,
+        "majors": [
+          {
+            "name_vi": "Khoa học Máy tính & AI",
+            "name_ko": "컴퓨터공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Công nghệ Thông tin (IT)",
+            "name_ko": "정보통신공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Kỹ thuật Điện - Điện tử",
+            "name_ko": "전기전자공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Kỹ thuật Cơ khí",
+            "name_ko": "기계공학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "natural_sciences",
+        "faculty_name_vi": "Khoa Khoa học Tự nhiên & Sinh học",
+        "faculty_name_ko": "자연과학대학",
+        "tuition_krw": 4671000,
+        "majors": [
+          {
+            "name_vi": "Hóa học & Vật liệu mới",
+            "name_ko": "화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Công nghệ Thực phẩm & Dinh dưỡng",
+            "name_ko": "식품영양학과",
+            "is_hot": false
+          },
+          {
+            "name_vi": "Sinh học Ứng dụng & Công nghệ Sinh học",
+            "name_ko": "생명공학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "arts_sports",
+        "faculty_name_vi": "Khoa Nghệ thuật & Thể dục Thể thao",
+        "faculty_name_ko": "예체능대학",
+        "tuition_krw": 3700000,
+        "majors": [
+          {
+            "name_vi": "Thiết kế Đồ họa & Kỹ thuật số",
+            "name_ko": "시각디자인학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Nghệ thuật Thẩm mỹ & Trang điểm (Make-up)",
+            "name_ko": "뷰티미용학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Diễn xuất, Sân khấu & Điện ảnh",
+            "name_ko": "연극영화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Âm nhạc K-Pop & Vẫn nghệ",
+            "name_ko": "실용음악학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "medicine_pharmacy",
+        "faculty_name_vi": "Khoa Y - Dược & Khoa học Y tế",
+        "faculty_name_ko": "의치약학/보건대학",
+        "tuition_krw": 2287000,
+        "majors": [
+          {
+            "name_vi": "Điều dưỡng (Nursing)",
+            "name_ko": "간호학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Quản lý Y tế & Bệnh viện",
+            "name_ko": "보건행정학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Vật lý trị liệu & Phục hồi chức năng",
+            "name_ko": "물리치료학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Dược học",
+            "name_ko": "약학과",
+            "is_hot": true
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "mock_uni_88",
@@ -3240,7 +15297,144 @@ export const universities = [
     "dorm_fee_desc": "1,500,000-2,500,000KRW",
     "admission_conditions": "",
     "featured_majors": "Điều dưỡng, Hàng không, Kinh doanh",
-    "regional_restrictions": ""
+    "regional_restrictions": "",
+    "majors_detail": [
+      {
+        "category": "humanities_social",
+        "faculty_name_vi": "Khoa Nhân văn & Khoa học Xã hội",
+        "faculty_name_ko": "인문사회대학",
+        "tuition_krw": 3135000,
+        "majors": [
+          {
+            "name_vi": "Quản trị Kinh doanh",
+            "name_ko": "경영학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Ngôn ngữ & Văn hóa Hàn Quốc",
+            "name_ko": "한국언어문화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Truyền thông & Báo chí",
+            "name_ko": "미디어언론학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Thương mại Quốc tế",
+            "name_ko": "국제무역학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "engineering",
+        "faculty_name_vi": "Khoa Kỹ thuật & Công nghệ Thông tin",
+        "faculty_name_ko": "공과대학",
+        "tuition_krw": 2231000,
+        "majors": [
+          {
+            "name_vi": "Khoa học Máy tính & AI",
+            "name_ko": "컴퓨터공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Công nghệ Thông tin (IT)",
+            "name_ko": "정보통신공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Kỹ thuật Điện - Điện tử",
+            "name_ko": "전기전자공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Kỹ thuật Cơ khí",
+            "name_ko": "기계공학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "natural_sciences",
+        "faculty_name_vi": "Khoa Khoa học Tự nhiên & Sinh học",
+        "faculty_name_ko": "자연과학대학",
+        "tuition_krw": 2079000,
+        "majors": [
+          {
+            "name_vi": "Hóa học & Vật liệu mới",
+            "name_ko": "화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Công nghệ Thực phẩm & Dinh dưỡng",
+            "name_ko": "식품영양학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Sinh học Ứng dụng & Công nghệ Sinh học",
+            "name_ko": "생명공학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "arts_sports",
+        "faculty_name_vi": "Khoa Nghệ thuật & Thể dục Thể thao",
+        "faculty_name_ko": "예체능대학",
+        "tuition_krw": 4843000,
+        "majors": [
+          {
+            "name_vi": "Thiết kế Đồ họa & Kỹ thuật số",
+            "name_ko": "시각디자인학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Nghệ thuật Thẩm mỹ & Trang điểm (Make-up)",
+            "name_ko": "뷰티미용학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Diễn xuất, Sân khấu & Điện ảnh",
+            "name_ko": "연극영화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Âm nhạc K-Pop & Vẫn nghệ",
+            "name_ko": "실용음악학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "medicine_pharmacy",
+        "faculty_name_vi": "Khoa Y - Dược & Khoa học Y tế",
+        "faculty_name_ko": "의치약학/보건대학",
+        "tuition_krw": 3135000,
+        "majors": [
+          {
+            "name_vi": "Điều dưỡng (Nursing)",
+            "name_ko": "간호학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Quản lý Y tế & Bệnh viện",
+            "name_ko": "보건행정학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Vật lý trị liệu & Phục hồi chức năng",
+            "name_ko": "물리치료학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Dược học",
+            "name_ko": "약학과",
+            "is_hot": true
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "mock_uni_89",
@@ -3278,7 +15472,144 @@ export const universities = [
     "dorm_fee_desc": "1,100,000-1,500,000KRW",
     "admission_conditions": "",
     "featured_majors": "IT – AI – Kinh doanh",
-    "regional_restrictions": ""
+    "regional_restrictions": "",
+    "majors_detail": [
+      {
+        "category": "humanities_social",
+        "faculty_name_vi": "Khoa Nhân văn & Khoa học Xã hội",
+        "faculty_name_ko": "인문사회대학",
+        "tuition_krw": 2700000,
+        "majors": [
+          {
+            "name_vi": "Quản trị Kinh doanh",
+            "name_ko": "경영학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Ngôn ngữ & Văn hóa Hàn Quốc",
+            "name_ko": "한국언어문화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Truyền thông & Báo chí",
+            "name_ko": "미디어언론학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Thương mại Quốc tế",
+            "name_ko": "국제무역학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "engineering",
+        "faculty_name_vi": "Khoa Kỹ thuật & Công nghệ Thông tin",
+        "faculty_name_ko": "공과대학",
+        "tuition_krw": 4122000,
+        "majors": [
+          {
+            "name_vi": "Khoa học Máy tính & AI",
+            "name_ko": "컴퓨터공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Công nghệ Thông tin (IT)",
+            "name_ko": "정보통신공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Kỹ thuật Điện - Điện tử",
+            "name_ko": "전기전자공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Kỹ thuật Cơ khí",
+            "name_ko": "기계공학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "natural_sciences",
+        "faculty_name_vi": "Khoa Khoa học Tự nhiên & Sinh học",
+        "faculty_name_ko": "자연과학대학",
+        "tuition_krw": 4505000,
+        "majors": [
+          {
+            "name_vi": "Hóa học & Vật liệu mới",
+            "name_ko": "화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Công nghệ Thực phẩm & Dinh dưỡng",
+            "name_ko": "식품영양학과",
+            "is_hot": false
+          },
+          {
+            "name_vi": "Sinh học Ứng dụng & Công nghệ Sinh học",
+            "name_ko": "생명공학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "arts_sports",
+        "faculty_name_vi": "Khoa Nghệ thuật & Thể dục Thể thao",
+        "faculty_name_ko": "예체능대학",
+        "tuition_krw": 3248000,
+        "majors": [
+          {
+            "name_vi": "Thiết kế Đồ họa & Kỹ thuật số",
+            "name_ko": "시각디자인학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Nghệ thuật Thẩm mỹ & Trang điểm (Make-up)",
+            "name_ko": "뷰티미용학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Diễn xuất, Sân khấu & Điện ảnh",
+            "name_ko": "연극영화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Âm nhạc K-Pop & Vẫn nghệ",
+            "name_ko": "실용음악학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "medicine_pharmacy",
+        "faculty_name_vi": "Khoa Y - Dược & Khoa học Y tế",
+        "faculty_name_ko": "의치약학/보건대학",
+        "tuition_krw": 2700000,
+        "majors": [
+          {
+            "name_vi": "Điều dưỡng (Nursing)",
+            "name_ko": "간호학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Quản lý Y tế & Bệnh viện",
+            "name_ko": "보건행정학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Vật lý trị liệu & Phục hồi chức năng",
+            "name_ko": "물리치료학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Dược học",
+            "name_ko": "약학과",
+            "is_hot": true
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "mock_uni_90",
@@ -3316,7 +15647,144 @@ export const universities = [
     "dorm_fee_desc": "1,000,000KRW",
     "admission_conditions": "7,0 trở lên\n- vắng ko quá 5 buổi (nhiều hơn cần giải trình)",
     "featured_majors": "Y khoa – Điều dưỡng – AI y tế",
-    "regional_restrictions": ""
+    "regional_restrictions": "",
+    "majors_detail": [
+      {
+        "category": "humanities_social",
+        "faculty_name_vi": "Khoa Nhân văn & Khoa học Xã hội",
+        "faculty_name_ko": "인문사회대학",
+        "tuition_krw": 4120000,
+        "majors": [
+          {
+            "name_vi": "Quản trị Kinh doanh",
+            "name_ko": "경영학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Ngôn ngữ & Văn hóa Hàn Quốc",
+            "name_ko": "한국언어문화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Truyền thông & Báo chí",
+            "name_ko": "미디어언론학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Thương mại Quốc tế",
+            "name_ko": "국제무역학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "engineering",
+        "faculty_name_vi": "Khoa Kỹ thuật & Công nghệ Thông tin",
+        "faculty_name_ko": "공과대학",
+        "tuition_krw": 3952000,
+        "majors": [
+          {
+            "name_vi": "Khoa học Máy tính & AI",
+            "name_ko": "컴퓨터공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Công nghệ Thông tin (IT)",
+            "name_ko": "정보통신공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Kỹ thuật Điện - Điện tử",
+            "name_ko": "전기전자공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Kỹ thuật Cơ khí",
+            "name_ko": "기계공학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "natural_sciences",
+        "faculty_name_vi": "Khoa Khoa học Tự nhiên & Sinh học",
+        "faculty_name_ko": "자연과학대학",
+        "tuition_krw": 2633000,
+        "majors": [
+          {
+            "name_vi": "Hóa học & Vật liệu mới",
+            "name_ko": "화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Công nghệ Thực phẩm & Dinh dưỡng",
+            "name_ko": "식품영양학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Sinh học Ứng dụng & Công nghệ Sinh học",
+            "name_ko": "생명공학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "arts_sports",
+        "faculty_name_vi": "Khoa Nghệ thuật & Thể dục Thể thao",
+        "faculty_name_ko": "예체능대학",
+        "tuition_krw": 4120000,
+        "majors": [
+          {
+            "name_vi": "Thiết kế Đồ họa & Kỹ thuật số",
+            "name_ko": "시각디자인학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Nghệ thuật Thẩm mỹ & Trang điểm (Make-up)",
+            "name_ko": "뷰티미용학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Diễn xuất, Sân khấu & Điện ảnh",
+            "name_ko": "연극영화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Âm nhạc K-Pop & Vẫn nghệ",
+            "name_ko": "실용음악학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "medicine_pharmacy",
+        "faculty_name_vi": "Khoa Y - Dược & Khoa học Y tế",
+        "faculty_name_ko": "의치약학/보건대학",
+        "tuition_krw": 4120000,
+        "majors": [
+          {
+            "name_vi": "Điều dưỡng (Nursing)",
+            "name_ko": "간호학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Quản lý Y tế & Bệnh viện",
+            "name_ko": "보건행정학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Vật lý trị liệu & Phục hồi chức năng",
+            "name_ko": "물리치료학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Dược học",
+            "name_ko": "약학과",
+            "is_hot": true
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "mock_uni_91",
@@ -3354,7 +15822,144 @@ export const universities = [
     "dorm_fee_desc": "1,300,000-1,800,000KRW",
     "admission_conditions": "",
     "featured_majors": "Y khoa – Business – Ngôn ngữ",
-    "regional_restrictions": ""
+    "regional_restrictions": "",
+    "majors_detail": [
+      {
+        "category": "humanities_social",
+        "faculty_name_vi": "Khoa Nhân văn & Khoa học Xã hội",
+        "faculty_name_ko": "인문사회대학",
+        "tuition_krw": 3073000,
+        "majors": [
+          {
+            "name_vi": "Quản trị Kinh doanh",
+            "name_ko": "경영학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Ngôn ngữ & Văn hóa Hàn Quốc",
+            "name_ko": "한국언어문화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Truyền thông & Báo chí",
+            "name_ko": "미디어언론학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Thương mại Quốc tế",
+            "name_ko": "국제무역학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "engineering",
+        "faculty_name_vi": "Khoa Kỹ thuật & Công nghệ Thông tin",
+        "faculty_name_ko": "공과대학",
+        "tuition_krw": 4784000,
+        "majors": [
+          {
+            "name_vi": "Khoa học Máy tính & AI",
+            "name_ko": "컴퓨터공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Công nghệ Thông tin (IT)",
+            "name_ko": "정보통신공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Kỹ thuật Điện - Điện tử",
+            "name_ko": "전기전자공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Kỹ thuật Cơ khí",
+            "name_ko": "기계공학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "natural_sciences",
+        "faculty_name_vi": "Khoa Khoa học Tự nhiên & Sinh học",
+        "faculty_name_ko": "자연과학대학",
+        "tuition_krw": 3404000,
+        "majors": [
+          {
+            "name_vi": "Hóa học & Vật liệu mới",
+            "name_ko": "화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Công nghệ Thực phẩm & Dinh dưỡng",
+            "name_ko": "식품영양학과",
+            "is_hot": false
+          },
+          {
+            "name_vi": "Sinh học Ứng dụng & Công nghệ Sinh học",
+            "name_ko": "생명공학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "arts_sports",
+        "faculty_name_vi": "Khoa Nghệ thuật & Thể dục Thể thao",
+        "faculty_name_ko": "예체능대학",
+        "tuition_krw": 3974000,
+        "majors": [
+          {
+            "name_vi": "Thiết kế Đồ họa & Kỹ thuật số",
+            "name_ko": "시각디자인학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Nghệ thuật Thẩm mỹ & Trang điểm (Make-up)",
+            "name_ko": "뷰티미용학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Diễn xuất, Sân khấu & Điện ảnh",
+            "name_ko": "연극영화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Âm nhạc K-Pop & Vẫn nghệ",
+            "name_ko": "실용음악학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "medicine_pharmacy",
+        "faculty_name_vi": "Khoa Y - Dược & Khoa học Y tế",
+        "faculty_name_ko": "의치약학/보건대학",
+        "tuition_krw": 4630000,
+        "majors": [
+          {
+            "name_vi": "Điều dưỡng (Nursing)",
+            "name_ko": "간호학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Quản lý Y tế & Bệnh viện",
+            "name_ko": "보건행정학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Vật lý trị liệu & Phục hồi chức năng",
+            "name_ko": "물리치료학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Dược học",
+            "name_ko": "약학과",
+            "is_hot": true
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "mock_uni_92",
@@ -3385,7 +15990,144 @@ export const universities = [
     "master_no_topik": false,
     "custom_notes": "Trường ưu tiên phỏng vấn visa thẳng",
     "top_1_percent": true,
-    "is_restricted_school": true
+    "is_restricted_school": true,
+    "majors_detail": [
+      {
+        "category": "humanities_social",
+        "faculty_name_vi": "Khoa Nhân văn & Khoa học Xã hội",
+        "faculty_name_ko": "인문사회대학",
+        "tuition_krw": 4616000,
+        "majors": [
+          {
+            "name_vi": "Quản trị Kinh doanh",
+            "name_ko": "경영학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Ngôn ngữ & Văn hóa Hàn Quốc",
+            "name_ko": "한국언어문화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Truyền thông & Báo chí",
+            "name_ko": "미디어언론학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Thương mại Quốc tế",
+            "name_ko": "국제무역학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "engineering",
+        "faculty_name_vi": "Khoa Kỹ thuật & Công nghệ Thông tin",
+        "faculty_name_ko": "공과대학",
+        "tuition_krw": 4272000,
+        "majors": [
+          {
+            "name_vi": "Khoa học Máy tính & AI",
+            "name_ko": "컴퓨터공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Công nghệ Thông tin (IT)",
+            "name_ko": "정보통신공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Kỹ thuật Điện - Điện tử",
+            "name_ko": "전기전자공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Kỹ thuật Cơ khí",
+            "name_ko": "기계공학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "natural_sciences",
+        "faculty_name_vi": "Khoa Khoa học Tự nhiên & Sinh học",
+        "faculty_name_ko": "자연과학대학",
+        "tuition_krw": 3102000,
+        "majors": [
+          {
+            "name_vi": "Hóa học & Vật liệu mới",
+            "name_ko": "화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Công nghệ Thực phẩm & Dinh dưỡng",
+            "name_ko": "식품영양학과",
+            "is_hot": false
+          },
+          {
+            "name_vi": "Sinh học Ứng dụng & Công nghệ Sinh học",
+            "name_ko": "생명공학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "arts_sports",
+        "faculty_name_vi": "Khoa Nghệ thuật & Thể dục Thể thao",
+        "faculty_name_ko": "예체능대학",
+        "tuition_krw": 2999000,
+        "majors": [
+          {
+            "name_vi": "Thiết kế Đồ họa & Kỹ thuật số",
+            "name_ko": "시각디자인학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Nghệ thuật Thẩm mỹ & Trang điểm (Make-up)",
+            "name_ko": "뷰티미용학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Diễn xuất, Sân khấu & Điện ảnh",
+            "name_ko": "연극영화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Âm nhạc K-Pop & Vẫn nghệ",
+            "name_ko": "실용음악학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "medicine_pharmacy",
+        "faculty_name_vi": "Khoa Y - Dược & Khoa học Y tế",
+        "faculty_name_ko": "의치약학/보건대학",
+        "tuition_krw": 3564000,
+        "majors": [
+          {
+            "name_vi": "Điều dưỡng (Nursing)",
+            "name_ko": "간호학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Quản lý Y tế & Bệnh viện",
+            "name_ko": "보건행정학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Vật lý trị liệu & Phục hồi chức năng",
+            "name_ko": "물리치료학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Dược học",
+            "name_ko": "약학과",
+            "is_hot": true
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "mock_uni_93",
@@ -3423,7 +16165,144 @@ export const universities = [
     "dorm_fee_desc": "1,300,000KRW",
     "admission_conditions": "",
     "featured_majors": "Thiết kế – IT – Fashion",
-    "regional_restrictions": ""
+    "regional_restrictions": "",
+    "majors_detail": [
+      {
+        "category": "humanities_social",
+        "faculty_name_vi": "Khoa Nhân văn & Khoa học Xã hội",
+        "faculty_name_ko": "인문사회대학",
+        "tuition_krw": 4910000,
+        "majors": [
+          {
+            "name_vi": "Quản trị Kinh doanh",
+            "name_ko": "경영학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Ngôn ngữ & Văn hóa Hàn Quốc",
+            "name_ko": "한국언어문화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Truyền thông & Báo chí",
+            "name_ko": "미디어언론학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Thương mại Quốc tế",
+            "name_ko": "국제무역학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "engineering",
+        "faculty_name_vi": "Khoa Kỹ thuật & Công nghệ Thông tin",
+        "faculty_name_ko": "공과대학",
+        "tuition_krw": 4520000,
+        "majors": [
+          {
+            "name_vi": "Khoa học Máy tính & AI",
+            "name_ko": "컴퓨터공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Công nghệ Thông tin (IT)",
+            "name_ko": "정보통신공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Kỹ thuật Điện - Điện tử",
+            "name_ko": "전기전자공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Kỹ thuật Cơ khí",
+            "name_ko": "기계공학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "natural_sciences",
+        "faculty_name_vi": "Khoa Khoa học Tự nhiên & Sinh học",
+        "faculty_name_ko": "자연과학대학",
+        "tuition_krw": 4784000,
+        "majors": [
+          {
+            "name_vi": "Hóa học & Vật liệu mới",
+            "name_ko": "화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Công nghệ Thực phẩm & Dinh dưỡng",
+            "name_ko": "식품영양학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Sinh học Ứng dụng & Công nghệ Sinh học",
+            "name_ko": "생명공학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "arts_sports",
+        "faculty_name_vi": "Khoa Nghệ thuật & Thể dục Thể thao",
+        "faculty_name_ko": "예체능대학",
+        "tuition_krw": 3879000,
+        "majors": [
+          {
+            "name_vi": "Thiết kế Đồ họa & Kỹ thuật số",
+            "name_ko": "시각디자인학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Nghệ thuật Thẩm mỹ & Trang điểm (Make-up)",
+            "name_ko": "뷰티미용학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Diễn xuất, Sân khấu & Điện ảnh",
+            "name_ko": "연극영화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Âm nhạc K-Pop & Vẫn nghệ",
+            "name_ko": "실용음악학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "medicine_pharmacy",
+        "faculty_name_vi": "Khoa Y - Dược & Khoa học Y tế",
+        "faculty_name_ko": "의치약학/보건대학",
+        "tuition_krw": 3165000,
+        "majors": [
+          {
+            "name_vi": "Điều dưỡng (Nursing)",
+            "name_ko": "간호학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Quản lý Y tế & Bệnh viện",
+            "name_ko": "보건행정학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Vật lý trị liệu & Phục hồi chức năng",
+            "name_ko": "물리치료학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Dược học",
+            "name_ko": "약학과",
+            "is_hot": true
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "mock_uni_94",
@@ -3461,7 +16340,144 @@ export const universities = [
     "dorm_fee_desc": "1,182,4000KRW",
     "admission_conditions": "",
     "featured_majors": "Y khoa – AI – Quản trị kinh doanh",
-    "regional_restrictions": ""
+    "regional_restrictions": "",
+    "majors_detail": [
+      {
+        "category": "humanities_social",
+        "faculty_name_vi": "Khoa Nhân văn & Khoa học Xã hội",
+        "faculty_name_ko": "인문사회대학",
+        "tuition_krw": 2732000,
+        "majors": [
+          {
+            "name_vi": "Quản trị Kinh doanh",
+            "name_ko": "경영학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Ngôn ngữ & Văn hóa Hàn Quốc",
+            "name_ko": "한국언어문화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Truyền thông & Báo chí",
+            "name_ko": "미디어언론학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Thương mại Quốc tế",
+            "name_ko": "국제무역학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "engineering",
+        "faculty_name_vi": "Khoa Kỹ thuật & Công nghệ Thông tin",
+        "faculty_name_ko": "공과대학",
+        "tuition_krw": 4973000,
+        "majors": [
+          {
+            "name_vi": "Khoa học Máy tính & AI",
+            "name_ko": "컴퓨터공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Công nghệ Thông tin (IT)",
+            "name_ko": "정보통신공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Kỹ thuật Điện - Điện tử",
+            "name_ko": "전기전자공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Kỹ thuật Cơ khí",
+            "name_ko": "기계공학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "natural_sciences",
+        "faculty_name_vi": "Khoa Khoa học Tự nhiên & Sinh học",
+        "faculty_name_ko": "자연과학대학",
+        "tuition_krw": 2836000,
+        "majors": [
+          {
+            "name_vi": "Hóa học & Vật liệu mới",
+            "name_ko": "화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Công nghệ Thực phẩm & Dinh dưỡng",
+            "name_ko": "식품영양학과",
+            "is_hot": false
+          },
+          {
+            "name_vi": "Sinh học Ứng dụng & Công nghệ Sinh học",
+            "name_ko": "생명공학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "arts_sports",
+        "faculty_name_vi": "Khoa Nghệ thuật & Thể dục Thể thao",
+        "faculty_name_ko": "예체능대학",
+        "tuition_krw": 2126000,
+        "majors": [
+          {
+            "name_vi": "Thiết kế Đồ họa & Kỹ thuật số",
+            "name_ko": "시각디자인학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Nghệ thuật Thẩm mỹ & Trang điểm (Make-up)",
+            "name_ko": "뷰티미용학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Diễn xuất, Sân khấu & Điện ảnh",
+            "name_ko": "연극영화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Âm nhạc K-Pop & Vẫn nghệ",
+            "name_ko": "실용음악학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "medicine_pharmacy",
+        "faculty_name_vi": "Khoa Y - Dược & Khoa học Y tế",
+        "faculty_name_ko": "의치약학/보건대학",
+        "tuition_krw": 4467000,
+        "majors": [
+          {
+            "name_vi": "Điều dưỡng (Nursing)",
+            "name_ko": "간호학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Quản lý Y tế & Bệnh viện",
+            "name_ko": "보건행정학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Vật lý trị liệu & Phục hồi chức năng",
+            "name_ko": "물리치료학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Dược học",
+            "name_ko": "약학과",
+            "is_hot": true
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "mock_uni_95",
@@ -3499,7 +16515,144 @@ export const universities = [
     "dorm_fee_desc": "1,400,000KRW",
     "admission_conditions": "",
     "featured_majors": "Nha khoa – Business – Truyền thông",
-    "regional_restrictions": ""
+    "regional_restrictions": "",
+    "majors_detail": [
+      {
+        "category": "humanities_social",
+        "faculty_name_vi": "Khoa Nhân văn & Khoa học Xã hội",
+        "faculty_name_ko": "인문사회대학",
+        "tuition_krw": 3894000,
+        "majors": [
+          {
+            "name_vi": "Quản trị Kinh doanh",
+            "name_ko": "경영학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Ngôn ngữ & Văn hóa Hàn Quốc",
+            "name_ko": "한국언어문화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Truyền thông & Báo chí",
+            "name_ko": "미디어언론학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Thương mại Quốc tế",
+            "name_ko": "국제무역학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "engineering",
+        "faculty_name_vi": "Khoa Kỹ thuật & Công nghệ Thông tin",
+        "faculty_name_ko": "공과대학",
+        "tuition_krw": 4357000,
+        "majors": [
+          {
+            "name_vi": "Khoa học Máy tính & AI",
+            "name_ko": "컴퓨터공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Công nghệ Thông tin (IT)",
+            "name_ko": "정보통신공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Kỹ thuật Điện - Điện tử",
+            "name_ko": "전기전자공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Kỹ thuật Cơ khí",
+            "name_ko": "기계공학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "natural_sciences",
+        "faculty_name_vi": "Khoa Khoa học Tự nhiên & Sinh học",
+        "faculty_name_ko": "자연과학대학",
+        "tuition_krw": 2025000,
+        "majors": [
+          {
+            "name_vi": "Hóa học & Vật liệu mới",
+            "name_ko": "화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Công nghệ Thực phẩm & Dinh dưỡng",
+            "name_ko": "식품영양학과",
+            "is_hot": false
+          },
+          {
+            "name_vi": "Sinh học Ứng dụng & Công nghệ Sinh học",
+            "name_ko": "생명공학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "arts_sports",
+        "faculty_name_vi": "Khoa Nghệ thuật & Thể dục Thể thao",
+        "faculty_name_ko": "예체능대학",
+        "tuition_krw": 2087000,
+        "majors": [
+          {
+            "name_vi": "Thiết kế Đồ họa & Kỹ thuật số",
+            "name_ko": "시각디자인학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Nghệ thuật Thẩm mỹ & Trang điểm (Make-up)",
+            "name_ko": "뷰티미용학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Diễn xuất, Sân khấu & Điện ảnh",
+            "name_ko": "연극영화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Âm nhạc K-Pop & Vẫn nghệ",
+            "name_ko": "실용음악학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "medicine_pharmacy",
+        "faculty_name_vi": "Khoa Y - Dược & Khoa học Y tế",
+        "faculty_name_ko": "의치약학/보건대학",
+        "tuition_krw": 4171000,
+        "majors": [
+          {
+            "name_vi": "Điều dưỡng (Nursing)",
+            "name_ko": "간호학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Quản lý Y tế & Bệnh viện",
+            "name_ko": "보건행정학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Vật lý trị liệu & Phục hồi chức năng",
+            "name_ko": "물리치료학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Dược học",
+            "name_ko": "약학과",
+            "is_hot": true
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "mock_uni_96",
@@ -3537,7 +16690,144 @@ export const universities = [
     "dorm_fee_desc": "1,200,000-1,800,000KRW",
     "admission_conditions": "",
     "featured_majors": "Nha khoa – Y khoa – Kỹ thuật",
-    "regional_restrictions": ""
+    "regional_restrictions": "",
+    "majors_detail": [
+      {
+        "category": "humanities_social",
+        "faculty_name_vi": "Khoa Nhân văn & Khoa học Xã hội",
+        "faculty_name_ko": "인문사회대학",
+        "tuition_krw": 3324000,
+        "majors": [
+          {
+            "name_vi": "Quản trị Kinh doanh",
+            "name_ko": "경영학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Ngôn ngữ & Văn hóa Hàn Quốc",
+            "name_ko": "한국언어문화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Truyền thông & Báo chí",
+            "name_ko": "미디어언론학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Thương mại Quốc tế",
+            "name_ko": "국제무역학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "engineering",
+        "faculty_name_vi": "Khoa Kỹ thuật & Công nghệ Thông tin",
+        "faculty_name_ko": "공과대학",
+        "tuition_krw": 2198000,
+        "majors": [
+          {
+            "name_vi": "Khoa học Máy tính & AI",
+            "name_ko": "컴퓨터공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Công nghệ Thông tin (IT)",
+            "name_ko": "정보통신공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Kỹ thuật Điện - Điện tử",
+            "name_ko": "전기전자공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Kỹ thuật Cơ khí",
+            "name_ko": "기계공학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "natural_sciences",
+        "faculty_name_vi": "Khoa Khoa học Tự nhiên & Sinh học",
+        "faculty_name_ko": "자연과학대학",
+        "tuition_krw": 3451000,
+        "majors": [
+          {
+            "name_vi": "Hóa học & Vật liệu mới",
+            "name_ko": "화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Công nghệ Thực phẩm & Dinh dưỡng",
+            "name_ko": "식품영양학과",
+            "is_hot": false
+          },
+          {
+            "name_vi": "Sinh học Ứng dụng & Công nghệ Sinh học",
+            "name_ko": "생명공학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "arts_sports",
+        "faculty_name_vi": "Khoa Nghệ thuật & Thể dục Thể thao",
+        "faculty_name_ko": "예체능대학",
+        "tuition_krw": 2014000,
+        "majors": [
+          {
+            "name_vi": "Thiết kế Đồ họa & Kỹ thuật số",
+            "name_ko": "시각디자인학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Nghệ thuật Thẩm mỹ & Trang điểm (Make-up)",
+            "name_ko": "뷰티미용학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Diễn xuất, Sân khấu & Điện ảnh",
+            "name_ko": "연극영화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Âm nhạc K-Pop & Vẫn nghệ",
+            "name_ko": "실용음악학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "medicine_pharmacy",
+        "faculty_name_vi": "Khoa Y - Dược & Khoa học Y tế",
+        "faculty_name_ko": "의치약학/보건대학",
+        "tuition_krw": 4284000,
+        "majors": [
+          {
+            "name_vi": "Điều dưỡng (Nursing)",
+            "name_ko": "간호학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Quản lý Y tế & Bệnh viện",
+            "name_ko": "보건행정학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Vật lý trị liệu & Phục hồi chức năng",
+            "name_ko": "물리치료학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Dược học",
+            "name_ko": "약학과",
+            "is_hot": true
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "mock_uni_97",
@@ -3575,7 +16865,144 @@ export const universities = [
     "dorm_fee_desc": "700,000-920,000KRW",
     "admission_conditions": "- 7.0 trở lên\n- vắng không quá 10 buổi",
     "featured_majors": "Y khoa – Luật – Kinh doanh",
-    "regional_restrictions": "Không nhận Quảng Bình"
+    "regional_restrictions": "Không nhận Quảng Bình",
+    "majors_detail": [
+      {
+        "category": "humanities_social",
+        "faculty_name_vi": "Khoa Nhân văn & Khoa học Xã hội",
+        "faculty_name_ko": "인문사회대학",
+        "tuition_krw": 4706000,
+        "majors": [
+          {
+            "name_vi": "Quản trị Kinh doanh",
+            "name_ko": "경영학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Ngôn ngữ & Văn hóa Hàn Quốc",
+            "name_ko": "한국언어문화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Truyền thông & Báo chí",
+            "name_ko": "미디어언론학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Thương mại Quốc tế",
+            "name_ko": "국제무역학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "engineering",
+        "faculty_name_vi": "Khoa Kỹ thuật & Công nghệ Thông tin",
+        "faculty_name_ko": "공과대학",
+        "tuition_krw": 3052000,
+        "majors": [
+          {
+            "name_vi": "Khoa học Máy tính & AI",
+            "name_ko": "컴퓨터공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Công nghệ Thông tin (IT)",
+            "name_ko": "정보통신공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Kỹ thuật Điện - Điện tử",
+            "name_ko": "전기전자공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Kỹ thuật Cơ khí",
+            "name_ko": "기계공학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "natural_sciences",
+        "faculty_name_vi": "Khoa Khoa học Tự nhiên & Sinh học",
+        "faculty_name_ko": "자연과학대학",
+        "tuition_krw": 4357000,
+        "majors": [
+          {
+            "name_vi": "Hóa học & Vật liệu mới",
+            "name_ko": "화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Công nghệ Thực phẩm & Dinh dưỡng",
+            "name_ko": "식품영양학과",
+            "is_hot": false
+          },
+          {
+            "name_vi": "Sinh học Ứng dụng & Công nghệ Sinh học",
+            "name_ko": "생명공학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "arts_sports",
+        "faculty_name_vi": "Khoa Nghệ thuật & Thể dục Thể thao",
+        "faculty_name_ko": "예체능대학",
+        "tuition_krw": 2561000,
+        "majors": [
+          {
+            "name_vi": "Thiết kế Đồ họa & Kỹ thuật số",
+            "name_ko": "시각디자인학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Nghệ thuật Thẩm mỹ & Trang điểm (Make-up)",
+            "name_ko": "뷰티미용학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Diễn xuất, Sân khấu & Điện ảnh",
+            "name_ko": "연극영화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Âm nhạc K-Pop & Vẫn nghệ",
+            "name_ko": "실용음악학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "medicine_pharmacy",
+        "faculty_name_vi": "Khoa Y - Dược & Khoa học Y tế",
+        "faculty_name_ko": "의치약학/보건대학",
+        "tuition_krw": 2738000,
+        "majors": [
+          {
+            "name_vi": "Điều dưỡng (Nursing)",
+            "name_ko": "간호학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Quản lý Y tế & Bệnh viện",
+            "name_ko": "보건행정학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Vật lý trị liệu & Phục hồi chức năng",
+            "name_ko": "물리치료학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Dược học",
+            "name_ko": "약학과",
+            "is_hot": true
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "mock_uni_98",
@@ -3613,7 +17040,144 @@ export const universities = [
     "dorm_fee_desc": "1,700,000-2,600,000KRW",
     "admission_conditions": "",
     "featured_majors": "Hải dương – Thủy sản – Logistics",
-    "regional_restrictions": ""
+    "regional_restrictions": "",
+    "majors_detail": [
+      {
+        "category": "humanities_social",
+        "faculty_name_vi": "Khoa Nhân văn & Khoa học Xã hội",
+        "faculty_name_ko": "인문사회대학",
+        "tuition_krw": 3895000,
+        "majors": [
+          {
+            "name_vi": "Quản trị Kinh doanh",
+            "name_ko": "경영학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Ngôn ngữ & Văn hóa Hàn Quốc",
+            "name_ko": "한국언어문화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Truyền thông & Báo chí",
+            "name_ko": "미디어언론학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Thương mại Quốc tế",
+            "name_ko": "국제무역학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "engineering",
+        "faculty_name_vi": "Khoa Kỹ thuật & Công nghệ Thông tin",
+        "faculty_name_ko": "공과대학",
+        "tuition_krw": 3420000,
+        "majors": [
+          {
+            "name_vi": "Khoa học Máy tính & AI",
+            "name_ko": "컴퓨터공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Công nghệ Thông tin (IT)",
+            "name_ko": "정보통신공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Kỹ thuật Điện - Điện tử",
+            "name_ko": "전기전자공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Kỹ thuật Cơ khí",
+            "name_ko": "기계공학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "natural_sciences",
+        "faculty_name_vi": "Khoa Khoa học Tự nhiên & Sinh học",
+        "faculty_name_ko": "자연과학대학",
+        "tuition_krw": 2656000,
+        "majors": [
+          {
+            "name_vi": "Hóa học & Vật liệu mới",
+            "name_ko": "화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Công nghệ Thực phẩm & Dinh dưỡng",
+            "name_ko": "식품영양학과",
+            "is_hot": false
+          },
+          {
+            "name_vi": "Sinh học Ứng dụng & Công nghệ Sinh học",
+            "name_ko": "생명공학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "arts_sports",
+        "faculty_name_vi": "Khoa Nghệ thuật & Thể dục Thể thao",
+        "faculty_name_ko": "예체능대학",
+        "tuition_krw": 3036000,
+        "majors": [
+          {
+            "name_vi": "Thiết kế Đồ họa & Kỹ thuật số",
+            "name_ko": "시각디자인학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Nghệ thuật Thẩm mỹ & Trang điểm (Make-up)",
+            "name_ko": "뷰티미용학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Diễn xuất, Sân khấu & Điện ảnh",
+            "name_ko": "연극영화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Âm nhạc K-Pop & Vẫn nghệ",
+            "name_ko": "실용음악학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "medicine_pharmacy",
+        "faculty_name_vi": "Khoa Y - Dược & Khoa học Y tế",
+        "faculty_name_ko": "의치약학/보건대학",
+        "tuition_krw": 3895000,
+        "majors": [
+          {
+            "name_vi": "Điều dưỡng (Nursing)",
+            "name_ko": "간호학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Quản lý Y tế & Bệnh viện",
+            "name_ko": "보건행정학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Vật lý trị liệu & Phục hồi chức năng",
+            "name_ko": "물리치료학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Dược học",
+            "name_ko": "약학과",
+            "is_hot": true
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "mock_uni_99",
@@ -3652,7 +17216,144 @@ export const universities = [
     "admission_conditions": "",
     "featured_majors": "Cơ khí – Robot – Công nghiệp",
     "regional_restrictions": "",
-    "is_restricted_school": true
+    "is_restricted_school": true,
+    "majors_detail": [
+      {
+        "category": "humanities_social",
+        "faculty_name_vi": "Khoa Nhân văn & Khoa học Xã hội",
+        "faculty_name_ko": "인문사회대학",
+        "tuition_krw": 2979000,
+        "majors": [
+          {
+            "name_vi": "Quản trị Kinh doanh",
+            "name_ko": "경영학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Ngôn ngữ & Văn hóa Hàn Quốc",
+            "name_ko": "한국언어문화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Truyền thông & Báo chí",
+            "name_ko": "미디어언론학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Thương mại Quốc tế",
+            "name_ko": "국제무역학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "engineering",
+        "faculty_name_vi": "Khoa Kỹ thuật & Công nghệ Thông tin",
+        "faculty_name_ko": "공과대학",
+        "tuition_krw": 4540000,
+        "majors": [
+          {
+            "name_vi": "Khoa học Máy tính & AI",
+            "name_ko": "컴퓨터공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Công nghệ Thông tin (IT)",
+            "name_ko": "정보통신공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Kỹ thuật Điện - Điện tử",
+            "name_ko": "전기전자공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Kỹ thuật Cơ khí",
+            "name_ko": "기계공학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "natural_sciences",
+        "faculty_name_vi": "Khoa Khoa học Tự nhiên & Sinh học",
+        "faculty_name_ko": "자연과학대학",
+        "tuition_krw": 3673000,
+        "majors": [
+          {
+            "name_vi": "Hóa học & Vật liệu mới",
+            "name_ko": "화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Công nghệ Thực phẩm & Dinh dưỡng",
+            "name_ko": "식품영양학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Sinh học Ứng dụng & Công nghệ Sinh học",
+            "name_ko": "생명공학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "arts_sports",
+        "faculty_name_vi": "Khoa Nghệ thuật & Thể dục Thể thao",
+        "faculty_name_ko": "예체능대학",
+        "tuition_krw": 4691000,
+        "majors": [
+          {
+            "name_vi": "Thiết kế Đồ họa & Kỹ thuật số",
+            "name_ko": "시각디자인학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Nghệ thuật Thẩm mỹ & Trang điểm (Make-up)",
+            "name_ko": "뷰티미용학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Diễn xuất, Sân khấu & Điện ảnh",
+            "name_ko": "연극영화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Âm nhạc K-Pop & Vẫn nghệ",
+            "name_ko": "실용음악학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "medicine_pharmacy",
+        "faculty_name_vi": "Khoa Y - Dược & Khoa học Y tế",
+        "faculty_name_ko": "의치약학/보건대학",
+        "tuition_krw": 3286000,
+        "majors": [
+          {
+            "name_vi": "Điều dưỡng (Nursing)",
+            "name_ko": "간호학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Quản lý Y tế & Bệnh viện",
+            "name_ko": "보건행정학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Vật lý trị liệu & Phục hồi chức năng",
+            "name_ko": "물리치료학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Dược học",
+            "name_ko": "약학과",
+            "is_hot": true
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "mock_uni_100",
@@ -3682,7 +17383,144 @@ export const universities = [
     "visa_metropolitan": false,
     "master_no_topik": false,
     "custom_notes": "",
-    "top_1_percent": false
+    "top_1_percent": false,
+    "majors_detail": [
+      {
+        "category": "humanities_social",
+        "faculty_name_vi": "Khoa Nhân văn & Khoa học Xã hội",
+        "faculty_name_ko": "인문사회대학",
+        "tuition_krw": 2550000,
+        "majors": [
+          {
+            "name_vi": "Quản trị Kinh doanh",
+            "name_ko": "경영학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Ngôn ngữ & Văn hóa Hàn Quốc",
+            "name_ko": "한국언어문화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Truyền thông & Báo chí",
+            "name_ko": "미디어언론학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Thương mại Quốc tế",
+            "name_ko": "국제무역학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "engineering",
+        "faculty_name_vi": "Khoa Kỹ thuật & Công nghệ Thông tin",
+        "faculty_name_ko": "공과대학",
+        "tuition_krw": 4632000,
+        "majors": [
+          {
+            "name_vi": "Khoa học Máy tính & AI",
+            "name_ko": "컴퓨터공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Công nghệ Thông tin (IT)",
+            "name_ko": "정보통신공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Kỹ thuật Điện - Điện tử",
+            "name_ko": "전기전자공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Kỹ thuật Cơ khí",
+            "name_ko": "기계공학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "natural_sciences",
+        "faculty_name_vi": "Khoa Khoa học Tự nhiên & Sinh học",
+        "faculty_name_ko": "자연과학대학",
+        "tuition_krw": 3095000,
+        "majors": [
+          {
+            "name_vi": "Hóa học & Vật liệu mới",
+            "name_ko": "화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Công nghệ Thực phẩm & Dinh dưỡng",
+            "name_ko": "식품영양학과",
+            "is_hot": false
+          },
+          {
+            "name_vi": "Sinh học Ứng dụng & Công nghệ Sinh học",
+            "name_ko": "생명공학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "arts_sports",
+        "faculty_name_vi": "Khoa Nghệ thuật & Thể dục Thể thao",
+        "faculty_name_ko": "예체능대학",
+        "tuition_krw": 3379000,
+        "majors": [
+          {
+            "name_vi": "Thiết kế Đồ họa & Kỹ thuật số",
+            "name_ko": "시각디자인학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Nghệ thuật Thẩm mỹ & Trang điểm (Make-up)",
+            "name_ko": "뷰티미용학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Diễn xuất, Sân khấu & Điện ảnh",
+            "name_ko": "연극영화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Âm nhạc K-Pop & Vẫn nghệ",
+            "name_ko": "실용음악학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "medicine_pharmacy",
+        "faculty_name_vi": "Khoa Y - Dược & Khoa học Y tế",
+        "faculty_name_ko": "의치약학/보건대학",
+        "tuition_krw": 3147000,
+        "majors": [
+          {
+            "name_vi": "Điều dưỡng (Nursing)",
+            "name_ko": "간호학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Quản lý Y tế & Bệnh viện",
+            "name_ko": "보건행정학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Vật lý trị liệu & Phục hồi chức năng",
+            "name_ko": "물리치료학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Dược học",
+            "name_ko": "약학과",
+            "is_hot": true
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "mock_uni_101",
@@ -3720,7 +17558,144 @@ export const universities = [
     "dorm_fee_desc": "800,000-1,200,000KRW",
     "admission_conditions": "",
     "featured_majors": "Thiết kế – Diễn xuất – Truyền thông",
-    "regional_restrictions": ""
+    "regional_restrictions": "",
+    "majors_detail": [
+      {
+        "category": "humanities_social",
+        "faculty_name_vi": "Khoa Nhân văn & Khoa học Xã hội",
+        "faculty_name_ko": "인문사회대학",
+        "tuition_krw": 4980000,
+        "majors": [
+          {
+            "name_vi": "Quản trị Kinh doanh",
+            "name_ko": "경영학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Ngôn ngữ & Văn hóa Hàn Quốc",
+            "name_ko": "한국언어문화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Truyền thông & Báo chí",
+            "name_ko": "미디어언론학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Thương mại Quốc tế",
+            "name_ko": "국제무역학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "engineering",
+        "faculty_name_vi": "Khoa Kỹ thuật & Công nghệ Thông tin",
+        "faculty_name_ko": "공과대학",
+        "tuition_krw": 3086000,
+        "majors": [
+          {
+            "name_vi": "Khoa học Máy tính & AI",
+            "name_ko": "컴퓨터공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Công nghệ Thông tin (IT)",
+            "name_ko": "정보통신공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Kỹ thuật Điện - Điện tử",
+            "name_ko": "전기전자공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Kỹ thuật Cơ khí",
+            "name_ko": "기계공학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "natural_sciences",
+        "faculty_name_vi": "Khoa Khoa học Tự nhiên & Sinh học",
+        "faculty_name_ko": "자연과학대학",
+        "tuition_krw": 2044000,
+        "majors": [
+          {
+            "name_vi": "Hóa học & Vật liệu mới",
+            "name_ko": "화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Công nghệ Thực phẩm & Dinh dưỡng",
+            "name_ko": "식품영양학과",
+            "is_hot": false
+          },
+          {
+            "name_vi": "Sinh học Ứng dụng & Công nghệ Sinh học",
+            "name_ko": "생명공학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "arts_sports",
+        "faculty_name_vi": "Khoa Nghệ thuật & Thể dục Thể thao",
+        "faculty_name_ko": "예체능대학",
+        "tuition_krw": 4359000,
+        "majors": [
+          {
+            "name_vi": "Thiết kế Đồ họa & Kỹ thuật số",
+            "name_ko": "시각디자인학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Nghệ thuật Thẩm mỹ & Trang điểm (Make-up)",
+            "name_ko": "뷰티미용학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Diễn xuất, Sân khấu & Điện ảnh",
+            "name_ko": "연극영화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Âm nhạc K-Pop & Vẫn nghệ",
+            "name_ko": "실용음악학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "medicine_pharmacy",
+        "faculty_name_vi": "Khoa Y - Dược & Khoa học Y tế",
+        "faculty_name_ko": "의치약학/보건대학",
+        "tuition_krw": 4404000,
+        "majors": [
+          {
+            "name_vi": "Điều dưỡng (Nursing)",
+            "name_ko": "간호학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Quản lý Y tế & Bệnh viện",
+            "name_ko": "보건행정학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Vật lý trị liệu & Phục hồi chức năng",
+            "name_ko": "물리치료학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Dược học",
+            "name_ko": "약학과",
+            "is_hot": true
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "mock_uni_102",
@@ -3750,7 +17725,144 @@ export const universities = [
     "visa_metropolitan": true,
     "master_no_topik": true,
     "custom_notes": "",
-    "top_1_percent": false
+    "top_1_percent": false,
+    "majors_detail": [
+      {
+        "category": "humanities_social",
+        "faculty_name_vi": "Khoa Nhân văn & Khoa học Xã hội",
+        "faculty_name_ko": "인문사회대학",
+        "tuition_krw": 2167000,
+        "majors": [
+          {
+            "name_vi": "Quản trị Kinh doanh",
+            "name_ko": "경영학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Ngôn ngữ & Văn hóa Hàn Quốc",
+            "name_ko": "한국언어문화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Truyền thông & Báo chí",
+            "name_ko": "미디어언론학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Thương mại Quốc tế",
+            "name_ko": "국제무역학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "engineering",
+        "faculty_name_vi": "Khoa Kỹ thuật & Công nghệ Thông tin",
+        "faculty_name_ko": "공과대학",
+        "tuition_krw": 4001000,
+        "majors": [
+          {
+            "name_vi": "Khoa học Máy tính & AI",
+            "name_ko": "컴퓨터공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Công nghệ Thông tin (IT)",
+            "name_ko": "정보통신공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Kỹ thuật Điện - Điện tử",
+            "name_ko": "전기전자공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Kỹ thuật Cơ khí",
+            "name_ko": "기계공학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "natural_sciences",
+        "faculty_name_vi": "Khoa Khoa học Tự nhiên & Sinh học",
+        "faculty_name_ko": "자연과학대학",
+        "tuition_krw": 4601000,
+        "majors": [
+          {
+            "name_vi": "Hóa học & Vật liệu mới",
+            "name_ko": "화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Công nghệ Thực phẩm & Dinh dưỡng",
+            "name_ko": "식품영양학과",
+            "is_hot": false
+          },
+          {
+            "name_vi": "Sinh học Ứng dụng & Công nghệ Sinh học",
+            "name_ko": "생명공학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "arts_sports",
+        "faculty_name_vi": "Khoa Nghệ thuật & Thể dục Thể thao",
+        "faculty_name_ko": "예체능대학",
+        "tuition_krw": 3844000,
+        "majors": [
+          {
+            "name_vi": "Thiết kế Đồ họa & Kỹ thuật số",
+            "name_ko": "시각디자인학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Nghệ thuật Thẩm mỹ & Trang điểm (Make-up)",
+            "name_ko": "뷰티미용학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Diễn xuất, Sân khấu & Điện ảnh",
+            "name_ko": "연극영화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Âm nhạc K-Pop & Vẫn nghệ",
+            "name_ko": "실용음악학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "medicine_pharmacy",
+        "faculty_name_vi": "Khoa Y - Dược & Khoa học Y tế",
+        "faculty_name_ko": "의치약학/보건대학",
+        "tuition_krw": 3877000,
+        "majors": [
+          {
+            "name_vi": "Điều dưỡng (Nursing)",
+            "name_ko": "간호학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Quản lý Y tế & Bệnh viện",
+            "name_ko": "보건행정학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Vật lý trị liệu & Phục hồi chức năng",
+            "name_ko": "물리치료학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Dược học",
+            "name_ko": "약학과",
+            "is_hot": true
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "mock_uni_103",
@@ -3780,7 +17892,144 @@ export const universities = [
     "visa_metropolitan": false,
     "master_no_topik": false,
     "custom_notes": "",
-    "top_1_percent": false
+    "top_1_percent": false,
+    "majors_detail": [
+      {
+        "category": "humanities_social",
+        "faculty_name_vi": "Khoa Nhân văn & Khoa học Xã hội",
+        "faculty_name_ko": "인문사회대학",
+        "tuition_krw": 2938000,
+        "majors": [
+          {
+            "name_vi": "Quản trị Kinh doanh",
+            "name_ko": "경영학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Ngôn ngữ & Văn hóa Hàn Quốc",
+            "name_ko": "한국언어문화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Truyền thông & Báo chí",
+            "name_ko": "미디어언론학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Thương mại Quốc tế",
+            "name_ko": "국제무역학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "engineering",
+        "faculty_name_vi": "Khoa Kỹ thuật & Công nghệ Thông tin",
+        "faculty_name_ko": "공과대학",
+        "tuition_krw": 4301000,
+        "majors": [
+          {
+            "name_vi": "Khoa học Máy tính & AI",
+            "name_ko": "컴퓨터공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Công nghệ Thông tin (IT)",
+            "name_ko": "정보통신공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Kỹ thuật Điện - Điện tử",
+            "name_ko": "전기전자공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Kỹ thuật Cơ khí",
+            "name_ko": "기계공학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "natural_sciences",
+        "faculty_name_vi": "Khoa Khoa học Tự nhiên & Sinh học",
+        "faculty_name_ko": "자연과학대학",
+        "tuition_krw": 3074000,
+        "majors": [
+          {
+            "name_vi": "Hóa học & Vật liệu mới",
+            "name_ko": "화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Công nghệ Thực phẩm & Dinh dưỡng",
+            "name_ko": "식품영양학과",
+            "is_hot": false
+          },
+          {
+            "name_vi": "Sinh học Ứng dụng & Công nghệ Sinh học",
+            "name_ko": "생명공학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "arts_sports",
+        "faculty_name_vi": "Khoa Nghệ thuật & Thể dục Thể thao",
+        "faculty_name_ko": "예체능대학",
+        "tuition_krw": 4270000,
+        "majors": [
+          {
+            "name_vi": "Thiết kế Đồ họa & Kỹ thuật số",
+            "name_ko": "시각디자인학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Nghệ thuật Thẩm mỹ & Trang điểm (Make-up)",
+            "name_ko": "뷰티미용학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Diễn xuất, Sân khấu & Điện ảnh",
+            "name_ko": "연극영화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Âm nhạc K-Pop & Vẫn nghệ",
+            "name_ko": "실용음악학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "medicine_pharmacy",
+        "faculty_name_vi": "Khoa Y - Dược & Khoa học Y tế",
+        "faculty_name_ko": "의치약학/보건대학",
+        "tuition_krw": 2938000,
+        "majors": [
+          {
+            "name_vi": "Điều dưỡng (Nursing)",
+            "name_ko": "간호학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Quản lý Y tế & Bệnh viện",
+            "name_ko": "보건행정학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Vật lý trị liệu & Phục hồi chức năng",
+            "name_ko": "물리치료학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Dược học",
+            "name_ko": "약학과",
+            "is_hot": true
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "mock_uni_104",
@@ -3818,7 +18067,144 @@ export const universities = [
     "dorm_fee_desc": "1,600,000KRW",
     "admission_conditions": "",
     "featured_majors": "Mỹ thuật – Thiết kế – Kiến trúc",
-    "regional_restrictions": ""
+    "regional_restrictions": "",
+    "majors_detail": [
+      {
+        "category": "humanities_social",
+        "faculty_name_vi": "Khoa Nhân văn & Khoa học Xã hội",
+        "faculty_name_ko": "인문사회대학",
+        "tuition_krw": 2891000,
+        "majors": [
+          {
+            "name_vi": "Quản trị Kinh doanh",
+            "name_ko": "경영학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Ngôn ngữ & Văn hóa Hàn Quốc",
+            "name_ko": "한국언어문화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Truyền thông & Báo chí",
+            "name_ko": "미디어언론학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Thương mại Quốc tế",
+            "name_ko": "국제무역학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "engineering",
+        "faculty_name_vi": "Khoa Kỹ thuật & Công nghệ Thông tin",
+        "faculty_name_ko": "공과대학",
+        "tuition_krw": 4293000,
+        "majors": [
+          {
+            "name_vi": "Khoa học Máy tính & AI",
+            "name_ko": "컴퓨터공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Công nghệ Thông tin (IT)",
+            "name_ko": "정보통신공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Kỹ thuật Điện - Điện tử",
+            "name_ko": "전기전자공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Kỹ thuật Cơ khí",
+            "name_ko": "기계공학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "natural_sciences",
+        "faculty_name_vi": "Khoa Khoa học Tự nhiên & Sinh học",
+        "faculty_name_ko": "자연과학대학",
+        "tuition_krw": 2330000,
+        "majors": [
+          {
+            "name_vi": "Hóa học & Vật liệu mới",
+            "name_ko": "화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Công nghệ Thực phẩm & Dinh dưỡng",
+            "name_ko": "식품영양학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Sinh học Ứng dụng & Công nghệ Sinh học",
+            "name_ko": "생명공학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "arts_sports",
+        "faculty_name_vi": "Khoa Nghệ thuật & Thể dục Thể thao",
+        "faculty_name_ko": "예체능대학",
+        "tuition_krw": 4302000,
+        "majors": [
+          {
+            "name_vi": "Thiết kế Đồ họa & Kỹ thuật số",
+            "name_ko": "시각디자인학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Nghệ thuật Thẩm mỹ & Trang điểm (Make-up)",
+            "name_ko": "뷰티미용학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Diễn xuất, Sân khấu & Điện ảnh",
+            "name_ko": "연극영화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Âm nhạc K-Pop & Vẫn nghệ",
+            "name_ko": "실용음악학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "medicine_pharmacy",
+        "faculty_name_vi": "Khoa Y - Dược & Khoa học Y tế",
+        "faculty_name_ko": "의치약학/보건대학",
+        "tuition_krw": 4545000,
+        "majors": [
+          {
+            "name_vi": "Điều dưỡng (Nursing)",
+            "name_ko": "간호학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Quản lý Y tế & Bệnh viện",
+            "name_ko": "보건행정학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Vật lý trị liệu & Phục hồi chức năng",
+            "name_ko": "물리치료학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Dược học",
+            "name_ko": "약학과",
+            "is_hot": true
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "mock_uni_105",
@@ -3856,7 +18242,144 @@ export const universities = [
     "dorm_fee_desc": "1,000,000-1,400,000KRW",
     "admission_conditions": "",
     "featured_majors": "Làm đẹp – Nghệ thuật – Diễn xuất",
-    "regional_restrictions": ""
+    "regional_restrictions": "",
+    "majors_detail": [
+      {
+        "category": "humanities_social",
+        "faculty_name_vi": "Khoa Nhân văn & Khoa học Xã hội",
+        "faculty_name_ko": "인문사회대학",
+        "tuition_krw": 3389000,
+        "majors": [
+          {
+            "name_vi": "Quản trị Kinh doanh",
+            "name_ko": "경영학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Ngôn ngữ & Văn hóa Hàn Quốc",
+            "name_ko": "한국언어문화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Truyền thông & Báo chí",
+            "name_ko": "미디어언론학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Thương mại Quốc tế",
+            "name_ko": "국제무역학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "engineering",
+        "faculty_name_vi": "Khoa Kỹ thuật & Công nghệ Thông tin",
+        "faculty_name_ko": "공과대학",
+        "tuition_krw": 4744000,
+        "majors": [
+          {
+            "name_vi": "Khoa học Máy tính & AI",
+            "name_ko": "컴퓨터공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Công nghệ Thông tin (IT)",
+            "name_ko": "정보통신공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Kỹ thuật Điện - Điện tử",
+            "name_ko": "전기전자공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Kỹ thuật Cơ khí",
+            "name_ko": "기계공학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "natural_sciences",
+        "faculty_name_vi": "Khoa Khoa học Tự nhiên & Sinh học",
+        "faculty_name_ko": "자연과학대학",
+        "tuition_krw": 4247000,
+        "majors": [
+          {
+            "name_vi": "Hóa học & Vật liệu mới",
+            "name_ko": "화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Công nghệ Thực phẩm & Dinh dưỡng",
+            "name_ko": "식품영양학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Sinh học Ứng dụng & Công nghệ Sinh học",
+            "name_ko": "생명공학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "arts_sports",
+        "faculty_name_vi": "Khoa Nghệ thuật & Thể dục Thể thao",
+        "faculty_name_ko": "예체능대학",
+        "tuition_krw": 4369000,
+        "majors": [
+          {
+            "name_vi": "Thiết kế Đồ họa & Kỹ thuật số",
+            "name_ko": "시각디자인학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Nghệ thuật Thẩm mỹ & Trang điểm (Make-up)",
+            "name_ko": "뷰티미용학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Diễn xuất, Sân khấu & Điện ảnh",
+            "name_ko": "연극영화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Âm nhạc K-Pop & Vẫn nghệ",
+            "name_ko": "실용음악학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "medicine_pharmacy",
+        "faculty_name_vi": "Khoa Y - Dược & Khoa học Y tế",
+        "faculty_name_ko": "의치약학/보건대학",
+        "tuition_krw": 4370000,
+        "majors": [
+          {
+            "name_vi": "Điều dưỡng (Nursing)",
+            "name_ko": "간호학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Quản lý Y tế & Bệnh viện",
+            "name_ko": "보건행정학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Vật lý trị liệu & Phục hồi chức năng",
+            "name_ko": "물리치료학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Dược học",
+            "name_ko": "약학과",
+            "is_hot": true
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "mock_uni_106",
@@ -3894,7 +18417,144 @@ export const universities = [
     "dorm_fee_desc": "1,200,000-1,800,000KRW",
     "admission_conditions": "",
     "featured_majors": "",
-    "regional_restrictions": ""
+    "regional_restrictions": "",
+    "majors_detail": [
+      {
+        "category": "humanities_social",
+        "faculty_name_vi": "Khoa Nhân văn & Khoa học Xã hội",
+        "faculty_name_ko": "인문사회대학",
+        "tuition_krw": 4491000,
+        "majors": [
+          {
+            "name_vi": "Quản trị Kinh doanh",
+            "name_ko": "경영학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Ngôn ngữ & Văn hóa Hàn Quốc",
+            "name_ko": "한국언어문화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Truyền thông & Báo chí",
+            "name_ko": "미디어언론학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Thương mại Quốc tế",
+            "name_ko": "국제무역학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "engineering",
+        "faculty_name_vi": "Khoa Kỹ thuật & Công nghệ Thông tin",
+        "faculty_name_ko": "공과대학",
+        "tuition_krw": 3968000,
+        "majors": [
+          {
+            "name_vi": "Khoa học Máy tính & AI",
+            "name_ko": "컴퓨터공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Công nghệ Thông tin (IT)",
+            "name_ko": "정보통신공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Kỹ thuật Điện - Điện tử",
+            "name_ko": "전기전자공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Kỹ thuật Cơ khí",
+            "name_ko": "기계공학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "natural_sciences",
+        "faculty_name_vi": "Khoa Khoa học Tự nhiên & Sinh học",
+        "faculty_name_ko": "자연과학대학",
+        "tuition_krw": 2019000,
+        "majors": [
+          {
+            "name_vi": "Hóa học & Vật liệu mới",
+            "name_ko": "화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Công nghệ Thực phẩm & Dinh dưỡng",
+            "name_ko": "식품영양학과",
+            "is_hot": false
+          },
+          {
+            "name_vi": "Sinh học Ứng dụng & Công nghệ Sinh học",
+            "name_ko": "생명공학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "arts_sports",
+        "faculty_name_vi": "Khoa Nghệ thuật & Thể dục Thể thao",
+        "faculty_name_ko": "예체능대학",
+        "tuition_krw": 4563000,
+        "majors": [
+          {
+            "name_vi": "Thiết kế Đồ họa & Kỹ thuật số",
+            "name_ko": "시각디자인학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Nghệ thuật Thẩm mỹ & Trang điểm (Make-up)",
+            "name_ko": "뷰티미용학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Diễn xuất, Sân khấu & Điện ảnh",
+            "name_ko": "연극영화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Âm nhạc K-Pop & Vẫn nghệ",
+            "name_ko": "실용음악학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "medicine_pharmacy",
+        "faculty_name_vi": "Khoa Y - Dược & Khoa học Y tế",
+        "faculty_name_ko": "의치약학/보건대학",
+        "tuition_krw": 2234000,
+        "majors": [
+          {
+            "name_vi": "Điều dưỡng (Nursing)",
+            "name_ko": "간호학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Quản lý Y tế & Bệnh viện",
+            "name_ko": "보건행정학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Vật lý trị liệu & Phục hồi chức năng",
+            "name_ko": "물리치료학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Dược học",
+            "name_ko": "약학과",
+            "is_hot": true
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "mock_uni_107",
@@ -3932,7 +18592,144 @@ export const universities = [
     "dorm_fee_desc": "1,100,000KRW",
     "admission_conditions": "",
     "featured_majors": "Đông y – Điều dưỡng – Du lịch",
-    "regional_restrictions": ""
+    "regional_restrictions": "",
+    "majors_detail": [
+      {
+        "category": "humanities_social",
+        "faculty_name_vi": "Khoa Nhân văn & Khoa học Xã hội",
+        "faculty_name_ko": "인문사회대학",
+        "tuition_krw": 3802000,
+        "majors": [
+          {
+            "name_vi": "Quản trị Kinh doanh",
+            "name_ko": "경영학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Ngôn ngữ & Văn hóa Hàn Quốc",
+            "name_ko": "한국언어문화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Truyền thông & Báo chí",
+            "name_ko": "미디어언론학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Thương mại Quốc tế",
+            "name_ko": "국제무역학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "engineering",
+        "faculty_name_vi": "Khoa Kỹ thuật & Công nghệ Thông tin",
+        "faculty_name_ko": "공과대학",
+        "tuition_krw": 4417000,
+        "majors": [
+          {
+            "name_vi": "Khoa học Máy tính & AI",
+            "name_ko": "컴퓨터공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Công nghệ Thông tin (IT)",
+            "name_ko": "정보통신공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Kỹ thuật Điện - Điện tử",
+            "name_ko": "전기전자공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Kỹ thuật Cơ khí",
+            "name_ko": "기계공학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "natural_sciences",
+        "faculty_name_vi": "Khoa Khoa học Tự nhiên & Sinh học",
+        "faculty_name_ko": "자연과학대학",
+        "tuition_krw": 2144000,
+        "majors": [
+          {
+            "name_vi": "Hóa học & Vật liệu mới",
+            "name_ko": "화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Công nghệ Thực phẩm & Dinh dưỡng",
+            "name_ko": "식품영양학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Sinh học Ứng dụng & Công nghệ Sinh học",
+            "name_ko": "생명공학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "arts_sports",
+        "faculty_name_vi": "Khoa Nghệ thuật & Thể dục Thể thao",
+        "faculty_name_ko": "예체능대학",
+        "tuition_krw": 3314000,
+        "majors": [
+          {
+            "name_vi": "Thiết kế Đồ họa & Kỹ thuật số",
+            "name_ko": "시각디자인학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Nghệ thuật Thẩm mỹ & Trang điểm (Make-up)",
+            "name_ko": "뷰티미용학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Diễn xuất, Sân khấu & Điện ảnh",
+            "name_ko": "연극영화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Âm nhạc K-Pop & Vẫn nghệ",
+            "name_ko": "실용음악학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "medicine_pharmacy",
+        "faculty_name_vi": "Khoa Y - Dược & Khoa học Y tế",
+        "faculty_name_ko": "의치약학/보건대학",
+        "tuition_krw": 4780000,
+        "majors": [
+          {
+            "name_vi": "Điều dưỡng (Nursing)",
+            "name_ko": "간호학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Quản lý Y tế & Bệnh viện",
+            "name_ko": "보건행정학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Vật lý trị liệu & Phục hồi chức năng",
+            "name_ko": "물리치료학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Dược học",
+            "name_ko": "약학과",
+            "is_hot": true
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "mock_uni_108",
@@ -3970,7 +18767,144 @@ export const universities = [
     "dorm_fee_desc": "1,300,000-2,000,000KRW'",
     "admission_conditions": "",
     "featured_majors": "Kinh doanh khách sạn, quốc tế học, ngôn ngữ Hàn",
-    "regional_restrictions": ""
+    "regional_restrictions": "",
+    "majors_detail": [
+      {
+        "category": "humanities_social",
+        "faculty_name_vi": "Khoa Nhân văn & Khoa học Xã hội",
+        "faculty_name_ko": "인문사회대학",
+        "tuition_krw": 2341000,
+        "majors": [
+          {
+            "name_vi": "Quản trị Kinh doanh",
+            "name_ko": "경영학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Ngôn ngữ & Văn hóa Hàn Quốc",
+            "name_ko": "한국언어문화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Truyền thông & Báo chí",
+            "name_ko": "미디어언론학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Thương mại Quốc tế",
+            "name_ko": "국제무역학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "engineering",
+        "faculty_name_vi": "Khoa Kỹ thuật & Công nghệ Thông tin",
+        "faculty_name_ko": "공과대학",
+        "tuition_krw": 3005000,
+        "majors": [
+          {
+            "name_vi": "Khoa học Máy tính & AI",
+            "name_ko": "컴퓨터공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Công nghệ Thông tin (IT)",
+            "name_ko": "정보통신공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Kỹ thuật Điện - Điện tử",
+            "name_ko": "전기전자공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Kỹ thuật Cơ khí",
+            "name_ko": "기계공학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "natural_sciences",
+        "faculty_name_vi": "Khoa Khoa học Tự nhiên & Sinh học",
+        "faculty_name_ko": "자연과학대학",
+        "tuition_krw": 3364000,
+        "majors": [
+          {
+            "name_vi": "Hóa học & Vật liệu mới",
+            "name_ko": "화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Công nghệ Thực phẩm & Dinh dưỡng",
+            "name_ko": "식품영양학과",
+            "is_hot": false
+          },
+          {
+            "name_vi": "Sinh học Ứng dụng & Công nghệ Sinh học",
+            "name_ko": "생명공학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "arts_sports",
+        "faculty_name_vi": "Khoa Nghệ thuật & Thể dục Thể thao",
+        "faculty_name_ko": "예체능대학",
+        "tuition_krw": 2573000,
+        "majors": [
+          {
+            "name_vi": "Thiết kế Đồ họa & Kỹ thuật số",
+            "name_ko": "시각디자인학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Nghệ thuật Thẩm mỹ & Trang điểm (Make-up)",
+            "name_ko": "뷰티미용학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Diễn xuất, Sân khấu & Điện ảnh",
+            "name_ko": "연극영화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Âm nhạc K-Pop & Vẫn nghệ",
+            "name_ko": "실용음악학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "medicine_pharmacy",
+        "faculty_name_vi": "Khoa Y - Dược & Khoa học Y tế",
+        "faculty_name_ko": "의치약학/보건대학",
+        "tuition_krw": 4974000,
+        "majors": [
+          {
+            "name_vi": "Điều dưỡng (Nursing)",
+            "name_ko": "간호학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Quản lý Y tế & Bệnh viện",
+            "name_ko": "보건행정학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Vật lý trị liệu & Phục hồi chức năng",
+            "name_ko": "물리치료학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Dược học",
+            "name_ko": "약학과",
+            "is_hot": true
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "mock_uni_109",
@@ -4008,7 +18942,144 @@ export const universities = [
     "dorm_fee_desc": "1,100,000-1,900,000KRW",
     "admission_conditions": "",
     "featured_majors": "Ô tô – Đóng tàu – Kỹ thuật",
-    "regional_restrictions": ""
+    "regional_restrictions": "",
+    "majors_detail": [
+      {
+        "category": "humanities_social",
+        "faculty_name_vi": "Khoa Nhân văn & Khoa học Xã hội",
+        "faculty_name_ko": "인문사회대학",
+        "tuition_krw": 3489000,
+        "majors": [
+          {
+            "name_vi": "Quản trị Kinh doanh",
+            "name_ko": "경영학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Ngôn ngữ & Văn hóa Hàn Quốc",
+            "name_ko": "한국언어문화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Truyền thông & Báo chí",
+            "name_ko": "미디어언론학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Thương mại Quốc tế",
+            "name_ko": "국제무역학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "engineering",
+        "faculty_name_vi": "Khoa Kỹ thuật & Công nghệ Thông tin",
+        "faculty_name_ko": "공과대학",
+        "tuition_krw": 3539000,
+        "majors": [
+          {
+            "name_vi": "Khoa học Máy tính & AI",
+            "name_ko": "컴퓨터공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Công nghệ Thông tin (IT)",
+            "name_ko": "정보통신공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Kỹ thuật Điện - Điện tử",
+            "name_ko": "전기전자공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Kỹ thuật Cơ khí",
+            "name_ko": "기계공학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "natural_sciences",
+        "faculty_name_vi": "Khoa Khoa học Tự nhiên & Sinh học",
+        "faculty_name_ko": "자연과학대학",
+        "tuition_krw": 2557000,
+        "majors": [
+          {
+            "name_vi": "Hóa học & Vật liệu mới",
+            "name_ko": "화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Công nghệ Thực phẩm & Dinh dưỡng",
+            "name_ko": "식품영양학과",
+            "is_hot": false
+          },
+          {
+            "name_vi": "Sinh học Ứng dụng & Công nghệ Sinh học",
+            "name_ko": "생명공학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "arts_sports",
+        "faculty_name_vi": "Khoa Nghệ thuật & Thể dục Thể thao",
+        "faculty_name_ko": "예체능대학",
+        "tuition_krw": 3959000,
+        "majors": [
+          {
+            "name_vi": "Thiết kế Đồ họa & Kỹ thuật số",
+            "name_ko": "시각디자인학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Nghệ thuật Thẩm mỹ & Trang điểm (Make-up)",
+            "name_ko": "뷰티미용학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Diễn xuất, Sân khấu & Điện ảnh",
+            "name_ko": "연극영화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Âm nhạc K-Pop & Vẫn nghệ",
+            "name_ko": "실용음악학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "medicine_pharmacy",
+        "faculty_name_vi": "Khoa Y - Dược & Khoa học Y tế",
+        "faculty_name_ko": "의치약학/보건대학",
+        "tuition_krw": 2163000,
+        "majors": [
+          {
+            "name_vi": "Điều dưỡng (Nursing)",
+            "name_ko": "간호학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Quản lý Y tế & Bệnh viện",
+            "name_ko": "보건행정학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Vật lý trị liệu & Phục hồi chức năng",
+            "name_ko": "물리치료학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Dược học",
+            "name_ko": "약학과",
+            "is_hot": true
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "mock_uni_110",
@@ -4046,7 +19117,144 @@ export const universities = [
     "dorm_fee_desc": "1,300,000-1,800,000KRW",
     "admission_conditions": "",
     "featured_majors": "Luật – Khách sạn – Làm đẹp",
-    "regional_restrictions": ""
+    "regional_restrictions": "",
+    "majors_detail": [
+      {
+        "category": "humanities_social",
+        "faculty_name_vi": "Khoa Nhân văn & Khoa học Xã hội",
+        "faculty_name_ko": "인문사회대학",
+        "tuition_krw": 3033000,
+        "majors": [
+          {
+            "name_vi": "Quản trị Kinh doanh",
+            "name_ko": "경영학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Ngôn ngữ & Văn hóa Hàn Quốc",
+            "name_ko": "한국언어문화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Truyền thông & Báo chí",
+            "name_ko": "미디어언론학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Thương mại Quốc tế",
+            "name_ko": "국제무역학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "engineering",
+        "faculty_name_vi": "Khoa Kỹ thuật & Công nghệ Thông tin",
+        "faculty_name_ko": "공과대학",
+        "tuition_krw": 4295000,
+        "majors": [
+          {
+            "name_vi": "Khoa học Máy tính & AI",
+            "name_ko": "컴퓨터공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Công nghệ Thông tin (IT)",
+            "name_ko": "정보통신공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Kỹ thuật Điện - Điện tử",
+            "name_ko": "전기전자공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Kỹ thuật Cơ khí",
+            "name_ko": "기계공학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "natural_sciences",
+        "faculty_name_vi": "Khoa Khoa học Tự nhiên & Sinh học",
+        "faculty_name_ko": "자연과학대학",
+        "tuition_krw": 3305000,
+        "majors": [
+          {
+            "name_vi": "Hóa học & Vật liệu mới",
+            "name_ko": "화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Công nghệ Thực phẩm & Dinh dưỡng",
+            "name_ko": "식품영양학과",
+            "is_hot": false
+          },
+          {
+            "name_vi": "Sinh học Ứng dụng & Công nghệ Sinh học",
+            "name_ko": "생명공학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "arts_sports",
+        "faculty_name_vi": "Khoa Nghệ thuật & Thể dục Thể thao",
+        "faculty_name_ko": "예체능대학",
+        "tuition_krw": 2440000,
+        "majors": [
+          {
+            "name_vi": "Thiết kế Đồ họa & Kỹ thuật số",
+            "name_ko": "시각디자인학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Nghệ thuật Thẩm mỹ & Trang điểm (Make-up)",
+            "name_ko": "뷰티미용학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Diễn xuất, Sân khấu & Điện ảnh",
+            "name_ko": "연극영화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Âm nhạc K-Pop & Vẫn nghệ",
+            "name_ko": "실용음악학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "medicine_pharmacy",
+        "faculty_name_vi": "Khoa Y - Dược & Khoa học Y tế",
+        "faculty_name_ko": "의치약학/보건대학",
+        "tuition_krw": 3033000,
+        "majors": [
+          {
+            "name_vi": "Điều dưỡng (Nursing)",
+            "name_ko": "간호학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Quản lý Y tế & Bệnh viện",
+            "name_ko": "보건행정학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Vật lý trị liệu & Phục hồi chức năng",
+            "name_ko": "물리치료학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Dược học",
+            "name_ko": "약학과",
+            "is_hot": true
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "mock_uni_111",
@@ -4084,7 +19292,144 @@ export const universities = [
     "dorm_fee_desc": "800,000KRW",
     "admission_conditions": "",
     "featured_majors": "Hàng hải, Kỹ thuật, Kinh doanh",
-    "regional_restrictions": ""
+    "regional_restrictions": "",
+    "majors_detail": [
+      {
+        "category": "humanities_social",
+        "faculty_name_vi": "Khoa Nhân văn & Khoa học Xã hội",
+        "faculty_name_ko": "인문사회대학",
+        "tuition_krw": 2537000,
+        "majors": [
+          {
+            "name_vi": "Quản trị Kinh doanh",
+            "name_ko": "경영학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Ngôn ngữ & Văn hóa Hàn Quốc",
+            "name_ko": "한국언어문화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Truyền thông & Báo chí",
+            "name_ko": "미디어언론학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Thương mại Quốc tế",
+            "name_ko": "국제무역학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "engineering",
+        "faculty_name_vi": "Khoa Kỹ thuật & Công nghệ Thông tin",
+        "faculty_name_ko": "공과대학",
+        "tuition_krw": 4657000,
+        "majors": [
+          {
+            "name_vi": "Khoa học Máy tính & AI",
+            "name_ko": "컴퓨터공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Công nghệ Thông tin (IT)",
+            "name_ko": "정보통신공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Kỹ thuật Điện - Điện tử",
+            "name_ko": "전기전자공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Kỹ thuật Cơ khí",
+            "name_ko": "기계공학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "natural_sciences",
+        "faculty_name_vi": "Khoa Khoa học Tự nhiên & Sinh học",
+        "faculty_name_ko": "자연과학대학",
+        "tuition_krw": 2569000,
+        "majors": [
+          {
+            "name_vi": "Hóa học & Vật liệu mới",
+            "name_ko": "화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Công nghệ Thực phẩm & Dinh dưỡng",
+            "name_ko": "식품영양학과",
+            "is_hot": false
+          },
+          {
+            "name_vi": "Sinh học Ứng dụng & Công nghệ Sinh học",
+            "name_ko": "생명공학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "arts_sports",
+        "faculty_name_vi": "Khoa Nghệ thuật & Thể dục Thể thao",
+        "faculty_name_ko": "예체능대학",
+        "tuition_krw": 3679000,
+        "majors": [
+          {
+            "name_vi": "Thiết kế Đồ họa & Kỹ thuật số",
+            "name_ko": "시각디자인학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Nghệ thuật Thẩm mỹ & Trang điểm (Make-up)",
+            "name_ko": "뷰티미용학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Diễn xuất, Sân khấu & Điện ảnh",
+            "name_ko": "연극영화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Âm nhạc K-Pop & Vẫn nghệ",
+            "name_ko": "실용음악학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "medicine_pharmacy",
+        "faculty_name_vi": "Khoa Y - Dược & Khoa học Y tế",
+        "faculty_name_ko": "의치약학/보건대학",
+        "tuition_krw": 3607000,
+        "majors": [
+          {
+            "name_vi": "Điều dưỡng (Nursing)",
+            "name_ko": "간호학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Quản lý Y tế & Bệnh viện",
+            "name_ko": "보건행정학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Vật lý trị liệu & Phục hồi chức năng",
+            "name_ko": "물리치료학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Dược học",
+            "name_ko": "약학과",
+            "is_hot": true
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "mock_uni_112",
@@ -4114,7 +19459,144 @@ export const universities = [
     "visa_metropolitan": false,
     "master_no_topik": true,
     "custom_notes": "",
-    "top_1_percent": false
+    "top_1_percent": false,
+    "majors_detail": [
+      {
+        "category": "humanities_social",
+        "faculty_name_vi": "Khoa Nhân văn & Khoa học Xã hội",
+        "faculty_name_ko": "인문사회대학",
+        "tuition_krw": 3618000,
+        "majors": [
+          {
+            "name_vi": "Quản trị Kinh doanh",
+            "name_ko": "경영학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Ngôn ngữ & Văn hóa Hàn Quốc",
+            "name_ko": "한국언어문화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Truyền thông & Báo chí",
+            "name_ko": "미디어언론학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Thương mại Quốc tế",
+            "name_ko": "국제무역학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "engineering",
+        "faculty_name_vi": "Khoa Kỹ thuật & Công nghệ Thông tin",
+        "faculty_name_ko": "공과대학",
+        "tuition_krw": 4239000,
+        "majors": [
+          {
+            "name_vi": "Khoa học Máy tính & AI",
+            "name_ko": "컴퓨터공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Công nghệ Thông tin (IT)",
+            "name_ko": "정보통신공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Kỹ thuật Điện - Điện tử",
+            "name_ko": "전기전자공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Kỹ thuật Cơ khí",
+            "name_ko": "기계공학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "natural_sciences",
+        "faculty_name_vi": "Khoa Khoa học Tự nhiên & Sinh học",
+        "faculty_name_ko": "자연과학대학",
+        "tuition_krw": 4123000,
+        "majors": [
+          {
+            "name_vi": "Hóa học & Vật liệu mới",
+            "name_ko": "화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Công nghệ Thực phẩm & Dinh dưỡng",
+            "name_ko": "식품영양학과",
+            "is_hot": false
+          },
+          {
+            "name_vi": "Sinh học Ứng dụng & Công nghệ Sinh học",
+            "name_ko": "생명공학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "arts_sports",
+        "faculty_name_vi": "Khoa Nghệ thuật & Thể dục Thể thao",
+        "faculty_name_ko": "예체능대학",
+        "tuition_krw": 2142000,
+        "majors": [
+          {
+            "name_vi": "Thiết kế Đồ họa & Kỹ thuật số",
+            "name_ko": "시각디자인학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Nghệ thuật Thẩm mỹ & Trang điểm (Make-up)",
+            "name_ko": "뷰티미용학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Diễn xuất, Sân khấu & Điện ảnh",
+            "name_ko": "연극영화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Âm nhạc K-Pop & Vẫn nghệ",
+            "name_ko": "실용음악학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "medicine_pharmacy",
+        "faculty_name_vi": "Khoa Y - Dược & Khoa học Y tế",
+        "faculty_name_ko": "의치약학/보건대학",
+        "tuition_krw": 4932000,
+        "majors": [
+          {
+            "name_vi": "Điều dưỡng (Nursing)",
+            "name_ko": "간호학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Quản lý Y tế & Bệnh viện",
+            "name_ko": "보건행정학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Vật lý trị liệu & Phục hồi chức năng",
+            "name_ko": "물리치료학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Dược học",
+            "name_ko": "약학과",
+            "is_hot": true
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "mock_uni_113",
@@ -4152,7 +19634,144 @@ export const universities = [
     "dorm_fee_desc": "600-900,000KRW",
     "admission_conditions": "",
     "featured_majors": "Hàng không – IT – Điều dưỡng",
-    "regional_restrictions": ""
+    "regional_restrictions": "",
+    "majors_detail": [
+      {
+        "category": "humanities_social",
+        "faculty_name_vi": "Khoa Nhân văn & Khoa học Xã hội",
+        "faculty_name_ko": "인문사회대학",
+        "tuition_krw": 4065000,
+        "majors": [
+          {
+            "name_vi": "Quản trị Kinh doanh",
+            "name_ko": "경영학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Ngôn ngữ & Văn hóa Hàn Quốc",
+            "name_ko": "한국언어문화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Truyền thông & Báo chí",
+            "name_ko": "미디어언론학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Thương mại Quốc tế",
+            "name_ko": "국제무역학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "engineering",
+        "faculty_name_vi": "Khoa Kỹ thuật & Công nghệ Thông tin",
+        "faculty_name_ko": "공과대학",
+        "tuition_krw": 2052000,
+        "majors": [
+          {
+            "name_vi": "Khoa học Máy tính & AI",
+            "name_ko": "컴퓨터공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Công nghệ Thông tin (IT)",
+            "name_ko": "정보통신공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Kỹ thuật Điện - Điện tử",
+            "name_ko": "전기전자공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Kỹ thuật Cơ khí",
+            "name_ko": "기계공학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "natural_sciences",
+        "faculty_name_vi": "Khoa Khoa học Tự nhiên & Sinh học",
+        "faculty_name_ko": "자연과학대학",
+        "tuition_krw": 2131000,
+        "majors": [
+          {
+            "name_vi": "Hóa học & Vật liệu mới",
+            "name_ko": "화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Công nghệ Thực phẩm & Dinh dưỡng",
+            "name_ko": "식품영양학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Sinh học Ứng dụng & Công nghệ Sinh học",
+            "name_ko": "생명공학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "arts_sports",
+        "faculty_name_vi": "Khoa Nghệ thuật & Thể dục Thể thao",
+        "faculty_name_ko": "예체능대학",
+        "tuition_krw": 4134000,
+        "majors": [
+          {
+            "name_vi": "Thiết kế Đồ họa & Kỹ thuật số",
+            "name_ko": "시각디자인학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Nghệ thuật Thẩm mỹ & Trang điểm (Make-up)",
+            "name_ko": "뷰티미용학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Diễn xuất, Sân khấu & Điện ảnh",
+            "name_ko": "연극영화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Âm nhạc K-Pop & Vẫn nghệ",
+            "name_ko": "실용음악학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "medicine_pharmacy",
+        "faculty_name_vi": "Khoa Y - Dược & Khoa học Y tế",
+        "faculty_name_ko": "의치약학/보건대학",
+        "tuition_krw": 2725000,
+        "majors": [
+          {
+            "name_vi": "Điều dưỡng (Nursing)",
+            "name_ko": "간호학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Quản lý Y tế & Bệnh viện",
+            "name_ko": "보건행정학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Vật lý trị liệu & Phục hồi chức năng",
+            "name_ko": "물리치료학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Dược học",
+            "name_ko": "약학과",
+            "is_hot": true
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "mock_uni_114",
@@ -4182,7 +19801,144 @@ export const universities = [
     "visa_metropolitan": false,
     "master_no_topik": true,
     "custom_notes": "",
-    "top_1_percent": false
+    "top_1_percent": false,
+    "majors_detail": [
+      {
+        "category": "humanities_social",
+        "faculty_name_vi": "Khoa Nhân văn & Khoa học Xã hội",
+        "faculty_name_ko": "인문사회대학",
+        "tuition_krw": 2568000,
+        "majors": [
+          {
+            "name_vi": "Quản trị Kinh doanh",
+            "name_ko": "경영학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Ngôn ngữ & Văn hóa Hàn Quốc",
+            "name_ko": "한국언어문화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Truyền thông & Báo chí",
+            "name_ko": "미디어언론학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Thương mại Quốc tế",
+            "name_ko": "국제무역학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "engineering",
+        "faculty_name_vi": "Khoa Kỹ thuật & Công nghệ Thông tin",
+        "faculty_name_ko": "공과대학",
+        "tuition_krw": 3714000,
+        "majors": [
+          {
+            "name_vi": "Khoa học Máy tính & AI",
+            "name_ko": "컴퓨터공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Công nghệ Thông tin (IT)",
+            "name_ko": "정보통신공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Kỹ thuật Điện - Điện tử",
+            "name_ko": "전기전자공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Kỹ thuật Cơ khí",
+            "name_ko": "기계공학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "natural_sciences",
+        "faculty_name_vi": "Khoa Khoa học Tự nhiên & Sinh học",
+        "faculty_name_ko": "자연과학대학",
+        "tuition_krw": 4144000,
+        "majors": [
+          {
+            "name_vi": "Hóa học & Vật liệu mới",
+            "name_ko": "화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Công nghệ Thực phẩm & Dinh dưỡng",
+            "name_ko": "식품영양학과",
+            "is_hot": false
+          },
+          {
+            "name_vi": "Sinh học Ứng dụng & Công nghệ Sinh học",
+            "name_ko": "생명공학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "arts_sports",
+        "faculty_name_vi": "Khoa Nghệ thuật & Thể dục Thể thao",
+        "faculty_name_ko": "예체능대학",
+        "tuition_krw": 2175000,
+        "majors": [
+          {
+            "name_vi": "Thiết kế Đồ họa & Kỹ thuật số",
+            "name_ko": "시각디자인학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Nghệ thuật Thẩm mỹ & Trang điểm (Make-up)",
+            "name_ko": "뷰티미용학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Diễn xuất, Sân khấu & Điện ảnh",
+            "name_ko": "연극영화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Âm nhạc K-Pop & Vẫn nghệ",
+            "name_ko": "실용음악학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "medicine_pharmacy",
+        "faculty_name_vi": "Khoa Y - Dược & Khoa học Y tế",
+        "faculty_name_ko": "의치약학/보건대학",
+        "tuition_krw": 4326000,
+        "majors": [
+          {
+            "name_vi": "Điều dưỡng (Nursing)",
+            "name_ko": "간호학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Quản lý Y tế & Bệnh viện",
+            "name_ko": "보건행정학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Vật lý trị liệu & Phục hồi chức năng",
+            "name_ko": "물리치료학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Dược học",
+            "name_ko": "약학과",
+            "is_hot": true
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "mock_uni_115",
@@ -4220,7 +19976,144 @@ export const universities = [
     "dorm_fee_desc": "1,000,000 KRW/năm",
     "admission_conditions": "",
     "featured_majors": "Hàng không – Du lịch – Logistics",
-    "regional_restrictions": ""
+    "regional_restrictions": "",
+    "majors_detail": [
+      {
+        "category": "humanities_social",
+        "faculty_name_vi": "Khoa Nhân văn & Khoa học Xã hội",
+        "faculty_name_ko": "인문사회대학",
+        "tuition_krw": 2906000,
+        "majors": [
+          {
+            "name_vi": "Quản trị Kinh doanh",
+            "name_ko": "경영학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Ngôn ngữ & Văn hóa Hàn Quốc",
+            "name_ko": "한국언어문화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Truyền thông & Báo chí",
+            "name_ko": "미디어언론학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Thương mại Quốc tế",
+            "name_ko": "국제무역학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "engineering",
+        "faculty_name_vi": "Khoa Kỹ thuật & Công nghệ Thông tin",
+        "faculty_name_ko": "공과대학",
+        "tuition_krw": 2816000,
+        "majors": [
+          {
+            "name_vi": "Khoa học Máy tính & AI",
+            "name_ko": "컴퓨터공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Công nghệ Thông tin (IT)",
+            "name_ko": "정보통신공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Kỹ thuật Điện - Điện tử",
+            "name_ko": "전기전자공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Kỹ thuật Cơ khí",
+            "name_ko": "기계공학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "natural_sciences",
+        "faculty_name_vi": "Khoa Khoa học Tự nhiên & Sinh học",
+        "faculty_name_ko": "자연과학대학",
+        "tuition_krw": 3604000,
+        "majors": [
+          {
+            "name_vi": "Hóa học & Vật liệu mới",
+            "name_ko": "화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Công nghệ Thực phẩm & Dinh dưỡng",
+            "name_ko": "식품영양학과",
+            "is_hot": false
+          },
+          {
+            "name_vi": "Sinh học Ứng dụng & Công nghệ Sinh học",
+            "name_ko": "생명공학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "arts_sports",
+        "faculty_name_vi": "Khoa Nghệ thuật & Thể dục Thể thao",
+        "faculty_name_ko": "예체능대학",
+        "tuition_krw": 4849000,
+        "majors": [
+          {
+            "name_vi": "Thiết kế Đồ họa & Kỹ thuật số",
+            "name_ko": "시각디자인학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Nghệ thuật Thẩm mỹ & Trang điểm (Make-up)",
+            "name_ko": "뷰티미용학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Diễn xuất, Sân khấu & Điện ảnh",
+            "name_ko": "연극영화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Âm nhạc K-Pop & Vẫn nghệ",
+            "name_ko": "실용음악학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "medicine_pharmacy",
+        "faculty_name_vi": "Khoa Y - Dược & Khoa học Y tế",
+        "faculty_name_ko": "의치약학/보건대학",
+        "tuition_krw": 2287000,
+        "majors": [
+          {
+            "name_vi": "Điều dưỡng (Nursing)",
+            "name_ko": "간호학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Quản lý Y tế & Bệnh viện",
+            "name_ko": "보건행정학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Vật lý trị liệu & Phục hồi chức năng",
+            "name_ko": "물리치료학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Dược học",
+            "name_ko": "약학과",
+            "is_hot": true
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "mock_uni_116",
@@ -4250,7 +20143,144 @@ export const universities = [
     "visa_metropolitan": false,
     "master_no_topik": true,
     "custom_notes": "",
-    "top_1_percent": true
+    "top_1_percent": true,
+    "majors_detail": [
+      {
+        "category": "humanities_social",
+        "faculty_name_vi": "Khoa Nhân văn & Khoa học Xã hội",
+        "faculty_name_ko": "인문사회대학",
+        "tuition_krw": 2754000,
+        "majors": [
+          {
+            "name_vi": "Quản trị Kinh doanh",
+            "name_ko": "경영학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Ngôn ngữ & Văn hóa Hàn Quốc",
+            "name_ko": "한국언어문화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Truyền thông & Báo chí",
+            "name_ko": "미디어언론학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Thương mại Quốc tế",
+            "name_ko": "국제무역학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "engineering",
+        "faculty_name_vi": "Khoa Kỹ thuật & Công nghệ Thông tin",
+        "faculty_name_ko": "공과대학",
+        "tuition_krw": 3913000,
+        "majors": [
+          {
+            "name_vi": "Khoa học Máy tính & AI",
+            "name_ko": "컴퓨터공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Công nghệ Thông tin (IT)",
+            "name_ko": "정보통신공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Kỹ thuật Điện - Điện tử",
+            "name_ko": "전기전자공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Kỹ thuật Cơ khí",
+            "name_ko": "기계공학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "natural_sciences",
+        "faculty_name_vi": "Khoa Khoa học Tự nhiên & Sinh học",
+        "faculty_name_ko": "자연과학대학",
+        "tuition_krw": 2237000,
+        "majors": [
+          {
+            "name_vi": "Hóa học & Vật liệu mới",
+            "name_ko": "화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Công nghệ Thực phẩm & Dinh dưỡng",
+            "name_ko": "식품영양학과",
+            "is_hot": false
+          },
+          {
+            "name_vi": "Sinh học Ứng dụng & Công nghệ Sinh học",
+            "name_ko": "생명공학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "arts_sports",
+        "faculty_name_vi": "Khoa Nghệ thuật & Thể dục Thể thao",
+        "faculty_name_ko": "예체능대학",
+        "tuition_krw": 2853000,
+        "majors": [
+          {
+            "name_vi": "Thiết kế Đồ họa & Kỹ thuật số",
+            "name_ko": "시각디자인학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Nghệ thuật Thẩm mỹ & Trang điểm (Make-up)",
+            "name_ko": "뷰티미용학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Diễn xuất, Sân khấu & Điện ảnh",
+            "name_ko": "연극영화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Âm nhạc K-Pop & Vẫn nghệ",
+            "name_ko": "실용음악학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "medicine_pharmacy",
+        "faculty_name_vi": "Khoa Y - Dược & Khoa học Y tế",
+        "faculty_name_ko": "의치약학/보건대학",
+        "tuition_krw": 2754000,
+        "majors": [
+          {
+            "name_vi": "Điều dưỡng (Nursing)",
+            "name_ko": "간호학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Quản lý Y tế & Bệnh viện",
+            "name_ko": "보건행정학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Vật lý trị liệu & Phục hồi chức năng",
+            "name_ko": "물리치료학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Dược học",
+            "name_ko": "약학과",
+            "is_hot": true
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "mock_uni_117",
@@ -4280,7 +20310,144 @@ export const universities = [
     "visa_metropolitan": false,
     "master_no_topik": false,
     "custom_notes": "",
-    "top_1_percent": false
+    "top_1_percent": false,
+    "majors_detail": [
+      {
+        "category": "humanities_social",
+        "faculty_name_vi": "Khoa Nhân văn & Khoa học Xã hội",
+        "faculty_name_ko": "인문사회대학",
+        "tuition_krw": 2426000,
+        "majors": [
+          {
+            "name_vi": "Quản trị Kinh doanh",
+            "name_ko": "경영학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Ngôn ngữ & Văn hóa Hàn Quốc",
+            "name_ko": "한국언어문화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Truyền thông & Báo chí",
+            "name_ko": "미디어언론학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Thương mại Quốc tế",
+            "name_ko": "국제무역학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "engineering",
+        "faculty_name_vi": "Khoa Kỹ thuật & Công nghệ Thông tin",
+        "faculty_name_ko": "공과대학",
+        "tuition_krw": 4091000,
+        "majors": [
+          {
+            "name_vi": "Khoa học Máy tính & AI",
+            "name_ko": "컴퓨터공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Công nghệ Thông tin (IT)",
+            "name_ko": "정보통신공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Kỹ thuật Điện - Điện tử",
+            "name_ko": "전기전자공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Kỹ thuật Cơ khí",
+            "name_ko": "기계공학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "natural_sciences",
+        "faculty_name_vi": "Khoa Khoa học Tự nhiên & Sinh học",
+        "faculty_name_ko": "자연과학대학",
+        "tuition_krw": 4372000,
+        "majors": [
+          {
+            "name_vi": "Hóa học & Vật liệu mới",
+            "name_ko": "화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Công nghệ Thực phẩm & Dinh dưỡng",
+            "name_ko": "식품영양학과",
+            "is_hot": false
+          },
+          {
+            "name_vi": "Sinh học Ứng dụng & Công nghệ Sinh học",
+            "name_ko": "생명공학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "arts_sports",
+        "faculty_name_vi": "Khoa Nghệ thuật & Thể dục Thể thao",
+        "faculty_name_ko": "예체능대학",
+        "tuition_krw": 2859000,
+        "majors": [
+          {
+            "name_vi": "Thiết kế Đồ họa & Kỹ thuật số",
+            "name_ko": "시각디자인학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Nghệ thuật Thẩm mỹ & Trang điểm (Make-up)",
+            "name_ko": "뷰티미용학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Diễn xuất, Sân khấu & Điện ảnh",
+            "name_ko": "연극영화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Âm nhạc K-Pop & Vẫn nghệ",
+            "name_ko": "실용음악학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "medicine_pharmacy",
+        "faculty_name_vi": "Khoa Y - Dược & Khoa học Y tế",
+        "faculty_name_ko": "의치약학/보건대학",
+        "tuition_krw": 2700000,
+        "majors": [
+          {
+            "name_vi": "Điều dưỡng (Nursing)",
+            "name_ko": "간호학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Quản lý Y tế & Bệnh viện",
+            "name_ko": "보건행정학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Vật lý trị liệu & Phục hồi chức năng",
+            "name_ko": "물리치료학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Dược học",
+            "name_ko": "약학과",
+            "is_hot": true
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "mock_uni_118",
@@ -4310,7 +20477,144 @@ export const universities = [
     "visa_metropolitan": false,
     "master_no_topik": false,
     "custom_notes": "Trường ưu tiên phỏng vấn visa thẳng",
-    "top_1_percent": false
+    "top_1_percent": false,
+    "majors_detail": [
+      {
+        "category": "humanities_social",
+        "faculty_name_vi": "Khoa Nhân văn & Khoa học Xã hội",
+        "faculty_name_ko": "인문사회대학",
+        "tuition_krw": 4778000,
+        "majors": [
+          {
+            "name_vi": "Quản trị Kinh doanh",
+            "name_ko": "경영학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Ngôn ngữ & Văn hóa Hàn Quốc",
+            "name_ko": "한국언어문화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Truyền thông & Báo chí",
+            "name_ko": "미디어언론학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Thương mại Quốc tế",
+            "name_ko": "국제무역학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "engineering",
+        "faculty_name_vi": "Khoa Kỹ thuật & Công nghệ Thông tin",
+        "faculty_name_ko": "공과대학",
+        "tuition_krw": 3485000,
+        "majors": [
+          {
+            "name_vi": "Khoa học Máy tính & AI",
+            "name_ko": "컴퓨터공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Công nghệ Thông tin (IT)",
+            "name_ko": "정보통신공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Kỹ thuật Điện - Điện tử",
+            "name_ko": "전기전자공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Kỹ thuật Cơ khí",
+            "name_ko": "기계공학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "natural_sciences",
+        "faculty_name_vi": "Khoa Khoa học Tự nhiên & Sinh học",
+        "faculty_name_ko": "자연과학대학",
+        "tuition_krw": 2129000,
+        "majors": [
+          {
+            "name_vi": "Hóa học & Vật liệu mới",
+            "name_ko": "화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Công nghệ Thực phẩm & Dinh dưỡng",
+            "name_ko": "식품영양학과",
+            "is_hot": false
+          },
+          {
+            "name_vi": "Sinh học Ứng dụng & Công nghệ Sinh học",
+            "name_ko": "생명공학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "arts_sports",
+        "faculty_name_vi": "Khoa Nghệ thuật & Thể dục Thể thao",
+        "faculty_name_ko": "예체능대학",
+        "tuition_krw": 3746000,
+        "majors": [
+          {
+            "name_vi": "Thiết kế Đồ họa & Kỹ thuật số",
+            "name_ko": "시각디자인학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Nghệ thuật Thẩm mỹ & Trang điểm (Make-up)",
+            "name_ko": "뷰티미용학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Diễn xuất, Sân khấu & Điện ảnh",
+            "name_ko": "연극영화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Âm nhạc K-Pop & Vẫn nghệ",
+            "name_ko": "실용음악학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "medicine_pharmacy",
+        "faculty_name_vi": "Khoa Y - Dược & Khoa học Y tế",
+        "faculty_name_ko": "의치약학/보건대학",
+        "tuition_krw": 3675000,
+        "majors": [
+          {
+            "name_vi": "Điều dưỡng (Nursing)",
+            "name_ko": "간호학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Quản lý Y tế & Bệnh viện",
+            "name_ko": "보건행정학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Vật lý trị liệu & Phục hồi chức năng",
+            "name_ko": "물리치료학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Dược học",
+            "name_ko": "약학과",
+            "is_hot": true
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "mock_uni_119",
@@ -4340,7 +20644,144 @@ export const universities = [
     "visa_metropolitan": true,
     "master_no_topik": true,
     "custom_notes": "",
-    "top_1_percent": false
+    "top_1_percent": false,
+    "majors_detail": [
+      {
+        "category": "humanities_social",
+        "faculty_name_vi": "Khoa Nhân văn & Khoa học Xã hội",
+        "faculty_name_ko": "인문사회대학",
+        "tuition_krw": 2331000,
+        "majors": [
+          {
+            "name_vi": "Quản trị Kinh doanh",
+            "name_ko": "경영학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Ngôn ngữ & Văn hóa Hàn Quốc",
+            "name_ko": "한국언어문화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Truyền thông & Báo chí",
+            "name_ko": "미디어언론학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Thương mại Quốc tế",
+            "name_ko": "국제무역학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "engineering",
+        "faculty_name_vi": "Khoa Kỹ thuật & Công nghệ Thông tin",
+        "faculty_name_ko": "공과대학",
+        "tuition_krw": 2377000,
+        "majors": [
+          {
+            "name_vi": "Khoa học Máy tính & AI",
+            "name_ko": "컴퓨터공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Công nghệ Thông tin (IT)",
+            "name_ko": "정보통신공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Kỹ thuật Điện - Điện tử",
+            "name_ko": "전기전자공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Kỹ thuật Cơ khí",
+            "name_ko": "기계공학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "natural_sciences",
+        "faculty_name_vi": "Khoa Khoa học Tự nhiên & Sinh học",
+        "faculty_name_ko": "자연과학대학",
+        "tuition_krw": 3293000,
+        "majors": [
+          {
+            "name_vi": "Hóa học & Vật liệu mới",
+            "name_ko": "화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Công nghệ Thực phẩm & Dinh dưỡng",
+            "name_ko": "식품영양학과",
+            "is_hot": false
+          },
+          {
+            "name_vi": "Sinh học Ứng dụng & Công nghệ Sinh học",
+            "name_ko": "생명공학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "arts_sports",
+        "faculty_name_vi": "Khoa Nghệ thuật & Thể dục Thể thao",
+        "faculty_name_ko": "예체능대학",
+        "tuition_krw": 4317000,
+        "majors": [
+          {
+            "name_vi": "Thiết kế Đồ họa & Kỹ thuật số",
+            "name_ko": "시각디자인학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Nghệ thuật Thẩm mỹ & Trang điểm (Make-up)",
+            "name_ko": "뷰티미용학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Diễn xuất, Sân khấu & Điện ảnh",
+            "name_ko": "연극영화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Âm nhạc K-Pop & Vẫn nghệ",
+            "name_ko": "실용음악학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "medicine_pharmacy",
+        "faculty_name_vi": "Khoa Y - Dược & Khoa học Y tế",
+        "faculty_name_ko": "의치약학/보건대학",
+        "tuition_krw": 2048000,
+        "majors": [
+          {
+            "name_vi": "Điều dưỡng (Nursing)",
+            "name_ko": "간호학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Quản lý Y tế & Bệnh viện",
+            "name_ko": "보건행정학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Vật lý trị liệu & Phục hồi chức năng",
+            "name_ko": "물리치료학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Dược học",
+            "name_ko": "약학과",
+            "is_hot": true
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "mock_uni_120",
@@ -4371,7 +20812,144 @@ export const universities = [
     "master_no_topik": true,
     "custom_notes": "",
     "top_1_percent": false,
-    "is_restricted_school": true
+    "is_restricted_school": true,
+    "majors_detail": [
+      {
+        "category": "humanities_social",
+        "faculty_name_vi": "Khoa Nhân văn & Khoa học Xã hội",
+        "faculty_name_ko": "인문사회대학",
+        "tuition_krw": 3312000,
+        "majors": [
+          {
+            "name_vi": "Quản trị Kinh doanh",
+            "name_ko": "경영학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Ngôn ngữ & Văn hóa Hàn Quốc",
+            "name_ko": "한국언어문화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Truyền thông & Báo chí",
+            "name_ko": "미디어언론학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Thương mại Quốc tế",
+            "name_ko": "국제무역학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "engineering",
+        "faculty_name_vi": "Khoa Kỹ thuật & Công nghệ Thông tin",
+        "faculty_name_ko": "공과대학",
+        "tuition_krw": 3047000,
+        "majors": [
+          {
+            "name_vi": "Khoa học Máy tính & AI",
+            "name_ko": "컴퓨터공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Công nghệ Thông tin (IT)",
+            "name_ko": "정보통신공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Kỹ thuật Điện - Điện tử",
+            "name_ko": "전기전자공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Kỹ thuật Cơ khí",
+            "name_ko": "기계공학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "natural_sciences",
+        "faculty_name_vi": "Khoa Khoa học Tự nhiên & Sinh học",
+        "faculty_name_ko": "자연과학대학",
+        "tuition_krw": 2854000,
+        "majors": [
+          {
+            "name_vi": "Hóa học & Vật liệu mới",
+            "name_ko": "화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Công nghệ Thực phẩm & Dinh dưỡng",
+            "name_ko": "식품영양학과",
+            "is_hot": false
+          },
+          {
+            "name_vi": "Sinh học Ứng dụng & Công nghệ Sinh học",
+            "name_ko": "생명공학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "arts_sports",
+        "faculty_name_vi": "Khoa Nghệ thuật & Thể dục Thể thao",
+        "faculty_name_ko": "예체능대학",
+        "tuition_krw": 3797000,
+        "majors": [
+          {
+            "name_vi": "Thiết kế Đồ họa & Kỹ thuật số",
+            "name_ko": "시각디자인학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Nghệ thuật Thẩm mỹ & Trang điểm (Make-up)",
+            "name_ko": "뷰티미용학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Diễn xuất, Sân khấu & Điện ảnh",
+            "name_ko": "연극영화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Âm nhạc K-Pop & Vẫn nghệ",
+            "name_ko": "실용음악학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "medicine_pharmacy",
+        "faculty_name_vi": "Khoa Y - Dược & Khoa học Y tế",
+        "faculty_name_ko": "의치약학/보건대학",
+        "tuition_krw": 3302000,
+        "majors": [
+          {
+            "name_vi": "Điều dưỡng (Nursing)",
+            "name_ko": "간호학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Quản lý Y tế & Bệnh viện",
+            "name_ko": "보건행정학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Vật lý trị liệu & Phục hồi chức năng",
+            "name_ko": "물리치료학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Dược học",
+            "name_ko": "약학과",
+            "is_hot": true
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "mock_uni_121",
@@ -4401,7 +20979,144 @@ export const universities = [
     "visa_metropolitan": false,
     "master_no_topik": false,
     "custom_notes": "Trường ưu tiên phỏng vấn visa thẳng",
-    "top_1_percent": false
+    "top_1_percent": false,
+    "majors_detail": [
+      {
+        "category": "humanities_social",
+        "faculty_name_vi": "Khoa Nhân văn & Khoa học Xã hội",
+        "faculty_name_ko": "인문사회대학",
+        "tuition_krw": 2937000,
+        "majors": [
+          {
+            "name_vi": "Quản trị Kinh doanh",
+            "name_ko": "경영학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Ngôn ngữ & Văn hóa Hàn Quốc",
+            "name_ko": "한국언어문화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Truyền thông & Báo chí",
+            "name_ko": "미디어언론학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Thương mại Quốc tế",
+            "name_ko": "국제무역학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "engineering",
+        "faculty_name_vi": "Khoa Kỹ thuật & Công nghệ Thông tin",
+        "faculty_name_ko": "공과대학",
+        "tuition_krw": 4804000,
+        "majors": [
+          {
+            "name_vi": "Khoa học Máy tính & AI",
+            "name_ko": "컴퓨터공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Công nghệ Thông tin (IT)",
+            "name_ko": "정보통신공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Kỹ thuật Điện - Điện tử",
+            "name_ko": "전기전자공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Kỹ thuật Cơ khí",
+            "name_ko": "기계공학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "natural_sciences",
+        "faculty_name_vi": "Khoa Khoa học Tự nhiên & Sinh học",
+        "faculty_name_ko": "자연과학대학",
+        "tuition_krw": 3498000,
+        "majors": [
+          {
+            "name_vi": "Hóa học & Vật liệu mới",
+            "name_ko": "화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Công nghệ Thực phẩm & Dinh dưỡng",
+            "name_ko": "식품영양학과",
+            "is_hot": false
+          },
+          {
+            "name_vi": "Sinh học Ứng dụng & Công nghệ Sinh học",
+            "name_ko": "생명공학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "arts_sports",
+        "faculty_name_vi": "Khoa Nghệ thuật & Thể dục Thể thao",
+        "faculty_name_ko": "예체능대학",
+        "tuition_krw": 2937000,
+        "majors": [
+          {
+            "name_vi": "Thiết kế Đồ họa & Kỹ thuật số",
+            "name_ko": "시각디자인학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Nghệ thuật Thẩm mỹ & Trang điểm (Make-up)",
+            "name_ko": "뷰티미용학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Diễn xuất, Sân khấu & Điện ảnh",
+            "name_ko": "연극영화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Âm nhạc K-Pop & Vẫn nghệ",
+            "name_ko": "실용음악학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "medicine_pharmacy",
+        "faculty_name_vi": "Khoa Y - Dược & Khoa học Y tế",
+        "faculty_name_ko": "의치약학/보건대학",
+        "tuition_krw": 2937000,
+        "majors": [
+          {
+            "name_vi": "Điều dưỡng (Nursing)",
+            "name_ko": "간호학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Quản lý Y tế & Bệnh viện",
+            "name_ko": "보건행정학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Vật lý trị liệu & Phục hồi chức năng",
+            "name_ko": "물리치료학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Dược học",
+            "name_ko": "약학과",
+            "is_hot": true
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "mock_uni_122",
@@ -4439,7 +21154,144 @@ export const universities = [
     "dorm_fee_desc": "450-810,000KRW",
     "admission_conditions": "",
     "featured_majors": "Làm đẹp – Thiết kế – Business",
-    "regional_restrictions": ""
+    "regional_restrictions": "",
+    "majors_detail": [
+      {
+        "category": "humanities_social",
+        "faculty_name_vi": "Khoa Nhân văn & Khoa học Xã hội",
+        "faculty_name_ko": "인문사회대학",
+        "tuition_krw": 2257000,
+        "majors": [
+          {
+            "name_vi": "Quản trị Kinh doanh",
+            "name_ko": "경영학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Ngôn ngữ & Văn hóa Hàn Quốc",
+            "name_ko": "한국언어문화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Truyền thông & Báo chí",
+            "name_ko": "미디어언론학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Thương mại Quốc tế",
+            "name_ko": "국제무역학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "engineering",
+        "faculty_name_vi": "Khoa Kỹ thuật & Công nghệ Thông tin",
+        "faculty_name_ko": "공과대학",
+        "tuition_krw": 2296000,
+        "majors": [
+          {
+            "name_vi": "Khoa học Máy tính & AI",
+            "name_ko": "컴퓨터공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Công nghệ Thông tin (IT)",
+            "name_ko": "정보통신공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Kỹ thuật Điện - Điện tử",
+            "name_ko": "전기전자공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Kỹ thuật Cơ khí",
+            "name_ko": "기계공학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "natural_sciences",
+        "faculty_name_vi": "Khoa Khoa học Tự nhiên & Sinh học",
+        "faculty_name_ko": "자연과학대학",
+        "tuition_krw": 3097000,
+        "majors": [
+          {
+            "name_vi": "Hóa học & Vật liệu mới",
+            "name_ko": "화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Công nghệ Thực phẩm & Dinh dưỡng",
+            "name_ko": "식품영양학과",
+            "is_hot": false
+          },
+          {
+            "name_vi": "Sinh học Ứng dụng & Công nghệ Sinh học",
+            "name_ko": "생명공학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "arts_sports",
+        "faculty_name_vi": "Khoa Nghệ thuật & Thể dục Thể thao",
+        "faculty_name_ko": "예체능대학",
+        "tuition_krw": 4652000,
+        "majors": [
+          {
+            "name_vi": "Thiết kế Đồ họa & Kỹ thuật số",
+            "name_ko": "시각디자인학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Nghệ thuật Thẩm mỹ & Trang điểm (Make-up)",
+            "name_ko": "뷰티미용학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Diễn xuất, Sân khấu & Điện ảnh",
+            "name_ko": "연극영화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Âm nhạc K-Pop & Vẫn nghệ",
+            "name_ko": "실용음악학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "medicine_pharmacy",
+        "faculty_name_vi": "Khoa Y - Dược & Khoa học Y tế",
+        "faculty_name_ko": "의치약학/보건대학",
+        "tuition_krw": 4436000,
+        "majors": [
+          {
+            "name_vi": "Điều dưỡng (Nursing)",
+            "name_ko": "간호학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Quản lý Y tế & Bệnh viện",
+            "name_ko": "보건행정학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Vật lý trị liệu & Phục hồi chức năng",
+            "name_ko": "물리치료학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Dược học",
+            "name_ko": "약학과",
+            "is_hot": true
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "mock_uni_123",
@@ -4469,7 +21321,144 @@ export const universities = [
     "visa_metropolitan": false,
     "master_no_topik": true,
     "custom_notes": "",
-    "top_1_percent": false
+    "top_1_percent": false,
+    "majors_detail": [
+      {
+        "category": "humanities_social",
+        "faculty_name_vi": "Khoa Nhân văn & Khoa học Xã hội",
+        "faculty_name_ko": "인문사회대학",
+        "tuition_krw": 4095000,
+        "majors": [
+          {
+            "name_vi": "Quản trị Kinh doanh",
+            "name_ko": "경영학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Ngôn ngữ & Văn hóa Hàn Quốc",
+            "name_ko": "한국언어문화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Truyền thông & Báo chí",
+            "name_ko": "미디어언론학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Thương mại Quốc tế",
+            "name_ko": "국제무역학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "engineering",
+        "faculty_name_vi": "Khoa Kỹ thuật & Công nghệ Thông tin",
+        "faculty_name_ko": "공과대학",
+        "tuition_krw": 4658000,
+        "majors": [
+          {
+            "name_vi": "Khoa học Máy tính & AI",
+            "name_ko": "컴퓨터공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Công nghệ Thông tin (IT)",
+            "name_ko": "정보통신공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Kỹ thuật Điện - Điện tử",
+            "name_ko": "전기전자공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Kỹ thuật Cơ khí",
+            "name_ko": "기계공학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "natural_sciences",
+        "faculty_name_vi": "Khoa Khoa học Tự nhiên & Sinh học",
+        "faculty_name_ko": "자연과학대학",
+        "tuition_krw": 2842000,
+        "majors": [
+          {
+            "name_vi": "Hóa học & Vật liệu mới",
+            "name_ko": "화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Công nghệ Thực phẩm & Dinh dưỡng",
+            "name_ko": "식품영양학과",
+            "is_hot": false
+          },
+          {
+            "name_vi": "Sinh học Ứng dụng & Công nghệ Sinh học",
+            "name_ko": "생명공학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "arts_sports",
+        "faculty_name_vi": "Khoa Nghệ thuật & Thể dục Thể thao",
+        "faculty_name_ko": "예체능대학",
+        "tuition_krw": 3646000,
+        "majors": [
+          {
+            "name_vi": "Thiết kế Đồ họa & Kỹ thuật số",
+            "name_ko": "시각디자인학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Nghệ thuật Thẩm mỹ & Trang điểm (Make-up)",
+            "name_ko": "뷰티미용학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Diễn xuất, Sân khấu & Điện ảnh",
+            "name_ko": "연극영화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Âm nhạc K-Pop & Vẫn nghệ",
+            "name_ko": "실용음악학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "medicine_pharmacy",
+        "faculty_name_vi": "Khoa Y - Dược & Khoa học Y tế",
+        "faculty_name_ko": "의치약학/보건대학",
+        "tuition_krw": 2178000,
+        "majors": [
+          {
+            "name_vi": "Điều dưỡng (Nursing)",
+            "name_ko": "간호학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Quản lý Y tế & Bệnh viện",
+            "name_ko": "보건행정학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Vật lý trị liệu & Phục hồi chức năng",
+            "name_ko": "물리치료학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Dược học",
+            "name_ko": "약학과",
+            "is_hot": true
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "mock_uni_124",
@@ -4507,7 +21496,144 @@ export const universities = [
     "dorm_fee_desc": "550,000-900,000KRW",
     "admission_conditions": "",
     "featured_majors": "Thiết kế – Truyền thông – Du lịch",
-    "regional_restrictions": ""
+    "regional_restrictions": "",
+    "majors_detail": [
+      {
+        "category": "humanities_social",
+        "faculty_name_vi": "Khoa Nhân văn & Khoa học Xã hội",
+        "faculty_name_ko": "인문사회대학",
+        "tuition_krw": 4976000,
+        "majors": [
+          {
+            "name_vi": "Quản trị Kinh doanh",
+            "name_ko": "경영학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Ngôn ngữ & Văn hóa Hàn Quốc",
+            "name_ko": "한국언어문화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Truyền thông & Báo chí",
+            "name_ko": "미디어언론학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Thương mại Quốc tế",
+            "name_ko": "국제무역학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "engineering",
+        "faculty_name_vi": "Khoa Kỹ thuật & Công nghệ Thông tin",
+        "faculty_name_ko": "공과대학",
+        "tuition_krw": 3219000,
+        "majors": [
+          {
+            "name_vi": "Khoa học Máy tính & AI",
+            "name_ko": "컴퓨터공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Công nghệ Thông tin (IT)",
+            "name_ko": "정보통신공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Kỹ thuật Điện - Điện tử",
+            "name_ko": "전기전자공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Kỹ thuật Cơ khí",
+            "name_ko": "기계공학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "natural_sciences",
+        "faculty_name_vi": "Khoa Khoa học Tự nhiên & Sinh học",
+        "faculty_name_ko": "자연과학대학",
+        "tuition_krw": 4536000,
+        "majors": [
+          {
+            "name_vi": "Hóa học & Vật liệu mới",
+            "name_ko": "화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Công nghệ Thực phẩm & Dinh dưỡng",
+            "name_ko": "식품영양학과",
+            "is_hot": false
+          },
+          {
+            "name_vi": "Sinh học Ứng dụng & Công nghệ Sinh học",
+            "name_ko": "생명공학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "arts_sports",
+        "faculty_name_vi": "Khoa Nghệ thuật & Thể dục Thể thao",
+        "faculty_name_ko": "예체능대학",
+        "tuition_krw": 2470000,
+        "majors": [
+          {
+            "name_vi": "Thiết kế Đồ họa & Kỹ thuật số",
+            "name_ko": "시각디자인학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Nghệ thuật Thẩm mỹ & Trang điểm (Make-up)",
+            "name_ko": "뷰티미용학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Diễn xuất, Sân khấu & Điện ảnh",
+            "name_ko": "연극영화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Âm nhạc K-Pop & Vẫn nghệ",
+            "name_ko": "실용음악학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "medicine_pharmacy",
+        "faculty_name_vi": "Khoa Y - Dược & Khoa học Y tế",
+        "faculty_name_ko": "의치약학/보건대학",
+        "tuition_krw": 4976000,
+        "majors": [
+          {
+            "name_vi": "Điều dưỡng (Nursing)",
+            "name_ko": "간호학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Quản lý Y tế & Bệnh viện",
+            "name_ko": "보건행정학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Vật lý trị liệu & Phục hồi chức năng",
+            "name_ko": "물리치료학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Dược học",
+            "name_ko": "약학과",
+            "is_hot": true
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "mock_uni_125",
@@ -4538,7 +21664,144 @@ export const universities = [
     "master_no_topik": true,
     "custom_notes": "Trường ưu tiên phỏng vấn visa thẳng",
     "top_1_percent": false,
-    "is_restricted_school": true
+    "is_restricted_school": true,
+    "majors_detail": [
+      {
+        "category": "humanities_social",
+        "faculty_name_vi": "Khoa Nhân văn & Khoa học Xã hội",
+        "faculty_name_ko": "인문사회대학",
+        "tuition_krw": 4889000,
+        "majors": [
+          {
+            "name_vi": "Quản trị Kinh doanh",
+            "name_ko": "경영학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Ngôn ngữ & Văn hóa Hàn Quốc",
+            "name_ko": "한국언어문화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Truyền thông & Báo chí",
+            "name_ko": "미디어언론학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Thương mại Quốc tế",
+            "name_ko": "국제무역학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "engineering",
+        "faculty_name_vi": "Khoa Kỹ thuật & Công nghệ Thông tin",
+        "faculty_name_ko": "공과대학",
+        "tuition_krw": 2958000,
+        "majors": [
+          {
+            "name_vi": "Khoa học Máy tính & AI",
+            "name_ko": "컴퓨터공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Công nghệ Thông tin (IT)",
+            "name_ko": "정보통신공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Kỹ thuật Điện - Điện tử",
+            "name_ko": "전기전자공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Kỹ thuật Cơ khí",
+            "name_ko": "기계공학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "natural_sciences",
+        "faculty_name_vi": "Khoa Khoa học Tự nhiên & Sinh học",
+        "faculty_name_ko": "자연과학대학",
+        "tuition_krw": 3789000,
+        "majors": [
+          {
+            "name_vi": "Hóa học & Vật liệu mới",
+            "name_ko": "화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Công nghệ Thực phẩm & Dinh dưỡng",
+            "name_ko": "식품영양학과",
+            "is_hot": false
+          },
+          {
+            "name_vi": "Sinh học Ứng dụng & Công nghệ Sinh học",
+            "name_ko": "생명공학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "arts_sports",
+        "faculty_name_vi": "Khoa Nghệ thuật & Thể dục Thể thao",
+        "faculty_name_ko": "예체능대학",
+        "tuition_krw": 4239000,
+        "majors": [
+          {
+            "name_vi": "Thiết kế Đồ họa & Kỹ thuật số",
+            "name_ko": "시각디자인학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Nghệ thuật Thẩm mỹ & Trang điểm (Make-up)",
+            "name_ko": "뷰티미용학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Diễn xuất, Sân khấu & Điện ảnh",
+            "name_ko": "연극영화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Âm nhạc K-Pop & Vẫn nghệ",
+            "name_ko": "실용음악학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "medicine_pharmacy",
+        "faculty_name_vi": "Khoa Y - Dược & Khoa học Y tế",
+        "faculty_name_ko": "의치약학/보건대학",
+        "tuition_krw": 4426000,
+        "majors": [
+          {
+            "name_vi": "Điều dưỡng (Nursing)",
+            "name_ko": "간호학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Quản lý Y tế & Bệnh viện",
+            "name_ko": "보건행정학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Vật lý trị liệu & Phục hồi chức năng",
+            "name_ko": "물리치료학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Dược học",
+            "name_ko": "약학과",
+            "is_hot": true
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "mock_uni_126",
@@ -4576,7 +21839,144 @@ export const universities = [
     "dorm_fee_desc": "1,200,000-1,700,000KRW",
     "admission_conditions": "",
     "featured_majors": "Du lịch – Hàng không – Khách sạn",
-    "regional_restrictions": ""
+    "regional_restrictions": "",
+    "majors_detail": [
+      {
+        "category": "humanities_social",
+        "faculty_name_vi": "Khoa Nhân văn & Khoa học Xã hội",
+        "faculty_name_ko": "인문사회대학",
+        "tuition_krw": 2688000,
+        "majors": [
+          {
+            "name_vi": "Quản trị Kinh doanh",
+            "name_ko": "경영학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Ngôn ngữ & Văn hóa Hàn Quốc",
+            "name_ko": "한국언어문화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Truyền thông & Báo chí",
+            "name_ko": "미디어언론학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Thương mại Quốc tế",
+            "name_ko": "국제무역학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "engineering",
+        "faculty_name_vi": "Khoa Kỹ thuật & Công nghệ Thông tin",
+        "faculty_name_ko": "공과대학",
+        "tuition_krw": 3648000,
+        "majors": [
+          {
+            "name_vi": "Khoa học Máy tính & AI",
+            "name_ko": "컴퓨터공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Công nghệ Thông tin (IT)",
+            "name_ko": "정보통신공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Kỹ thuật Điện - Điện tử",
+            "name_ko": "전기전자공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Kỹ thuật Cơ khí",
+            "name_ko": "기계공학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "natural_sciences",
+        "faculty_name_vi": "Khoa Khoa học Tự nhiên & Sinh học",
+        "faculty_name_ko": "자연과학대학",
+        "tuition_krw": 2284000,
+        "majors": [
+          {
+            "name_vi": "Hóa học & Vật liệu mới",
+            "name_ko": "화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Công nghệ Thực phẩm & Dinh dưỡng",
+            "name_ko": "식품영양학과",
+            "is_hot": false
+          },
+          {
+            "name_vi": "Sinh học Ứng dụng & Công nghệ Sinh học",
+            "name_ko": "생명공학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "arts_sports",
+        "faculty_name_vi": "Khoa Nghệ thuật & Thể dục Thể thao",
+        "faculty_name_ko": "예체능대학",
+        "tuition_krw": 4666000,
+        "majors": [
+          {
+            "name_vi": "Thiết kế Đồ họa & Kỹ thuật số",
+            "name_ko": "시각디자인학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Nghệ thuật Thẩm mỹ & Trang điểm (Make-up)",
+            "name_ko": "뷰티미용학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Diễn xuất, Sân khấu & Điện ảnh",
+            "name_ko": "연극영화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Âm nhạc K-Pop & Vẫn nghệ",
+            "name_ko": "실용음악학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "medicine_pharmacy",
+        "faculty_name_vi": "Khoa Y - Dược & Khoa học Y tế",
+        "faculty_name_ko": "의치약학/보건대학",
+        "tuition_krw": 2222000,
+        "majors": [
+          {
+            "name_vi": "Điều dưỡng (Nursing)",
+            "name_ko": "간호학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Quản lý Y tế & Bệnh viện",
+            "name_ko": "보건행정학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Vật lý trị liệu & Phục hồi chức năng",
+            "name_ko": "물리치료학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Dược học",
+            "name_ko": "약학과",
+            "is_hot": true
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "mock_uni_127",
@@ -4606,7 +22006,144 @@ export const universities = [
     "visa_metropolitan": true,
     "master_no_topik": false,
     "custom_notes": "",
-    "top_1_percent": false
+    "top_1_percent": false,
+    "majors_detail": [
+      {
+        "category": "humanities_social",
+        "faculty_name_vi": "Khoa Nhân văn & Khoa học Xã hội",
+        "faculty_name_ko": "인문사회대학",
+        "tuition_krw": 2682000,
+        "majors": [
+          {
+            "name_vi": "Quản trị Kinh doanh",
+            "name_ko": "경영학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Ngôn ngữ & Văn hóa Hàn Quốc",
+            "name_ko": "한국언어문화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Truyền thông & Báo chí",
+            "name_ko": "미디어언론학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Thương mại Quốc tế",
+            "name_ko": "국제무역학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "engineering",
+        "faculty_name_vi": "Khoa Kỹ thuật & Công nghệ Thông tin",
+        "faculty_name_ko": "공과대학",
+        "tuition_krw": 4660000,
+        "majors": [
+          {
+            "name_vi": "Khoa học Máy tính & AI",
+            "name_ko": "컴퓨터공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Công nghệ Thông tin (IT)",
+            "name_ko": "정보통신공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Kỹ thuật Điện - Điện tử",
+            "name_ko": "전기전자공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Kỹ thuật Cơ khí",
+            "name_ko": "기계공학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "natural_sciences",
+        "faculty_name_vi": "Khoa Khoa học Tự nhiên & Sinh học",
+        "faculty_name_ko": "자연과학대학",
+        "tuition_krw": 4606000,
+        "majors": [
+          {
+            "name_vi": "Hóa học & Vật liệu mới",
+            "name_ko": "화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Công nghệ Thực phẩm & Dinh dưỡng",
+            "name_ko": "식품영양학과",
+            "is_hot": false
+          },
+          {
+            "name_vi": "Sinh học Ứng dụng & Công nghệ Sinh học",
+            "name_ko": "생명공학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "arts_sports",
+        "faculty_name_vi": "Khoa Nghệ thuật & Thể dục Thể thao",
+        "faculty_name_ko": "예체능대학",
+        "tuition_krw": 2867000,
+        "majors": [
+          {
+            "name_vi": "Thiết kế Đồ họa & Kỹ thuật số",
+            "name_ko": "시각디자인학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Nghệ thuật Thẩm mỹ & Trang điểm (Make-up)",
+            "name_ko": "뷰티미용학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Diễn xuất, Sân khấu & Điện ảnh",
+            "name_ko": "연극영화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Âm nhạc K-Pop & Vẫn nghệ",
+            "name_ko": "실용음악학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "medicine_pharmacy",
+        "faculty_name_vi": "Khoa Y - Dược & Khoa học Y tế",
+        "faculty_name_ko": "의치약학/보건대학",
+        "tuition_krw": 3999000,
+        "majors": [
+          {
+            "name_vi": "Điều dưỡng (Nursing)",
+            "name_ko": "간호학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Quản lý Y tế & Bệnh viện",
+            "name_ko": "보건행정학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Vật lý trị liệu & Phục hồi chức năng",
+            "name_ko": "물리치료학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Dược học",
+            "name_ko": "약학과",
+            "is_hot": true
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "mock_uni_128",
@@ -4644,7 +22181,144 @@ export const universities = [
     "dorm_fee_desc": "1,100,000-1,400,000KRW",
     "admission_conditions": "",
     "featured_majors": "Điện ảnh – Animation – Digital Content",
-    "regional_restrictions": ""
+    "regional_restrictions": "",
+    "majors_detail": [
+      {
+        "category": "humanities_social",
+        "faculty_name_vi": "Khoa Nhân văn & Khoa học Xã hội",
+        "faculty_name_ko": "인문사회대학",
+        "tuition_krw": 2587000,
+        "majors": [
+          {
+            "name_vi": "Quản trị Kinh doanh",
+            "name_ko": "경영학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Ngôn ngữ & Văn hóa Hàn Quốc",
+            "name_ko": "한국언어문화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Truyền thông & Báo chí",
+            "name_ko": "미디어언론학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Thương mại Quốc tế",
+            "name_ko": "국제무역학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "engineering",
+        "faculty_name_vi": "Khoa Kỹ thuật & Công nghệ Thông tin",
+        "faculty_name_ko": "공과대학",
+        "tuition_krw": 2091000,
+        "majors": [
+          {
+            "name_vi": "Khoa học Máy tính & AI",
+            "name_ko": "컴퓨터공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Công nghệ Thông tin (IT)",
+            "name_ko": "정보통신공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Kỹ thuật Điện - Điện tử",
+            "name_ko": "전기전자공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Kỹ thuật Cơ khí",
+            "name_ko": "기계공학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "natural_sciences",
+        "faculty_name_vi": "Khoa Khoa học Tự nhiên & Sinh học",
+        "faculty_name_ko": "자연과학대학",
+        "tuition_krw": 3808000,
+        "majors": [
+          {
+            "name_vi": "Hóa học & Vật liệu mới",
+            "name_ko": "화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Công nghệ Thực phẩm & Dinh dưỡng",
+            "name_ko": "식품영양학과",
+            "is_hot": false
+          },
+          {
+            "name_vi": "Sinh học Ứng dụng & Công nghệ Sinh học",
+            "name_ko": "생명공학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "arts_sports",
+        "faculty_name_vi": "Khoa Nghệ thuật & Thể dục Thể thao",
+        "faculty_name_ko": "예체능대학",
+        "tuition_krw": 3061000,
+        "majors": [
+          {
+            "name_vi": "Thiết kế Đồ họa & Kỹ thuật số",
+            "name_ko": "시각디자인학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Nghệ thuật Thẩm mỹ & Trang điểm (Make-up)",
+            "name_ko": "뷰티미용학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Diễn xuất, Sân khấu & Điện ảnh",
+            "name_ko": "연극영화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Âm nhạc K-Pop & Vẫn nghệ",
+            "name_ko": "실용음악학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "medicine_pharmacy",
+        "faculty_name_vi": "Khoa Y - Dược & Khoa học Y tế",
+        "faculty_name_ko": "의치약학/보건대학",
+        "tuition_krw": 3453000,
+        "majors": [
+          {
+            "name_vi": "Điều dưỡng (Nursing)",
+            "name_ko": "간호학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Quản lý Y tế & Bệnh viện",
+            "name_ko": "보건행정학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Vật lý trị liệu & Phục hồi chức năng",
+            "name_ko": "물리치료학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Dược học",
+            "name_ko": "약학과",
+            "is_hot": true
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "mock_uni_129",
@@ -4682,7 +22356,144 @@ export const universities = [
     "dorm_fee_desc": "653,000KRW",
     "admission_conditions": "",
     "featured_majors": "Thiết kế ô tô – Business – Design",
-    "regional_restrictions": ""
+    "regional_restrictions": "",
+    "majors_detail": [
+      {
+        "category": "humanities_social",
+        "faculty_name_vi": "Khoa Nhân văn & Khoa học Xã hội",
+        "faculty_name_ko": "인문사회대학",
+        "tuition_krw": 2957000,
+        "majors": [
+          {
+            "name_vi": "Quản trị Kinh doanh",
+            "name_ko": "경영학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Ngôn ngữ & Văn hóa Hàn Quốc",
+            "name_ko": "한국언어문화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Truyền thông & Báo chí",
+            "name_ko": "미디어언론학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Thương mại Quốc tế",
+            "name_ko": "국제무역학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "engineering",
+        "faculty_name_vi": "Khoa Kỹ thuật & Công nghệ Thông tin",
+        "faculty_name_ko": "공과대학",
+        "tuition_krw": 3369000,
+        "majors": [
+          {
+            "name_vi": "Khoa học Máy tính & AI",
+            "name_ko": "컴퓨터공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Công nghệ Thông tin (IT)",
+            "name_ko": "정보통신공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Kỹ thuật Điện - Điện tử",
+            "name_ko": "전기전자공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Kỹ thuật Cơ khí",
+            "name_ko": "기계공학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "natural_sciences",
+        "faculty_name_vi": "Khoa Khoa học Tự nhiên & Sinh học",
+        "faculty_name_ko": "자연과학대학",
+        "tuition_krw": 2813000,
+        "majors": [
+          {
+            "name_vi": "Hóa học & Vật liệu mới",
+            "name_ko": "화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Công nghệ Thực phẩm & Dinh dưỡng",
+            "name_ko": "식품영양학과",
+            "is_hot": false
+          },
+          {
+            "name_vi": "Sinh học Ứng dụng & Công nghệ Sinh học",
+            "name_ko": "생명공학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "arts_sports",
+        "faculty_name_vi": "Khoa Nghệ thuật & Thể dục Thể thao",
+        "faculty_name_ko": "예체능대학",
+        "tuition_krw": 2957000,
+        "majors": [
+          {
+            "name_vi": "Thiết kế Đồ họa & Kỹ thuật số",
+            "name_ko": "시각디자인학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Nghệ thuật Thẩm mỹ & Trang điểm (Make-up)",
+            "name_ko": "뷰티미용학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Diễn xuất, Sân khấu & Điện ảnh",
+            "name_ko": "연극영화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Âm nhạc K-Pop & Vẫn nghệ",
+            "name_ko": "실용음악학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "medicine_pharmacy",
+        "faculty_name_vi": "Khoa Y - Dược & Khoa học Y tế",
+        "faculty_name_ko": "의치약학/보건대학",
+        "tuition_krw": 3453000,
+        "majors": [
+          {
+            "name_vi": "Điều dưỡng (Nursing)",
+            "name_ko": "간호학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Quản lý Y tế & Bệnh viện",
+            "name_ko": "보건행정학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Vật lý trị liệu & Phục hồi chức năng",
+            "name_ko": "물리치료학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Dược học",
+            "name_ko": "약학과",
+            "is_hot": true
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "mock_uni_130",
@@ -4720,7 +22531,144 @@ export const universities = [
     "dorm_fee_desc": "600,000-1,000,000KRW",
     "admission_conditions": "6,0 trở lên (xem xét)",
     "featured_majors": "",
-    "regional_restrictions": ""
+    "regional_restrictions": "",
+    "majors_detail": [
+      {
+        "category": "humanities_social",
+        "faculty_name_vi": "Khoa Nhân văn & Khoa học Xã hội",
+        "faculty_name_ko": "인문사회대학",
+        "tuition_krw": 2746000,
+        "majors": [
+          {
+            "name_vi": "Quản trị Kinh doanh",
+            "name_ko": "경영학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Ngôn ngữ & Văn hóa Hàn Quốc",
+            "name_ko": "한국언어문화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Truyền thông & Báo chí",
+            "name_ko": "미디어언론학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Thương mại Quốc tế",
+            "name_ko": "국제무역학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "engineering",
+        "faculty_name_vi": "Khoa Kỹ thuật & Công nghệ Thông tin",
+        "faculty_name_ko": "공과대학",
+        "tuition_krw": 2555000,
+        "majors": [
+          {
+            "name_vi": "Khoa học Máy tính & AI",
+            "name_ko": "컴퓨터공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Công nghệ Thông tin (IT)",
+            "name_ko": "정보통신공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Kỹ thuật Điện - Điện tử",
+            "name_ko": "전기전자공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Kỹ thuật Cơ khí",
+            "name_ko": "기계공학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "natural_sciences",
+        "faculty_name_vi": "Khoa Khoa học Tự nhiên & Sinh học",
+        "faculty_name_ko": "자연과학대학",
+        "tuition_krw": 2749000,
+        "majors": [
+          {
+            "name_vi": "Hóa học & Vật liệu mới",
+            "name_ko": "화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Công nghệ Thực phẩm & Dinh dưỡng",
+            "name_ko": "식품영양학과",
+            "is_hot": false
+          },
+          {
+            "name_vi": "Sinh học Ứng dụng & Công nghệ Sinh học",
+            "name_ko": "생명공학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "arts_sports",
+        "faculty_name_vi": "Khoa Nghệ thuật & Thể dục Thể thao",
+        "faculty_name_ko": "예체능대학",
+        "tuition_krw": 4471000,
+        "majors": [
+          {
+            "name_vi": "Thiết kế Đồ họa & Kỹ thuật số",
+            "name_ko": "시각디자인학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Nghệ thuật Thẩm mỹ & Trang điểm (Make-up)",
+            "name_ko": "뷰티미용학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Diễn xuất, Sân khấu & Điện ảnh",
+            "name_ko": "연극영화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Âm nhạc K-Pop & Vẫn nghệ",
+            "name_ko": "실용음악학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "medicine_pharmacy",
+        "faculty_name_vi": "Khoa Y - Dược & Khoa học Y tế",
+        "faculty_name_ko": "의치약학/보건대학",
+        "tuition_krw": 4442000,
+        "majors": [
+          {
+            "name_vi": "Điều dưỡng (Nursing)",
+            "name_ko": "간호학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Quản lý Y tế & Bệnh viện",
+            "name_ko": "보건행정학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Vật lý trị liệu & Phục hồi chức năng",
+            "name_ko": "물리치료학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Dược học",
+            "name_ko": "약학과",
+            "is_hot": true
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "mock_uni_131",
@@ -4758,7 +22706,144 @@ export const universities = [
     "dorm_fee_desc": "1,500,000-2,500,000KRW",
     "admission_conditions": "",
     "featured_majors": "Điều dưỡng, Hàng không, Kinh doanh",
-    "regional_restrictions": ""
+    "regional_restrictions": "",
+    "majors_detail": [
+      {
+        "category": "humanities_social",
+        "faculty_name_vi": "Khoa Nhân văn & Khoa học Xã hội",
+        "faculty_name_ko": "인문사회대학",
+        "tuition_krw": 2807000,
+        "majors": [
+          {
+            "name_vi": "Quản trị Kinh doanh",
+            "name_ko": "경영학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Ngôn ngữ & Văn hóa Hàn Quốc",
+            "name_ko": "한국언어문화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Truyền thông & Báo chí",
+            "name_ko": "미디어언론학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Thương mại Quốc tế",
+            "name_ko": "국제무역학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "engineering",
+        "faculty_name_vi": "Khoa Kỹ thuật & Công nghệ Thông tin",
+        "faculty_name_ko": "공과대학",
+        "tuition_krw": 2978000,
+        "majors": [
+          {
+            "name_vi": "Khoa học Máy tính & AI",
+            "name_ko": "컴퓨터공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Công nghệ Thông tin (IT)",
+            "name_ko": "정보통신공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Kỹ thuật Điện - Điện tử",
+            "name_ko": "전기전자공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Kỹ thuật Cơ khí",
+            "name_ko": "기계공학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "natural_sciences",
+        "faculty_name_vi": "Khoa Khoa học Tự nhiên & Sinh học",
+        "faculty_name_ko": "자연과학대학",
+        "tuition_krw": 3503000,
+        "majors": [
+          {
+            "name_vi": "Hóa học & Vật liệu mới",
+            "name_ko": "화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Công nghệ Thực phẩm & Dinh dưỡng",
+            "name_ko": "식품영양학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Sinh học Ứng dụng & Công nghệ Sinh học",
+            "name_ko": "생명공학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "arts_sports",
+        "faculty_name_vi": "Khoa Nghệ thuật & Thể dục Thể thao",
+        "faculty_name_ko": "예체능대학",
+        "tuition_krw": 4466000,
+        "majors": [
+          {
+            "name_vi": "Thiết kế Đồ họa & Kỹ thuật số",
+            "name_ko": "시각디자인학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Nghệ thuật Thẩm mỹ & Trang điểm (Make-up)",
+            "name_ko": "뷰티미용학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Diễn xuất, Sân khấu & Điện ảnh",
+            "name_ko": "연극영화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Âm nhạc K-Pop & Vẫn nghệ",
+            "name_ko": "실용음악학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "medicine_pharmacy",
+        "faculty_name_vi": "Khoa Y - Dược & Khoa học Y tế",
+        "faculty_name_ko": "의치약학/보건대학",
+        "tuition_krw": 3213000,
+        "majors": [
+          {
+            "name_vi": "Điều dưỡng (Nursing)",
+            "name_ko": "간호학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Quản lý Y tế & Bệnh viện",
+            "name_ko": "보건행정학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Vật lý trị liệu & Phục hồi chức năng",
+            "name_ko": "물리치료학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Dược học",
+            "name_ko": "약학과",
+            "is_hot": true
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "mock_uni_132",
@@ -4796,7 +22881,144 @@ export const universities = [
     "dorm_fee_desc": "1,100,000-1,500,000KRW",
     "admission_conditions": "",
     "featured_majors": "IT – AI – Kinh doanh",
-    "regional_restrictions": ""
+    "regional_restrictions": "",
+    "majors_detail": [
+      {
+        "category": "humanities_social",
+        "faculty_name_vi": "Khoa Nhân văn & Khoa học Xã hội",
+        "faculty_name_ko": "인문사회대학",
+        "tuition_krw": 3961000,
+        "majors": [
+          {
+            "name_vi": "Quản trị Kinh doanh",
+            "name_ko": "경영학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Ngôn ngữ & Văn hóa Hàn Quốc",
+            "name_ko": "한국언어문화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Truyền thông & Báo chí",
+            "name_ko": "미디어언론학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Thương mại Quốc tế",
+            "name_ko": "국제무역학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "engineering",
+        "faculty_name_vi": "Khoa Kỹ thuật & Công nghệ Thông tin",
+        "faculty_name_ko": "공과대학",
+        "tuition_krw": 4321000,
+        "majors": [
+          {
+            "name_vi": "Khoa học Máy tính & AI",
+            "name_ko": "컴퓨터공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Công nghệ Thông tin (IT)",
+            "name_ko": "정보통신공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Kỹ thuật Điện - Điện tử",
+            "name_ko": "전기전자공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Kỹ thuật Cơ khí",
+            "name_ko": "기계공학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "natural_sciences",
+        "faculty_name_vi": "Khoa Khoa học Tự nhiên & Sinh học",
+        "faculty_name_ko": "자연과학대학",
+        "tuition_krw": 3286000,
+        "majors": [
+          {
+            "name_vi": "Hóa học & Vật liệu mới",
+            "name_ko": "화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Công nghệ Thực phẩm & Dinh dưỡng",
+            "name_ko": "식품영양학과",
+            "is_hot": false
+          },
+          {
+            "name_vi": "Sinh học Ứng dụng & Công nghệ Sinh học",
+            "name_ko": "생명공학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "arts_sports",
+        "faculty_name_vi": "Khoa Nghệ thuật & Thể dục Thể thao",
+        "faculty_name_ko": "예체능대학",
+        "tuition_krw": 2714000,
+        "majors": [
+          {
+            "name_vi": "Thiết kế Đồ họa & Kỹ thuật số",
+            "name_ko": "시각디자인학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Nghệ thuật Thẩm mỹ & Trang điểm (Make-up)",
+            "name_ko": "뷰티미용학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Diễn xuất, Sân khấu & Điện ảnh",
+            "name_ko": "연극영화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Âm nhạc K-Pop & Vẫn nghệ",
+            "name_ko": "실용음악학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "medicine_pharmacy",
+        "faculty_name_vi": "Khoa Y - Dược & Khoa học Y tế",
+        "faculty_name_ko": "의치약학/보건대학",
+        "tuition_krw": 3731000,
+        "majors": [
+          {
+            "name_vi": "Điều dưỡng (Nursing)",
+            "name_ko": "간호학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Quản lý Y tế & Bệnh viện",
+            "name_ko": "보건행정학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Vật lý trị liệu & Phục hồi chức năng",
+            "name_ko": "물리치료학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Dược học",
+            "name_ko": "약학과",
+            "is_hot": true
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "mock_uni_133",
@@ -4834,7 +23056,144 @@ export const universities = [
     "dorm_fee_desc": "1,000,000KRW",
     "admission_conditions": "7,0 trở lên\n- vắng ko quá 5 buổi (nhiều hơn cần giải trình)",
     "featured_majors": "Y khoa – Điều dưỡng – AI y tế",
-    "regional_restrictions": ""
+    "regional_restrictions": "",
+    "majors_detail": [
+      {
+        "category": "humanities_social",
+        "faculty_name_vi": "Khoa Nhân văn & Khoa học Xã hội",
+        "faculty_name_ko": "인문사회대학",
+        "tuition_krw": 3065000,
+        "majors": [
+          {
+            "name_vi": "Quản trị Kinh doanh",
+            "name_ko": "경영학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Ngôn ngữ & Văn hóa Hàn Quốc",
+            "name_ko": "한국언어문화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Truyền thông & Báo chí",
+            "name_ko": "미디어언론학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Thương mại Quốc tế",
+            "name_ko": "국제무역학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "engineering",
+        "faculty_name_vi": "Khoa Kỹ thuật & Công nghệ Thông tin",
+        "faculty_name_ko": "공과대학",
+        "tuition_krw": 3986000,
+        "majors": [
+          {
+            "name_vi": "Khoa học Máy tính & AI",
+            "name_ko": "컴퓨터공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Công nghệ Thông tin (IT)",
+            "name_ko": "정보통신공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Kỹ thuật Điện - Điện tử",
+            "name_ko": "전기전자공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Kỹ thuật Cơ khí",
+            "name_ko": "기계공학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "natural_sciences",
+        "faculty_name_vi": "Khoa Khoa học Tự nhiên & Sinh học",
+        "faculty_name_ko": "자연과학대학",
+        "tuition_krw": 2225000,
+        "majors": [
+          {
+            "name_vi": "Hóa học & Vật liệu mới",
+            "name_ko": "화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Công nghệ Thực phẩm & Dinh dưỡng",
+            "name_ko": "식품영양학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Sinh học Ứng dụng & Công nghệ Sinh học",
+            "name_ko": "생명공학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "arts_sports",
+        "faculty_name_vi": "Khoa Nghệ thuật & Thể dục Thể thao",
+        "faculty_name_ko": "예체능대학",
+        "tuition_krw": 3020000,
+        "majors": [
+          {
+            "name_vi": "Thiết kế Đồ họa & Kỹ thuật số",
+            "name_ko": "시각디자인학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Nghệ thuật Thẩm mỹ & Trang điểm (Make-up)",
+            "name_ko": "뷰티미용학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Diễn xuất, Sân khấu & Điện ảnh",
+            "name_ko": "연극영화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Âm nhạc K-Pop & Vẫn nghệ",
+            "name_ko": "실용음악학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "medicine_pharmacy",
+        "faculty_name_vi": "Khoa Y - Dược & Khoa học Y tế",
+        "faculty_name_ko": "의치약학/보건대학",
+        "tuition_krw": 3065000,
+        "majors": [
+          {
+            "name_vi": "Điều dưỡng (Nursing)",
+            "name_ko": "간호학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Quản lý Y tế & Bệnh viện",
+            "name_ko": "보건행정학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Vật lý trị liệu & Phục hồi chức năng",
+            "name_ko": "물리치료학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Dược học",
+            "name_ko": "약학과",
+            "is_hot": true
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "mock_uni_134",
@@ -4872,7 +23231,144 @@ export const universities = [
     "dorm_fee_desc": "1,300,000-1,800,000KRW",
     "admission_conditions": "",
     "featured_majors": "Y khoa – Business – Ngôn ngữ",
-    "regional_restrictions": ""
+    "regional_restrictions": "",
+    "majors_detail": [
+      {
+        "category": "humanities_social",
+        "faculty_name_vi": "Khoa Nhân văn & Khoa học Xã hội",
+        "faculty_name_ko": "인문사회대학",
+        "tuition_krw": 4728000,
+        "majors": [
+          {
+            "name_vi": "Quản trị Kinh doanh",
+            "name_ko": "경영학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Ngôn ngữ & Văn hóa Hàn Quốc",
+            "name_ko": "한국언어문화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Truyền thông & Báo chí",
+            "name_ko": "미디어언론학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Thương mại Quốc tế",
+            "name_ko": "국제무역학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "engineering",
+        "faculty_name_vi": "Khoa Kỹ thuật & Công nghệ Thông tin",
+        "faculty_name_ko": "공과대학",
+        "tuition_krw": 3385000,
+        "majors": [
+          {
+            "name_vi": "Khoa học Máy tính & AI",
+            "name_ko": "컴퓨터공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Công nghệ Thông tin (IT)",
+            "name_ko": "정보통신공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Kỹ thuật Điện - Điện tử",
+            "name_ko": "전기전자공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Kỹ thuật Cơ khí",
+            "name_ko": "기계공학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "natural_sciences",
+        "faculty_name_vi": "Khoa Khoa học Tự nhiên & Sinh học",
+        "faculty_name_ko": "자연과학대학",
+        "tuition_krw": 4589000,
+        "majors": [
+          {
+            "name_vi": "Hóa học & Vật liệu mới",
+            "name_ko": "화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Công nghệ Thực phẩm & Dinh dưỡng",
+            "name_ko": "식품영양학과",
+            "is_hot": false
+          },
+          {
+            "name_vi": "Sinh học Ứng dụng & Công nghệ Sinh học",
+            "name_ko": "생명공학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "arts_sports",
+        "faculty_name_vi": "Khoa Nghệ thuật & Thể dục Thể thao",
+        "faculty_name_ko": "예체능대학",
+        "tuition_krw": 4728000,
+        "majors": [
+          {
+            "name_vi": "Thiết kế Đồ họa & Kỹ thuật số",
+            "name_ko": "시각디자인학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Nghệ thuật Thẩm mỹ & Trang điểm (Make-up)",
+            "name_ko": "뷰티미용학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Diễn xuất, Sân khấu & Điện ảnh",
+            "name_ko": "연극영화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Âm nhạc K-Pop & Vẫn nghệ",
+            "name_ko": "실용음악학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "medicine_pharmacy",
+        "faculty_name_vi": "Khoa Y - Dược & Khoa học Y tế",
+        "faculty_name_ko": "의치약학/보건대학",
+        "tuition_krw": 3924000,
+        "majors": [
+          {
+            "name_vi": "Điều dưỡng (Nursing)",
+            "name_ko": "간호학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Quản lý Y tế & Bệnh viện",
+            "name_ko": "보건행정학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Vật lý trị liệu & Phục hồi chức năng",
+            "name_ko": "물리치료학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Dược học",
+            "name_ko": "약학과",
+            "is_hot": true
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "mock_uni_135",
@@ -4903,7 +23399,144 @@ export const universities = [
     "master_no_topik": true,
     "custom_notes": "",
     "top_1_percent": false,
-    "is_restricted_school": true
+    "is_restricted_school": true,
+    "majors_detail": [
+      {
+        "category": "humanities_social",
+        "faculty_name_vi": "Khoa Nhân văn & Khoa học Xã hội",
+        "faculty_name_ko": "인문사회대학",
+        "tuition_krw": 3712000,
+        "majors": [
+          {
+            "name_vi": "Quản trị Kinh doanh",
+            "name_ko": "경영학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Ngôn ngữ & Văn hóa Hàn Quốc",
+            "name_ko": "한국언어문화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Truyền thông & Báo chí",
+            "name_ko": "미디어언론학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Thương mại Quốc tế",
+            "name_ko": "국제무역학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "engineering",
+        "faculty_name_vi": "Khoa Kỹ thuật & Công nghệ Thông tin",
+        "faculty_name_ko": "공과대학",
+        "tuition_krw": 3152000,
+        "majors": [
+          {
+            "name_vi": "Khoa học Máy tính & AI",
+            "name_ko": "컴퓨터공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Công nghệ Thông tin (IT)",
+            "name_ko": "정보통신공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Kỹ thuật Điện - Điện tử",
+            "name_ko": "전기전자공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Kỹ thuật Cơ khí",
+            "name_ko": "기계공학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "natural_sciences",
+        "faculty_name_vi": "Khoa Khoa học Tự nhiên & Sinh học",
+        "faculty_name_ko": "자연과학대학",
+        "tuition_krw": 4599000,
+        "majors": [
+          {
+            "name_vi": "Hóa học & Vật liệu mới",
+            "name_ko": "화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Công nghệ Thực phẩm & Dinh dưỡng",
+            "name_ko": "식품영양학과",
+            "is_hot": false
+          },
+          {
+            "name_vi": "Sinh học Ứng dụng & Công nghệ Sinh học",
+            "name_ko": "생명공학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "arts_sports",
+        "faculty_name_vi": "Khoa Nghệ thuật & Thể dục Thể thao",
+        "faculty_name_ko": "예체능대학",
+        "tuition_krw": 2126000,
+        "majors": [
+          {
+            "name_vi": "Thiết kế Đồ họa & Kỹ thuật số",
+            "name_ko": "시각디자인학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Nghệ thuật Thẩm mỹ & Trang điểm (Make-up)",
+            "name_ko": "뷰티미용학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Diễn xuất, Sân khấu & Điện ảnh",
+            "name_ko": "연극영화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Âm nhạc K-Pop & Vẫn nghệ",
+            "name_ko": "실용음악학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "medicine_pharmacy",
+        "faculty_name_vi": "Khoa Y - Dược & Khoa học Y tế",
+        "faculty_name_ko": "의치약학/보건대학",
+        "tuition_krw": 3712000,
+        "majors": [
+          {
+            "name_vi": "Điều dưỡng (Nursing)",
+            "name_ko": "간호학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Quản lý Y tế & Bệnh viện",
+            "name_ko": "보건행정학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Vật lý trị liệu & Phục hồi chức năng",
+            "name_ko": "물리치료학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Dược học",
+            "name_ko": "약학과",
+            "is_hot": true
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "mock_uni_136",
@@ -4941,7 +23574,144 @@ export const universities = [
     "dorm_fee_desc": "1,300,000KRW",
     "admission_conditions": "",
     "featured_majors": "Thiết kế – IT – Fashion",
-    "regional_restrictions": ""
+    "regional_restrictions": "",
+    "majors_detail": [
+      {
+        "category": "humanities_social",
+        "faculty_name_vi": "Khoa Nhân văn & Khoa học Xã hội",
+        "faculty_name_ko": "인문사회대학",
+        "tuition_krw": 3079000,
+        "majors": [
+          {
+            "name_vi": "Quản trị Kinh doanh",
+            "name_ko": "경영학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Ngôn ngữ & Văn hóa Hàn Quốc",
+            "name_ko": "한국언어문화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Truyền thông & Báo chí",
+            "name_ko": "미디어언론학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Thương mại Quốc tế",
+            "name_ko": "국제무역학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "engineering",
+        "faculty_name_vi": "Khoa Kỹ thuật & Công nghệ Thông tin",
+        "faculty_name_ko": "공과대학",
+        "tuition_krw": 4548000,
+        "majors": [
+          {
+            "name_vi": "Khoa học Máy tính & AI",
+            "name_ko": "컴퓨터공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Công nghệ Thông tin (IT)",
+            "name_ko": "정보통신공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Kỹ thuật Điện - Điện tử",
+            "name_ko": "전기전자공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Kỹ thuật Cơ khí",
+            "name_ko": "기계공학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "natural_sciences",
+        "faculty_name_vi": "Khoa Khoa học Tự nhiên & Sinh học",
+        "faculty_name_ko": "자연과학대학",
+        "tuition_krw": 3645000,
+        "majors": [
+          {
+            "name_vi": "Hóa học & Vật liệu mới",
+            "name_ko": "화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Công nghệ Thực phẩm & Dinh dưỡng",
+            "name_ko": "식품영양학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Sinh học Ứng dụng & Công nghệ Sinh học",
+            "name_ko": "생명공학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "arts_sports",
+        "faculty_name_vi": "Khoa Nghệ thuật & Thể dục Thể thao",
+        "faculty_name_ko": "예체능대학",
+        "tuition_krw": 3969000,
+        "majors": [
+          {
+            "name_vi": "Thiết kế Đồ họa & Kỹ thuật số",
+            "name_ko": "시각디자인학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Nghệ thuật Thẩm mỹ & Trang điểm (Make-up)",
+            "name_ko": "뷰티미용학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Diễn xuất, Sân khấu & Điện ảnh",
+            "name_ko": "연극영화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Âm nhạc K-Pop & Vẫn nghệ",
+            "name_ko": "실용음악학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "medicine_pharmacy",
+        "faculty_name_vi": "Khoa Y - Dược & Khoa học Y tế",
+        "faculty_name_ko": "의치약학/보건대학",
+        "tuition_krw": 4009000,
+        "majors": [
+          {
+            "name_vi": "Điều dưỡng (Nursing)",
+            "name_ko": "간호학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Quản lý Y tế & Bệnh viện",
+            "name_ko": "보건행정학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Vật lý trị liệu & Phục hồi chức năng",
+            "name_ko": "물리치료학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Dược học",
+            "name_ko": "약학과",
+            "is_hot": true
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "mock_uni_137",
@@ -4979,7 +23749,144 @@ export const universities = [
     "dorm_fee_desc": "1,182,4000KRW",
     "admission_conditions": "",
     "featured_majors": "Y khoa – AI – Quản trị kinh doanh",
-    "regional_restrictions": ""
+    "regional_restrictions": "",
+    "majors_detail": [
+      {
+        "category": "humanities_social",
+        "faculty_name_vi": "Khoa Nhân văn & Khoa học Xã hội",
+        "faculty_name_ko": "인문사회대학",
+        "tuition_krw": 2051000,
+        "majors": [
+          {
+            "name_vi": "Quản trị Kinh doanh",
+            "name_ko": "경영학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Ngôn ngữ & Văn hóa Hàn Quốc",
+            "name_ko": "한국언어문화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Truyền thông & Báo chí",
+            "name_ko": "미디어언론학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Thương mại Quốc tế",
+            "name_ko": "국제무역학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "engineering",
+        "faculty_name_vi": "Khoa Kỹ thuật & Công nghệ Thông tin",
+        "faculty_name_ko": "공과대학",
+        "tuition_krw": 4917000,
+        "majors": [
+          {
+            "name_vi": "Khoa học Máy tính & AI",
+            "name_ko": "컴퓨터공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Công nghệ Thông tin (IT)",
+            "name_ko": "정보통신공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Kỹ thuật Điện - Điện tử",
+            "name_ko": "전기전자공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Kỹ thuật Cơ khí",
+            "name_ko": "기계공학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "natural_sciences",
+        "faculty_name_vi": "Khoa Khoa học Tự nhiên & Sinh học",
+        "faculty_name_ko": "자연과학대학",
+        "tuition_krw": 3640000,
+        "majors": [
+          {
+            "name_vi": "Hóa học & Vật liệu mới",
+            "name_ko": "화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Công nghệ Thực phẩm & Dinh dưỡng",
+            "name_ko": "식품영양학과",
+            "is_hot": false
+          },
+          {
+            "name_vi": "Sinh học Ứng dụng & Công nghệ Sinh học",
+            "name_ko": "생명공학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "arts_sports",
+        "faculty_name_vi": "Khoa Nghệ thuật & Thể dục Thể thao",
+        "faculty_name_ko": "예체능대학",
+        "tuition_krw": 3609000,
+        "majors": [
+          {
+            "name_vi": "Thiết kế Đồ họa & Kỹ thuật số",
+            "name_ko": "시각디자인학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Nghệ thuật Thẩm mỹ & Trang điểm (Make-up)",
+            "name_ko": "뷰티미용학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Diễn xuất, Sân khấu & Điện ảnh",
+            "name_ko": "연극영화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Âm nhạc K-Pop & Vẫn nghệ",
+            "name_ko": "실용음악학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "medicine_pharmacy",
+        "faculty_name_vi": "Khoa Y - Dược & Khoa học Y tế",
+        "faculty_name_ko": "의치약학/보건대학",
+        "tuition_krw": 3425000,
+        "majors": [
+          {
+            "name_vi": "Điều dưỡng (Nursing)",
+            "name_ko": "간호학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Quản lý Y tế & Bệnh viện",
+            "name_ko": "보건행정학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Vật lý trị liệu & Phục hồi chức năng",
+            "name_ko": "물리치료학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Dược học",
+            "name_ko": "약학과",
+            "is_hot": true
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "mock_uni_138",
@@ -5017,7 +23924,144 @@ export const universities = [
     "dorm_fee_desc": "1,400,000KRW",
     "admission_conditions": "",
     "featured_majors": "Nha khoa – Business – Truyền thông",
-    "regional_restrictions": ""
+    "regional_restrictions": "",
+    "majors_detail": [
+      {
+        "category": "humanities_social",
+        "faculty_name_vi": "Khoa Nhân văn & Khoa học Xã hội",
+        "faculty_name_ko": "인문사회대학",
+        "tuition_krw": 3756000,
+        "majors": [
+          {
+            "name_vi": "Quản trị Kinh doanh",
+            "name_ko": "경영학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Ngôn ngữ & Văn hóa Hàn Quốc",
+            "name_ko": "한국언어문화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Truyền thông & Báo chí",
+            "name_ko": "미디어언론학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Thương mại Quốc tế",
+            "name_ko": "국제무역학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "engineering",
+        "faculty_name_vi": "Khoa Kỹ thuật & Công nghệ Thông tin",
+        "faculty_name_ko": "공과대학",
+        "tuition_krw": 3091000,
+        "majors": [
+          {
+            "name_vi": "Khoa học Máy tính & AI",
+            "name_ko": "컴퓨터공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Công nghệ Thông tin (IT)",
+            "name_ko": "정보통신공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Kỹ thuật Điện - Điện tử",
+            "name_ko": "전기전자공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Kỹ thuật Cơ khí",
+            "name_ko": "기계공학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "natural_sciences",
+        "faculty_name_vi": "Khoa Khoa học Tự nhiên & Sinh học",
+        "faculty_name_ko": "자연과학대학",
+        "tuition_krw": 4216000,
+        "majors": [
+          {
+            "name_vi": "Hóa học & Vật liệu mới",
+            "name_ko": "화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Công nghệ Thực phẩm & Dinh dưỡng",
+            "name_ko": "식품영양학과",
+            "is_hot": false
+          },
+          {
+            "name_vi": "Sinh học Ứng dụng & Công nghệ Sinh học",
+            "name_ko": "생명공학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "arts_sports",
+        "faculty_name_vi": "Khoa Nghệ thuật & Thể dục Thể thao",
+        "faculty_name_ko": "예체능대학",
+        "tuition_krw": 3938000,
+        "majors": [
+          {
+            "name_vi": "Thiết kế Đồ họa & Kỹ thuật số",
+            "name_ko": "시각디자인학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Nghệ thuật Thẩm mỹ & Trang điểm (Make-up)",
+            "name_ko": "뷰티미용학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Diễn xuất, Sân khấu & Điện ảnh",
+            "name_ko": "연극영화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Âm nhạc K-Pop & Vẫn nghệ",
+            "name_ko": "실용음악학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "medicine_pharmacy",
+        "faculty_name_vi": "Khoa Y - Dược & Khoa học Y tế",
+        "faculty_name_ko": "의치약학/보건대학",
+        "tuition_krw": 3752000,
+        "majors": [
+          {
+            "name_vi": "Điều dưỡng (Nursing)",
+            "name_ko": "간호학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Quản lý Y tế & Bệnh viện",
+            "name_ko": "보건행정학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Vật lý trị liệu & Phục hồi chức năng",
+            "name_ko": "물리치료학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Dược học",
+            "name_ko": "약학과",
+            "is_hot": true
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "mock_uni_139",
@@ -5055,7 +24099,144 @@ export const universities = [
     "dorm_fee_desc": "1,200,000-1,800,000KRW",
     "admission_conditions": "",
     "featured_majors": "Nha khoa – Y khoa – Kỹ thuật",
-    "regional_restrictions": ""
+    "regional_restrictions": "",
+    "majors_detail": [
+      {
+        "category": "humanities_social",
+        "faculty_name_vi": "Khoa Nhân văn & Khoa học Xã hội",
+        "faculty_name_ko": "인문사회대학",
+        "tuition_krw": 2947000,
+        "majors": [
+          {
+            "name_vi": "Quản trị Kinh doanh",
+            "name_ko": "경영학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Ngôn ngữ & Văn hóa Hàn Quốc",
+            "name_ko": "한국언어문화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Truyền thông & Báo chí",
+            "name_ko": "미디어언론학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Thương mại Quốc tế",
+            "name_ko": "국제무역학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "engineering",
+        "faculty_name_vi": "Khoa Kỹ thuật & Công nghệ Thông tin",
+        "faculty_name_ko": "공과대학",
+        "tuition_krw": 4427000,
+        "majors": [
+          {
+            "name_vi": "Khoa học Máy tính & AI",
+            "name_ko": "컴퓨터공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Công nghệ Thông tin (IT)",
+            "name_ko": "정보통신공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Kỹ thuật Điện - Điện tử",
+            "name_ko": "전기전자공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Kỹ thuật Cơ khí",
+            "name_ko": "기계공학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "natural_sciences",
+        "faculty_name_vi": "Khoa Khoa học Tự nhiên & Sinh học",
+        "faculty_name_ko": "자연과학대학",
+        "tuition_krw": 2651000,
+        "majors": [
+          {
+            "name_vi": "Hóa học & Vật liệu mới",
+            "name_ko": "화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Công nghệ Thực phẩm & Dinh dưỡng",
+            "name_ko": "식품영양학과",
+            "is_hot": false
+          },
+          {
+            "name_vi": "Sinh học Ứng dụng & Công nghệ Sinh học",
+            "name_ko": "생명공학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "arts_sports",
+        "faculty_name_vi": "Khoa Nghệ thuật & Thể dục Thể thao",
+        "faculty_name_ko": "예체능대학",
+        "tuition_krw": 2506000,
+        "majors": [
+          {
+            "name_vi": "Thiết kế Đồ họa & Kỹ thuật số",
+            "name_ko": "시각디자인학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Nghệ thuật Thẩm mỹ & Trang điểm (Make-up)",
+            "name_ko": "뷰티미용학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Diễn xuất, Sân khấu & Điện ảnh",
+            "name_ko": "연극영화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Âm nhạc K-Pop & Vẫn nghệ",
+            "name_ko": "실용음악학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "medicine_pharmacy",
+        "faculty_name_vi": "Khoa Y - Dược & Khoa học Y tế",
+        "faculty_name_ko": "의치약학/보건대학",
+        "tuition_krw": 2947000,
+        "majors": [
+          {
+            "name_vi": "Điều dưỡng (Nursing)",
+            "name_ko": "간호학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Quản lý Y tế & Bệnh viện",
+            "name_ko": "보건행정학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Vật lý trị liệu & Phục hồi chức năng",
+            "name_ko": "물리치료학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Dược học",
+            "name_ko": "약학과",
+            "is_hot": true
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "mock_uni_140",
@@ -5093,7 +24274,144 @@ export const universities = [
     "dorm_fee_desc": "700,000-920,000KRW",
     "admission_conditions": "- 7.0 trở lên\n- vắng không quá 10 buổi",
     "featured_majors": "Y khoa – Luật – Kinh doanh",
-    "regional_restrictions": "Không nhận Quảng Bình"
+    "regional_restrictions": "Không nhận Quảng Bình",
+    "majors_detail": [
+      {
+        "category": "humanities_social",
+        "faculty_name_vi": "Khoa Nhân văn & Khoa học Xã hội",
+        "faculty_name_ko": "인문사회대학",
+        "tuition_krw": 2030000,
+        "majors": [
+          {
+            "name_vi": "Quản trị Kinh doanh",
+            "name_ko": "경영학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Ngôn ngữ & Văn hóa Hàn Quốc",
+            "name_ko": "한국언어문화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Truyền thông & Báo chí",
+            "name_ko": "미디어언론학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Thương mại Quốc tế",
+            "name_ko": "국제무역학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "engineering",
+        "faculty_name_vi": "Khoa Kỹ thuật & Công nghệ Thông tin",
+        "faculty_name_ko": "공과대학",
+        "tuition_krw": 2417000,
+        "majors": [
+          {
+            "name_vi": "Khoa học Máy tính & AI",
+            "name_ko": "컴퓨터공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Công nghệ Thông tin (IT)",
+            "name_ko": "정보통신공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Kỹ thuật Điện - Điện tử",
+            "name_ko": "전기전자공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Kỹ thuật Cơ khí",
+            "name_ko": "기계공학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "natural_sciences",
+        "faculty_name_vi": "Khoa Khoa học Tự nhiên & Sinh học",
+        "faculty_name_ko": "자연과학대학",
+        "tuition_krw": 2956000,
+        "majors": [
+          {
+            "name_vi": "Hóa học & Vật liệu mới",
+            "name_ko": "화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Công nghệ Thực phẩm & Dinh dưỡng",
+            "name_ko": "식품영양학과",
+            "is_hot": false
+          },
+          {
+            "name_vi": "Sinh học Ứng dụng & Công nghệ Sinh học",
+            "name_ko": "생명공학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "arts_sports",
+        "faculty_name_vi": "Khoa Nghệ thuật & Thể dục Thể thao",
+        "faculty_name_ko": "예체능대학",
+        "tuition_krw": 4399000,
+        "majors": [
+          {
+            "name_vi": "Thiết kế Đồ họa & Kỹ thuật số",
+            "name_ko": "시각디자인학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Nghệ thuật Thẩm mỹ & Trang điểm (Make-up)",
+            "name_ko": "뷰티미용학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Diễn xuất, Sân khấu & Điện ảnh",
+            "name_ko": "연극영화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Âm nhạc K-Pop & Vẫn nghệ",
+            "name_ko": "실용음악학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "medicine_pharmacy",
+        "faculty_name_vi": "Khoa Y - Dược & Khoa học Y tế",
+        "faculty_name_ko": "의치약학/보건대학",
+        "tuition_krw": 2289000,
+        "majors": [
+          {
+            "name_vi": "Điều dưỡng (Nursing)",
+            "name_ko": "간호학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Quản lý Y tế & Bệnh viện",
+            "name_ko": "보건행정학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Vật lý trị liệu & Phục hồi chức năng",
+            "name_ko": "물리치료학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Dược học",
+            "name_ko": "약학과",
+            "is_hot": true
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "mock_uni_141",
@@ -5131,7 +24449,144 @@ export const universities = [
     "dorm_fee_desc": "1,700,000-2,600,000KRW",
     "admission_conditions": "",
     "featured_majors": "Hải dương – Thủy sản – Logistics",
-    "regional_restrictions": ""
+    "regional_restrictions": "",
+    "majors_detail": [
+      {
+        "category": "humanities_social",
+        "faculty_name_vi": "Khoa Nhân văn & Khoa học Xã hội",
+        "faculty_name_ko": "인문사회대학",
+        "tuition_krw": 4477000,
+        "majors": [
+          {
+            "name_vi": "Quản trị Kinh doanh",
+            "name_ko": "경영학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Ngôn ngữ & Văn hóa Hàn Quốc",
+            "name_ko": "한국언어문화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Truyền thông & Báo chí",
+            "name_ko": "미디어언론학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Thương mại Quốc tế",
+            "name_ko": "국제무역학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "engineering",
+        "faculty_name_vi": "Khoa Kỹ thuật & Công nghệ Thông tin",
+        "faculty_name_ko": "공과대학",
+        "tuition_krw": 3119000,
+        "majors": [
+          {
+            "name_vi": "Khoa học Máy tính & AI",
+            "name_ko": "컴퓨터공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Công nghệ Thông tin (IT)",
+            "name_ko": "정보통신공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Kỹ thuật Điện - Điện tử",
+            "name_ko": "전기전자공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Kỹ thuật Cơ khí",
+            "name_ko": "기계공학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "natural_sciences",
+        "faculty_name_vi": "Khoa Khoa học Tự nhiên & Sinh học",
+        "faculty_name_ko": "자연과학대학",
+        "tuition_krw": 2126000,
+        "majors": [
+          {
+            "name_vi": "Hóa học & Vật liệu mới",
+            "name_ko": "화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Công nghệ Thực phẩm & Dinh dưỡng",
+            "name_ko": "식품영양학과",
+            "is_hot": false
+          },
+          {
+            "name_vi": "Sinh học Ứng dụng & Công nghệ Sinh học",
+            "name_ko": "생명공학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "arts_sports",
+        "faculty_name_vi": "Khoa Nghệ thuật & Thể dục Thể thao",
+        "faculty_name_ko": "예체능대학",
+        "tuition_krw": 2151000,
+        "majors": [
+          {
+            "name_vi": "Thiết kế Đồ họa & Kỹ thuật số",
+            "name_ko": "시각디자인학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Nghệ thuật Thẩm mỹ & Trang điểm (Make-up)",
+            "name_ko": "뷰티미용학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Diễn xuất, Sân khấu & Điện ảnh",
+            "name_ko": "연극영화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Âm nhạc K-Pop & Vẫn nghệ",
+            "name_ko": "실용음악학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "medicine_pharmacy",
+        "faculty_name_vi": "Khoa Y - Dược & Khoa học Y tế",
+        "faculty_name_ko": "의치약학/보건대학",
+        "tuition_krw": 2266000,
+        "majors": [
+          {
+            "name_vi": "Điều dưỡng (Nursing)",
+            "name_ko": "간호학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Quản lý Y tế & Bệnh viện",
+            "name_ko": "보건행정학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Vật lý trị liệu & Phục hồi chức năng",
+            "name_ko": "물리치료학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Dược học",
+            "name_ko": "약학과",
+            "is_hot": true
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "mock_uni_142",
@@ -5170,7 +24625,144 @@ export const universities = [
     "admission_conditions": "",
     "featured_majors": "Cơ khí – Robot – Công nghiệp",
     "regional_restrictions": "",
-    "is_restricted_school": true
+    "is_restricted_school": true,
+    "majors_detail": [
+      {
+        "category": "humanities_social",
+        "faculty_name_vi": "Khoa Nhân văn & Khoa học Xã hội",
+        "faculty_name_ko": "인문사회대학",
+        "tuition_krw": 2855000,
+        "majors": [
+          {
+            "name_vi": "Quản trị Kinh doanh",
+            "name_ko": "경영학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Ngôn ngữ & Văn hóa Hàn Quốc",
+            "name_ko": "한국언어문화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Truyền thông & Báo chí",
+            "name_ko": "미디어언론학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Thương mại Quốc tế",
+            "name_ko": "국제무역학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "engineering",
+        "faculty_name_vi": "Khoa Kỹ thuật & Công nghệ Thông tin",
+        "faculty_name_ko": "공과대학",
+        "tuition_krw": 4655000,
+        "majors": [
+          {
+            "name_vi": "Khoa học Máy tính & AI",
+            "name_ko": "컴퓨터공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Công nghệ Thông tin (IT)",
+            "name_ko": "정보통신공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Kỹ thuật Điện - Điện tử",
+            "name_ko": "전기전자공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Kỹ thuật Cơ khí",
+            "name_ko": "기계공학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "natural_sciences",
+        "faculty_name_vi": "Khoa Khoa học Tự nhiên & Sinh học",
+        "faculty_name_ko": "자연과학대학",
+        "tuition_krw": 3350000,
+        "majors": [
+          {
+            "name_vi": "Hóa học & Vật liệu mới",
+            "name_ko": "화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Công nghệ Thực phẩm & Dinh dưỡng",
+            "name_ko": "식품영양학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Sinh học Ứng dụng & Công nghệ Sinh học",
+            "name_ko": "생명공학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "arts_sports",
+        "faculty_name_vi": "Khoa Nghệ thuật & Thể dục Thể thao",
+        "faculty_name_ko": "예체능대학",
+        "tuition_krw": 2862000,
+        "majors": [
+          {
+            "name_vi": "Thiết kế Đồ họa & Kỹ thuật số",
+            "name_ko": "시각디자인학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Nghệ thuật Thẩm mỹ & Trang điểm (Make-up)",
+            "name_ko": "뷰티미용학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Diễn xuất, Sân khấu & Điện ảnh",
+            "name_ko": "연극영화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Âm nhạc K-Pop & Vẫn nghệ",
+            "name_ko": "실용음악학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "medicine_pharmacy",
+        "faculty_name_vi": "Khoa Y - Dược & Khoa học Y tế",
+        "faculty_name_ko": "의치약학/보건대학",
+        "tuition_krw": 4188000,
+        "majors": [
+          {
+            "name_vi": "Điều dưỡng (Nursing)",
+            "name_ko": "간호학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Quản lý Y tế & Bệnh viện",
+            "name_ko": "보건행정학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Vật lý trị liệu & Phục hồi chức năng",
+            "name_ko": "물리치료학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Dược học",
+            "name_ko": "약학과",
+            "is_hot": true
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "mock_uni_143",
@@ -5200,7 +24792,144 @@ export const universities = [
     "visa_metropolitan": false,
     "master_no_topik": false,
     "custom_notes": "",
-    "top_1_percent": false
+    "top_1_percent": false,
+    "majors_detail": [
+      {
+        "category": "humanities_social",
+        "faculty_name_vi": "Khoa Nhân văn & Khoa học Xã hội",
+        "faculty_name_ko": "인문사회대학",
+        "tuition_krw": 4986000,
+        "majors": [
+          {
+            "name_vi": "Quản trị Kinh doanh",
+            "name_ko": "경영학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Ngôn ngữ & Văn hóa Hàn Quốc",
+            "name_ko": "한국언어문화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Truyền thông & Báo chí",
+            "name_ko": "미디어언론학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Thương mại Quốc tế",
+            "name_ko": "국제무역학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "engineering",
+        "faculty_name_vi": "Khoa Kỹ thuật & Công nghệ Thông tin",
+        "faculty_name_ko": "공과대학",
+        "tuition_krw": 3196000,
+        "majors": [
+          {
+            "name_vi": "Khoa học Máy tính & AI",
+            "name_ko": "컴퓨터공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Công nghệ Thông tin (IT)",
+            "name_ko": "정보통신공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Kỹ thuật Điện - Điện tử",
+            "name_ko": "전기전자공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Kỹ thuật Cơ khí",
+            "name_ko": "기계공학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "natural_sciences",
+        "faculty_name_vi": "Khoa Khoa học Tự nhiên & Sinh học",
+        "faculty_name_ko": "자연과학대학",
+        "tuition_krw": 3081000,
+        "majors": [
+          {
+            "name_vi": "Hóa học & Vật liệu mới",
+            "name_ko": "화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Công nghệ Thực phẩm & Dinh dưỡng",
+            "name_ko": "식품영양학과",
+            "is_hot": false
+          },
+          {
+            "name_vi": "Sinh học Ứng dụng & Công nghệ Sinh học",
+            "name_ko": "생명공학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "arts_sports",
+        "faculty_name_vi": "Khoa Nghệ thuật & Thể dục Thể thao",
+        "faculty_name_ko": "예체능대학",
+        "tuition_krw": 4626000,
+        "majors": [
+          {
+            "name_vi": "Thiết kế Đồ họa & Kỹ thuật số",
+            "name_ko": "시각디자인학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Nghệ thuật Thẩm mỹ & Trang điểm (Make-up)",
+            "name_ko": "뷰티미용학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Diễn xuất, Sân khấu & Điện ảnh",
+            "name_ko": "연극영화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Âm nhạc K-Pop & Vẫn nghệ",
+            "name_ko": "실용음악학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "medicine_pharmacy",
+        "faculty_name_vi": "Khoa Y - Dược & Khoa học Y tế",
+        "faculty_name_ko": "의치약학/보건대학",
+        "tuition_krw": 4986000,
+        "majors": [
+          {
+            "name_vi": "Điều dưỡng (Nursing)",
+            "name_ko": "간호학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Quản lý Y tế & Bệnh viện",
+            "name_ko": "보건행정학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Vật lý trị liệu & Phục hồi chức năng",
+            "name_ko": "물리치료학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Dược học",
+            "name_ko": "약학과",
+            "is_hot": true
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "mock_uni_144",
@@ -5238,7 +24967,144 @@ export const universities = [
     "dorm_fee_desc": "800,000-1,200,000KRW",
     "admission_conditions": "",
     "featured_majors": "Thiết kế – Diễn xuất – Truyền thông",
-    "regional_restrictions": ""
+    "regional_restrictions": "",
+    "majors_detail": [
+      {
+        "category": "humanities_social",
+        "faculty_name_vi": "Khoa Nhân văn & Khoa học Xã hội",
+        "faculty_name_ko": "인문사회대학",
+        "tuition_krw": 2205000,
+        "majors": [
+          {
+            "name_vi": "Quản trị Kinh doanh",
+            "name_ko": "경영학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Ngôn ngữ & Văn hóa Hàn Quốc",
+            "name_ko": "한국언어문화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Truyền thông & Báo chí",
+            "name_ko": "미디어언론학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Thương mại Quốc tế",
+            "name_ko": "국제무역학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "engineering",
+        "faculty_name_vi": "Khoa Kỹ thuật & Công nghệ Thông tin",
+        "faculty_name_ko": "공과대학",
+        "tuition_krw": 4832000,
+        "majors": [
+          {
+            "name_vi": "Khoa học Máy tính & AI",
+            "name_ko": "컴퓨터공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Công nghệ Thông tin (IT)",
+            "name_ko": "정보통신공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Kỹ thuật Điện - Điện tử",
+            "name_ko": "전기전자공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Kỹ thuật Cơ khí",
+            "name_ko": "기계공학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "natural_sciences",
+        "faculty_name_vi": "Khoa Khoa học Tự nhiên & Sinh học",
+        "faculty_name_ko": "자연과학대학",
+        "tuition_krw": 3800000,
+        "majors": [
+          {
+            "name_vi": "Hóa học & Vật liệu mới",
+            "name_ko": "화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Công nghệ Thực phẩm & Dinh dưỡng",
+            "name_ko": "식품영양학과",
+            "is_hot": false
+          },
+          {
+            "name_vi": "Sinh học Ứng dụng & Công nghệ Sinh học",
+            "name_ko": "생명공학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "arts_sports",
+        "faculty_name_vi": "Khoa Nghệ thuật & Thể dục Thể thao",
+        "faculty_name_ko": "예체능대학",
+        "tuition_krw": 2205000,
+        "majors": [
+          {
+            "name_vi": "Thiết kế Đồ họa & Kỹ thuật số",
+            "name_ko": "시각디자인학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Nghệ thuật Thẩm mỹ & Trang điểm (Make-up)",
+            "name_ko": "뷰티미용학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Diễn xuất, Sân khấu & Điện ảnh",
+            "name_ko": "연극영화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Âm nhạc K-Pop & Vẫn nghệ",
+            "name_ko": "실용음악학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "medicine_pharmacy",
+        "faculty_name_vi": "Khoa Y - Dược & Khoa học Y tế",
+        "faculty_name_ko": "의치약학/보건대학",
+        "tuition_krw": 2048000,
+        "majors": [
+          {
+            "name_vi": "Điều dưỡng (Nursing)",
+            "name_ko": "간호학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Quản lý Y tế & Bệnh viện",
+            "name_ko": "보건행정학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Vật lý trị liệu & Phục hồi chức năng",
+            "name_ko": "물리치료학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Dược học",
+            "name_ko": "약학과",
+            "is_hot": true
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "mock_uni_145",
@@ -5268,7 +25134,144 @@ export const universities = [
     "visa_metropolitan": false,
     "master_no_topik": false,
     "custom_notes": "",
-    "top_1_percent": false
+    "top_1_percent": false,
+    "majors_detail": [
+      {
+        "category": "humanities_social",
+        "faculty_name_vi": "Khoa Nhân văn & Khoa học Xã hội",
+        "faculty_name_ko": "인문사회대학",
+        "tuition_krw": 3305000,
+        "majors": [
+          {
+            "name_vi": "Quản trị Kinh doanh",
+            "name_ko": "경영학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Ngôn ngữ & Văn hóa Hàn Quốc",
+            "name_ko": "한국언어문화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Truyền thông & Báo chí",
+            "name_ko": "미디어언론학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Thương mại Quốc tế",
+            "name_ko": "국제무역학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "engineering",
+        "faculty_name_vi": "Khoa Kỹ thuật & Công nghệ Thông tin",
+        "faculty_name_ko": "공과대학",
+        "tuition_krw": 4040000,
+        "majors": [
+          {
+            "name_vi": "Khoa học Máy tính & AI",
+            "name_ko": "컴퓨터공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Công nghệ Thông tin (IT)",
+            "name_ko": "정보통신공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Kỹ thuật Điện - Điện tử",
+            "name_ko": "전기전자공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Kỹ thuật Cơ khí",
+            "name_ko": "기계공학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "natural_sciences",
+        "faculty_name_vi": "Khoa Khoa học Tự nhiên & Sinh học",
+        "faculty_name_ko": "자연과학대학",
+        "tuition_krw": 3734000,
+        "majors": [
+          {
+            "name_vi": "Hóa học & Vật liệu mới",
+            "name_ko": "화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Công nghệ Thực phẩm & Dinh dưỡng",
+            "name_ko": "식품영양학과",
+            "is_hot": false
+          },
+          {
+            "name_vi": "Sinh học Ứng dụng & Công nghệ Sinh học",
+            "name_ko": "생명공학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "arts_sports",
+        "faculty_name_vi": "Khoa Nghệ thuật & Thể dục Thể thao",
+        "faculty_name_ko": "예체능대학",
+        "tuition_krw": 4479000,
+        "majors": [
+          {
+            "name_vi": "Thiết kế Đồ họa & Kỹ thuật số",
+            "name_ko": "시각디자인학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Nghệ thuật Thẩm mỹ & Trang điểm (Make-up)",
+            "name_ko": "뷰티미용학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Diễn xuất, Sân khấu & Điện ảnh",
+            "name_ko": "연극영화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Âm nhạc K-Pop & Vẫn nghệ",
+            "name_ko": "실용음악학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "medicine_pharmacy",
+        "faculty_name_vi": "Khoa Y - Dược & Khoa học Y tế",
+        "faculty_name_ko": "의치약학/보건대학",
+        "tuition_krw": 3236000,
+        "majors": [
+          {
+            "name_vi": "Điều dưỡng (Nursing)",
+            "name_ko": "간호학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Quản lý Y tế & Bệnh viện",
+            "name_ko": "보건행정학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Vật lý trị liệu & Phục hồi chức năng",
+            "name_ko": "물리치료학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Dược học",
+            "name_ko": "약학과",
+            "is_hot": true
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "mock_uni_146",
@@ -5298,7 +25301,144 @@ export const universities = [
     "visa_metropolitan": false,
     "master_no_topik": false,
     "custom_notes": "",
-    "top_1_percent": false
+    "top_1_percent": false,
+    "majors_detail": [
+      {
+        "category": "humanities_social",
+        "faculty_name_vi": "Khoa Nhân văn & Khoa học Xã hội",
+        "faculty_name_ko": "인문사회대학",
+        "tuition_krw": 3810000,
+        "majors": [
+          {
+            "name_vi": "Quản trị Kinh doanh",
+            "name_ko": "경영학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Ngôn ngữ & Văn hóa Hàn Quốc",
+            "name_ko": "한국언어문화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Truyền thông & Báo chí",
+            "name_ko": "미디어언론학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Thương mại Quốc tế",
+            "name_ko": "국제무역학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "engineering",
+        "faculty_name_vi": "Khoa Kỹ thuật & Công nghệ Thông tin",
+        "faculty_name_ko": "공과대학",
+        "tuition_krw": 3479000,
+        "majors": [
+          {
+            "name_vi": "Khoa học Máy tính & AI",
+            "name_ko": "컴퓨터공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Công nghệ Thông tin (IT)",
+            "name_ko": "정보통신공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Kỹ thuật Điện - Điện tử",
+            "name_ko": "전기전자공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Kỹ thuật Cơ khí",
+            "name_ko": "기계공학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "natural_sciences",
+        "faculty_name_vi": "Khoa Khoa học Tự nhiên & Sinh học",
+        "faculty_name_ko": "자연과학대학",
+        "tuition_krw": 3910000,
+        "majors": [
+          {
+            "name_vi": "Hóa học & Vật liệu mới",
+            "name_ko": "화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Công nghệ Thực phẩm & Dinh dưỡng",
+            "name_ko": "식품영양학과",
+            "is_hot": false
+          },
+          {
+            "name_vi": "Sinh học Ứng dụng & Công nghệ Sinh học",
+            "name_ko": "생명공학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "arts_sports",
+        "faculty_name_vi": "Khoa Nghệ thuật & Thể dục Thể thao",
+        "faculty_name_ko": "예체능대학",
+        "tuition_krw": 3664000,
+        "majors": [
+          {
+            "name_vi": "Thiết kế Đồ họa & Kỹ thuật số",
+            "name_ko": "시각디자인학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Nghệ thuật Thẩm mỹ & Trang điểm (Make-up)",
+            "name_ko": "뷰티미용학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Diễn xuất, Sân khấu & Điện ảnh",
+            "name_ko": "연극영화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Âm nhạc K-Pop & Vẫn nghệ",
+            "name_ko": "실용음악학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "medicine_pharmacy",
+        "faculty_name_vi": "Khoa Y - Dược & Khoa học Y tế",
+        "faculty_name_ko": "의치약학/보건대학",
+        "tuition_krw": 3810000,
+        "majors": [
+          {
+            "name_vi": "Điều dưỡng (Nursing)",
+            "name_ko": "간호학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Quản lý Y tế & Bệnh viện",
+            "name_ko": "보건행정학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Vật lý trị liệu & Phục hồi chức năng",
+            "name_ko": "물리치료학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Dược học",
+            "name_ko": "약학과",
+            "is_hot": true
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "mock_uni_147",
@@ -5336,7 +25476,144 @@ export const universities = [
     "dorm_fee_desc": "1,600,000KRW",
     "admission_conditions": "",
     "featured_majors": "Mỹ thuật – Thiết kế – Kiến trúc",
-    "regional_restrictions": ""
+    "regional_restrictions": "",
+    "majors_detail": [
+      {
+        "category": "humanities_social",
+        "faculty_name_vi": "Khoa Nhân văn & Khoa học Xã hội",
+        "faculty_name_ko": "인문사회대학",
+        "tuition_krw": 2233000,
+        "majors": [
+          {
+            "name_vi": "Quản trị Kinh doanh",
+            "name_ko": "경영학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Ngôn ngữ & Văn hóa Hàn Quốc",
+            "name_ko": "한국언어문화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Truyền thông & Báo chí",
+            "name_ko": "미디어언론학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Thương mại Quốc tế",
+            "name_ko": "국제무역학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "engineering",
+        "faculty_name_vi": "Khoa Kỹ thuật & Công nghệ Thông tin",
+        "faculty_name_ko": "공과대학",
+        "tuition_krw": 4791000,
+        "majors": [
+          {
+            "name_vi": "Khoa học Máy tính & AI",
+            "name_ko": "컴퓨터공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Công nghệ Thông tin (IT)",
+            "name_ko": "정보통신공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Kỹ thuật Điện - Điện tử",
+            "name_ko": "전기전자공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Kỹ thuật Cơ khí",
+            "name_ko": "기계공학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "natural_sciences",
+        "faculty_name_vi": "Khoa Khoa học Tự nhiên & Sinh học",
+        "faculty_name_ko": "자연과학대학",
+        "tuition_krw": 2463000,
+        "majors": [
+          {
+            "name_vi": "Hóa học & Vật liệu mới",
+            "name_ko": "화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Công nghệ Thực phẩm & Dinh dưỡng",
+            "name_ko": "식품영양학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Sinh học Ứng dụng & Công nghệ Sinh học",
+            "name_ko": "생명공학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "arts_sports",
+        "faculty_name_vi": "Khoa Nghệ thuật & Thể dục Thể thao",
+        "faculty_name_ko": "예체능대학",
+        "tuition_krw": 4363000,
+        "majors": [
+          {
+            "name_vi": "Thiết kế Đồ họa & Kỹ thuật số",
+            "name_ko": "시각디자인학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Nghệ thuật Thẩm mỹ & Trang điểm (Make-up)",
+            "name_ko": "뷰티미용학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Diễn xuất, Sân khấu & Điện ảnh",
+            "name_ko": "연극영화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Âm nhạc K-Pop & Vẫn nghệ",
+            "name_ko": "실용음악학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "medicine_pharmacy",
+        "faculty_name_vi": "Khoa Y - Dược & Khoa học Y tế",
+        "faculty_name_ko": "의치약학/보건대학",
+        "tuition_krw": 2449000,
+        "majors": [
+          {
+            "name_vi": "Điều dưỡng (Nursing)",
+            "name_ko": "간호학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Quản lý Y tế & Bệnh viện",
+            "name_ko": "보건행정학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Vật lý trị liệu & Phục hồi chức năng",
+            "name_ko": "물리치료학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Dược học",
+            "name_ko": "약학과",
+            "is_hot": true
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "mock_uni_148",
@@ -5374,7 +25651,144 @@ export const universities = [
     "dorm_fee_desc": "1,000,000-1,400,000KRW",
     "admission_conditions": "",
     "featured_majors": "Làm đẹp – Nghệ thuật – Diễn xuất",
-    "regional_restrictions": ""
+    "regional_restrictions": "",
+    "majors_detail": [
+      {
+        "category": "humanities_social",
+        "faculty_name_vi": "Khoa Nhân văn & Khoa học Xã hội",
+        "faculty_name_ko": "인문사회대학",
+        "tuition_krw": 3340000,
+        "majors": [
+          {
+            "name_vi": "Quản trị Kinh doanh",
+            "name_ko": "경영학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Ngôn ngữ & Văn hóa Hàn Quốc",
+            "name_ko": "한국언어문화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Truyền thông & Báo chí",
+            "name_ko": "미디어언론학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Thương mại Quốc tế",
+            "name_ko": "국제무역학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "engineering",
+        "faculty_name_vi": "Khoa Kỹ thuật & Công nghệ Thông tin",
+        "faculty_name_ko": "공과대학",
+        "tuition_krw": 4081000,
+        "majors": [
+          {
+            "name_vi": "Khoa học Máy tính & AI",
+            "name_ko": "컴퓨터공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Công nghệ Thông tin (IT)",
+            "name_ko": "정보통신공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Kỹ thuật Điện - Điện tử",
+            "name_ko": "전기전자공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Kỹ thuật Cơ khí",
+            "name_ko": "기계공학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "natural_sciences",
+        "faculty_name_vi": "Khoa Khoa học Tự nhiên & Sinh học",
+        "faculty_name_ko": "자연과학대학",
+        "tuition_krw": 2513000,
+        "majors": [
+          {
+            "name_vi": "Hóa học & Vật liệu mới",
+            "name_ko": "화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Công nghệ Thực phẩm & Dinh dưỡng",
+            "name_ko": "식품영양학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Sinh học Ứng dụng & Công nghệ Sinh học",
+            "name_ko": "생명공학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "arts_sports",
+        "faculty_name_vi": "Khoa Nghệ thuật & Thể dục Thể thao",
+        "faculty_name_ko": "예체능대학",
+        "tuition_krw": 3313000,
+        "majors": [
+          {
+            "name_vi": "Thiết kế Đồ họa & Kỹ thuật số",
+            "name_ko": "시각디자인학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Nghệ thuật Thẩm mỹ & Trang điểm (Make-up)",
+            "name_ko": "뷰티미용학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Diễn xuất, Sân khấu & Điện ảnh",
+            "name_ko": "연극영화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Âm nhạc K-Pop & Vẫn nghệ",
+            "name_ko": "실용음악학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "medicine_pharmacy",
+        "faculty_name_vi": "Khoa Y - Dược & Khoa học Y tế",
+        "faculty_name_ko": "의치약학/보건대학",
+        "tuition_krw": 4345000,
+        "majors": [
+          {
+            "name_vi": "Điều dưỡng (Nursing)",
+            "name_ko": "간호학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Quản lý Y tế & Bệnh viện",
+            "name_ko": "보건행정학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Vật lý trị liệu & Phục hồi chức năng",
+            "name_ko": "물리치료학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Dược học",
+            "name_ko": "약학과",
+            "is_hot": true
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "mock_uni_149",
@@ -5412,7 +25826,144 @@ export const universities = [
     "dorm_fee_desc": "1,200,000-1,800,000KRW",
     "admission_conditions": "",
     "featured_majors": "",
-    "regional_restrictions": ""
+    "regional_restrictions": "",
+    "majors_detail": [
+      {
+        "category": "humanities_social",
+        "faculty_name_vi": "Khoa Nhân văn & Khoa học Xã hội",
+        "faculty_name_ko": "인문사회대학",
+        "tuition_krw": 2069000,
+        "majors": [
+          {
+            "name_vi": "Quản trị Kinh doanh",
+            "name_ko": "경영학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Ngôn ngữ & Văn hóa Hàn Quốc",
+            "name_ko": "한국언어문화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Truyền thông & Báo chí",
+            "name_ko": "미디어언론학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Thương mại Quốc tế",
+            "name_ko": "국제무역학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "engineering",
+        "faculty_name_vi": "Khoa Kỹ thuật & Công nghệ Thông tin",
+        "faculty_name_ko": "공과대학",
+        "tuition_krw": 3927000,
+        "majors": [
+          {
+            "name_vi": "Khoa học Máy tính & AI",
+            "name_ko": "컴퓨터공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Công nghệ Thông tin (IT)",
+            "name_ko": "정보통신공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Kỹ thuật Điện - Điện tử",
+            "name_ko": "전기전자공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Kỹ thuật Cơ khí",
+            "name_ko": "기계공학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "natural_sciences",
+        "faculty_name_vi": "Khoa Khoa học Tự nhiên & Sinh học",
+        "faculty_name_ko": "자연과학대학",
+        "tuition_krw": 2094000,
+        "majors": [
+          {
+            "name_vi": "Hóa học & Vật liệu mới",
+            "name_ko": "화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Công nghệ Thực phẩm & Dinh dưỡng",
+            "name_ko": "식품영양학과",
+            "is_hot": false
+          },
+          {
+            "name_vi": "Sinh học Ứng dụng & Công nghệ Sinh học",
+            "name_ko": "생명공학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "arts_sports",
+        "faculty_name_vi": "Khoa Nghệ thuật & Thể dục Thể thao",
+        "faculty_name_ko": "예체능대학",
+        "tuition_krw": 3344000,
+        "majors": [
+          {
+            "name_vi": "Thiết kế Đồ họa & Kỹ thuật số",
+            "name_ko": "시각디자인학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Nghệ thuật Thẩm mỹ & Trang điểm (Make-up)",
+            "name_ko": "뷰티미용학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Diễn xuất, Sân khấu & Điện ảnh",
+            "name_ko": "연극영화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Âm nhạc K-Pop & Vẫn nghệ",
+            "name_ko": "실용음악학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "medicine_pharmacy",
+        "faculty_name_vi": "Khoa Y - Dược & Khoa học Y tế",
+        "faculty_name_ko": "의치약학/보건대학",
+        "tuition_krw": 4364000,
+        "majors": [
+          {
+            "name_vi": "Điều dưỡng (Nursing)",
+            "name_ko": "간호학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Quản lý Y tế & Bệnh viện",
+            "name_ko": "보건행정학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Vật lý trị liệu & Phục hồi chức năng",
+            "name_ko": "물리치료학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Dược học",
+            "name_ko": "약학과",
+            "is_hot": true
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "mock_uni_150",
@@ -5450,7 +26001,144 @@ export const universities = [
     "dorm_fee_desc": "1,100,000KRW",
     "admission_conditions": "",
     "featured_majors": "Đông y – Điều dưỡng – Du lịch",
-    "regional_restrictions": ""
+    "regional_restrictions": "",
+    "majors_detail": [
+      {
+        "category": "humanities_social",
+        "faculty_name_vi": "Khoa Nhân văn & Khoa học Xã hội",
+        "faculty_name_ko": "인문사회대학",
+        "tuition_krw": 4738000,
+        "majors": [
+          {
+            "name_vi": "Quản trị Kinh doanh",
+            "name_ko": "경영학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Ngôn ngữ & Văn hóa Hàn Quốc",
+            "name_ko": "한국언어문화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Truyền thông & Báo chí",
+            "name_ko": "미디어언론학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Thương mại Quốc tế",
+            "name_ko": "국제무역학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "engineering",
+        "faculty_name_vi": "Khoa Kỹ thuật & Công nghệ Thông tin",
+        "faculty_name_ko": "공과대학",
+        "tuition_krw": 4908000,
+        "majors": [
+          {
+            "name_vi": "Khoa học Máy tính & AI",
+            "name_ko": "컴퓨터공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Công nghệ Thông tin (IT)",
+            "name_ko": "정보통신공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Kỹ thuật Điện - Điện tử",
+            "name_ko": "전기전자공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Kỹ thuật Cơ khí",
+            "name_ko": "기계공학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "natural_sciences",
+        "faculty_name_vi": "Khoa Khoa học Tự nhiên & Sinh học",
+        "faculty_name_ko": "자연과학대학",
+        "tuition_krw": 2459000,
+        "majors": [
+          {
+            "name_vi": "Hóa học & Vật liệu mới",
+            "name_ko": "화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Công nghệ Thực phẩm & Dinh dưỡng",
+            "name_ko": "식품영양학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Sinh học Ứng dụng & Công nghệ Sinh học",
+            "name_ko": "생명공학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "arts_sports",
+        "faculty_name_vi": "Khoa Nghệ thuật & Thể dục Thể thao",
+        "faculty_name_ko": "예체능대학",
+        "tuition_krw": 4590000,
+        "majors": [
+          {
+            "name_vi": "Thiết kế Đồ họa & Kỹ thuật số",
+            "name_ko": "시각디자인학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Nghệ thuật Thẩm mỹ & Trang điểm (Make-up)",
+            "name_ko": "뷰티미용학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Diễn xuất, Sân khấu & Điện ảnh",
+            "name_ko": "연극영화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Âm nhạc K-Pop & Vẫn nghệ",
+            "name_ko": "실용음악학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "medicine_pharmacy",
+        "faculty_name_vi": "Khoa Y - Dược & Khoa học Y tế",
+        "faculty_name_ko": "의치약학/보건대학",
+        "tuition_krw": 3465000,
+        "majors": [
+          {
+            "name_vi": "Điều dưỡng (Nursing)",
+            "name_ko": "간호학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Quản lý Y tế & Bệnh viện",
+            "name_ko": "보건행정학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Vật lý trị liệu & Phục hồi chức năng",
+            "name_ko": "물리치료학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Dược học",
+            "name_ko": "약학과",
+            "is_hot": true
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "mock_uni_151",
@@ -5488,7 +26176,144 @@ export const universities = [
     "dorm_fee_desc": "1,300,000-2,000,000KRW'",
     "admission_conditions": "",
     "featured_majors": "Kinh doanh khách sạn, quốc tế học, ngôn ngữ Hàn",
-    "regional_restrictions": ""
+    "regional_restrictions": "",
+    "majors_detail": [
+      {
+        "category": "humanities_social",
+        "faculty_name_vi": "Khoa Nhân văn & Khoa học Xã hội",
+        "faculty_name_ko": "인문사회대학",
+        "tuition_krw": 3461000,
+        "majors": [
+          {
+            "name_vi": "Quản trị Kinh doanh",
+            "name_ko": "경영학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Ngôn ngữ & Văn hóa Hàn Quốc",
+            "name_ko": "한국언어문화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Truyền thông & Báo chí",
+            "name_ko": "미디어언론학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Thương mại Quốc tế",
+            "name_ko": "국제무역학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "engineering",
+        "faculty_name_vi": "Khoa Kỹ thuật & Công nghệ Thông tin",
+        "faculty_name_ko": "공과대학",
+        "tuition_krw": 2118000,
+        "majors": [
+          {
+            "name_vi": "Khoa học Máy tính & AI",
+            "name_ko": "컴퓨터공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Công nghệ Thông tin (IT)",
+            "name_ko": "정보통신공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Kỹ thuật Điện - Điện tử",
+            "name_ko": "전기전자공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Kỹ thuật Cơ khí",
+            "name_ko": "기계공학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "natural_sciences",
+        "faculty_name_vi": "Khoa Khoa học Tự nhiên & Sinh học",
+        "faculty_name_ko": "자연과학대학",
+        "tuition_krw": 2052000,
+        "majors": [
+          {
+            "name_vi": "Hóa học & Vật liệu mới",
+            "name_ko": "화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Công nghệ Thực phẩm & Dinh dưỡng",
+            "name_ko": "식품영양학과",
+            "is_hot": false
+          },
+          {
+            "name_vi": "Sinh học Ứng dụng & Công nghệ Sinh học",
+            "name_ko": "생명공학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "arts_sports",
+        "faculty_name_vi": "Khoa Nghệ thuật & Thể dục Thể thao",
+        "faculty_name_ko": "예체능대학",
+        "tuition_krw": 2108000,
+        "majors": [
+          {
+            "name_vi": "Thiết kế Đồ họa & Kỹ thuật số",
+            "name_ko": "시각디자인학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Nghệ thuật Thẩm mỹ & Trang điểm (Make-up)",
+            "name_ko": "뷰티미용학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Diễn xuất, Sân khấu & Điện ảnh",
+            "name_ko": "연극영화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Âm nhạc K-Pop & Vẫn nghệ",
+            "name_ko": "실용음악학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "medicine_pharmacy",
+        "faculty_name_vi": "Khoa Y - Dược & Khoa học Y tế",
+        "faculty_name_ko": "의치약학/보건대학",
+        "tuition_krw": 2206000,
+        "majors": [
+          {
+            "name_vi": "Điều dưỡng (Nursing)",
+            "name_ko": "간호학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Quản lý Y tế & Bệnh viện",
+            "name_ko": "보건행정학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Vật lý trị liệu & Phục hồi chức năng",
+            "name_ko": "물리치료학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Dược học",
+            "name_ko": "약학과",
+            "is_hot": true
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "mock_uni_152",
@@ -5526,7 +26351,144 @@ export const universities = [
     "dorm_fee_desc": "1,100,000-1,900,000KRW",
     "admission_conditions": "",
     "featured_majors": "Ô tô – Đóng tàu – Kỹ thuật",
-    "regional_restrictions": ""
+    "regional_restrictions": "",
+    "majors_detail": [
+      {
+        "category": "humanities_social",
+        "faculty_name_vi": "Khoa Nhân văn & Khoa học Xã hội",
+        "faculty_name_ko": "인문사회대학",
+        "tuition_krw": 3209000,
+        "majors": [
+          {
+            "name_vi": "Quản trị Kinh doanh",
+            "name_ko": "경영학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Ngôn ngữ & Văn hóa Hàn Quốc",
+            "name_ko": "한국언어문화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Truyền thông & Báo chí",
+            "name_ko": "미디어언론학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Thương mại Quốc tế",
+            "name_ko": "국제무역학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "engineering",
+        "faculty_name_vi": "Khoa Kỹ thuật & Công nghệ Thông tin",
+        "faculty_name_ko": "공과대학",
+        "tuition_krw": 3892000,
+        "majors": [
+          {
+            "name_vi": "Khoa học Máy tính & AI",
+            "name_ko": "컴퓨터공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Công nghệ Thông tin (IT)",
+            "name_ko": "정보통신공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Kỹ thuật Điện - Điện tử",
+            "name_ko": "전기전자공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Kỹ thuật Cơ khí",
+            "name_ko": "기계공학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "natural_sciences",
+        "faculty_name_vi": "Khoa Khoa học Tự nhiên & Sinh học",
+        "faculty_name_ko": "자연과학대학",
+        "tuition_krw": 3320000,
+        "majors": [
+          {
+            "name_vi": "Hóa học & Vật liệu mới",
+            "name_ko": "화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Công nghệ Thực phẩm & Dinh dưỡng",
+            "name_ko": "식품영양학과",
+            "is_hot": false
+          },
+          {
+            "name_vi": "Sinh học Ứng dụng & Công nghệ Sinh học",
+            "name_ko": "생명공학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "arts_sports",
+        "faculty_name_vi": "Khoa Nghệ thuật & Thể dục Thể thao",
+        "faculty_name_ko": "예체능대학",
+        "tuition_krw": 2536000,
+        "majors": [
+          {
+            "name_vi": "Thiết kế Đồ họa & Kỹ thuật số",
+            "name_ko": "시각디자인학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Nghệ thuật Thẩm mỹ & Trang điểm (Make-up)",
+            "name_ko": "뷰티미용학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Diễn xuất, Sân khấu & Điện ảnh",
+            "name_ko": "연극영화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Âm nhạc K-Pop & Vẫn nghệ",
+            "name_ko": "실용음악학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "medicine_pharmacy",
+        "faculty_name_vi": "Khoa Y - Dược & Khoa học Y tế",
+        "faculty_name_ko": "의치약학/보건대학",
+        "tuition_krw": 2100000,
+        "majors": [
+          {
+            "name_vi": "Điều dưỡng (Nursing)",
+            "name_ko": "간호학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Quản lý Y tế & Bệnh viện",
+            "name_ko": "보건행정학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Vật lý trị liệu & Phục hồi chức năng",
+            "name_ko": "물리치료학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Dược học",
+            "name_ko": "약학과",
+            "is_hot": true
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "mock_uni_153",
@@ -5564,7 +26526,144 @@ export const universities = [
     "dorm_fee_desc": "1,300,000-1,800,000KRW",
     "admission_conditions": "",
     "featured_majors": "Luật – Khách sạn – Làm đẹp",
-    "regional_restrictions": ""
+    "regional_restrictions": "",
+    "majors_detail": [
+      {
+        "category": "humanities_social",
+        "faculty_name_vi": "Khoa Nhân văn & Khoa học Xã hội",
+        "faculty_name_ko": "인문사회대학",
+        "tuition_krw": 3234000,
+        "majors": [
+          {
+            "name_vi": "Quản trị Kinh doanh",
+            "name_ko": "경영학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Ngôn ngữ & Văn hóa Hàn Quốc",
+            "name_ko": "한국언어문화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Truyền thông & Báo chí",
+            "name_ko": "미디어언론학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Thương mại Quốc tế",
+            "name_ko": "국제무역학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "engineering",
+        "faculty_name_vi": "Khoa Kỹ thuật & Công nghệ Thông tin",
+        "faculty_name_ko": "공과대학",
+        "tuition_krw": 4706000,
+        "majors": [
+          {
+            "name_vi": "Khoa học Máy tính & AI",
+            "name_ko": "컴퓨터공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Công nghệ Thông tin (IT)",
+            "name_ko": "정보통신공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Kỹ thuật Điện - Điện tử",
+            "name_ko": "전기전자공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Kỹ thuật Cơ khí",
+            "name_ko": "기계공학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "natural_sciences",
+        "faculty_name_vi": "Khoa Khoa học Tự nhiên & Sinh học",
+        "faculty_name_ko": "자연과학대학",
+        "tuition_krw": 2423000,
+        "majors": [
+          {
+            "name_vi": "Hóa học & Vật liệu mới",
+            "name_ko": "화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Công nghệ Thực phẩm & Dinh dưỡng",
+            "name_ko": "식품영양학과",
+            "is_hot": false
+          },
+          {
+            "name_vi": "Sinh học Ứng dụng & Công nghệ Sinh học",
+            "name_ko": "생명공학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "arts_sports",
+        "faculty_name_vi": "Khoa Nghệ thuật & Thể dục Thể thao",
+        "faculty_name_ko": "예체능대학",
+        "tuition_krw": 2675000,
+        "majors": [
+          {
+            "name_vi": "Thiết kế Đồ họa & Kỹ thuật số",
+            "name_ko": "시각디자인학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Nghệ thuật Thẩm mỹ & Trang điểm (Make-up)",
+            "name_ko": "뷰티미용학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Diễn xuất, Sân khấu & Điện ảnh",
+            "name_ko": "연극영화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Âm nhạc K-Pop & Vẫn nghệ",
+            "name_ko": "실용음악학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "medicine_pharmacy",
+        "faculty_name_vi": "Khoa Y - Dược & Khoa học Y tế",
+        "faculty_name_ko": "의치약학/보건대학",
+        "tuition_krw": 3984000,
+        "majors": [
+          {
+            "name_vi": "Điều dưỡng (Nursing)",
+            "name_ko": "간호학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Quản lý Y tế & Bệnh viện",
+            "name_ko": "보건행정학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Vật lý trị liệu & Phục hồi chức năng",
+            "name_ko": "물리치료학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Dược học",
+            "name_ko": "약학과",
+            "is_hot": true
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "mock_uni_154",
@@ -5602,7 +26701,144 @@ export const universities = [
     "dorm_fee_desc": "800,000KRW",
     "admission_conditions": "",
     "featured_majors": "Hàng hải, Kỹ thuật, Kinh doanh",
-    "regional_restrictions": ""
+    "regional_restrictions": "",
+    "majors_detail": [
+      {
+        "category": "humanities_social",
+        "faculty_name_vi": "Khoa Nhân văn & Khoa học Xã hội",
+        "faculty_name_ko": "인문사회대학",
+        "tuition_krw": 4701000,
+        "majors": [
+          {
+            "name_vi": "Quản trị Kinh doanh",
+            "name_ko": "경영학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Ngôn ngữ & Văn hóa Hàn Quốc",
+            "name_ko": "한국언어문화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Truyền thông & Báo chí",
+            "name_ko": "미디어언론학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Thương mại Quốc tế",
+            "name_ko": "국제무역학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "engineering",
+        "faculty_name_vi": "Khoa Kỹ thuật & Công nghệ Thông tin",
+        "faculty_name_ko": "공과대학",
+        "tuition_krw": 2954000,
+        "majors": [
+          {
+            "name_vi": "Khoa học Máy tính & AI",
+            "name_ko": "컴퓨터공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Công nghệ Thông tin (IT)",
+            "name_ko": "정보통신공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Kỹ thuật Điện - Điện tử",
+            "name_ko": "전기전자공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Kỹ thuật Cơ khí",
+            "name_ko": "기계공학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "natural_sciences",
+        "faculty_name_vi": "Khoa Khoa học Tự nhiên & Sinh học",
+        "faculty_name_ko": "자연과학대학",
+        "tuition_krw": 3746000,
+        "majors": [
+          {
+            "name_vi": "Hóa học & Vật liệu mới",
+            "name_ko": "화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Công nghệ Thực phẩm & Dinh dưỡng",
+            "name_ko": "식품영양학과",
+            "is_hot": false
+          },
+          {
+            "name_vi": "Sinh học Ứng dụng & Công nghệ Sinh học",
+            "name_ko": "생명공학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "arts_sports",
+        "faculty_name_vi": "Khoa Nghệ thuật & Thể dục Thể thao",
+        "faculty_name_ko": "예체능대학",
+        "tuition_krw": 4856000,
+        "majors": [
+          {
+            "name_vi": "Thiết kế Đồ họa & Kỹ thuật số",
+            "name_ko": "시각디자인학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Nghệ thuật Thẩm mỹ & Trang điểm (Make-up)",
+            "name_ko": "뷰티미용학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Diễn xuất, Sân khấu & Điện ảnh",
+            "name_ko": "연극영화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Âm nhạc K-Pop & Vẫn nghệ",
+            "name_ko": "실용음악학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "medicine_pharmacy",
+        "faculty_name_vi": "Khoa Y - Dược & Khoa học Y tế",
+        "faculty_name_ko": "의치약학/보건대학",
+        "tuition_krw": 4701000,
+        "majors": [
+          {
+            "name_vi": "Điều dưỡng (Nursing)",
+            "name_ko": "간호학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Quản lý Y tế & Bệnh viện",
+            "name_ko": "보건행정학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Vật lý trị liệu & Phục hồi chức năng",
+            "name_ko": "물리치료학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Dược học",
+            "name_ko": "약학과",
+            "is_hot": true
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "mock_uni_155",
@@ -5632,7 +26868,144 @@ export const universities = [
     "visa_metropolitan": false,
     "master_no_topik": false,
     "custom_notes": "",
-    "top_1_percent": false
+    "top_1_percent": false,
+    "majors_detail": [
+      {
+        "category": "humanities_social",
+        "faculty_name_vi": "Khoa Nhân văn & Khoa học Xã hội",
+        "faculty_name_ko": "인문사회대학",
+        "tuition_krw": 3944000,
+        "majors": [
+          {
+            "name_vi": "Quản trị Kinh doanh",
+            "name_ko": "경영학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Ngôn ngữ & Văn hóa Hàn Quốc",
+            "name_ko": "한국언어문화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Truyền thông & Báo chí",
+            "name_ko": "미디어언론학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Thương mại Quốc tế",
+            "name_ko": "국제무역학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "engineering",
+        "faculty_name_vi": "Khoa Kỹ thuật & Công nghệ Thông tin",
+        "faculty_name_ko": "공과대학",
+        "tuition_krw": 4572000,
+        "majors": [
+          {
+            "name_vi": "Khoa học Máy tính & AI",
+            "name_ko": "컴퓨터공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Công nghệ Thông tin (IT)",
+            "name_ko": "정보통신공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Kỹ thuật Điện - Điện tử",
+            "name_ko": "전기전자공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Kỹ thuật Cơ khí",
+            "name_ko": "기계공학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "natural_sciences",
+        "faculty_name_vi": "Khoa Khoa học Tự nhiên & Sinh học",
+        "faculty_name_ko": "자연과학대학",
+        "tuition_krw": 2743000,
+        "majors": [
+          {
+            "name_vi": "Hóa học & Vật liệu mới",
+            "name_ko": "화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Công nghệ Thực phẩm & Dinh dưỡng",
+            "name_ko": "식품영양학과",
+            "is_hot": false
+          },
+          {
+            "name_vi": "Sinh học Ứng dụng & Công nghệ Sinh học",
+            "name_ko": "생명공학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "arts_sports",
+        "faculty_name_vi": "Khoa Nghệ thuật & Thể dục Thể thao",
+        "faculty_name_ko": "예체능대학",
+        "tuition_krw": 4480000,
+        "majors": [
+          {
+            "name_vi": "Thiết kế Đồ họa & Kỹ thuật số",
+            "name_ko": "시각디자인학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Nghệ thuật Thẩm mỹ & Trang điểm (Make-up)",
+            "name_ko": "뷰티미용학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Diễn xuất, Sân khấu & Điện ảnh",
+            "name_ko": "연극영화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Âm nhạc K-Pop & Vẫn nghệ",
+            "name_ko": "실용음악학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "medicine_pharmacy",
+        "faculty_name_vi": "Khoa Y - Dược & Khoa học Y tế",
+        "faculty_name_ko": "의치약학/보건대학",
+        "tuition_krw": 4167000,
+        "majors": [
+          {
+            "name_vi": "Điều dưỡng (Nursing)",
+            "name_ko": "간호학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Quản lý Y tế & Bệnh viện",
+            "name_ko": "보건행정학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Vật lý trị liệu & Phục hồi chức năng",
+            "name_ko": "물리치료학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Dược học",
+            "name_ko": "약학과",
+            "is_hot": true
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "mock_uni_156",
@@ -5670,7 +27043,144 @@ export const universities = [
     "dorm_fee_desc": "600-900,000KRW",
     "admission_conditions": "",
     "featured_majors": "Hàng không – IT – Điều dưỡng",
-    "regional_restrictions": ""
+    "regional_restrictions": "",
+    "majors_detail": [
+      {
+        "category": "humanities_social",
+        "faculty_name_vi": "Khoa Nhân văn & Khoa học Xã hội",
+        "faculty_name_ko": "인문사회대학",
+        "tuition_krw": 2753000,
+        "majors": [
+          {
+            "name_vi": "Quản trị Kinh doanh",
+            "name_ko": "경영학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Ngôn ngữ & Văn hóa Hàn Quốc",
+            "name_ko": "한국언어문화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Truyền thông & Báo chí",
+            "name_ko": "미디어언론학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Thương mại Quốc tế",
+            "name_ko": "국제무역학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "engineering",
+        "faculty_name_vi": "Khoa Kỹ thuật & Công nghệ Thông tin",
+        "faculty_name_ko": "공과대학",
+        "tuition_krw": 2260000,
+        "majors": [
+          {
+            "name_vi": "Khoa học Máy tính & AI",
+            "name_ko": "컴퓨터공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Công nghệ Thông tin (IT)",
+            "name_ko": "정보통신공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Kỹ thuật Điện - Điện tử",
+            "name_ko": "전기전자공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Kỹ thuật Cơ khí",
+            "name_ko": "기계공학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "natural_sciences",
+        "faculty_name_vi": "Khoa Khoa học Tự nhiên & Sinh học",
+        "faculty_name_ko": "자연과학대학",
+        "tuition_krw": 2387000,
+        "majors": [
+          {
+            "name_vi": "Hóa học & Vật liệu mới",
+            "name_ko": "화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Công nghệ Thực phẩm & Dinh dưỡng",
+            "name_ko": "식품영양학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Sinh học Ứng dụng & Công nghệ Sinh học",
+            "name_ko": "생명공학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "arts_sports",
+        "faculty_name_vi": "Khoa Nghệ thuật & Thể dục Thể thao",
+        "faculty_name_ko": "예체능대학",
+        "tuition_krw": 2697000,
+        "majors": [
+          {
+            "name_vi": "Thiết kế Đồ họa & Kỹ thuật số",
+            "name_ko": "시각디자인학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Nghệ thuật Thẩm mỹ & Trang điểm (Make-up)",
+            "name_ko": "뷰티미용학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Diễn xuất, Sân khấu & Điện ảnh",
+            "name_ko": "연극영화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Âm nhạc K-Pop & Vẫn nghệ",
+            "name_ko": "실용음악학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "medicine_pharmacy",
+        "faculty_name_vi": "Khoa Y - Dược & Khoa học Y tế",
+        "faculty_name_ko": "의치약학/보건대학",
+        "tuition_krw": 3885000,
+        "majors": [
+          {
+            "name_vi": "Điều dưỡng (Nursing)",
+            "name_ko": "간호학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Quản lý Y tế & Bệnh viện",
+            "name_ko": "보건행정학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Vật lý trị liệu & Phục hồi chức năng",
+            "name_ko": "물리치료학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Dược học",
+            "name_ko": "약학과",
+            "is_hot": true
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "mock_uni_157",
@@ -5700,7 +27210,144 @@ export const universities = [
     "visa_metropolitan": false,
     "master_no_topik": false,
     "custom_notes": "",
-    "top_1_percent": false
+    "top_1_percent": false,
+    "majors_detail": [
+      {
+        "category": "humanities_social",
+        "faculty_name_vi": "Khoa Nhân văn & Khoa học Xã hội",
+        "faculty_name_ko": "인문사회대학",
+        "tuition_krw": 2141000,
+        "majors": [
+          {
+            "name_vi": "Quản trị Kinh doanh",
+            "name_ko": "경영학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Ngôn ngữ & Văn hóa Hàn Quốc",
+            "name_ko": "한국언어문화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Truyền thông & Báo chí",
+            "name_ko": "미디어언론학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Thương mại Quốc tế",
+            "name_ko": "국제무역학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "engineering",
+        "faculty_name_vi": "Khoa Kỹ thuật & Công nghệ Thông tin",
+        "faculty_name_ko": "공과대학",
+        "tuition_krw": 4376000,
+        "majors": [
+          {
+            "name_vi": "Khoa học Máy tính & AI",
+            "name_ko": "컴퓨터공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Công nghệ Thông tin (IT)",
+            "name_ko": "정보통신공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Kỹ thuật Điện - Điện tử",
+            "name_ko": "전기전자공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Kỹ thuật Cơ khí",
+            "name_ko": "기계공학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "natural_sciences",
+        "faculty_name_vi": "Khoa Khoa học Tự nhiên & Sinh học",
+        "faculty_name_ko": "자연과학대학",
+        "tuition_krw": 4116000,
+        "majors": [
+          {
+            "name_vi": "Hóa học & Vật liệu mới",
+            "name_ko": "화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Công nghệ Thực phẩm & Dinh dưỡng",
+            "name_ko": "식품영양학과",
+            "is_hot": false
+          },
+          {
+            "name_vi": "Sinh học Ứng dụng & Công nghệ Sinh học",
+            "name_ko": "생명공학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "arts_sports",
+        "faculty_name_vi": "Khoa Nghệ thuật & Thể dục Thể thao",
+        "faculty_name_ko": "예체능대학",
+        "tuition_krw": 2141000,
+        "majors": [
+          {
+            "name_vi": "Thiết kế Đồ họa & Kỹ thuật số",
+            "name_ko": "시각디자인학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Nghệ thuật Thẩm mỹ & Trang điểm (Make-up)",
+            "name_ko": "뷰티미용학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Diễn xuất, Sân khấu & Điện ảnh",
+            "name_ko": "연극영화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Âm nhạc K-Pop & Vẫn nghệ",
+            "name_ko": "실용음악학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "medicine_pharmacy",
+        "faculty_name_vi": "Khoa Y - Dược & Khoa học Y tế",
+        "faculty_name_ko": "의치약학/보건대학",
+        "tuition_krw": 2786000,
+        "majors": [
+          {
+            "name_vi": "Điều dưỡng (Nursing)",
+            "name_ko": "간호학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Quản lý Y tế & Bệnh viện",
+            "name_ko": "보건행정학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Vật lý trị liệu & Phục hồi chức năng",
+            "name_ko": "물리치료학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Dược học",
+            "name_ko": "약학과",
+            "is_hot": true
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "mock_uni_158",
@@ -5738,7 +27385,144 @@ export const universities = [
     "dorm_fee_desc": "1,000,000 KRW/năm",
     "admission_conditions": "",
     "featured_majors": "Hàng không – Du lịch – Logistics",
-    "regional_restrictions": ""
+    "regional_restrictions": "",
+    "majors_detail": [
+      {
+        "category": "humanities_social",
+        "faculty_name_vi": "Khoa Nhân văn & Khoa học Xã hội",
+        "faculty_name_ko": "인문사회대학",
+        "tuition_krw": 3359000,
+        "majors": [
+          {
+            "name_vi": "Quản trị Kinh doanh",
+            "name_ko": "경영학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Ngôn ngữ & Văn hóa Hàn Quốc",
+            "name_ko": "한국언어문화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Truyền thông & Báo chí",
+            "name_ko": "미디어언론학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Thương mại Quốc tế",
+            "name_ko": "국제무역학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "engineering",
+        "faculty_name_vi": "Khoa Kỹ thuật & Công nghệ Thông tin",
+        "faculty_name_ko": "공과대학",
+        "tuition_krw": 4247000,
+        "majors": [
+          {
+            "name_vi": "Khoa học Máy tính & AI",
+            "name_ko": "컴퓨터공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Công nghệ Thông tin (IT)",
+            "name_ko": "정보통신공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Kỹ thuật Điện - Điện tử",
+            "name_ko": "전기전자공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Kỹ thuật Cơ khí",
+            "name_ko": "기계공학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "natural_sciences",
+        "faculty_name_vi": "Khoa Khoa học Tự nhiên & Sinh học",
+        "faculty_name_ko": "자연과학대학",
+        "tuition_krw": 3011000,
+        "majors": [
+          {
+            "name_vi": "Hóa học & Vật liệu mới",
+            "name_ko": "화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Công nghệ Thực phẩm & Dinh dưỡng",
+            "name_ko": "식품영양학과",
+            "is_hot": false
+          },
+          {
+            "name_vi": "Sinh học Ứng dụng & Công nghệ Sinh học",
+            "name_ko": "생명공학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "arts_sports",
+        "faculty_name_vi": "Khoa Nghệ thuật & Thể dục Thể thao",
+        "faculty_name_ko": "예체능대학",
+        "tuition_krw": 2175000,
+        "majors": [
+          {
+            "name_vi": "Thiết kế Đồ họa & Kỹ thuật số",
+            "name_ko": "시각디자인학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Nghệ thuật Thẩm mỹ & Trang điểm (Make-up)",
+            "name_ko": "뷰티미용학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Diễn xuất, Sân khấu & Điện ảnh",
+            "name_ko": "연극영화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Âm nhạc K-Pop & Vẫn nghệ",
+            "name_ko": "실용음악학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "medicine_pharmacy",
+        "faculty_name_vi": "Khoa Y - Dược & Khoa học Y tế",
+        "faculty_name_ko": "의치약학/보건대학",
+        "tuition_krw": 2367000,
+        "majors": [
+          {
+            "name_vi": "Điều dưỡng (Nursing)",
+            "name_ko": "간호학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Quản lý Y tế & Bệnh viện",
+            "name_ko": "보건행정학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Vật lý trị liệu & Phục hồi chức năng",
+            "name_ko": "물리치료학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Dược học",
+            "name_ko": "약학과",
+            "is_hot": true
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "mock_uni_159",
@@ -5768,7 +27552,144 @@ export const universities = [
     "visa_metropolitan": false,
     "master_no_topik": true,
     "custom_notes": "",
-    "top_1_percent": true
+    "top_1_percent": true,
+    "majors_detail": [
+      {
+        "category": "humanities_social",
+        "faculty_name_vi": "Khoa Nhân văn & Khoa học Xã hội",
+        "faculty_name_ko": "인문사회대학",
+        "tuition_krw": 3270000,
+        "majors": [
+          {
+            "name_vi": "Quản trị Kinh doanh",
+            "name_ko": "경영학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Ngôn ngữ & Văn hóa Hàn Quốc",
+            "name_ko": "한국언어문화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Truyền thông & Báo chí",
+            "name_ko": "미디어언론학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Thương mại Quốc tế",
+            "name_ko": "국제무역학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "engineering",
+        "faculty_name_vi": "Khoa Kỹ thuật & Công nghệ Thông tin",
+        "faculty_name_ko": "공과대학",
+        "tuition_krw": 2568000,
+        "majors": [
+          {
+            "name_vi": "Khoa học Máy tính & AI",
+            "name_ko": "컴퓨터공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Công nghệ Thông tin (IT)",
+            "name_ko": "정보통신공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Kỹ thuật Điện - Điện tử",
+            "name_ko": "전기전자공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Kỹ thuật Cơ khí",
+            "name_ko": "기계공학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "natural_sciences",
+        "faculty_name_vi": "Khoa Khoa học Tự nhiên & Sinh học",
+        "faculty_name_ko": "자연과학대학",
+        "tuition_krw": 4849000,
+        "majors": [
+          {
+            "name_vi": "Hóa học & Vật liệu mới",
+            "name_ko": "화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Công nghệ Thực phẩm & Dinh dưỡng",
+            "name_ko": "식품영양학과",
+            "is_hot": false
+          },
+          {
+            "name_vi": "Sinh học Ứng dụng & Công nghệ Sinh học",
+            "name_ko": "생명공학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "arts_sports",
+        "faculty_name_vi": "Khoa Nghệ thuật & Thể dục Thể thao",
+        "faculty_name_ko": "예체능대학",
+        "tuition_krw": 2421000,
+        "majors": [
+          {
+            "name_vi": "Thiết kế Đồ họa & Kỹ thuật số",
+            "name_ko": "시각디자인학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Nghệ thuật Thẩm mỹ & Trang điểm (Make-up)",
+            "name_ko": "뷰티미용학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Diễn xuất, Sân khấu & Điện ảnh",
+            "name_ko": "연극영화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Âm nhạc K-Pop & Vẫn nghệ",
+            "name_ko": "실용음악학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "medicine_pharmacy",
+        "faculty_name_vi": "Khoa Y - Dược & Khoa học Y tế",
+        "faculty_name_ko": "의치약학/보건대학",
+        "tuition_krw": 2718000,
+        "majors": [
+          {
+            "name_vi": "Điều dưỡng (Nursing)",
+            "name_ko": "간호학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Quản lý Y tế & Bệnh viện",
+            "name_ko": "보건행정학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Vật lý trị liệu & Phục hồi chức năng",
+            "name_ko": "물리치료학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Dược học",
+            "name_ko": "약학과",
+            "is_hot": true
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "mock_uni_160",
@@ -5798,7 +27719,144 @@ export const universities = [
     "visa_metropolitan": false,
     "master_no_topik": true,
     "custom_notes": "Trường ưu tiên phỏng vấn visa thẳng",
-    "top_1_percent": false
+    "top_1_percent": false,
+    "majors_detail": [
+      {
+        "category": "humanities_social",
+        "faculty_name_vi": "Khoa Nhân văn & Khoa học Xã hội",
+        "faculty_name_ko": "인문사회대학",
+        "tuition_krw": 3271000,
+        "majors": [
+          {
+            "name_vi": "Quản trị Kinh doanh",
+            "name_ko": "경영학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Ngôn ngữ & Văn hóa Hàn Quốc",
+            "name_ko": "한국언어문화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Truyền thông & Báo chí",
+            "name_ko": "미디어언론학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Thương mại Quốc tế",
+            "name_ko": "국제무역학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "engineering",
+        "faculty_name_vi": "Khoa Kỹ thuật & Công nghệ Thông tin",
+        "faculty_name_ko": "공과대학",
+        "tuition_krw": 4080000,
+        "majors": [
+          {
+            "name_vi": "Khoa học Máy tính & AI",
+            "name_ko": "컴퓨터공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Công nghệ Thông tin (IT)",
+            "name_ko": "정보통신공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Kỹ thuật Điện - Điện tử",
+            "name_ko": "전기전자공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Kỹ thuật Cơ khí",
+            "name_ko": "기계공학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "natural_sciences",
+        "faculty_name_vi": "Khoa Khoa học Tự nhiên & Sinh học",
+        "faculty_name_ko": "자연과학대학",
+        "tuition_krw": 4936000,
+        "majors": [
+          {
+            "name_vi": "Hóa học & Vật liệu mới",
+            "name_ko": "화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Công nghệ Thực phẩm & Dinh dưỡng",
+            "name_ko": "식품영양학과",
+            "is_hot": false
+          },
+          {
+            "name_vi": "Sinh học Ứng dụng & Công nghệ Sinh học",
+            "name_ko": "생명공학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "arts_sports",
+        "faculty_name_vi": "Khoa Nghệ thuật & Thể dục Thể thao",
+        "faculty_name_ko": "예체능대학",
+        "tuition_krw": 3263000,
+        "majors": [
+          {
+            "name_vi": "Thiết kế Đồ họa & Kỹ thuật số",
+            "name_ko": "시각디자인학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Nghệ thuật Thẩm mỹ & Trang điểm (Make-up)",
+            "name_ko": "뷰티미용학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Diễn xuất, Sân khấu & Điện ảnh",
+            "name_ko": "연극영화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Âm nhạc K-Pop & Vẫn nghệ",
+            "name_ko": "실용음악학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "medicine_pharmacy",
+        "faculty_name_vi": "Khoa Y - Dược & Khoa học Y tế",
+        "faculty_name_ko": "의치약학/보건대학",
+        "tuition_krw": 3966000,
+        "majors": [
+          {
+            "name_vi": "Điều dưỡng (Nursing)",
+            "name_ko": "간호학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Quản lý Y tế & Bệnh viện",
+            "name_ko": "보건행정학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Vật lý trị liệu & Phục hồi chức năng",
+            "name_ko": "물리치료학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Dược học",
+            "name_ko": "약학과",
+            "is_hot": true
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "mock_uni_161",
@@ -5828,7 +27886,144 @@ export const universities = [
     "visa_metropolitan": true,
     "master_no_topik": true,
     "custom_notes": "",
-    "top_1_percent": false
+    "top_1_percent": false,
+    "majors_detail": [
+      {
+        "category": "humanities_social",
+        "faculty_name_vi": "Khoa Nhân văn & Khoa học Xã hội",
+        "faculty_name_ko": "인문사회대학",
+        "tuition_krw": 4238000,
+        "majors": [
+          {
+            "name_vi": "Quản trị Kinh doanh",
+            "name_ko": "경영학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Ngôn ngữ & Văn hóa Hàn Quốc",
+            "name_ko": "한국언어문화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Truyền thông & Báo chí",
+            "name_ko": "미디어언론학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Thương mại Quốc tế",
+            "name_ko": "국제무역학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "engineering",
+        "faculty_name_vi": "Khoa Kỹ thuật & Công nghệ Thông tin",
+        "faculty_name_ko": "공과대학",
+        "tuition_krw": 3466000,
+        "majors": [
+          {
+            "name_vi": "Khoa học Máy tính & AI",
+            "name_ko": "컴퓨터공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Công nghệ Thông tin (IT)",
+            "name_ko": "정보통신공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Kỹ thuật Điện - Điện tử",
+            "name_ko": "전기전자공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Kỹ thuật Cơ khí",
+            "name_ko": "기계공학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "natural_sciences",
+        "faculty_name_vi": "Khoa Khoa học Tự nhiên & Sinh học",
+        "faculty_name_ko": "자연과학대학",
+        "tuition_krw": 2251000,
+        "majors": [
+          {
+            "name_vi": "Hóa học & Vật liệu mới",
+            "name_ko": "화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Công nghệ Thực phẩm & Dinh dưỡng",
+            "name_ko": "식품영양학과",
+            "is_hot": false
+          },
+          {
+            "name_vi": "Sinh học Ứng dụng & Công nghệ Sinh học",
+            "name_ko": "생명공학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "arts_sports",
+        "faculty_name_vi": "Khoa Nghệ thuật & Thể dục Thể thao",
+        "faculty_name_ko": "예체능대학",
+        "tuition_krw": 4251000,
+        "majors": [
+          {
+            "name_vi": "Thiết kế Đồ họa & Kỹ thuật số",
+            "name_ko": "시각디자인학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Nghệ thuật Thẩm mỹ & Trang điểm (Make-up)",
+            "name_ko": "뷰티미용학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Diễn xuất, Sân khấu & Điện ảnh",
+            "name_ko": "연극영화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Âm nhạc K-Pop & Vẫn nghệ",
+            "name_ko": "실용음악학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "medicine_pharmacy",
+        "faculty_name_vi": "Khoa Y - Dược & Khoa học Y tế",
+        "faculty_name_ko": "의치약학/보건대학",
+        "tuition_krw": 4936000,
+        "majors": [
+          {
+            "name_vi": "Điều dưỡng (Nursing)",
+            "name_ko": "간호학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Quản lý Y tế & Bệnh viện",
+            "name_ko": "보건행정학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Vật lý trị liệu & Phục hồi chức năng",
+            "name_ko": "물리치료학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Dược học",
+            "name_ko": "약학과",
+            "is_hot": true
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "mock_uni_162",
@@ -5858,7 +28053,144 @@ export const universities = [
     "visa_metropolitan": false,
     "master_no_topik": false,
     "custom_notes": "Trường ưu tiên phỏng vấn visa thẳng",
-    "top_1_percent": false
+    "top_1_percent": false,
+    "majors_detail": [
+      {
+        "category": "humanities_social",
+        "faculty_name_vi": "Khoa Nhân văn & Khoa học Xã hội",
+        "faculty_name_ko": "인문사회대학",
+        "tuition_krw": 2373000,
+        "majors": [
+          {
+            "name_vi": "Quản trị Kinh doanh",
+            "name_ko": "경영학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Ngôn ngữ & Văn hóa Hàn Quốc",
+            "name_ko": "한국언어문화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Truyền thông & Báo chí",
+            "name_ko": "미디어언론학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Thương mại Quốc tế",
+            "name_ko": "국제무역학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "engineering",
+        "faculty_name_vi": "Khoa Kỹ thuật & Công nghệ Thông tin",
+        "faculty_name_ko": "공과대학",
+        "tuition_krw": 2239000,
+        "majors": [
+          {
+            "name_vi": "Khoa học Máy tính & AI",
+            "name_ko": "컴퓨터공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Công nghệ Thông tin (IT)",
+            "name_ko": "정보통신공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Kỹ thuật Điện - Điện tử",
+            "name_ko": "전기전자공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Kỹ thuật Cơ khí",
+            "name_ko": "기계공학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "natural_sciences",
+        "faculty_name_vi": "Khoa Khoa học Tự nhiên & Sinh học",
+        "faculty_name_ko": "자연과학대학",
+        "tuition_krw": 3300000,
+        "majors": [
+          {
+            "name_vi": "Hóa học & Vật liệu mới",
+            "name_ko": "화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Công nghệ Thực phẩm & Dinh dưỡng",
+            "name_ko": "식품영양학과",
+            "is_hot": false
+          },
+          {
+            "name_vi": "Sinh học Ứng dụng & Công nghệ Sinh học",
+            "name_ko": "생명공학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "arts_sports",
+        "faculty_name_vi": "Khoa Nghệ thuật & Thể dục Thể thao",
+        "faculty_name_ko": "예체능대학",
+        "tuition_krw": 2554000,
+        "majors": [
+          {
+            "name_vi": "Thiết kế Đồ họa & Kỹ thuật số",
+            "name_ko": "시각디자인학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Nghệ thuật Thẩm mỹ & Trang điểm (Make-up)",
+            "name_ko": "뷰티미용학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Diễn xuất, Sân khấu & Điện ảnh",
+            "name_ko": "연극영화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Âm nhạc K-Pop & Vẫn nghệ",
+            "name_ko": "실용음악학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "medicine_pharmacy",
+        "faculty_name_vi": "Khoa Y - Dược & Khoa học Y tế",
+        "faculty_name_ko": "의치약학/보건대학",
+        "tuition_krw": 2713000,
+        "majors": [
+          {
+            "name_vi": "Điều dưỡng (Nursing)",
+            "name_ko": "간호학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Quản lý Y tế & Bệnh viện",
+            "name_ko": "보건행정학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Vật lý trị liệu & Phục hồi chức năng",
+            "name_ko": "물리치료학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Dược học",
+            "name_ko": "약학과",
+            "is_hot": true
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "mock_uni_163",
@@ -5889,7 +28221,144 @@ export const universities = [
     "master_no_topik": false,
     "custom_notes": "",
     "top_1_percent": false,
-    "is_restricted_school": true
+    "is_restricted_school": true,
+    "majors_detail": [
+      {
+        "category": "humanities_social",
+        "faculty_name_vi": "Khoa Nhân văn & Khoa học Xã hội",
+        "faculty_name_ko": "인문사회대학",
+        "tuition_krw": 3333000,
+        "majors": [
+          {
+            "name_vi": "Quản trị Kinh doanh",
+            "name_ko": "경영학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Ngôn ngữ & Văn hóa Hàn Quốc",
+            "name_ko": "한국언어문화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Truyền thông & Báo chí",
+            "name_ko": "미디어언론학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Thương mại Quốc tế",
+            "name_ko": "국제무역학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "engineering",
+        "faculty_name_vi": "Khoa Kỹ thuật & Công nghệ Thông tin",
+        "faculty_name_ko": "공과대학",
+        "tuition_krw": 2666000,
+        "majors": [
+          {
+            "name_vi": "Khoa học Máy tính & AI",
+            "name_ko": "컴퓨터공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Công nghệ Thông tin (IT)",
+            "name_ko": "정보통신공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Kỹ thuật Điện - Điện tử",
+            "name_ko": "전기전자공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Kỹ thuật Cơ khí",
+            "name_ko": "기계공학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "natural_sciences",
+        "faculty_name_vi": "Khoa Khoa học Tự nhiên & Sinh học",
+        "faculty_name_ko": "자연과학대학",
+        "tuition_krw": 4610000,
+        "majors": [
+          {
+            "name_vi": "Hóa học & Vật liệu mới",
+            "name_ko": "화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Công nghệ Thực phẩm & Dinh dưỡng",
+            "name_ko": "식품영양학과",
+            "is_hot": false
+          },
+          {
+            "name_vi": "Sinh học Ứng dụng & Công nghệ Sinh học",
+            "name_ko": "생명공학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "arts_sports",
+        "faculty_name_vi": "Khoa Nghệ thuật & Thể dục Thể thao",
+        "faculty_name_ko": "예체능대학",
+        "tuition_krw": 4208000,
+        "majors": [
+          {
+            "name_vi": "Thiết kế Đồ họa & Kỹ thuật số",
+            "name_ko": "시각디자인학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Nghệ thuật Thẩm mỹ & Trang điểm (Make-up)",
+            "name_ko": "뷰티미용학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Diễn xuất, Sân khấu & Điện ảnh",
+            "name_ko": "연극영화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Âm nhạc K-Pop & Vẫn nghệ",
+            "name_ko": "실용음악학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "medicine_pharmacy",
+        "faculty_name_vi": "Khoa Y - Dược & Khoa học Y tế",
+        "faculty_name_ko": "의치약학/보건대학",
+        "tuition_krw": 2950000,
+        "majors": [
+          {
+            "name_vi": "Điều dưỡng (Nursing)",
+            "name_ko": "간호학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Quản lý Y tế & Bệnh viện",
+            "name_ko": "보건행정학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Vật lý trị liệu & Phục hồi chức năng",
+            "name_ko": "물리치료학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Dược học",
+            "name_ko": "약학과",
+            "is_hot": true
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "mock_uni_164",
@@ -5919,7 +28388,144 @@ export const universities = [
     "visa_metropolitan": false,
     "master_no_topik": true,
     "custom_notes": "Trường ưu tiên phỏng vấn visa thẳng",
-    "top_1_percent": false
+    "top_1_percent": false,
+    "majors_detail": [
+      {
+        "category": "humanities_social",
+        "faculty_name_vi": "Khoa Nhân văn & Khoa học Xã hội",
+        "faculty_name_ko": "인문사회대학",
+        "tuition_krw": 2030000,
+        "majors": [
+          {
+            "name_vi": "Quản trị Kinh doanh",
+            "name_ko": "경영학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Ngôn ngữ & Văn hóa Hàn Quốc",
+            "name_ko": "한국언어문화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Truyền thông & Báo chí",
+            "name_ko": "미디어언론학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Thương mại Quốc tế",
+            "name_ko": "국제무역학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "engineering",
+        "faculty_name_vi": "Khoa Kỹ thuật & Công nghệ Thông tin",
+        "faculty_name_ko": "공과대학",
+        "tuition_krw": 3859000,
+        "majors": [
+          {
+            "name_vi": "Khoa học Máy tính & AI",
+            "name_ko": "컴퓨터공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Công nghệ Thông tin (IT)",
+            "name_ko": "정보통신공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Kỹ thuật Điện - Điện tử",
+            "name_ko": "전기전자공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Kỹ thuật Cơ khí",
+            "name_ko": "기계공학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "natural_sciences",
+        "faculty_name_vi": "Khoa Khoa học Tự nhiên & Sinh học",
+        "faculty_name_ko": "자연과학대학",
+        "tuition_krw": 4561000,
+        "majors": [
+          {
+            "name_vi": "Hóa học & Vật liệu mới",
+            "name_ko": "화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Công nghệ Thực phẩm & Dinh dưỡng",
+            "name_ko": "식품영양학과",
+            "is_hot": false
+          },
+          {
+            "name_vi": "Sinh học Ứng dụng & Công nghệ Sinh học",
+            "name_ko": "생명공학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "arts_sports",
+        "faculty_name_vi": "Khoa Nghệ thuật & Thể dục Thể thao",
+        "faculty_name_ko": "예체능대학",
+        "tuition_krw": 4224000,
+        "majors": [
+          {
+            "name_vi": "Thiết kế Đồ họa & Kỹ thuật số",
+            "name_ko": "시각디자인학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Nghệ thuật Thẩm mỹ & Trang điểm (Make-up)",
+            "name_ko": "뷰티미용학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Diễn xuất, Sân khấu & Điện ảnh",
+            "name_ko": "연극영화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Âm nhạc K-Pop & Vẫn nghệ",
+            "name_ko": "실용음악학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "medicine_pharmacy",
+        "faculty_name_vi": "Khoa Y - Dược & Khoa học Y tế",
+        "faculty_name_ko": "의치약학/보건대학",
+        "tuition_krw": 3702000,
+        "majors": [
+          {
+            "name_vi": "Điều dưỡng (Nursing)",
+            "name_ko": "간호학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Quản lý Y tế & Bệnh viện",
+            "name_ko": "보건행정학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Vật lý trị liệu & Phục hồi chức năng",
+            "name_ko": "물리치료학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Dược học",
+            "name_ko": "약학과",
+            "is_hot": true
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "mock_uni_165",
@@ -5957,7 +28563,144 @@ export const universities = [
     "dorm_fee_desc": "450-810,000KRW",
     "admission_conditions": "",
     "featured_majors": "Làm đẹp – Thiết kế – Business",
-    "regional_restrictions": ""
+    "regional_restrictions": "",
+    "majors_detail": [
+      {
+        "category": "humanities_social",
+        "faculty_name_vi": "Khoa Nhân văn & Khoa học Xã hội",
+        "faculty_name_ko": "인문사회대학",
+        "tuition_krw": 2382000,
+        "majors": [
+          {
+            "name_vi": "Quản trị Kinh doanh",
+            "name_ko": "경영학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Ngôn ngữ & Văn hóa Hàn Quốc",
+            "name_ko": "한국언어문화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Truyền thông & Báo chí",
+            "name_ko": "미디어언론학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Thương mại Quốc tế",
+            "name_ko": "국제무역학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "engineering",
+        "faculty_name_vi": "Khoa Kỹ thuật & Công nghệ Thông tin",
+        "faculty_name_ko": "공과대학",
+        "tuition_krw": 4944000,
+        "majors": [
+          {
+            "name_vi": "Khoa học Máy tính & AI",
+            "name_ko": "컴퓨터공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Công nghệ Thông tin (IT)",
+            "name_ko": "정보통신공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Kỹ thuật Điện - Điện tử",
+            "name_ko": "전기전자공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Kỹ thuật Cơ khí",
+            "name_ko": "기계공학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "natural_sciences",
+        "faculty_name_vi": "Khoa Khoa học Tự nhiên & Sinh học",
+        "faculty_name_ko": "자연과학대학",
+        "tuition_krw": 2197000,
+        "majors": [
+          {
+            "name_vi": "Hóa học & Vật liệu mới",
+            "name_ko": "화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Công nghệ Thực phẩm & Dinh dưỡng",
+            "name_ko": "식품영양학과",
+            "is_hot": false
+          },
+          {
+            "name_vi": "Sinh học Ứng dụng & Công nghệ Sinh học",
+            "name_ko": "생명공학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "arts_sports",
+        "faculty_name_vi": "Khoa Nghệ thuật & Thể dục Thể thao",
+        "faculty_name_ko": "예체능대학",
+        "tuition_krw": 2477000,
+        "majors": [
+          {
+            "name_vi": "Thiết kế Đồ họa & Kỹ thuật số",
+            "name_ko": "시각디자인학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Nghệ thuật Thẩm mỹ & Trang điểm (Make-up)",
+            "name_ko": "뷰티미용학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Diễn xuất, Sân khấu & Điện ảnh",
+            "name_ko": "연극영화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Âm nhạc K-Pop & Vẫn nghệ",
+            "name_ko": "실용음악학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "medicine_pharmacy",
+        "faculty_name_vi": "Khoa Y - Dược & Khoa học Y tế",
+        "faculty_name_ko": "의치약학/보건대학",
+        "tuition_krw": 3127000,
+        "majors": [
+          {
+            "name_vi": "Điều dưỡng (Nursing)",
+            "name_ko": "간호학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Quản lý Y tế & Bệnh viện",
+            "name_ko": "보건행정학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Vật lý trị liệu & Phục hồi chức năng",
+            "name_ko": "물리치료학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Dược học",
+            "name_ko": "약학과",
+            "is_hot": true
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "mock_uni_166",
@@ -5987,7 +28730,144 @@ export const universities = [
     "visa_metropolitan": false,
     "master_no_topik": false,
     "custom_notes": "",
-    "top_1_percent": false
+    "top_1_percent": false,
+    "majors_detail": [
+      {
+        "category": "humanities_social",
+        "faculty_name_vi": "Khoa Nhân văn & Khoa học Xã hội",
+        "faculty_name_ko": "인문사회대학",
+        "tuition_krw": 4465000,
+        "majors": [
+          {
+            "name_vi": "Quản trị Kinh doanh",
+            "name_ko": "경영학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Ngôn ngữ & Văn hóa Hàn Quốc",
+            "name_ko": "한국언어문화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Truyền thông & Báo chí",
+            "name_ko": "미디어언론학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Thương mại Quốc tế",
+            "name_ko": "국제무역학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "engineering",
+        "faculty_name_vi": "Khoa Kỹ thuật & Công nghệ Thông tin",
+        "faculty_name_ko": "공과대학",
+        "tuition_krw": 3896000,
+        "majors": [
+          {
+            "name_vi": "Khoa học Máy tính & AI",
+            "name_ko": "컴퓨터공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Công nghệ Thông tin (IT)",
+            "name_ko": "정보통신공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Kỹ thuật Điện - Điện tử",
+            "name_ko": "전기전자공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Kỹ thuật Cơ khí",
+            "name_ko": "기계공학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "natural_sciences",
+        "faculty_name_vi": "Khoa Khoa học Tự nhiên & Sinh học",
+        "faculty_name_ko": "자연과학대학",
+        "tuition_krw": 3909000,
+        "majors": [
+          {
+            "name_vi": "Hóa học & Vật liệu mới",
+            "name_ko": "화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Công nghệ Thực phẩm & Dinh dưỡng",
+            "name_ko": "식품영양학과",
+            "is_hot": false
+          },
+          {
+            "name_vi": "Sinh học Ứng dụng & Công nghệ Sinh học",
+            "name_ko": "생명공학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "arts_sports",
+        "faculty_name_vi": "Khoa Nghệ thuật & Thể dục Thể thao",
+        "faculty_name_ko": "예체능대학",
+        "tuition_krw": 4465000,
+        "majors": [
+          {
+            "name_vi": "Thiết kế Đồ họa & Kỹ thuật số",
+            "name_ko": "시각디자인학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Nghệ thuật Thẩm mỹ & Trang điểm (Make-up)",
+            "name_ko": "뷰티미용학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Diễn xuất, Sân khấu & Điện ảnh",
+            "name_ko": "연극영화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Âm nhạc K-Pop & Vẫn nghệ",
+            "name_ko": "실용음악학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "medicine_pharmacy",
+        "faculty_name_vi": "Khoa Y - Dược & Khoa học Y tế",
+        "faculty_name_ko": "의치약학/보건대학",
+        "tuition_krw": 4465000,
+        "majors": [
+          {
+            "name_vi": "Điều dưỡng (Nursing)",
+            "name_ko": "간호학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Quản lý Y tế & Bệnh viện",
+            "name_ko": "보건행정학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Vật lý trị liệu & Phục hồi chức năng",
+            "name_ko": "물리치료학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Dược học",
+            "name_ko": "약학과",
+            "is_hot": true
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "mock_uni_167",
@@ -6025,7 +28905,144 @@ export const universities = [
     "dorm_fee_desc": "550,000-900,000KRW",
     "admission_conditions": "",
     "featured_majors": "Thiết kế – Truyền thông – Du lịch",
-    "regional_restrictions": ""
+    "regional_restrictions": "",
+    "majors_detail": [
+      {
+        "category": "humanities_social",
+        "faculty_name_vi": "Khoa Nhân văn & Khoa học Xã hội",
+        "faculty_name_ko": "인문사회대학",
+        "tuition_krw": 4625000,
+        "majors": [
+          {
+            "name_vi": "Quản trị Kinh doanh",
+            "name_ko": "경영학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Ngôn ngữ & Văn hóa Hàn Quốc",
+            "name_ko": "한국언어문화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Truyền thông & Báo chí",
+            "name_ko": "미디어언론학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Thương mại Quốc tế",
+            "name_ko": "국제무역학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "engineering",
+        "faculty_name_vi": "Khoa Kỹ thuật & Công nghệ Thông tin",
+        "faculty_name_ko": "공과대학",
+        "tuition_krw": 2967000,
+        "majors": [
+          {
+            "name_vi": "Khoa học Máy tính & AI",
+            "name_ko": "컴퓨터공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Công nghệ Thông tin (IT)",
+            "name_ko": "정보통신공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Kỹ thuật Điện - Điện tử",
+            "name_ko": "전기전자공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Kỹ thuật Cơ khí",
+            "name_ko": "기계공학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "natural_sciences",
+        "faculty_name_vi": "Khoa Khoa học Tự nhiên & Sinh học",
+        "faculty_name_ko": "자연과학대학",
+        "tuition_krw": 3484000,
+        "majors": [
+          {
+            "name_vi": "Hóa học & Vật liệu mới",
+            "name_ko": "화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Công nghệ Thực phẩm & Dinh dưỡng",
+            "name_ko": "식품영양학과",
+            "is_hot": false
+          },
+          {
+            "name_vi": "Sinh học Ứng dụng & Công nghệ Sinh học",
+            "name_ko": "생명공학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "arts_sports",
+        "faculty_name_vi": "Khoa Nghệ thuật & Thể dục Thể thao",
+        "faculty_name_ko": "예체능대학",
+        "tuition_krw": 3677000,
+        "majors": [
+          {
+            "name_vi": "Thiết kế Đồ họa & Kỹ thuật số",
+            "name_ko": "시각디자인학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Nghệ thuật Thẩm mỹ & Trang điểm (Make-up)",
+            "name_ko": "뷰티미용학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Diễn xuất, Sân khấu & Điện ảnh",
+            "name_ko": "연극영화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Âm nhạc K-Pop & Vẫn nghệ",
+            "name_ko": "실용음악학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "medicine_pharmacy",
+        "faculty_name_vi": "Khoa Y - Dược & Khoa học Y tế",
+        "faculty_name_ko": "의치약학/보건대학",
+        "tuition_krw": 4940000,
+        "majors": [
+          {
+            "name_vi": "Điều dưỡng (Nursing)",
+            "name_ko": "간호학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Quản lý Y tế & Bệnh viện",
+            "name_ko": "보건행정학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Vật lý trị liệu & Phục hồi chức năng",
+            "name_ko": "물리치료학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Dược học",
+            "name_ko": "약학과",
+            "is_hot": true
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "mock_uni_168",
@@ -6056,7 +29073,144 @@ export const universities = [
     "master_no_topik": true,
     "custom_notes": "",
     "top_1_percent": false,
-    "is_restricted_school": true
+    "is_restricted_school": true,
+    "majors_detail": [
+      {
+        "category": "humanities_social",
+        "faculty_name_vi": "Khoa Nhân văn & Khoa học Xã hội",
+        "faculty_name_ko": "인문사회대학",
+        "tuition_krw": 4978000,
+        "majors": [
+          {
+            "name_vi": "Quản trị Kinh doanh",
+            "name_ko": "경영학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Ngôn ngữ & Văn hóa Hàn Quốc",
+            "name_ko": "한국언어문화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Truyền thông & Báo chí",
+            "name_ko": "미디어언론학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Thương mại Quốc tế",
+            "name_ko": "국제무역학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "engineering",
+        "faculty_name_vi": "Khoa Kỹ thuật & Công nghệ Thông tin",
+        "faculty_name_ko": "공과대학",
+        "tuition_krw": 2613000,
+        "majors": [
+          {
+            "name_vi": "Khoa học Máy tính & AI",
+            "name_ko": "컴퓨터공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Công nghệ Thông tin (IT)",
+            "name_ko": "정보통신공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Kỹ thuật Điện - Điện tử",
+            "name_ko": "전기전자공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Kỹ thuật Cơ khí",
+            "name_ko": "기계공학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "natural_sciences",
+        "faculty_name_vi": "Khoa Khoa học Tự nhiên & Sinh học",
+        "faculty_name_ko": "자연과학대학",
+        "tuition_krw": 2879000,
+        "majors": [
+          {
+            "name_vi": "Hóa học & Vật liệu mới",
+            "name_ko": "화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Công nghệ Thực phẩm & Dinh dưỡng",
+            "name_ko": "식품영양학과",
+            "is_hot": false
+          },
+          {
+            "name_vi": "Sinh học Ứng dụng & Công nghệ Sinh học",
+            "name_ko": "생명공학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "arts_sports",
+        "faculty_name_vi": "Khoa Nghệ thuật & Thể dục Thể thao",
+        "faculty_name_ko": "예체능대학",
+        "tuition_krw": 4097000,
+        "majors": [
+          {
+            "name_vi": "Thiết kế Đồ họa & Kỹ thuật số",
+            "name_ko": "시각디자인학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Nghệ thuật Thẩm mỹ & Trang điểm (Make-up)",
+            "name_ko": "뷰티미용학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Diễn xuất, Sân khấu & Điện ảnh",
+            "name_ko": "연극영화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Âm nhạc K-Pop & Vẫn nghệ",
+            "name_ko": "실용음악학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "medicine_pharmacy",
+        "faculty_name_vi": "Khoa Y - Dược & Khoa học Y tế",
+        "faculty_name_ko": "의치약학/보건대학",
+        "tuition_krw": 4978000,
+        "majors": [
+          {
+            "name_vi": "Điều dưỡng (Nursing)",
+            "name_ko": "간호학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Quản lý Y tế & Bệnh viện",
+            "name_ko": "보건행정학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Vật lý trị liệu & Phục hồi chức năng",
+            "name_ko": "물리치료학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Dược học",
+            "name_ko": "약학과",
+            "is_hot": true
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "mock_uni_169",
@@ -6094,7 +29248,144 @@ export const universities = [
     "dorm_fee_desc": "1,200,000-1,700,000KRW",
     "admission_conditions": "",
     "featured_majors": "Du lịch – Hàng không – Khách sạn",
-    "regional_restrictions": ""
+    "regional_restrictions": "",
+    "majors_detail": [
+      {
+        "category": "humanities_social",
+        "faculty_name_vi": "Khoa Nhân văn & Khoa học Xã hội",
+        "faculty_name_ko": "인문사회대학",
+        "tuition_krw": 3702000,
+        "majors": [
+          {
+            "name_vi": "Quản trị Kinh doanh",
+            "name_ko": "경영학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Ngôn ngữ & Văn hóa Hàn Quốc",
+            "name_ko": "한국언어문화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Truyền thông & Báo chí",
+            "name_ko": "미디어언론학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Thương mại Quốc tế",
+            "name_ko": "국제무역학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "engineering",
+        "faculty_name_vi": "Khoa Kỹ thuật & Công nghệ Thông tin",
+        "faculty_name_ko": "공과대학",
+        "tuition_krw": 4639000,
+        "majors": [
+          {
+            "name_vi": "Khoa học Máy tính & AI",
+            "name_ko": "컴퓨터공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Công nghệ Thông tin (IT)",
+            "name_ko": "정보통신공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Kỹ thuật Điện - Điện tử",
+            "name_ko": "전기전자공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Kỹ thuật Cơ khí",
+            "name_ko": "기계공학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "natural_sciences",
+        "faculty_name_vi": "Khoa Khoa học Tự nhiên & Sinh học",
+        "faculty_name_ko": "자연과학대학",
+        "tuition_krw": 2804000,
+        "majors": [
+          {
+            "name_vi": "Hóa học & Vật liệu mới",
+            "name_ko": "화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Công nghệ Thực phẩm & Dinh dưỡng",
+            "name_ko": "식품영양학과",
+            "is_hot": false
+          },
+          {
+            "name_vi": "Sinh học Ứng dụng & Công nghệ Sinh học",
+            "name_ko": "생명공학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "arts_sports",
+        "faculty_name_vi": "Khoa Nghệ thuật & Thể dục Thể thao",
+        "faculty_name_ko": "예체능대학",
+        "tuition_krw": 2866000,
+        "majors": [
+          {
+            "name_vi": "Thiết kế Đồ họa & Kỹ thuật số",
+            "name_ko": "시각디자인학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Nghệ thuật Thẩm mỹ & Trang điểm (Make-up)",
+            "name_ko": "뷰티미용학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Diễn xuất, Sân khấu & Điện ảnh",
+            "name_ko": "연극영화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Âm nhạc K-Pop & Vẫn nghệ",
+            "name_ko": "실용음악학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "medicine_pharmacy",
+        "faculty_name_vi": "Khoa Y - Dược & Khoa học Y tế",
+        "faculty_name_ko": "의치약학/보건대학",
+        "tuition_krw": 2893000,
+        "majors": [
+          {
+            "name_vi": "Điều dưỡng (Nursing)",
+            "name_ko": "간호학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Quản lý Y tế & Bệnh viện",
+            "name_ko": "보건행정학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Vật lý trị liệu & Phục hồi chức năng",
+            "name_ko": "물리치료학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Dược học",
+            "name_ko": "약학과",
+            "is_hot": true
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "mock_uni_170",
@@ -6124,7 +29415,144 @@ export const universities = [
     "visa_metropolitan": true,
     "master_no_topik": false,
     "custom_notes": "Trường ưu tiên phỏng vấn visa thẳng",
-    "top_1_percent": false
+    "top_1_percent": false,
+    "majors_detail": [
+      {
+        "category": "humanities_social",
+        "faculty_name_vi": "Khoa Nhân văn & Khoa học Xã hội",
+        "faculty_name_ko": "인문사회대학",
+        "tuition_krw": 2470000,
+        "majors": [
+          {
+            "name_vi": "Quản trị Kinh doanh",
+            "name_ko": "경영학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Ngôn ngữ & Văn hóa Hàn Quốc",
+            "name_ko": "한국언어문화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Truyền thông & Báo chí",
+            "name_ko": "미디어언론학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Thương mại Quốc tế",
+            "name_ko": "국제무역학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "engineering",
+        "faculty_name_vi": "Khoa Kỹ thuật & Công nghệ Thông tin",
+        "faculty_name_ko": "공과대학",
+        "tuition_krw": 3460000,
+        "majors": [
+          {
+            "name_vi": "Khoa học Máy tính & AI",
+            "name_ko": "컴퓨터공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Công nghệ Thông tin (IT)",
+            "name_ko": "정보통신공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Kỹ thuật Điện - Điện tử",
+            "name_ko": "전기전자공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Kỹ thuật Cơ khí",
+            "name_ko": "기계공학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "natural_sciences",
+        "faculty_name_vi": "Khoa Khoa học Tự nhiên & Sinh học",
+        "faculty_name_ko": "자연과학대학",
+        "tuition_krw": 2641000,
+        "majors": [
+          {
+            "name_vi": "Hóa học & Vật liệu mới",
+            "name_ko": "화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Công nghệ Thực phẩm & Dinh dưỡng",
+            "name_ko": "식품영양학과",
+            "is_hot": false
+          },
+          {
+            "name_vi": "Sinh học Ứng dụng & Công nghệ Sinh học",
+            "name_ko": "생명공학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "arts_sports",
+        "faculty_name_vi": "Khoa Nghệ thuật & Thể dục Thể thao",
+        "faculty_name_ko": "예체능대학",
+        "tuition_krw": 3307000,
+        "majors": [
+          {
+            "name_vi": "Thiết kế Đồ họa & Kỹ thuật số",
+            "name_ko": "시각디자인학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Nghệ thuật Thẩm mỹ & Trang điểm (Make-up)",
+            "name_ko": "뷰티미용학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Diễn xuất, Sân khấu & Điện ảnh",
+            "name_ko": "연극영화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Âm nhạc K-Pop & Vẫn nghệ",
+            "name_ko": "실용음악학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "medicine_pharmacy",
+        "faculty_name_vi": "Khoa Y - Dược & Khoa học Y tế",
+        "faculty_name_ko": "의치약학/보건대학",
+        "tuition_krw": 2899000,
+        "majors": [
+          {
+            "name_vi": "Điều dưỡng (Nursing)",
+            "name_ko": "간호학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Quản lý Y tế & Bệnh viện",
+            "name_ko": "보건행정학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Vật lý trị liệu & Phục hồi chức năng",
+            "name_ko": "물리치료학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Dược học",
+            "name_ko": "약학과",
+            "is_hot": true
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "mock_uni_171",
@@ -6162,7 +29590,144 @@ export const universities = [
     "dorm_fee_desc": "1,100,000-1,400,000KRW",
     "admission_conditions": "",
     "featured_majors": "Điện ảnh – Animation – Digital Content",
-    "regional_restrictions": ""
+    "regional_restrictions": "",
+    "majors_detail": [
+      {
+        "category": "humanities_social",
+        "faculty_name_vi": "Khoa Nhân văn & Khoa học Xã hội",
+        "faculty_name_ko": "인문사회대학",
+        "tuition_krw": 4411000,
+        "majors": [
+          {
+            "name_vi": "Quản trị Kinh doanh",
+            "name_ko": "경영학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Ngôn ngữ & Văn hóa Hàn Quốc",
+            "name_ko": "한국언어문화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Truyền thông & Báo chí",
+            "name_ko": "미디어언론학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Thương mại Quốc tế",
+            "name_ko": "국제무역학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "engineering",
+        "faculty_name_vi": "Khoa Kỹ thuật & Công nghệ Thông tin",
+        "faculty_name_ko": "공과대학",
+        "tuition_krw": 3370000,
+        "majors": [
+          {
+            "name_vi": "Khoa học Máy tính & AI",
+            "name_ko": "컴퓨터공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Công nghệ Thông tin (IT)",
+            "name_ko": "정보통신공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Kỹ thuật Điện - Điện tử",
+            "name_ko": "전기전자공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Kỹ thuật Cơ khí",
+            "name_ko": "기계공학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "natural_sciences",
+        "faculty_name_vi": "Khoa Khoa học Tự nhiên & Sinh học",
+        "faculty_name_ko": "자연과학대학",
+        "tuition_krw": 3583000,
+        "majors": [
+          {
+            "name_vi": "Hóa học & Vật liệu mới",
+            "name_ko": "화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Công nghệ Thực phẩm & Dinh dưỡng",
+            "name_ko": "식품영양학과",
+            "is_hot": false
+          },
+          {
+            "name_vi": "Sinh học Ứng dụng & Công nghệ Sinh học",
+            "name_ko": "생명공학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "arts_sports",
+        "faculty_name_vi": "Khoa Nghệ thuật & Thể dục Thể thao",
+        "faculty_name_ko": "예체능대학",
+        "tuition_krw": 4275000,
+        "majors": [
+          {
+            "name_vi": "Thiết kế Đồ họa & Kỹ thuật số",
+            "name_ko": "시각디자인학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Nghệ thuật Thẩm mỹ & Trang điểm (Make-up)",
+            "name_ko": "뷰티미용학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Diễn xuất, Sân khấu & Điện ảnh",
+            "name_ko": "연극영화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Âm nhạc K-Pop & Vẫn nghệ",
+            "name_ko": "실용음악학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "medicine_pharmacy",
+        "faculty_name_vi": "Khoa Y - Dược & Khoa học Y tế",
+        "faculty_name_ko": "의치약학/보건대학",
+        "tuition_krw": 3476000,
+        "majors": [
+          {
+            "name_vi": "Điều dưỡng (Nursing)",
+            "name_ko": "간호학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Quản lý Y tế & Bệnh viện",
+            "name_ko": "보건행정학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Vật lý trị liệu & Phục hồi chức năng",
+            "name_ko": "물리치료학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Dược học",
+            "name_ko": "약학과",
+            "is_hot": true
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "mock_uni_172",
@@ -6200,7 +29765,144 @@ export const universities = [
     "dorm_fee_desc": "653,000KRW",
     "admission_conditions": "",
     "featured_majors": "Thiết kế ô tô – Business – Design",
-    "regional_restrictions": ""
+    "regional_restrictions": "",
+    "majors_detail": [
+      {
+        "category": "humanities_social",
+        "faculty_name_vi": "Khoa Nhân văn & Khoa học Xã hội",
+        "faculty_name_ko": "인문사회대학",
+        "tuition_krw": 4287000,
+        "majors": [
+          {
+            "name_vi": "Quản trị Kinh doanh",
+            "name_ko": "경영학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Ngôn ngữ & Văn hóa Hàn Quốc",
+            "name_ko": "한국언어문화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Truyền thông & Báo chí",
+            "name_ko": "미디어언론학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Thương mại Quốc tế",
+            "name_ko": "국제무역학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "engineering",
+        "faculty_name_vi": "Khoa Kỹ thuật & Công nghệ Thông tin",
+        "faculty_name_ko": "공과대학",
+        "tuition_krw": 3832000,
+        "majors": [
+          {
+            "name_vi": "Khoa học Máy tính & AI",
+            "name_ko": "컴퓨터공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Công nghệ Thông tin (IT)",
+            "name_ko": "정보통신공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Kỹ thuật Điện - Điện tử",
+            "name_ko": "전기전자공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Kỹ thuật Cơ khí",
+            "name_ko": "기계공학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "natural_sciences",
+        "faculty_name_vi": "Khoa Khoa học Tự nhiên & Sinh học",
+        "faculty_name_ko": "자연과학대학",
+        "tuition_krw": 4390000,
+        "majors": [
+          {
+            "name_vi": "Hóa học & Vật liệu mới",
+            "name_ko": "화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Công nghệ Thực phẩm & Dinh dưỡng",
+            "name_ko": "식품영양학과",
+            "is_hot": false
+          },
+          {
+            "name_vi": "Sinh học Ứng dụng & Công nghệ Sinh học",
+            "name_ko": "생명공학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "arts_sports",
+        "faculty_name_vi": "Khoa Nghệ thuật & Thể dục Thể thao",
+        "faculty_name_ko": "예체능대학",
+        "tuition_krw": 4168000,
+        "majors": [
+          {
+            "name_vi": "Thiết kế Đồ họa & Kỹ thuật số",
+            "name_ko": "시각디자인학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Nghệ thuật Thẩm mỹ & Trang điểm (Make-up)",
+            "name_ko": "뷰티미용학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Diễn xuất, Sân khấu & Điện ảnh",
+            "name_ko": "연극영화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Âm nhạc K-Pop & Vẫn nghệ",
+            "name_ko": "실용음악학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "medicine_pharmacy",
+        "faculty_name_vi": "Khoa Y - Dược & Khoa học Y tế",
+        "faculty_name_ko": "의치약학/보건대학",
+        "tuition_krw": 2149000,
+        "majors": [
+          {
+            "name_vi": "Điều dưỡng (Nursing)",
+            "name_ko": "간호학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Quản lý Y tế & Bệnh viện",
+            "name_ko": "보건행정학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Vật lý trị liệu & Phục hồi chức năng",
+            "name_ko": "물리치료학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Dược học",
+            "name_ko": "약학과",
+            "is_hot": true
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "mock_uni_173",
@@ -6238,7 +29940,144 @@ export const universities = [
     "dorm_fee_desc": "600,000-1,000,000KRW",
     "admission_conditions": "6,0 trở lên (xem xét)",
     "featured_majors": "",
-    "regional_restrictions": ""
+    "regional_restrictions": "",
+    "majors_detail": [
+      {
+        "category": "humanities_social",
+        "faculty_name_vi": "Khoa Nhân văn & Khoa học Xã hội",
+        "faculty_name_ko": "인문사회대학",
+        "tuition_krw": 4101000,
+        "majors": [
+          {
+            "name_vi": "Quản trị Kinh doanh",
+            "name_ko": "경영학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Ngôn ngữ & Văn hóa Hàn Quốc",
+            "name_ko": "한국언어문화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Truyền thông & Báo chí",
+            "name_ko": "미디어언론학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Thương mại Quốc tế",
+            "name_ko": "국제무역학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "engineering",
+        "faculty_name_vi": "Khoa Kỹ thuật & Công nghệ Thông tin",
+        "faculty_name_ko": "공과대학",
+        "tuition_krw": 3174000,
+        "majors": [
+          {
+            "name_vi": "Khoa học Máy tính & AI",
+            "name_ko": "컴퓨터공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Công nghệ Thông tin (IT)",
+            "name_ko": "정보통신공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Kỹ thuật Điện - Điện tử",
+            "name_ko": "전기전자공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Kỹ thuật Cơ khí",
+            "name_ko": "기계공학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "natural_sciences",
+        "faculty_name_vi": "Khoa Khoa học Tự nhiên & Sinh học",
+        "faculty_name_ko": "자연과학대학",
+        "tuition_krw": 4997000,
+        "majors": [
+          {
+            "name_vi": "Hóa học & Vật liệu mới",
+            "name_ko": "화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Công nghệ Thực phẩm & Dinh dưỡng",
+            "name_ko": "식품영양학과",
+            "is_hot": false
+          },
+          {
+            "name_vi": "Sinh học Ứng dụng & Công nghệ Sinh học",
+            "name_ko": "생명공학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "arts_sports",
+        "faculty_name_vi": "Khoa Nghệ thuật & Thể dục Thể thao",
+        "faculty_name_ko": "예체능대학",
+        "tuition_krw": 4387000,
+        "majors": [
+          {
+            "name_vi": "Thiết kế Đồ họa & Kỹ thuật số",
+            "name_ko": "시각디자인학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Nghệ thuật Thẩm mỹ & Trang điểm (Make-up)",
+            "name_ko": "뷰티미용학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Diễn xuất, Sân khấu & Điện ảnh",
+            "name_ko": "연극영화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Âm nhạc K-Pop & Vẫn nghệ",
+            "name_ko": "실용음악학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "medicine_pharmacy",
+        "faculty_name_vi": "Khoa Y - Dược & Khoa học Y tế",
+        "faculty_name_ko": "의치약학/보건대학",
+        "tuition_krw": 4571000,
+        "majors": [
+          {
+            "name_vi": "Điều dưỡng (Nursing)",
+            "name_ko": "간호학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Quản lý Y tế & Bệnh viện",
+            "name_ko": "보건행정학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Vật lý trị liệu & Phục hồi chức năng",
+            "name_ko": "물리치료학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Dược học",
+            "name_ko": "약학과",
+            "is_hot": true
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "mock_uni_174",
@@ -6276,7 +30115,144 @@ export const universities = [
     "dorm_fee_desc": "1,500,000-2,500,000KRW",
     "admission_conditions": "",
     "featured_majors": "Điều dưỡng, Hàng không, Kinh doanh",
-    "regional_restrictions": ""
+    "regional_restrictions": "",
+    "majors_detail": [
+      {
+        "category": "humanities_social",
+        "faculty_name_vi": "Khoa Nhân văn & Khoa học Xã hội",
+        "faculty_name_ko": "인문사회대학",
+        "tuition_krw": 3866000,
+        "majors": [
+          {
+            "name_vi": "Quản trị Kinh doanh",
+            "name_ko": "경영학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Ngôn ngữ & Văn hóa Hàn Quốc",
+            "name_ko": "한국언어문화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Truyền thông & Báo chí",
+            "name_ko": "미디어언론학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Thương mại Quốc tế",
+            "name_ko": "국제무역학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "engineering",
+        "faculty_name_vi": "Khoa Kỹ thuật & Công nghệ Thông tin",
+        "faculty_name_ko": "공과대학",
+        "tuition_krw": 4859000,
+        "majors": [
+          {
+            "name_vi": "Khoa học Máy tính & AI",
+            "name_ko": "컴퓨터공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Công nghệ Thông tin (IT)",
+            "name_ko": "정보통신공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Kỹ thuật Điện - Điện tử",
+            "name_ko": "전기전자공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Kỹ thuật Cơ khí",
+            "name_ko": "기계공학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "natural_sciences",
+        "faculty_name_vi": "Khoa Khoa học Tự nhiên & Sinh học",
+        "faculty_name_ko": "자연과학대학",
+        "tuition_krw": 3473000,
+        "majors": [
+          {
+            "name_vi": "Hóa học & Vật liệu mới",
+            "name_ko": "화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Công nghệ Thực phẩm & Dinh dưỡng",
+            "name_ko": "식품영양학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Sinh học Ứng dụng & Công nghệ Sinh học",
+            "name_ko": "생명공학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "arts_sports",
+        "faculty_name_vi": "Khoa Nghệ thuật & Thể dục Thể thao",
+        "faculty_name_ko": "예체능대학",
+        "tuition_krw": 4069000,
+        "majors": [
+          {
+            "name_vi": "Thiết kế Đồ họa & Kỹ thuật số",
+            "name_ko": "시각디자인학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Nghệ thuật Thẩm mỹ & Trang điểm (Make-up)",
+            "name_ko": "뷰티미용학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Diễn xuất, Sân khấu & Điện ảnh",
+            "name_ko": "연극영화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Âm nhạc K-Pop & Vẫn nghệ",
+            "name_ko": "실용음악학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "medicine_pharmacy",
+        "faculty_name_vi": "Khoa Y - Dược & Khoa học Y tế",
+        "faculty_name_ko": "의치약학/보건대학",
+        "tuition_krw": 3138000,
+        "majors": [
+          {
+            "name_vi": "Điều dưỡng (Nursing)",
+            "name_ko": "간호학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Quản lý Y tế & Bệnh viện",
+            "name_ko": "보건행정학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Vật lý trị liệu & Phục hồi chức năng",
+            "name_ko": "물리치료학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Dược học",
+            "name_ko": "약학과",
+            "is_hot": true
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "mock_uni_175",
@@ -6314,7 +30290,144 @@ export const universities = [
     "dorm_fee_desc": "1,100,000-1,500,000KRW",
     "admission_conditions": "",
     "featured_majors": "IT – AI – Kinh doanh",
-    "regional_restrictions": ""
+    "regional_restrictions": "",
+    "majors_detail": [
+      {
+        "category": "humanities_social",
+        "faculty_name_vi": "Khoa Nhân văn & Khoa học Xã hội",
+        "faculty_name_ko": "인문사회대학",
+        "tuition_krw": 3717000,
+        "majors": [
+          {
+            "name_vi": "Quản trị Kinh doanh",
+            "name_ko": "경영학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Ngôn ngữ & Văn hóa Hàn Quốc",
+            "name_ko": "한국언어문화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Truyền thông & Báo chí",
+            "name_ko": "미디어언론학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Thương mại Quốc tế",
+            "name_ko": "국제무역학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "engineering",
+        "faculty_name_vi": "Khoa Kỹ thuật & Công nghệ Thông tin",
+        "faculty_name_ko": "공과대학",
+        "tuition_krw": 2477000,
+        "majors": [
+          {
+            "name_vi": "Khoa học Máy tính & AI",
+            "name_ko": "컴퓨터공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Công nghệ Thông tin (IT)",
+            "name_ko": "정보통신공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Kỹ thuật Điện - Điện tử",
+            "name_ko": "전기전자공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Kỹ thuật Cơ khí",
+            "name_ko": "기계공학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "natural_sciences",
+        "faculty_name_vi": "Khoa Khoa học Tự nhiên & Sinh học",
+        "faculty_name_ko": "자연과학대학",
+        "tuition_krw": 2222000,
+        "majors": [
+          {
+            "name_vi": "Hóa học & Vật liệu mới",
+            "name_ko": "화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Công nghệ Thực phẩm & Dinh dưỡng",
+            "name_ko": "식품영양학과",
+            "is_hot": false
+          },
+          {
+            "name_vi": "Sinh học Ứng dụng & Công nghệ Sinh học",
+            "name_ko": "생명공학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "arts_sports",
+        "faculty_name_vi": "Khoa Nghệ thuật & Thể dục Thể thao",
+        "faculty_name_ko": "예체능대학",
+        "tuition_krw": 3519000,
+        "majors": [
+          {
+            "name_vi": "Thiết kế Đồ họa & Kỹ thuật số",
+            "name_ko": "시각디자인학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Nghệ thuật Thẩm mỹ & Trang điểm (Make-up)",
+            "name_ko": "뷰티미용학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Diễn xuất, Sân khấu & Điện ảnh",
+            "name_ko": "연극영화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Âm nhạc K-Pop & Vẫn nghệ",
+            "name_ko": "실용음악학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "medicine_pharmacy",
+        "faculty_name_vi": "Khoa Y - Dược & Khoa học Y tế",
+        "faculty_name_ko": "의치약학/보건대학",
+        "tuition_krw": 4995000,
+        "majors": [
+          {
+            "name_vi": "Điều dưỡng (Nursing)",
+            "name_ko": "간호학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Quản lý Y tế & Bệnh viện",
+            "name_ko": "보건행정학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Vật lý trị liệu & Phục hồi chức năng",
+            "name_ko": "물리치료학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Dược học",
+            "name_ko": "약학과",
+            "is_hot": true
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "mock_uni_176",
@@ -6352,7 +30465,144 @@ export const universities = [
     "dorm_fee_desc": "1,000,000KRW",
     "admission_conditions": "7,0 trở lên\n- vắng ko quá 5 buổi (nhiều hơn cần giải trình)",
     "featured_majors": "Y khoa – Điều dưỡng – AI y tế",
-    "regional_restrictions": ""
+    "regional_restrictions": "",
+    "majors_detail": [
+      {
+        "category": "humanities_social",
+        "faculty_name_vi": "Khoa Nhân văn & Khoa học Xã hội",
+        "faculty_name_ko": "인문사회대학",
+        "tuition_krw": 4618000,
+        "majors": [
+          {
+            "name_vi": "Quản trị Kinh doanh",
+            "name_ko": "경영학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Ngôn ngữ & Văn hóa Hàn Quốc",
+            "name_ko": "한국언어문화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Truyền thông & Báo chí",
+            "name_ko": "미디어언론학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Thương mại Quốc tế",
+            "name_ko": "국제무역학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "engineering",
+        "faculty_name_vi": "Khoa Kỹ thuật & Công nghệ Thông tin",
+        "faculty_name_ko": "공과대학",
+        "tuition_krw": 2936000,
+        "majors": [
+          {
+            "name_vi": "Khoa học Máy tính & AI",
+            "name_ko": "컴퓨터공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Công nghệ Thông tin (IT)",
+            "name_ko": "정보통신공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Kỹ thuật Điện - Điện tử",
+            "name_ko": "전기전자공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Kỹ thuật Cơ khí",
+            "name_ko": "기계공학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "natural_sciences",
+        "faculty_name_vi": "Khoa Khoa học Tự nhiên & Sinh học",
+        "faculty_name_ko": "자연과학대학",
+        "tuition_krw": 2340000,
+        "majors": [
+          {
+            "name_vi": "Hóa học & Vật liệu mới",
+            "name_ko": "화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Công nghệ Thực phẩm & Dinh dưỡng",
+            "name_ko": "식품영양학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Sinh học Ứng dụng & Công nghệ Sinh học",
+            "name_ko": "생명공학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "arts_sports",
+        "faculty_name_vi": "Khoa Nghệ thuật & Thể dục Thể thao",
+        "faculty_name_ko": "예체능대학",
+        "tuition_krw": 4262000,
+        "majors": [
+          {
+            "name_vi": "Thiết kế Đồ họa & Kỹ thuật số",
+            "name_ko": "시각디자인학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Nghệ thuật Thẩm mỹ & Trang điểm (Make-up)",
+            "name_ko": "뷰티미용학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Diễn xuất, Sân khấu & Điện ảnh",
+            "name_ko": "연극영화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Âm nhạc K-Pop & Vẫn nghệ",
+            "name_ko": "실용음악학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "medicine_pharmacy",
+        "faculty_name_vi": "Khoa Y - Dược & Khoa học Y tế",
+        "faculty_name_ko": "의치약학/보건대학",
+        "tuition_krw": 4156000,
+        "majors": [
+          {
+            "name_vi": "Điều dưỡng (Nursing)",
+            "name_ko": "간호학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Quản lý Y tế & Bệnh viện",
+            "name_ko": "보건행정학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Vật lý trị liệu & Phục hồi chức năng",
+            "name_ko": "물리치료학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Dược học",
+            "name_ko": "약학과",
+            "is_hot": true
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "mock_uni_177",
@@ -6390,7 +30640,144 @@ export const universities = [
     "dorm_fee_desc": "1,300,000-1,800,000KRW",
     "admission_conditions": "",
     "featured_majors": "Y khoa – Business – Ngôn ngữ",
-    "regional_restrictions": ""
+    "regional_restrictions": "",
+    "majors_detail": [
+      {
+        "category": "humanities_social",
+        "faculty_name_vi": "Khoa Nhân văn & Khoa học Xã hội",
+        "faculty_name_ko": "인문사회대학",
+        "tuition_krw": 4563000,
+        "majors": [
+          {
+            "name_vi": "Quản trị Kinh doanh",
+            "name_ko": "경영학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Ngôn ngữ & Văn hóa Hàn Quốc",
+            "name_ko": "한국언어문화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Truyền thông & Báo chí",
+            "name_ko": "미디어언론학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Thương mại Quốc tế",
+            "name_ko": "국제무역학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "engineering",
+        "faculty_name_vi": "Khoa Kỹ thuật & Công nghệ Thông tin",
+        "faculty_name_ko": "공과대학",
+        "tuition_krw": 4615000,
+        "majors": [
+          {
+            "name_vi": "Khoa học Máy tính & AI",
+            "name_ko": "컴퓨터공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Công nghệ Thông tin (IT)",
+            "name_ko": "정보통신공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Kỹ thuật Điện - Điện tử",
+            "name_ko": "전기전자공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Kỹ thuật Cơ khí",
+            "name_ko": "기계공학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "natural_sciences",
+        "faculty_name_vi": "Khoa Khoa học Tự nhiên & Sinh học",
+        "faculty_name_ko": "자연과학대학",
+        "tuition_krw": 4952000,
+        "majors": [
+          {
+            "name_vi": "Hóa học & Vật liệu mới",
+            "name_ko": "화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Công nghệ Thực phẩm & Dinh dưỡng",
+            "name_ko": "식품영양학과",
+            "is_hot": false
+          },
+          {
+            "name_vi": "Sinh học Ứng dụng & Công nghệ Sinh học",
+            "name_ko": "생명공학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "arts_sports",
+        "faculty_name_vi": "Khoa Nghệ thuật & Thể dục Thể thao",
+        "faculty_name_ko": "예체능대학",
+        "tuition_krw": 3374000,
+        "majors": [
+          {
+            "name_vi": "Thiết kế Đồ họa & Kỹ thuật số",
+            "name_ko": "시각디자인학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Nghệ thuật Thẩm mỹ & Trang điểm (Make-up)",
+            "name_ko": "뷰티미용학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Diễn xuất, Sân khấu & Điện ảnh",
+            "name_ko": "연극영화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Âm nhạc K-Pop & Vẫn nghệ",
+            "name_ko": "실용음악학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "medicine_pharmacy",
+        "faculty_name_vi": "Khoa Y - Dược & Khoa học Y tế",
+        "faculty_name_ko": "의치약학/보건대학",
+        "tuition_krw": 3245000,
+        "majors": [
+          {
+            "name_vi": "Điều dưỡng (Nursing)",
+            "name_ko": "간호학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Quản lý Y tế & Bệnh viện",
+            "name_ko": "보건행정학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Vật lý trị liệu & Phục hồi chức năng",
+            "name_ko": "물리치료학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Dược học",
+            "name_ko": "약학과",
+            "is_hot": true
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "mock_uni_178",
@@ -6421,7 +30808,144 @@ export const universities = [
     "master_no_topik": true,
     "custom_notes": "",
     "top_1_percent": false,
-    "is_restricted_school": true
+    "is_restricted_school": true,
+    "majors_detail": [
+      {
+        "category": "humanities_social",
+        "faculty_name_vi": "Khoa Nhân văn & Khoa học Xã hội",
+        "faculty_name_ko": "인문사회대학",
+        "tuition_krw": 3782000,
+        "majors": [
+          {
+            "name_vi": "Quản trị Kinh doanh",
+            "name_ko": "경영학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Ngôn ngữ & Văn hóa Hàn Quốc",
+            "name_ko": "한국언어문화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Truyền thông & Báo chí",
+            "name_ko": "미디어언론학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Thương mại Quốc tế",
+            "name_ko": "국제무역학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "engineering",
+        "faculty_name_vi": "Khoa Kỹ thuật & Công nghệ Thông tin",
+        "faculty_name_ko": "공과대학",
+        "tuition_krw": 4463000,
+        "majors": [
+          {
+            "name_vi": "Khoa học Máy tính & AI",
+            "name_ko": "컴퓨터공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Công nghệ Thông tin (IT)",
+            "name_ko": "정보통신공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Kỹ thuật Điện - Điện tử",
+            "name_ko": "전기전자공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Kỹ thuật Cơ khí",
+            "name_ko": "기계공학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "natural_sciences",
+        "faculty_name_vi": "Khoa Khoa học Tự nhiên & Sinh học",
+        "faculty_name_ko": "자연과학대학",
+        "tuition_krw": 3719000,
+        "majors": [
+          {
+            "name_vi": "Hóa học & Vật liệu mới",
+            "name_ko": "화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Công nghệ Thực phẩm & Dinh dưỡng",
+            "name_ko": "식품영양학과",
+            "is_hot": false
+          },
+          {
+            "name_vi": "Sinh học Ứng dụng & Công nghệ Sinh học",
+            "name_ko": "생명공학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "arts_sports",
+        "faculty_name_vi": "Khoa Nghệ thuật & Thể dục Thể thao",
+        "faculty_name_ko": "예체능대학",
+        "tuition_krw": 2617000,
+        "majors": [
+          {
+            "name_vi": "Thiết kế Đồ họa & Kỹ thuật số",
+            "name_ko": "시각디자인학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Nghệ thuật Thẩm mỹ & Trang điểm (Make-up)",
+            "name_ko": "뷰티미용학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Diễn xuất, Sân khấu & Điện ảnh",
+            "name_ko": "연극영화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Âm nhạc K-Pop & Vẫn nghệ",
+            "name_ko": "실용음악학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "medicine_pharmacy",
+        "faculty_name_vi": "Khoa Y - Dược & Khoa học Y tế",
+        "faculty_name_ko": "의치약학/보건대학",
+        "tuition_krw": 2104000,
+        "majors": [
+          {
+            "name_vi": "Điều dưỡng (Nursing)",
+            "name_ko": "간호학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Quản lý Y tế & Bệnh viện",
+            "name_ko": "보건행정학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Vật lý trị liệu & Phục hồi chức năng",
+            "name_ko": "물리치료학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Dược học",
+            "name_ko": "약학과",
+            "is_hot": true
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "mock_uni_179",
@@ -6459,7 +30983,144 @@ export const universities = [
     "dorm_fee_desc": "1,300,000KRW",
     "admission_conditions": "",
     "featured_majors": "Thiết kế – IT – Fashion",
-    "regional_restrictions": ""
+    "regional_restrictions": "",
+    "majors_detail": [
+      {
+        "category": "humanities_social",
+        "faculty_name_vi": "Khoa Nhân văn & Khoa học Xã hội",
+        "faculty_name_ko": "인문사회대학",
+        "tuition_krw": 3447000,
+        "majors": [
+          {
+            "name_vi": "Quản trị Kinh doanh",
+            "name_ko": "경영학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Ngôn ngữ & Văn hóa Hàn Quốc",
+            "name_ko": "한국언어문화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Truyền thông & Báo chí",
+            "name_ko": "미디어언론학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Thương mại Quốc tế",
+            "name_ko": "국제무역학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "engineering",
+        "faculty_name_vi": "Khoa Kỹ thuật & Công nghệ Thông tin",
+        "faculty_name_ko": "공과대학",
+        "tuition_krw": 4477000,
+        "majors": [
+          {
+            "name_vi": "Khoa học Máy tính & AI",
+            "name_ko": "컴퓨터공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Công nghệ Thông tin (IT)",
+            "name_ko": "정보통신공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Kỹ thuật Điện - Điện tử",
+            "name_ko": "전기전자공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Kỹ thuật Cơ khí",
+            "name_ko": "기계공학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "natural_sciences",
+        "faculty_name_vi": "Khoa Khoa học Tự nhiên & Sinh học",
+        "faculty_name_ko": "자연과학대학",
+        "tuition_krw": 3619000,
+        "majors": [
+          {
+            "name_vi": "Hóa học & Vật liệu mới",
+            "name_ko": "화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Công nghệ Thực phẩm & Dinh dưỡng",
+            "name_ko": "식품영양학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Sinh học Ứng dụng & Công nghệ Sinh học",
+            "name_ko": "생명공학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "arts_sports",
+        "faculty_name_vi": "Khoa Nghệ thuật & Thể dục Thể thao",
+        "faculty_name_ko": "예체능대학",
+        "tuition_krw": 4401000,
+        "majors": [
+          {
+            "name_vi": "Thiết kế Đồ họa & Kỹ thuật số",
+            "name_ko": "시각디자인학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Nghệ thuật Thẩm mỹ & Trang điểm (Make-up)",
+            "name_ko": "뷰티미용학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Diễn xuất, Sân khấu & Điện ảnh",
+            "name_ko": "연극영화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Âm nhạc K-Pop & Vẫn nghệ",
+            "name_ko": "실용음악학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "medicine_pharmacy",
+        "faculty_name_vi": "Khoa Y - Dược & Khoa học Y tế",
+        "faculty_name_ko": "의치약학/보건대학",
+        "tuition_krw": 3991000,
+        "majors": [
+          {
+            "name_vi": "Điều dưỡng (Nursing)",
+            "name_ko": "간호학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Quản lý Y tế & Bệnh viện",
+            "name_ko": "보건행정학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Vật lý trị liệu & Phục hồi chức năng",
+            "name_ko": "물리치료학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Dược học",
+            "name_ko": "약학과",
+            "is_hot": true
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "mock_uni_180",
@@ -6497,7 +31158,144 @@ export const universities = [
     "dorm_fee_desc": "1,182,4000KRW",
     "admission_conditions": "",
     "featured_majors": "Y khoa – AI – Quản trị kinh doanh",
-    "regional_restrictions": ""
+    "regional_restrictions": "",
+    "majors_detail": [
+      {
+        "category": "humanities_social",
+        "faculty_name_vi": "Khoa Nhân văn & Khoa học Xã hội",
+        "faculty_name_ko": "인문사회대학",
+        "tuition_krw": 3445000,
+        "majors": [
+          {
+            "name_vi": "Quản trị Kinh doanh",
+            "name_ko": "경영학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Ngôn ngữ & Văn hóa Hàn Quốc",
+            "name_ko": "한국언어문화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Truyền thông & Báo chí",
+            "name_ko": "미디어언론학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Thương mại Quốc tế",
+            "name_ko": "국제무역학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "engineering",
+        "faculty_name_vi": "Khoa Kỹ thuật & Công nghệ Thông tin",
+        "faculty_name_ko": "공과대학",
+        "tuition_krw": 2553000,
+        "majors": [
+          {
+            "name_vi": "Khoa học Máy tính & AI",
+            "name_ko": "컴퓨터공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Công nghệ Thông tin (IT)",
+            "name_ko": "정보통신공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Kỹ thuật Điện - Điện tử",
+            "name_ko": "전기전자공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Kỹ thuật Cơ khí",
+            "name_ko": "기계공학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "natural_sciences",
+        "faculty_name_vi": "Khoa Khoa học Tự nhiên & Sinh học",
+        "faculty_name_ko": "자연과학대학",
+        "tuition_krw": 2351000,
+        "majors": [
+          {
+            "name_vi": "Hóa học & Vật liệu mới",
+            "name_ko": "화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Công nghệ Thực phẩm & Dinh dưỡng",
+            "name_ko": "식품영양학과",
+            "is_hot": false
+          },
+          {
+            "name_vi": "Sinh học Ứng dụng & Công nghệ Sinh học",
+            "name_ko": "생명공학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "arts_sports",
+        "faculty_name_vi": "Khoa Nghệ thuật & Thể dục Thể thao",
+        "faculty_name_ko": "예체능대학",
+        "tuition_krw": 4857000,
+        "majors": [
+          {
+            "name_vi": "Thiết kế Đồ họa & Kỹ thuật số",
+            "name_ko": "시각디자인학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Nghệ thuật Thẩm mỹ & Trang điểm (Make-up)",
+            "name_ko": "뷰티미용학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Diễn xuất, Sân khấu & Điện ảnh",
+            "name_ko": "연극영화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Âm nhạc K-Pop & Vẫn nghệ",
+            "name_ko": "실용음악학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "medicine_pharmacy",
+        "faculty_name_vi": "Khoa Y - Dược & Khoa học Y tế",
+        "faculty_name_ko": "의치약학/보건대학",
+        "tuition_krw": 2228000,
+        "majors": [
+          {
+            "name_vi": "Điều dưỡng (Nursing)",
+            "name_ko": "간호학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Quản lý Y tế & Bệnh viện",
+            "name_ko": "보건행정학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Vật lý trị liệu & Phục hồi chức năng",
+            "name_ko": "물리치료학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Dược học",
+            "name_ko": "약학과",
+            "is_hot": true
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "mock_uni_181",
@@ -6535,7 +31333,144 @@ export const universities = [
     "dorm_fee_desc": "1,400,000KRW",
     "admission_conditions": "",
     "featured_majors": "Nha khoa – Business – Truyền thông",
-    "regional_restrictions": ""
+    "regional_restrictions": "",
+    "majors_detail": [
+      {
+        "category": "humanities_social",
+        "faculty_name_vi": "Khoa Nhân văn & Khoa học Xã hội",
+        "faculty_name_ko": "인문사회대학",
+        "tuition_krw": 3722000,
+        "majors": [
+          {
+            "name_vi": "Quản trị Kinh doanh",
+            "name_ko": "경영학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Ngôn ngữ & Văn hóa Hàn Quốc",
+            "name_ko": "한국언어문화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Truyền thông & Báo chí",
+            "name_ko": "미디어언론학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Thương mại Quốc tế",
+            "name_ko": "국제무역학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "engineering",
+        "faculty_name_vi": "Khoa Kỹ thuật & Công nghệ Thông tin",
+        "faculty_name_ko": "공과대학",
+        "tuition_krw": 3029000,
+        "majors": [
+          {
+            "name_vi": "Khoa học Máy tính & AI",
+            "name_ko": "컴퓨터공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Công nghệ Thông tin (IT)",
+            "name_ko": "정보통신공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Kỹ thuật Điện - Điện tử",
+            "name_ko": "전기전자공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Kỹ thuật Cơ khí",
+            "name_ko": "기계공학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "natural_sciences",
+        "faculty_name_vi": "Khoa Khoa học Tự nhiên & Sinh học",
+        "faculty_name_ko": "자연과학대학",
+        "tuition_krw": 4689000,
+        "majors": [
+          {
+            "name_vi": "Hóa học & Vật liệu mới",
+            "name_ko": "화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Công nghệ Thực phẩm & Dinh dưỡng",
+            "name_ko": "식품영양학과",
+            "is_hot": false
+          },
+          {
+            "name_vi": "Sinh học Ứng dụng & Công nghệ Sinh học",
+            "name_ko": "생명공학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "arts_sports",
+        "faculty_name_vi": "Khoa Nghệ thuật & Thể dục Thể thao",
+        "faculty_name_ko": "예체능대학",
+        "tuition_krw": 4863000,
+        "majors": [
+          {
+            "name_vi": "Thiết kế Đồ họa & Kỹ thuật số",
+            "name_ko": "시각디자인학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Nghệ thuật Thẩm mỹ & Trang điểm (Make-up)",
+            "name_ko": "뷰티미용학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Diễn xuất, Sân khấu & Điện ảnh",
+            "name_ko": "연극영화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Âm nhạc K-Pop & Vẫn nghệ",
+            "name_ko": "실용음악학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "medicine_pharmacy",
+        "faculty_name_vi": "Khoa Y - Dược & Khoa học Y tế",
+        "faculty_name_ko": "의치약학/보건대학",
+        "tuition_krw": 4923000,
+        "majors": [
+          {
+            "name_vi": "Điều dưỡng (Nursing)",
+            "name_ko": "간호학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Quản lý Y tế & Bệnh viện",
+            "name_ko": "보건행정학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Vật lý trị liệu & Phục hồi chức năng",
+            "name_ko": "물리치료학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Dược học",
+            "name_ko": "약학과",
+            "is_hot": true
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "mock_uni_182",
@@ -6573,7 +31508,144 @@ export const universities = [
     "dorm_fee_desc": "1,200,000-1,800,000KRW",
     "admission_conditions": "",
     "featured_majors": "Nha khoa – Y khoa – Kỹ thuật",
-    "regional_restrictions": ""
+    "regional_restrictions": "",
+    "majors_detail": [
+      {
+        "category": "humanities_social",
+        "faculty_name_vi": "Khoa Nhân văn & Khoa học Xã hội",
+        "faculty_name_ko": "인문사회대학",
+        "tuition_krw": 3249000,
+        "majors": [
+          {
+            "name_vi": "Quản trị Kinh doanh",
+            "name_ko": "경영학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Ngôn ngữ & Văn hóa Hàn Quốc",
+            "name_ko": "한국언어문화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Truyền thông & Báo chí",
+            "name_ko": "미디어언론학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Thương mại Quốc tế",
+            "name_ko": "국제무역학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "engineering",
+        "faculty_name_vi": "Khoa Kỹ thuật & Công nghệ Thông tin",
+        "faculty_name_ko": "공과대학",
+        "tuition_krw": 2922000,
+        "majors": [
+          {
+            "name_vi": "Khoa học Máy tính & AI",
+            "name_ko": "컴퓨터공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Công nghệ Thông tin (IT)",
+            "name_ko": "정보통신공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Kỹ thuật Điện - Điện tử",
+            "name_ko": "전기전자공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Kỹ thuật Cơ khí",
+            "name_ko": "기계공학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "natural_sciences",
+        "faculty_name_vi": "Khoa Khoa học Tự nhiên & Sinh học",
+        "faculty_name_ko": "자연과학대학",
+        "tuition_krw": 2509000,
+        "majors": [
+          {
+            "name_vi": "Hóa học & Vật liệu mới",
+            "name_ko": "화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Công nghệ Thực phẩm & Dinh dưỡng",
+            "name_ko": "식품영양학과",
+            "is_hot": false
+          },
+          {
+            "name_vi": "Sinh học Ứng dụng & Công nghệ Sinh học",
+            "name_ko": "생명공학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "arts_sports",
+        "faculty_name_vi": "Khoa Nghệ thuật & Thể dục Thể thao",
+        "faculty_name_ko": "예체능대학",
+        "tuition_krw": 3249000,
+        "majors": [
+          {
+            "name_vi": "Thiết kế Đồ họa & Kỹ thuật số",
+            "name_ko": "시각디자인학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Nghệ thuật Thẩm mỹ & Trang điểm (Make-up)",
+            "name_ko": "뷰티미용학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Diễn xuất, Sân khấu & Điện ảnh",
+            "name_ko": "연극영화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Âm nhạc K-Pop & Vẫn nghệ",
+            "name_ko": "실용음악학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "medicine_pharmacy",
+        "faculty_name_vi": "Khoa Y - Dược & Khoa học Y tế",
+        "faculty_name_ko": "의치약학/보건대학",
+        "tuition_krw": 3249000,
+        "majors": [
+          {
+            "name_vi": "Điều dưỡng (Nursing)",
+            "name_ko": "간호학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Quản lý Y tế & Bệnh viện",
+            "name_ko": "보건행정학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Vật lý trị liệu & Phục hồi chức năng",
+            "name_ko": "물리치료학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Dược học",
+            "name_ko": "약학과",
+            "is_hot": true
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "mock_uni_183",
@@ -6611,7 +31683,144 @@ export const universities = [
     "dorm_fee_desc": "700,000-920,000KRW",
     "admission_conditions": "- 7.0 trở lên\n- vắng không quá 10 buổi",
     "featured_majors": "Y khoa – Luật – Kinh doanh",
-    "regional_restrictions": "Không nhận Quảng Bình"
+    "regional_restrictions": "Không nhận Quảng Bình",
+    "majors_detail": [
+      {
+        "category": "humanities_social",
+        "faculty_name_vi": "Khoa Nhân văn & Khoa học Xã hội",
+        "faculty_name_ko": "인문사회대학",
+        "tuition_krw": 2163000,
+        "majors": [
+          {
+            "name_vi": "Quản trị Kinh doanh",
+            "name_ko": "경영학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Ngôn ngữ & Văn hóa Hàn Quốc",
+            "name_ko": "한국언어문화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Truyền thông & Báo chí",
+            "name_ko": "미디어언론학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Thương mại Quốc tế",
+            "name_ko": "국제무역학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "engineering",
+        "faculty_name_vi": "Khoa Kỹ thuật & Công nghệ Thông tin",
+        "faculty_name_ko": "공과대학",
+        "tuition_krw": 4090000,
+        "majors": [
+          {
+            "name_vi": "Khoa học Máy tính & AI",
+            "name_ko": "컴퓨터공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Công nghệ Thông tin (IT)",
+            "name_ko": "정보통신공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Kỹ thuật Điện - Điện tử",
+            "name_ko": "전기전자공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Kỹ thuật Cơ khí",
+            "name_ko": "기계공학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "natural_sciences",
+        "faculty_name_vi": "Khoa Khoa học Tự nhiên & Sinh học",
+        "faculty_name_ko": "자연과학대학",
+        "tuition_krw": 2116000,
+        "majors": [
+          {
+            "name_vi": "Hóa học & Vật liệu mới",
+            "name_ko": "화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Công nghệ Thực phẩm & Dinh dưỡng",
+            "name_ko": "식품영양학과",
+            "is_hot": false
+          },
+          {
+            "name_vi": "Sinh học Ứng dụng & Công nghệ Sinh học",
+            "name_ko": "생명공학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "arts_sports",
+        "faculty_name_vi": "Khoa Nghệ thuật & Thể dục Thể thao",
+        "faculty_name_ko": "예체능대학",
+        "tuition_krw": 2258000,
+        "majors": [
+          {
+            "name_vi": "Thiết kế Đồ họa & Kỹ thuật số",
+            "name_ko": "시각디자인학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Nghệ thuật Thẩm mỹ & Trang điểm (Make-up)",
+            "name_ko": "뷰티미용학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Diễn xuất, Sân khấu & Điện ảnh",
+            "name_ko": "연극영화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Âm nhạc K-Pop & Vẫn nghệ",
+            "name_ko": "실용음악학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "medicine_pharmacy",
+        "faculty_name_vi": "Khoa Y - Dược & Khoa học Y tế",
+        "faculty_name_ko": "의치약학/보건대학",
+        "tuition_krw": 4005000,
+        "majors": [
+          {
+            "name_vi": "Điều dưỡng (Nursing)",
+            "name_ko": "간호학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Quản lý Y tế & Bệnh viện",
+            "name_ko": "보건행정학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Vật lý trị liệu & Phục hồi chức năng",
+            "name_ko": "물리치료학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Dược học",
+            "name_ko": "약학과",
+            "is_hot": true
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "mock_uni_184",
@@ -6649,7 +31858,144 @@ export const universities = [
     "dorm_fee_desc": "1,700,000-2,600,000KRW",
     "admission_conditions": "",
     "featured_majors": "Hải dương – Thủy sản – Logistics",
-    "regional_restrictions": ""
+    "regional_restrictions": "",
+    "majors_detail": [
+      {
+        "category": "humanities_social",
+        "faculty_name_vi": "Khoa Nhân văn & Khoa học Xã hội",
+        "faculty_name_ko": "인문사회대학",
+        "tuition_krw": 2649000,
+        "majors": [
+          {
+            "name_vi": "Quản trị Kinh doanh",
+            "name_ko": "경영학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Ngôn ngữ & Văn hóa Hàn Quốc",
+            "name_ko": "한국언어문화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Truyền thông & Báo chí",
+            "name_ko": "미디어언론학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Thương mại Quốc tế",
+            "name_ko": "국제무역학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "engineering",
+        "faculty_name_vi": "Khoa Kỹ thuật & Công nghệ Thông tin",
+        "faculty_name_ko": "공과대학",
+        "tuition_krw": 3489000,
+        "majors": [
+          {
+            "name_vi": "Khoa học Máy tính & AI",
+            "name_ko": "컴퓨터공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Công nghệ Thông tin (IT)",
+            "name_ko": "정보통신공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Kỹ thuật Điện - Điện tử",
+            "name_ko": "전기전자공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Kỹ thuật Cơ khí",
+            "name_ko": "기계공학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "natural_sciences",
+        "faculty_name_vi": "Khoa Khoa học Tự nhiên & Sinh học",
+        "faculty_name_ko": "자연과학대학",
+        "tuition_krw": 2575000,
+        "majors": [
+          {
+            "name_vi": "Hóa học & Vật liệu mới",
+            "name_ko": "화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Công nghệ Thực phẩm & Dinh dưỡng",
+            "name_ko": "식품영양학과",
+            "is_hot": false
+          },
+          {
+            "name_vi": "Sinh học Ứng dụng & Công nghệ Sinh học",
+            "name_ko": "생명공학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "arts_sports",
+        "faculty_name_vi": "Khoa Nghệ thuật & Thể dục Thể thao",
+        "faculty_name_ko": "예체능대학",
+        "tuition_krw": 3018000,
+        "majors": [
+          {
+            "name_vi": "Thiết kế Đồ họa & Kỹ thuật số",
+            "name_ko": "시각디자인학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Nghệ thuật Thẩm mỹ & Trang điểm (Make-up)",
+            "name_ko": "뷰티미용학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Diễn xuất, Sân khấu & Điện ảnh",
+            "name_ko": "연극영화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Âm nhạc K-Pop & Vẫn nghệ",
+            "name_ko": "실용음악학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "medicine_pharmacy",
+        "faculty_name_vi": "Khoa Y - Dược & Khoa học Y tế",
+        "faculty_name_ko": "의치약학/보건대학",
+        "tuition_krw": 3142000,
+        "majors": [
+          {
+            "name_vi": "Điều dưỡng (Nursing)",
+            "name_ko": "간호학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Quản lý Y tế & Bệnh viện",
+            "name_ko": "보건행정학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Vật lý trị liệu & Phục hồi chức năng",
+            "name_ko": "물리치료학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Dược học",
+            "name_ko": "약학과",
+            "is_hot": true
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "mock_uni_185",
@@ -6688,7 +32034,144 @@ export const universities = [
     "admission_conditions": "",
     "featured_majors": "Cơ khí – Robot – Công nghiệp",
     "regional_restrictions": "",
-    "is_restricted_school": true
+    "is_restricted_school": true,
+    "majors_detail": [
+      {
+        "category": "humanities_social",
+        "faculty_name_vi": "Khoa Nhân văn & Khoa học Xã hội",
+        "faculty_name_ko": "인문사회대학",
+        "tuition_krw": 4868000,
+        "majors": [
+          {
+            "name_vi": "Quản trị Kinh doanh",
+            "name_ko": "경영학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Ngôn ngữ & Văn hóa Hàn Quốc",
+            "name_ko": "한국언어문화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Truyền thông & Báo chí",
+            "name_ko": "미디어언론학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Thương mại Quốc tế",
+            "name_ko": "국제무역학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "engineering",
+        "faculty_name_vi": "Khoa Kỹ thuật & Công nghệ Thông tin",
+        "faculty_name_ko": "공과대학",
+        "tuition_krw": 2997000,
+        "majors": [
+          {
+            "name_vi": "Khoa học Máy tính & AI",
+            "name_ko": "컴퓨터공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Công nghệ Thông tin (IT)",
+            "name_ko": "정보통신공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Kỹ thuật Điện - Điện tử",
+            "name_ko": "전기전자공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Kỹ thuật Cơ khí",
+            "name_ko": "기계공학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "natural_sciences",
+        "faculty_name_vi": "Khoa Khoa học Tự nhiên & Sinh học",
+        "faculty_name_ko": "자연과학대학",
+        "tuition_krw": 4195000,
+        "majors": [
+          {
+            "name_vi": "Hóa học & Vật liệu mới",
+            "name_ko": "화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Công nghệ Thực phẩm & Dinh dưỡng",
+            "name_ko": "식품영양학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Sinh học Ứng dụng & Công nghệ Sinh học",
+            "name_ko": "생명공학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "arts_sports",
+        "faculty_name_vi": "Khoa Nghệ thuật & Thể dục Thể thao",
+        "faculty_name_ko": "예체능대학",
+        "tuition_krw": 4650000,
+        "majors": [
+          {
+            "name_vi": "Thiết kế Đồ họa & Kỹ thuật số",
+            "name_ko": "시각디자인학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Nghệ thuật Thẩm mỹ & Trang điểm (Make-up)",
+            "name_ko": "뷰티미용학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Diễn xuất, Sân khấu & Điện ảnh",
+            "name_ko": "연극영화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Âm nhạc K-Pop & Vẫn nghệ",
+            "name_ko": "실용음악학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "medicine_pharmacy",
+        "faculty_name_vi": "Khoa Y - Dược & Khoa học Y tế",
+        "faculty_name_ko": "의치약학/보건대학",
+        "tuition_krw": 4868000,
+        "majors": [
+          {
+            "name_vi": "Điều dưỡng (Nursing)",
+            "name_ko": "간호학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Quản lý Y tế & Bệnh viện",
+            "name_ko": "보건행정학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Vật lý trị liệu & Phục hồi chức năng",
+            "name_ko": "물리치료학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Dược học",
+            "name_ko": "약학과",
+            "is_hot": true
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "mock_uni_186",
@@ -6718,7 +32201,144 @@ export const universities = [
     "visa_metropolitan": false,
     "master_no_topik": true,
     "custom_notes": "",
-    "top_1_percent": false
+    "top_1_percent": false,
+    "majors_detail": [
+      {
+        "category": "humanities_social",
+        "faculty_name_vi": "Khoa Nhân văn & Khoa học Xã hội",
+        "faculty_name_ko": "인문사회대학",
+        "tuition_krw": 2224000,
+        "majors": [
+          {
+            "name_vi": "Quản trị Kinh doanh",
+            "name_ko": "경영학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Ngôn ngữ & Văn hóa Hàn Quốc",
+            "name_ko": "한국언어문화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Truyền thông & Báo chí",
+            "name_ko": "미디어언론학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Thương mại Quốc tế",
+            "name_ko": "국제무역학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "engineering",
+        "faculty_name_vi": "Khoa Kỹ thuật & Công nghệ Thông tin",
+        "faculty_name_ko": "공과대학",
+        "tuition_krw": 4426000,
+        "majors": [
+          {
+            "name_vi": "Khoa học Máy tính & AI",
+            "name_ko": "컴퓨터공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Công nghệ Thông tin (IT)",
+            "name_ko": "정보통신공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Kỹ thuật Điện - Điện tử",
+            "name_ko": "전기전자공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Kỹ thuật Cơ khí",
+            "name_ko": "기계공학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "natural_sciences",
+        "faculty_name_vi": "Khoa Khoa học Tự nhiên & Sinh học",
+        "faculty_name_ko": "자연과학대학",
+        "tuition_krw": 2661000,
+        "majors": [
+          {
+            "name_vi": "Hóa học & Vật liệu mới",
+            "name_ko": "화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Công nghệ Thực phẩm & Dinh dưỡng",
+            "name_ko": "식품영양학과",
+            "is_hot": false
+          },
+          {
+            "name_vi": "Sinh học Ứng dụng & Công nghệ Sinh học",
+            "name_ko": "생명공학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "arts_sports",
+        "faculty_name_vi": "Khoa Nghệ thuật & Thể dục Thể thao",
+        "faculty_name_ko": "예체능대학",
+        "tuition_krw": 2395000,
+        "majors": [
+          {
+            "name_vi": "Thiết kế Đồ họa & Kỹ thuật số",
+            "name_ko": "시각디자인학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Nghệ thuật Thẩm mỹ & Trang điểm (Make-up)",
+            "name_ko": "뷰티미용학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Diễn xuất, Sân khấu & Điện ảnh",
+            "name_ko": "연극영화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Âm nhạc K-Pop & Vẫn nghệ",
+            "name_ko": "실용음악학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "medicine_pharmacy",
+        "faculty_name_vi": "Khoa Y - Dược & Khoa học Y tế",
+        "faculty_name_ko": "의치약학/보건대학",
+        "tuition_krw": 4154000,
+        "majors": [
+          {
+            "name_vi": "Điều dưỡng (Nursing)",
+            "name_ko": "간호학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Quản lý Y tế & Bệnh viện",
+            "name_ko": "보건행정학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Vật lý trị liệu & Phục hồi chức năng",
+            "name_ko": "물리치료학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Dược học",
+            "name_ko": "약학과",
+            "is_hot": true
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "mock_uni_187",
@@ -6756,7 +32376,144 @@ export const universities = [
     "dorm_fee_desc": "800,000-1,200,000KRW",
     "admission_conditions": "",
     "featured_majors": "Thiết kế – Diễn xuất – Truyền thông",
-    "regional_restrictions": ""
+    "regional_restrictions": "",
+    "majors_detail": [
+      {
+        "category": "humanities_social",
+        "faculty_name_vi": "Khoa Nhân văn & Khoa học Xã hội",
+        "faculty_name_ko": "인문사회대학",
+        "tuition_krw": 2057000,
+        "majors": [
+          {
+            "name_vi": "Quản trị Kinh doanh",
+            "name_ko": "경영학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Ngôn ngữ & Văn hóa Hàn Quốc",
+            "name_ko": "한국언어문화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Truyền thông & Báo chí",
+            "name_ko": "미디어언론학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Thương mại Quốc tế",
+            "name_ko": "국제무역학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "engineering",
+        "faculty_name_vi": "Khoa Kỹ thuật & Công nghệ Thông tin",
+        "faculty_name_ko": "공과대학",
+        "tuition_krw": 2338000,
+        "majors": [
+          {
+            "name_vi": "Khoa học Máy tính & AI",
+            "name_ko": "컴퓨터공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Công nghệ Thông tin (IT)",
+            "name_ko": "정보통신공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Kỹ thuật Điện - Điện tử",
+            "name_ko": "전기전자공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Kỹ thuật Cơ khí",
+            "name_ko": "기계공학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "natural_sciences",
+        "faculty_name_vi": "Khoa Khoa học Tự nhiên & Sinh học",
+        "faculty_name_ko": "자연과학대학",
+        "tuition_krw": 3788000,
+        "majors": [
+          {
+            "name_vi": "Hóa học & Vật liệu mới",
+            "name_ko": "화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Công nghệ Thực phẩm & Dinh dưỡng",
+            "name_ko": "식품영양학과",
+            "is_hot": false
+          },
+          {
+            "name_vi": "Sinh học Ứng dụng & Công nghệ Sinh học",
+            "name_ko": "생명공학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "arts_sports",
+        "faculty_name_vi": "Khoa Nghệ thuật & Thể dục Thể thao",
+        "faculty_name_ko": "예체능대학",
+        "tuition_krw": 3890000,
+        "majors": [
+          {
+            "name_vi": "Thiết kế Đồ họa & Kỹ thuật số",
+            "name_ko": "시각디자인학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Nghệ thuật Thẩm mỹ & Trang điểm (Make-up)",
+            "name_ko": "뷰티미용학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Diễn xuất, Sân khấu & Điện ảnh",
+            "name_ko": "연극영화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Âm nhạc K-Pop & Vẫn nghệ",
+            "name_ko": "실용음악학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "medicine_pharmacy",
+        "faculty_name_vi": "Khoa Y - Dược & Khoa học Y tế",
+        "faculty_name_ko": "의치약학/보건대학",
+        "tuition_krw": 3826000,
+        "majors": [
+          {
+            "name_vi": "Điều dưỡng (Nursing)",
+            "name_ko": "간호학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Quản lý Y tế & Bệnh viện",
+            "name_ko": "보건행정학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Vật lý trị liệu & Phục hồi chức năng",
+            "name_ko": "물리치료학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Dược học",
+            "name_ko": "약학과",
+            "is_hot": true
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "mock_uni_188",
@@ -6786,7 +32543,144 @@ export const universities = [
     "visa_metropolitan": false,
     "master_no_topik": false,
     "custom_notes": "",
-    "top_1_percent": false
+    "top_1_percent": false,
+    "majors_detail": [
+      {
+        "category": "humanities_social",
+        "faculty_name_vi": "Khoa Nhân văn & Khoa học Xã hội",
+        "faculty_name_ko": "인문사회대학",
+        "tuition_krw": 3469000,
+        "majors": [
+          {
+            "name_vi": "Quản trị Kinh doanh",
+            "name_ko": "경영학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Ngôn ngữ & Văn hóa Hàn Quốc",
+            "name_ko": "한국언어문화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Truyền thông & Báo chí",
+            "name_ko": "미디어언론학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Thương mại Quốc tế",
+            "name_ko": "국제무역학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "engineering",
+        "faculty_name_vi": "Khoa Kỹ thuật & Công nghệ Thông tin",
+        "faculty_name_ko": "공과대학",
+        "tuition_krw": 3352000,
+        "majors": [
+          {
+            "name_vi": "Khoa học Máy tính & AI",
+            "name_ko": "컴퓨터공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Công nghệ Thông tin (IT)",
+            "name_ko": "정보통신공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Kỹ thuật Điện - Điện tử",
+            "name_ko": "전기전자공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Kỹ thuật Cơ khí",
+            "name_ko": "기계공학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "natural_sciences",
+        "faculty_name_vi": "Khoa Khoa học Tự nhiên & Sinh học",
+        "faculty_name_ko": "자연과학대학",
+        "tuition_krw": 3790000,
+        "majors": [
+          {
+            "name_vi": "Hóa học & Vật liệu mới",
+            "name_ko": "화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Công nghệ Thực phẩm & Dinh dưỡng",
+            "name_ko": "식품영양학과",
+            "is_hot": false
+          },
+          {
+            "name_vi": "Sinh học Ứng dụng & Công nghệ Sinh học",
+            "name_ko": "생명공학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "arts_sports",
+        "faculty_name_vi": "Khoa Nghệ thuật & Thể dục Thể thao",
+        "faculty_name_ko": "예체능대학",
+        "tuition_krw": 3119000,
+        "majors": [
+          {
+            "name_vi": "Thiết kế Đồ họa & Kỹ thuật số",
+            "name_ko": "시각디자인학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Nghệ thuật Thẩm mỹ & Trang điểm (Make-up)",
+            "name_ko": "뷰티미용학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Diễn xuất, Sân khấu & Điện ảnh",
+            "name_ko": "연극영화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Âm nhạc K-Pop & Vẫn nghệ",
+            "name_ko": "실용음악학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "medicine_pharmacy",
+        "faculty_name_vi": "Khoa Y - Dược & Khoa học Y tế",
+        "faculty_name_ko": "의치약학/보건대학",
+        "tuition_krw": 4426000,
+        "majors": [
+          {
+            "name_vi": "Điều dưỡng (Nursing)",
+            "name_ko": "간호학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Quản lý Y tế & Bệnh viện",
+            "name_ko": "보건행정학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Vật lý trị liệu & Phục hồi chức năng",
+            "name_ko": "물리치료학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Dược học",
+            "name_ko": "약학과",
+            "is_hot": true
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "mock_uni_189",
@@ -6816,7 +32710,144 @@ export const universities = [
     "visa_metropolitan": false,
     "master_no_topik": true,
     "custom_notes": "",
-    "top_1_percent": false
+    "top_1_percent": false,
+    "majors_detail": [
+      {
+        "category": "humanities_social",
+        "faculty_name_vi": "Khoa Nhân văn & Khoa học Xã hội",
+        "faculty_name_ko": "인문사회대학",
+        "tuition_krw": 3650000,
+        "majors": [
+          {
+            "name_vi": "Quản trị Kinh doanh",
+            "name_ko": "경영학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Ngôn ngữ & Văn hóa Hàn Quốc",
+            "name_ko": "한국언어문화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Truyền thông & Báo chí",
+            "name_ko": "미디어언론학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Thương mại Quốc tế",
+            "name_ko": "국제무역학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "engineering",
+        "faculty_name_vi": "Khoa Kỹ thuật & Công nghệ Thông tin",
+        "faculty_name_ko": "공과대학",
+        "tuition_krw": 4663000,
+        "majors": [
+          {
+            "name_vi": "Khoa học Máy tính & AI",
+            "name_ko": "컴퓨터공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Công nghệ Thông tin (IT)",
+            "name_ko": "정보통신공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Kỹ thuật Điện - Điện tử",
+            "name_ko": "전기전자공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Kỹ thuật Cơ khí",
+            "name_ko": "기계공학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "natural_sciences",
+        "faculty_name_vi": "Khoa Khoa học Tự nhiên & Sinh học",
+        "faculty_name_ko": "자연과학대학",
+        "tuition_krw": 2781000,
+        "majors": [
+          {
+            "name_vi": "Hóa học & Vật liệu mới",
+            "name_ko": "화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Công nghệ Thực phẩm & Dinh dưỡng",
+            "name_ko": "식품영양학과",
+            "is_hot": false
+          },
+          {
+            "name_vi": "Sinh học Ứng dụng & Công nghệ Sinh học",
+            "name_ko": "생명공학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "arts_sports",
+        "faculty_name_vi": "Khoa Nghệ thuật & Thể dục Thể thao",
+        "faculty_name_ko": "예체능대학",
+        "tuition_krw": 4261000,
+        "majors": [
+          {
+            "name_vi": "Thiết kế Đồ họa & Kỹ thuật số",
+            "name_ko": "시각디자인학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Nghệ thuật Thẩm mỹ & Trang điểm (Make-up)",
+            "name_ko": "뷰티미용학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Diễn xuất, Sân khấu & Điện ảnh",
+            "name_ko": "연극영화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Âm nhạc K-Pop & Vẫn nghệ",
+            "name_ko": "실용음악학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "medicine_pharmacy",
+        "faculty_name_vi": "Khoa Y - Dược & Khoa học Y tế",
+        "faculty_name_ko": "의치약학/보건대학",
+        "tuition_krw": 3650000,
+        "majors": [
+          {
+            "name_vi": "Điều dưỡng (Nursing)",
+            "name_ko": "간호학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Quản lý Y tế & Bệnh viện",
+            "name_ko": "보건행정학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Vật lý trị liệu & Phục hồi chức năng",
+            "name_ko": "물리치료학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Dược học",
+            "name_ko": "약학과",
+            "is_hot": true
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "mock_uni_190",
@@ -6854,7 +32885,144 @@ export const universities = [
     "dorm_fee_desc": "1,600,000KRW",
     "admission_conditions": "",
     "featured_majors": "Mỹ thuật – Thiết kế – Kiến trúc",
-    "regional_restrictions": ""
+    "regional_restrictions": "",
+    "majors_detail": [
+      {
+        "category": "humanities_social",
+        "faculty_name_vi": "Khoa Nhân văn & Khoa học Xã hội",
+        "faculty_name_ko": "인문사회대학",
+        "tuition_krw": 2827000,
+        "majors": [
+          {
+            "name_vi": "Quản trị Kinh doanh",
+            "name_ko": "경영학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Ngôn ngữ & Văn hóa Hàn Quốc",
+            "name_ko": "한국언어문화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Truyền thông & Báo chí",
+            "name_ko": "미디어언론학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Thương mại Quốc tế",
+            "name_ko": "국제무역학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "engineering",
+        "faculty_name_vi": "Khoa Kỹ thuật & Công nghệ Thông tin",
+        "faculty_name_ko": "공과대학",
+        "tuition_krw": 2985000,
+        "majors": [
+          {
+            "name_vi": "Khoa học Máy tính & AI",
+            "name_ko": "컴퓨터공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Công nghệ Thông tin (IT)",
+            "name_ko": "정보통신공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Kỹ thuật Điện - Điện tử",
+            "name_ko": "전기전자공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Kỹ thuật Cơ khí",
+            "name_ko": "기계공학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "natural_sciences",
+        "faculty_name_vi": "Khoa Khoa học Tự nhiên & Sinh học",
+        "faculty_name_ko": "자연과학대학",
+        "tuition_krw": 2925000,
+        "majors": [
+          {
+            "name_vi": "Hóa học & Vật liệu mới",
+            "name_ko": "화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Công nghệ Thực phẩm & Dinh dưỡng",
+            "name_ko": "식품영양학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Sinh học Ứng dụng & Công nghệ Sinh học",
+            "name_ko": "생명공학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "arts_sports",
+        "faculty_name_vi": "Khoa Nghệ thuật & Thể dục Thể thao",
+        "faculty_name_ko": "예체능대학",
+        "tuition_krw": 4851000,
+        "majors": [
+          {
+            "name_vi": "Thiết kế Đồ họa & Kỹ thuật số",
+            "name_ko": "시각디자인학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Nghệ thuật Thẩm mỹ & Trang điểm (Make-up)",
+            "name_ko": "뷰티미용학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Diễn xuất, Sân khấu & Điện ảnh",
+            "name_ko": "연극영화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Âm nhạc K-Pop & Vẫn nghệ",
+            "name_ko": "실용음악학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "medicine_pharmacy",
+        "faculty_name_vi": "Khoa Y - Dược & Khoa học Y tế",
+        "faculty_name_ko": "의치약학/보건대학",
+        "tuition_krw": 2827000,
+        "majors": [
+          {
+            "name_vi": "Điều dưỡng (Nursing)",
+            "name_ko": "간호학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Quản lý Y tế & Bệnh viện",
+            "name_ko": "보건행정학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Vật lý trị liệu & Phục hồi chức năng",
+            "name_ko": "물리치료학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Dược học",
+            "name_ko": "약학과",
+            "is_hot": true
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "mock_uni_191",
@@ -6892,7 +33060,144 @@ export const universities = [
     "dorm_fee_desc": "1,000,000-1,400,000KRW",
     "admission_conditions": "",
     "featured_majors": "Làm đẹp – Nghệ thuật – Diễn xuất",
-    "regional_restrictions": ""
+    "regional_restrictions": "",
+    "majors_detail": [
+      {
+        "category": "humanities_social",
+        "faculty_name_vi": "Khoa Nhân văn & Khoa học Xã hội",
+        "faculty_name_ko": "인문사회대학",
+        "tuition_krw": 2774000,
+        "majors": [
+          {
+            "name_vi": "Quản trị Kinh doanh",
+            "name_ko": "경영학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Ngôn ngữ & Văn hóa Hàn Quốc",
+            "name_ko": "한국언어문화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Truyền thông & Báo chí",
+            "name_ko": "미디어언론학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Thương mại Quốc tế",
+            "name_ko": "국제무역학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "engineering",
+        "faculty_name_vi": "Khoa Kỹ thuật & Công nghệ Thông tin",
+        "faculty_name_ko": "공과대학",
+        "tuition_krw": 3207000,
+        "majors": [
+          {
+            "name_vi": "Khoa học Máy tính & AI",
+            "name_ko": "컴퓨터공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Công nghệ Thông tin (IT)",
+            "name_ko": "정보통신공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Kỹ thuật Điện - Điện tử",
+            "name_ko": "전기전자공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Kỹ thuật Cơ khí",
+            "name_ko": "기계공학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "natural_sciences",
+        "faculty_name_vi": "Khoa Khoa học Tự nhiên & Sinh học",
+        "faculty_name_ko": "자연과학대학",
+        "tuition_krw": 2336000,
+        "majors": [
+          {
+            "name_vi": "Hóa học & Vật liệu mới",
+            "name_ko": "화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Công nghệ Thực phẩm & Dinh dưỡng",
+            "name_ko": "식품영양학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Sinh học Ứng dụng & Công nghệ Sinh học",
+            "name_ko": "생명공학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "arts_sports",
+        "faculty_name_vi": "Khoa Nghệ thuật & Thể dục Thể thao",
+        "faculty_name_ko": "예체능대학",
+        "tuition_krw": 4949000,
+        "majors": [
+          {
+            "name_vi": "Thiết kế Đồ họa & Kỹ thuật số",
+            "name_ko": "시각디자인학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Nghệ thuật Thẩm mỹ & Trang điểm (Make-up)",
+            "name_ko": "뷰티미용학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Diễn xuất, Sân khấu & Điện ảnh",
+            "name_ko": "연극영화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Âm nhạc K-Pop & Vẫn nghệ",
+            "name_ko": "실용음악학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "medicine_pharmacy",
+        "faculty_name_vi": "Khoa Y - Dược & Khoa học Y tế",
+        "faculty_name_ko": "의치약학/보건대학",
+        "tuition_krw": 4883000,
+        "majors": [
+          {
+            "name_vi": "Điều dưỡng (Nursing)",
+            "name_ko": "간호학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Quản lý Y tế & Bệnh viện",
+            "name_ko": "보건행정학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Vật lý trị liệu & Phục hồi chức năng",
+            "name_ko": "물리치료학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Dược học",
+            "name_ko": "약학과",
+            "is_hot": true
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "mock_uni_192",
@@ -6930,7 +33235,144 @@ export const universities = [
     "dorm_fee_desc": "1,200,000-1,800,000KRW",
     "admission_conditions": "",
     "featured_majors": "",
-    "regional_restrictions": ""
+    "regional_restrictions": "",
+    "majors_detail": [
+      {
+        "category": "humanities_social",
+        "faculty_name_vi": "Khoa Nhân văn & Khoa học Xã hội",
+        "faculty_name_ko": "인문사회대학",
+        "tuition_krw": 2328000,
+        "majors": [
+          {
+            "name_vi": "Quản trị Kinh doanh",
+            "name_ko": "경영학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Ngôn ngữ & Văn hóa Hàn Quốc",
+            "name_ko": "한국언어문화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Truyền thông & Báo chí",
+            "name_ko": "미디어언론학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Thương mại Quốc tế",
+            "name_ko": "국제무역학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "engineering",
+        "faculty_name_vi": "Khoa Kỹ thuật & Công nghệ Thông tin",
+        "faculty_name_ko": "공과대학",
+        "tuition_krw": 3793000,
+        "majors": [
+          {
+            "name_vi": "Khoa học Máy tính & AI",
+            "name_ko": "컴퓨터공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Công nghệ Thông tin (IT)",
+            "name_ko": "정보통신공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Kỹ thuật Điện - Điện tử",
+            "name_ko": "전기전자공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Kỹ thuật Cơ khí",
+            "name_ko": "기계공학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "natural_sciences",
+        "faculty_name_vi": "Khoa Khoa học Tự nhiên & Sinh học",
+        "faculty_name_ko": "자연과학대학",
+        "tuition_krw": 4406000,
+        "majors": [
+          {
+            "name_vi": "Hóa học & Vật liệu mới",
+            "name_ko": "화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Công nghệ Thực phẩm & Dinh dưỡng",
+            "name_ko": "식품영양학과",
+            "is_hot": false
+          },
+          {
+            "name_vi": "Sinh học Ứng dụng & Công nghệ Sinh học",
+            "name_ko": "생명공학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "arts_sports",
+        "faculty_name_vi": "Khoa Nghệ thuật & Thể dục Thể thao",
+        "faculty_name_ko": "예체능대학",
+        "tuition_krw": 3599000,
+        "majors": [
+          {
+            "name_vi": "Thiết kế Đồ họa & Kỹ thuật số",
+            "name_ko": "시각디자인학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Nghệ thuật Thẩm mỹ & Trang điểm (Make-up)",
+            "name_ko": "뷰티미용학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Diễn xuất, Sân khấu & Điện ảnh",
+            "name_ko": "연극영화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Âm nhạc K-Pop & Vẫn nghệ",
+            "name_ko": "실용음악학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "medicine_pharmacy",
+        "faculty_name_vi": "Khoa Y - Dược & Khoa học Y tế",
+        "faculty_name_ko": "의치약학/보건대학",
+        "tuition_krw": 4842000,
+        "majors": [
+          {
+            "name_vi": "Điều dưỡng (Nursing)",
+            "name_ko": "간호학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Quản lý Y tế & Bệnh viện",
+            "name_ko": "보건행정학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Vật lý trị liệu & Phục hồi chức năng",
+            "name_ko": "물리치료학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Dược học",
+            "name_ko": "약학과",
+            "is_hot": true
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "mock_uni_193",
@@ -6968,7 +33410,144 @@ export const universities = [
     "dorm_fee_desc": "1,100,000KRW",
     "admission_conditions": "",
     "featured_majors": "Đông y – Điều dưỡng – Du lịch",
-    "regional_restrictions": ""
+    "regional_restrictions": "",
+    "majors_detail": [
+      {
+        "category": "humanities_social",
+        "faculty_name_vi": "Khoa Nhân văn & Khoa học Xã hội",
+        "faculty_name_ko": "인문사회대학",
+        "tuition_krw": 3500000,
+        "majors": [
+          {
+            "name_vi": "Quản trị Kinh doanh",
+            "name_ko": "경영학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Ngôn ngữ & Văn hóa Hàn Quốc",
+            "name_ko": "한국언어문화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Truyền thông & Báo chí",
+            "name_ko": "미디어언론학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Thương mại Quốc tế",
+            "name_ko": "국제무역학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "engineering",
+        "faculty_name_vi": "Khoa Kỹ thuật & Công nghệ Thông tin",
+        "faculty_name_ko": "공과대학",
+        "tuition_krw": 2876000,
+        "majors": [
+          {
+            "name_vi": "Khoa học Máy tính & AI",
+            "name_ko": "컴퓨터공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Công nghệ Thông tin (IT)",
+            "name_ko": "정보통신공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Kỹ thuật Điện - Điện tử",
+            "name_ko": "전기전자공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Kỹ thuật Cơ khí",
+            "name_ko": "기계공학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "natural_sciences",
+        "faculty_name_vi": "Khoa Khoa học Tự nhiên & Sinh học",
+        "faculty_name_ko": "자연과학대학",
+        "tuition_krw": 3037000,
+        "majors": [
+          {
+            "name_vi": "Hóa học & Vật liệu mới",
+            "name_ko": "화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Công nghệ Thực phẩm & Dinh dưỡng",
+            "name_ko": "식품영양학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Sinh học Ứng dụng & Công nghệ Sinh học",
+            "name_ko": "생명공학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "arts_sports",
+        "faculty_name_vi": "Khoa Nghệ thuật & Thể dục Thể thao",
+        "faculty_name_ko": "예체능대학",
+        "tuition_krw": 2053000,
+        "majors": [
+          {
+            "name_vi": "Thiết kế Đồ họa & Kỹ thuật số",
+            "name_ko": "시각디자인학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Nghệ thuật Thẩm mỹ & Trang điểm (Make-up)",
+            "name_ko": "뷰티미용학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Diễn xuất, Sân khấu & Điện ảnh",
+            "name_ko": "연극영화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Âm nhạc K-Pop & Vẫn nghệ",
+            "name_ko": "실용음악학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "medicine_pharmacy",
+        "faculty_name_vi": "Khoa Y - Dược & Khoa học Y tế",
+        "faculty_name_ko": "의치약학/보건대학",
+        "tuition_krw": 4596000,
+        "majors": [
+          {
+            "name_vi": "Điều dưỡng (Nursing)",
+            "name_ko": "간호학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Quản lý Y tế & Bệnh viện",
+            "name_ko": "보건행정학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Vật lý trị liệu & Phục hồi chức năng",
+            "name_ko": "물리치료학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Dược học",
+            "name_ko": "약학과",
+            "is_hot": true
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "mock_uni_194",
@@ -7006,7 +33585,144 @@ export const universities = [
     "dorm_fee_desc": "1,300,000-2,000,000KRW'",
     "admission_conditions": "",
     "featured_majors": "Kinh doanh khách sạn, quốc tế học, ngôn ngữ Hàn",
-    "regional_restrictions": ""
+    "regional_restrictions": "",
+    "majors_detail": [
+      {
+        "category": "humanities_social",
+        "faculty_name_vi": "Khoa Nhân văn & Khoa học Xã hội",
+        "faculty_name_ko": "인문사회대학",
+        "tuition_krw": 3358000,
+        "majors": [
+          {
+            "name_vi": "Quản trị Kinh doanh",
+            "name_ko": "경영학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Ngôn ngữ & Văn hóa Hàn Quốc",
+            "name_ko": "한국언어문화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Truyền thông & Báo chí",
+            "name_ko": "미디어언론학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Thương mại Quốc tế",
+            "name_ko": "국제무역학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "engineering",
+        "faculty_name_vi": "Khoa Kỹ thuật & Công nghệ Thông tin",
+        "faculty_name_ko": "공과대학",
+        "tuition_krw": 2594000,
+        "majors": [
+          {
+            "name_vi": "Khoa học Máy tính & AI",
+            "name_ko": "컴퓨터공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Công nghệ Thông tin (IT)",
+            "name_ko": "정보통신공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Kỹ thuật Điện - Điện tử",
+            "name_ko": "전기전자공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Kỹ thuật Cơ khí",
+            "name_ko": "기계공학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "natural_sciences",
+        "faculty_name_vi": "Khoa Khoa học Tự nhiên & Sinh học",
+        "faculty_name_ko": "자연과학대학",
+        "tuition_krw": 2140000,
+        "majors": [
+          {
+            "name_vi": "Hóa học & Vật liệu mới",
+            "name_ko": "화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Công nghệ Thực phẩm & Dinh dưỡng",
+            "name_ko": "식품영양학과",
+            "is_hot": false
+          },
+          {
+            "name_vi": "Sinh học Ứng dụng & Công nghệ Sinh học",
+            "name_ko": "생명공학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "arts_sports",
+        "faculty_name_vi": "Khoa Nghệ thuật & Thể dục Thể thao",
+        "faculty_name_ko": "예체능대학",
+        "tuition_krw": 4429000,
+        "majors": [
+          {
+            "name_vi": "Thiết kế Đồ họa & Kỹ thuật số",
+            "name_ko": "시각디자인학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Nghệ thuật Thẩm mỹ & Trang điểm (Make-up)",
+            "name_ko": "뷰티미용학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Diễn xuất, Sân khấu & Điện ảnh",
+            "name_ko": "연극영화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Âm nhạc K-Pop & Vẫn nghệ",
+            "name_ko": "실용음악학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "medicine_pharmacy",
+        "faculty_name_vi": "Khoa Y - Dược & Khoa học Y tế",
+        "faculty_name_ko": "의치약학/보건대학",
+        "tuition_krw": 3358000,
+        "majors": [
+          {
+            "name_vi": "Điều dưỡng (Nursing)",
+            "name_ko": "간호학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Quản lý Y tế & Bệnh viện",
+            "name_ko": "보건행정학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Vật lý trị liệu & Phục hồi chức năng",
+            "name_ko": "물리치료학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Dược học",
+            "name_ko": "약학과",
+            "is_hot": true
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "mock_uni_195",
@@ -7044,7 +33760,144 @@ export const universities = [
     "dorm_fee_desc": "1,100,000-1,900,000KRW",
     "admission_conditions": "",
     "featured_majors": "Ô tô – Đóng tàu – Kỹ thuật",
-    "regional_restrictions": ""
+    "regional_restrictions": "",
+    "majors_detail": [
+      {
+        "category": "humanities_social",
+        "faculty_name_vi": "Khoa Nhân văn & Khoa học Xã hội",
+        "faculty_name_ko": "인문사회대학",
+        "tuition_krw": 3160000,
+        "majors": [
+          {
+            "name_vi": "Quản trị Kinh doanh",
+            "name_ko": "경영학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Ngôn ngữ & Văn hóa Hàn Quốc",
+            "name_ko": "한국언어문화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Truyền thông & Báo chí",
+            "name_ko": "미디어언론학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Thương mại Quốc tế",
+            "name_ko": "국제무역학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "engineering",
+        "faculty_name_vi": "Khoa Kỹ thuật & Công nghệ Thông tin",
+        "faculty_name_ko": "공과대학",
+        "tuition_krw": 3625000,
+        "majors": [
+          {
+            "name_vi": "Khoa học Máy tính & AI",
+            "name_ko": "컴퓨터공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Công nghệ Thông tin (IT)",
+            "name_ko": "정보통신공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Kỹ thuật Điện - Điện tử",
+            "name_ko": "전기전자공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Kỹ thuật Cơ khí",
+            "name_ko": "기계공학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "natural_sciences",
+        "faculty_name_vi": "Khoa Khoa học Tự nhiên & Sinh học",
+        "faculty_name_ko": "자연과학대학",
+        "tuition_krw": 2631000,
+        "majors": [
+          {
+            "name_vi": "Hóa học & Vật liệu mới",
+            "name_ko": "화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Công nghệ Thực phẩm & Dinh dưỡng",
+            "name_ko": "식품영양학과",
+            "is_hot": false
+          },
+          {
+            "name_vi": "Sinh học Ứng dụng & Công nghệ Sinh học",
+            "name_ko": "생명공학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "arts_sports",
+        "faculty_name_vi": "Khoa Nghệ thuật & Thể dục Thể thao",
+        "faculty_name_ko": "예체능대학",
+        "tuition_krw": 3160000,
+        "majors": [
+          {
+            "name_vi": "Thiết kế Đồ họa & Kỹ thuật số",
+            "name_ko": "시각디자인학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Nghệ thuật Thẩm mỹ & Trang điểm (Make-up)",
+            "name_ko": "뷰티미용학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Diễn xuất, Sân khấu & Điện ảnh",
+            "name_ko": "연극영화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Âm nhạc K-Pop & Vẫn nghệ",
+            "name_ko": "실용음악학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "medicine_pharmacy",
+        "faculty_name_vi": "Khoa Y - Dược & Khoa học Y tế",
+        "faculty_name_ko": "의치약학/보건대학",
+        "tuition_krw": 4079000,
+        "majors": [
+          {
+            "name_vi": "Điều dưỡng (Nursing)",
+            "name_ko": "간호학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Quản lý Y tế & Bệnh viện",
+            "name_ko": "보건행정학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Vật lý trị liệu & Phục hồi chức năng",
+            "name_ko": "물리치료학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Dược học",
+            "name_ko": "약학과",
+            "is_hot": true
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "mock_uni_196",
@@ -7082,7 +33935,144 @@ export const universities = [
     "dorm_fee_desc": "1,300,000-1,800,000KRW",
     "admission_conditions": "",
     "featured_majors": "Luật – Khách sạn – Làm đẹp",
-    "regional_restrictions": ""
+    "regional_restrictions": "",
+    "majors_detail": [
+      {
+        "category": "humanities_social",
+        "faculty_name_vi": "Khoa Nhân văn & Khoa học Xã hội",
+        "faculty_name_ko": "인문사회대학",
+        "tuition_krw": 2457000,
+        "majors": [
+          {
+            "name_vi": "Quản trị Kinh doanh",
+            "name_ko": "경영학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Ngôn ngữ & Văn hóa Hàn Quốc",
+            "name_ko": "한국언어문화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Truyền thông & Báo chí",
+            "name_ko": "미디어언론학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Thương mại Quốc tế",
+            "name_ko": "국제무역학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "engineering",
+        "faculty_name_vi": "Khoa Kỹ thuật & Công nghệ Thông tin",
+        "faculty_name_ko": "공과대학",
+        "tuition_krw": 2699000,
+        "majors": [
+          {
+            "name_vi": "Khoa học Máy tính & AI",
+            "name_ko": "컴퓨터공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Công nghệ Thông tin (IT)",
+            "name_ko": "정보통신공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Kỹ thuật Điện - Điện tử",
+            "name_ko": "전기전자공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Kỹ thuật Cơ khí",
+            "name_ko": "기계공학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "natural_sciences",
+        "faculty_name_vi": "Khoa Khoa học Tự nhiên & Sinh học",
+        "faculty_name_ko": "자연과학대학",
+        "tuition_krw": 4313000,
+        "majors": [
+          {
+            "name_vi": "Hóa học & Vật liệu mới",
+            "name_ko": "화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Công nghệ Thực phẩm & Dinh dưỡng",
+            "name_ko": "식품영양학과",
+            "is_hot": false
+          },
+          {
+            "name_vi": "Sinh học Ứng dụng & Công nghệ Sinh học",
+            "name_ko": "생명공학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "arts_sports",
+        "faculty_name_vi": "Khoa Nghệ thuật & Thể dục Thể thao",
+        "faculty_name_ko": "예체능대학",
+        "tuition_krw": 3026000,
+        "majors": [
+          {
+            "name_vi": "Thiết kế Đồ họa & Kỹ thuật số",
+            "name_ko": "시각디자인학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Nghệ thuật Thẩm mỹ & Trang điểm (Make-up)",
+            "name_ko": "뷰티미용학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Diễn xuất, Sân khấu & Điện ảnh",
+            "name_ko": "연극영화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Âm nhạc K-Pop & Vẫn nghệ",
+            "name_ko": "실용음악학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "medicine_pharmacy",
+        "faculty_name_vi": "Khoa Y - Dược & Khoa học Y tế",
+        "faculty_name_ko": "의치약학/보건대학",
+        "tuition_krw": 4787000,
+        "majors": [
+          {
+            "name_vi": "Điều dưỡng (Nursing)",
+            "name_ko": "간호학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Quản lý Y tế & Bệnh viện",
+            "name_ko": "보건행정학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Vật lý trị liệu & Phục hồi chức năng",
+            "name_ko": "물리치료학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Dược học",
+            "name_ko": "약학과",
+            "is_hot": true
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "mock_uni_197",
@@ -7120,7 +34110,144 @@ export const universities = [
     "dorm_fee_desc": "800,000KRW",
     "admission_conditions": "",
     "featured_majors": "Hàng hải, Kỹ thuật, Kinh doanh",
-    "regional_restrictions": ""
+    "regional_restrictions": "",
+    "majors_detail": [
+      {
+        "category": "humanities_social",
+        "faculty_name_vi": "Khoa Nhân văn & Khoa học Xã hội",
+        "faculty_name_ko": "인문사회대학",
+        "tuition_krw": 3756000,
+        "majors": [
+          {
+            "name_vi": "Quản trị Kinh doanh",
+            "name_ko": "경영학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Ngôn ngữ & Văn hóa Hàn Quốc",
+            "name_ko": "한국언어문화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Truyền thông & Báo chí",
+            "name_ko": "미디어언론학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Thương mại Quốc tế",
+            "name_ko": "국제무역학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "engineering",
+        "faculty_name_vi": "Khoa Kỹ thuật & Công nghệ Thông tin",
+        "faculty_name_ko": "공과대학",
+        "tuition_krw": 3624000,
+        "majors": [
+          {
+            "name_vi": "Khoa học Máy tính & AI",
+            "name_ko": "컴퓨터공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Công nghệ Thông tin (IT)",
+            "name_ko": "정보통신공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Kỹ thuật Điện - Điện tử",
+            "name_ko": "전기전자공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Kỹ thuật Cơ khí",
+            "name_ko": "기계공학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "natural_sciences",
+        "faculty_name_vi": "Khoa Khoa học Tự nhiên & Sinh học",
+        "faculty_name_ko": "자연과학대학",
+        "tuition_krw": 3108000,
+        "majors": [
+          {
+            "name_vi": "Hóa học & Vật liệu mới",
+            "name_ko": "화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Công nghệ Thực phẩm & Dinh dưỡng",
+            "name_ko": "식품영양학과",
+            "is_hot": false
+          },
+          {
+            "name_vi": "Sinh học Ứng dụng & Công nghệ Sinh học",
+            "name_ko": "생명공학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "arts_sports",
+        "faculty_name_vi": "Khoa Nghệ thuật & Thể dục Thể thao",
+        "faculty_name_ko": "예체능대학",
+        "tuition_krw": 3756000,
+        "majors": [
+          {
+            "name_vi": "Thiết kế Đồ họa & Kỹ thuật số",
+            "name_ko": "시각디자인학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Nghệ thuật Thẩm mỹ & Trang điểm (Make-up)",
+            "name_ko": "뷰티미용학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Diễn xuất, Sân khấu & Điện ảnh",
+            "name_ko": "연극영화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Âm nhạc K-Pop & Vẫn nghệ",
+            "name_ko": "실용음악학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "medicine_pharmacy",
+        "faculty_name_vi": "Khoa Y - Dược & Khoa học Y tế",
+        "faculty_name_ko": "의치약학/보건대학",
+        "tuition_krw": 3135000,
+        "majors": [
+          {
+            "name_vi": "Điều dưỡng (Nursing)",
+            "name_ko": "간호학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Quản lý Y tế & Bệnh viện",
+            "name_ko": "보건행정학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Vật lý trị liệu & Phục hồi chức năng",
+            "name_ko": "물리치료학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Dược học",
+            "name_ko": "약학과",
+            "is_hot": true
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "mock_uni_198",
@@ -7150,7 +34277,144 @@ export const universities = [
     "visa_metropolitan": false,
     "master_no_topik": false,
     "custom_notes": "",
-    "top_1_percent": true
+    "top_1_percent": true,
+    "majors_detail": [
+      {
+        "category": "humanities_social",
+        "faculty_name_vi": "Khoa Nhân văn & Khoa học Xã hội",
+        "faculty_name_ko": "인문사회대학",
+        "tuition_krw": 4995000,
+        "majors": [
+          {
+            "name_vi": "Quản trị Kinh doanh",
+            "name_ko": "경영학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Ngôn ngữ & Văn hóa Hàn Quốc",
+            "name_ko": "한국언어문화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Truyền thông & Báo chí",
+            "name_ko": "미디어언론학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Thương mại Quốc tế",
+            "name_ko": "국제무역학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "engineering",
+        "faculty_name_vi": "Khoa Kỹ thuật & Công nghệ Thông tin",
+        "faculty_name_ko": "공과대학",
+        "tuition_krw": 2722000,
+        "majors": [
+          {
+            "name_vi": "Khoa học Máy tính & AI",
+            "name_ko": "컴퓨터공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Công nghệ Thông tin (IT)",
+            "name_ko": "정보통신공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Kỹ thuật Điện - Điện tử",
+            "name_ko": "전기전자공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Kỹ thuật Cơ khí",
+            "name_ko": "기계공학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "natural_sciences",
+        "faculty_name_vi": "Khoa Khoa học Tự nhiên & Sinh học",
+        "faculty_name_ko": "자연과학대학",
+        "tuition_krw": 2027000,
+        "majors": [
+          {
+            "name_vi": "Hóa học & Vật liệu mới",
+            "name_ko": "화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Công nghệ Thực phẩm & Dinh dưỡng",
+            "name_ko": "식품영양학과",
+            "is_hot": false
+          },
+          {
+            "name_vi": "Sinh học Ứng dụng & Công nghệ Sinh học",
+            "name_ko": "생명공학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "arts_sports",
+        "faculty_name_vi": "Khoa Nghệ thuật & Thể dục Thể thao",
+        "faculty_name_ko": "예체능대학",
+        "tuition_krw": 3613000,
+        "majors": [
+          {
+            "name_vi": "Thiết kế Đồ họa & Kỹ thuật số",
+            "name_ko": "시각디자인학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Nghệ thuật Thẩm mỹ & Trang điểm (Make-up)",
+            "name_ko": "뷰티미용학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Diễn xuất, Sân khấu & Điện ảnh",
+            "name_ko": "연극영화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Âm nhạc K-Pop & Vẫn nghệ",
+            "name_ko": "실용음악학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "medicine_pharmacy",
+        "faculty_name_vi": "Khoa Y - Dược & Khoa học Y tế",
+        "faculty_name_ko": "의치약학/보건대학",
+        "tuition_krw": 2947000,
+        "majors": [
+          {
+            "name_vi": "Điều dưỡng (Nursing)",
+            "name_ko": "간호학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Quản lý Y tế & Bệnh viện",
+            "name_ko": "보건행정학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Vật lý trị liệu & Phục hồi chức năng",
+            "name_ko": "물리치료학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Dược học",
+            "name_ko": "약학과",
+            "is_hot": true
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "mock_uni_199",
@@ -7188,7 +34452,144 @@ export const universities = [
     "dorm_fee_desc": "600-900,000KRW",
     "admission_conditions": "",
     "featured_majors": "Hàng không – IT – Điều dưỡng",
-    "regional_restrictions": ""
+    "regional_restrictions": "",
+    "majors_detail": [
+      {
+        "category": "humanities_social",
+        "faculty_name_vi": "Khoa Nhân văn & Khoa học Xã hội",
+        "faculty_name_ko": "인문사회대학",
+        "tuition_krw": 2194000,
+        "majors": [
+          {
+            "name_vi": "Quản trị Kinh doanh",
+            "name_ko": "경영학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Ngôn ngữ & Văn hóa Hàn Quốc",
+            "name_ko": "한국언어문화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Truyền thông & Báo chí",
+            "name_ko": "미디어언론학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Thương mại Quốc tế",
+            "name_ko": "국제무역학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "engineering",
+        "faculty_name_vi": "Khoa Kỹ thuật & Công nghệ Thông tin",
+        "faculty_name_ko": "공과대학",
+        "tuition_krw": 4060000,
+        "majors": [
+          {
+            "name_vi": "Khoa học Máy tính & AI",
+            "name_ko": "컴퓨터공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Công nghệ Thông tin (IT)",
+            "name_ko": "정보통신공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Kỹ thuật Điện - Điện tử",
+            "name_ko": "전기전자공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Kỹ thuật Cơ khí",
+            "name_ko": "기계공학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "natural_sciences",
+        "faculty_name_vi": "Khoa Khoa học Tự nhiên & Sinh học",
+        "faculty_name_ko": "자연과학대학",
+        "tuition_krw": 4446000,
+        "majors": [
+          {
+            "name_vi": "Hóa học & Vật liệu mới",
+            "name_ko": "화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Công nghệ Thực phẩm & Dinh dưỡng",
+            "name_ko": "식품영양학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Sinh học Ứng dụng & Công nghệ Sinh học",
+            "name_ko": "생명공학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "arts_sports",
+        "faculty_name_vi": "Khoa Nghệ thuật & Thể dục Thể thao",
+        "faculty_name_ko": "예체능대학",
+        "tuition_krw": 4135000,
+        "majors": [
+          {
+            "name_vi": "Thiết kế Đồ họa & Kỹ thuật số",
+            "name_ko": "시각디자인학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Nghệ thuật Thẩm mỹ & Trang điểm (Make-up)",
+            "name_ko": "뷰티미용학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Diễn xuất, Sân khấu & Điện ảnh",
+            "name_ko": "연극영화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Âm nhạc K-Pop & Vẫn nghệ",
+            "name_ko": "실용음악학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "medicine_pharmacy",
+        "faculty_name_vi": "Khoa Y - Dược & Khoa học Y tế",
+        "faculty_name_ko": "의치약학/보건대학",
+        "tuition_krw": 2194000,
+        "majors": [
+          {
+            "name_vi": "Điều dưỡng (Nursing)",
+            "name_ko": "간호학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Quản lý Y tế & Bệnh viện",
+            "name_ko": "보건행정학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Vật lý trị liệu & Phục hồi chức năng",
+            "name_ko": "물리치료학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Dược học",
+            "name_ko": "약학과",
+            "is_hot": true
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "mock_uni_200",
@@ -7218,7 +34619,144 @@ export const universities = [
     "visa_metropolitan": false,
     "master_no_topik": false,
     "custom_notes": "",
-    "top_1_percent": false
+    "top_1_percent": false,
+    "majors_detail": [
+      {
+        "category": "humanities_social",
+        "faculty_name_vi": "Khoa Nhân văn & Khoa học Xã hội",
+        "faculty_name_ko": "인문사회대학",
+        "tuition_krw": 4992000,
+        "majors": [
+          {
+            "name_vi": "Quản trị Kinh doanh",
+            "name_ko": "경영학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Ngôn ngữ & Văn hóa Hàn Quốc",
+            "name_ko": "한국언어문화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Truyền thông & Báo chí",
+            "name_ko": "미디어언론학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Thương mại Quốc tế",
+            "name_ko": "국제무역학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "engineering",
+        "faculty_name_vi": "Khoa Kỹ thuật & Công nghệ Thông tin",
+        "faculty_name_ko": "공과대학",
+        "tuition_krw": 3481000,
+        "majors": [
+          {
+            "name_vi": "Khoa học Máy tính & AI",
+            "name_ko": "컴퓨터공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Công nghệ Thông tin (IT)",
+            "name_ko": "정보통신공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Kỹ thuật Điện - Điện tử",
+            "name_ko": "전기전자공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Kỹ thuật Cơ khí",
+            "name_ko": "기계공학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "natural_sciences",
+        "faculty_name_vi": "Khoa Khoa học Tự nhiên & Sinh học",
+        "faculty_name_ko": "자연과학대학",
+        "tuition_krw": 4474000,
+        "majors": [
+          {
+            "name_vi": "Hóa học & Vật liệu mới",
+            "name_ko": "화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Công nghệ Thực phẩm & Dinh dưỡng",
+            "name_ko": "식품영양학과",
+            "is_hot": false
+          },
+          {
+            "name_vi": "Sinh học Ứng dụng & Công nghệ Sinh học",
+            "name_ko": "생명공학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "arts_sports",
+        "faculty_name_vi": "Khoa Nghệ thuật & Thể dục Thể thao",
+        "faculty_name_ko": "예체능대학",
+        "tuition_krw": 4554000,
+        "majors": [
+          {
+            "name_vi": "Thiết kế Đồ họa & Kỹ thuật số",
+            "name_ko": "시각디자인학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Nghệ thuật Thẩm mỹ & Trang điểm (Make-up)",
+            "name_ko": "뷰티미용학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Diễn xuất, Sân khấu & Điện ảnh",
+            "name_ko": "연극영화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Âm nhạc K-Pop & Vẫn nghệ",
+            "name_ko": "실용음악학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "medicine_pharmacy",
+        "faculty_name_vi": "Khoa Y - Dược & Khoa học Y tế",
+        "faculty_name_ko": "의치약학/보건대학",
+        "tuition_krw": 3475000,
+        "majors": [
+          {
+            "name_vi": "Điều dưỡng (Nursing)",
+            "name_ko": "간호학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Quản lý Y tế & Bệnh viện",
+            "name_ko": "보건행정학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Vật lý trị liệu & Phục hồi chức năng",
+            "name_ko": "물리치료학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Dược học",
+            "name_ko": "약학과",
+            "is_hot": true
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "mock_uni_201",
@@ -7256,7 +34794,144 @@ export const universities = [
     "dorm_fee_desc": "1,000,000 KRW/năm",
     "admission_conditions": "",
     "featured_majors": "Hàng không – Du lịch – Logistics",
-    "regional_restrictions": ""
+    "regional_restrictions": "",
+    "majors_detail": [
+      {
+        "category": "humanities_social",
+        "faculty_name_vi": "Khoa Nhân văn & Khoa học Xã hội",
+        "faculty_name_ko": "인문사회대학",
+        "tuition_krw": 3230000,
+        "majors": [
+          {
+            "name_vi": "Quản trị Kinh doanh",
+            "name_ko": "경영학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Ngôn ngữ & Văn hóa Hàn Quốc",
+            "name_ko": "한국언어문화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Truyền thông & Báo chí",
+            "name_ko": "미디어언론학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Thương mại Quốc tế",
+            "name_ko": "국제무역학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "engineering",
+        "faculty_name_vi": "Khoa Kỹ thuật & Công nghệ Thông tin",
+        "faculty_name_ko": "공과대학",
+        "tuition_krw": 3580000,
+        "majors": [
+          {
+            "name_vi": "Khoa học Máy tính & AI",
+            "name_ko": "컴퓨터공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Công nghệ Thông tin (IT)",
+            "name_ko": "정보통신공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Kỹ thuật Điện - Điện tử",
+            "name_ko": "전기전자공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Kỹ thuật Cơ khí",
+            "name_ko": "기계공학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "natural_sciences",
+        "faculty_name_vi": "Khoa Khoa học Tự nhiên & Sinh học",
+        "faculty_name_ko": "자연과학대학",
+        "tuition_krw": 4948000,
+        "majors": [
+          {
+            "name_vi": "Hóa học & Vật liệu mới",
+            "name_ko": "화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Công nghệ Thực phẩm & Dinh dưỡng",
+            "name_ko": "식품영양학과",
+            "is_hot": false
+          },
+          {
+            "name_vi": "Sinh học Ứng dụng & Công nghệ Sinh học",
+            "name_ko": "생명공학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "arts_sports",
+        "faculty_name_vi": "Khoa Nghệ thuật & Thể dục Thể thao",
+        "faculty_name_ko": "예체능대학",
+        "tuition_krw": 2728000,
+        "majors": [
+          {
+            "name_vi": "Thiết kế Đồ họa & Kỹ thuật số",
+            "name_ko": "시각디자인학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Nghệ thuật Thẩm mỹ & Trang điểm (Make-up)",
+            "name_ko": "뷰티미용학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Diễn xuất, Sân khấu & Điện ảnh",
+            "name_ko": "연극영화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Âm nhạc K-Pop & Vẫn nghệ",
+            "name_ko": "실용음악학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "medicine_pharmacy",
+        "faculty_name_vi": "Khoa Y - Dược & Khoa học Y tế",
+        "faculty_name_ko": "의치약학/보건대학",
+        "tuition_krw": 2272000,
+        "majors": [
+          {
+            "name_vi": "Điều dưỡng (Nursing)",
+            "name_ko": "간호학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Quản lý Y tế & Bệnh viện",
+            "name_ko": "보건행정학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Vật lý trị liệu & Phục hồi chức năng",
+            "name_ko": "물리치료학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Dược học",
+            "name_ko": "약학과",
+            "is_hot": true
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "mock_uni_202",
@@ -7286,7 +34961,144 @@ export const universities = [
     "visa_metropolitan": false,
     "master_no_topik": false,
     "custom_notes": "",
-    "top_1_percent": false
+    "top_1_percent": false,
+    "majors_detail": [
+      {
+        "category": "humanities_social",
+        "faculty_name_vi": "Khoa Nhân văn & Khoa học Xã hội",
+        "faculty_name_ko": "인문사회대학",
+        "tuition_krw": 4674000,
+        "majors": [
+          {
+            "name_vi": "Quản trị Kinh doanh",
+            "name_ko": "경영학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Ngôn ngữ & Văn hóa Hàn Quốc",
+            "name_ko": "한국언어문화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Truyền thông & Báo chí",
+            "name_ko": "미디어언론학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Thương mại Quốc tế",
+            "name_ko": "국제무역학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "engineering",
+        "faculty_name_vi": "Khoa Kỹ thuật & Công nghệ Thông tin",
+        "faculty_name_ko": "공과대학",
+        "tuition_krw": 4644000,
+        "majors": [
+          {
+            "name_vi": "Khoa học Máy tính & AI",
+            "name_ko": "컴퓨터공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Công nghệ Thông tin (IT)",
+            "name_ko": "정보통신공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Kỹ thuật Điện - Điện tử",
+            "name_ko": "전기전자공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Kỹ thuật Cơ khí",
+            "name_ko": "기계공학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "natural_sciences",
+        "faculty_name_vi": "Khoa Khoa học Tự nhiên & Sinh học",
+        "faculty_name_ko": "자연과학대학",
+        "tuition_krw": 4631000,
+        "majors": [
+          {
+            "name_vi": "Hóa học & Vật liệu mới",
+            "name_ko": "화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Công nghệ Thực phẩm & Dinh dưỡng",
+            "name_ko": "식품영양학과",
+            "is_hot": false
+          },
+          {
+            "name_vi": "Sinh học Ứng dụng & Công nghệ Sinh học",
+            "name_ko": "생명공학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "arts_sports",
+        "faculty_name_vi": "Khoa Nghệ thuật & Thể dục Thể thao",
+        "faculty_name_ko": "예체능대학",
+        "tuition_krw": 2647000,
+        "majors": [
+          {
+            "name_vi": "Thiết kế Đồ họa & Kỹ thuật số",
+            "name_ko": "시각디자인학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Nghệ thuật Thẩm mỹ & Trang điểm (Make-up)",
+            "name_ko": "뷰티미용학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Diễn xuất, Sân khấu & Điện ảnh",
+            "name_ko": "연극영화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Âm nhạc K-Pop & Vẫn nghệ",
+            "name_ko": "실용음악학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "medicine_pharmacy",
+        "faculty_name_vi": "Khoa Y - Dược & Khoa học Y tế",
+        "faculty_name_ko": "의치약학/보건대학",
+        "tuition_krw": 4813000,
+        "majors": [
+          {
+            "name_vi": "Điều dưỡng (Nursing)",
+            "name_ko": "간호학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Quản lý Y tế & Bệnh viện",
+            "name_ko": "보건행정학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Vật lý trị liệu & Phục hồi chức năng",
+            "name_ko": "물리치료학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Dược học",
+            "name_ko": "약학과",
+            "is_hot": true
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "mock_uni_203",
@@ -7316,7 +35128,144 @@ export const universities = [
     "visa_metropolitan": false,
     "master_no_topik": false,
     "custom_notes": "",
-    "top_1_percent": false
+    "top_1_percent": false,
+    "majors_detail": [
+      {
+        "category": "humanities_social",
+        "faculty_name_vi": "Khoa Nhân văn & Khoa học Xã hội",
+        "faculty_name_ko": "인문사회대학",
+        "tuition_krw": 4446000,
+        "majors": [
+          {
+            "name_vi": "Quản trị Kinh doanh",
+            "name_ko": "경영학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Ngôn ngữ & Văn hóa Hàn Quốc",
+            "name_ko": "한국언어문화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Truyền thông & Báo chí",
+            "name_ko": "미디어언론학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Thương mại Quốc tế",
+            "name_ko": "국제무역학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "engineering",
+        "faculty_name_vi": "Khoa Kỹ thuật & Công nghệ Thông tin",
+        "faculty_name_ko": "공과대학",
+        "tuition_krw": 4314000,
+        "majors": [
+          {
+            "name_vi": "Khoa học Máy tính & AI",
+            "name_ko": "컴퓨터공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Công nghệ Thông tin (IT)",
+            "name_ko": "정보통신공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Kỹ thuật Điện - Điện tử",
+            "name_ko": "전기전자공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Kỹ thuật Cơ khí",
+            "name_ko": "기계공학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "natural_sciences",
+        "faculty_name_vi": "Khoa Khoa học Tự nhiên & Sinh học",
+        "faculty_name_ko": "자연과학대학",
+        "tuition_krw": 4579000,
+        "majors": [
+          {
+            "name_vi": "Hóa học & Vật liệu mới",
+            "name_ko": "화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Công nghệ Thực phẩm & Dinh dưỡng",
+            "name_ko": "식품영양학과",
+            "is_hot": false
+          },
+          {
+            "name_vi": "Sinh học Ứng dụng & Công nghệ Sinh học",
+            "name_ko": "생명공학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "arts_sports",
+        "faculty_name_vi": "Khoa Nghệ thuật & Thể dục Thể thao",
+        "faculty_name_ko": "예체능대학",
+        "tuition_krw": 2271000,
+        "majors": [
+          {
+            "name_vi": "Thiết kế Đồ họa & Kỹ thuật số",
+            "name_ko": "시각디자인학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Nghệ thuật Thẩm mỹ & Trang điểm (Make-up)",
+            "name_ko": "뷰티미용학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Diễn xuất, Sân khấu & Điện ảnh",
+            "name_ko": "연극영화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Âm nhạc K-Pop & Vẫn nghệ",
+            "name_ko": "실용음악학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "medicine_pharmacy",
+        "faculty_name_vi": "Khoa Y - Dược & Khoa học Y tế",
+        "faculty_name_ko": "의치약학/보건대학",
+        "tuition_krw": 4446000,
+        "majors": [
+          {
+            "name_vi": "Điều dưỡng (Nursing)",
+            "name_ko": "간호학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Quản lý Y tế & Bệnh viện",
+            "name_ko": "보건행정학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Vật lý trị liệu & Phục hồi chức năng",
+            "name_ko": "물리치료학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Dược học",
+            "name_ko": "약학과",
+            "is_hot": true
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "mock_uni_204",
@@ -7346,7 +35295,144 @@ export const universities = [
     "visa_metropolitan": true,
     "master_no_topik": false,
     "custom_notes": "",
-    "top_1_percent": true
+    "top_1_percent": true,
+    "majors_detail": [
+      {
+        "category": "humanities_social",
+        "faculty_name_vi": "Khoa Nhân văn & Khoa học Xã hội",
+        "faculty_name_ko": "인문사회대학",
+        "tuition_krw": 4574000,
+        "majors": [
+          {
+            "name_vi": "Quản trị Kinh doanh",
+            "name_ko": "경영학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Ngôn ngữ & Văn hóa Hàn Quốc",
+            "name_ko": "한국언어문화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Truyền thông & Báo chí",
+            "name_ko": "미디어언론학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Thương mại Quốc tế",
+            "name_ko": "국제무역학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "engineering",
+        "faculty_name_vi": "Khoa Kỹ thuật & Công nghệ Thông tin",
+        "faculty_name_ko": "공과대학",
+        "tuition_krw": 2204000,
+        "majors": [
+          {
+            "name_vi": "Khoa học Máy tính & AI",
+            "name_ko": "컴퓨터공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Công nghệ Thông tin (IT)",
+            "name_ko": "정보통신공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Kỹ thuật Điện - Điện tử",
+            "name_ko": "전기전자공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Kỹ thuật Cơ khí",
+            "name_ko": "기계공학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "natural_sciences",
+        "faculty_name_vi": "Khoa Khoa học Tự nhiên & Sinh học",
+        "faculty_name_ko": "자연과학대학",
+        "tuition_krw": 3768000,
+        "majors": [
+          {
+            "name_vi": "Hóa học & Vật liệu mới",
+            "name_ko": "화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Công nghệ Thực phẩm & Dinh dưỡng",
+            "name_ko": "식품영양학과",
+            "is_hot": false
+          },
+          {
+            "name_vi": "Sinh học Ứng dụng & Công nghệ Sinh học",
+            "name_ko": "생명공학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "arts_sports",
+        "faculty_name_vi": "Khoa Nghệ thuật & Thể dục Thể thao",
+        "faculty_name_ko": "예체능대학",
+        "tuition_krw": 3587000,
+        "majors": [
+          {
+            "name_vi": "Thiết kế Đồ họa & Kỹ thuật số",
+            "name_ko": "시각디자인학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Nghệ thuật Thẩm mỹ & Trang điểm (Make-up)",
+            "name_ko": "뷰티미용학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Diễn xuất, Sân khấu & Điện ảnh",
+            "name_ko": "연극영화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Âm nhạc K-Pop & Vẫn nghệ",
+            "name_ko": "실용음악학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "medicine_pharmacy",
+        "faculty_name_vi": "Khoa Y - Dược & Khoa học Y tế",
+        "faculty_name_ko": "의치약학/보건대학",
+        "tuition_krw": 2610000,
+        "majors": [
+          {
+            "name_vi": "Điều dưỡng (Nursing)",
+            "name_ko": "간호학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Quản lý Y tế & Bệnh viện",
+            "name_ko": "보건행정학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Vật lý trị liệu & Phục hồi chức năng",
+            "name_ko": "물리치료학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Dược học",
+            "name_ko": "약학과",
+            "is_hot": true
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "caoangyeungjin",
@@ -7382,7 +35468,144 @@ export const universities = [
     "dorm_fee_desc": "700,000- 1,000,000KRW",
     "admission_conditions": "",
     "featured_majors": "IT – AI – Cơ điện tử",
-    "regional_restrictions": ""
+    "regional_restrictions": "",
+    "majors_detail": [
+      {
+        "category": "humanities_social",
+        "faculty_name_vi": "Khoa Nhân văn & Khoa học Xã hội",
+        "faculty_name_ko": "인문사회대학",
+        "tuition_krw": 3500000,
+        "majors": [
+          {
+            "name_vi": "Quản trị Kinh doanh",
+            "name_ko": "경영학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Ngôn ngữ & Văn hóa Hàn Quốc",
+            "name_ko": "한국언어문화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Truyền thông & Báo chí",
+            "name_ko": "미디어언론학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Thương mại Quốc tế",
+            "name_ko": "국제무역학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "engineering",
+        "faculty_name_vi": "Khoa Kỹ thuật & Công nghệ Thông tin",
+        "faculty_name_ko": "공과대학",
+        "tuition_krw": 3500000,
+        "majors": [
+          {
+            "name_vi": "Khoa học Máy tính & AI",
+            "name_ko": "컴퓨터공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Công nghệ Thông tin (IT)",
+            "name_ko": "정보통신공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Kỹ thuật Điện - Điện tử",
+            "name_ko": "전기전자공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Kỹ thuật Cơ khí",
+            "name_ko": "기계공학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "natural_sciences",
+        "faculty_name_vi": "Khoa Khoa học Tự nhiên & Sinh học",
+        "faculty_name_ko": "자연과학대학",
+        "tuition_krw": 3500000,
+        "majors": [
+          {
+            "name_vi": "Hóa học & Vật liệu mới",
+            "name_ko": "화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Công nghệ Thực phẩm & Dinh dưỡng",
+            "name_ko": "식품영양학과",
+            "is_hot": false
+          },
+          {
+            "name_vi": "Sinh học Ứng dụng & Công nghệ Sinh học",
+            "name_ko": "생명공학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "arts_sports",
+        "faculty_name_vi": "Khoa Nghệ thuật & Thể dục Thể thao",
+        "faculty_name_ko": "예체능대학",
+        "tuition_krw": 3500000,
+        "majors": [
+          {
+            "name_vi": "Thiết kế Đồ họa & Kỹ thuật số",
+            "name_ko": "시각디자인학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Nghệ thuật Thẩm mỹ & Trang điểm (Make-up)",
+            "name_ko": "뷰티미용학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Diễn xuất, Sân khấu & Điện ảnh",
+            "name_ko": "연극영화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Âm nhạc K-Pop & Vẫn nghệ",
+            "name_ko": "실용음악학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "medicine_pharmacy",
+        "faculty_name_vi": "Khoa Y - Dược & Khoa học Y tế",
+        "faculty_name_ko": "의치약학/보건대학",
+        "tuition_krw": 3500000,
+        "majors": [
+          {
+            "name_vi": "Điều dưỡng (Nursing)",
+            "name_ko": "간호학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Quản lý Y tế & Bệnh viện",
+            "name_ko": "보건행정학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Vật lý trị liệu & Phục hồi chức năng",
+            "name_ko": "물리치료학과",
+            "is_hot": false
+          },
+          {
+            "name_vi": "Dược học",
+            "name_ko": "약학과",
+            "is_hot": true
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "caoangkimpo",
@@ -7418,7 +35641,144 @@ export const universities = [
     "dorm_fee_desc": "800,000-1,200,000KRW",
     "admission_conditions": "",
     "featured_majors": "Điện tử, Làm đẹp và Âm nhạc",
-    "regional_restrictions": ""
+    "regional_restrictions": "",
+    "majors_detail": [
+      {
+        "category": "humanities_social",
+        "faculty_name_vi": "Khoa Nhân văn & Khoa học Xã hội",
+        "faculty_name_ko": "인문사회대학",
+        "tuition_krw": 3500000,
+        "majors": [
+          {
+            "name_vi": "Quản trị Kinh doanh",
+            "name_ko": "경영학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Ngôn ngữ & Văn hóa Hàn Quốc",
+            "name_ko": "한국언어문화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Truyền thông & Báo chí",
+            "name_ko": "미디어언론학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Thương mại Quốc tế",
+            "name_ko": "국제무역학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "engineering",
+        "faculty_name_vi": "Khoa Kỹ thuật & Công nghệ Thông tin",
+        "faculty_name_ko": "공과대학",
+        "tuition_krw": 3500000,
+        "majors": [
+          {
+            "name_vi": "Khoa học Máy tính & AI",
+            "name_ko": "컴퓨터공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Công nghệ Thông tin (IT)",
+            "name_ko": "정보통신공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Kỹ thuật Điện - Điện tử",
+            "name_ko": "전기전자공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Kỹ thuật Cơ khí",
+            "name_ko": "기계공학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "natural_sciences",
+        "faculty_name_vi": "Khoa Khoa học Tự nhiên & Sinh học",
+        "faculty_name_ko": "자연과학대학",
+        "tuition_krw": 3500000,
+        "majors": [
+          {
+            "name_vi": "Hóa học & Vật liệu mới",
+            "name_ko": "화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Công nghệ Thực phẩm & Dinh dưỡng",
+            "name_ko": "식품영양학과",
+            "is_hot": false
+          },
+          {
+            "name_vi": "Sinh học Ứng dụng & Công nghệ Sinh học",
+            "name_ko": "생명공학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "arts_sports",
+        "faculty_name_vi": "Khoa Nghệ thuật & Thể dục Thể thao",
+        "faculty_name_ko": "예체능대학",
+        "tuition_krw": 3500000,
+        "majors": [
+          {
+            "name_vi": "Thiết kế Đồ họa & Kỹ thuật số",
+            "name_ko": "시각디자인학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Nghệ thuật Thẩm mỹ & Trang điểm (Make-up)",
+            "name_ko": "뷰티미용학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Diễn xuất, Sân khấu & Điện ảnh",
+            "name_ko": "연극영화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Âm nhạc K-Pop & Vẫn nghệ",
+            "name_ko": "실용음악학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "medicine_pharmacy",
+        "faculty_name_vi": "Khoa Y - Dược & Khoa học Y tế",
+        "faculty_name_ko": "의치약학/보건대학",
+        "tuition_krw": 3500000,
+        "majors": [
+          {
+            "name_vi": "Điều dưỡng (Nursing)",
+            "name_ko": "간호학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Quản lý Y tế & Bệnh viện",
+            "name_ko": "보건행정학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Vật lý trị liệu & Phục hồi chức năng",
+            "name_ko": "물리치료학과",
+            "is_hot": false
+          },
+          {
+            "name_vi": "Dược học",
+            "name_ko": "약학과",
+            "is_hot": true
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "caoangshingu",
@@ -7454,6 +35814,143 @@ export const universities = [
     "dorm_fee_desc": "900,000-1,300,000KRW",
     "admission_conditions": "",
     "featured_majors": "Thiết kế, Truyền thông và Điều dưỡng",
-    "regional_restrictions": ""
+    "regional_restrictions": "",
+    "majors_detail": [
+      {
+        "category": "humanities_social",
+        "faculty_name_vi": "Khoa Nhân văn & Khoa học Xã hội",
+        "faculty_name_ko": "인문사회대학",
+        "tuition_krw": 3500000,
+        "majors": [
+          {
+            "name_vi": "Quản trị Kinh doanh",
+            "name_ko": "경영학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Ngôn ngữ & Văn hóa Hàn Quốc",
+            "name_ko": "한국언어문화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Truyền thông & Báo chí",
+            "name_ko": "미디어언론학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Thương mại Quốc tế",
+            "name_ko": "국제무역학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "engineering",
+        "faculty_name_vi": "Khoa Kỹ thuật & Công nghệ Thông tin",
+        "faculty_name_ko": "공과대학",
+        "tuition_krw": 3500000,
+        "majors": [
+          {
+            "name_vi": "Khoa học Máy tính & AI",
+            "name_ko": "컴퓨터공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Công nghệ Thông tin (IT)",
+            "name_ko": "정보통신공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Kỹ thuật Điện - Điện tử",
+            "name_ko": "전기전자공학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Kỹ thuật Cơ khí",
+            "name_ko": "기계공학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "natural_sciences",
+        "faculty_name_vi": "Khoa Khoa học Tự nhiên & Sinh học",
+        "faculty_name_ko": "자연과학대학",
+        "tuition_krw": 3500000,
+        "majors": [
+          {
+            "name_vi": "Hóa học & Vật liệu mới",
+            "name_ko": "화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Công nghệ Thực phẩm & Dinh dưỡng",
+            "name_ko": "식품영양학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Sinh học Ứng dụng & Công nghệ Sinh học",
+            "name_ko": "생명공학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "arts_sports",
+        "faculty_name_vi": "Khoa Nghệ thuật & Thể dục Thể thao",
+        "faculty_name_ko": "예체능대학",
+        "tuition_krw": 3500000,
+        "majors": [
+          {
+            "name_vi": "Thiết kế Đồ họa & Kỹ thuật số",
+            "name_ko": "시각디자인학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Nghệ thuật Thẩm mỹ & Trang điểm (Make-up)",
+            "name_ko": "뷰티미용학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Diễn xuất, Sân khấu & Điện ảnh",
+            "name_ko": "연극영화학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Âm nhạc K-Pop & Vẫn nghệ",
+            "name_ko": "실용음악학과",
+            "is_hot": true
+          }
+        ]
+      },
+      {
+        "category": "medicine_pharmacy",
+        "faculty_name_vi": "Khoa Y - Dược & Khoa học Y tế",
+        "faculty_name_ko": "의치약학/보건대학",
+        "tuition_krw": 3500000,
+        "majors": [
+          {
+            "name_vi": "Điều dưỡng (Nursing)",
+            "name_ko": "간호학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Quản lý Y tế & Bệnh viện",
+            "name_ko": "보건행정학과",
+            "is_hot": true
+          },
+          {
+            "name_vi": "Vật lý trị liệu & Phục hồi chức năng",
+            "name_ko": "물리치료학과",
+            "is_hot": false
+          },
+          {
+            "name_vi": "Dược học",
+            "name_ko": "약학과",
+            "is_hot": true
+          }
+        ]
+      }
+    ]
   }
 ];

@@ -121,8 +121,28 @@ export default function Home() {
     if (!majorName || majorName === 'All') return true;
     const query = majorName.toLowerCase();
     const normQuery = removeVietnameseTones(query);
+
+    // 1. Check featured_majors from XLSX
+    if (school.featured_majors) {
+      const fmLower = school.featured_majors.toLowerCase();
+      if (fmLower.includes(query) || removeVietnameseTones(fmLower).includes(normQuery)) return true;
+    }
+
+    // 2. Check structured majors_detail
+    if (school.majors_detail && Array.isArray(school.majors_detail)) {
+      const hasInDetail = school.majors_detail.some((faculty: any) => {
+        const facName = faculty.faculty_name_vi.toLowerCase();
+        if (facName.includes(query) || removeVietnameseTones(facName).includes(normQuery)) return true;
+        return (faculty.majors || []).some((m: any) => {
+          const mVi = m.name_vi.toLowerCase();
+          const mKo = m.name_ko.toLowerCase();
+          return mVi.includes(query) || mKo.includes(query) || removeVietnameseTones(mVi).includes(normQuery);
+        });
+      });
+      if (hasInDetail) return true;
+    }
     
-    // Check specific fields (accents-insensitive and accented)
+    // 3. Check custom_notes & description
     if (school.custom_notes) {
       const notesLower = school.custom_notes.toLowerCase();
       if (notesLower.includes(query) || removeVietnameseTones(notesLower).includes(normQuery)) return true;
@@ -132,7 +152,7 @@ export default function Home() {
       if (descLower.includes(query) || removeVietnameseTones(descLower).includes(normQuery)) return true;
     }
     
-    // Map keywords to tuition categories (accents-insensitive)
+    // 4. Map keywords to tuition categories (accents-insensitive)
     if ((normQuery.includes("cong nghe") || normQuery.includes("ky thuat") || normQuery.includes("co khi") || normQuery.includes("dien") || normQuery.includes("ban dan") || normQuery.includes("may tinh") || normQuery.includes("it")) && school.tuition.engineering !== null && school.tuition.engineering !== undefined) return true;
     if ((normQuery.includes("y") || normQuery.includes("duoc") || normQuery.includes("dieu duong") || normQuery.includes("suc khoe")) && school.tuition.medicine_pharmacy !== null && school.tuition.medicine_pharmacy !== undefined) return true;
     if ((normQuery.includes("nghe thuat") || normQuery.includes("thiet ke") || normQuery.includes("lam dep") || normQuery.includes("tham my") || normQuery.includes("makeup") || normQuery.includes("trang diem") || normQuery.includes("san khau") || normQuery.includes("dien anh") || normQuery.includes("am nhac") || normQuery.includes("the thao")) && school.tuition.arts_sports !== null && school.tuition.arts_sports !== undefined) return true;

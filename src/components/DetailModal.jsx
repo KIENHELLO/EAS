@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import { X, ExternalLink, GraduationCap, MapPin, DollarSign, AlertCircle } from 'lucide-react';
+import { X, ExternalLink, GraduationCap, MapPin, DollarSign, AlertCircle, BookOpen, BarChart2, Search, Flame } from 'lucide-react';
 import { formatCurrency, krwToVnd } from '../utils/currency';
 
 export default function DetailModal({ university, exchangeRate, onClose }) {
@@ -11,6 +11,8 @@ export default function DetailModal({ university, exchangeRate, onClose }) {
   });
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [submitStatus, setSubmitStatus] = useState(null);
+  const [activeTab, setActiveTab] = useState('overview'); // 'overview' | 'majors'
+  const [majorQuery, setMajorQuery] = useState('');
 
   // 1. Auto-fill and School Tracking on Mount
   useEffect(() => {
@@ -403,8 +405,72 @@ export default function DetailModal({ university, exchangeRate, onClose }) {
           </div>
         </div>
 
+        {/* Navigation Tabs */}
+        <div style={{
+          display: 'flex',
+          borderBottom: '1px solid var(--border-color)',
+          backgroundColor: 'var(--bg-surface)',
+          padding: '0 1.75rem',
+          gap: '1.25rem'
+        }}>
+          <button
+            type="button"
+            onClick={() => setActiveTab('overview')}
+            style={{
+              padding: '0.85rem 0.25rem',
+              border: 'none',
+              background: 'none',
+              fontSize: '0.85rem',
+              fontWeight: 700,
+              color: activeTab === 'overview' ? 'var(--primary)' : 'var(--text-tertiary)',
+              borderBottom: activeTab === 'overview' ? '2.5px solid var(--primary)' : '2.5px solid transparent',
+              cursor: 'pointer',
+              display: 'flex',
+              alignItems: 'center',
+              gap: '0.4rem',
+              transition: 'all var(--transition-fast)'
+            }}
+          >
+            <BarChart2 size={16} />
+            <span>Tổng quan & Học phí</span>
+          </button>
+          <button
+            type="button"
+            onClick={() => setActiveTab('majors')}
+            style={{
+              padding: '0.85rem 0.25rem',
+              border: 'none',
+              background: 'none',
+              fontSize: '0.85rem',
+              fontWeight: 700,
+              color: activeTab === 'majors' ? 'var(--primary)' : 'var(--text-tertiary)',
+              borderBottom: activeTab === 'majors' ? '2.5px solid var(--primary)' : '2.5px solid transparent',
+              cursor: 'pointer',
+              display: 'flex',
+              alignItems: 'center',
+              gap: '0.4rem',
+              transition: 'all var(--transition-fast)'
+            }}
+          >
+            <BookOpen size={16} />
+            <span>Chuyên ngành & Khoa</span>
+            {university.majors_detail && university.majors_detail.length > 0 && (
+              <span style={{
+                fontSize: '0.65rem',
+                backgroundColor: 'var(--accent-light)',
+                color: 'var(--primary)',
+                padding: '0.15rem 0.45rem',
+                borderRadius: '9999px',
+                fontWeight: 800
+              }}>
+                {university.majors_detail.reduce((sum, f) => sum + (f.majors ? f.majors.length : 0), 0)} ngành
+              </span>
+            )}
+          </button>
+        </div>
+
         {/* Description Banner */}
-        {description && (
+        {description && activeTab === 'overview' && (
           <div style={{
             padding: '1rem 1.75rem',
             backgroundColor: 'var(--bg-app)',
@@ -419,7 +485,7 @@ export default function DetailModal({ university, exchangeRate, onClose }) {
         )}
 
         {/* Special Admissions Notes Banner */}
-        {custom_notes && (
+        {custom_notes && activeTab === 'overview' && (
           <div style={{
             padding: '0.85rem 1.75rem',
             backgroundColor: 'rgba(245, 158, 11, 0.08)',
@@ -437,15 +503,153 @@ export default function DetailModal({ university, exchangeRate, onClose }) {
           </div>
         )}
 
-        {/* Content Body Grid */}
-        <div 
-          className="modal-body-content"
-          style={{
-            display: 'grid',
-            gridTemplateColumns: 'repeat(auto-fit, minmax(min(100%, 300px), 1fr))',
-            gap: '2rem',
-          }}
-        >
+        {/* Content Body Grid / Tab Views */}
+        {activeTab === 'majors' ? (
+          /* MAJORS TAB VIEW */
+          <div style={{ padding: '1.75rem', display: 'flex', flexDirection: 'column', gap: '1.25rem', overflowY: 'auto' }}>
+            {/* In-modal quick search bar */}
+            <div style={{ position: 'relative', display: 'flex', alignItems: 'center' }}>
+              <Search size={16} style={{ position: 'absolute', left: '0.85rem', color: 'var(--text-tertiary)' }} />
+              <input
+                type="text"
+                placeholder="Tìm nhanh ngành trong trường này (VD: Truyền thông, CNTT, Kinh doanh, Thiết kế...)"
+                value={majorQuery}
+                onChange={(e) => setMajorQuery(e.target.value)}
+                style={{
+                  width: '100%',
+                  padding: '0.65rem 0.85rem 0.65rem 2.4rem',
+                  borderRadius: 'var(--border-radius-md)',
+                  border: '1px solid var(--border-color)',
+                  backgroundColor: 'var(--bg-app)',
+                  color: 'var(--text-primary)',
+                  fontSize: '0.85rem',
+                  fontWeight: 600,
+                  outline: 'none'
+                }}
+              />
+            </div>
+
+            {/* Featured Majors Tag Highlight */}
+            {featured_majors && (
+              <div style={{
+                padding: '0.85rem 1.25rem',
+                borderRadius: 'var(--border-radius-md)',
+                backgroundColor: 'var(--primary-light)',
+                border: '1px solid rgba(79, 70, 229, 0.2)',
+                fontSize: '0.82rem',
+                color: 'var(--primary)',
+                fontWeight: 600,
+                display: 'flex',
+                alignItems: 'center',
+                gap: '0.5rem'
+              }}>
+                <Flame size={16} color="var(--primary)" />
+                <span><strong>Thế mạnh đào tạo nổi bật:</strong> {featured_majors}</span>
+              </div>
+            )}
+
+            {/* List of Faculties and Majors */}
+            {(!university.majors_detail || university.majors_detail.length === 0) ? (
+              <div style={{ textAlign: 'center', padding: '2rem', color: 'var(--text-tertiary)', fontSize: '0.85rem' }}>
+                Đang cập nhật danh sách khoa chi tiết cho trường này.
+              </div>
+            ) : (
+              <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(min(100%, 320px), 1fr))', gap: '1.25rem' }}>
+                {university.majors_detail
+                  .map(faculty => {
+                    const filteredMajors = (faculty.majors || []).filter(m => {
+                      if (!majorQuery.trim()) return true;
+                      const q = majorQuery.toLowerCase();
+                      return m.name_vi.toLowerCase().includes(q) || 
+                             m.name_ko.toLowerCase().includes(q) || 
+                             faculty.faculty_name_vi.toLowerCase().includes(q);
+                    });
+
+                    if (majorQuery.trim() && filteredMajors.length === 0) return null;
+
+                    return (
+                      <div 
+                        key={faculty.category}
+                        style={{
+                          borderRadius: 'var(--border-radius-md)',
+                          border: '1px solid var(--border-color)',
+                          backgroundColor: 'var(--bg-surface)',
+                          padding: '1.25rem',
+                          display: 'flex',
+                          flexDirection: 'column',
+                          gap: '0.85rem'
+                        }}
+                      >
+                        {/* Faculty Title & Tuition */}
+                        <div style={{ borderBottom: '1px solid var(--border-color)', paddingBottom: '0.65rem' }}>
+                          <h4 style={{ fontSize: '0.95rem', fontWeight: 800, margin: '0 0 0.25rem 0', color: 'var(--text-primary)' }}>
+                            {faculty.faculty_name_vi}
+                          </h4>
+                          <span style={{ fontSize: '0.75rem', color: 'var(--text-tertiary)', fontWeight: 500 }}>
+                            {faculty.faculty_name_ko}
+                          </span>
+                          <div style={{ marginTop: '0.4rem', fontSize: '0.82rem', fontWeight: 700, color: 'var(--primary)' }}>
+                            Học phí: {formatCurrency(faculty.tuition_krw, 'KRW')} / kỳ
+                            <span style={{ fontSize: '0.75rem', color: 'var(--text-tertiary)', marginLeft: '0.4rem', fontWeight: 500 }}>
+                              (~{formatCurrency(krwToVnd(faculty.tuition_krw, exchangeRate), 'VND')})
+                            </span>
+                          </div>
+                        </div>
+
+                        {/* Faculty Majors */}
+                        <div style={{ display: 'flex', flexDirection: 'column', gap: '0.5rem' }}>
+                          {filteredMajors.map((m, idx) => (
+                            <div 
+                              key={idx}
+                              style={{
+                                display: 'flex',
+                                alignItems: 'center',
+                                justifyContent: 'space-between',
+                                padding: '0.4rem 0.6rem',
+                                borderRadius: 'var(--border-radius-sm)',
+                                backgroundColor: m.is_hot ? 'var(--accent-light)' : 'var(--bg-app)',
+                                fontSize: '0.8rem'
+                              }}
+                            >
+                              <div>
+                                <span style={{ fontWeight: 700, color: 'var(--text-primary)' }}>{m.name_vi}</span>
+                                <span style={{ fontSize: '0.72rem', color: 'var(--text-tertiary)', marginLeft: '0.4rem' }}>({m.name_ko})</span>
+                              </div>
+                              {m.is_hot && (
+                                <span style={{
+                                  fontSize: '0.65rem',
+                                  fontWeight: 800,
+                                  color: '#dc2626',
+                                  backgroundColor: 'rgba(239, 68, 68, 0.12)',
+                                  padding: '0.15rem 0.4rem',
+                                  borderRadius: '9999px',
+                                  display: 'flex',
+                                  alignItems: 'center',
+                                  gap: '0.15rem'
+                                }}>
+                                  <Flame size={10} color="#dc2626" /> HOT
+                                </span>
+                              )}
+                            </div>
+                          ))}
+                        </div>
+                      </div>
+                    );
+                  })
+                  .filter(Boolean)}
+              </div>
+            )}
+          </div>
+        ) : (
+          /* OVERVIEW TAB VIEW */
+          <div 
+            className="modal-body-content"
+            style={{
+              display: 'grid',
+              gridTemplateColumns: 'repeat(auto-fit, minmax(min(100%, 300px), 1fr))',
+              gap: '2rem',
+            }}
+          >
           {/* LEFT: Detailed Tuition Breakdown */}
           <div>
             <h4 style={{
@@ -966,12 +1170,9 @@ export default function DetailModal({ university, exchangeRate, onClose }) {
                     transition: 'all var(--transition-fast)'
                   }}
                 >
-                  {isSubmitting ? 'Đang gửi thông tin...' : 'Gửi đăng ký tư vấn ngay'}
-                </button>
-              </form>
             )}
           </div>
-        </div>
+        )}
 
         {/* Footer Area */}
         <div style={{
