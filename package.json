@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "node scripts/patch-ssg.js && node scripts/generate-pages.js && vite build && node scripts/generate-sitemap.js",
+    "build": "cross-env NODE_OPTIONS=--max-old-space-size=4096 node scripts/patch-ssg.js && cross-env NODE_OPTIONS=--max-old-space-size=4096 node scripts/generate-pages.js && cross-env NODE_OPTIONS=--max-old-space-size=4096 vite build && node scripts/generate-sitemap.js",
     "import-data": "node scripts/import-tuition-csv.js",
     "generate-sitemap": "node scripts/generate-sitemap.js",
     "lint": "eslint .",
@@ -29,6 +29,7 @@
     "@types/react": "^19.2.14",
     "@types/react-dom": "^19.2.3",
     "@vitejs/plugin-react": "^6.0.1",
+    "cross-env": "^10.1.0",
     "eslint": "^10.3.0",
     "eslint-plugin-react-hooks": "^7.1.1",
     "eslint-plugin-react-refresh": "^0.5.2",
