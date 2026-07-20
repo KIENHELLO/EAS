@@ -1010,8 +1010,9 @@ export default function DetailModal({ university, exchangeRate, onClose }) {
               </form>
             )}
           </div>
-          </>
-        )}
+        </div>
+      </>
+    )}
 
         {/* Footer Area */}
         <div style={{
