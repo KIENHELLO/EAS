@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   description: "Hệ thống tra cứu, chuyển đổi tỷ giá và so sánh học phí chi tiết các trường đại học tại Hàn Quốc. Hỗ trợ tiền Won (KRW) và Việt Nam Đồng (VND).",
   keywords: "học phí hàn quốc, du học hàn quốc, đại học hàn quốc, tỷ giá won, so sánh học phí",
   icons: {
-    icon: '/logo.png',
+    icon: '/logo.png?v=2',
   }
 };
 
