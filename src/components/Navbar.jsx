@@ -44,21 +44,17 @@ export default function Navbar({
       }}>
         {/* Brand logo */}
       <div style={{ display: 'flex', alignItems: 'center', gap: '0.75rem' }}>
-        <div style={{
-          background: 'var(--primary)',
-          color: 'white',
-          width: '2.5rem',
-          height: '2.5rem',
-          borderRadius: 'var(--border-radius-sm)',
-          display: 'flex',
-          alignItems: 'center',
-          justifyContent: 'center',
-          fontWeight: 800,
-          fontSize: '1.25rem',
-          boxShadow: '0 4px 10px rgba(230, 0, 35, 0.25)'
-        }}>
-          KR
-        </div>
+        <img 
+          src="/logo.png" 
+          alt="EAS Logo" 
+          style={{
+            height: '2.5rem',
+            width: '2.5rem',
+            objectFit: 'contain',
+            borderRadius: 'var(--border-radius-sm)',
+            boxShadow: '0 4px 10px rgba(0, 0, 0, 0.05)'
+          }}
+        />
         <div>
           <div style={{ fontSize: '1.25rem', fontWeight: 800, margin: 0, letterSpacing: '-0.025em', lineHeight: 1.2, color: 'var(--text-primary)' }}>
             KR-UniTuition

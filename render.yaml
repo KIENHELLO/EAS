@@ -1,10 +1,16 @@
 services:
   - type: web
-    name: eas-tuition
-    runtime: static
-    buildCommand: npm install --legacy-peer-deps && npm run build
-    staticPublishPath: ./dist
-    routes:
-      - type: rewrite
-        source: /*
-        destination: /index.html
+    name: eas-tuition-next
+    runtime: node
+    rootDir: ./kr-unituition-next
+    buildCommand: npm install && npm run build
+    startCommand: npm run start
+    envVars:
+      - key: DATABASE_URL
+        fromDatabase:
+          name: eas-db
+          property: connectionString
+
+databases:
+  - name: eas-db
+    plan: free

@@ -63,13 +63,11 @@ export default function AdminSidebar() {
     <aside className="w-[220px] bg-[#1e293b] text-white flex flex-col h-screen sticky top-0 z-20 border-r border-[#334155] font-sans shrink-0">
       {/* Brand Logo */}
       <div className="h-16 px-6 flex items-center gap-2 border-b border-[#334155]">
-        <svg
-          className="w-6 h-6 text-[#e60023]"
-          viewBox="0 0 24 24"
-          fill="currentColor"
-        >
-          <path d="M12 0C5.373 0 0 5.372 0 12c0 5.084 3.163 9.426 7.627 11.174-.105-.949-.2-2.405.042-3.441.218-.937 1.407-5.965 1.407-5.965s-.359-.719-.359-1.782c0-1.668.967-2.914 2.17-2.914 1.023 0 1.518.769 1.518 1.69 0 1.029-.655 2.568-.994 3.993-.283 1.194.599 2.169 1.775 2.169 2.13 0 3.768-2.247 3.768-5.491 0-2.871-2.063-4.88-5.011-4.88-3.414 0-5.418 2.561-5.418 5.204 0 1.031.397 2.138.893 2.738a.36.36 0 0 1 .083.345l-.333 1.36c-.053.22-.174.267-.402.161-1.499-.698-2.436-2.889-2.436-4.649 0-3.785 2.75-7.262 7.929-7.262 4.163 0 7.398 2.967 7.398 6.931 0 4.136-2.607 7.464-6.227 7.464-1.216 0-2.359-.631-2.75-1.378l-.748 2.853c-.27 1.043-1.002 2.35-1.492 3.146C9.97 23.834 10.966 24 12 24c6.627 0 12-5.373 12-12 0-6.628-5.373-12-12-12z" />
-        </svg>
+        <img 
+          src="/logo.png" 
+          alt="EAS Logo" 
+          className="w-7 h-7 object-contain rounded-md"
+        />
         <span className="font-bold tracking-tight text-white text-lg">
           KoreaEdu Admin
         </span>
