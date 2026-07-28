@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+Sitemap: https://eas-tuition.onrender.com/sitemap.xml
+
+Disallow: /api/
+Disallow: /.env
