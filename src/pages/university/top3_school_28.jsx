@@ -6,19 +6,19 @@ export const ssgOptions = {
   routeUrl: '/university/top3_school_28',
   Head: () => (
     <>
-      <title>Đại học Masan - Học Phí & Thông Tin Tuyển Sinh 2025 | KR-UniTuition</title>
-      <meta name="description" content="Học phí trường Đại học Masan (Đại học Masan (TOP 3%)): 2,000,000 - 2,600,000 KRW (37,000,000 - 48,100,000 VND) mỗi học kỳ. Địa chỉ: Gyeongsangnam, Hàn Quốc. Xếp hạng: #178." />
-      <meta name="keywords" content="Đại học Masan, học phí Đại học Masan, Đại học Masan (TOP 3%), Đại học Masan, đại học Gyeongsangnam" />
+      <title>Đại học Masan - top 3 - Học Phí & Thông Tin Tuyển Sinh 2025 | KR-UniTuition</title>
+      <meta name="description" content="Học phí trường Đại học Masan - top 3 (Đại học Masan (TOP 3%)): 2,000,000 - 2,600,000 KRW (37,000,000 - 48,100,000 VND) mỗi học kỳ. Địa chỉ: 마산대학교, 함마도로, 마산회원구, 창원시, 경상남도, 51229, 대한민국. Xếp hạng: #178." />
+      <meta name="keywords" content="Đại học Masan - top 3, học phí Đại học Masan - top 3, Đại học Masan (TOP 3%), Đại học Masan, đại học Gyeongsangnam" />
       <link rel="canonical" href="https://eas-tuition.onrender.com/university/top3_school_28" />
-      <meta property="og:title" content="Đại học Masan - Học Phí & Thông Tin Tuyển Sinh 2025" />
-      <meta property="og:description" content="Học phí trường Đại học Masan (Đại học Masan (TOP 3%)): 2,000,000 - 2,600,000 KRW (37,000,000 - 48,100,000 VND) mỗi học kỳ. Địa chỉ: Gyeongsangnam, Hàn Quốc. Xếp hạng: #178." />
+      <meta property="og:title" content="Đại học Masan - top 3 - Học Phí & Thông Tin Tuyển Sinh 2025" />
+      <meta property="og:description" content="Học phí trường Đại học Masan - top 3 (Đại học Masan (TOP 3%)): 2,000,000 - 2,600,000 KRW (37,000,000 - 48,100,000 VND) mỗi học kỳ. Địa chỉ: 마산대학교, 함마도로, 마산회원구, 창원시, 경상남도, 51229, 대한민국. Xếp hạng: #178." />
       <meta property="og:url" content="https://eas-tuition.onrender.com/university/top3_school_28" />
       <meta property="og:type" content="website" />
       <meta property="og:image" content="https://eas-tuition.onrender.com/og-image.png" />
       <meta property="og:locale" content="vi_VN" />
       <meta name="twitter:card" content="summary_large_image" />
-      <meta name="twitter:title" content="Đại học Masan - Học Phí & Thông Tin Tuyển Sinh 2025" />
-      <meta name="twitter:description" content="Học phí trường Đại học Masan (Đại học Masan (TOP 3%)): 2,000,000 - 2,600,000 KRW (37,000,000 - 48,100,000 VND) mỗi học kỳ. Địa chỉ: Gyeongsangnam, Hàn Quốc. Xếp hạng: #178." />
+      <meta name="twitter:title" content="Đại học Masan - top 3 - Học Phí & Thông Tin Tuyển Sinh 2025" />
+      <meta name="twitter:description" content="Học phí trường Đại học Masan - top 3 (Đại học Masan (TOP 3%)): 2,000,000 - 2,600,000 KRW (37,000,000 - 48,100,000 VND) mỗi học kỳ. Địa chỉ: 마산대학교, 함마도로, 마산회원구, 창원시, 경상남도, 51229, 대한민국. Xếp hạng: #178." />
       <meta name="twitter:image" content="https://eas-tuition.onrender.com/og-image.png" />
       <meta name="robots" content="index, follow" />
       <link rel="alternate" hreflang="vi" href="https://eas-tuition.onrender.com/university/top3_school_28" />
@@ -26,7 +26,7 @@ export const ssgOptions = {
         {`{
           "@context": "https://schema.org",
           "@type": "EducationalOrganization",
-          "name": "Đại học Masan",
+          "name": "Đại học Masan - top 3",
           "alternateName": "Đại học Masan (TOP 3%)",
           "url": "https://www.studyinkorea.go.kr",
           "address": {

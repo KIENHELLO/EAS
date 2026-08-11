@@ -6,19 +6,19 @@ export const ssgOptions = {
   routeUrl: '/university/inje',
   Head: () => (
     <>
-      <title>Đại học Inje (Gimhae) - Học Phí & Thông Tin Tuyển Sinh 2025 | KR-UniTuition</title>
-      <meta name="description" content="Học phí trường Đại học Inje (Gimhae) (Inje University): 3,195,000 - 5,680,000 KRW (59,107,500 - 105,080,000 VND) mỗi học kỳ. Địa chỉ: 197 Inje-ro, Gimhae, Gyeongsangnam-do. Xếp hạng: #42." />
-      <meta name="keywords" content="Đại học Inje (Gimhae), học phí Đại học Inje (Gimhae), Inje University, 인제대학교, đại học Gyeongnam" />
+      <title>Đại học Inje - Học Phí & Thông Tin Tuyển Sinh 2025 | KR-UniTuition</title>
+      <meta name="description" content="Học phí trường Đại học Inje (Đại học Inje (Korea)): 2,400,000 - 3,100,000 KRW (44,400,000 - 57,350,000 VND) mỗi học kỳ. Địa chỉ: Korea. Xếp hạng: #198." />
+      <meta name="keywords" content="Đại học Inje, học phí Đại học Inje, Đại học Inje (Korea), Đại học Inje, đại học Gyeongnam" />
       <link rel="canonical" href="https://eas-tuition.onrender.com/university/inje" />
-      <meta property="og:title" content="Đại học Inje (Gimhae) - Học Phí & Thông Tin Tuyển Sinh 2025" />
-      <meta property="og:description" content="Học phí trường Đại học Inje (Gimhae) (Inje University): 3,195,000 - 5,680,000 KRW (59,107,500 - 105,080,000 VND) mỗi học kỳ. Địa chỉ: 197 Inje-ro, Gimhae, Gyeongsangnam-do. Xếp hạng: #42." />
+      <meta property="og:title" content="Đại học Inje - Học Phí & Thông Tin Tuyển Sinh 2025" />
+      <meta property="og:description" content="Học phí trường Đại học Inje (Đại học Inje (Korea)): 2,400,000 - 3,100,000 KRW (44,400,000 - 57,350,000 VND) mỗi học kỳ. Địa chỉ: Korea. Xếp hạng: #198." />
       <meta property="og:url" content="https://eas-tuition.onrender.com/university/inje" />
       <meta property="og:type" content="website" />
       <meta property="og:image" content="https://eas-tuition.onrender.com/og-image.png" />
       <meta property="og:locale" content="vi_VN" />
       <meta name="twitter:card" content="summary_large_image" />
-      <meta name="twitter:title" content="Đại học Inje (Gimhae) - Học Phí & Thông Tin Tuyển Sinh 2025" />
-      <meta name="twitter:description" content="Học phí trường Đại học Inje (Gimhae) (Inje University): 3,195,000 - 5,680,000 KRW (59,107,500 - 105,080,000 VND) mỗi học kỳ. Địa chỉ: 197 Inje-ro, Gimhae, Gyeongsangnam-do. Xếp hạng: #42." />
+      <meta name="twitter:title" content="Đại học Inje - Học Phí & Thông Tin Tuyển Sinh 2025" />
+      <meta name="twitter:description" content="Học phí trường Đại học Inje (Đại học Inje (Korea)): 2,400,000 - 3,100,000 KRW (44,400,000 - 57,350,000 VND) mỗi học kỳ. Địa chỉ: Korea. Xếp hạng: #198." />
       <meta name="twitter:image" content="https://eas-tuition.onrender.com/og-image.png" />
       <meta name="robots" content="index, follow" />
       <link rel="alternate" hreflang="vi" href="https://eas-tuition.onrender.com/university/inje" />
@@ -26,9 +26,9 @@ export const ssgOptions = {
         {`{
           "@context": "https://schema.org",
           "@type": "EducationalOrganization",
-          "name": "Đại học Inje (Gimhae)",
-          "alternateName": "Inje University",
-          "url": "https://www.inje.ac.kr",
+          "name": "Đại học Inje",
+          "alternateName": "Đại học Inje (Korea)",
+          "url": "https://www.studyinkorea.go.kr",
           "address": {
             "@type": "PostalAddress",
             "addressCountry": "KR",

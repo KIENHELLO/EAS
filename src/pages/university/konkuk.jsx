@@ -6,19 +6,27 @@ export const ssgOptions = {
   routeUrl: '/university/konkuk',
   Head: () => (
     <>
-      <title>Đại học Konkuk - Học Phí & Thông Tin Tuyển Sinh 2025 | KR-UniTuition</title>
-      <meta name="description" content="Học phí trường Đại học Konkuk (Konkuk University): 3,900,000 - 6,280,000 KRW (72,150,000 - 116,180,000 VND) mỗi học kỳ. Địa chỉ: 120 Neungdong-ro, Gwangjin-gu, Seoul. Xếp hạng: #15." />
-      <meta name="keywords" content="Đại học Konkuk, học phí Đại học Konkuk, Konkuk University, 건국대학교, đại học Seoul" />
+      <title>Đại học Konkuk ( KU )
+( 건국대학교 ) - Học Phí & Thông Tin Tuyển Sinh 2025 | KR-UniTuition</title>
+      <meta name="description" content="Học phí trường Đại học Konkuk ( KU )
+( 건국대학교 ) (Konkuk University): 3,900,000 - 6,280,000 KRW (72,150,000 - 116,180,000 VND) mỗi học kỳ. Địa chỉ: 120 Neungdong-ro, Gwangjin-gu, Seoul. Xếp hạng: #15." />
+      <meta name="keywords" content="Đại học Konkuk ( KU )
+( 건국대학교 ), học phí Đại học Konkuk ( KU )
+( 건국대학교 ), Konkuk University, 건국대학교, đại học Seoul" />
       <link rel="canonical" href="https://eas-tuition.onrender.com/university/konkuk" />
-      <meta property="og:title" content="Đại học Konkuk - Học Phí & Thông Tin Tuyển Sinh 2025" />
-      <meta property="og:description" content="Học phí trường Đại học Konkuk (Konkuk University): 3,900,000 - 6,280,000 KRW (72,150,000 - 116,180,000 VND) mỗi học kỳ. Địa chỉ: 120 Neungdong-ro, Gwangjin-gu, Seoul. Xếp hạng: #15." />
+      <meta property="og:title" content="Đại học Konkuk ( KU )
+( 건국대학교 ) - Học Phí & Thông Tin Tuyển Sinh 2025" />
+      <meta property="og:description" content="Học phí trường Đại học Konkuk ( KU )
+( 건국대학교 ) (Konkuk University): 3,900,000 - 6,280,000 KRW (72,150,000 - 116,180,000 VND) mỗi học kỳ. Địa chỉ: 120 Neungdong-ro, Gwangjin-gu, Seoul. Xếp hạng: #15." />
       <meta property="og:url" content="https://eas-tuition.onrender.com/university/konkuk" />
       <meta property="og:type" content="website" />
       <meta property="og:image" content="https://eas-tuition.onrender.com/og-image.png" />
       <meta property="og:locale" content="vi_VN" />
       <meta name="twitter:card" content="summary_large_image" />
-      <meta name="twitter:title" content="Đại học Konkuk - Học Phí & Thông Tin Tuyển Sinh 2025" />
-      <meta name="twitter:description" content="Học phí trường Đại học Konkuk (Konkuk University): 3,900,000 - 6,280,000 KRW (72,150,000 - 116,180,000 VND) mỗi học kỳ. Địa chỉ: 120 Neungdong-ro, Gwangjin-gu, Seoul. Xếp hạng: #15." />
+      <meta name="twitter:title" content="Đại học Konkuk ( KU )
+( 건국대학교 ) - Học Phí & Thông Tin Tuyển Sinh 2025" />
+      <meta name="twitter:description" content="Học phí trường Đại học Konkuk ( KU )
+( 건국대학교 ) (Konkuk University): 3,900,000 - 6,280,000 KRW (72,150,000 - 116,180,000 VND) mỗi học kỳ. Địa chỉ: 120 Neungdong-ro, Gwangjin-gu, Seoul. Xếp hạng: #15." />
       <meta name="twitter:image" content="https://eas-tuition.onrender.com/og-image.png" />
       <meta name="robots" content="index, follow" />
       <link rel="alternate" hreflang="vi" href="https://eas-tuition.onrender.com/university/konkuk" />
@@ -26,7 +34,8 @@ export const ssgOptions = {
         {`{
           "@context": "https://schema.org",
           "@type": "EducationalOrganization",
-          "name": "Đại học Konkuk",
+          "name": "Đại học Konkuk ( KU )
+( 건국대학교 )",
           "alternateName": "Konkuk University",
           "url": "http://www.konkuk.ac.kr",
           "address": {

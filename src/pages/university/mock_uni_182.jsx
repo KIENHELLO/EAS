@@ -7,18 +7,18 @@ export const ssgOptions = {
   Head: () => (
     <>
       <title>Đại học Chosun - Học Phí & Thông Tin Tuyển Sinh 2025 | KR-UniTuition</title>
-      <meta name="description" content="Học phí trường Đại học Chosun (Chosun University): 2,509,000 - 3,249,000 KRW (46,416,500 - 60,106,500 VND) mỗi học kỳ. Địa chỉ: 123 Chosun-ro, Jeonbuk. Xếp hạng: #205." />
+      <meta name="description" content="Học phí trường Đại học Chosun (Chosun University): 2,509,000 - 3,249,000 KRW (46,416,500 - 60,106,500 VND) mỗi học kỳ. Địa chỉ: 조선대학교 중앙도서관, 조선대5길, 서석동, 서남동, 동구, 광주, 전남광주통합특별시, 61452, 대한민국. Xếp hạng: #205." />
       <meta name="keywords" content="Đại học Chosun, học phí Đại học Chosun, Chosun University, Chosun대학교, đại học Jeonbuk" />
       <link rel="canonical" href="https://eas-tuition.onrender.com/university/mock_uni_182" />
       <meta property="og:title" content="Đại học Chosun - Học Phí & Thông Tin Tuyển Sinh 2025" />
-      <meta property="og:description" content="Học phí trường Đại học Chosun (Chosun University): 2,509,000 - 3,249,000 KRW (46,416,500 - 60,106,500 VND) mỗi học kỳ. Địa chỉ: 123 Chosun-ro, Jeonbuk. Xếp hạng: #205." />
+      <meta property="og:description" content="Học phí trường Đại học Chosun (Chosun University): 2,509,000 - 3,249,000 KRW (46,416,500 - 60,106,500 VND) mỗi học kỳ. Địa chỉ: 조선대학교 중앙도서관, 조선대5길, 서석동, 서남동, 동구, 광주, 전남광주통합특별시, 61452, 대한민국. Xếp hạng: #205." />
       <meta property="og:url" content="https://eas-tuition.onrender.com/university/mock_uni_182" />
       <meta property="og:type" content="website" />
       <meta property="og:image" content="https://eas-tuition.onrender.com/og-image.png" />
       <meta property="og:locale" content="vi_VN" />
       <meta name="twitter:card" content="summary_large_image" />
       <meta name="twitter:title" content="Đại học Chosun - Học Phí & Thông Tin Tuyển Sinh 2025" />
-      <meta name="twitter:description" content="Học phí trường Đại học Chosun (Chosun University): 2,509,000 - 3,249,000 KRW (46,416,500 - 60,106,500 VND) mỗi học kỳ. Địa chỉ: 123 Chosun-ro, Jeonbuk. Xếp hạng: #205." />
+      <meta name="twitter:description" content="Học phí trường Đại học Chosun (Chosun University): 2,509,000 - 3,249,000 KRW (46,416,500 - 60,106,500 VND) mỗi học kỳ. Địa chỉ: 조선대학교 중앙도서관, 조선대5길, 서석동, 서남동, 동구, 광주, 전남광주통합특별시, 61452, 대한민국. Xếp hạng: #205." />
       <meta name="twitter:image" content="https://eas-tuition.onrender.com/og-image.png" />
       <meta name="robots" content="index, follow" />
       <link rel="alternate" hreflang="vi" href="https://eas-tuition.onrender.com/university/mock_uni_182" />

@@ -186,7 +186,19 @@ export default function Home() {
           u.name_ko.toLowerCase().includes(searchQuery.toLowerCase());
         
         const matchRegion = selectedRegion === 'All' || u.region === selectedRegion;
-        const matchType = selectedType === 'All' || u.type === selectedType;
+        
+        const isCollege = u.name_vi.toLowerCase().includes('cao đẳng') || u.name_en.toLowerCase().includes('college') || u.id.startsWith('caoang');
+        let matchType = false;
+        if (selectedType === 'All') {
+          matchType = true;
+        } else if (selectedType === 'college') {
+          matchType = isCollege;
+        } else if (selectedType === 'public') {
+          matchType = u.type === 'public' && !isCollege;
+        } else if (selectedType === 'private') {
+          matchType = (u.type.toLowerCase() === 'private') && !isCollege;
+        }
+
         const matchGdtx = (!top2PercentOnly || u.accept_gdtx === 'top2') && (!top3PercentOnly || u.accept_gdtx === 'top3');
         const matchMajor = matchSchoolByMajor(u, selectedMajor);
         const matchVisa = !visaMetropolitanOnly || u.visa_metropolitan === true;
@@ -624,6 +636,7 @@ export default function Home() {
                       <option value="All">Tất cả Loại hình</option>
                       <option value="public">Quốc lập / Công lập</option>
                       <option value="private">Tư thục</option>
+                      <option value="college">Cao đẳng</option>
                     </select>
                   </div>
 

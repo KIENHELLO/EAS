@@ -7,18 +7,18 @@ export const ssgOptions = {
   Head: () => (
     <>
       <title>Đại học Dong-Eui - Học Phí & Thông Tin Tuyển Sinh 2025 | KR-UniTuition</title>
-      <meta name="description" content="Học phí trường Đại học Dong-Eui (Dong-Eui University): 2,613,000 - 4,978,000 KRW (48,340,500 - 92,093,000 VND) mỗi học kỳ. Địa chỉ: 123 Dong-Eui-ro, Gyeongnam. Xếp hạng: #191." />
+      <meta name="description" content="Học phí trường Đại học Dong-Eui (Dong-Eui University): 2,613,000 - 4,978,000 KRW (48,340,500 - 92,093,000 VND) mỗi học kỳ. Địa chỉ: 동의과학대, 54, 양지로, 전포2동, 부산진구, 부산광역시, 47230, 대한민국. Xếp hạng: #191." />
       <meta name="keywords" content="Đại học Dong-Eui, học phí Đại học Dong-Eui, Dong-Eui University, Dong-Eui대학교, đại học Gyeongnam" />
       <link rel="canonical" href="https://eas-tuition.onrender.com/university/mock_uni_168" />
       <meta property="og:title" content="Đại học Dong-Eui - Học Phí & Thông Tin Tuyển Sinh 2025" />
-      <meta property="og:description" content="Học phí trường Đại học Dong-Eui (Dong-Eui University): 2,613,000 - 4,978,000 KRW (48,340,500 - 92,093,000 VND) mỗi học kỳ. Địa chỉ: 123 Dong-Eui-ro, Gyeongnam. Xếp hạng: #191." />
+      <meta property="og:description" content="Học phí trường Đại học Dong-Eui (Dong-Eui University): 2,613,000 - 4,978,000 KRW (48,340,500 - 92,093,000 VND) mỗi học kỳ. Địa chỉ: 동의과학대, 54, 양지로, 전포2동, 부산진구, 부산광역시, 47230, 대한민국. Xếp hạng: #191." />
       <meta property="og:url" content="https://eas-tuition.onrender.com/university/mock_uni_168" />
       <meta property="og:type" content="website" />
       <meta property="og:image" content="https://eas-tuition.onrender.com/og-image.png" />
       <meta property="og:locale" content="vi_VN" />
       <meta name="twitter:card" content="summary_large_image" />
       <meta name="twitter:title" content="Đại học Dong-Eui - Học Phí & Thông Tin Tuyển Sinh 2025" />
-      <meta name="twitter:description" content="Học phí trường Đại học Dong-Eui (Dong-Eui University): 2,613,000 - 4,978,000 KRW (48,340,500 - 92,093,000 VND) mỗi học kỳ. Địa chỉ: 123 Dong-Eui-ro, Gyeongnam. Xếp hạng: #191." />
+      <meta name="twitter:description" content="Học phí trường Đại học Dong-Eui (Dong-Eui University): 2,613,000 - 4,978,000 KRW (48,340,500 - 92,093,000 VND) mỗi học kỳ. Địa chỉ: 동의과학대, 54, 양지로, 전포2동, 부산진구, 부산광역시, 47230, 대한민국. Xếp hạng: #191." />
       <meta name="twitter:image" content="https://eas-tuition.onrender.com/og-image.png" />
       <meta name="robots" content="index, follow" />
       <link rel="alternate" hreflang="vi" href="https://eas-tuition.onrender.com/university/mock_uni_168" />

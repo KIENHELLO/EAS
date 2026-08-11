@@ -6,19 +6,19 @@ export const ssgOptions = {
   routeUrl: '/university/top3_school_9',
   Head: () => (
     <>
-      <title>Đại học Kyungmin - Học Phí & Thông Tin Tuyển Sinh 2025 | KR-UniTuition</title>
-      <meta name="description" content="Học phí trường Đại học Kyungmin (Đại học Kyungmin (TOP 3%)): 2,000,000 - 2,600,000 KRW (37,000,000 - 48,100,000 VND) mỗi học kỳ. Địa chỉ: Gyeonggi, Hàn Quốc. Xếp hạng: #159." />
-      <meta name="keywords" content="Đại học Kyungmin, học phí Đại học Kyungmin, Đại học Kyungmin (TOP 3%), Đại học Kyungmin, đại học Gyeonggi" />
+      <title>Cao đẳng Kyungmin - Học Phí & Thông Tin Tuyển Sinh 2025 | KR-UniTuition</title>
+      <meta name="description" content="Học phí trường Cao đẳng Kyungmin (Kyungmin (TOP 3%) College (Korea)): 2,000,000 - 2,600,000 KRW (37,000,000 - 48,100,000 VND) mỗi học kỳ. Địa chỉ: Gyeonggi, Hàn Quốc. Xếp hạng: #159." />
+      <meta name="keywords" content="Cao đẳng Kyungmin, học phí Cao đẳng Kyungmin, Kyungmin (TOP 3%) College (Korea), Đại học Kyungmin, đại học Gyeonggi" />
       <link rel="canonical" href="https://eas-tuition.onrender.com/university/top3_school_9" />
-      <meta property="og:title" content="Đại học Kyungmin - Học Phí & Thông Tin Tuyển Sinh 2025" />
-      <meta property="og:description" content="Học phí trường Đại học Kyungmin (Đại học Kyungmin (TOP 3%)): 2,000,000 - 2,600,000 KRW (37,000,000 - 48,100,000 VND) mỗi học kỳ. Địa chỉ: Gyeonggi, Hàn Quốc. Xếp hạng: #159." />
+      <meta property="og:title" content="Cao đẳng Kyungmin - Học Phí & Thông Tin Tuyển Sinh 2025" />
+      <meta property="og:description" content="Học phí trường Cao đẳng Kyungmin (Kyungmin (TOP 3%) College (Korea)): 2,000,000 - 2,600,000 KRW (37,000,000 - 48,100,000 VND) mỗi học kỳ. Địa chỉ: Gyeonggi, Hàn Quốc. Xếp hạng: #159." />
       <meta property="og:url" content="https://eas-tuition.onrender.com/university/top3_school_9" />
       <meta property="og:type" content="website" />
       <meta property="og:image" content="https://eas-tuition.onrender.com/og-image.png" />
       <meta property="og:locale" content="vi_VN" />
       <meta name="twitter:card" content="summary_large_image" />
-      <meta name="twitter:title" content="Đại học Kyungmin - Học Phí & Thông Tin Tuyển Sinh 2025" />
-      <meta name="twitter:description" content="Học phí trường Đại học Kyungmin (Đại học Kyungmin (TOP 3%)): 2,000,000 - 2,600,000 KRW (37,000,000 - 48,100,000 VND) mỗi học kỳ. Địa chỉ: Gyeonggi, Hàn Quốc. Xếp hạng: #159." />
+      <meta name="twitter:title" content="Cao đẳng Kyungmin - Học Phí & Thông Tin Tuyển Sinh 2025" />
+      <meta name="twitter:description" content="Học phí trường Cao đẳng Kyungmin (Kyungmin (TOP 3%) College (Korea)): 2,000,000 - 2,600,000 KRW (37,000,000 - 48,100,000 VND) mỗi học kỳ. Địa chỉ: Gyeonggi, Hàn Quốc. Xếp hạng: #159." />
       <meta name="twitter:image" content="https://eas-tuition.onrender.com/og-image.png" />
       <meta name="robots" content="index, follow" />
       <link rel="alternate" hreflang="vi" href="https://eas-tuition.onrender.com/university/top3_school_9" />
@@ -26,8 +26,8 @@ export const ssgOptions = {
         {`{
           "@context": "https://schema.org",
           "@type": "EducationalOrganization",
-          "name": "Đại học Kyungmin",
-          "alternateName": "Đại học Kyungmin (TOP 3%)",
+          "name": "Cao đẳng Kyungmin",
+          "alternateName": "Kyungmin (TOP 3%) College (Korea)",
           "url": "https://www.studyinkorea.go.kr",
           "address": {
             "@type": "PostalAddress",

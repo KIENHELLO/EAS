@@ -6,19 +6,19 @@ export const ssgOptions = {
   routeUrl: '/university/top3_school_22',
   Head: () => (
     <>
-      <title>Đại học Songho - Học Phí & Thông Tin Tuyển Sinh 2025 | KR-UniTuition</title>
-      <meta name="description" content="Học phí trường Đại học Songho (Đại học Songho (TOP 3%)): 1,800,000 - 2,340,000 KRW (33,300,000 - 43,290,000 VND) mỗi học kỳ. Địa chỉ: Gangwon, Hàn Quốc. Xếp hạng: #172." />
-      <meta name="keywords" content="Đại học Songho, học phí Đại học Songho, Đại học Songho (TOP 3%), Đại học Songho, đại học Gangwon" />
+      <title>Cao đẳng Songho - Học Phí & Thông Tin Tuyển Sinh 2025 | KR-UniTuition</title>
+      <meta name="description" content="Học phí trường Cao đẳng Songho (Songho (TOP 3%) College (Korea)): 1,800,000 - 2,340,000 KRW (33,300,000 - 43,290,000 VND) mỗi học kỳ. Địa chỉ: Gangwon, Hàn Quốc. Xếp hạng: #172." />
+      <meta name="keywords" content="Cao đẳng Songho, học phí Cao đẳng Songho, Songho (TOP 3%) College (Korea), Đại học Songho, đại học Gangwon" />
       <link rel="canonical" href="https://eas-tuition.onrender.com/university/top3_school_22" />
-      <meta property="og:title" content="Đại học Songho - Học Phí & Thông Tin Tuyển Sinh 2025" />
-      <meta property="og:description" content="Học phí trường Đại học Songho (Đại học Songho (TOP 3%)): 1,800,000 - 2,340,000 KRW (33,300,000 - 43,290,000 VND) mỗi học kỳ. Địa chỉ: Gangwon, Hàn Quốc. Xếp hạng: #172." />
+      <meta property="og:title" content="Cao đẳng Songho - Học Phí & Thông Tin Tuyển Sinh 2025" />
+      <meta property="og:description" content="Học phí trường Cao đẳng Songho (Songho (TOP 3%) College (Korea)): 1,800,000 - 2,340,000 KRW (33,300,000 - 43,290,000 VND) mỗi học kỳ. Địa chỉ: Gangwon, Hàn Quốc. Xếp hạng: #172." />
       <meta property="og:url" content="https://eas-tuition.onrender.com/university/top3_school_22" />
       <meta property="og:type" content="website" />
       <meta property="og:image" content="https://eas-tuition.onrender.com/og-image.png" />
       <meta property="og:locale" content="vi_VN" />
       <meta name="twitter:card" content="summary_large_image" />
-      <meta name="twitter:title" content="Đại học Songho - Học Phí & Thông Tin Tuyển Sinh 2025" />
-      <meta name="twitter:description" content="Học phí trường Đại học Songho (Đại học Songho (TOP 3%)): 1,800,000 - 2,340,000 KRW (33,300,000 - 43,290,000 VND) mỗi học kỳ. Địa chỉ: Gangwon, Hàn Quốc. Xếp hạng: #172." />
+      <meta name="twitter:title" content="Cao đẳng Songho - Học Phí & Thông Tin Tuyển Sinh 2025" />
+      <meta name="twitter:description" content="Học phí trường Cao đẳng Songho (Songho (TOP 3%) College (Korea)): 1,800,000 - 2,340,000 KRW (33,300,000 - 43,290,000 VND) mỗi học kỳ. Địa chỉ: Gangwon, Hàn Quốc. Xếp hạng: #172." />
       <meta name="twitter:image" content="https://eas-tuition.onrender.com/og-image.png" />
       <meta name="robots" content="index, follow" />
       <link rel="alternate" hreflang="vi" href="https://eas-tuition.onrender.com/university/top3_school_22" />
@@ -26,8 +26,8 @@ export const ssgOptions = {
         {`{
           "@context": "https://schema.org",
           "@type": "EducationalOrganization",
-          "name": "Đại học Songho",
-          "alternateName": "Đại học Songho (TOP 3%)",
+          "name": "Cao đẳng Songho",
+          "alternateName": "Songho (TOP 3%) College (Korea)",
           "url": "https://www.studyinkorea.go.kr",
           "address": {
             "@type": "PostalAddress",

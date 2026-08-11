@@ -6,19 +6,19 @@ export const ssgOptions = {
   routeUrl: '/university/sangji',
   Head: () => (
     <>
-      <title>Đại học Sangji (Gangwon) - Học Phí & Thông Tin Tuyển Sinh 2025 | KR-UniTuition</title>
-      <meta name="description" content="Học phí trường Đại học Sangji (Gangwon) (Sangji University): 3,400,000 - 5,800,000 KRW (62,900,000 - 107,300,000 VND) mỗi học kỳ. Địa chỉ: 83 Sangjidae-gil, Wonju-si, Gangwon-do. Xếp hạng: #62." />
-      <meta name="keywords" content="Đại học Sangji (Gangwon), học phí Đại học Sangji (Gangwon), Sangji University, 상지대학교, đại học Gangwon" />
+      <title>Đại học Sanji - Học Phí & Thông Tin Tuyển Sinh 2025 | KR-UniTuition</title>
+      <meta name="description" content="Học phí trường Đại học Sanji (Sangji University): 3,400,000 - 5,800,000 KRW (62,900,000 - 107,300,000 VND) mỗi học kỳ. Địa chỉ: 83 Sangjidae-gil, Wonju-si, Gangwon-do. Xếp hạng: #62." />
+      <meta name="keywords" content="Đại học Sanji, học phí Đại học Sanji, Sangji University, 상지대학교, đại học Gangwon" />
       <link rel="canonical" href="https://eas-tuition.onrender.com/university/sangji" />
-      <meta property="og:title" content="Đại học Sangji (Gangwon) - Học Phí & Thông Tin Tuyển Sinh 2025" />
-      <meta property="og:description" content="Học phí trường Đại học Sangji (Gangwon) (Sangji University): 3,400,000 - 5,800,000 KRW (62,900,000 - 107,300,000 VND) mỗi học kỳ. Địa chỉ: 83 Sangjidae-gil, Wonju-si, Gangwon-do. Xếp hạng: #62." />
+      <meta property="og:title" content="Đại học Sanji - Học Phí & Thông Tin Tuyển Sinh 2025" />
+      <meta property="og:description" content="Học phí trường Đại học Sanji (Sangji University): 3,400,000 - 5,800,000 KRW (62,900,000 - 107,300,000 VND) mỗi học kỳ. Địa chỉ: 83 Sangjidae-gil, Wonju-si, Gangwon-do. Xếp hạng: #62." />
       <meta property="og:url" content="https://eas-tuition.onrender.com/university/sangji" />
       <meta property="og:type" content="website" />
       <meta property="og:image" content="https://eas-tuition.onrender.com/og-image.png" />
       <meta property="og:locale" content="vi_VN" />
       <meta name="twitter:card" content="summary_large_image" />
-      <meta name="twitter:title" content="Đại học Sangji (Gangwon) - Học Phí & Thông Tin Tuyển Sinh 2025" />
-      <meta name="twitter:description" content="Học phí trường Đại học Sangji (Gangwon) (Sangji University): 3,400,000 - 5,800,000 KRW (62,900,000 - 107,300,000 VND) mỗi học kỳ. Địa chỉ: 83 Sangjidae-gil, Wonju-si, Gangwon-do. Xếp hạng: #62." />
+      <meta name="twitter:title" content="Đại học Sanji - Học Phí & Thông Tin Tuyển Sinh 2025" />
+      <meta name="twitter:description" content="Học phí trường Đại học Sanji (Sangji University): 3,400,000 - 5,800,000 KRW (62,900,000 - 107,300,000 VND) mỗi học kỳ. Địa chỉ: 83 Sangjidae-gil, Wonju-si, Gangwon-do. Xếp hạng: #62." />
       <meta name="twitter:image" content="https://eas-tuition.onrender.com/og-image.png" />
       <meta name="robots" content="index, follow" />
       <link rel="alternate" hreflang="vi" href="https://eas-tuition.onrender.com/university/sangji" />
@@ -26,7 +26,7 @@ export const ssgOptions = {
         {`{
           "@context": "https://schema.org",
           "@type": "EducationalOrganization",
-          "name": "Đại học Sangji (Gangwon)",
+          "name": "Đại học Sanji",
           "alternateName": "Sangji University",
           "url": "https://www.sangji.ac.kr",
           "address": {

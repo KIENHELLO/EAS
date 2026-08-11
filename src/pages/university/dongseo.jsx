@@ -6,19 +6,19 @@ export const ssgOptions = {
   routeUrl: '/university/dongseo',
   Head: () => (
     <>
-      <title>Đại học Dongseo (Busan) - Học Phí & Thông Tin Tuyển Sinh 2025 | KR-UniTuition</title>
-      <meta name="description" content="Học phí trường Đại học Dongseo (Busan) (Dongseo University): 3,600,000 - 4,700,000 KRW (66,600,000 - 86,950,000 VND) mỗi học kỳ. Địa chỉ: 47 Jurye-ro, Sasang-gu, Busan. Xếp hạng: #38." />
-      <meta name="keywords" content="Đại học Dongseo (Busan), học phí Đại học Dongseo (Busan), Dongseo University, 동서대학교, đại học Busan" />
+      <title>Đại học Dongseo - Học Phí & Thông Tin Tuyển Sinh 2025 | KR-UniTuition</title>
+      <meta name="description" content="Học phí trường Đại học Dongseo (Đại học Dongseo (Korea)): 2,400,000 - 3,100,000 KRW (44,400,000 - 57,350,000 VND) mỗi học kỳ. Địa chỉ: Korea. Xếp hạng: #194." />
+      <meta name="keywords" content="Đại học Dongseo, học phí Đại học Dongseo, Đại học Dongseo (Korea), Đại học Dongseo, đại học Busan" />
       <link rel="canonical" href="https://eas-tuition.onrender.com/university/dongseo" />
-      <meta property="og:title" content="Đại học Dongseo (Busan) - Học Phí & Thông Tin Tuyển Sinh 2025" />
-      <meta property="og:description" content="Học phí trường Đại học Dongseo (Busan) (Dongseo University): 3,600,000 - 4,700,000 KRW (66,600,000 - 86,950,000 VND) mỗi học kỳ. Địa chỉ: 47 Jurye-ro, Sasang-gu, Busan. Xếp hạng: #38." />
+      <meta property="og:title" content="Đại học Dongseo - Học Phí & Thông Tin Tuyển Sinh 2025" />
+      <meta property="og:description" content="Học phí trường Đại học Dongseo (Đại học Dongseo (Korea)): 2,400,000 - 3,100,000 KRW (44,400,000 - 57,350,000 VND) mỗi học kỳ. Địa chỉ: Korea. Xếp hạng: #194." />
       <meta property="og:url" content="https://eas-tuition.onrender.com/university/dongseo" />
       <meta property="og:type" content="website" />
       <meta property="og:image" content="https://eas-tuition.onrender.com/og-image.png" />
       <meta property="og:locale" content="vi_VN" />
       <meta name="twitter:card" content="summary_large_image" />
-      <meta name="twitter:title" content="Đại học Dongseo (Busan) - Học Phí & Thông Tin Tuyển Sinh 2025" />
-      <meta name="twitter:description" content="Học phí trường Đại học Dongseo (Busan) (Dongseo University): 3,600,000 - 4,700,000 KRW (66,600,000 - 86,950,000 VND) mỗi học kỳ. Địa chỉ: 47 Jurye-ro, Sasang-gu, Busan. Xếp hạng: #38." />
+      <meta name="twitter:title" content="Đại học Dongseo - Học Phí & Thông Tin Tuyển Sinh 2025" />
+      <meta name="twitter:description" content="Học phí trường Đại học Dongseo (Đại học Dongseo (Korea)): 2,400,000 - 3,100,000 KRW (44,400,000 - 57,350,000 VND) mỗi học kỳ. Địa chỉ: Korea. Xếp hạng: #194." />
       <meta name="twitter:image" content="https://eas-tuition.onrender.com/og-image.png" />
       <meta name="robots" content="index, follow" />
       <link rel="alternate" hreflang="vi" href="https://eas-tuition.onrender.com/university/dongseo" />
@@ -26,9 +26,9 @@ export const ssgOptions = {
         {`{
           "@context": "https://schema.org",
           "@type": "EducationalOrganization",
-          "name": "Đại học Dongseo (Busan)",
-          "alternateName": "Dongseo University",
-          "url": "https://www.dongseo.ac.kr",
+          "name": "Đại học Dongseo",
+          "alternateName": "Đại học Dongseo (Korea)",
+          "url": "https://www.studyinkorea.go.kr",
           "address": {
             "@type": "PostalAddress",
             "addressCountry": "KR",

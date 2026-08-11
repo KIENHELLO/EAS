@@ -7,18 +7,18 @@ export const ssgOptions = {
   Head: () => (
     <>
       <title>Đại học Ajou - Học Phí & Thông Tin Tuyển Sinh 2025 | KR-UniTuition</title>
-      <meta name="description" content="Học phí trường Đại học Ajou (Ajou University): 3,174,000 - 4,997,000 KRW (58,719,000 - 92,444,500 VND) mỗi học kỳ. Địa chỉ: 123 Ajou-ro, Incheon. Xếp hạng: #196." />
+      <meta name="description" content="Học phí trường Đại học Ajou (Ajou University): 3,174,000 - 4,997,000 KRW (58,719,000 - 92,444,500 VND) mỗi học kỳ. Địa chỉ: 아주자동차대학, 106, 배재길, 주포면, 보령시, 충청남도, 33415, 대한민국. Xếp hạng: #196." />
       <meta name="keywords" content="Đại học Ajou, học phí Đại học Ajou, Ajou University, Ajou대학교, đại học Incheon" />
       <link rel="canonical" href="https://eas-tuition.onrender.com/university/mock_uni_173" />
       <meta property="og:title" content="Đại học Ajou - Học Phí & Thông Tin Tuyển Sinh 2025" />
-      <meta property="og:description" content="Học phí trường Đại học Ajou (Ajou University): 3,174,000 - 4,997,000 KRW (58,719,000 - 92,444,500 VND) mỗi học kỳ. Địa chỉ: 123 Ajou-ro, Incheon. Xếp hạng: #196." />
+      <meta property="og:description" content="Học phí trường Đại học Ajou (Ajou University): 3,174,000 - 4,997,000 KRW (58,719,000 - 92,444,500 VND) mỗi học kỳ. Địa chỉ: 아주자동차대학, 106, 배재길, 주포면, 보령시, 충청남도, 33415, 대한민국. Xếp hạng: #196." />
       <meta property="og:url" content="https://eas-tuition.onrender.com/university/mock_uni_173" />
       <meta property="og:type" content="website" />
       <meta property="og:image" content="https://eas-tuition.onrender.com/og-image.png" />
       <meta property="og:locale" content="vi_VN" />
       <meta name="twitter:card" content="summary_large_image" />
       <meta name="twitter:title" content="Đại học Ajou - Học Phí & Thông Tin Tuyển Sinh 2025" />
-      <meta name="twitter:description" content="Học phí trường Đại học Ajou (Ajou University): 3,174,000 - 4,997,000 KRW (58,719,000 - 92,444,500 VND) mỗi học kỳ. Địa chỉ: 123 Ajou-ro, Incheon. Xếp hạng: #196." />
+      <meta name="twitter:description" content="Học phí trường Đại học Ajou (Ajou University): 3,174,000 - 4,997,000 KRW (58,719,000 - 92,444,500 VND) mỗi học kỳ. Địa chỉ: 아주자동차대학, 106, 배재길, 주포면, 보령시, 충청남도, 33415, 대한민국. Xếp hạng: #196." />
       <meta name="twitter:image" content="https://eas-tuition.onrender.com/og-image.png" />
       <meta name="robots" content="index, follow" />
       <link rel="alternate" hreflang="vi" href="https://eas-tuition.onrender.com/university/mock_uni_173" />

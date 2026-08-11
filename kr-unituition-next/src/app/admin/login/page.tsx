@@ -15,7 +15,11 @@ export default async function LoginPage({
     const email = formData.get('email') as string;
     const password = formData.get('password') as string;
 
-    if (email === 'admin@koreaedu.vn' && password === 'admin123') {
+    const isAdmin = email === 'admin@koreaedu.vn' && password === 'admin123';
+    const isSeller = (email === 'seller_demo' || email === 'seller_demo@koreaedu.vn') && 
+                     (password === 'seller' || password === 'seller123' || password === '123456');
+
+    if (isAdmin || isSeller) {
       const cookieStore = await cookies();
       cookieStore.set('admin_token', 'koreaedu-admin-token', {
         path: '/',
@@ -60,13 +64,13 @@ export default async function LoginPage({
         <form action={handleLogin} className="space-y-5">
           <div>
             <label className="block text-xs font-bold text-[#000000] uppercase tracking-wider mb-2">
-              Email
+              Tài khoản / Email
             </label>
             <input
-              type="email"
+              type="text"
               name="email"
               required
-              placeholder="admin@koreaedu.vn"
+              placeholder="admin@koreaedu.vn hoặc tên đăng nhập"
               className="w-full h-11 px-4 rounded-[16px] border border-[#dadad3] bg-white text-[#000000] text-sm font-medium transition-all outline-none focus:border-[#000000] focus:ring-2 focus:ring-[#e60023]/10 placeholder-[#91918c]"
             />
           </div>

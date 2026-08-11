@@ -7,18 +7,18 @@ export const ssgOptions = {
   Head: () => (
     <>
       <title>Đại học Soongsil - Học Phí & Thông Tin Tuyển Sinh 2025 | KR-UniTuition</title>
-      <meta name="description" content="Học phí trường Đại học Soongsil (Soongsil University): 2,222,000 - 4,995,000 KRW (41,107,000 - 92,407,500 VND) mỗi học kỳ. Địa chỉ: 123 Soongsil-ro, Daejeon. Xếp hạng: #198." />
+      <meta name="description" content="Học phí trường Đại học Soongsil (Soongsil University): 2,222,000 - 4,995,000 KRW (41,107,000 - 92,407,500 VND) mỗi học kỳ. Địa chỉ: 369, 상도로, 상도1동, 동작구, 서울특별시, 06978, 대한민국. Xếp hạng: #198." />
       <meta name="keywords" content="Đại học Soongsil, học phí Đại học Soongsil, Soongsil University, Soongsil대학교, đại học Daejeon" />
       <link rel="canonical" href="https://eas-tuition.onrender.com/university/mock_uni_175" />
       <meta property="og:title" content="Đại học Soongsil - Học Phí & Thông Tin Tuyển Sinh 2025" />
-      <meta property="og:description" content="Học phí trường Đại học Soongsil (Soongsil University): 2,222,000 - 4,995,000 KRW (41,107,000 - 92,407,500 VND) mỗi học kỳ. Địa chỉ: 123 Soongsil-ro, Daejeon. Xếp hạng: #198." />
+      <meta property="og:description" content="Học phí trường Đại học Soongsil (Soongsil University): 2,222,000 - 4,995,000 KRW (41,107,000 - 92,407,500 VND) mỗi học kỳ. Địa chỉ: 369, 상도로, 상도1동, 동작구, 서울특별시, 06978, 대한민국. Xếp hạng: #198." />
       <meta property="og:url" content="https://eas-tuition.onrender.com/university/mock_uni_175" />
       <meta property="og:type" content="website" />
       <meta property="og:image" content="https://eas-tuition.onrender.com/og-image.png" />
       <meta property="og:locale" content="vi_VN" />
       <meta name="twitter:card" content="summary_large_image" />
       <meta name="twitter:title" content="Đại học Soongsil - Học Phí & Thông Tin Tuyển Sinh 2025" />
-      <meta name="twitter:description" content="Học phí trường Đại học Soongsil (Soongsil University): 2,222,000 - 4,995,000 KRW (41,107,000 - 92,407,500 VND) mỗi học kỳ. Địa chỉ: 123 Soongsil-ro, Daejeon. Xếp hạng: #198." />
+      <meta name="twitter:description" content="Học phí trường Đại học Soongsil (Soongsil University): 2,222,000 - 4,995,000 KRW (41,107,000 - 92,407,500 VND) mỗi học kỳ. Địa chỉ: 369, 상도로, 상도1동, 동작구, 서울특별시, 06978, 대한민국. Xếp hạng: #198." />
       <meta name="twitter:image" content="https://eas-tuition.onrender.com/og-image.png" />
       <meta name="robots" content="index, follow" />
       <link rel="alternate" hreflang="vi" href="https://eas-tuition.onrender.com/university/mock_uni_175" />
