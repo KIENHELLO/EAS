@@ -1,0 +1,4456 @@
+[
+  {
+    "original_names": [
+      "Đại học Konkuk ( KU )\n( 건국대학교 )"
+    ],
+    "name_vi": "Đại học Konkuk ( KU )\n( 건국대학교 )",
+    "file_sources": [
+      "diachitop1%.xlsx",
+      "TOP1%.xlsx"
+    ],
+    "is_top1": true,
+    "is_top2": false,
+    "is_top3": false,
+    "is_no_topik": false,
+    "is_restricted": false,
+    "is_college": false,
+    "region": "Seoul",
+    "tuition_desc": "HỌC PHÍ 7,000,000 -7,400,000KRW - BẢO HIỂM 150,000KRW - INVOICE 7,210,000-7,650,000KRW",
+    "dorm_desc": "1,400,000-2,000,000KRW",
+    "admission_conditions": "7,5 trở lên",
+    "featured_majors": "quản trị kinh doanh, truyền thông, văn hóa nghệ thuật,…..",
+    "notes": null,
+    "maps_link": "https://www.google.com/maps/place/Konkuk+University/data=!4m14!1m7!3m6!1s0x357ca4dc33fb3b85:0x890cb3635c0a096d!2sKonkuk+University!8m2!3d37.5423265!4d127.0759204!16zL20vMGgyZDZq!3m5!1s0x357ca4dc33fb3b85:0x890cb3635c0a096d!8m2!3d37.5423265!4d127.0759204!16zL20vMGgyZDZq?entry=ttu&g_ep=EgoyMDI2MDcyNy4wIKXMDSoASAFQAw%3D%3D",
+    "lat": 37.5423265,
+    "lon": 127.0759204,
+    "address_ko": null,
+    "postcode": null
+  },
+  {
+    "original_names": [
+      "Đại học Hanyang",
+      "Đại học Nữ Hanyang",
+      "Đại học Hanyang (Hanyang University)"
+    ],
+    "name_vi": "Đại học Hanyang",
+    "file_sources": [
+      "diachitop1%.xlsx",
+      "TOP1%.xlsx",
+      "TO2%.xlsx",
+      "TruongNoTOPIK.xlsx"
+    ],
+    "is_top1": true,
+    "is_top2": true,
+    "is_top3": false,
+    "is_no_topik": true,
+    "is_restricted": false,
+    "is_college": true,
+    "region": "Seoul",
+    "tuition_desc": "HỌC PHÍ 5,200,000-5,600,000KRW - BẢO HIỂM 150,000KRW - INVOICE 5,400,000-5,850,000KRW",
+    "dorm_desc": "1,400,000-2,000,000KRW",
+    "admission_conditions": "7,0 trở lên",
+    "featured_majors": "Điều dưỡng – Làm đẹp – Thiết kế",
+    "notes": null,
+    "maps_link": "https://www.google.com/maps/place/%ED%95%9C%EC%96%91%EC%97%AC%EC%9E%90%EB%8C%80%ED%95%99%EA%B5%90/data=!3m1!4b1!4m6!3m5!1s0x357ca4a55b2f2d93:0xffdfb5c8c57860f5!8m2!3d37.5586668!4d127.0498872!16s%2Fm%2F0cnzc64?entry=ttu&g_ep=EgoyMDI2MDcyNy4wIKXMDSoASAFQAw%3D%3D",
+    "lat": 37.5586668,
+    "lon": 127.0498872,
+    "address_ko": null,
+    "postcode": null
+  },
+  {
+    "original_names": [
+      "Đại học Nữ sinh Duksung \n( 덕성여자대학교 0",
+      "Đại học Nữ Duksung"
+    ],
+    "name_vi": "Đại học Nữ sinh Duksung \n( 덕성여자대학교 0",
+    "file_sources": [
+      "diachitop1%.xlsx",
+      "TOP1%.xlsx",
+      "TO2%.xlsx"
+    ],
+    "is_top1": true,
+    "is_top2": true,
+    "is_top3": false,
+    "is_no_topik": false,
+    "is_restricted": false,
+    "is_college": false,
+    "region": "Seoul",
+    "tuition_desc": "HỌC PHÍ 5,400,000-5,800,000KRW - BẢO HIỂM 150,000KRW - INVOICE 5,600,000-6,050,000KRW",
+    "dorm_desc": "1,000,000-1,400,000KRW ",
+    "admission_conditions": "\"- 7.5 trở lên\n- vắng không quá 5 buổi\"",
+    "featured_majors": "Dược – Thiết kế – Ngôn ngữ",
+    "notes": null,
+    "maps_link": "https://www.google.com/maps/place/Duksung+Women's+University/data=!3m1!1e3!4m15!1m8!3m7!1s0x357cbc21a8c67d63:0x27ccfa5accea59a8!2s33+Samyang-ro+144-gil,+Dobong-gu,+Seoul,+South+Korea!3b1!8m2!3d37.6512976!4d127.0165728!16s%2Fg%2F11bzmt2z3n!3m5!1s0x357ca2db5ffa6175:0x1d5935583a54912a!8m2!3d37.6512976!4d127.0165728!16zL20vMDV4bnI1?entry=ttu&g_ep=EgoyMDI2MDcyNi4wIKXMDSoASAFQAw%3D%3D",
+    "lat": 37.6512976,
+    "lon": 127.0165728,
+    "address_ko": null,
+    "postcode": null
+  },
+  {
+    "original_names": [
+      "Đại học Dongguk\n( 동국대 학교)"
+    ],
+    "name_vi": "Đại học Dongguk\n( 동국대 학교)",
+    "file_sources": [
+      "diachitop1%.xlsx",
+      "TOP1%.xlsx"
+    ],
+    "is_top1": true,
+    "is_top2": false,
+    "is_top3": false,
+    "is_no_topik": false,
+    "is_restricted": false,
+    "is_college": false,
+    "region": "Seoul",
+    "tuition_desc": "HỌC PHÍ 6,800,000-7,200,000KRW - BẢO HIỂM 150,000 - INVOICE 7,010,000-7,450,000KRW",
+    "dorm_desc": "1,300,000-1,900,000KRW",
+    "admission_conditions": "7.0 trở lên\nTài chính gia đình mạnh\nKý quỹ 10,000$",
+    "featured_majors": "Truyền Thông, Điện Ảnh, Ngôn Ngữ, Kinh Tế, Thương Mại Quốc Tế",
+    "notes": null,
+    "maps_link": "https://www.google.com/maps/place/Dongguk+University+-+Seoul+Campus/data=!3m1!4b1!4m6!3m5!1s0x357ca302d491f811:0x809ffb62a47609b5!8m2!3d37.5582876!4d127.0001671!16zL20vMDR3NHpx?entry=ttu&g_ep=EgoyMDI2MDcyNy4wIKXMDSoASAFQAw%3D%3D",
+    "lat": 37.5582876,
+    "lon": 127.0001671,
+    "address_ko": null,
+    "postcode": null
+  },
+  {
+    "original_names": [
+      "Đại học Hongik \n( 홍익대학교 )"
+    ],
+    "name_vi": "Đại học Hongik \n( 홍익대학교 )",
+    "file_sources": [
+      "diachitop1%.xlsx",
+      "TOP1%.xlsx"
+    ],
+    "is_top1": true,
+    "is_top2": false,
+    "is_top3": false,
+    "is_no_topik": false,
+    "is_restricted": false,
+    "is_college": false,
+    "region": "Seoul",
+    "tuition_desc": "HỌC PHÍ 6,800,000-7,200,000KRW - BẢO HIỂM 150,000 - INVOICE 7,010,000-7,450,000KRW",
+    "dorm_desc": "1,500,000-7,450,000KRW",
+    "admission_conditions": "- 7,0 trở lên\n- nghỉ không quá 20 buổi",
+    "featured_majors": "Thiết kế và Nghệ thuật",
+    "notes": null,
+    "maps_link": "https://www.google.com/maps/place/Hongik+University,+Seoul+Campus/data=!3m1!4b1!4m6!3m5!1s0x357c98c43e5ba2b5:0x75bd701f5128523a!8m2!3d37.5507563!4d126.9254901!16zL20vMDd6MXdm?entry=ttu&g_ep=EgoyMDI2MDcyNy4wIKXMDSoASAFQAw%3D%3D",
+    "lat": 37.5507563,
+    "lon": 126.9254901,
+    "address_ko": null,
+    "postcode": null
+  },
+  {
+    "original_names": [
+      "Đại học Quốc gia Kyungpook\n( 경북대학교 )"
+    ],
+    "name_vi": "Đại học Quốc gia Kyungpook\n( 경북대학교 )",
+    "file_sources": [
+      "diachitop1%.xlsx",
+      "TOP1%.xlsx"
+    ],
+    "is_top1": true,
+    "is_top2": false,
+    "is_top3": false,
+    "is_no_topik": false,
+    "is_restricted": false,
+    "is_college": false,
+    "region": "\"Daegu main Campus: Daegu\nSangju Campus: Gyeongsangbuk-do\n\"",
+    "tuition_desc": "HỌC PHÍ 5,600,0000-6,000,000KRW - BẢO HIỂM 150,000 - INVOICE 5,810,000-6,250,000KRW",
+    "dorm_desc": "800,000-1,500,000KRW",
+    "admission_conditions": "- 7.0 trở lên\n- vắng không quá 10 buổi",
+    "featured_majors": "Y dược, Kỹ thuật và Công nghệ, Kinh doanh và Thương mại",
+    "notes": null,
+    "maps_link": "https://www.google.com/maps/place/Kyungpook+National+University+(KNU)+-+Daegu+Campus/data=!3m1!4b1!4m6!3m5!1s0x3565e19e1c03ddbd:0xdc40a75efbd7103c!8m2!3d35.888836!4d128.6102997!16zL20vMDNqcGJn?entry=ttu&g_ep=EgoyMDI2MDcyNy4wIKXMDSoASAFQAw%3D%3D",
+    "lat": 35.888836,
+    "lon": 128.6102997,
+    "address_ko": null,
+    "postcode": null
+  },
+  {
+    "original_names": [
+      "Đại học Seolyong\n( 서경대학교 )",
+      "Đại học Seokyeong"
+    ],
+    "name_vi": "Đại học Seolyong\n( 서경대학교 )",
+    "file_sources": [
+      "diachitop1%.xlsx",
+      "TOP1%.xlsx",
+      "TO2%.xlsx"
+    ],
+    "is_top1": true,
+    "is_top2": true,
+    "is_top3": false,
+    "is_no_topik": false,
+    "is_restricted": false,
+    "is_college": false,
+    "region": "Seoul",
+    "tuition_desc": "HỌC PHÍ 5,200,000-5,600,000KRW - BẢO HIỂM 150,000KRW - INVOICE 5,400,000-5,850,000KRW",
+    "dorm_desc": "1,000,000-1,400,000KRW",
+    "admission_conditions": "- 7.0 trở lên\n- vắng không quá 10 buổi",
+    "featured_majors": "Làm đẹp – Nghệ thuật – Diễn xuất",
+    "notes": null,
+    "maps_link": "https://www.google.com/maps/place/Seokyeong+University/data=!3m1!1e3!4m15!1m8!3m7!1s0x357cbcf42ece7fe5:0xa2ceb566286582d0!2s124+Seogyeong-ro,+Seongbuk+District,+Seoul,+South+Korea!3b1!8m2!3d37.6151112!4d127.0124279!16s%2Fg%2F11bzgqqzpt!3m5!1s0x357cbcf420e2ccbf:0x708ebedbe4568403!8m2!3d37.6148855!4d127.0133508!16s%2Fm%2F04f_pr3?entry=ttu&g_ep=EgoyMDI2MDcyNi4wIKXMDSoASAFQAw%3D%3D",
+    "lat": 37.6151112,
+    "lon": 127.0124279,
+    "address_ko": null,
+    "postcode": null
+  },
+  {
+    "original_names": [
+      "Đại học Nữ Sungshin",
+      "Đại học nữ sinh Sungshin"
+    ],
+    "name_vi": "Đại học Nữ Sungshin",
+    "file_sources": [
+      "diachitop1%.xlsx",
+      "TOP1%.xlsx",
+      "TO2%.xlsx"
+    ],
+    "is_top1": true,
+    "is_top2": true,
+    "is_top3": false,
+    "is_no_topik": false,
+    "is_restricted": false,
+    "is_college": false,
+    "region": "Seoul",
+    "tuition_desc": "HỌC PHÍ 6,000,000- 6,400,000KRW - BẢO HIỂM 150,000KRW - INVOICE 6,210,000-6,650,000KRW ",
+    "dorm_desc": "1,200,000-1,600,000KRW",
+    "admission_conditions": "6,5 trở lên (xem xét)",
+    "featured_majors": "Làm đẹp – Thiết kế – Truyền thông",
+    "notes": null,
+    "maps_link": "https://www.google.com/maps/place/Sungshin+Women%E2%80%99s+University/data=!3m1!1e3!4m6!3m5!1s0x357cbcb9309d5e9d:0x2c4eccace4ce9106!8m2!3d37.5917965!4d127.0222343!16zL20vMGgyZG0w?entry=ttu&g_ep=EgoyMDI2MDcyNi4wIKXMDSoASAFQAw%3D%3D",
+    "lat": 37.5917965,
+    "lon": 127.0222343,
+    "address_ko": null,
+    "postcode": null
+  },
+  {
+    "original_names": [
+      "Đại học Nữ sinh Ewha\n( 이화여자대학교 )"
+    ],
+    "name_vi": "Đại học Nữ sinh Ewha\n( 이화여자대학교 )",
+    "file_sources": [
+      "diachitop1%.xlsx",
+      "TOP1%.xlsx"
+    ],
+    "is_top1": true,
+    "is_top2": false,
+    "is_top3": false,
+    "is_no_topik": false,
+    "is_restricted": false,
+    "is_college": false,
+    "region": "Seoul",
+    "tuition_desc": "HỌC PHÍ 7,200,000-7,400,000KRW - BẢO HIỂM 300,000KRW - INVOICE 7,600,000-7,820,000KRW",
+    "dorm_desc": "1,500,000-2,500,000KRW",
+    "admission_conditions": "7,0 trở lên\n- vắng ko quá 5 buổi (nhiều hơn cần giải trình)",
+    "featured_majors": "Ngôn ngữ Hàn, Báo chí, Quan hệ công chúng, Âm nhạc & Nghệ thuật và Khoa học chính trị",
+    "notes": null,
+    "maps_link": "https://www.google.com/maps/place/Ewha+Womans+University/data=!3m1!4b1!4m6!3m5!1s0x357c988459902d69:0xf2536b3850f9d80d!8m2!3d37.5618588!4d126.9468339!16zL20vMDY0Z182?entry=ttu&g_ep=EgoyMDI2MDcyNy4wIKXMDSoASAFQAw%3D%3D",
+    "lat": 37.5618588,
+    "lon": 126.9468339,
+    "address_ko": null,
+    "postcode": null
+  },
+  {
+    "original_names": [
+      "Đại học Keimyung"
+    ],
+    "name_vi": "Đại học Keimyung",
+    "file_sources": [
+      "diachitop1%.xlsx",
+      "TOP1%.xlsx",
+      "TO2%.xlsx"
+    ],
+    "is_top1": true,
+    "is_top2": true,
+    "is_top3": false,
+    "is_no_topik": false,
+    "is_restricted": false,
+    "is_college": false,
+    "region": "Daegu",
+    "tuition_desc": "HỌC PHÍ 5,200,000 KRW - BẢO HIỂM 100-200,000KRW - INVOICE 5,500,000KRW",
+    "dorm_desc": "641-1,248,000KRW",
+    "admission_conditions": "6,5 trở lên",
+    "featured_majors": "Âm nhạc – Mỹ thuật – Business",
+    "notes": null,
+    "maps_link": "https://www.google.com/maps/place/Keimyung+University/data=!3m1!4b1!4m6!3m5!1s0x3565e55628059e09:0xe9498d86ff114d29!8m2!3d35.8558462!4d128.4889252!16zL20vMDJxaHh6?entry=ttu&g_ep=EgoyMDI2MDcyNi4wIKXMDSoASAFQAw%3D%3D",
+    "lat": 35.8558462,
+    "lon": 128.4889252,
+    "address_ko": null,
+    "postcode": null
+  },
+  {
+    "original_names": [
+      "Đại học Khoa học và Công nghệ Pohang",
+      "포항공과대학교 (Đại học Khoa học & Công nghệ Pohang - POSTECH)"
+    ],
+    "name_vi": "Đại học Khoa học và Công nghệ Pohang",
+    "file_sources": [
+      "diachitop1%.xlsx",
+      "TOP1%.xlsx"
+    ],
+    "is_top1": true,
+    "is_top2": false,
+    "is_top3": false,
+    "is_no_topik": false,
+    "is_restricted": false,
+    "is_college": false,
+    "region": "Seoul",
+    "tuition_desc": "HỌC PHÍ 6,000,000-7,000,000KRW HỆ CHÍNH QUY ĐẠI HỌC",
+    "dorm_desc": "600,000-1,800,000KRW",
+    "admission_conditions": "7,0 trở lên",
+    "featured_majors": "Đại học Khoa học & Công nghệ Pohang - POSTECH\ncông nghệ",
+    "notes": null,
+    "maps_link": "https://www.google.com/maps/place/Postech/data=!4m6!3m5!1s0x356701d6785c46df:0x104e40d1ddf3bd0!8m2!3d36.0110152!4d129.322651!16zL20vMDRuZm5q?entry=ttu&g_ep=EgoyMDI2MDcyNy4wIKXMDSoASAFQAw%3D%3D",
+    "lat": 36.0110152,
+    "lon": 129.322651,
+    "address_ko": null,
+    "postcode": null
+  },
+  {
+    "original_names": [
+      "Đại học Quốc gia Busan",
+      "Đại học Ngoại ngữ Busan",
+      "Đại học Khoa học & Công nghệ Busan",
+      "Đại học Busan",
+      "Đại học Quốc gia Pusan (PNU)"
+    ],
+    "name_vi": "Đại học Quốc gia Busan",
+    "file_sources": [
+      "diachitop1%.xlsx",
+      "TOP1%.xlsx",
+      "TO2%.xlsx",
+      "TruongNoTOPIK.xlsx"
+    ],
+    "is_top1": true,
+    "is_top2": true,
+    "is_top3": false,
+    "is_no_topik": true,
+    "is_restricted": false,
+    "is_college": true,
+    "region": "Busan",
+    "tuition_desc": "5,600,000-6,000,000KRW - BẢO HIỂM 700,000KRW - INVOICE 6,500,000-7,000,000KRW",
+    "dorm_desc": "1,200,000-1,600,000KRW",
+    "admission_conditions": "6,5 trở lên (xem xét)",
+    "featured_majors": "Điều dưỡng – Du lịch – Kinh doanh",
+    "notes": null,
+    "maps_link": "https://www.google.com/maps/place/Pusan+National+University/data=!3m1!4b1!4m6!3m5!1s0x356893ed98632733:0x43d6042e21f10697!8m2!3d35.2339681!4d129.0806855!16zL20vMDh2Z3Iz?entry=ttu&g_ep=EgoyMDI2MDcyNi4wIKXMDSoASAFQAw%3D%3D",
+    "lat": 35.2339681,
+    "lon": 129.0806855,
+    "address_ko": null,
+    "postcode": null
+  },
+  {
+    "original_names": [
+      "Đại học thần học SEOUL ( STU )\n( 서울신학대학교 ) "
+    ],
+    "name_vi": "Đại học thần học SEOUL ( STU )\n( 서울신학대학교 ) ",
+    "file_sources": [
+      "diachitop1%.xlsx",
+      "TOP1%.xlsx"
+    ],
+    "is_top1": true,
+    "is_top2": false,
+    "is_top3": false,
+    "is_no_topik": false,
+    "is_restricted": false,
+    "is_college": false,
+    "region": "Bucheon",
+    "tuition_desc": "HỌC PHÍ 4,800,000-5,200,000KRW - BẢO HIỂM 150,000KRW - INVOICE 5,000,000-5,450,000KRW",
+    "dorm_desc": "700,000-1,200,000KRW",
+    "admission_conditions": "GPA 6.5 >",
+    "featured_majors": "Thần học\nDịch vụ cộng đồng\nSư phạm\nIT Tổng hợp\nKinh doanh toàn cầu\nContent văn hóa châu Á\nNghệ Thuật\n",
+    "notes": "Phỏng vấn trường\nĐược cấp mã code thẳng không cần phỏng\nvấn LSQ",
+    "maps_link": "https://www.google.com/maps/place/Seoul+Theological+University/data=!3m1!4b1!4m6!3m5!1s0x357b62d769ce8be3:0xa69d6b10a3b6da86!8m2!3d37.4794588!4d126.7890182!16s%2Fg%2F120jqrmw?entry=ttu&g_ep=EgoyMDI2MDcyNy4wIKXMDSoASAFQAw%3D%3D",
+    "lat": 37.4794588,
+    "lon": 126.7890182,
+    "address_ko": null,
+    "postcode": null
+  },
+  {
+    "original_names": [
+      "Đại học Sunmoon"
+    ],
+    "name_vi": "Đại học Sunmoon",
+    "file_sources": [
+      "diachitop1%.xlsx",
+      "TOP1%.xlsx",
+      "TO2%.xlsx"
+    ],
+    "is_top1": true,
+    "is_top2": true,
+    "is_top3": false,
+    "is_no_topik": false,
+    "is_restricted": false,
+    "is_college": false,
+    "region": "Chungcheongnam-do",
+    "tuition_desc": "HỌC PHSI 4,800,000KRW - BẢO HIỂM 150,000KRW- INVOICE 6,150,000KRW",
+    "dorm_desc": "1,100,000KRW",
+    "admission_conditions": "- 7.0 trở lên\n- vắng không quá 10 buổi",
+    "featured_majors": "Hàn ngữ, Kinh doanh quốc tế, CNTT",
+    "notes": null,
+    "maps_link": "https://www.google.com/maps/place/%EC%84%A0%EB%AC%B8%EB%8C%80%ED%95%99%EA%B5%90+%EC%95%84%EC%82%B0%EC%BA%A0%ED%8D%BC%EC%8A%A4/data=!3m1!4b1!4m6!3m5!1s0x357ad8f2bbf1f8eb:0x62d9d1e3d24fa7c3!8m2!3d36.7989764!4d127.0750025!16s%2Fm%2F0284gfr?entry=ttu&g_ep=EgoyMDI2MDcyNi4wIKXMDSoASAFQAw%3D%3D",
+    "lat": 36.7989764,
+    "lon": 127.0750025,
+    "address_ko": null,
+    "postcode": null
+  },
+  {
+    "original_names": [
+      "Đại học Korea",
+      "Đại học Korea (Korea University)"
+    ],
+    "name_vi": "Đại học Korea",
+    "file_sources": [
+      "diachitop1%.xlsx",
+      "TOP1%.xlsx",
+      "TO2%.xlsx",
+      "TruongNoTOPIK.xlsx"
+    ],
+    "is_top1": true,
+    "is_top2": true,
+    "is_top3": false,
+    "is_no_topik": true,
+    "is_restricted": false,
+    "is_college": false,
+    "region": "Seoul",
+    "tuition_desc": "HỌC PHÍ HỆ TIẾNG 1,800,00KRW - INVOICE 6TH 3,600,000KRW - 1 NĂM 7,200,000KRW",
+    "dorm_desc": "1,200,000-2,000,000KRW",
+    "admission_conditions": null,
+    "featured_majors": "Luật – Kinh doanh – Chính trị ngoại giao",
+    "notes": null,
+    "maps_link": "https://www.google.com/maps/place/Korea+University,+Seoul+Campus/data=!3m1!1e3!4m15!1m8!3m7!1s0x357cbca30868a5a3:0x88f9375fb857895e!2s145+Anam-ro,+Seongbuk+District,+Seoul,+South+Korea!3b1!8m2!3d37.5887496!4d127.0323735!16s%2Fg%2F11bznkn7d9!3m5!1s0x357cbcbc8d707a77:0x15038aa80b575dc9!8m2!3d37.5893876!4d127.0324773!16zL20vMDVwODl5?entry=ttu&g_ep=EgoyMDI2MDcyNi4wIKXMDSoASAFQAw%3D%3D",
+    "lat": 37.5887496,
+    "lon": 127.0323735,
+    "address_ko": null,
+    "postcode": null
+  },
+  {
+    "original_names": [
+      "Đại học Hansung"
+    ],
+    "name_vi": "Đại học Hansung",
+    "file_sources": [
+      "diachitop1%.xlsx",
+      "TOP1%.xlsx",
+      "TO2%.xlsx"
+    ],
+    "is_top1": true,
+    "is_top2": true,
+    "is_top3": false,
+    "is_no_topik": false,
+    "is_restricted": false,
+    "is_college": false,
+    "region": "Seoul",
+    "tuition_desc": "HỌC PHÍ 5,600,000KRW - BẢO HIỂM 150,000- INVOICE 7,270,00KRW",
+    "dorm_desc": "1,300,000KRW",
+    "admission_conditions": null,
+    "featured_majors": "Thiết kế – IT – Fashion",
+    "notes": null,
+    "maps_link": "https://www.google.com/maps/place/Hansung+University/data=!3m2!1e3!4b1!4m6!3m5!1s0x357ca332d82a4b69:0x6fab1f41f290b960!8m2!3d37.5823688!4d127.0111299!16s%2Fm%2F047r5dx?entry=ttu&g_ep=EgoyMDI2MDcyNi4wIKXMDSoASAFQAw%3D%3D",
+    "lat": 37.5823688,
+    "lon": 127.0111299,
+    "address_ko": null,
+    "postcode": null
+  },
+  {
+    "original_names": [
+      "Đại học Sungkyungwan"
+    ],
+    "name_vi": "Đại học Sungkyungwan",
+    "file_sources": [
+      "diachitop1%.xlsx",
+      "TOP1%.xlsx"
+    ],
+    "is_top1": true,
+    "is_top2": false,
+    "is_top3": false,
+    "is_no_topik": false,
+    "is_restricted": false,
+    "is_college": false,
+    "region": "Seoul",
+    "tuition_desc": "HỌC PHÍ 5,600,000-7,120,000KRW - BẢO HIỂM 130,000KRW - INVOICE 5,790,000-7,330,000KKRW",
+    "dorm_desc": "1,200,000-1,900,000KRW",
+    "admission_conditions": null,
+    "featured_majors": "Ngôn ngữ hiện đại, Dược học, Kỹ thuật hóa học.",
+    "notes": null,
+    "maps_link": "https://www.google.com/maps/place/Sungkyunkwan+University+(Humanities+%26+Social+Sciences+Campus)/data=!3m1!4b1!4m6!3m5!1s0x357ca2d4cdb87315:0x5b2b20a2005c6114!8m2!3d37.588227!4d126.993606!16zL20vMDNkNDF4?entry=ttu&g_ep=EgoyMDI2MDcyNy4wIKXMDSoASAFQAw%3D%3D",
+    "lat": 37.588227,
+    "lon": 126.993606,
+    "address_ko": null,
+    "postcode": null
+  },
+  {
+    "original_names": [
+      "Đại học Semyung"
+    ],
+    "name_vi": "Đại học Semyung",
+    "file_sources": [
+      "diachitop1%.xlsx",
+      "TOP1%.xlsx",
+      "TO2%.xlsx"
+    ],
+    "is_top1": true,
+    "is_top2": true,
+    "is_top3": false,
+    "is_no_topik": false,
+    "is_restricted": false,
+    "is_college": false,
+    "region": "Chungcheongbuk-do",
+    "tuition_desc": "HỌC PHÍ  4,400,000KRW- BẢO HIỂM 300,000KRW- INVOICE 5,850,000KRW",
+    "dorm_desc": "1,100,000KRW",
+    "admission_conditions": null,
+    "featured_majors": "Đông y – Điều dưỡng – Du lịch",
+    "notes": null,
+    "maps_link": "https://www.google.com/maps/place/%EC%84%B8%EB%AA%85%EB%8C%80%ED%95%99%EA%B5%90/data=!3m1!4b1!4m6!3m5!1s0x35639107acb3ccc5:0x9ccbca0c4ad397dc!8m2!3d37.1732056!4d128.194364!16s%2Fm%2F0cpdtsj?entry=ttu&g_ep=EgoyMDI2MDcyNy4wIKXMDSoASAFQAw%3D%3D",
+    "lat": 37.1732056,
+    "lon": 128.194364,
+    "address_ko": null,
+    "postcode": null
+  },
+  {
+    "original_names": [
+      "Đại học nữ sinh Sookmyung",
+      "Đại học Nữ Sookmyung"
+    ],
+    "name_vi": "Đại học nữ sinh Sookmyung",
+    "file_sources": [
+      "diachitop1%.xlsx",
+      "TOP1%.xlsx",
+      "TO2%.xlsx"
+    ],
+    "is_top1": true,
+    "is_top2": true,
+    "is_top3": false,
+    "is_no_topik": false,
+    "is_restricted": false,
+    "is_college": false,
+    "region": "Seoul",
+    "tuition_desc": "HỌC PHÍ 6,400,000-6,800,000KRW - BẢO HIỂM 150,000KRW 0 INVOICE 6,610,000-7,050,000KRW ",
+    "dorm_desc": "1,200,000-1,800,000KRW",
+    "admission_conditions": null,
+    "featured_majors": "Business – Thiết kế – Ngôn ngữ",
+    "notes": null,
+    "maps_link": "https://www.google.com/maps/place/Sookmyung+Women's+University/data=!3m2!1e3!4b1!4m6!3m5!1s0x357ca2727fcb04c7:0xb9f64e162324730f!8m2!3d37.546475!4d126.9646916!16zL20vMDg0cGxj?entry=ttu&g_ep=EgoyMDI2MDcyNi4wIKXMDSoASAFQAw%3D%3D",
+    "lat": 37.546475,
+    "lon": 126.9646916,
+    "address_ko": null,
+    "postcode": null
+  },
+  {
+    "original_names": [
+      "Đại học ChungAng",
+      "Đại học Chung-Ang",
+      "Đại học Chung-Ang (Chung-Ang University)"
+    ],
+    "name_vi": "Đại học ChungAng",
+    "file_sources": [
+      "diachitop1%.xlsx",
+      "TOP1%.xlsx",
+      "TO2%.xlsx",
+      "TruongNoTOPIK.xlsx"
+    ],
+    "is_top1": true,
+    "is_top2": true,
+    "is_top3": false,
+    "is_no_topik": true,
+    "is_restricted": false,
+    "is_college": false,
+    "region": "Seoul",
+    "tuition_desc": "HỌC PHÍ 6,800,000- 7,200,000KRW - BẢO HIỂM 150,000KRW - INVOICE 7,010,000-7,450,000KRW",
+    "dorm_desc": "1,200,000-1,800,000KRW",
+    "admission_conditions": null,
+    "featured_majors": "Điện ảnh – Truyền thông – Business",
+    "notes": null,
+    "maps_link": "https://www.google.com/maps/place/Chung-Ang+University,+Seoul+Campus/data=!3m1!1e3!4m14!1m7!3m6!1s0x357ca1d92794f4c7:0x9fec72e6f727c7e4!2sChung-Ang+University,+Seoul+Campus!8m2!3d37.5045563!4d126.9569379!16zL20vMDR0NGYw!3m5!1s0x357ca1d92794f4c7:0x9fec72e6f727c7e4!8m2!3d37.5045563!4d126.9569379!16zL20vMDR0NGYw?entry=ttu&g_ep=EgoyMDI2MDcyNi4wIKXMDSoASAFQAw%3D%3D",
+    "lat": 37.5045563,
+    "lon": 126.9569379,
+    "address_ko": null,
+    "postcode": null
+  },
+  {
+    "original_names": [
+      "Đại học Quốc gia Chungnam"
+    ],
+    "name_vi": "Đại học Quốc gia Chungnam",
+    "file_sources": [
+      "diachitop1%.xlsx",
+      "TOP1%.xlsx",
+      "TO2%.xlsx"
+    ],
+    "is_top1": true,
+    "is_top2": true,
+    "is_top3": false,
+    "is_no_topik": false,
+    "is_restricted": false,
+    "is_college": false,
+    "region": "Daejeon",
+    "tuition_desc": "HỌC PHÍ 5,200,000- BẢO HIỂM 150,000- INVOICE 6,350,000KRW",
+    "dorm_desc": "900,000KRW",
+    "admission_conditions": null,
+    "featured_majors": "Kỹ thuật, Quản trị công, Sinh học",
+    "notes": null,
+    "maps_link": "https://www.google.com/maps/place/Chungnam+National+University+Daedeok+Campus/data=!3m1!4b1!4m6!3m5!1s0x35654bee63320a8f:0x70e438ccb2656aa8!8m2!3d36.3669174!4d127.346504!16zL20vMDRmdzZy?entry=ttu&g_ep=EgoyMDI2MDcyNi4wIKXMDSoASAFQAw%3D%3D",
+    "lat": 36.3669174,
+    "lon": 127.346504,
+    "address_ko": null,
+    "postcode": null
+  },
+  {
+    "original_names": [
+      "Đại học Gachon"
+    ],
+    "name_vi": "Đại học Gachon",
+    "file_sources": [
+      "diachitop2%.xlsx",
+      "TO2%.xlsx"
+    ],
+    "is_top1": false,
+    "is_top2": true,
+    "is_top3": false,
+    "is_no_topik": false,
+    "is_restricted": false,
+    "is_college": false,
+    "region": "Gyeonggi-do",
+    "tuition_desc": "5,200,000 KRW PHÍ NHẬP HỌC 70,000KRW  INVOICE CƠ BẢN 5,270,000KRW",
+    "dorm_desc": "1,182,4000KRW",
+    "admission_conditions": null,
+    "featured_majors": "Y khoa – AI – Quản trị kinh doanh",
+    "notes": null,
+    "maps_link": "https://www.google.com/maps/place/Gachon+University,+Global+Campus/data=!3m1!4b1!4m6!3m5!1s0x357ca8a401f3127b:0x39d64e7ee201cd15!8m2!3d37.4507128!4d127.1288495!16s%2Fm%2F0j6766j?entry=ttu&g_ep=EgoyMDI2MDcyNi4wIKXMDSoASAFQAw%3D%3D",
+    "lat": 37.4507128,
+    "lon": 127.1288495,
+    "address_ko": null,
+    "postcode": null
+  },
+  {
+    "original_names": [
+      "Đại học Gangwon"
+    ],
+    "name_vi": "Đại học Gangwon",
+    "file_sources": [
+      "diachitop2%.xlsx",
+      "TO2%.xlsx"
+    ],
+    "is_top1": false,
+    "is_top2": true,
+    "is_top3": false,
+    "is_no_topik": false,
+    "is_restricted": false,
+    "is_college": false,
+    "region": "Gyeonggi-do",
+    "tuition_desc": "4,800,000KRW - PHÍ NHẬP HỌC 70,000KRW - PHÍ BẢO HIỂM 6 THÁNG 58,000KRW - INVOICE 4,298,000KRW",
+    "dorm_desc": "540,000 - 670,000KRW",
+    "admission_conditions": null,
+    "featured_majors": "Nông nghiệp – Thú y – Du lịch",
+    "notes": null,
+    "maps_link": "https://www.google.com/maps/place/Kangwon+National+University/data=!3m1!1e3!4m15!1m8!3m7!1s0x3562e5c8236f451f:0x1840ad7ee8b4039b!2s1+Kangwondaehak-gil,+Chuncheon,+Gangwon-do,+South+Korea!3b1!8m2!3d37.8689546!4d127.7450121!16s%2Fg%2F11bzp5vb52!3m5!1s0x3562e5c841815175:0x641f3d5ba99eaf6b!8m2!3d37.8689546!4d127.7450121!16s%2Fm%2F02pp92h?entry=ttu&g_ep=EgoyMDI2MDcyNy4wIKXMDSoASAFQAw%3D%3D",
+    "lat": 37.8689546,
+    "lon": 127.7450121,
+    "address_ko": null,
+    "postcode": null
+  },
+  {
+    "original_names": [
+      "Đại học Konkuk"
+    ],
+    "name_vi": "Đại học Konkuk",
+    "file_sources": [
+      "diachitop2%.xlsx",
+      "TO2%.xlsx"
+    ],
+    "is_top1": false,
+    "is_top2": true,
+    "is_top3": false,
+    "is_no_topik": false,
+    "is_restricted": false,
+    "is_college": false,
+    "region": "Seoul",
+    "tuition_desc": "PHÍ ĐKI 150,000KRW - HỌC PHÍ 1,800,000KRW - PHÍ BẢO HIỂM 100,000KRW - INVOICE 7,450,000KRW",
+    "dorm_desc": "1,600,000( 4HT) - 2,300,000( 6TH)",
+    "admission_conditions": null,
+    "featured_majors": "Bất động sản – Thú y – Truyền thông",
+    "notes": null,
+    "maps_link": "https://www.google.com/maps/place/Konkuk+University+Language+Institute/data=!3m1!1e3!4m6!3m5!1s0x357ca5cbf2a3fd71:0x344487d20c42c783!8m2!3d37.5426356!4d127.074649!16s%2Fg%2F11q99nxn6m?entry=ttu&g_ep=EgoyMDI2MDcyNi4wIKXMDSoASAFQAw%3D%3D",
+    "lat": 37.5426356,
+    "lon": 127.074649,
+    "address_ko": null,
+    "postcode": null
+  },
+  {
+    "original_names": [
+      "Đại học Kyonggi"
+    ],
+    "name_vi": "Đại học Kyonggi",
+    "file_sources": [
+      "diachitop2%.xlsx",
+      "TO2%.xlsx",
+      "top3.xlsx"
+    ],
+    "is_top1": false,
+    "is_top2": true,
+    "is_top3": true,
+    "is_no_topik": false,
+    "is_restricted": false,
+    "is_college": false,
+    "region": "Thành phố Suweon ( tỉnh Gyeonggi)",
+    "tuition_desc": "HỌC PHÍ 5,600,000-6,000,000KRW - BẢO HIỂM 150,000KRW - INVOICE 5,810,000-6,250,000KRW",
+    "dorm_desc": "1,000,000-1,600,000KRW",
+    "admission_conditions": null,
+    "featured_majors": "Du lịch, tổ chức sự kiện, kinh doanh, thiết kế và đồ họa",
+    "notes": null,
+    "maps_link": "https://www.google.com/maps/place/Kyonggi+University+-+Suwon+Campus/data=!3m1!4b1!4m6!3m5!1s0x357b5c9c1e337b5b:0x437f7735e290ec4d!8m2!3d37.300485!4d127.035833!16zL20vMGJqNDlz?entry=ttu&g_ep=EgoyMDI2MDcyNy4wIKXMDSoASAFQAw%3D%3D",
+    "lat": 37.300485,
+    "lon": 127.035833,
+    "address_ko": null,
+    "postcode": null
+  },
+  {
+    "original_names": [
+      "Đại học Kyungdong"
+    ],
+    "name_vi": "Đại học Kyungdong",
+    "file_sources": [
+      "diachitop2%.xlsx",
+      "TO2%.xlsx",
+      "top3.xlsx"
+    ],
+    "is_top1": false,
+    "is_top2": true,
+    "is_top3": true,
+    "is_no_topik": false,
+    "is_restricted": false,
+    "is_college": false,
+    "region": "Gangwon-do",
+    "tuition_desc": "HỌC PHÍ 4,800,000 - 5,200,000KRW - BẢO HIỂM 150,000KRW - INVOICE 5,000,000-5,450,000KRW",
+    "dorm_desc": "800,000-1,300,000KRW",
+    "admission_conditions": null,
+    "featured_majors": "Điều dưỡng – Hàng không – Du lịch",
+    "notes": null,
+    "maps_link": "https://www.google.com/maps/place/%EA%B2%BD%EB%8F%99%EB%8C%80%ED%95%99%EA%B5%90/data=!3m1!4b1!4m6!3m5!1s0x5fd8bc9684d149bb:0x9ab34314319ef6a2!8m2!3d38.2506617!4d128.55656!16zL20vMDR5Zmc0?entry=ttu&g_ep=EgoyMDI2MDcyNy4wIKXMDSoASAFQAw%3D%3D",
+    "lat": 38.2506617,
+    "lon": 128.55656,
+    "address_ko": null,
+    "postcode": null
+  },
+  {
+    "original_names": [
+      "Đại học Kyunghee",
+      "Đại học Kyung Hee (Kyung Hee University)"
+    ],
+    "name_vi": "Đại học Kyunghee",
+    "file_sources": [
+      "diachitop2%.xlsx",
+      "TO2%.xlsx",
+      "TruongNoTOPIK.xlsx"
+    ],
+    "is_top1": false,
+    "is_top2": true,
+    "is_top3": false,
+    "is_no_topik": true,
+    "is_restricted": false,
+    "is_college": false,
+    "region": "Seoul",
+    "tuition_desc": "HỌC PHÍ 7,000,000 - BẢO HIỂM YTE 120,000KRW - INOVICE 7,220,000KRW - ",
+    "dorm_desc": "1,220,000-1,600,000KRW",
+    "admission_conditions": null,
+    "featured_majors": "Khách sạn du lịch – Đông y – Quan hệ quốc tế",
+    "notes": null,
+    "maps_link": "https://www.google.com/maps/place/Kyung+Hee+University+College+of+Oriental+Medicine/data=!3m1!1e3!4m15!1m8!3m7!1s0x357cbb703a093047:0x66c4165fde988a1!2s26+Kyungheedae-ro,+Dongdaemun+District,+Seoul,+South+Korea!3b1!8m2!3d37.5967122!4d127.0513948!16s%2Fg%2F11bzm5cv31!3m5!1s0x357cbb714f2805d3:0xf84ce73512761d86!8m2!3d37.5960601!4d127.0539721!16s%2Fg%2F1pp2tlnqp?entry=ttu&g_ep=EgoyMDI2MDcyNi4wIKXMDSoASAFQAw%3D%3D",
+    "lat": 37.5967122,
+    "lon": 127.0513948,
+    "address_ko": null,
+    "postcode": null
+  },
+  {
+    "original_names": [
+      "Đại học Kwangwoon"
+    ],
+    "name_vi": "Đại học Kwangwoon",
+    "file_sources": [
+      "diachitop2%.xlsx",
+      "TO2%.xlsx"
+    ],
+    "is_top1": false,
+    "is_top2": true,
+    "is_top3": false,
+    "is_no_topik": false,
+    "is_restricted": false,
+    "is_college": false,
+    "region": "Seoul",
+    "tuition_desc": "HỌC PHÍ 5,600,000- 6,000,000KRW -BẢO HIỂM 150,000KRW - INVOICE 5,800,00- 6,250,000KRW ",
+    "dorm_desc": "1,200,000-1,600,00KRW",
+    "admission_conditions": "- 6,5 >\n- nghỉ không quá 20 buổi",
+    "featured_majors": "IT – AI – Kỹ thuật điện tử",
+    "notes": null,
+    "maps_link": "https://www.google.com/maps/place/Kwangwoon+University/data=!3m1!1e3!4m15!1m8!3m7!1s0x357cbb95338a1d17:0x4f741d6f46888ef7!2s20+Gwangun-ro,+Nowon-gu,+Seoul,+South+Korea!3b1!8m2!3d37.6197029!4d127.0596708!16s%2Fg%2F11bzg9s6y9!3m5!1s0x357cbb952907ece3:0x15c12166c3c20e4a!8m2!3d37.6194277!4d127.05982!16zL20vMGJmOGJs?entry=ttu&g_ep=EgoyMDI2MDcyNi4wIKXMDSoASAFQAw%3D%3D",
+    "lat": 37.6197029,
+    "lon": 127.0596708,
+    "address_ko": null,
+    "postcode": null
+  },
+  {
+    "original_names": [
+      "Đại học Quốc gia Gangneung-Wonju"
+    ],
+    "name_vi": "Đại học Quốc gia Gangneung-Wonju",
+    "file_sources": [
+      "diachitop2%.xlsx",
+      "TO2%.xlsx"
+    ],
+    "is_top1": false,
+    "is_top2": true,
+    "is_top3": false,
+    "is_no_topik": false,
+    "is_restricted": false,
+    "is_college": false,
+    "region": "Gangwon-do",
+    "tuition_desc": "HỌC PHÍ 5,200,00KRW - BẢO HIỂM 70,000KRW - INVOICE 5,270,000KRW ",
+    "dorm_desc": "1,000,000KRW",
+    "admission_conditions": null,
+    "featured_majors": "Nha khoa – Du lịch – Hải dương",
+    "notes": null,
+    "maps_link": "https://www.google.com/maps/place/%EA%B0%95%EC%9B%90%EB%8C%80%ED%95%99%EA%B5%90+%EA%B0%95%EB%A6%89%EC%BA%A0%ED%8D%BC%EC%8A%A4+%EC%9E%90%EC%97%B0%EA%B3%BC%ED%95%991%ED%98%B8%EA%B4%80/data=!3m1!1e3!4m15!1m8!3m7!1s0x3561e58539896acf:0x5a74b58be53d0c7b!2s7+Jukheon-gil,+Gangneung,+Gangwon-do,+South+Korea!3b1!8m2!3d37.77001!4d128.8692002!16s%2Fg%2F11bz134cr8!3m5!1s0x3561e59b99009aa1:0xe93c16272acf6eac!8m2!3d37.7707675!4d128.8687243!16s%2Fg%2F11txv1zh32?entry=ttu&g_ep=EgoyMDI2MDcyNi4wIKXMDSoASAFQAw%3D%3D",
+    "lat": 37.77001,
+    "lon": 128.8692002,
+    "address_ko": null,
+    "postcode": null
+  },
+  {
+    "original_names": [
+      "Đại học Kookmin"
+    ],
+    "name_vi": "Đại học Kookmin",
+    "file_sources": [
+      "diachitop2%.xlsx",
+      "TO2%.xlsx"
+    ],
+    "is_top1": false,
+    "is_top2": true,
+    "is_top3": false,
+    "is_no_topik": false,
+    "is_restricted": false,
+    "is_college": false,
+    "region": "Seoul",
+    "tuition_desc": "HỌC PHÍ 6,600,000KRW - BẢO HIỂM 100,000KRW - INVOICE 6,800,000KRW ",
+    "dorm_desc": "653,000KRW",
+    "admission_conditions": null,
+    "featured_majors": "Thiết kế ô tô – Business – Design",
+    "notes": null,
+    "maps_link": "https://www.google.com/maps/place/Kookmin+University/data=!3m1!1e3!4m15!1m8!3m7!1s0x357cbce208fcc135:0x9ff65e08de681c6a!2s77+Jeongneung-ro,+Seongbuk+District,+Seoul,+South+Korea!3b1!8m2!3d37.611145!4d126.9965764!16s%2Fg%2F11bzmg_y91!3m5!1s0x357cbd1dddcabfef:0xde7cc0e9a47b92bc!8m2!3d37.6108694!4d126.9972889!16zL20vMDlwYnNf?entry=ttu&g_ep=EgoyMDI2MDcyNi4wIKXMDSoASAFQAw%3D%3D",
+    "lat": 37.611145,
+    "lon": 126.9965764,
+    "address_ko": null,
+    "postcode": null
+  },
+  {
+    "original_names": [
+      "Đại học Dongguk"
+    ],
+    "name_vi": "Đại học Dongguk",
+    "file_sources": [
+      "diachitop2%.xlsx",
+      "TO2%.xlsx"
+    ],
+    "is_top1": false,
+    "is_top2": true,
+    "is_top3": false,
+    "is_no_topik": false,
+    "is_restricted": false,
+    "is_college": false,
+    "region": "Seoul",
+    "tuition_desc": "HỌC PHÍ ( 10 TUẦN ) 1,800,00KRW - HỌC PHÍ 7,200,000 - INVIOCE 7,300,000KRW - BẢO HIỂM 100,000-150,000KRW",
+    "dorm_desc": "650-1000,000KRW",
+    "admission_conditions": null,
+    "featured_majors": "Điện ảnh – Phật giáo – Truyền thông",
+    "notes": null,
+    "maps_link": "https://www.google.com/maps/place/Dongguk+University+-+Seoul+Campus/data=!3m1!1e3!4m15!1m8!3m7!1s0x357ca31d2a9f7e11:0xe970a73d756bfca6!2s30+Pildong-ro+1-gil,+Jung+District,+Seoul,+South+Korea!3b1!8m2!3d37.5592871!4d126.9985627!16s%2Fg%2F11cp45f6jb!3m5!1s0x357ca302d491f811:0x809ffb62a47609b5!8m2!3d37.5582876!4d127.0001671!16zL20vMDR3NHpx?entry=ttu&g_ep=EgoyMDI2MDcyNi4wIKXMDSoASAFQAw%3D%3D",
+    "lat": 37.5592871,
+    "lon": 126.9985627,
+    "address_ko": null,
+    "postcode": null
+  },
+  {
+    "original_names": [
+      "Đại học Myongji"
+    ],
+    "name_vi": "Đại học Myongji",
+    "file_sources": [
+      "diachitop2%.xlsx",
+      "TO2%.xlsx",
+      "TruongNoTOPIK.xlsx"
+    ],
+    "is_top1": false,
+    "is_top2": true,
+    "is_top3": false,
+    "is_no_topik": true,
+    "is_restricted": false,
+    "is_college": false,
+    "region": "Seoul",
+    "tuition_desc": "HỌC PHÍ 6,000,000KRW - BẢO HIỂM 110-130,000KRW - INVOICE 6,160,000KRW",
+    "dorm_desc": "850-1,2000,000KRW",
+    "admission_conditions": null,
+    "featured_majors": "Kiến trúc – Business – IT",
+    "notes": null,
+    "maps_link": "https://www.google.com/maps/place/Myongji+University,+Social+Science+Campus/data=!3m1!1e3!4m15!1m8!3m7!1s0x357c98578f40791f:0xeba244e51e49bc48!2s34+Geobukgol-ro,+Seodaemun-gu,+Seoul,+South+Korea!3b1!8m2!3d37.5802263!4d126.9231205!16s%2Fg%2F11bz1y0wd8!3m5!1s0x357c985990062d73:0xc03ab15109e8cc97!8m2!3d37.5802219!4d126.9226047!16s%2Fm%2F0271d02?entry=ttu&g_ep=EgoyMDI2MDcyNi4wIKXMDSoASAFQAw%3D%3D",
+    "lat": 37.5802263,
+    "lon": 126.9231205,
+    "address_ko": null,
+    "postcode": null
+  },
+  {
+    "original_names": [
+      "Đại học Sahmyook"
+    ],
+    "name_vi": "Đại học Sahmyook",
+    "file_sources": [
+      "diachitop2%.xlsx",
+      "TO2%.xlsx"
+    ],
+    "is_top1": false,
+    "is_top2": true,
+    "is_top3": false,
+    "is_no_topik": false,
+    "is_restricted": false,
+    "is_college": false,
+    "region": "Seoul",
+    "tuition_desc": "HỌC PHÍ 6,000,000KRW - BẢO HIỂM 75,000KRW - INVOICE 6,1750,000KRW ",
+    "dorm_desc": "782,000- 1,378,000KRW",
+    "admission_conditions": null,
+    "featured_majors": "Điều dưỡng – Dược – Y tế",
+    "notes": null,
+    "maps_link": "https://www.google.com/maps/place/%EC%84%B8%EB%AA%85%EB%8C%80%ED%95%99%EA%B5%90+%EC%9D%B4%EA%B3%B5%ED%95%99%EA%B4%80/data=!4m6!3m5!1s0x356391074b204743:0x37957a630b254637!8m2!3d37.1796792!4d128.1955978!16s%2Fg%2F11txv1y1wp?entry=ttu&g_ep=EgoyMDI2MDcyNy4wIKXMDSoASAFQAw%3D%3D",
+    "lat": 37.1796792,
+    "lon": 128.1955978,
+    "address_ko": null,
+    "postcode": null
+  },
+  {
+    "original_names": [
+      "Đại học Sogang",
+      "Đại học Sogang (Sogang University)"
+    ],
+    "name_vi": "Đại học Sogang",
+    "file_sources": [
+      "diachitop2%.xlsx",
+      "TO2%.xlsx",
+      "TruongNoTOPIK.xlsx"
+    ],
+    "is_top1": false,
+    "is_top2": true,
+    "is_top3": false,
+    "is_no_topik": true,
+    "is_restricted": false,
+    "is_college": false,
+    "region": "Seoul",
+    "tuition_desc": "HỌC PHÍ 6,400,000-6,800,000KRW - BẢO HIỂM 150,000- INVOICE 6,600,000-7,000,000KRW",
+    "dorm_desc": "1,200,000-1,800,000KRW",
+    "admission_conditions": null,
+    "featured_majors": "Kinh tế – Truyền thông – Quốc tế học",
+    "notes": null,
+    "maps_link": "https://www.google.com/maps/place/Sogang+University/data=!3m1!1e3!4m15!1m8!3m7!1s0x357c98bd7596a821:0x6716b5f094ccf436!2s35+Baekbeom-ro,+Mapo-gu,+Seoul,+South+Korea!3b1!8m2!3d37.5512304!4d126.9392743!16s%2Fg%2F11bzb57m8q!3m5!1s0x357c9914ca252349:0x715875d4af1d5974!8m2!3d37.5509442!4d126.9410023!16zL20vMDgwdHc4?entry=ttu&g_ep=EgoyMDI2MDcyNi4wIKXMDSoASAFQAw%3D%3D",
+    "lat": 37.5512304,
+    "lon": 126.9392743,
+    "address_ko": null,
+    "postcode": null
+  },
+  {
+    "original_names": [
+      "Đại học Khoa học & Công nghệ Seoul"
+    ],
+    "name_vi": "Đại học Khoa học & Công nghệ Seoul",
+    "file_sources": [
+      "diachitop2%.xlsx",
+      "TO2%.xlsx"
+    ],
+    "is_top1": false,
+    "is_top2": true,
+    "is_top3": false,
+    "is_no_topik": false,
+    "is_restricted": false,
+    "is_college": false,
+    "region": "Seoul",
+    "tuition_desc": "HỌC PHÍ 5,000,000-5,400,000KRW - BẢO HIỂM 150,000KRW - INVOICE 5,200,000-5,600,000KRW",
+    "dorm_desc": "1,000,000-1,500,000KRW",
+    "admission_conditions": null,
+    "featured_majors": "Kỹ thuật – AI – Công nghệ",
+    "notes": null,
+    "maps_link": "https://www.google.com/maps/place/Seoul+National+University+of+Science+and+Technology/data=!3m1!1e3!4m10!1m2!2m1!1s232+Gongneung-ro,+Nowon-gu,+Seoul,+01811!3m6!1s0x357cbbd569641237:0x7b8fe3317caedc65!8m2!3d37.6316684!4d127.0774813!15sCigyMzIgR29uZ25ldW5nLXJvLCBOb3dvbi1ndSwgU2VvdWwsIDAxODExkgERcHVibGljX3VuaXZlcnNpdHngAQA!16s%2Fm%2F02pyxlf?entry=ttu&g_ep=EgoyMDI2MDcyNi4wIKXMDSoASAFQAw%3D%3D",
+    "lat": 37.6316684,
+    "lon": 127.0774813,
+    "address_ko": null,
+    "postcode": null
+  },
+  {
+    "original_names": [
+      "Đại học Quốc gia Seoul",
+      "Đại học Seoul",
+      "Đại học Nữ Seoul",
+      "Đại học Quốc gia Seoul (Seoul National University – SNU)"
+    ],
+    "name_vi": "Đại học Quốc gia Seoul",
+    "file_sources": [
+      "diachitop2%.xlsx",
+      "TO2%.xlsx",
+      "TruongNoTOPIK.xlsx"
+    ],
+    "is_top1": false,
+    "is_top2": true,
+    "is_top3": false,
+    "is_no_topik": true,
+    "is_restricted": false,
+    "is_college": false,
+    "region": "Seoul",
+    "tuition_desc": "HỌC PHÍ 5,800,000-6,200,000KRW - BẢO HIỂM 150,000KRW - INVOICE 6,010,000-6,450,000KRW",
+    "dorm_desc": "1,1000,000-1,400,000KRW",
+    "admission_conditions": null,
+    "featured_majors": "Thiết kế – Giáo dục – Business",
+    "notes": null,
+    "maps_link": "https://www.google.com/maps/place/Seoul+Women's+University+(SWU)/data=!3m1!1e3!4m22!1m15!4m14!1m6!1m2!1s0x357cb9870d108e45:0x14cb14d89b7450a7!2sSeoul+Women's+University+(SWU),+621+Hwarang-ro,+Nowon-gu,+Seoul,+South+Korea!2m2!1d127.0904568!2d37.6281126!1m6!1m2!1s0x357cb9870d108e45:0x14cb14d89b7450a7!2sSeoul+Women's+University+(SWU),+621+Hwarang-ro,+Nowon-gu,+Seoul,+South+Korea!2m2!1d127.0904568!2d37.6281126!3m5!1s0x357cb9870d108e45:0x14cb14d89b7450a7!8m2!3d37.6281126!4d127.0904568!16zL20vMDRicms5?entry=ttu&g_ep=EgoyMDI2MDcyNi4wIKXMDSoASAFQAw%3D%3D",
+    "lat": 37.6281126,
+    "lon": 127.0904568,
+    "address_ko": null,
+    "postcode": null
+  },
+  {
+    "original_names": [
+      "Đại học Thần học Seoul"
+    ],
+    "name_vi": "Đại học Thần học Seoul",
+    "file_sources": [
+      "diachitop2%.xlsx",
+      "TO2%.xlsx"
+    ],
+    "is_top1": false,
+    "is_top2": true,
+    "is_top3": false,
+    "is_no_topik": false,
+    "is_restricted": false,
+    "is_college": false,
+    "region": "Gyeonggi-do",
+    "tuition_desc": "HỌC PHÍ 4,960,000-5,800,000KRW - BẢO HIỂM 150,000KRW - INVOICE 5,210,000-6,050,000KRW",
+    "dorm_desc": "630-830,000KRW",
+    "admission_conditions": null,
+    "featured_majors": "Thần học – Giáo dục – Phúc lợi",
+    "notes": null,
+    "maps_link": "https://www.google.com/maps/place/Seoul+Theological+University/data=!3m1!1e3!4m15!1m8!3m7!1s0x357b62d641311627:0x90c39a734853be3d!2s52+Hohyeon-ro+489beon-gil,+Bucheon,+Gyeonggi-do,+South+Korea!3b1!8m2!3d37.4795399!4d126.7894409!16s%2Fg%2F11bz66v1t_!3m5!1s0x357b62d769ce8be3:0xa69d6b10a3b6da86!8m2!3d37.4794588!4d126.7890182!16s%2Fg%2F120jqrmw?entry=ttu&g_ep=EgoyMDI2MDcyNi4wIKXMDSoASAFQAw%3D%3D",
+    "lat": 37.4795399,
+    "lon": 126.7894409,
+    "address_ko": null,
+    "postcode": null
+  },
+  {
+    "original_names": [
+      "Đại học Sungkyul"
+    ],
+    "name_vi": "Đại học Sungkyul",
+    "file_sources": [
+      "diachitop2%.xlsx",
+      "TO2%.xlsx"
+    ],
+    "is_top1": false,
+    "is_top2": true,
+    "is_top3": false,
+    "is_no_topik": false,
+    "is_restricted": false,
+    "is_college": false,
+    "region": "Gyeonggi-do",
+    "tuition_desc": " HỌC PHÍ 4,800,000-5,200,000KRW - BẢO HIỂM 150,000KRW - INVOICE 5,000,000-5,450,000KRW ",
+    "dorm_desc": "800,000-1,200,000KRW",
+    "admission_conditions": null,
+    "featured_majors": "Thần học – Âm nhạc – Phúc lợi",
+    "notes": null,
+    "maps_link": "https://www.google.com/maps/place/Sungkyul+University/data=!3m1!1e3!4m15!1m8!3m7!1s0x357b6739c1c7da9d:0xeba8d82501c8773a!2s53+Seonggyeoldaehak-ro,+Manan-gu,+Anyang,+Gyeonggi-do,+South+Korea!3b1!8m2!3d37.3793231!4d126.9281851!16s%2Fg%2F11bzfnjl6y!3m5!1s0x357b67b86fa90ca9:0x50ab76efd5310e0d!8m2!3d37.3793231!4d126.9281851!16s%2Fm%2F0cpbc_r?entry=ttu&g_ep=EgoyMDI2MDcyNi4wIKXMDSoASAFQAw%3D%3D",
+    "lat": 37.3793231,
+    "lon": 126.9281851,
+    "address_ko": null,
+    "postcode": null
+  },
+  {
+    "original_names": [
+      "Đại học Sejong",
+      "Đại học Sejong (Sejong University)"
+    ],
+    "name_vi": "Đại học Sejong",
+    "file_sources": [
+      "diachitop2%.xlsx",
+      "TO2%.xlsx",
+      "TruongNoTOPIK.xlsx"
+    ],
+    "is_top1": false,
+    "is_top2": true,
+    "is_top3": false,
+    "is_no_topik": true,
+    "is_restricted": false,
+    "is_college": false,
+    "region": "Seoul",
+    "tuition_desc": "HỌC PHÍ 6,400,000-6,800,000KRW - BẢO HIỂM 150,000- INVOICE 6,610,000-7,050,000KRW",
+    "dorm_desc": "1,200,000-1,600,000KRW",
+    "admission_conditions": null,
+    "featured_majors": "Khách sạn du lịch – Animation – Business",
+    "notes": null,
+    "maps_link": "https://www.google.com/maps/place/Sejong+University/data=!3m1!1e3!4m14!1m7!3m6!1s0x357ca4d0720eecc1:0x1a7ad975c6b5e4eb!2sSejong+University!8m2!3d37.5492699!4d127.0741029!16s%2Fm%2F0ddhhlj!3m5!1s0x357ca4d0720eecc1:0x1a7ad975c6b5e4eb!8m2!3d37.5492699!4d127.0741029!16s%2Fm%2F0ddhhlj?entry=ttu&g_ep=EgoyMDI2MDcyNi4wIKXMDSoASAFQAw%3D%3D",
+    "lat": 37.5492699,
+    "lon": 127.0741029,
+    "address_ko": null,
+    "postcode": null
+  },
+  {
+    "original_names": [
+      "Đại học Soongsil",
+      "Đại học Soongsil (Soongsil University)"
+    ],
+    "name_vi": "Đại học Soongsil",
+    "file_sources": [
+      "diachitop2%.xlsx",
+      "TO2%.xlsx",
+      "TruongNoTOPIK.xlsx"
+    ],
+    "is_top1": false,
+    "is_top2": true,
+    "is_top3": false,
+    "is_no_topik": true,
+    "is_restricted": false,
+    "is_college": false,
+    "region": "Seoul",
+    "tuition_desc": "HỌC PHÍ 6,000,000-6,400,000KRW - BẢO HIỂM 150,000KRW - INVOICE 6,210,000-6,650,000KRW",
+    "dorm_desc": "1,100,000-1,500,000KRW",
+    "admission_conditions": null,
+    "featured_majors": "IT – AI – Kinh doanh",
+    "notes": null,
+    "maps_link": "https://www.google.com/maps/place/Soongsil+University/data=!3m1!1e3!4m14!1m7!3m6!1s0x357ca1d5f659a2ef:0x2d10f275aefa0dc3!2sSoongsil+University!8m2!3d37.4963538!4d126.9572222!16s%2Fm%2F04my76y!3m5!1s0x357ca1d5f659a2ef:0x2d10f275aefa0dc3!8m2!3d37.4963538!4d126.9572222!16s%2Fm%2F04my76y?entry=ttu&g_ep=EgoyMDI2MDcyNi4wIKXMDSoASAFQAw%3D%3D",
+    "lat": 37.4963538,
+    "lon": 126.9572222,
+    "address_ko": null,
+    "postcode": null
+  },
+  {
+    "original_names": [
+      "Đại học Shinhan"
+    ],
+    "name_vi": "Đại học Shinhan",
+    "file_sources": [
+      "diachitop2%.xlsx",
+      "TO2%.xlsx"
+    ],
+    "is_top1": false,
+    "is_top2": true,
+    "is_top3": false,
+    "is_no_topik": false,
+    "is_restricted": false,
+    "is_college": false,
+    "region": "Gyeonggi-do",
+    "tuition_desc": "HỌC PHÍ 5,200,000KRW - BẢO HIỂM 200,000KRW - INVOICE 5,450,000-5,490,000KRW ",
+    "dorm_desc": "1,500,000-2,500,000KRW",
+    "admission_conditions": null,
+    "featured_majors": "Điều dưỡng, Hàng không, Kinh doanh",
+    "notes": null,
+    "maps_link": "https://www.google.com/maps/place/Shinhan+University/data=!3m1!1e3!4m14!1m7!3m6!1s0x357cb8ae78f629b1:0xe7b366edb4799d17!2sShinhan+University!8m2!3d37.7095512!4d127.046037!16s%2Fg%2F122wnbv4!3m5!1s0x357cb8ae78f629b1:0xe7b366edb4799d17!8m2!3d37.7095512!4d127.046037!16s%2Fg%2F122wnbv4?entry=ttu&g_ep=EgoyMDI2MDcyNi4wIKXMDSoASAFQAw%3D%3D",
+    "lat": 37.7095512,
+    "lon": 127.046037,
+    "address_ko": null,
+    "postcode": null
+  },
+  {
+    "original_names": [
+      "Đại học Ajou"
+    ],
+    "name_vi": "Đại học Ajou",
+    "file_sources": [
+      "diachitop2%.xlsx",
+      "TO2%.xlsx"
+    ],
+    "is_top1": false,
+    "is_top2": true,
+    "is_top3": false,
+    "is_no_topik": false,
+    "is_restricted": false,
+    "is_college": false,
+    "region": "Gyeonggi-do",
+    "tuition_desc": "HỌC PHÍ  6,400,000-6,800,000KRW - BẢO HIỂM 150,000- INVOICE 6,610,000-7,050,00KRW",
+    "dorm_desc": "1,100,000-1,600,000KRW",
+    "admission_conditions": "- 7.0 trở lên\n- vắng không quá 10 buổi",
+    "featured_majors": "Kỹ thuật – Y khoa – Công nghệ",
+    "notes": null,
+    "maps_link": "https://www.google.com/maps/place/Ajou+University/data=!3m2!1e3!4b1!4m6!3m5!1s0x357b45558458cc69:0x4ee9cd5351b8c49d!8m2!3d37.2820187!4d127.0463409!16zL20vMDNrcHJ3?entry=ttu&g_ep=EgoyMDI2MDcyNi4wIKXMDSoASAFQAw%3D%3D",
+    "lat": 37.2820187,
+    "lon": 127.0463409,
+    "address_ko": null,
+    "postcode": null
+  },
+  {
+    "original_names": [
+      "Đại học Yonsei",
+      "Đại học Yonsei (Yonsei University)"
+    ],
+    "name_vi": "Đại học Yonsei",
+    "file_sources": [
+      "diachitop2%.xlsx",
+      "TO2%.xlsx",
+      "TruongNoTOPIK.xlsx"
+    ],
+    "is_top1": false,
+    "is_top2": true,
+    "is_top3": false,
+    "is_no_topik": true,
+    "is_restricted": false,
+    "is_college": false,
+    "region": "Seoul",
+    "tuition_desc": "HỌC PHÍ 7,440,000KRW - BẢO HIỂM 160,000KRW - INVOICE 7,720,000KRW",
+    "dorm_desc": "1,700,000-1,900,000KRW",
+    "admission_conditions": null,
+    "featured_majors": "Y khoa – Business – Truyền thông",
+    "notes": null,
+    "maps_link": "https://www.google.com/maps/place/Yonsei+University,+Sinchon+Campus/data=!3m2!1e3!4b1!4m6!3m5!1s0x357c988ea13e280f:0xb7b75243ec5a638e!8m2!3d37.5663937!4d126.9387066!16zL20vMDNrd2xz?entry=ttu&g_ep=EgoyMDI2MDcyNi4wIKXMDSoASAFQAw%3D%3D",
+    "lat": 37.5663937,
+    "lon": 126.9387066,
+    "address_ko": null,
+    "postcode": null
+  },
+  {
+    "original_names": [
+      "Đại học Yonsei (Cơ sở Mirae)"
+    ],
+    "name_vi": "Đại học Yonsei (Cơ sở Mirae)",
+    "file_sources": [
+      "diachitop2%.xlsx",
+      "TO2%.xlsx"
+    ],
+    "is_top1": false,
+    "is_top2": true,
+    "is_top3": false,
+    "is_no_topik": false,
+    "is_restricted": false,
+    "is_college": false,
+    "region": "Gangwon-do",
+    "tuition_desc": " HỌC PHÍ 6,400,000KRW - BẢO HIỂM 150,000KRW - INVOICE 6,630,000KRW ",
+    "dorm_desc": "600,000-1,150,000KRW",
+    "admission_conditions": null,
+    "featured_majors": "Y sinh – IT – Quốc tế học",
+    "notes": null,
+    "maps_link": "https://www.google.com/maps/place/%EC%97%B0%EC%84%B8%EB%8C%80%ED%95%99%EA%B5%90+%EB%AF%B8%EB%9E%98%EC%BA%A0%ED%8D%BC%EC%8A%A4/data=!4m10!1m2!2m1!1z7Jew7IS464yA7ZWZ6rWQIOuvuOuemOy6oO2NvOyKpA!3m6!1s0x356377302d4a0ffd:0xf662eb5e711a2f81!8m2!3d37.2799875!4d127.9016591!15sCh_sl7DshLjrjIDtlZnqtZAg66-4656Y7Lqg7Y287IqkIgOIAQFaIyIh7Jew7IS464yAIO2Vmeq1kCDrr7jrnpgg7Lqg7Y287IqkkgEScHJpdmF0ZV91bml2ZXJzaXR54AEA!16s%2Fg%2F122l_7dc?entry=ttu&g_ep=EgoyMDI2MDcyNy4wIKXMDSoASAFQAw%3D%3D",
+    "lat": 37.2799875,
+    "lon": 127.9016591,
+    "address_ko": null,
+    "postcode": null
+  },
+  {
+    "original_names": [
+      "Đại học Kinh thánh Hàn Quốc"
+    ],
+    "name_vi": "Đại học Kinh thánh Hàn Quốc",
+    "file_sources": [
+      "diachitop2%.xlsx",
+      "TO2%.xlsx"
+    ],
+    "is_top1": false,
+    "is_top2": true,
+    "is_top3": false,
+    "is_no_topik": false,
+    "is_restricted": false,
+    "is_college": false,
+    "region": "Seoul",
+    "tuition_desc": "HOC PHÍ 4,800,000KRW - BẢO HIỂM 150,000KRW - INVOICE 5,250,000-5,500,000KRW",
+    "dorm_desc": "500,000-800,000KRW",
+    "admission_conditions": null,
+    "featured_majors": "Thần học – Giáo dục – Phúc lợi",
+    "notes": null,
+    "maps_link": "https://www.google.com/maps/place/Korean+Bible+University/data=!3m1!1e3!4m15!1m8!3m7!1s0x357cb969082cbddd:0x8620207637da6f8f!2s32+Dongil-ro+214-gil,+Nowon-gu,+Seoul,+South+Korea!3b1!8m2!3d37.6485995!4d127.0642368!16s%2Fg%2F11bz3wstqd!3m5!1s0x357cb969099bade9:0x678d0111a88b753!8m2!3d37.6486885!4d127.0642073!16s%2Fg%2F122njckr?entry=ttu&g_ep=EgoyMDI2MDcyNi4wIKXMDSoASAFQAw%3D%3D",
+    "lat": 37.6485995,
+    "lon": 127.0642368,
+    "address_ko": null,
+    "postcode": null
+  },
+  {
+    "original_names": [
+      "Đại học Ngoại ngữ Hankuk"
+    ],
+    "name_vi": "Đại học Ngoại ngữ Hankuk",
+    "file_sources": [
+      "diachitop2%.xlsx",
+      "TO2%.xlsx"
+    ],
+    "is_top1": false,
+    "is_top2": true,
+    "is_top3": false,
+    "is_no_topik": false,
+    "is_restricted": false,
+    "is_college": false,
+    "region": "Seoul",
+    "tuition_desc": "HỌC PHÍ 6,400,00KRW - BẢO HIỂM 120,000- INVOICE 8,406,500KRW",
+    "dorm_desc": "1,636,5000KRW",
+    "admission_conditions": null,
+    "featured_majors": "Ngoại ngữ – Quốc tế học – Biên phiên dịch",
+    "notes": null,
+    "maps_link": "https://www.google.com/maps/place/Hankuk+University+of+Foreign+Studies+-+Seoul+Campus/data=!3m1!1e3!4m14!1m7!3m6!1s0x357cbb747da55445:0xacd71180e6d442b6!2sHankuk+University+of+Foreign+Studies+-+Seoul+Campus!8m2!3d37.5974453!4d127.0588002!16zL20vMDNzNzg1!3m5!1s0x357cbb747da55445:0xacd71180e6d442b6!8m2!3d37.5974453!4d127.0588002!16zL20vMDNzNzg1?entry=ttu&g_ep=EgoyMDI2MDcyNi4wIKXMDSoASAFQAw%3D%3D",
+    "lat": 37.5974453,
+    "lon": 127.0588002,
+    "address_ko": null,
+    "postcode": null
+  },
+  {
+    "original_names": [
+      "Đại học Hanyang (ERICA)"
+    ],
+    "name_vi": "Đại học Hanyang (ERICA)",
+    "file_sources": [
+      "diachitop2%.xlsx",
+      "TO2%.xlsx"
+    ],
+    "is_top1": false,
+    "is_top2": true,
+    "is_top3": false,
+    "is_no_topik": false,
+    "is_restricted": false,
+    "is_college": false,
+    "region": "Gyeonggi-do",
+    "tuition_desc": "HỌC PHÍ 6,400,000-6,800,000KRW - BẢO HIỂM 150,000KRW - INVOICE 6,610,000-7,050,000KRW",
+    "dorm_desc": "1,000,000-1,400,000KRW",
+    "admission_conditions": null,
+    "featured_majors": "Engineering – Robotics – Công nghiệp",
+    "notes": null,
+    "maps_link": "https://www.google.com/maps/place/Hanyang+University+ERICA+Campus/data=!3m1!1e3!4m15!1m8!3m7!1s0x357b6ef2742ecf4f:0x2a3f0774ec343d7f!2s55+Hanyangdaehak-ro,+Sangnok-gu,+Ansan-si,+Gyeonggi-do,+South+Korea!3b1!8m2!3d37.2960668!4d126.8347845!16s%2Fg%2F11bz7s_4vh!3m5!1s0x357b6ef2f5a7cb73:0x26b59cb3d9af4a46!8m2!3d37.2974415!4d126.8355968!16s%2Fg%2F11c0q_g6ym?entry=ttu&g_ep=EgoyMDI2MDcyNi4wIKXMDSoASAFQAw%3D%3D",
+    "lat": 37.2960668,
+    "lon": 126.8347845,
+    "address_ko": null,
+    "postcode": null
+  },
+  {
+    "original_names": [
+      "Đại học Hongik"
+    ],
+    "name_vi": "Đại học Hongik",
+    "file_sources": [
+      "diachitop2%.xlsx",
+      "TO2%.xlsx"
+    ],
+    "is_top1": false,
+    "is_top2": true,
+    "is_top3": false,
+    "is_no_topik": false,
+    "is_restricted": false,
+    "is_college": false,
+    "region": "Seoul",
+    "tuition_desc": "HỌC PHÍ 7,100,000KRW - BẢO HIỂM 150,000- INVOICE 9,210,000KRW",
+    "dorm_desc": "1,600,000KRW",
+    "admission_conditions": null,
+    "featured_majors": "Mỹ thuật – Thiết kế – Kiến trúc",
+    "notes": null,
+    "maps_link": "https://www.google.com/maps/place/Hongik+University,+Seoul+Campus/data=!3m1!1e3!4m14!1m7!3m6!1s0x357c98c43e5ba2b5:0x75bd701f5128523a!2sHongik+University,+Seoul+Campus!8m2!3d37.5507563!4d126.9254901!16zL20vMDd6MXdm!3m5!1s0x357c98c43e5ba2b5:0x75bd701f5128523a!8m2!3d37.5507563!4d126.9254901!16zL20vMDd6MXdm?entry=ttu&g_ep=EgoyMDI2MDcyNi4wIKXMDSoASAFQAw%3D%3D",
+    "lat": 37.5507563,
+    "lon": 126.9254901,
+    "address_ko": null,
+    "postcode": null
+  },
+  {
+    "original_names": [
+      "Đại học Konyang"
+    ],
+    "name_vi": "Đại học Konyang",
+    "file_sources": [
+      "diachitop2%.xlsx",
+      "TO2%.xlsx"
+    ],
+    "is_top1": false,
+    "is_top2": true,
+    "is_top3": false,
+    "is_no_topik": false,
+    "is_restricted": false,
+    "is_college": false,
+    "region": "Chungcheongnam-do",
+    "tuition_desc": "HỌC PHÍ 4,400,000KRW - BẢO HIỂM 140,000- INOVICE 5,760,000KRW",
+    "dorm_desc": "1,000,000KRW",
+    "admission_conditions": "7,0 trở lên\n- vắng ko quá 5 buổi (nhiều hơn cần giải trình)",
+    "featured_majors": "Y khoa – Điều dưỡng – AI y tế",
+    "notes": null,
+    "maps_link": "https://www.google.com/maps/place/%EA%B1%B4%EC%96%91%EB%8C%80%ED%95%99%EA%B5%90+%EB%85%BC%EC%82%B0%EC%BA%A0%ED%8D%BC%EC%8A%A4/data=!3m1!1e3!4m14!1m7!3m6!1s0x357008693f3c9263:0xc475639ec190b6fb!2z6rG07JaR64yA7ZWZ6rWQIOuFvOyCsOy6oO2NvOyKpA!8m2!3d36.1821467!4d127.1086914!16zL20vMDZtajNt!3m5!1s0x357008693f3c9263:0xc475639ec190b6fb!8m2!3d36.1821467!4d127.1086914!16zL20vMDZtajNt?entry=ttu&g_ep=EgoyMDI2MDcyNi4wIKXMDSoASAFQAw%3D%3D",
+    "lat": 36.1821467,
+    "lon": 127.1086914,
+    "address_ko": null,
+    "postcode": null
+  },
+  {
+    "original_names": [
+      "Đại học Korea (Cơ sở Sejong)"
+    ],
+    "name_vi": "Đại học Korea (Cơ sở Sejong)",
+    "file_sources": [
+      "diachitop2%.xlsx",
+      "TO2%.xlsx"
+    ],
+    "is_top1": false,
+    "is_top2": true,
+    "is_top3": false,
+    "is_no_topik": false,
+    "is_restricted": false,
+    "is_college": false,
+    "region": "Sejong",
+    "tuition_desc": "HỌC PHÍ 4,800,000- BẢO HIỂM 140,000- INVOICE 6,300,000KRW",
+    "dorm_desc": "1,100,000KRW",
+    "admission_conditions": null,
+    "featured_majors": "Hành chính công, Kinh doanh, CNTT",
+    "notes": null,
+    "maps_link": "https://www.google.com/maps/place/Korea+University+-+Sejong+Campus/data=!3m1!4b1!4m6!3m5!1s0x357ad2c845f97925:0xa19893537d0460bf!8m2!3d36.6108968!4d127.2864676!16s%2Fm%2F0cmcd_1?authuser=0&hl=en&entry=ttu&g_ep=EgoyMDI2MDcyNi4wIKXMDSoASAFQAw%3D%3D",
+    "lat": 36.6108968,
+    "lon": 127.2864676,
+    "address_ko": null,
+    "postcode": null
+  },
+  {
+    "original_names": [
+      "Đại học Quốc gia Kongju"
+    ],
+    "name_vi": "Đại học Quốc gia Kongju",
+    "file_sources": [
+      "diachitop2%.xlsx",
+      "TO2%.xlsx"
+    ],
+    "is_top1": false,
+    "is_top2": true,
+    "is_top3": false,
+    "is_no_topik": false,
+    "is_restricted": false,
+    "is_college": false,
+    "region": "Chungcheongnam-do",
+    "tuition_desc": "HỌC PHÍ 4,800,000- BẢO HIỂM 140,000- INVOICE 6,140,000KRW",
+    "dorm_desc": "1,100,000KRW",
+    "admission_conditions": null,
+    "featured_majors": "Giáo dục – Kỹ thuật – Nông nghiệp",
+    "notes": null,
+    "maps_link": "https://www.google.com/maps/place/Kongju+National+University+Singwan+Campus/data=!3m1!4b1!4m6!3m5!1s0x357ab790e53b2c87:0xa8c7b7545ec1b197!8m2!3d36.4689627!4d127.1408071!16s%2Fm%2F0glnysb?entry=ttu&g_ep=EgoyMDI2MDcyNi4wIKXMDSoASAFQAw%3D%3D",
+    "lat": 36.4689627,
+    "lon": 127.1408071,
+    "address_ko": null,
+    "postcode": null
+  },
+  {
+    "original_names": [
+      "Đại học Quốc gia Kunsan"
+    ],
+    "name_vi": "Đại học Quốc gia Kunsan",
+    "file_sources": [
+      "diachitop2%.xlsx",
+      "TO2%.xlsx"
+    ],
+    "is_top1": false,
+    "is_top2": true,
+    "is_top3": false,
+    "is_no_topik": false,
+    "is_restricted": false,
+    "is_college": false,
+    "region": "Jeollabuk-do",
+    "tuition_desc": "HỌC PHÍ 4,800,000- BẢO HIỂM 140,000- INVOICE 6,140,000KRW",
+    "dorm_desc": "800,000KRW",
+    "admission_conditions": null,
+    "featured_majors": "Hàng hải, Kỹ thuật, Kinh doanh",
+    "notes": null,
+    "maps_link": "https://www.google.com/maps/place/Kunsan+National+University/data=!3m1!4b1!4m6!3m5!1s0x357059762b162f09:0xf87e7bcdf7c0f25e!8m2!3d35.9470221!4d126.6815184!16zL20vMGJfMHB0?entry=ttu&g_ep=EgoyMDI2MDcyNi4wIKXMDSoASAFQAw%3D%3D",
+    "lat": 35.9470221,
+    "lon": 126.6815184,
+    "address_ko": null,
+    "postcode": null
+  },
+  {
+    "original_names": [
+      "Đại học Quốc gia Giao thông Hàn Quốc"
+    ],
+    "name_vi": "Đại học Quốc gia Giao thông Hàn Quốc",
+    "file_sources": [
+      "diachitop2%.xlsx",
+      "TO2%.xlsx"
+    ],
+    "is_top1": false,
+    "is_top2": true,
+    "is_top3": false,
+    "is_no_topik": false,
+    "is_restricted": false,
+    "is_college": false,
+    "region": "Chungcheongbuk-do",
+    "tuition_desc": "HỌC PHÍ 4,000,000- BẢO HIỂM 300-500,000KRW - INVOICE 6,000,000",
+    "dorm_desc": "1,400,000-2,400,000KRW",
+    "admission_conditions": null,
+    "featured_majors": "Giao thông vận tải, Cơ khí, CNTT",
+    "notes": null,
+    "maps_link": "https://www.google.com/maps/place/%EA%B5%AD%EB%A6%BD%ED%95%9C%EA%B5%AD%EA%B5%90%ED%86%B5%EB%8C%80%ED%95%99%EA%B5%90+%EC%B6%A9%EC%A3%BC%EC%BA%A0%ED%8D%BC%EC%8A%A4/data=!3m1!1e3!4m6!3m5!1s0x356485660985fc2b:0x226f78660f9d0cc!8m2!3d36.969836!4d127.8717685!16zL20vMDR0NWg3?entry=ttu&g_ep=EgoyMDI2MDcyNi4wIKXMDSoASAFQAw%3D%3D",
+    "lat": 36.969836,
+    "lon": 127.8717685,
+    "address_ko": null,
+    "postcode": null
+  },
+  {
+    "original_names": [
+      "Đại học Quốc gia Hanbat"
+    ],
+    "name_vi": "Đại học Quốc gia Hanbat",
+    "file_sources": [
+      "diachitop2%.xlsx",
+      "TO2%.xlsx"
+    ],
+    "is_top1": false,
+    "is_top2": true,
+    "is_top3": false,
+    "is_no_topik": false,
+    "is_restricted": false,
+    "is_college": false,
+    "region": "Daejeon",
+    "tuition_desc": "HỌC PHÍ 4,800,000- BẢO HIỂM 250-350,000- INVOICE 5,950,000KRW",
+    "dorm_desc": "1,000,000KRW",
+    "admission_conditions": null,
+    "featured_majors": "Kỹ thuật – Công nghệ – Business",
+    "notes": null,
+    "maps_link": "https://www.google.com/maps/place/Hanbat+National+University/data=!4m14!1m7!3m6!1s0x35654cb24e3e80cf:0x7feb9d4b3fd0f2f6!2sHanbat+National+University!8m2!3d36.3509246!4d127.3010886!16s%2Fm%2F03cp4gf!3m5!1s0x35654cb24e3e80cf:0x7feb9d4b3fd0f2f6!8m2!3d36.3509246!4d127.3010886!16s%2Fm%2F03cp4gf?entry=ttu&g_ep=EgoyMDI2MDcyNi4wIKXMDSoASAFQAw%3D%3D",
+    "lat": 36.3509246,
+    "lon": 127.3010886,
+    "address_ko": null,
+    "postcode": null
+  },
+  {
+    "original_names": [
+      "Đại học Nazarene"
+    ],
+    "name_vi": "Đại học Nazarene",
+    "file_sources": [
+      "diachitop2%.xlsx",
+      "TO2%.xlsx"
+    ],
+    "is_top1": false,
+    "is_top2": true,
+    "is_top3": false,
+    "is_no_topik": false,
+    "is_restricted": false,
+    "is_college": false,
+    "region": "Chungcheongnam-do",
+    "tuition_desc": "HỌC PHÍ 4,800,000- INVOICE 5,900,000",
+    "dorm_desc": "1,000,000-1,200,000KRW",
+    "admission_conditions": null,
+    "featured_majors": "Phúc lợi xã hội, Giáo dục đặc biệt, Thần học",
+    "notes": null,
+    "maps_link": "https://www.google.com/maps/place/%EB%82%A8%EC%84%9C%EC%9A%B8%EB%8C%80%ED%95%99%EA%B5%90/data=!3m2!1e3!4b1!4m6!3m5!1s0x357b2f9eb984750d:0x139b04cba45e5b42!8m2!3d36.909155!4d127.144395!16s%2Fm%2F0sgg9rd?entry=ttu&g_ep=EgoyMDI2MDcyNi4wIKXMDSoASAFQAw%3D%3D",
+    "lat": 36.909155,
+    "lon": 127.144395,
+    "address_ko": null,
+    "postcode": null
+  },
+  {
+    "original_names": [
+      "Đại học Namseoul",
+      "Đại học Nam Seoul"
+    ],
+    "name_vi": "Đại học Namseoul",
+    "file_sources": [
+      "diachitop2%.xlsx",
+      "TO2%.xlsx",
+      "TruongNoTOPIK.xlsx"
+    ],
+    "is_top1": false,
+    "is_top2": true,
+    "is_top3": false,
+    "is_no_topik": true,
+    "is_restricted": false,
+    "is_college": false,
+    "region": "Chungcheongnam-do",
+    "tuition_desc": "5,000,000 KRW Phí bảo hiểm 110,000 KRW- INVOICE 6,696,500KRW",
+    "dorm_desc": "1,168,500KRW",
+    "admission_conditions": null,
+    "featured_majors": "Làm đẹp, CNTT, Kinh doanh",
+    "notes": null,
+    "maps_link": "https://www.google.com/maps/place/%EB%82%A8%EC%84%9C%EC%9A%B8%EB%8C%80%ED%95%99%EA%B5%90/data=!3m1!4b1!4m6!3m5!1s0x357b2f9eb984750d:0x139b04cba45e5b42!8m2!3d36.909155!4d127.144395!16s%2Fm%2F0sgg9rd?entry=ttu&g_ep=EgoyMDI2MDcyNy4wIKXMDSoASAFQAw%3D%3D",
+    "lat": 36.909155,
+    "lon": 127.144395,
+    "address_ko": null,
+    "postcode": null
+  },
+  {
+    "original_names": [
+      "Đại học Daejeon"
+    ],
+    "name_vi": "Đại học Daejeon",
+    "file_sources": [
+      "diachitop2%.xlsx",
+      "TO2%.xlsx"
+    ],
+    "is_top1": false,
+    "is_top2": true,
+    "is_top3": false,
+    "is_no_topik": false,
+    "is_restricted": false,
+    "is_college": false,
+    "region": "Daejeon",
+    "tuition_desc": "HỌC PHÍ 4,840,000KRW - BẢO HIỂM 150,000- INVOICE 5,720,000KRW",
+    "dorm_desc": "700,000KRW",
+    "admission_conditions": null,
+    "featured_majors": "Đông y – Điều dưỡng – Kinh doanh",
+    "notes": null,
+    "maps_link": "https://www.google.com/maps/place/Daejeon+University/data=!3m1!4b1!4m6!3m5!1s0x35654884486b0da9:0x876cb0204e394830!8m2!3d36.3359741!4d127.4576524!16zL20vMDR2amww?entry=ttu&g_ep=EgoyMDI2MDcyNi4wIKXMDSoASAFQAw%3D%3D",
+    "lat": 36.3359741,
+    "lon": 127.4576524,
+    "address_ko": null,
+    "postcode": null
+  },
+  {
+    "original_names": [
+      "Đại học Mokwon"
+    ],
+    "name_vi": "Đại học Mokwon",
+    "file_sources": [
+      "diachitop2%.xlsx",
+      "TO2%.xlsx"
+    ],
+    "is_top1": false,
+    "is_top2": true,
+    "is_top3": false,
+    "is_no_topik": false,
+    "is_restricted": false,
+    "is_college": false,
+    "region": "Daejeon",
+    "tuition_desc": "HỌC PHÍ 4,800,000 - BẢO HIỂM 300,000- INVOICE 5,712,000KRW",
+    "dorm_desc": "512,00KRW",
+    "admission_conditions": null,
+    "featured_majors": "Âm nhạc – Thiết kế – Truyền thông",
+    "notes": null,
+    "maps_link": "https://www.google.com/maps/place/Mokwon+University/data=!3m1!4b1!4m6!3m5!1s0x35654cf66700b223:0x4c2077d9aeff8204!8m2!3d36.3261215!4d127.3387606!16s%2Fg%2F12mkykb0y?entry=ttu&g_ep=EgoyMDI2MDcyNi4wIKXMDSoASAFQAw%3D%3D",
+    "lat": 36.3261215,
+    "lon": 127.3387606,
+    "address_ko": null,
+    "postcode": null
+  },
+  {
+    "original_names": [
+      "Đại học Paichai"
+    ],
+    "name_vi": "Đại học Paichai",
+    "file_sources": [
+      "diachitop2%.xlsx",
+      "TO2%.xlsx"
+    ],
+    "is_top1": false,
+    "is_top2": true,
+    "is_top3": false,
+    "is_no_topik": false,
+    "is_restricted": false,
+    "is_college": false,
+    "region": "Daejeon",
+    "tuition_desc": "HỌC PHÍ 5,200,000- BẢO HIỂM 150,000- INVOICE 5,970,000KW",
+    "dorm_desc": "520,000RKW",
+    "admission_conditions": "6,5 trở lên (xem xét)",
+    "featured_majors": "Business – Du lịch – IT",
+    "notes": null,
+    "maps_link": "https://www.google.com/maps/place/Pai+Chai+University/data=!3m1!4b1!4m6!3m5!1s0x35654c15e6e7c68d:0x40b95118cfaa3732!8m2!3d36.319652!4d127.3661562!16s%2Fm%2F02x4_f6?entry=ttu&g_ep=EgoyMDI2MDcyNi4wIKXMDSoASAFQAw%3D%3D",
+    "lat": 36.319652,
+    "lon": 127.3661562,
+    "address_ko": null,
+    "postcode": null
+  },
+  {
+    "original_names": [
+      "Đại học Baekseok"
+    ],
+    "name_vi": "Đại học Baekseok",
+    "file_sources": [
+      "diachitop2%.xlsx",
+      "TO2%.xlsx"
+    ],
+    "is_top1": false,
+    "is_top2": true,
+    "is_top3": false,
+    "is_no_topik": false,
+    "is_restricted": false,
+    "is_college": false,
+    "region": "Chungcheongnam-do",
+    "tuition_desc": "HỌC PHÍ 4,800,000- BẢO HIỂM 150,000KRW- INVOICE 6,250,000KRW",
+    "dorm_desc": "1,200,000KRW",
+    "admission_conditions": null,
+    "featured_majors": "Thần học – Điều dưỡng – Giáo dục",
+    "notes": null,
+    "maps_link": "https://www.google.com/maps/place/%EB%B0%B1%EC%84%9D%EB%8C%80%ED%95%99%EA%B5%90/data=!3m1!4b1!4m6!3m5!1s0x357b293c64087a5b:0x81d1a65485393d8d!8m2!3d36.8394518!4d127.1839014!16zL20vMDRybHdt?entry=ttu&g_ep=EgoyMDI2MDcyNi4wIKXMDSoASAFQAw%3D%3D",
+    "lat": 36.8394518,
+    "lon": 127.1839014,
+    "address_ko": null,
+    "postcode": null
+  },
+  {
+    "original_names": [
+      "Đại học Dankook"
+    ],
+    "name_vi": "Đại học Dankook",
+    "file_sources": [
+      "diachitop2%.xlsx",
+      "TO2%.xlsx"
+    ],
+    "is_top1": false,
+    "is_top2": true,
+    "is_top3": false,
+    "is_no_topik": false,
+    "is_restricted": false,
+    "is_college": false,
+    "region": "Chungcheongnam-do",
+    "tuition_desc": "HỌC PHÍ 5,600,000KRW - BẢO HÊM 200,000KRW - INVOICE 7,300,000KRW",
+    "dorm_desc": "1,400,000KRW",
+    "admission_conditions": null,
+    "featured_majors": "Nha khoa – Business – Truyền thông",
+    "notes": null,
+    "maps_link": "https://www.google.com/maps/place/Dankook+University/data=!3m1!4b1!4m6!3m5!1s0x357b5755cbac9e51:0xda0d379a7fe9c5f3!8m2!3d37.3213399!4d127.1272127!16zL20vMDR2bmZy?entry=ttu&g_ep=EgoyMDI2MDcyNi4wIKXMDSoASAFQAw%3D%3D",
+    "lat": 37.3213399,
+    "lon": 127.1272127,
+    "address_ko": null,
+    "postcode": null
+  },
+  {
+    "original_names": [
+      "Đại học Soonchunhyang"
+    ],
+    "name_vi": "Đại học Soonchunhyang",
+    "file_sources": [
+      "diachitop2%.xlsx",
+      "TO2%.xlsx",
+      "danhsachtruonghanche.xlsx"
+    ],
+    "is_top1": false,
+    "is_top2": true,
+    "is_top3": false,
+    "is_no_topik": false,
+    "is_restricted": true,
+    "is_college": false,
+    "region": "Chungcheongnam-do",
+    "tuition_desc": "HỌC PHÍ 5,000,000KRW- BẢO HIỂM 150,000KRW- INVOICE 6,350,000KRW",
+    "dorm_desc": "1,100,000KRW",
+    "admission_conditions": null,
+    "featured_majors": "Y khoa – Điều dưỡng – Công nghệ sinh học",
+    "notes": null,
+    "maps_link": "https://www.google.com/maps/place/Soonchunhyang+University/data=!3m1!4b1!4m6!3m5!1s0x357ae7133cf66c31:0xfc9cee755a9fe175!8m2!3d36.7682428!4d126.9331766!16s%2Fm%2F027pp5d?entry=ttu&g_ep=EgoyMDI2MDcyNi4wIKXMDSoASAFQAw%3D%3D",
+    "lat": 36.7682428,
+    "lon": 126.9331766,
+    "address_ko": null,
+    "postcode": null
+  },
+  {
+    "original_names": [
+      "Đại học Woosong"
+    ],
+    "name_vi": "Đại học Woosong",
+    "file_sources": [
+      "diachitop2%.xlsx",
+      "TO2%.xlsx"
+    ],
+    "is_top1": false,
+    "is_top2": true,
+    "is_top3": false,
+    "is_no_topik": false,
+    "is_restricted": false,
+    "is_college": false,
+    "region": "Daejeon",
+    "tuition_desc": "HỌC PHÍ 4,800,000- BẢO HIỂM 150,000KRW- INVOICE 5,900,000KRW",
+    "dorm_desc": "800,000KRW",
+    "admission_conditions": null,
+    "featured_majors": "Khách sạn quốc tế, AI, Logistics",
+    "notes": null,
+    "maps_link": "https://www.google.com/maps/place/%EC%9A%B0%EC%86%A1%EB%8C%80%ED%95%99%EA%B5%90+%EB%8F%99%EC%BA%A0%ED%8D%BC%EC%8A%A4/data=!4m6!3m5!1s0x3565488e1267afe3:0x3ba5632782c207d0!8m2!3d36.3344412!4d127.451952!16s%2Fm%2F03cp359?entry=ttu&g_ep=EgoyMDI2MDcyNi4wIKXMDSoASAFQAw%3D%3D",
+    "lat": 36.3344412,
+    "lon": 127.451952,
+    "address_ko": null,
+    "postcode": null
+  },
+  {
+    "original_names": [
+      "Đại học Joobu"
+    ],
+    "name_vi": "Đại học Joobu",
+    "file_sources": [
+      "diachitop2%.xlsx",
+      "TO2%.xlsx"
+    ],
+    "is_top1": false,
+    "is_top2": true,
+    "is_top3": false,
+    "is_no_topik": false,
+    "is_restricted": false,
+    "is_college": false,
+    "region": "Chungcheongnam-do",
+    "tuition_desc": "HỌC PHÍ 4,800,000- BẢO HIERM 150,000KRW INVOICE 6,050,000KRW",
+    "dorm_desc": "1,000,000KRW",
+    "admission_conditions": null,
+    "featured_majors": "Phúc lợi xã hội, CNTT, Kinh doanh",
+    "notes": null,
+    "maps_link": "https://www.google.com/maps/place/%EC%A4%91%EB%B6%80%EB%8C%80%ED%95%99%EA%B5%90/data=!4m10!1m2!2m1!1s201,+Daehak-ro,+Chubu-myeon,+Geumsan-gun,+Chungcheongnam-do,+32713,+Republic+of+Korea.!3m6!1s0x356550f4d45ec019:0xe8d84b40ce5fee46!8m2!3d36.1921305!4d127.4490093!15sClYyMDEsIERhZWhhay1ybywgQ2h1YnUtbXllb24sIEdldW1zYW4tZ3VuLCBDaHVuZ2NoZW9uZ25hbS1kbywgMzI3MTMsIFJlcHVibGljIG9mIEtvcmVhLlpRIk8yMDEgZGFlaGFrIHJvIGNodWJ1IG15ZW9uIGdldW1zYW4gZ3VuIGNodW5nY2hlb25nbmFtIGRvIDMyNzEzIHJlcHVibGljIG9mIGtvcmVhkgEScHJpdmF0ZV91bml2ZXJzaXR5mgFEQ2k5RFFVbFJRVU52WkVOb2RIbGpSamx2VDIxa2VtUXlWa0pXYXpWTlRtMUdSR1JVYkhSYWJYaHJZVmQwYWxwSFl4QULgAQD6AQQIABBF!16s%2Fm%2F0cpdv3z?entry=ttu&g_ep=EgoyMDI2MDcyNi4wIKXMDSoASAFQAw%3D%3D",
+    "lat": 36.1921305,
+    "lon": 127.4490093,
+    "address_ko": null,
+    "postcode": null
+  },
+  {
+    "original_names": [
+      "Đại học Quốc gia Chungbuk",
+      "Đại học Chungbuk\n\n"
+    ],
+    "name_vi": "Đại học Quốc gia Chungbuk",
+    "file_sources": [
+      "diachitop2%.xlsx",
+      "TO2%.xlsx",
+      "TruongNoTOPIK.xlsx"
+    ],
+    "is_top1": false,
+    "is_top2": true,
+    "is_top3": false,
+    "is_no_topik": true,
+    "is_restricted": false,
+    "is_college": false,
+    "region": "Chungcheongbuk-do",
+    "tuition_desc": "HỌC PHÍ 5,200,000- BẢO HIỂM 150,000- INVOICE 6,300,000KRW",
+    "dorm_desc": "900-1,200,000KRW",
+    "admission_conditions": null,
+    "featured_majors": "Dược, CNTT, Kỹ thuật",
+    "notes": null,
+    "maps_link": "https://www.google.com/maps/place/Chungbuk+National+University,+Gaesin+Campus/data=!3m1!4b1!4m6!3m5!1s0x356528908c783763:0xcaf84252a899a885!8m2!3d36.6281315!4d127.4563596!16zL20vMDR0NGZk?entry=ttu&g_ep=EgoyMDI2MDcyNy4wIKXMDSoASAFQAw%3D%3D",
+    "lat": 36.6281315,
+    "lon": 127.4563596,
+    "address_ko": null,
+    "postcode": null
+  },
+  {
+    "original_names": [
+      "Đại học Giáo dục Kỹ thuật Hàn Quốc"
+    ],
+    "name_vi": "Đại học Giáo dục Kỹ thuật Hàn Quốc",
+    "file_sources": [
+      "diachitop2%.xlsx",
+      "TO2%.xlsx"
+    ],
+    "is_top1": false,
+    "is_top2": true,
+    "is_top3": false,
+    "is_no_topik": false,
+    "is_restricted": false,
+    "is_college": false,
+    "region": "Chungcheongnam-do",
+    "tuition_desc": "HỌC PHÍ  4,800,000KRW - BẢO HIỂM 150,000- INVOICE 6,000,000KRW",
+    "dorm_desc": "1,000,000KRW",
+    "admission_conditions": null,
+    "featured_majors": "Cơ khí, Điện tử, Giáo dục kỹ thuật",
+    "notes": null,
+    "maps_link": "https://www.google.com/maps/place/Korea+University+of+Technology+%26+Education+(KOREATECH),+Campus+1/data=!3m1!1e3!4m14!1m7!3m6!1s0x357b2ac6c614c717:0x820bda83618bd53b!2sKorea+University+of+Technology+%26+Education+(KOREATECH),+Campus+1!8m2!3d36.763718!4d127.2819405!16s%2Fg%2F11_r1sbtx!3m5!1s0x357b2ac6c614c717:0x820bda83618bd53b!8m2!3d36.763718!4d127.2819405!16s%2Fg%2F11_r1sbtx?entry=ttu&g_ep=EgoyMDI2MDcyNi4wIKXMDSoASAFQAw%3D%3D",
+    "lat": 36.763718,
+    "lon": 127.2819405,
+    "address_ko": null,
+    "postcode": null
+  },
+  {
+    "original_names": [
+      "Đại học Hannam"
+    ],
+    "name_vi": "Đại học Hannam",
+    "file_sources": [
+      "diachitop2%.xlsx",
+      "TO2%.xlsx"
+    ],
+    "is_top1": false,
+    "is_top2": true,
+    "is_top3": false,
+    "is_no_topik": false,
+    "is_restricted": false,
+    "is_college": false,
+    "region": "Daejeon",
+    "tuition_desc": "HỌC PHÍ 5,600,000KRW- BẢO HIỂM 150,000- INOVICE 6,800,000KRW ",
+    "dorm_desc": "900,000-1,100,000KRW",
+    "admission_conditions": null,
+    "featured_majors": "Kinh doanh – Quốc tế học – IT",
+    "notes": null,
+    "maps_link": "https://www.google.com/maps/place/%ED%95%9C%EB%82%A8%EB%8C%80%ED%95%99%EA%B5%90/data=!3m1!4b1!4m6!3m5!1s0x35654900b96a5a6b:0x8813f834e7a7d6d5!8m2!3d36.3546616!4d127.4210188!16s%2Fm%2F02qsr79?entry=ttu&g_ep=EgoyMDI2MDcyNi4wIKXMDSoASAFQAw%3D%3D",
+    "lat": 36.3546616,
+    "lon": 127.4210188,
+    "address_ko": null,
+    "postcode": null
+  },
+  {
+    "original_names": [
+      "Đại học Hanseo"
+    ],
+    "name_vi": "Đại học Hanseo",
+    "file_sources": [
+      "diachitop2%.xlsx",
+      "TO2%.xlsx"
+    ],
+    "is_top1": false,
+    "is_top2": true,
+    "is_top3": false,
+    "is_no_topik": false,
+    "is_restricted": false,
+    "is_college": false,
+    "region": "Chungcheongnam-do",
+    "tuition_desc": "HỌC PHÍ 5,000,000KRW - BH 150,000- INVOICE 6,250,00KRW",
+    "dorm_desc": "1,000,000 KRW/năm",
+    "admission_conditions": null,
+    "featured_majors": "Hàng không – Du lịch – Logistics",
+    "notes": null,
+    "maps_link": "https://www.google.com/maps/place/%ED%95%9C%EC%84%9C%EB%8C%80%ED%95%99%EA%B5%90+%EC%84%9C%EC%82%B0%EC%BA%A0%ED%8D%BC%EC%8A%A4/data=!3m1!4b1!4m6!3m5!1s0x357a60745156e687:0x934775d18bfcfebb!8m2!3d36.6907235!4d126.5846966!16s%2Fm%2F010fcw11?entry=ttu&g_ep=EgoyMDI2MDcyNi4wIKXMDSoASAFQAw%3D%3D",
+    "lat": 36.6907235,
+    "lon": 126.5846966,
+    "address_ko": null,
+    "postcode": null
+  },
+  {
+    "original_names": [
+      "Đại học Hoseo"
+    ],
+    "name_vi": "Đại học Hoseo",
+    "file_sources": [
+      "diachitop2%.xlsx",
+      "TO2%.xlsx"
+    ],
+    "is_top1": false,
+    "is_top2": true,
+    "is_top3": false,
+    "is_no_topik": false,
+    "is_restricted": false,
+    "is_college": false,
+    "region": "Chungcheongnam-do",
+    "tuition_desc": "HỌC PHÍ 4,800,000- BH 150,000- INVOICE 6,150,000KRW",
+    "dorm_desc": "1,100,000KRW",
+    "admission_conditions": null,
+    "featured_majors": "Startup – IT – Business",
+    "notes": null,
+    "maps_link": "https://www.google.com/maps/place/Hoseo+University,+Cheonan+Campus/data=!3m2!1e3!4b1!4m6!3m5!1s0x357b29111487ea45:0x6ba4c1d452eda5c8!8m2!3d36.8279104!4d127.1833844!16s%2Fm%2F047pbxm?entry=ttu&g_ep=EgoyMDI2MDcyNi4wIKXMDSoASAFQAw%3D%3D",
+    "lat": 36.8279104,
+    "lon": 127.1833844,
+    "address_ko": null,
+    "postcode": null
+  },
+  {
+    "original_names": [
+      "Đại học Kyungnam"
+    ],
+    "name_vi": "Đại học Kyungnam",
+    "file_sources": [
+      "diachitop2%.xlsx",
+      "TO2%.xlsx"
+    ],
+    "is_top1": false,
+    "is_top2": true,
+    "is_top3": false,
+    "is_no_topik": false,
+    "is_restricted": false,
+    "is_college": false,
+    "region": "Gyeongsangnam-do",
+    "tuition_desc": "HỌC PHÍ 4,800,000KRW- BẢO HIỂM 170,000 - INVOICE 5,070,000KRW",
+    "dorm_desc": "600,000-1,200,000KRW",
+    "admission_conditions": null,
+    "featured_majors": "Kinh doanh – Hàng hải – Truyền thông",
+    "notes": null,
+    "maps_link": "https://www.google.com/maps/place/%EA%B2%BD%EB%82%A8%EB%8C%80%ED%95%99%EA%B5%90/data=!3m2!1e3!4b1!4m6!3m5!1s0x356f2e8e7fbcf97b:0x7f4f8fa588568525!8m2!3d35.18035!4d128.553385!16zL20vMDk5cnQ3?entry=ttu&g_ep=EgoyMDI2MDcyNi4wIKXMDSoASAFQAw%3D%3D",
+    "lat": 35.18035,
+    "lon": 128.553385,
+    "address_ko": null,
+    "postcode": null
+  },
+  {
+    "original_names": [
+      "Đại học Quốc gia Kyungpook",
+      "Đại học Kyungpook",
+      "Đại học Quốc gia Kyungpook (KNU)"
+    ],
+    "name_vi": "Đại học Quốc gia Kyungpook",
+    "file_sources": [
+      "diachitop2%.xlsx",
+      "TO2%.xlsx",
+      "TruongNoTOPIK.xlsx"
+    ],
+    "is_top1": false,
+    "is_top2": true,
+    "is_top3": false,
+    "is_no_topik": true,
+    "is_restricted": false,
+    "is_college": true,
+    "region": "Daegu",
+    "tuition_desc": "HỌC PHÍ 5,600,000KRW- BẢO HIỂM 100,000 - INOVICE 5,970,000KRW",
+    "dorm_desc": "3,840,000 ( 12TH)",
+    "admission_conditions": null,
+    "featured_majors": "Y khoa – Kỹ thuật – IT",
+    "notes": null,
+    "maps_link": "https://www.google.com/maps/place/Kyungpook+National+University+(KNU)+-+Daegu+Campus/data=!3m1!4b1!4m6!3m5!1s0x3565e19e1c03ddbd:0xdc40a75efbd7103c!8m2!3d35.888836!4d128.6102997!16zL20vMDNqcGJn?entry=ttu&g_ep=EgoyMDI2MDcyNi4wIKXMDSoASAFQAw%3D%3D",
+    "lat": 35.888836,
+    "lon": 128.6102997,
+    "address_ko": null,
+    "postcode": null
+  },
+  {
+    "original_names": [
+      "Đại học Quốc gia Kyungsang"
+    ],
+    "name_vi": "Đại học Quốc gia Kyungsang",
+    "file_sources": [
+      "diachitop2%.xlsx",
+      "TO2%.xlsx"
+    ],
+    "is_top1": false,
+    "is_top2": true,
+    "is_top3": false,
+    "is_no_topik": false,
+    "is_restricted": false,
+    "is_college": false,
+    "region": "Gyeongsangnam-do",
+    "tuition_desc": "HỌC PHÍ 4,800,000KRW - BẢO HIỂM 100,0000- INVOICE 4,970,000KRW",
+    "dorm_desc": "546-674,000KRW",
+    "admission_conditions": null,
+    "featured_majors": null,
+    "notes": null,
+    "maps_link": "https://www.google.com/maps/place/%EA%B2%BD%EC%83%81%EA%B5%AD%EB%A6%BD%EB%8C%80%ED%95%99%EA%B5%90+%EA%B0%80%EC%A2%8C%EC%BA%A0%ED%8D%BC%EC%8A%A4/data=!3m1!4b1!4m6!3m5!1s0x356efb9972203d61:0x7c4b2610487c477a!8m2!3d35.1530444!4d128.1010899!16zL20vMDc2Y210?entry=ttu&g_ep=EgoyMDI2MDcyNi4wIKXMDSoASAFQAw%3D%3D",
+    "lat": 35.1530444,
+    "lon": 128.1010899,
+    "address_ko": null,
+    "postcode": null
+  },
+  {
+    "original_names": [
+      "Đại học Kyungsung"
+    ],
+    "name_vi": "Đại học Kyungsung",
+    "file_sources": [
+      "diachitop2%.xlsx",
+      "TO2%.xlsx"
+    ],
+    "is_top1": false,
+    "is_top2": true,
+    "is_top3": false,
+    "is_no_topik": false,
+    "is_restricted": false,
+    "is_college": false,
+    "region": "Busan",
+    "tuition_desc": "HỌC PHÍ 4,400,000KRW- BẢO HIỂM 45,000KRW - 4,495,000KRW",
+    "dorm_desc": "550,000-900,000KRW",
+    "admission_conditions": null,
+    "featured_majors": "Thiết kế – Truyền thông – Du lịch",
+    "notes": null,
+    "maps_link": "https://www.google.com/maps/place/Kyungsung+University/data=!3m1!4b1!4m6!3m5!1s0x3568ecf1de40adff:0xc301b4b89a2f6059!8m2!3d35.1397716!4d129.0984966!16zL20vMDl2d19s?entry=ttu&g_ep=EgoyMDI2MDcyNi4wIKXMDSoASAFQAw%3D%3D",
+    "lat": 35.1397716,
+    "lon": 129.0984966,
+    "address_ko": null,
+    "postcode": null
+  },
+  {
+    "original_names": [
+      "Đại học Kyungwoon"
+    ],
+    "name_vi": "Đại học Kyungwoon",
+    "file_sources": [
+      "diachitop2%.xlsx",
+      "TO2%.xlsx"
+    ],
+    "is_top1": false,
+    "is_top2": true,
+    "is_top3": false,
+    "is_no_topik": false,
+    "is_restricted": false,
+    "is_college": false,
+    "region": "Gyeongsangbuk-do",
+    "tuition_desc": "HỌC PHÍ 4,800,000KRW - INVOICE 4,870,000KRW",
+    "dorm_desc": "600-900,000KRW",
+    "admission_conditions": null,
+    "featured_majors": "Hàng không – IT – Điều dưỡng",
+    "notes": null,
+    "maps_link": "https://www.google.com/maps/place/%EA%B2%BD%EC%9A%B4%EB%8C%80%ED%95%99%EA%B5%90/data=!3m1!4b1!4m6!3m5!1s0x3565cfc11dd7435b:0xce11012add48a7c!8m2!3d36.1659268!4d128.426725!16s%2Fg%2F12135_y4?entry=ttu&g_ep=EgoyMDI2MDcyNy4wIKXMDSoASAFQAw%3D%3D",
+    "lat": 36.1659268,
+    "lon": 128.426725,
+    "address_ko": null,
+    "postcode": null
+  },
+  {
+    "original_names": [
+      "Đại học Kyungil"
+    ],
+    "name_vi": "Đại học Kyungil",
+    "file_sources": [
+      "diachitop2%.xlsx",
+      "TO2%.xlsx"
+    ],
+    "is_top1": false,
+    "is_top2": true,
+    "is_top3": false,
+    "is_no_topik": false,
+    "is_restricted": false,
+    "is_college": false,
+    "region": "Gyeongsangbuk-do",
+    "tuition_desc": "HỌC PHÍ 4,800,000KRW - INVOICE 4,870,000KRW",
+    "dorm_desc": "600-900,000KRW",
+    "admission_conditions": null,
+    "featured_majors": "Thiết kế game – AI – Kiến trúc",
+    "notes": null,
+    "maps_link": "https://www.google.com/maps/place/%EA%B2%BD%EC%9D%BC%EB%8C%80%ED%95%99%EA%B5%90/data=!3m1!4b1!4m6!3m5!1s0x3566728ceb916789:0x303f2be904d7eee9!8m2!3d35.9079712!4d128.8012825!16s%2Fm%2F0cp4jh_?entry=ttu&g_ep=EgoyMDI2MDcyNy4wIKXMDSoASAFQAw%3D%3D",
+    "lat": 35.9079712,
+    "lon": 128.8012825,
+    "address_ko": null,
+    "postcode": null
+  },
+  {
+    "original_names": [
+      "Đại học Gwangju"
+    ],
+    "name_vi": "Đại học Gwangju",
+    "file_sources": [
+      "diachitop2%.xlsx",
+      "TO2%.xlsx"
+    ],
+    "is_top1": false,
+    "is_top2": true,
+    "is_top3": false,
+    "is_no_topik": false,
+    "is_restricted": false,
+    "is_college": false,
+    "region": "Gwangju",
+    "tuition_desc": "HỌC PHÍ 4,000,000KRW - BẢO HIỂM 200,000KRW - INVOICE 4,600,000KRW",
+    "dorm_desc": "450-810,000KRW",
+    "admission_conditions": null,
+    "featured_majors": "Làm đẹp – Thiết kế – Business",
+    "notes": null,
+    "maps_link": "https://www.google.com/maps/place/Gwangju+University/data=!3m1!4b1!4m6!3m5!1s0x35718a4eaa568cf5:0x51b80ab41c9e9262!8m2!3d35.1074896!4d126.8956046!16s%2Fm%2F05t0z56?entry=ttu&g_ep=EgoyMDI2MDcyNi4wIKXMDSoASAFQAw%3D%3D",
+    "lat": 35.1074896,
+    "lon": 126.8956046,
+    "address_ko": null,
+    "postcode": null
+  },
+  {
+    "original_names": [
+      "Đại học Quốc gia Gyeongguk"
+    ],
+    "name_vi": "Đại học Quốc gia Gyeongguk",
+    "file_sources": [
+      "diachitop2%.xlsx",
+      "TO2%.xlsx"
+    ],
+    "is_top1": false,
+    "is_top2": true,
+    "is_top3": false,
+    "is_no_topik": false,
+    "is_restricted": false,
+    "is_college": false,
+    "region": "Gyeongsangbuk-do",
+    "tuition_desc": "HỌC PHÍ 5,200,000-5,600,000KRW - BẢO HIỂM 100,000KRW - INVOICE 5,300,000-5,600,000KRW",
+    "dorm_desc": "450,000-900,000KRW",
+    "admission_conditions": null,
+    "featured_majors": "Phúc lợi xã hội, CNTT, Giáo dục",
+    "notes": null,
+    "maps_link": "https://www.google.com/maps/place/%EA%B5%AD%EB%A6%BD%EC%95%88%EB%8F%99%EB%8C%80%ED%95%99%EA%B5%90/data=!3m1!4b1!4m6!3m5!1s0x3566a360fdfd470b:0x4f8093093731448e!8m2!3d36.5418671!4d128.7968965!16zL20vMDRuNnhx?entry=ttu&g_ep=EgoyMDI2MDcyNi4wIKXMDSoASAFQAw%3D%3D",
+    "lat": 36.5418671,
+    "lon": 128.7968965,
+    "address_ko": null,
+    "postcode": null
+  },
+  {
+    "original_names": [
+      "Đại học Quốc gia Pukyong"
+    ],
+    "name_vi": "Đại học Quốc gia Pukyong",
+    "file_sources": [
+      "diachitop2%.xlsx",
+      "TO2%.xlsx"
+    ],
+    "is_top1": false,
+    "is_top2": true,
+    "is_top3": false,
+    "is_no_topik": false,
+    "is_restricted": false,
+    "is_college": false,
+    "region": "Busan",
+    "tuition_desc": "HỌC PHÍ 5,200,000KRW - BẢO HIỂM 110,000KRW - INVOICE 5,410,000KRW ",
+    "dorm_desc": "1,700,000-2,600,000KRW",
+    "admission_conditions": null,
+    "featured_majors": "Hải dương – Thủy sản – Logistics",
+    "notes": null,
+    "maps_link": "https://www.google.com/maps/place/Pukyong+National+University+-+Daeyeon+Campus/data=!3m1!4b1!4m6!3m5!1s0x3568ec6add379f1d:0x32bccda0c48405b1!8m2!3d35.134032!4d129.1031735!16zL20vMGJfMGtu?entry=ttu&g_ep=EgoyMDI2MDcyNi4wIKXMDSoASAFQAw%3D%3D",
+    "lat": 35.134032,
+    "lon": 129.1031735,
+    "address_ko": null,
+    "postcode": null
+  },
+  {
+    "original_names": [
+      "Đại học Quốc gia Sunchon"
+    ],
+    "name_vi": "Đại học Quốc gia Sunchon",
+    "file_sources": [
+      "diachitop2%.xlsx",
+      "TO2%.xlsx"
+    ],
+    "is_top1": false,
+    "is_top2": true,
+    "is_top3": false,
+    "is_no_topik": false,
+    "is_restricted": false,
+    "is_college": false,
+    "region": "Jeollanam-do",
+    "tuition_desc": "HỌC PHÍ 4,800,000-5,200,000KRW - BẢO HIỂM 140,000-170,000KRW - INVOICE 5,000,000-5,440,000KRW",
+    "dorm_desc": "1,000,000-1,200,000KRW",
+    "admission_conditions": null,
+    "featured_majors": "Nông nghiệp – Sinh học – Môi trường",
+    "notes": null,
+    "maps_link": "https://www.google.com/maps/place/%EC%88%9C%EC%B2%9C%EB%8C%80%ED%95%99%EA%B5%90/data=!3m1!4b1!4m6!3m5!1s0x356e0f471ab86613:0x5a14085c3eed42ed!8m2!3d34.9687735!4d127.4802359!16s%2Fm%2F09gl73q?entry=ttu&g_ep=EgoyMDI2MDcyNi4wIKXMDSoASAFQAw%3D%3D",
+    "lat": 34.9687735,
+    "lon": 127.4802359,
+    "address_ko": null,
+    "postcode": null
+  },
+  {
+    "original_names": [
+      "Đại học Quốc gia Changwon"
+    ],
+    "name_vi": "Đại học Quốc gia Changwon",
+    "file_sources": [
+      "diachitop2%.xlsx",
+      "TO2%.xlsx",
+      "danhsachtruonghanche.xlsx"
+    ],
+    "is_top1": false,
+    "is_top2": true,
+    "is_top3": false,
+    "is_no_topik": false,
+    "is_restricted": true,
+    "is_college": false,
+    "region": "Gyeongsangnam-do",
+    "tuition_desc": "HỌC PHÍ 4,800,000KRW - BẢO HIỂM 150,000KRW - INVOICE 5,020,000KRW",
+    "dorm_desc": "471,520-614,320 KRW",
+    "admission_conditions": null,
+    "featured_majors": "Cơ khí – Robot – Công nghiệp",
+    "notes": null,
+    "maps_link": "https://www.google.com/maps/place/Changwon+National+University/data=!3m1!4b1!4m6!3m5!1s0x3568cc80469482c9:0x56c53757cd3863a7!8m2!3d35.245595!4d128.691953!16zL20vMDRyN2Qx?entry=ttu&g_ep=EgoyMDI2MDcyNi4wIKXMDSoASAFQAw%3D%3D",
+    "lat": 35.245595,
+    "lon": 128.691953,
+    "address_ko": null,
+    "postcode": null
+  },
+  {
+    "original_names": [
+      "Đại học Công giáo Daegu",
+      "Đại học Daegu"
+    ],
+    "name_vi": "Đại học Công giáo Daegu",
+    "file_sources": [
+      "diachitop2%.xlsx",
+      "TO2%.xlsx"
+    ],
+    "is_top1": false,
+    "is_top2": true,
+    "is_top3": false,
+    "is_no_topik": false,
+    "is_restricted": false,
+    "is_college": false,
+    "region": "Gyeongsangbuk-do",
+    "tuition_desc": "HỌC PHÍ 4,800,000KRW - BẢO HIỂM 150,000KRW - INVOICE 5,020,000KRW",
+    "dorm_desc": "800,000-1,000,000KRW",
+    "admission_conditions": null,
+    "featured_majors": "Giáo dục đặc biệt – Phúc lợi – Tâm lý",
+    "notes": null,
+    "maps_link": "https://www.google.com/maps/place/%EB%8C%80%EA%B5%AC%EB%8C%80%ED%95%99%EA%B5%90/data=!3m1!4b1!4m6!3m5!1s0x35666da5cdc63007:0x22512884b2f92343!8m2!3d35.9021687!4d128.849098!16zL20vMDR2MjFf?entry=ttu&g_ep=EgoyMDI2MDcyNi4wIKXMDSoASAFQAw%3D%3D",
+    "lat": 35.9021687,
+    "lon": 128.849098,
+    "address_ko": null,
+    "postcode": null
+  },
+  {
+    "original_names": [
+      "Đại học Daeshin"
+    ],
+    "name_vi": "Đại học Daeshin",
+    "file_sources": [
+      "diachitop2%.xlsx",
+      "TO2%.xlsx"
+    ],
+    "is_top1": false,
+    "is_top2": true,
+    "is_top3": false,
+    "is_no_topik": false,
+    "is_restricted": false,
+    "is_college": false,
+    "region": "Gyeongsangbuk-do",
+    "tuition_desc": "HỌC PHÍ 2,800,000KRW - BẢO HIỂM 300,000- INVOICE 3,100,000KRW",
+    "dorm_desc": "900,000KRW",
+    "admission_conditions": null,
+    "featured_majors": "Thần học – Phúc lợi – Giáo dục",
+    "notes": null,
+    "maps_link": "https://www.google.com/maps/place/%EB%8C%80%EC%8B%A0%EB%8C%80%ED%95%99%EA%B5%90/data=!3m1!4b1!4m6!3m5!1s0x35660ec9abe293bb:0x41ebdf88d6db8444!8m2!3d35.8039003!4d128.7448354!16s%2Fg%2F122917lp?entry=ttu&g_ep=EgoyMDI2MDcyNi4wIKXMDSoASAFQAw%3D%3D",
+    "lat": 35.8039003,
+    "lon": 128.7448354,
+    "address_ko": null,
+    "postcode": null
+  },
+  {
+    "original_names": [
+      "Đại học Dongguk (WISE)"
+    ],
+    "name_vi": "Đại học Dongguk (WISE)",
+    "file_sources": [
+      "diachitop2%.xlsx",
+      "TO2%.xlsx"
+    ],
+    "is_top1": false,
+    "is_top2": true,
+    "is_top3": false,
+    "is_no_topik": false,
+    "is_restricted": false,
+    "is_college": false,
+    "region": "Gyeongsangbuk-do",
+    "tuition_desc": "HỌC PHÍ 4,800,000KRW - BẢO HIỂM 150,000KRW - INVOICE 4,950,000KRW",
+    "dorm_desc": "1,700,000-2,100,000KRW",
+    "admission_conditions": null,
+    "featured_majors": "Y học – Du lịch – Văn hóa",
+    "notes": null,
+    "maps_link": "https://www.google.com/maps/place/Dongguk+University+WISE+Campus/data=!3m1!4b1!4m6!3m5!1s0x35664d0a5e8ece5b:0x27b3f0b37f74f37d!8m2!3d35.8622478!4d129.195123!16s%2Fg%2F11c0q_c5zg?entry=ttu&g_ep=EgoyMDI2MDcyNi4wIKXMDSoASAFQAw%3D%3D",
+    "lat": 35.8622478,
+    "lon": 129.195123,
+    "address_ko": null,
+    "postcode": null
+  },
+  {
+    "original_names": [
+      "Đại học Tongmyung"
+    ],
+    "name_vi": "Đại học Tongmyung",
+    "file_sources": [
+      "diachitop2%.xlsx"
+    ],
+    "is_top1": false,
+    "is_top2": true,
+    "is_top3": false,
+    "is_no_topik": false,
+    "is_restricted": false,
+    "is_college": false,
+    "region": "Busan",
+    "tuition_desc": "HỌC PHÍ 4,400,000KRW - BẢO HIỂM 150,000- INVOICE 4,600,000KRW ",
+    "dorm_desc": "1,900,000KRW",
+    "admission_conditions": null,
+    "featured_majors": "Game – Logistics – IT",
+    "notes": null,
+    "maps_link": "https://www.google.com/maps/place/Tongmyong+University+(TU)/data=!4m14!1m7!3m6!1s0x3568ec5a87ee55f9:0x3ba9c5dbfc87c7c1!2sTongmyong+University+(TU)!8m2!3d35.1208085!4d129.1012215!16s%2Fg%2F120v10tp!3m5!1s0x3568ec5a87ee55f9:0x3ba9c5dbfc87c7c1!8m2!3d35.1208085!4d129.1012215!16s%2Fg%2F120v10tp?entry=ttu&g_ep=EgoyMDI2MDcyNi4wIKXMDSoASAFQAw%3D%3D",
+    "lat": 35.1208085,
+    "lon": 129.1012215,
+    "address_ko": null,
+    "postcode": null
+  },
+  {
+    "original_names": [
+      "Đại học Dongseo"
+    ],
+    "name_vi": "Đại học Dongseo",
+    "file_sources": [
+      "diachitop2%.xlsx",
+      "TO2%.xlsx"
+    ],
+    "is_top1": false,
+    "is_top2": true,
+    "is_top3": false,
+    "is_no_topik": false,
+    "is_restricted": false,
+    "is_college": false,
+    "region": "Busan",
+    "tuition_desc": "HỌC PHÍ 5,200,000KRW - BẢO HIỂM 150,000 - INVOICE 5,410,000KRW",
+    "dorm_desc": "1,100,000-1,400,000KRW",
+    "admission_conditions": null,
+    "featured_majors": "Điện ảnh – Animation – Digital Content",
+    "notes": null,
+    "maps_link": "https://www.google.com/maps/place/Dongseo+University/data=!3m1!4b1!4m6!3m5!1s0x3568ea3fa4df8c35:0x94ed0001e8a699f5!8m2!3d35.1461119!4d129.0070218!16zL20vMDR3NjNu?entry=ttu&g_ep=EgoyMDI2MDcyNi4wIKXMDSoASAFQAw%3D%3D",
+    "lat": 35.1461119,
+    "lon": 129.0070218,
+    "address_ko": null,
+    "postcode": null
+  },
+  {
+    "original_names": [
+      "Đại học Dong-A"
+    ],
+    "name_vi": "Đại học Dong-A",
+    "file_sources": [
+      "diachitop2%.xlsx",
+      "TO2%.xlsx"
+    ],
+    "is_top1": false,
+    "is_top2": true,
+    "is_top3": false,
+    "is_no_topik": false,
+    "is_restricted": false,
+    "is_college": false,
+    "region": "Busan",
+    "tuition_desc": "HỌC PHÍ 5,200,000- BẢO HIỂM 150,000 - INVOICE 5,400,000KRW",
+    "dorm_desc": "700,000-920,000KRW",
+    "admission_conditions": "- 7.0 trở lên\n- vắng không quá 10 buổi",
+    "featured_majors": "Y khoa – Luật – Kinh doanh",
+    "notes": null,
+    "maps_link": "https://www.google.com/maps/place/Dong-A+University+Seunghak+Campus/data=!3m1!4b1!4m6!3m5!1s0x3568ec517596b4bf:0x7b5ab063bf0254cb!8m2!3d35.11619!4d128.96733",
+    "lat": 35.11619,
+    "lon": 128.96733,
+    "address_ko": "부산광역시 사하구 낙동대로550번길 37 (하단동, 동아대학교)",
+    "postcode": "49315"
+  },
+  {
+    "original_names": [
+      "Đại học Silla"
+    ],
+    "name_vi": "Đại học Silla",
+    "file_sources": [
+      "diachitop2%.xlsx",
+      "TO2%.xlsx"
+    ],
+    "is_top1": false,
+    "is_top2": true,
+    "is_top3": false,
+    "is_no_topik": false,
+    "is_restricted": false,
+    "is_college": false,
+    "region": "Busan",
+    "tuition_desc": "HỌC PHÍ 4,800,000 - BẢO HIỂM 150,000- INVOICE 5,000,000KRW",
+    "dorm_desc": "1,200,000-1,700,000KRW",
+    "admission_conditions": null,
+    "featured_majors": "Du lịch – Hàng không – Khách sạn",
+    "notes": null,
+    "maps_link": "https://www.google.com/maps/place/Silla+University/data=!3m1!4b1!4m6!3m5!1s0x3568ea7d0f384dc5:0x3a3f5ac19d0b9966!8m2!3d35.16792!4d128.9970255!16s%2Fm%2F0cpnhbp?entry=ttu&g_ep=EgoyMDI2MDcyNi4wIKXMDSoASAFQAw%3D%3D",
+    "lat": 35.16792,
+    "lon": 128.9970255,
+    "address_ko": null,
+    "postcode": null
+  },
+  {
+    "original_names": [
+      "Đại học Yeungnam"
+    ],
+    "name_vi": "Đại học Yeungnam",
+    "file_sources": [
+      "diachitop2%.xlsx",
+      "TO2%.xlsx"
+    ],
+    "is_top1": false,
+    "is_top2": true,
+    "is_top3": false,
+    "is_no_topik": false,
+    "is_restricted": false,
+    "is_college": false,
+    "region": "Gyeongsangbuk-do",
+    "tuition_desc": "HỌC PHÍ 5,200,000-5,600,000KRW - BẢO HIỂM 150,000- INVOICE 5,410,000-5,810,000KRW",
+    "dorm_desc": "1,300,000--1,900,000KRW",
+    "admission_conditions": null,
+    "featured_majors": "Kỹ thuật – Business – Y khoa",
+    "notes": null,
+    "maps_link": "https://www.google.com/maps/place/Yeungnam+University/data=!3m1!4b1!4m6!3m5!1s0x35660c16211b30db:0x12178ee5a67ee4d8!8m2!3d35.8327851!4d128.7575715!16zL20vMDNzZmY4?entry=ttu&g_ep=EgoyMDI2MDcyNi4wIKXMDSoASAFQAw%3D%3D",
+    "lat": 35.8327851,
+    "lon": 128.7575715,
+    "address_ko": null,
+    "postcode": null
+  },
+  {
+    "original_names": [
+      "Đại học Youngsan",
+      "Đại học Yeongsang - top 3",
+      "Đại học Gyeongsang (GNU)",
+      "Đại học Youngsan "
+    ],
+    "name_vi": "Đại học Youngsan",
+    "file_sources": [
+      "diachitop2%.xlsx",
+      "TO2%.xlsx",
+      "top3.xlsx",
+      "TruongNoTOPIK.xlsx"
+    ],
+    "is_top1": false,
+    "is_top2": true,
+    "is_top3": true,
+    "is_no_topik": true,
+    "is_restricted": false,
+    "is_college": false,
+    "region": "Sejong",
+    "tuition_desc": "HỌC PHÍ 4,400,000-4,800,000KRW - BẢO HIỂM 150,000KRW - INVOICE 4,600,000-5,050,000KRW",
+    "dorm_desc": "700,000-1,100,000KRW",
+    "admission_conditions": "7,0 trở lên",
+    "featured_majors": "Luật – Khách sạn – Làm đẹp",
+    "notes": null,
+    "maps_link": "https://www.google.com/maps/place/%EC%98%81%EC%82%B0%EB%8C%80%ED%95%99%EA%B5%90/data=!3m1!4b1!4m6!3m5!1s0x35689d48698e42f7:0x9d88c11cde61cb70!8m2!3d35.2241576!4d129.1570476!16zL20vMDRxMzgx?entry=ttu&g_ep=EgoyMDI2MDcyNy4wIKXMDSoASAFQAw%3D%3D",
+    "lat": 35.2241576,
+    "lon": 129.1570476,
+    "address_ko": null,
+    "postcode": null
+  },
+  {
+    "original_names": [
+      "Đại học Ulsan",
+      "Đại học Ulsan "
+    ],
+    "name_vi": "Đại học Ulsan",
+    "file_sources": [
+      "diachitop2%.xlsx",
+      "TO2%.xlsx",
+      "TruongNoTOPIK.xlsx"
+    ],
+    "is_top1": false,
+    "is_top2": true,
+    "is_top3": false,
+    "is_no_topik": true,
+    "is_restricted": false,
+    "is_college": false,
+    "region": "Ulsan",
+    "tuition_desc": "HỌC PHÍ 5,200,000-5,600,000- BẢO HIỂM 150,000- INVOICE 5,410,000-5,810,000KRW",
+    "dorm_desc": "1,100,000-1,900,000KRW",
+    "admission_conditions": null,
+    "featured_majors": "Ô tô – Đóng tàu – Kỹ thuật",
+    "notes": null,
+    "maps_link": "https://www.google.com/maps/place/University+of+Ulsan/data=!3m1!4b1!4m6!3m5!1s0x35662ded71ce0c67:0x4a646e34876ef49c!8m2!3d35.5437411!4d129.2562843!16s%2Fm%2F02qdrpq?entry=ttu&g_ep=EgoyMDI2MDcyNi4wIKXMDSoASAFQAw%3D%3D",
+    "lat": 35.5437411,
+    "lon": 129.2562843,
+    "address_ko": null,
+    "postcode": null
+  },
+  {
+    "original_names": [
+      "Đại học Widuk"
+    ],
+    "name_vi": "Đại học Widuk",
+    "file_sources": [
+      "diachitop2%.xlsx",
+      "TO2%.xlsx"
+    ],
+    "is_top1": false,
+    "is_top2": true,
+    "is_top3": false,
+    "is_no_topik": false,
+    "is_restricted": false,
+    "is_college": false,
+    "region": "Gyeongsangbuk-do",
+    "tuition_desc": "HỌC PHÍ 4,000,000KRW - BẢO HIỂM 150,000KRW - INVOICE 4,200,000KRW",
+    "dorm_desc": "600,000-900,000KRW",
+    "admission_conditions": null,
+    "featured_majors": "Điều dưỡng – Phúc lợi – Giáo dục",
+    "notes": null,
+    "maps_link": "https://www.google.com/maps/place/%EC%9C%84%EB%8D%95%EB%8C%80%ED%95%99%EA%B5%90/data=!3m1!4b1!4m6!3m5!1s0x3566ffa68ea38479:0x598c7c39251e487e!8m2!3d36.0152355!4d129.2841375!16s%2Fm%2F03h4lyg?entry=ttu&g_ep=EgoyMDI2MDcyNi4wIKXMDSoASAFQAw%3D%3D",
+    "lat": 36.0152355,
+    "lon": 129.2841375,
+    "address_ko": null,
+    "postcode": null
+  },
+  {
+    "original_names": [
+      "Đại học Inje"
+    ],
+    "name_vi": "Đại học Inje",
+    "file_sources": [
+      "diachitop2%.xlsx",
+      "TO2%.xlsx"
+    ],
+    "is_top1": false,
+    "is_top2": true,
+    "is_top3": false,
+    "is_no_topik": false,
+    "is_restricted": false,
+    "is_college": false,
+    "region": "Gyeongsangnam-do",
+    "tuition_desc": "HỌC PHÍ 4,800,000-5,200,000KRW - BẢO HIỂM 150,000 - INVOICE 5,000,000-5,400,000KRW",
+    "dorm_desc": "1,300,000-1,800,000KRW",
+    "admission_conditions": null,
+    "featured_majors": "Y khoa – Business – Ngôn ngữ",
+    "notes": null,
+    "maps_link": "https://www.google.com/maps/place/%EC%9D%B8%EC%A0%9C%EB%8C%80%ED%95%99%EA%B5%90+%EA%B9%80%ED%95%B4%EC%BA%A0%ED%8D%BC%EC%8A%A4/data=!3m1!4b1!4m6!3m5!1s0x3568b8acfc25b357:0xc3d01c491a811dee!8m2!3d35.2503874!4d128.9011775!16s%2Fm%2F02wz864?entry=ttu&g_ep=EgoyMDI2MDcyNi4wIKXMDSoASAFQAw%3D%3D",
+    "lat": 35.2503874,
+    "lon": 128.9011775,
+    "address_ko": null,
+    "postcode": null
+  },
+  {
+    "original_names": [
+      "Đại học Quốc gia Chonnam",
+      "Đại học Quốc gia Chonnam (CNU)"
+    ],
+    "name_vi": "Đại học Quốc gia Chonnam",
+    "file_sources": [
+      "diachitop2%.xlsx",
+      "TO2%.xlsx",
+      "TruongNoTOPIK.xlsx"
+    ],
+    "is_top1": false,
+    "is_top2": true,
+    "is_top3": false,
+    "is_no_topik": true,
+    "is_restricted": false,
+    "is_college": false,
+    "region": "Gwangju",
+    "tuition_desc": "HỌC PHÍ HỌC PHÍ 5,200,000-5,600,000KRW - BẢO HIỂM 150,000- INVOICE 5,410,000-5,810,000KRW",
+    "dorm_desc": "1,200,000--1,900,000KRW",
+    "admission_conditions": null,
+    "featured_majors": "Y khoa – Điều dưỡng – Vật lý trị liệu",
+    "notes": null,
+    "maps_link": "https://www.google.com/maps/place/Chonnam+National+University+-+Gwangju+Campus/data=!3m1!4b1!4m6!3m5!1s0x35718c565626526b:0x7e85baeda973a225!8m2!3d35.1762231!4d126.9057696!16zL20vMDRzZGJw?entry=ttu&g_ep=EgoyMDI2MDcyNi4wIKXMDSoASAFQAw%3D%3D",
+    "lat": 35.1762231,
+    "lon": 126.9057696,
+    "address_ko": null,
+    "postcode": null
+  },
+  {
+    "original_names": [
+      "Đại học Quốc gia Chonbuk"
+    ],
+    "name_vi": "Đại học Quốc gia Chonbuk",
+    "file_sources": [
+      "diachitop2%.xlsx",
+      "TO2%.xlsx"
+    ],
+    "is_top1": false,
+    "is_top2": true,
+    "is_top3": false,
+    "is_no_topik": false,
+    "is_restricted": false,
+    "is_college": false,
+    "region": "Jeollabuk-do",
+    "tuition_desc": "HỌC PHÍ 4,800,000-5,200,00KRW - BẢO HIỂM 150,000- INVOICE 5,010,000-5,410,000KRW",
+    "dorm_desc": "1,200,000-1,600,000KRW",
+    "admission_conditions": null,
+    "featured_majors": "Nông nghiệp – Y khoa – Kỹ thuật",
+    "notes": null,
+    "maps_link": "https://www.google.com/maps/place/%EC%A0%84%EB%B6%81%EB%8C%80%ED%95%99%EA%B5%90+%EC%A0%84%EC%A3%BC%EC%BA%A0%ED%8D%BC%EC%8A%A4/data=!3m1!4b1!4m6!3m5!1s0x35702334621b3bb9:0xd2ef0eee158844e1!8m2!3d35.8468171!4d127.1299221!16s%2Fm%2F025vx2f?entry=ttu&g_ep=EgoyMDI2MDcyNi4wIKXMDSoASAFQAw%3D%3D",
+    "lat": 35.8468171,
+    "lon": 127.1299221,
+    "address_ko": null,
+    "postcode": null
+  },
+  {
+    "original_names": [
+      "Đại học Jeju",
+      "Đại học Halla Jeju",
+      "Đại học Jeju - top 3",
+      "Đại học Jeju (Jeju National University – JNU)",
+      "Đại học Quốc gia Jeju"
+    ],
+    "name_vi": "Đại học Jeju",
+    "file_sources": [
+      "diachitop2%.xlsx",
+      "TO2%.xlsx",
+      "top3.xlsx",
+      "TruongNoTOPIK.xlsx"
+    ],
+    "is_top1": false,
+    "is_top2": true,
+    "is_top3": true,
+    "is_no_topik": true,
+    "is_restricted": false,
+    "is_college": true,
+    "region": "Jeju-do",
+    "tuition_desc": "HỌC PHÍ 4,800,000 - 5,200,000KRW - BẢO HIỂM 150,000KRW - INVOICE 5,000,000-5,450,000KRW",
+    "dorm_desc": "800,000-1,300,000KRW",
+    "admission_conditions": "6,5 trở lên",
+    "featured_majors": "Logistics – Khách sạn – AI / IT",
+    "notes": null,
+    "maps_link": "https://www.google.com/maps/place/Jeju+National+University,+Ara+Campus/data=!4m10!1m2!2m1!1zZWp1IE5hdGlvbmFsIFVuaXZlcnNpdHkgLSDsoJzso7zrjIDtlZnqtZA!3m6!1s0x350cfc555867cca9:0xc116b52f871f6f2!8m2!3d33.4559218!4d126.5620336!15sCillanUgTmF0aW9uYWwgVW5pdmVyc2l0eSAtIOygnOyjvOuMgO2Vmeq1kFoqIihlanUgbmF0aW9uYWwgdW5pdmVyc2l0eSDsoJzso7wg64yA7ZWZ6rWQkgERcHVibGljX3VuaXZlcnNpdHmaASNDaFpEU1VoTk1HOW5TMFZKUTBGblNVTkdlUzFtT0UxM0VBReABAPoBBAh9EBE!16zL20vMDRyN2J4?entry=ttu&g_ep=EgoyMDI2MDcyNy4wIKXMDSoASAFQAw%3D%3D",
+    "lat": 33.4559218,
+    "lon": 126.5620336,
+    "address_ko": null,
+    "postcode": null
+  },
+  {
+    "original_names": [
+      "Đại học Chosun"
+    ],
+    "name_vi": "Đại học Chosun",
+    "file_sources": [
+      "diachitop2%.xlsx",
+      "TO2%.xlsx"
+    ],
+    "is_top1": false,
+    "is_top2": true,
+    "is_top3": false,
+    "is_no_topik": false,
+    "is_restricted": false,
+    "is_college": false,
+    "region": "Gwangju",
+    "tuition_desc": "HỌC PHÍ 4,800,000-5,200,000KRW - BẢO HIỂM 150,000- INVOICE 5,000,000-5,400,000KRW",
+    "dorm_desc": "1,200,000-1,800,000KRW",
+    "admission_conditions": null,
+    "featured_majors": "Nha khoa – Y khoa – Kỹ thuật",
+    "notes": null,
+    "maps_link": "https://www.google.com/maps/place/Chosun+University/data=!3m1!4b1!4m6!3m5!1s0x35718c9896ea2215:0x7d545f1be9304f2e!8m2!3d35.1414845!4d126.9321044!16zL20vMDRzeHd6?entry=ttu&g_ep=EgoyMDI2MDcyNi4wIKXMDSoASAFQAw%3D%3D",
+    "lat": 35.1414845,
+    "lon": 126.9321044,
+    "address_ko": null,
+    "postcode": null
+  },
+  {
+    "original_names": [
+      "Đại học Nữ Kyungin"
+    ],
+    "name_vi": "Đại học Nữ Kyungin",
+    "file_sources": [
+      "diachitop2%.xlsx",
+      "TO2%.xlsx"
+    ],
+    "is_top1": false,
+    "is_top2": true,
+    "is_top3": false,
+    "is_no_topik": false,
+    "is_restricted": false,
+    "is_college": true,
+    "region": "Incheon",
+    "tuition_desc": "HỌC PHÍ 4,400,000KRW - BẢO HIỂM 150,000KRW - INVOICE 4,400,000-4,650,000KRW",
+    "dorm_desc": "600,000-1,000,0000KRW",
+    "admission_conditions": null,
+    "featured_majors": "Làm đẹp – Tiếp viên hàng không – Điều dưỡng",
+    "notes": null,
+    "maps_link": "https://www.google.com/maps/place/%EA%B2%BD%EC%9D%B8%EC%97%AC%EC%9E%90%EB%8C%80%ED%95%99%EA%B5%90/data=!3m1!4b1!4m6!3m5!1s0x357c826e07da1f2f:0xce5470bbeecc0c18!8m2!3d37.5481566!4d126.7228325!16s%2Fg%2F1pv0vzk0?entry=ttu&g_ep=EgoyMDI2MDcyNi4wIKXMDSoASAFQAw%3D%3D",
+    "lat": 37.5481566,
+    "lon": 126.7228325,
+    "address_ko": null,
+    "postcode": null
+  },
+  {
+    "original_names": [
+      "Đại học Dongwon"
+    ],
+    "name_vi": "Đại học Dongwon",
+    "file_sources": [
+      "diachitop2%.xlsx",
+      "TO2%.xlsx"
+    ],
+    "is_top1": false,
+    "is_top2": true,
+    "is_top3": false,
+    "is_no_topik": false,
+    "is_restricted": false,
+    "is_college": true,
+    "region": "Gyeonggi-do",
+    "tuition_desc": "HỌC PHÍ 4,000,000-4,400,000 KRW - BẢO HIỂM 150,000KRW - INVOICE 4,200,000-4,600,000KRW",
+    "dorm_desc": "600,000-900,000KRW",
+    "admission_conditions": null,
+    "featured_majors": "Điều dưỡng – Khách sạn – Thiết kế",
+    "notes": null,
+    "maps_link": "https://www.google.com/maps/place/%EB%8F%99%EC%9B%90%EA%B3%BC%ED%95%99%EA%B8%B0%EC%88%A0%EB%8C%80%ED%95%99%EA%B5%90/data=!3m1!4b1!4m6!3m5!1s0x356899f426d7cf13:0xb57a37d394ea9009!8m2!3d35.3426292!4d129.0674257!16zL20vMDRwY3R5?entry=ttu&g_ep=EgoyMDI2MDcyNi4wIKXMDSoASAFQAw%3D%3D",
+    "lat": 35.3426292,
+    "lon": 129.0674257,
+    "address_ko": null,
+    "postcode": null
+  },
+  {
+    "original_names": [
+      "Cao đẳng Myongji"
+    ],
+    "name_vi": "Cao đẳng Myongji",
+    "file_sources": [
+      "diachitop2%.xlsx",
+      "TO2%.xlsx"
+    ],
+    "is_top1": false,
+    "is_top2": true,
+    "is_top3": false,
+    "is_no_topik": false,
+    "is_restricted": false,
+    "is_college": true,
+    "region": "Seoul",
+    "tuition_desc": "HỌC PHÍ 5,000,000KRW - BẢO HIỂM 150,000KRW - INVOICE 5,200,000KRW",
+    "dorm_desc": "800,000-1,200,000KRW",
+    "admission_conditions": null,
+    "featured_majors": "Thiết kế – Diễn xuất – Truyền thông",
+    "notes": null,
+    "maps_link": "https://www.google.com/maps/place/Myongji+College/data=!3m1!4b1!4m6!3m5!1s0x357c985b19c71155:0x94b833a089e6accb!8m2!3d37.5846465!4d126.9251874!16s%2Fm%2F0cp4blw?entry=ttu&g_ep=EgoyMDI2MDcyNy4wIKXMDSoASAFQAw%3D%3D",
+    "lat": 37.5846465,
+    "lon": 126.9251874,
+    "address_ko": null,
+    "postcode": null
+  },
+  {
+    "original_names": [
+      "Đại học Ansan"
+    ],
+    "name_vi": "Đại học Ansan",
+    "file_sources": [
+      "diachitop2%.xlsx",
+      "TO2%.xlsx",
+      "top3.xlsx"
+    ],
+    "is_top1": false,
+    "is_top2": true,
+    "is_top3": true,
+    "is_no_topik": false,
+    "is_restricted": false,
+    "is_college": true,
+    "region": "Thành phố Ansan ( tỉnh Gyeonggi)",
+    "tuition_desc": "HỌC PHÍ 4,400,000-4,800,000KRW - BẢO HIỂM 150,000KRW - INVOICE 4,600,000-5,050,000KRW",
+    "dorm_desc": "800,000-1,200,000KRW",
+    "admission_conditions": null,
+    "featured_majors": "Điều dưỡng, làm đẹp, du lịch khách sạn",
+    "notes": null,
+    "maps_link": "https://www.google.com/maps/place/%EC%95%88%EC%82%B0%EB%8C%80%ED%95%99%EA%B5%90/data=!3m1!4b1!4m6!3m5!1s0x357b68cefa48d015:0xf752545d7370f50e!8m2!3d37.3096755!4d126.8755978!16zL20vMDRuaHRw?entry=ttu&g_ep=EgoyMDI2MDcyNy4wIKXMDSoASAFQAw%3D%3D",
+    "lat": 37.3096755,
+    "lon": 126.8755978,
+    "address_ko": null,
+    "postcode": null
+  },
+  {
+    "original_names": [
+      "Đại học Osan"
+    ],
+    "name_vi": "Đại học Osan",
+    "file_sources": [
+      "diachitop2%.xlsx",
+      "TO2%.xlsx",
+      "top3.xlsx"
+    ],
+    "is_top1": false,
+    "is_top2": true,
+    "is_top3": true,
+    "is_no_topik": false,
+    "is_restricted": false,
+    "is_college": true,
+    "region": "Gyeonggi",
+    "tuition_desc": "HỌC PHÍ 4,200,000-4,600,000KRW - BẢO HIỂM 150,000KRW - INVOICE 4,400,000-4,850,,000KRW",
+    "dorm_desc": "700,000-1,100,000KRW",
+    "admission_conditions": null,
+    "featured_majors": "Kỹ thuật, xã hội và nhân văn, nghệ thuật và thiết kế",
+    "notes": null,
+    "maps_link": "https://www.google.com/maps/place/%EC%98%A4%EC%82%B0%EB%8C%80%ED%95%99%EA%B5%90/data=!3m1!4b1!4m6!3m5!1s0x357b47201f241763:0x8e847d60828293ab!8m2!3d37.1555805!4d127.0608105!16s%2Fg%2F1215vvv0?entry=ttu&g_ep=EgoyMDI2MDcyNy4wIKXMDSoASAFQAw%3D%3D",
+    "lat": 37.1555805,
+    "lon": 127.0608105,
+    "address_ko": null,
+    "postcode": null
+  },
+  {
+    "original_names": [
+      "Đại học Nghệ thuật & Khoa học Yongin"
+    ],
+    "name_vi": "Đại học Nghệ thuật & Khoa học Yongin",
+    "file_sources": [
+      "diachitop2%.xlsx",
+      "TO2%.xlsx"
+    ],
+    "is_top1": false,
+    "is_top2": true,
+    "is_top3": false,
+    "is_no_topik": false,
+    "is_restricted": false,
+    "is_college": true,
+    "region": "Gyeonggi-do",
+    "tuition_desc": "HỌC PHÍ 4,400,000KRW - BẢO HIỂM 120,000-200,000 - INVOICE 4,600,000-4,700,000KRW",
+    "dorm_desc": "1,800,000KRW",
+    "admission_conditions": null,
+    "featured_majors": "Âm nhạc– Thiết kế – Làm đẹp",
+    "notes": null,
+    "maps_link": "https://www.google.com/maps/place/%EC%9A%A9%EC%9D%B8%EC%98%88%EC%88%A0%EA%B3%BC%ED%95%99%EB%8C%80%ED%95%99%EA%B5%90/data=!3m1!4b1!4m6!3m5!1s0x357b5218a2a1df25:0xe3cdebfbcf423437!8m2!3d37.228481!4d127.2160755!16zL20vMDRwbl9r?entry=ttu&g_ep=EgoyMDI2MDcyNi4wIKXMDSoASAFQAw%3D%3D",
+    "lat": 37.228481,
+    "lon": 127.2160755,
+    "address_ko": null,
+    "postcode": null
+  },
+  {
+    "original_names": [
+      "Đại học Induk"
+    ],
+    "name_vi": "Đại học Induk",
+    "file_sources": [
+      "diachitop2%.xlsx",
+      "TO2%.xlsx"
+    ],
+    "is_top1": false,
+    "is_top2": true,
+    "is_top3": false,
+    "is_no_topik": false,
+    "is_restricted": false,
+    "is_college": true,
+    "region": "Seoul",
+    "tuition_desc": "HỌC PHÍ 5,200,000-5,600,000KRW - BẢO HIỂM 150,000KRW - INVOICE 5,400,000-5,800,000KRW",
+    "dorm_desc": "800,000-1,200,000KRW",
+    "admission_conditions": null,
+    "featured_majors": "Thiết kế  -  CNTT - Truyền thông",
+    "notes": null,
+    "maps_link": "https://www.google.com/maps/place/Induk+University/data=!3m1!4b1!4m6!3m5!1s0x357cbbe5f3843891:0x2a334389e7cd7a44!8m2!3d37.6314191!4d127.0548249!16s%2Fg%2F1217cp8c?entry=ttu&g_ep=EgoyMDI2MDcyNi4wIKXMDSoASAFQAw%3D%3D",
+    "lat": 37.6314191,
+    "lon": 127.0548249,
+    "address_ko": null,
+    "postcode": null
+  },
+  {
+    "original_names": [
+      "Học viện Nghệ thuật Seoul "
+    ],
+    "name_vi": "Học viện Nghệ thuật Seoul ",
+    "file_sources": [
+      "diachitop2%.xlsx"
+    ],
+    "is_top1": false,
+    "is_top2": true,
+    "is_top3": false,
+    "is_no_topik": false,
+    "is_restricted": false,
+    "is_college": true,
+    "region": "Gyeonggi-do",
+    "tuition_desc": "HỌC PHÍ ",
+    "dorm_desc": null,
+    "admission_conditions": null,
+    "featured_majors": "Điện ảnh, Diễn xuất, Đạo diễn",
+    "notes": null,
+    "maps_link": "https://www.google.com/maps/place/Seoul+Institute+of+the+Arts/data=!3m8!1e2!3m6!1sCIABIhD0YO2DlKrH0_jwjm5eaBeF!2e10!3e12!6shttps:%2F%2Flh3.googleusercontent.com%2Fgps-cs-s%2FAHRPTWlhC-tTftDsvoEF8heWaIQJqyElwz7NfMey3a6bTDhJaPJTJwd8yTzQbgaUvKSAVFDpXy7iWMWJpmaENFdhfTjE3Llnn5ynLCMkM3MOctq9VECDSbNiwlVNREkZgqJFWZS9fAdZkE3egdg5%3Dw114-h86-k-no!7i4000!8i3000!4m7!3m6!1s0x357b6f6d8f0598f3:0xcbdaabc0fb7def68!8m2!3d37.3340318!4d126.8362407!10e5!16zL20vMGJwZGZj?entry=ttu&g_ep=EgoyMDI2MDcyNy4wIKXMDSoASAFQAw%3D%3D",
+    "lat": 37.3340318,
+    "lon": 126.8362407,
+    "address_ko": null,
+    "postcode": null
+  },
+  {
+    "original_names": [
+      "Đại học Y tế Wonkwang"
+    ],
+    "name_vi": "Đại học Y tế Wonkwang",
+    "file_sources": [
+      "diachitop2%.xlsx",
+      "TO2%.xlsx"
+    ],
+    "is_top1": false,
+    "is_top2": true,
+    "is_top3": false,
+    "is_no_topik": false,
+    "is_restricted": false,
+    "is_college": true,
+    "region": "Jeollabuk-do",
+    "tuition_desc": "HỌC PHÍ 4,000,000-4,400,000KRW - BẢO HIỂM 150,000KRW - INVOICE 4,200,000-4,600,000KRW",
+    "dorm_desc": "600,000-900,000KRW",
+    "admission_conditions": null,
+    "featured_majors": "Điều dưỡng, Vật lý trị liệu, Dược",
+    "notes": null,
+    "maps_link": "https://www.google.com/maps/place/Wonkwang+Health+Science+University/data=!4m15!1m8!3m7!1s0x3570154d47652901:0xf1b31505a1e41b66!2s514+Iksan-daero,+Iksan,+Jeonbuk+State,+South+Korea!3b1!8m2!3d35.9720583!4d126.9557153!16s%2Fg%2F11bz9p7lh9!3m5!1s0x3570154d43fada09:0x7bceec12a80f17b2!8m2!3d35.9714055!4d126.9551492!16s%2Fm%2F0cp4jxc?entry=ttu&g_ep=EgoyMDI2MDcyNi4wIKXMDSoASAFQAw%3D%3D",
+    "lat": 35.9720583,
+    "lon": 126.9557153,
+    "address_ko": null,
+    "postcode": null
+  },
+  {
+    "original_names": [
+      "Đại học học Khoa học Jeonbuk"
+    ],
+    "name_vi": "Đại học học Khoa học Jeonbuk",
+    "file_sources": [
+      "diachitop2%.xlsx",
+      "TO2%.xlsx"
+    ],
+    "is_top1": false,
+    "is_top2": true,
+    "is_top3": false,
+    "is_no_topik": false,
+    "is_restricted": false,
+    "is_college": true,
+    "region": "Jeollabuk-do",
+    "tuition_desc": "HỌC PHÍ 4,400,000-4,800,000- BẢO HIỂM 150,000KRW- INVOICE 4,600,000-5,050,000KRW",
+    "dorm_desc": "600,000-1,000,000KRW",
+    "admission_conditions": null,
+    "featured_majors": "Điều dưỡng – Công nghệ thực phẩm – Làm đẹp",
+    "notes": null,
+    "maps_link": "https://www.google.com/maps/place/%EC%A0%84%EB%B6%81%EA%B3%BC%ED%95%99%EB%8C%80%ED%95%99%EA%B5%90/data=!3m1!4b1!4m6!3m5!1s0x3571b0b4f8eed977:0x1f6662fba735fae5!8m2!3d35.5489747!4d126.8608334!16s%2Fm%2F03chsgq?entry=ttu&g_ep=EgoyMDI2MDcyNy4wIKXMDSoASAFQAw%3D%3D",
+    "lat": 35.5489747,
+    "lon": 126.8608334,
+    "address_ko": null,
+    "postcode": null
+  },
+  {
+    "original_names": [
+      "Đại học Thông tin Kyungnam"
+    ],
+    "name_vi": "Đại học Thông tin Kyungnam",
+    "file_sources": [
+      "diachitop2%.xlsx",
+      "TO2%.xlsx"
+    ],
+    "is_top1": false,
+    "is_top2": true,
+    "is_top3": false,
+    "is_no_topik": false,
+    "is_restricted": false,
+    "is_college": true,
+    "region": "Busan",
+    "tuition_desc": "HỌC PHÍ 4,800,000- BẢO HIỂM 140,000- INVOICE 5,840,00KRW",
+    "dorm_desc": "800,000KRW",
+    "admission_conditions": null,
+    "featured_majors": "IT – Cơ khí – Điều dưỡng",
+    "notes": null,
+    "maps_link": "https://www.google.com/maps/place/%EA%B2%BD%EB%82%A8%EC%A0%95%EB%B3%B4%EB%8C%80%ED%95%99%EA%B5%90/data=!3m1!4b1!4m6!3m5!1s0x3568ea3fa4df8c35:0xd0c2f6e660d4c209!8m2!3d35.1468209!4d129.0112424!16s%2Fg%2F15dpcqj7?entry=ttu&g_ep=EgoyMDI2MDcyNy4wIKXMDSoASAFQAw%3D%3D",
+    "lat": 35.1468209,
+    "lon": 129.0112424,
+    "address_ko": null,
+    "postcode": null
+  },
+  {
+    "original_names": [
+      "Đại học Khoa học Dong-eui"
+    ],
+    "name_vi": "Đại học Khoa học Dong-eui",
+    "file_sources": [
+      "diachitop2%.xlsx",
+      "TO2%.xlsx"
+    ],
+    "is_top1": false,
+    "is_top2": true,
+    "is_top3": false,
+    "is_no_topik": false,
+    "is_restricted": false,
+    "is_college": true,
+    "region": "Busan",
+    "tuition_desc": "HỌC PHÍ 4,800,000-5,200,000KRW - BẢO HIỂM 150,000KRW- INVOICE 5,000,000-5,450,000KRW",
+    "dorm_desc": "800,000-1,300,000KRW",
+    "admission_conditions": null,
+    "featured_majors": "Cơ khí – IT – Điều dưỡng",
+    "notes": null,
+    "maps_link": "https://www.google.com/maps/place/%EB%8F%99%EC%9D%98%EA%B3%BC%ED%95%99%EB%8C%80%ED%95%99%EA%B5%90/data=!3m1!4b1!4m6!3m5!1s0x3568eca70d07d243:0xca0acf886f784030!8m2!3d35.165858!4d129.0728581!16s%2Fg%2F120_gck3?entry=ttu&g_ep=EgoyMDI2MDcyNy4wIKXMDSoASAFQAw%3D%3D",
+    "lat": 35.165858,
+    "lon": 129.0728581,
+    "address_ko": null,
+    "postcode": null
+  },
+  {
+    "original_names": [
+      "Đại học Yeungnam College"
+    ],
+    "name_vi": "Đại học Yeungnam College",
+    "file_sources": [
+      "diachitop2%.xlsx",
+      "TO2%.xlsx"
+    ],
+    "is_top1": false,
+    "is_top2": true,
+    "is_top3": false,
+    "is_no_topik": false,
+    "is_restricted": false,
+    "is_college": true,
+    "region": "Daegu",
+    "tuition_desc": "HỌC PHÍ 5,200,000KRW - BẢO HIỂM 150,000 - INVOICE 4,800,000-5,200,000KRW",
+    "dorm_desc": "630,000-780,000KRW",
+    "admission_conditions": null,
+    "featured_majors": "Điều dưỡng – Khách sạn – Thiết kế",
+    "notes": null,
+    "maps_link": "https://www.google.com/maps/place/Yeungnam+University+College+(YNC),+Daegu/data=!3m1!4b1!4m6!3m5!1s0x3565e3764b4d5237:0x69d67ee91bc24d0!8m2!3d35.8469137!4d128.5828285!16zL20vMDRwZmNi?entry=ttu&g_ep=EgoyMDI2MDcyNy4wIKXMDSoASAFQAw%3D%3D",
+    "lat": 35.8469137,
+    "lon": 128.5828285,
+    "address_ko": null,
+    "postcode": null
+  },
+  {
+    "original_names": [
+      "Cao đẳng Yeungjin"
+    ],
+    "name_vi": "Cao đẳng Yeungjin",
+    "file_sources": [
+      "diachitop2%.xlsx",
+      "TO2%.xlsx"
+    ],
+    "is_top1": false,
+    "is_top2": true,
+    "is_top3": false,
+    "is_no_topik": false,
+    "is_restricted": false,
+    "is_college": true,
+    "region": "Daegu",
+    "tuition_desc": "HỌC PHÍ 4,800,000KRW-BẢO HIỂM 150,000- INVOICE 6,050,000KRW",
+    "dorm_desc": "700,000- 1,000,000KRW",
+    "admission_conditions": null,
+    "featured_majors": "IT – AI – Cơ điện tử",
+    "notes": null,
+    "maps_link": "https://www.google.com/maps/place/Yeungjin+University+(YJU),+Daegu/data=!3m1!4b1!4m6!3m5!1s0x3565e1bb3ae69edd:0x8aa4f6b999146d66!8m2!3d35.8956224!4d128.6224266!16zL20vMDRwZjh0?entry=ttu&g_ep=EgoyMDI2MDcyNi4wIKXMDSoASAFQAw%3D%3D",
+    "lat": 35.8956224,
+    "lon": 128.6224266,
+    "address_ko": null,
+    "postcode": null
+  },
+  {
+    "original_names": [
+      "Đại học Khoa học Ulsan"
+    ],
+    "name_vi": "Đại học Khoa học Ulsan",
+    "file_sources": [
+      "diachitop2%.xlsx",
+      "TO2%.xlsx"
+    ],
+    "is_top1": false,
+    "is_top2": true,
+    "is_top3": false,
+    "is_no_topik": false,
+    "is_restricted": false,
+    "is_college": true,
+    "region": "Ulsan",
+    "tuition_desc": "HỌC PHÍ 5,600,000-6,000,000KRW - BẢO HIỂM 150,000- INVOICE 5,800,000-6,250,000KRW",
+    "dorm_desc": "2,000,000KRW",
+    "admission_conditions": null,
+    "featured_majors": "Đóng tàu – Cơ khí – Công nghiệp",
+    "notes": null,
+    "maps_link": "https://www.google.com/maps/place/%EC%9A%B8%EC%82%B0%EA%B3%BC%ED%95%99%EB%8C%80%ED%95%99%EA%B5%90/data=!4m10!1m2!2m1!1zVHLGsOG7nW5nIENhbyDEkeG6s25nIEtob2EgaOG7jWMgVWxzYW4gLSBDxqEgc-G7nyBwaMOtYSDEkMO0bmcgKFVsc2FuIENvbGxlZ2UgLSBFYXN0IENhbXB1cyAvIOyauOyCsOqzvO2VmeuMgO2Vmeq1kCDrj5nrtoDsuqDtjbzsiqQp!3m6!1s0x3567ce1c93a7b12f:0xc0742685a4499cba!8m2!3d35.4957893!4d129.4156498!15sCoQBVHLGsOG7nW5nIENhbyDEkeG6s25nIEtob2EgaOG7jWMgVWxzYW4gLSBDxqEgc-G7nyBwaMOtYSDEkMO0bmcgKFVsc2FuIENvbGxlZ2UgLSBFYXN0IENhbXB1cyAvIOyauOyCsOqzvO2VmeuMgO2Vmeq1kCDrj5nrtoDsuqDtjbzsiqQpWoEBIn90csaw4budbmcgY2FvIMSR4bqzbmcga2hvYSBo4buNYyB1bHNhbiBjxqEgc-G7nyBwaMOtYSDEkcO0bmcgdWxzYW4gY29sbGVnZSBlYXN0IGNhbXB1cyDsmrjsgrAg6rO87ZWZIOuMgO2Vmeq1kCDrj5nrtoAg7Lqg7Y287IqkkgEHY29sbGVnZZoBI0NoWkRTVWhOTUc5blMwVkphVXQwVUhsWmRqVnhMVmxSRUFF4AEA-gEECAAQFQ!16s%2Fm%2F0t_flkj?entry=ttu&g_ep=EgoyMDI2MDcyNy4wIKXMDSoASAFQAw%3D%3D",
+    "lat": 35.4957893,
+    "lon": 129.4156498,
+    "address_ko": null,
+    "postcode": null
+  },
+  {
+    "original_names": [
+      "Viện Cao học Ngôn ngữ Quốc tế"
+    ],
+    "name_vi": "Viện Cao học Ngôn ngữ Quốc tế",
+    "file_sources": [
+      "diachitop2%.xlsx"
+    ],
+    "is_top1": false,
+    "is_top2": true,
+    "is_top3": false,
+    "is_no_topik": false,
+    "is_restricted": false,
+    "is_college": false,
+    "region": "Seoul",
+    "tuition_desc": "HỌC PHÍ 8,000,000-12,000,000KRW - BẢO HIỂM 200,000KRW - INVOICE 8,800,000-13,200,000KRW",
+    "dorm_desc": "1,200,000-2,000,000KRW",
+    "admission_conditions": null,
+    "featured_majors": "Biên phiên dịch – Ngoại ngữ – Quốc tế học",
+    "notes": null,
+    "maps_link": "https://www.google.com/maps/place/%EA%B5%AD%EC%A0%9C%EC%96%B8%EC%96%B4%EB%8C%80%ED%95%99%EC%9B%90%EB%8C%80%ED%95%99%EA%B5%90/data=!3m1!4b1!4m6!3m5!1s0x357caff3c7163429:0x7b0957b3b1c94bfd!8m2!3d37.5242593!4d127.1294916!16s%2Fm%2F0407_k8?entry=ttu&g_ep=EgoyMDI2MDcyNy4wIKXMDSoASAFQAw%3D%3D",
+    "lat": 37.5242593,
+    "lon": 127.1294916,
+    "address_ko": null,
+    "postcode": null
+  },
+  {
+    "original_names": [
+      "Đại học Sau đại học Sunhak UP"
+    ],
+    "name_vi": "Đại học Sau đại học Sunhak UP",
+    "file_sources": [
+      "diachitop2%.xlsx",
+      "TO2%.xlsx"
+    ],
+    "is_top1": false,
+    "is_top2": true,
+    "is_top3": false,
+    "is_no_topik": false,
+    "is_restricted": false,
+    "is_college": false,
+    "region": "Gyeonggi-do",
+    "tuition_desc": "HỌC PHÍ 6,000,000-9,000,000KRW - BẢO HIỂM 200,000KRW - INVOICE 6,700,000-10,000,000KRW",
+    "dorm_desc": "800,000-1,500,000KRW",
+    "admission_conditions": null,
+    "featured_majors": "Thần học – Quản trị quốc tế - Giáo dục",
+    "notes": null,
+    "maps_link": "https://www.google.com/maps/place/Cheongshim+Graduate+School+of+Theology/data=!3m2!1e3!4b1!4m6!3m5!1s0x356324b1cae30cf3:0x4075a15feef7b209!8m2!3d37.6885292!4d127.5407068!16zL20vMDJnOTFt?entry=ttu&g_ep=EgoyMDI2MDcyNi4wIKXMDSoASAFQAw%3D%3D",
+    "lat": 37.6885292,
+    "lon": 127.5407068,
+    "address_ko": null,
+    "postcode": null
+  },
+  {
+    "original_names": [
+      "Đại học Phật Giáo"
+    ],
+    "name_vi": "Đại học Phật Giáo",
+    "file_sources": [
+      "diachitop3%.xlsx",
+      "top3.xlsx"
+    ],
+    "is_top1": false,
+    "is_top2": false,
+    "is_top3": true,
+    "is_no_topik": false,
+    "is_restricted": false,
+    "is_college": false,
+    "region": "Seoul",
+    "tuition_desc": "HỌC PHÍ 6,400,000-6,800,000KRW - BẢO HIỂM 150,000KRW - INVOICE 6,610,000-7,050,000KRW",
+    "dorm_desc": "1,500,000-2,000,000KRW",
+    "admission_conditions": null,
+    "featured_majors": "Phật giáo, tư vấn tâm lý, chữa lành cơ thể và tâm lý tích hợp ",
+    "notes": null,
+    "maps_link": "https://www.google.com/maps/place/Seoul+University+of+Buddhism/data=!3m1!4b1!4m6!3m5!1s0x357b61d05abdad4b:0xad16d65984b94529!8m2!3d37.4664004!4d126.9023296!16s%2Fg%2F123b46dk?entry=ttu&g_ep=EgoyMDI2MDcyNy4wIKXMDSoASAFQAw%3D%3D",
+    "lat": 37.4664004,
+    "lon": 126.9023296,
+    "address_ko": null,
+    "postcode": null
+  },
+  {
+    "original_names": [
+      "Đại học Bucheon"
+    ],
+    "name_vi": "Đại học Bucheon",
+    "file_sources": [
+      "diachitop3%.xlsx",
+      "top3.xlsx"
+    ],
+    "is_top1": false,
+    "is_top2": false,
+    "is_top3": true,
+    "is_no_topik": false,
+    "is_restricted": false,
+    "is_college": true,
+    "region": "Thành phố Bucheon ( tỉnh Gyeonggi)",
+    "tuition_desc": "HỌC PHÍ 4,800,000 - 5,200,000KRW - BẢO HIỂM 150,000KRW - INVOICE 5,000,000-5,450,000KRW",
+    "dorm_desc": "900,000-1,300,000KRW",
+    "admission_conditions": null,
+    "featured_majors": "Kỹ thuật, kinh doanh và quản trị, nghệ thuật và thiết kế",
+    "notes": null,
+    "maps_link": "https://www.google.com/maps/place/%EB%B6%80%EC%B2%9C%EB%8C%80%ED%95%99%EA%B5%90/data=!3m1!4b1!4m6!3m5!1s0x357b7d2d993070b3:0xda28e0b4270670da!8m2!3d37.4893955!4d126.7789007!16zL20vMDRxZjFw?entry=ttu&g_ep=EgoyMDI2MDcyNy4wIKXMDSoASAFQAw%3D%3D",
+    "lat": 37.4893955,
+    "lon": 126.7789007,
+    "address_ko": null,
+    "postcode": null
+  },
+  {
+    "original_names": [
+      "Đại học Y Dongnam"
+    ],
+    "name_vi": "Đại học Y Dongnam",
+    "file_sources": [
+      "diachitop3%.xlsx",
+      "top3.xlsx"
+    ],
+    "is_top1": false,
+    "is_top2": false,
+    "is_top3": true,
+    "is_no_topik": false,
+    "is_restricted": false,
+    "is_college": true,
+    "region": "Thành phố Suweon ( tỉnh Gyeonggi)",
+    "tuition_desc": "HỌC PHÍ 4,600,000-5,000,000KRW - BẢO HIỂM 150,000KRW - INVOICE 4,800,000-5,250,000KRW",
+    "dorm_desc": "800,000-1,200,000KRW",
+    "admission_conditions": null,
+    "featured_majors": "Điều dưỡng, y học, công tác xã hội",
+    "notes": null,
+    "maps_link": "https://www.google.com/maps/place/%EB%8F%99%EB%82%A8%EB%B3%B4%EA%B1%B4%EB%8C%80%ED%95%99%EA%B5%90/data=!3m1!4b1!4m6!3m5!1s0x357b5d2df3647819:0x94fa28a155b19960!8m2!3d37.2982094!4d126.9870227!16zL20vMDR3NXow?entry=ttu&g_ep=EgoyMDI2MDcyNy4wIKXMDSoASAFQAw%3D%3D",
+    "lat": 37.2982094,
+    "lon": 126.9870227,
+    "address_ko": null,
+    "postcode": null
+  },
+  {
+    "original_names": [
+      "Đại học Jangan"
+    ],
+    "name_vi": "Đại học Jangan",
+    "file_sources": [
+      "diachitop3%.xlsx",
+      "top3.xlsx"
+    ],
+    "is_top1": false,
+    "is_top2": false,
+    "is_top3": true,
+    "is_no_topik": false,
+    "is_restricted": false,
+    "is_college": true,
+    "region": "Gyeonggi",
+    "tuition_desc": "HỌC PHÍ 4,000,000-4,400,000KRW - BẢO HIỂM 150,000 - INVOICE 4,200,000-4,650,000KRW",
+    "dorm_desc": "700,000-1,000,000KRW",
+    "admission_conditions": null,
+    "featured_majors": "Kỹ thuật Ô tô, Kỹ thuật Cơ khí và Điện tử, Quản trị kinh doanh và quản lý",
+    "notes": null,
+    "maps_link": "https://www.google.com/maps/place/%EC%9E%A5%EC%95%88%EB%8C%80%ED%95%99%EA%B5%90/data=!3m1!4b1!4m6!3m5!1s0x357b6a73d8e8951b:0x97a3c3208c2fd18e!8m2!3d37.2122366!4d126.9466173!16s%2Fm%2F0cp4lvl?entry=ttu&g_ep=EgoyMDI2MDcyNy4wIKXMDSoASAFQAw%3D%3D",
+    "lat": 37.2122366,
+    "lon": 126.9466173,
+    "address_ko": null,
+    "postcode": null
+  },
+  {
+    "original_names": [
+      "Cao đẳng Kimpo"
+    ],
+    "name_vi": "Cao đẳng Kimpo",
+    "file_sources": [
+      "diachitop3%.xlsx",
+      "top3.xlsx"
+    ],
+    "is_top1": false,
+    "is_top2": false,
+    "is_top3": true,
+    "is_no_topik": false,
+    "is_restricted": false,
+    "is_college": true,
+    "region": "Gyeonggi",
+    "tuition_desc": "HỌC PHÍ 4,200,000-4,600,000KRW - BẢO HIỂM 150,000KRW - INVOICE 4,400,000-4,850,,000KRW",
+    "dorm_desc": "800,000-1,200,000KRW",
+    "admission_conditions": null,
+    "featured_majors": "Điện tử, Làm đẹp và Âm nhạc",
+    "notes": null,
+    "maps_link": "https://www.google.com/maps/place/Kimpo+University/data=!3m1!4b1!4m6!3m5!1s0x357c7cc015e4e251:0x69e007d020c9713a!8m2!3d37.7299731!4d126.5464802!16s%2Fm%2F0cpbc78?entry=ttu&g_ep=EgoyMDI2MDcyNy4wIKXMDSoASAFQAw%3D%3D",
+    "lat": 37.7299731,
+    "lon": 126.5464802,
+    "address_ko": null,
+    "postcode": null
+  },
+  {
+    "original_names": [
+      "Đại học Kyungmin"
+    ],
+    "name_vi": "Đại học Kyungmin",
+    "file_sources": [
+      "diachitop3%.xlsx",
+      "top3.xlsx"
+    ],
+    "is_top1": false,
+    "is_top2": false,
+    "is_top3": true,
+    "is_no_topik": false,
+    "is_restricted": false,
+    "is_college": true,
+    "region": "Gyeonggi",
+    "tuition_desc": "HỌC PHÍ 4,000,000-4,400,000KRW - BẢO HIỂM 150,000 - INVOICE 4,200,000-4,650,000KRW",
+    "dorm_desc": "700,000-1,000,000KRW",
+    "admission_conditions": "-7,0 trở lên",
+    "featured_majors": "Giáo dục mầm non, Kiến trúc và Nghệ thuật biểu diễn",
+    "notes": null,
+    "maps_link": "https://www.google.com/maps/place/%EA%B2%BD%EB%AF%BC%EB%8C%80%ED%95%99%EA%B5%90/data=!3m1!4b1!4m6!3m5!1s0x357cc6ff70f7c4e5:0xdda9cd3dfbf5275a!8m2!3d37.7454814!4d127.0233146!16s%2Fg%2F12120gnn?entry=ttu&g_ep=EgoyMDI2MDcyNy4wIKXMDSoASAFQAw%3D%3D",
+    "lat": 37.7454814,
+    "lon": 127.0233146,
+    "address_ko": null,
+    "postcode": null
+  },
+  {
+    "original_names": [
+      "Đại học Seojeong"
+    ],
+    "name_vi": "Đại học Seojeong",
+    "file_sources": [
+      "diachitop3%.xlsx",
+      "top3.xlsx"
+    ],
+    "is_top1": false,
+    "is_top2": false,
+    "is_top3": true,
+    "is_no_topik": false,
+    "is_restricted": false,
+    "is_college": false,
+    "region": "Gyeonggi",
+    "tuition_desc": "HỌC PHÍ 4,000,000-4,400,000KRW - BẢO HIỂM 150,000 - INVOICE 4,200,000-4,650,000KRW",
+    "dorm_desc": "700,000-1,000,000KRW",
+    "admission_conditions": null,
+    "featured_majors": "Quản lý khách sạn và du lịch, Dịch vụ hàng không, Thiết kế",
+    "notes": null,
+    "maps_link": "https://www.google.com/maps/place/Seojeong+University/data=!3m1!4b1!4m6!3m5!1s0x357cc3583754246f:0x5dbf4baebb42f941!8m2!3d37.8568333!4d127.0380264!16s%2Fg%2F122rjtb6?entry=ttu&g_ep=EgoyMDI2MDcyNy4wIKXMDSoASAFQAw%3D%3D",
+    "lat": 37.8568333,
+    "lon": 127.0380264,
+    "address_ko": null,
+    "postcode": null
+  },
+  {
+    "original_names": [
+      "Đại học Shin Asan"
+    ],
+    "name_vi": "Đại học Shin Asan",
+    "file_sources": [
+      "diachitop3%.xlsx",
+      "top3.xlsx"
+    ],
+    "is_top1": false,
+    "is_top2": false,
+    "is_top3": true,
+    "is_no_topik": false,
+    "is_restricted": false,
+    "is_college": false,
+    "region": "Thành phố Ansan ( tỉnh Gyeonggi)",
+    "tuition_desc": "HỌC PHÍ 4,200,000-4,600,000KRW - BẢO HIỂM 150,000KRW - INVOICE 4,400,000-4,850,,000KRW",
+    "dorm_desc": "800,000-1,200,000KRW",
+    "admission_conditions": null,
+    "featured_majors": "Điều dưỡng, phòng thí nghiệm lâm sàng, làm đẹp",
+    "notes": null,
+    "maps_link": "https://www.google.com/maps/place/%EC%8B%A0%EC%95%88%EC%82%B0%EB%8C%80%ED%95%99%EA%B5%90/data=!4m6!3m5!1s0x357b6e460b0ced8b:0x7b1d549a9c62e4a8!8m2!3d37.3125!4d126.8063867!16zL20vMDRuNzVu?entry=ttu&g_ep=EgoyMDI2MDcyNy4wIKXMDSoASAFQAw%3D%3D",
+    "lat": 37.3125,
+    "lon": 126.8063867,
+    "address_ko": null,
+    "postcode": null
+  },
+  {
+    "original_names": [
+      "Cao đẳng Shingu"
+    ],
+    "name_vi": "Cao đẳng Shingu",
+    "file_sources": [
+      "diachitop3%.xlsx",
+      "top3.xlsx"
+    ],
+    "is_top1": false,
+    "is_top2": false,
+    "is_top3": true,
+    "is_no_topik": false,
+    "is_restricted": false,
+    "is_college": true,
+    "region": "Gyeonggi",
+    "tuition_desc": "HỌC PHÍ 4,600,000-5,000,000KRW - BẢO HIỂM 150,000KRW - INVOICE 4,800,000-5,250,000KRW",
+    "dorm_desc": "900,000-1,300,000KRW",
+    "admission_conditions": null,
+    "featured_majors": "Thiết kế, Truyền thông và Điều dưỡng",
+    "notes": null,
+    "maps_link": "https://www.google.com/maps/place/%EC%8B%A0%EA%B5%AC%EB%8C%80%ED%95%99%EA%B5%90/data=!4m14!1m7!3m6!1s0x357ca8d577f3bd97:0x1e80e0c1fde5036c!2z7Iug6rWs64yA7ZWZ6rWQ!8m2!3d37.4487779!4d127.1681499!16s%2Fm%2F0cpnfb5!3m5!1s0x357ca8d577f3bd97:0x1e80e0c1fde5036c!8m2!3d37.4487779!4d127.1681499!16s%2Fm%2F0cpnfb5?entry=ttu&g_ep=EgoyMDI2MDcyNy4wIKXMDSoASAFQAw%3D%3D",
+    "lat": 37.4487779,
+    "lon": 127.1681499,
+    "address_ko": null,
+    "postcode": null
+  },
+  {
+    "original_names": [
+      "Đại học kỹ thuật Doowon",
+      "Đại học Doowon - top 3"
+    ],
+    "name_vi": "Đại học kỹ thuật Doowon",
+    "file_sources": [
+      "diachitop3%.xlsx",
+      "top3.xlsx"
+    ],
+    "is_top1": false,
+    "is_top2": false,
+    "is_top3": true,
+    "is_no_topik": false,
+    "is_restricted": false,
+    "is_college": true,
+    "region": "Gyeonggi-do",
+    "tuition_desc": "HỌC PHÍ 4,600,000-5,000,000KRW - BẢO HIỂM 150,000KRW - INVOICE 4,800,000-5,300,000KRW",
+    "dorm_desc": "800,000-1,300,000KRW",
+    "admission_conditions": "6,0 trở lên",
+    "featured_majors": "Cơ khí oto, thiết kế game, du lịch khách sạn",
+    "notes": null,
+    "maps_link": "https://www.google.com/maps/place/Doowon+Technical+University+College/data=!3m1!4b1!4m6!3m5!1s0x3564b12bc7d7d5af:0xabaf4f683c269c25!8m2!3d37.0659003!4d127.4191162!16zL20vMDV4bjk5?entry=ttu&g_ep=EgoyMDI2MDcyNy4wIKXMDSoASAFQAw%3D%3D",
+    "lat": 37.0659003,
+    "lon": 127.4191162,
+    "address_ko": null,
+    "postcode": null
+  },
+  {
+    "original_names": [
+      "Đại học Tongwon"
+    ],
+    "name_vi": "Đại học Tongwon",
+    "file_sources": [
+      "diachitop3%.xlsx",
+      "top3.xlsx"
+    ],
+    "is_top1": false,
+    "is_top2": false,
+    "is_top3": true,
+    "is_no_topik": false,
+    "is_restricted": false,
+    "is_college": true,
+    "region": "Thành phố Gwangju ( tỉnh Gyeonggi)",
+    "tuition_desc": "HỌC PHÍ 4,000,000-4,400,000KRW - BẢO HIỂM 150,000 - INVOICE 4,200,000-4,650,000KRW",
+    "dorm_desc": "700,000-1,000,000KRW",
+    "admission_conditions": null,
+    "featured_majors": "Công nghệ thông tin, du lịch khách sạn",
+    "notes": null,
+    "maps_link": "https://www.google.com/maps/place/Tongwon+University/data=!3m1!4b1!4m6!3m5!1s0x3563568a9668858f:0xd102ec60b1a04903!8m2!3d37.3285836!4d127.4028257!16s%2Fm%2F02qldkf?entry=ttu&g_ep=EgoyMDI2MDcyNy4wIKXMDSoASAFQAw%3D%3D",
+    "lat": 37.3285836,
+    "lon": 127.4028257,
+    "address_ko": null,
+    "postcode": null
+  },
+  {
+    "original_names": [
+      "Đại học Khoa học và Nghệ thuật Yongin"
+    ],
+    "name_vi": "Đại học Khoa học và Nghệ thuật Yongin",
+    "file_sources": [
+      "diachitop3%.xlsx",
+      "top3.xlsx"
+    ],
+    "is_top1": false,
+    "is_top2": false,
+    "is_top3": true,
+    "is_no_topik": false,
+    "is_restricted": false,
+    "is_college": false,
+    "region": "Thành phố Yongin ( tỉnh Gyeonggi)",
+    "tuition_desc": "HỌC PHÍ 4,400,000-4,800,000KRW - BẢO HIỂM 150,000KRW - INVOICE 4,600,000-5,050,000KRW",
+    "dorm_desc": "800,000-1,200,000KRW",
+    "admission_conditions": null,
+    "featured_majors": null,
+    "notes": null,
+    "maps_link": "https://www.google.com/maps/place/%EC%9A%A9%EC%9D%B8%EC%98%88%EC%88%A0%EA%B3%BC%ED%95%99%EB%8C%80%ED%95%99%EA%B5%90/data=!3m1!4b1!4m6!3m5!1s0x357b5218a2a1df25:0xe3cdebfbcf423437!8m2!3d37.228481!4d127.2160755!16zL20vMDRwbl9r?entry=ttu&g_ep=EgoyMDI2MDcyNy4wIKXMDSoASAFQAw%3D%3D",
+    "lat": 37.228481,
+    "lon": 127.2160755,
+    "address_ko": null,
+    "postcode": null
+  },
+  {
+    "original_names": [
+      "Đại học Nữ Sinh Kwangju"
+    ],
+    "name_vi": "Đại học Nữ Sinh Kwangju",
+    "file_sources": [
+      "diachitop3%.xlsx",
+      "top3.xlsx"
+    ],
+    "is_top1": false,
+    "is_top2": false,
+    "is_top3": true,
+    "is_no_topik": false,
+    "is_restricted": false,
+    "is_college": false,
+    "region": "Kwangju",
+    "tuition_desc": "HỌC PHÍ 4,400,000-4,800,000KRW - BẢO HIỂM 150,000KRW - INVOICE 4,600,000-5,050,000KRW",
+    "dorm_desc": "700,000-1,000,000KRW",
+    "admission_conditions": null,
+    "featured_majors": null,
+    "notes": null,
+    "maps_link": "https://www.google.com/maps/place/%EA%B4%91%EC%A3%BC%EC%97%AC%EC%9E%90%EB%8C%80%ED%95%99%EA%B5%90/data=!3m1!4b1!4m6!3m5!1s0x357188960d9bd069:0xbd0a5cb1c1f9cfeb!8m2!3d35.1636755!4d126.7974994!16s%2Fm%2F0cpbcxt?entry=ttu&g_ep=EgoyMDI2MDcyNy4wIKXMDSoASAFQAw%3D%3D",
+    "lat": 35.1636755,
+    "lon": 126.7974994,
+    "address_ko": null,
+    "postcode": null
+  },
+  {
+    "original_names": [
+      "Đại học Songwon"
+    ],
+    "name_vi": "Đại học Songwon",
+    "file_sources": [
+      "diachitop3%.xlsx",
+      "top3.xlsx"
+    ],
+    "is_top1": false,
+    "is_top2": false,
+    "is_top3": true,
+    "is_no_topik": false,
+    "is_restricted": false,
+    "is_college": false,
+    "region": "Kwangju",
+    "tuition_desc": "HỌC PHÍ 4,000,000-4,400,000KRW - BẢO HIỂM 150,000 - INVOICE 4,200,000-4,650,000KRW",
+    "dorm_desc": "700,000-1,000,000KRW",
+    "admission_conditions": null,
+    "featured_majors": null,
+    "notes": null,
+    "maps_link": "https://www.google.com/maps/place/%EC%86%A1%EC%9B%90%EB%8C%80%ED%95%99%EA%B5%90/data=!3m1!4b1!4m6!3m5!1s0x35718a25f6b14955:0x4793fec515e7d532!8m2!3d35.1086218!4d126.8747229!16s%2Fg%2F1226mqym?entry=ttu&g_ep=EgoyMDI2MDcyNy4wIKXMDSoASAFQAw%3D%3D",
+    "lat": 35.1086218,
+    "lon": 126.8747229,
+    "address_ko": null,
+    "postcode": null
+  },
+  {
+    "original_names": [
+      "Đại học Gangneung yeongdong"
+    ],
+    "name_vi": "Đại học Gangneung yeongdong",
+    "file_sources": [
+      "diachitop3%.xlsx",
+      "top3.xlsx"
+    ],
+    "is_top1": false,
+    "is_top2": false,
+    "is_top3": true,
+    "is_no_topik": false,
+    "is_restricted": false,
+    "is_college": true,
+    "region": "Gangwon-do",
+    "tuition_desc": "HỌC PHÍ 3,800,000-4,200,000KRW - BẢO HIỂM 150,000KRW - INVOICE 4,000,000-4,450,000KRW",
+    "dorm_desc": "600,000-900,000RW",
+    "admission_conditions": "6,5 trở lên",
+    "featured_majors": null,
+    "notes": null,
+    "maps_link": "https://www.google.com/maps/place/%EA%B0%95%EB%A6%89%EC%98%81%EB%8F%99%EB%8C%80%ED%95%99%EA%B5%90/data=!3m1!4b1!4m6!3m5!1s0x3561ef98efa8659d:0x5739f195ec51a971!8m2!3d37.7471454!4d128.8556266!16zL20vMDZsa3A5?entry=ttu&g_ep=EgoyMDI2MDcyNy4wIKXMDSoASAFQAw%3D%3D",
+    "lat": 37.7471454,
+    "lon": 128.8556266,
+    "address_ko": null,
+    "postcode": null
+  },
+  {
+    "original_names": [
+      "Đại học Halla"
+    ],
+    "name_vi": "Đại học Halla",
+    "file_sources": [
+      "diachitop3%.xlsx",
+      "top3.xlsx",
+      "danhsachtruonghanche.xlsx"
+    ],
+    "is_top1": false,
+    "is_top2": false,
+    "is_top3": true,
+    "is_no_topik": false,
+    "is_restricted": true,
+    "is_college": false,
+    "region": "Gangwon-do",
+    "tuition_desc": "HỌC PHÍ 4,400,000-4,800,000KRW - BẢO HIỂM 150,000KRW - INVOICE 4,600,000-5,050,000KRW",
+    "dorm_desc": "800,000-1,200,000KRW",
+    "admission_conditions": null,
+    "featured_majors": null,
+    "notes": null,
+    "maps_link": "https://www.google.com/maps/place/%ED%95%9C%EB%9D%BC%EB%8C%80%ED%95%99%EA%B5%90/data=!3m1!4b1!4m6!3m5!1s0x356376c6e70e4529:0x5d7690716021a167!8m2!3d37.302771!4d127.9077884!16zL20vMGJwNGsw?entry=ttu&g_ep=EgoyMDI2MDcyNy4wIKXMDSoASAFQAw%3D%3D",
+    "lat": 37.302771,
+    "lon": 127.9077884,
+    "address_ko": null,
+    "postcode": null
+  },
+  {
+    "original_names": [
+      "Đại học Sanji"
+    ],
+    "name_vi": "Đại học Sanji",
+    "file_sources": [
+      "diachitop3%.xlsx",
+      "top3.xlsx"
+    ],
+    "is_top1": false,
+    "is_top2": false,
+    "is_top3": true,
+    "is_no_topik": false,
+    "is_restricted": false,
+    "is_college": false,
+    "region": "Gangwon-do",
+    "tuition_desc": "HỌC PHÍ 4,200,000-4,600,000KRW - BẢO HIỂM 150,000KRW - INVOICE 4,400,000-4,850,,000KRW",
+    "dorm_desc": "700,000-1,100,000KRW",
+    "admission_conditions": null,
+    "featured_majors": null,
+    "notes": null,
+    "maps_link": "https://www.google.com/maps/place/%EC%83%81%EC%A7%80%EB%8C%80%ED%95%99%EA%B5%90/data=!3m1!4b1!4m6!3m5!1s0x356374e776482d4b:0x6feb1bc9c1500092!8m2!3d37.3706973!4d127.9280728!16s%2Fm%2F09gbyjf?entry=ttu&g_ep=EgoyMDI2MDcyNy4wIKXMDSoASAFQAw%3D%3D",
+    "lat": 37.3706973,
+    "lon": 127.9280728,
+    "address_ko": null,
+    "postcode": null
+  },
+  {
+    "original_names": [
+      "Đại học Songho"
+    ],
+    "name_vi": "Đại học Songho",
+    "file_sources": [
+      "diachitop3%.xlsx",
+      "top3.xlsx"
+    ],
+    "is_top1": false,
+    "is_top2": false,
+    "is_top3": true,
+    "is_no_topik": false,
+    "is_restricted": false,
+    "is_college": true,
+    "region": "Gangwon-do",
+    "tuition_desc": "HỌC PHÍ 3,600,000-4,000,000KRW - BẢO HIỂM 150,000KRW - INVOICE 3,800,000-4,250,000KRW",
+    "dorm_desc": "500,000-800,000KRW",
+    "admission_conditions": null,
+    "featured_majors": null,
+    "notes": null,
+    "maps_link": "https://www.google.com/maps/place/%EC%86%A1%ED%98%B8%EB%8C%80%ED%95%99%EA%B5%90/data=!3m1!4b1!4m6!3m5!1s0x3563a70a7e31063d:0xd255a5f5c99d5e40!8m2!3d37.4714679!4d128.002023!16s%2Fm%2F0cpbfs_?entry=ttu&g_ep=EgoyMDI2MDcyNy4wIKXMDSoASAFQAw%3D%3D",
+    "lat": 37.4714679,
+    "lon": 128.002023,
+    "address_ko": null,
+    "postcode": null
+  },
+  {
+    "original_names": [
+      "Đại học Gangwon State "
+    ],
+    "name_vi": "Đại học Gangwon State ",
+    "file_sources": [
+      "diachitop3%.xlsx",
+      "top3.xlsx"
+    ],
+    "is_top1": false,
+    "is_top2": false,
+    "is_top3": true,
+    "is_no_topik": false,
+    "is_restricted": false,
+    "is_college": true,
+    "region": "Gangwon-do",
+    "tuition_desc": "HỌC PHÍ 3,400,000-3,800,000KRW - BẢO HIỂM 150,000KRW - INVOICE 3,600,000-4,050,000KRW",
+    "dorm_desc": "500,000-800,000KRW",
+    "admission_conditions": "6,0 trở lên",
+    "featured_majors": null,
+    "notes": null,
+    "maps_link": "https://www.google.com/maps/place/Kangwon+National+University/data=!3m1!4b1!4m6!3m5!1s0x3562e5c841815175:0x641f3d5ba99eaf6b!8m2!3d37.8689546!4d127.7450121!16s%2Fm%2F02pp92h?entry=ttu&g_ep=EgoyMDI2MDcyNy4wIKXMDSoASAFQAw%3D%3D",
+    "lat": 37.8689546,
+    "lon": 127.7450121,
+    "address_ko": null,
+    "postcode": null
+  },
+  {
+    "original_names": [
+      "Đại học Kosin - top 3"
+    ],
+    "name_vi": "Đại học Kosin - top 3",
+    "file_sources": [
+      "diachitop3%.xlsx",
+      "top3.xlsx"
+    ],
+    "is_top1": false,
+    "is_top2": false,
+    "is_top3": true,
+    "is_no_topik": false,
+    "is_restricted": false,
+    "is_college": false,
+    "region": "Busan",
+    "tuition_desc": "HỌC PHÍ 4,400,000-4,800,000KRW - BẢO HIỂM 150,000KRW - INVOICE 4,600,000-5,050,000KRW",
+    "dorm_desc": "700,000-1,100,000KRW",
+    "admission_conditions": "6,5 trở lên (xem xét)",
+    "featured_majors": null,
+    "notes": null,
+    "maps_link": "https://www.google.com/maps/place/%EA%B3%A0%EC%8B%A0%EB%8C%80%ED%95%99%EA%B5%90+%EC%98%81%EB%8F%84%EC%BA%A0%ED%8D%BC%EC%8A%A4/data=!3m1!4b1!4m6!3m5!1s0x3568e93033c1aca5:0x8bd3b874fe16ce92!8m2!3d35.0796217!4d129.0630066!16s%2Fm%2F064pk0t?entry=ttu&g_ep=EgoyMDI2MDcyNy4wIKXMDSoASAFQAw%3D%3D",
+    "lat": 35.0796217,
+    "lon": 129.0630066,
+    "address_ko": null,
+    "postcode": null
+  },
+  {
+    "original_names": [
+      "Đại học Dongshin - top 3"
+    ],
+    "name_vi": "Đại học Dongshin - top 3",
+    "file_sources": [
+      "diachitop3%.xlsx",
+      "top3.xlsx"
+    ],
+    "is_top1": false,
+    "is_top2": false,
+    "is_top3": true,
+    "is_no_topik": false,
+    "is_restricted": false,
+    "is_college": false,
+    "region": "Jeonllanam-do",
+    "tuition_desc": "HỌC PHÍ 4,000,000-4,400,000KRW - BẢO HIỂM 150,000 - INVOICE 4,200,000-4,650,000KRW",
+    "dorm_desc": "600,000-900,000KRW",
+    "admission_conditions": "6,5 trở lên",
+    "featured_majors": null,
+    "notes": null,
+    "maps_link": "https://www.google.com/maps/place/%EB%8F%99%EC%8B%A0%EB%8C%80%ED%95%99%EA%B5%90/data=!3m1!4b1!4m6!3m5!1s0x35722960be4dbc2f:0x3aa3694978ce2aa7!8m2!3d35.0496432!4d126.7180175!16zL20vMDR5Zmd2?entry=ttu&g_ep=EgoyMDI2MDcyNy4wIKXMDSoASAFQAw%3D%3D",
+    "lat": 35.0496432,
+    "lon": 126.7180175,
+    "address_ko": null,
+    "postcode": null
+  },
+  {
+    "original_names": [
+      "Đại học Masan - top 3"
+    ],
+    "name_vi": "Đại học Masan - top 3",
+    "file_sources": [
+      "diachitop3%.xlsx",
+      "top3.xlsx"
+    ],
+    "is_top1": false,
+    "is_top2": false,
+    "is_top3": true,
+    "is_no_topik": false,
+    "is_restricted": false,
+    "is_college": true,
+    "region": "Changwon",
+    "tuition_desc": "HỌC PHÍ 4,000,000-4,400,000KRW - BẢO HIỂM 150,000 - INVOICE 4,200,000-4,650,000KRW",
+    "dorm_desc": "600,000-900,000KRW",
+    "admission_conditions": "-7,0 trở lên",
+    "featured_majors": null,
+    "notes": null,
+    "maps_link": "https://www.google.com/maps/place/%EB%A7%88%EC%82%B0%EB%8C%80%ED%95%99%EA%B5%90/data=!3m1!4b1!4m6!3m5!1s0x356f301576da665d:0xc899d3e10ee391fa!8m2!3d35.2597352!4d128.5051724!16s%2Fg%2F121sxlbt?entry=ttu&g_ep=EgoyMDI2MDcyNy4wIKXMDSoASAFQAw%3D%3D",
+    "lat": 35.2597352,
+    "lon": 128.5051724,
+    "address_ko": null,
+    "postcode": null
+  },
+  {
+    "original_names": [
+      "Đại học Howon   - top 3"
+    ],
+    "name_vi": "Đại học Howon   - top 3",
+    "file_sources": [
+      "diachitop3%.xlsx",
+      "top3.xlsx"
+    ],
+    "is_top1": false,
+    "is_top2": false,
+    "is_top3": true,
+    "is_no_topik": false,
+    "is_restricted": false,
+    "is_college": false,
+    "region": "Jeonllabuk",
+    "tuition_desc": "HỌC PHÍ 4,200,000-4,600,000KRW - BẢO HIỂM 150,000KRW - INVOICE 4,400,000-4,850,,000KRW",
+    "dorm_desc": "700,000-1,000,000KRW",
+    "admission_conditions": "- miền Bắc 6,5 trở lên\n- miền Trung 7,0 trở lên",
+    "featured_majors": null,
+    "notes": null,
+    "maps_link": "https://www.google.com/maps/place/%ED%98%B8%EC%9B%90%EB%8C%80%ED%95%99%EA%B5%90/data=!3m1!4b1!4m6!3m5!1s0x357042262f66e97f:0x55e8f3104587e12d!8m2!3d35.9660343!4d126.8648816!16s%2Fm%2F0cp3qhk?entry=ttu&g_ep=EgoyMDI2MDcyNy4wIKXMDSoASAFQAw%3D%3D",
+    "lat": 35.9660343,
+    "lon": 126.8648816,
+    "address_ko": null,
+    "postcode": null
+  },
+  {
+    "original_names": [
+      "Đại học Ajou Motor - top 3"
+    ],
+    "name_vi": "Đại học Ajou Motor - top 3",
+    "file_sources": [
+      "diachitop3%.xlsx",
+      "top3.xlsx"
+    ],
+    "is_top1": false,
+    "is_top2": false,
+    "is_top3": true,
+    "is_no_topik": false,
+    "is_restricted": false,
+    "is_college": true,
+    "region": "Chungcheongnam-do",
+    "tuition_desc": "7HỌC PHÍ 4,500,000-4,900,000KRW - BẢO HIỂM 150,000- INOVOICE 4,700,000-5,150,000KRW",
+    "dorm_desc": "600,000-1,000,000KRW",
+    "admission_conditions": "6,0 trở lên (xem xét)",
+    "featured_majors": null,
+    "notes": null,
+    "maps_link": "https://www.google.com/maps/place/%EC%95%84%EC%A3%BC%EC%9E%90%EB%8F%99%EC%B0%A8%EB%8C%80%ED%95%99%EA%B5%90/data=!3m1!4b1!4m6!3m5!1s0x357a7f8f007c5c01:0x53973f7e81ae53d7!8m2!3d36.4040521!4d126.5791925!16zL20vMDR0Y3l6?entry=ttu&g_ep=EgoyMDI2MDcyNy4wIKXMDSoASAFQAw%3D%3D",
+    "lat": 36.4040521,
+    "lon": 126.5791925,
+    "address_ko": null,
+    "postcode": null
+  },
+  {
+    "original_names": [
+      "Đại học Wonkwang"
+    ],
+    "name_vi": "Đại học Wonkwang",
+    "file_sources": [
+      "TO2%.xlsx"
+    ],
+    "is_top1": false,
+    "is_top2": true,
+    "is_top3": false,
+    "is_no_topik": false,
+    "is_restricted": false,
+    "is_college": false,
+    "region": "Jeollabuk-do",
+    "tuition_desc": "HỌC PHÍ 4,400,000KRW - INVOICE 5,810,000KRW",
+    "dorm_desc": "1,360,000KRW",
+    "admission_conditions": null,
+    "featured_majors": "Đông y, Nha khoa, Dược",
+    "notes": null,
+    "maps_link": null,
+    "lat": null,
+    "lon": null,
+    "address_ko": null,
+    "postcode": null
+  },
+  {
+    "original_names": [
+      "Đại học Dongmyung"
+    ],
+    "name_vi": "Đại học Dongmyung",
+    "file_sources": [
+      "TO2%.xlsx"
+    ],
+    "is_top1": false,
+    "is_top2": true,
+    "is_top3": false,
+    "is_no_topik": false,
+    "is_restricted": false,
+    "is_college": false,
+    "region": "Busan",
+    "tuition_desc": "HỌC PHÍ 4,400,000KRW - BẢO HIỂM 150,000- INVOICE 4,600,000KRW ",
+    "dorm_desc": "1,900,000KRW",
+    "admission_conditions": null,
+    "featured_majors": "Game – Logistics – IT",
+    "notes": null,
+    "maps_link": null,
+    "lat": null,
+    "lon": null,
+    "address_ko": null,
+    "postcode": null
+  },
+  {
+    "original_names": [
+      "Đại học Phim ảnh Hàn Quốc"
+    ],
+    "name_vi": "Đại học Phim ảnh Hàn Quốc",
+    "file_sources": [
+      "TO2%.xlsx"
+    ],
+    "is_top1": false,
+    "is_top2": true,
+    "is_top3": false,
+    "is_no_topik": false,
+    "is_restricted": false,
+    "is_college": true,
+    "region": "Gyeonggi-do",
+    "tuition_desc": "HỌC PHÍ ",
+    "dorm_desc": null,
+    "admission_conditions": null,
+    "featured_majors": "Điện ảnh, Diễn xuất, Đạo diễn",
+    "notes": null,
+    "maps_link": null,
+    "lat": null,
+    "lon": null,
+    "address_ko": null,
+    "postcode": null
+  },
+  {
+    "original_names": [
+      "Đại học Sau đại học Ngôn ngữ Quốc tế"
+    ],
+    "name_vi": "Đại học Sau đại học Ngôn ngữ Quốc tế",
+    "file_sources": [
+      "TO2%.xlsx"
+    ],
+    "is_top1": false,
+    "is_top2": true,
+    "is_top3": false,
+    "is_no_topik": false,
+    "is_restricted": false,
+    "is_college": false,
+    "region": "Seoul",
+    "tuition_desc": "HỌC PHÍ 8,000,000-12,000,000KRW - BẢO HIỂM 200,000KRW - INVOICE 8,800,000-13,200,000KRW",
+    "dorm_desc": "1,200,000-2,000,000KRW",
+    "admission_conditions": null,
+    "featured_majors": "Biên phiên dịch – Ngoại ngữ – Quốc tế học",
+    "notes": null,
+    "maps_link": null,
+    "lat": null,
+    "lon": null,
+    "address_ko": null,
+    "postcode": null
+  },
+  {
+    "original_names": [
+      "Đại học Quốc gia Jeonbuk",
+      "Đại học Quốc gia Jeonbuk (JBNU)"
+    ],
+    "name_vi": "Đại học Quốc gia Jeonbuk",
+    "file_sources": [
+      "TruongNoTOPIK.xlsx"
+    ],
+    "is_top1": false,
+    "is_top2": false,
+    "is_top3": false,
+    "is_no_topik": true,
+    "is_restricted": false,
+    "is_college": false,
+    "region": null,
+    "tuition_desc": null,
+    "dorm_desc": null,
+    "admission_conditions": null,
+    "featured_majors": null,
+    "notes": null,
+    "maps_link": null,
+    "lat": null,
+    "lon": null,
+    "address_ko": null,
+    "postcode": null
+  },
+  {
+    "original_names": [
+      "Đại học Quốc gia Kangwon",
+      "Đại học Quốc gia Kangwon (KNU)"
+    ],
+    "name_vi": "Đại học Quốc gia Kangwon",
+    "file_sources": [
+      "TruongNoTOPIK.xlsx"
+    ],
+    "is_top1": false,
+    "is_top2": false,
+    "is_top3": false,
+    "is_no_topik": true,
+    "is_restricted": false,
+    "is_college": false,
+    "region": null,
+    "tuition_desc": null,
+    "dorm_desc": null,
+    "admission_conditions": null,
+    "featured_majors": null,
+    "notes": null,
+    "maps_link": null,
+    "lat": null,
+    "lon": null,
+    "address_ko": null,
+    "postcode": null
+  },
+  {
+    "original_names": [
+      "Đại học Quốc gia khoa học và công nghệ  Gyeongnam",
+      "Đại học Quốc gia khoa học và công nghệ  Gyeongnam (GNTech)"
+    ],
+    "name_vi": "Đại học Quốc gia khoa học và công nghệ  Gyeongnam",
+    "file_sources": [
+      "TruongNoTOPIK.xlsx"
+    ],
+    "is_top1": false,
+    "is_top2": false,
+    "is_top3": false,
+    "is_no_topik": true,
+    "is_restricted": false,
+    "is_college": false,
+    "region": null,
+    "tuition_desc": null,
+    "dorm_desc": null,
+    "admission_conditions": null,
+    "featured_majors": null,
+    "notes": null,
+    "maps_link": null,
+    "lat": null,
+    "lon": null,
+    "address_ko": null,
+    "postcode": null
+  },
+  {
+    "original_names": [
+      "Đại học Kusan",
+      "Đại học Kusan\n\n"
+    ],
+    "name_vi": "Đại học Kusan",
+    "file_sources": [
+      "TruongNoTOPIK.xlsx"
+    ],
+    "is_top1": false,
+    "is_top2": false,
+    "is_top3": false,
+    "is_no_topik": true,
+    "is_restricted": false,
+    "is_college": false,
+    "region": null,
+    "tuition_desc": null,
+    "dorm_desc": null,
+    "admission_conditions": null,
+    "featured_majors": null,
+    "notes": null,
+    "maps_link": null,
+    "lat": null,
+    "lon": null,
+    "address_ko": null,
+    "postcode": null
+  },
+  {
+    "original_names": [
+      "Đại học Dong Eui"
+    ],
+    "name_vi": "Đại học Dong Eui",
+    "file_sources": [
+      "danhsachtruonghanche.xlsx"
+    ],
+    "is_top1": false,
+    "is_top2": false,
+    "is_top3": false,
+    "is_no_topik": false,
+    "is_restricted": true,
+    "is_college": false,
+    "region": null,
+    "tuition_desc": null,
+    "dorm_desc": null,
+    "admission_conditions": null,
+    "featured_majors": null,
+    "notes": null,
+    "maps_link": null,
+    "lat": null,
+    "lon": null,
+    "address_ko": null,
+    "postcode": null
+  },
+  {
+    "original_names": [
+      "Đại học Yong In"
+    ],
+    "name_vi": "Đại học Yong In",
+    "file_sources": [
+      "danhsachtruonghanche.xlsx"
+    ],
+    "is_top1": false,
+    "is_top2": false,
+    "is_top3": false,
+    "is_no_topik": false,
+    "is_restricted": true,
+    "is_college": false,
+    "region": null,
+    "tuition_desc": null,
+    "dorm_desc": null,
+    "admission_conditions": null,
+    "featured_majors": null,
+    "notes": null,
+    "maps_link": null,
+    "lat": null,
+    "lon": null,
+    "address_ko": null,
+    "postcode": null
+  },
+  {
+    "original_names": [
+      "Đại học nữ Dongduk"
+    ],
+    "name_vi": "Đại học nữ Dongduk",
+    "file_sources": [
+      "danhsachtruonghanche.xlsx"
+    ],
+    "is_top1": false,
+    "is_top2": false,
+    "is_top3": false,
+    "is_no_topik": false,
+    "is_restricted": true,
+    "is_college": false,
+    "region": null,
+    "tuition_desc": null,
+    "dorm_desc": null,
+    "admission_conditions": null,
+    "featured_majors": null,
+    "notes": null,
+    "maps_link": null,
+    "lat": null,
+    "lon": null,
+    "address_ko": null,
+    "postcode": null
+  },
+  {
+    "original_names": [
+      "Đại học Mokpo"
+    ],
+    "name_vi": "Đại học Mokpo",
+    "file_sources": [
+      "danhsachtruonghanche.xlsx"
+    ],
+    "is_top1": false,
+    "is_top2": false,
+    "is_top3": false,
+    "is_no_topik": false,
+    "is_restricted": true,
+    "is_college": false,
+    "region": null,
+    "tuition_desc": null,
+    "dorm_desc": null,
+    "admission_conditions": null,
+    "featured_majors": null,
+    "notes": null,
+    "maps_link": null,
+    "lat": null,
+    "lon": null,
+    "address_ko": null,
+    "postcode": null
+  },
+  {
+    "original_names": [
+      "Đại học Sangji"
+    ],
+    "name_vi": "Đại học Sangji",
+    "file_sources": [
+      "danhsachtruonghanche.xlsx"
+    ],
+    "is_top1": false,
+    "is_top2": false,
+    "is_top3": false,
+    "is_no_topik": false,
+    "is_restricted": true,
+    "is_college": false,
+    "region": null,
+    "tuition_desc": null,
+    "dorm_desc": null,
+    "admission_conditions": null,
+    "featured_majors": null,
+    "notes": null,
+    "maps_link": null,
+    "lat": null,
+    "lon": null,
+    "address_ko": null,
+    "postcode": null
+  },
+  {
+    "original_names": [
+      "Đại học Nghệ thuật Yewon"
+    ],
+    "name_vi": "Đại học Nghệ thuật Yewon",
+    "file_sources": [
+      "danhsachtruonghanche.xlsx"
+    ],
+    "is_top1": false,
+    "is_top2": false,
+    "is_top3": false,
+    "is_no_topik": false,
+    "is_restricted": true,
+    "is_college": false,
+    "region": null,
+    "tuition_desc": null,
+    "dorm_desc": null,
+    "admission_conditions": null,
+    "featured_majors": null,
+    "notes": null,
+    "maps_link": null,
+    "lat": null,
+    "lon": null,
+    "address_ko": null,
+    "postcode": null
+  },
+  {
+    "original_names": [
+      "Đại học Yuwon"
+    ],
+    "name_vi": "Đại học Yuwon",
+    "file_sources": [
+      "danhsachtruonghanche.xlsx"
+    ],
+    "is_top1": false,
+    "is_top2": false,
+    "is_top3": false,
+    "is_no_topik": false,
+    "is_restricted": true,
+    "is_college": false,
+    "region": null,
+    "tuition_desc": null,
+    "dorm_desc": null,
+    "admission_conditions": null,
+    "featured_majors": null,
+    "notes": null,
+    "maps_link": null,
+    "lat": null,
+    "lon": null,
+    "address_ko": null,
+    "postcode": null
+  },
+  {
+    "original_names": [
+      "Đại học Chodang"
+    ],
+    "name_vi": "Đại học Chodang",
+    "file_sources": [
+      "danhsachtruonghanche.xlsx"
+    ],
+    "is_top1": false,
+    "is_top2": false,
+    "is_top3": false,
+    "is_no_topik": false,
+    "is_restricted": true,
+    "is_college": false,
+    "region": null,
+    "tuition_desc": null,
+    "dorm_desc": null,
+    "admission_conditions": null,
+    "featured_majors": null,
+    "notes": null,
+    "maps_link": null,
+    "lat": null,
+    "lon": null,
+    "address_ko": null,
+    "postcode": null
+  },
+  {
+    "original_names": [
+      "Đại học Chongshin"
+    ],
+    "name_vi": "Đại học Chongshin",
+    "file_sources": [
+      "danhsachtruonghanche.xlsx"
+    ],
+    "is_top1": false,
+    "is_top2": false,
+    "is_top3": false,
+    "is_no_topik": false,
+    "is_restricted": true,
+    "is_college": false,
+    "region": null,
+    "tuition_desc": null,
+    "dorm_desc": null,
+    "admission_conditions": null,
+    "featured_majors": null,
+    "notes": null,
+    "maps_link": null,
+    "lat": null,
+    "lon": null,
+    "address_ko": null,
+    "postcode": null
+  },
+  {
+    "original_names": [
+      "Đại học Văn hoá Keimyung"
+    ],
+    "name_vi": "Đại học Văn hoá Keimyung",
+    "file_sources": [
+      "danhsachtruonghanche.xlsx"
+    ],
+    "is_top1": false,
+    "is_top2": false,
+    "is_top3": false,
+    "is_no_topik": false,
+    "is_restricted": true,
+    "is_college": false,
+    "region": null,
+    "tuition_desc": null,
+    "dorm_desc": null,
+    "admission_conditions": null,
+    "featured_majors": null,
+    "notes": null,
+    "maps_link": null,
+    "lat": null,
+    "lon": null,
+    "address_ko": null,
+    "postcode": null
+  },
+  {
+    "original_names": [
+      "Đại học Khoa học Kyongbuk"
+    ],
+    "name_vi": "Đại học Khoa học Kyongbuk",
+    "file_sources": [
+      "danhsachtruonghanche.xlsx"
+    ],
+    "is_top1": false,
+    "is_top2": false,
+    "is_top3": false,
+    "is_no_topik": false,
+    "is_restricted": true,
+    "is_college": false,
+    "region": null,
+    "tuition_desc": null,
+    "dorm_desc": null,
+    "admission_conditions": null,
+    "featured_majors": null,
+    "notes": null,
+    "maps_link": null,
+    "lat": null,
+    "lon": null,
+    "address_ko": null,
+    "postcode": null
+  },
+  {
+    "original_names": [
+      "Viện Công nghệ Geumoh"
+    ],
+    "name_vi": "Viện Công nghệ Geumoh",
+    "file_sources": [
+      "danhsachtruonghanche.xlsx"
+    ],
+    "is_top1": false,
+    "is_top2": false,
+    "is_top3": false,
+    "is_no_topik": false,
+    "is_restricted": true,
+    "is_college": false,
+    "region": null,
+    "tuition_desc": null,
+    "dorm_desc": null,
+    "admission_conditions": null,
+    "featured_majors": null,
+    "notes": null,
+    "maps_link": null,
+    "lat": null,
+    "lon": null,
+    "address_ko": null,
+    "postcode": null
+  },
+  {
+    "original_names": [
+      "Cao đẳng Y tế Daegu"
+    ],
+    "name_vi": "Cao đẳng Y tế Daegu",
+    "file_sources": [
+      "danhsachtruonghanche.xlsx"
+    ],
+    "is_top1": false,
+    "is_top2": false,
+    "is_top3": false,
+    "is_no_topik": false,
+    "is_restricted": true,
+    "is_college": false,
+    "region": null,
+    "tuition_desc": null,
+    "dorm_desc": null,
+    "admission_conditions": null,
+    "featured_majors": null,
+    "notes": null,
+    "maps_link": null,
+    "lat": null,
+    "lon": null,
+    "address_ko": null,
+    "postcode": null
+  },
+  {
+    "original_names": [
+      "Cao đẳng Khoa học kỹ thuật Dongwon"
+    ],
+    "name_vi": "Cao đẳng Khoa học kỹ thuật Dongwon",
+    "file_sources": [
+      "danhsachtruonghanche.xlsx"
+    ],
+    "is_top1": false,
+    "is_top2": false,
+    "is_top3": false,
+    "is_no_topik": false,
+    "is_restricted": true,
+    "is_college": false,
+    "region": null,
+    "tuition_desc": null,
+    "dorm_desc": null,
+    "admission_conditions": null,
+    "featured_majors": null,
+    "notes": null,
+    "maps_link": null,
+    "lat": null,
+    "lon": null,
+    "address_ko": null,
+    "postcode": null
+  },
+  {
+    "original_names": [
+      "Cao đẳng Cheongam"
+    ],
+    "name_vi": "Cao đẳng Cheongam",
+    "file_sources": [
+      "danhsachtruonghanche.xlsx"
+    ],
+    "is_top1": false,
+    "is_top2": false,
+    "is_top3": false,
+    "is_no_topik": false,
+    "is_restricted": true,
+    "is_college": true,
+    "region": null,
+    "tuition_desc": null,
+    "dorm_desc": null,
+    "admission_conditions": null,
+    "featured_majors": null,
+    "notes": null,
+    "maps_link": null,
+    "lat": null,
+    "lon": null,
+    "address_ko": null,
+    "postcode": null
+  },
+  {
+    "original_names": [
+      "Cao đẳng Catholic Sangji"
+    ],
+    "name_vi": "Cao đẳng Catholic Sangji",
+    "file_sources": [
+      "danhsachtruonghanche.xlsx"
+    ],
+    "is_top1": false,
+    "is_top2": false,
+    "is_top3": false,
+    "is_no_topik": false,
+    "is_restricted": true,
+    "is_college": false,
+    "region": null,
+    "tuition_desc": null,
+    "dorm_desc": null,
+    "admission_conditions": null,
+    "featured_majors": null,
+    "notes": null,
+    "maps_link": null,
+    "lat": null,
+    "lon": null,
+    "address_ko": null,
+    "postcode": null
+  },
+  {
+    "original_names": [
+      "Đại học Luật và Kinh doanh Quốc tế"
+    ],
+    "name_vi": "Đại học Luật và Kinh doanh Quốc tế",
+    "file_sources": [
+      "danhsachtruonghanche.xlsx"
+    ],
+    "is_top1": false,
+    "is_top2": false,
+    "is_top3": false,
+    "is_no_topik": false,
+    "is_restricted": true,
+    "is_college": false,
+    "region": null,
+    "tuition_desc": null,
+    "dorm_desc": null,
+    "admission_conditions": null,
+    "featured_majors": null,
+    "notes": null,
+    "maps_link": null,
+    "lat": null,
+    "lon": null,
+    "address_ko": null,
+    "postcode": null
+  },
+  {
+    "original_names": [
+      "한국과학기술원",
+      "KAIST"
+    ],
+    "name_vi": "Viện Khoa học và Công nghệ Tiên tiến Hàn Quốc (KAIST)",
+    "file_sources": [
+      "manual_add"
+    ],
+    "is_top1": true,
+    "is_top2": false,
+    "is_top3": false,
+    "is_no_topik": false,
+    "is_restricted": false,
+    "is_college": false,
+    "region": "Daejeon",
+    "tuition_desc": "HỌC PHÍ HỆ TIẾNG: Không tuyển sinh hệ tiếng đại trà. HỌC PHÍ CHUYÊN NGÀNH: ~6,800,000 KRW/năm.",
+    "dorm_desc": "1,200,000 KRW/năm",
+    "admission_conditions": "GPA từ 8.5/10 trở lên, IELTS tối thiểu 6.5 hoặc TOPIK 5/6.",
+    "featured_majors": "Khoa học máy tính, Kỹ thuật điện, Kỹ thuật cơ khí, Công nghệ sinh học...",
+    "notes": "Học bổng KAIST Quốc tế miễn 100% học phí cho sinh viên duy trì GPA ổn định.",
+    "maps_link": "https://www.google.com/maps/place/KAIST+Main+Campus/data=!3m1!4b1!4m6!3m5!1s0x356549a2a7a5c88b:0x5e0b0e5d0cd5c3b9!8m2!3d36.3741!4d127.3601",
+    "lat": 36.3741,
+    "lon": 127.3601,
+    "address_ko": "대전광역시 유성구 대학로 291",
+    "postcode": "34141"
+  }
+]

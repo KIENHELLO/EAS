@@ -6,27 +6,19 @@ export const ssgOptions = {
   routeUrl: '/university/duksung',
   Head: () => (
     <>
-      <title>Đại học Nữ sinh Duksung 
-( 덕성여자대학교 0 - Học Phí & Thông Tin Tuyển Sinh 2025 | KR-UniTuition</title>
-      <meta name="description" content="Học phí trường Đại học Nữ sinh Duksung 
-( 덕성여자대학교 0 (Duksung Womans University): 3,150,000 - 4,650,000 KRW (58,275,000 - 86,025,000 VND) mỗi học kỳ. Địa chỉ: 33 Samyang-ro 144-gil, Dobong-gu, Seoul. Xếp hạng: #35." />
-      <meta name="keywords" content="Đại học Nữ sinh Duksung 
-( 덕성여자대학교 0, học phí Đại học Nữ sinh Duksung 
-( 덕성여자대학교 0, Duksung Womans University, 덕성여자대학교, đại học Seoul" />
+      <title>ĐH Nữ sinh Duksung - Học Phí & Thông Tin Tuyển Sinh 2025 | KR-UniTuition</title>
+      <meta name="description" content="Học phí trường ĐH Nữ sinh Duksung (Duksung Women's University): 3,150,000 - 4,650,000 KRW (58,275,000 - 86,025,000 VND) mỗi học kỳ. Địa chỉ: Seoul. Xếp hạng: #35." />
+      <meta name="keywords" content="ĐH Nữ sinh Duksung, học phí ĐH Nữ sinh Duksung, Duksung Women's University, 덕성여자대학교, đại học Seoul" />
       <link rel="canonical" href="https://eas-tuition.onrender.com/university/duksung" />
-      <meta property="og:title" content="Đại học Nữ sinh Duksung 
-( 덕성여자대학교 0 - Học Phí & Thông Tin Tuyển Sinh 2025" />
-      <meta property="og:description" content="Học phí trường Đại học Nữ sinh Duksung 
-( 덕성여자대학교 0 (Duksung Womans University): 3,150,000 - 4,650,000 KRW (58,275,000 - 86,025,000 VND) mỗi học kỳ. Địa chỉ: 33 Samyang-ro 144-gil, Dobong-gu, Seoul. Xếp hạng: #35." />
+      <meta property="og:title" content="ĐH Nữ sinh Duksung - Học Phí & Thông Tin Tuyển Sinh 2025" />
+      <meta property="og:description" content="Học phí trường ĐH Nữ sinh Duksung (Duksung Women's University): 3,150,000 - 4,650,000 KRW (58,275,000 - 86,025,000 VND) mỗi học kỳ. Địa chỉ: Seoul. Xếp hạng: #35." />
       <meta property="og:url" content="https://eas-tuition.onrender.com/university/duksung" />
       <meta property="og:type" content="website" />
       <meta property="og:image" content="https://eas-tuition.onrender.com/og-image.png" />
       <meta property="og:locale" content="vi_VN" />
       <meta name="twitter:card" content="summary_large_image" />
-      <meta name="twitter:title" content="Đại học Nữ sinh Duksung 
-( 덕성여자대학교 0 - Học Phí & Thông Tin Tuyển Sinh 2025" />
-      <meta name="twitter:description" content="Học phí trường Đại học Nữ sinh Duksung 
-( 덕성여자대학교 0 (Duksung Womans University): 3,150,000 - 4,650,000 KRW (58,275,000 - 86,025,000 VND) mỗi học kỳ. Địa chỉ: 33 Samyang-ro 144-gil, Dobong-gu, Seoul. Xếp hạng: #35." />
+      <meta name="twitter:title" content="ĐH Nữ sinh Duksung - Học Phí & Thông Tin Tuyển Sinh 2025" />
+      <meta name="twitter:description" content="Học phí trường ĐH Nữ sinh Duksung (Duksung Women's University): 3,150,000 - 4,650,000 KRW (58,275,000 - 86,025,000 VND) mỗi học kỳ. Địa chỉ: Seoul. Xếp hạng: #35." />
       <meta name="twitter:image" content="https://eas-tuition.onrender.com/og-image.png" />
       <meta name="robots" content="index, follow" />
       <link rel="alternate" hreflang="vi" href="https://eas-tuition.onrender.com/university/duksung" />
@@ -34,10 +26,9 @@ export const ssgOptions = {
         {`{
           "@context": "https://schema.org",
           "@type": "EducationalOrganization",
-          "name": "Đại học Nữ sinh Duksung 
-( 덕성여자대학교 0",
-          "alternateName": "Duksung Womans University",
-          "url": "https://www.duksung.ac.kr",
+          "name": "ĐH Nữ sinh Duksung",
+          "alternateName": "Duksung Women's University",
+          "url": "",
           "address": {
             "@type": "PostalAddress",
             "addressCountry": "KR",

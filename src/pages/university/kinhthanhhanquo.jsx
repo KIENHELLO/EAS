@@ -6,19 +6,19 @@ export const ssgOptions = {
   routeUrl: '/university/kinhthanhhanquo',
   Head: () => (
     <>
-      <title>Đại học Kinh thánh Hàn Quốc - Học Phí & Thông Tin Tuyển Sinh 2025 | KR-UniTuition</title>
-      <meta name="description" content="Học phí trường Đại học Kinh thánh Hàn Quốc (Đại học Kinh thánh Hàn Quốc (Korea)): 2,400,000 - 3,100,000 KRW (44,400,000 - 57,350,000 VND) mỗi học kỳ. Địa chỉ: Korea. Xếp hạng: #162." />
-      <meta name="keywords" content="Đại học Kinh thánh Hàn Quốc, học phí Đại học Kinh thánh Hàn Quốc, Đại học Kinh thánh Hàn Quốc (Korea), Đại học Kinh thánh Hàn Quốc, đại học Seoul" />
+      <title>ĐH Kinh Thánh Hàn Quốc - Học Phí & Thông Tin Tuyển Sinh 2025 | KR-UniTuition</title>
+      <meta name="description" content="Học phí trường ĐH Kinh Thánh Hàn Quốc (Korean Bible University): 2,400,000 - 3,100,000 KRW (44,400,000 - 57,350,000 VND) mỗi học kỳ. Địa chỉ: Seoul. Xếp hạng: #162." />
+      <meta name="keywords" content="ĐH Kinh Thánh Hàn Quốc, học phí ĐH Kinh Thánh Hàn Quốc, Korean Bible University, 한국성서대학교, đại học Seoul" />
       <link rel="canonical" href="https://eas-tuition.onrender.com/university/kinhthanhhanquo" />
-      <meta property="og:title" content="Đại học Kinh thánh Hàn Quốc - Học Phí & Thông Tin Tuyển Sinh 2025" />
-      <meta property="og:description" content="Học phí trường Đại học Kinh thánh Hàn Quốc (Đại học Kinh thánh Hàn Quốc (Korea)): 2,400,000 - 3,100,000 KRW (44,400,000 - 57,350,000 VND) mỗi học kỳ. Địa chỉ: Korea. Xếp hạng: #162." />
+      <meta property="og:title" content="ĐH Kinh Thánh Hàn Quốc - Học Phí & Thông Tin Tuyển Sinh 2025" />
+      <meta property="og:description" content="Học phí trường ĐH Kinh Thánh Hàn Quốc (Korean Bible University): 2,400,000 - 3,100,000 KRW (44,400,000 - 57,350,000 VND) mỗi học kỳ. Địa chỉ: Seoul. Xếp hạng: #162." />
       <meta property="og:url" content="https://eas-tuition.onrender.com/university/kinhthanhhanquo" />
       <meta property="og:type" content="website" />
       <meta property="og:image" content="https://eas-tuition.onrender.com/og-image.png" />
       <meta property="og:locale" content="vi_VN" />
       <meta name="twitter:card" content="summary_large_image" />
-      <meta name="twitter:title" content="Đại học Kinh thánh Hàn Quốc - Học Phí & Thông Tin Tuyển Sinh 2025" />
-      <meta name="twitter:description" content="Học phí trường Đại học Kinh thánh Hàn Quốc (Đại học Kinh thánh Hàn Quốc (Korea)): 2,400,000 - 3,100,000 KRW (44,400,000 - 57,350,000 VND) mỗi học kỳ. Địa chỉ: Korea. Xếp hạng: #162." />
+      <meta name="twitter:title" content="ĐH Kinh Thánh Hàn Quốc - Học Phí & Thông Tin Tuyển Sinh 2025" />
+      <meta name="twitter:description" content="Học phí trường ĐH Kinh Thánh Hàn Quốc (Korean Bible University): 2,400,000 - 3,100,000 KRW (44,400,000 - 57,350,000 VND) mỗi học kỳ. Địa chỉ: Seoul. Xếp hạng: #162." />
       <meta name="twitter:image" content="https://eas-tuition.onrender.com/og-image.png" />
       <meta name="robots" content="index, follow" />
       <link rel="alternate" hreflang="vi" href="https://eas-tuition.onrender.com/university/kinhthanhhanquo" />
@@ -26,9 +26,9 @@ export const ssgOptions = {
         {`{
           "@context": "https://schema.org",
           "@type": "EducationalOrganization",
-          "name": "Đại học Kinh thánh Hàn Quốc",
-          "alternateName": "Đại học Kinh thánh Hàn Quốc (Korea)",
-          "url": "https://www.studyinkorea.go.kr",
+          "name": "ĐH Kinh Thánh Hàn Quốc",
+          "alternateName": "Korean Bible University",
+          "url": "",
           "address": {
             "@type": "PostalAddress",
             "addressCountry": "KR",

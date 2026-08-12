@@ -6,19 +6,19 @@ export const ssgOptions = {
   routeUrl: '/university/tongmyung',
   Head: () => (
     <>
-      <title>Đại học Tongmyung - Học Phí & Thông Tin Tuyển Sinh 2025 | KR-UniTuition</title>
-      <meta name="description" content="Học phí trường Đại học Tongmyung (Đại học Tongmyung (Korea)): 2,400,000 - 3,100,000 KRW (44,400,000 - 57,350,000 VND) mỗi học kỳ. Địa chỉ: Korea. Xếp hạng: #193." />
-      <meta name="keywords" content="Đại học Tongmyung, học phí Đại học Tongmyung, Đại học Tongmyung (Korea), Đại học Tongmyung, đại học Busan" />
+      <title>Đại học Tongmyong - Học Phí & Thông Tin Tuyển Sinh 2025 | KR-UniTuition</title>
+      <meta name="description" content="Học phí trường Đại học Tongmyong (Tongmyong University): 2,400,000 - 3,100,000 KRW (44,400,000 - 57,350,000 VND) mỗi học kỳ. Địa chỉ: Busan. Xếp hạng: #193." />
+      <meta name="keywords" content="Đại học Tongmyong, học phí Đại học Tongmyong, Tongmyong University, 동명대학교, đại học Busan" />
       <link rel="canonical" href="https://eas-tuition.onrender.com/university/tongmyung" />
-      <meta property="og:title" content="Đại học Tongmyung - Học Phí & Thông Tin Tuyển Sinh 2025" />
-      <meta property="og:description" content="Học phí trường Đại học Tongmyung (Đại học Tongmyung (Korea)): 2,400,000 - 3,100,000 KRW (44,400,000 - 57,350,000 VND) mỗi học kỳ. Địa chỉ: Korea. Xếp hạng: #193." />
+      <meta property="og:title" content="Đại học Tongmyong - Học Phí & Thông Tin Tuyển Sinh 2025" />
+      <meta property="og:description" content="Học phí trường Đại học Tongmyong (Tongmyong University): 2,400,000 - 3,100,000 KRW (44,400,000 - 57,350,000 VND) mỗi học kỳ. Địa chỉ: Busan. Xếp hạng: #193." />
       <meta property="og:url" content="https://eas-tuition.onrender.com/university/tongmyung" />
       <meta property="og:type" content="website" />
       <meta property="og:image" content="https://eas-tuition.onrender.com/og-image.png" />
       <meta property="og:locale" content="vi_VN" />
       <meta name="twitter:card" content="summary_large_image" />
-      <meta name="twitter:title" content="Đại học Tongmyung - Học Phí & Thông Tin Tuyển Sinh 2025" />
-      <meta name="twitter:description" content="Học phí trường Đại học Tongmyung (Đại học Tongmyung (Korea)): 2,400,000 - 3,100,000 KRW (44,400,000 - 57,350,000 VND) mỗi học kỳ. Địa chỉ: Korea. Xếp hạng: #193." />
+      <meta name="twitter:title" content="Đại học Tongmyong - Học Phí & Thông Tin Tuyển Sinh 2025" />
+      <meta name="twitter:description" content="Học phí trường Đại học Tongmyong (Tongmyong University): 2,400,000 - 3,100,000 KRW (44,400,000 - 57,350,000 VND) mỗi học kỳ. Địa chỉ: Busan. Xếp hạng: #193." />
       <meta name="twitter:image" content="https://eas-tuition.onrender.com/og-image.png" />
       <meta name="robots" content="index, follow" />
       <link rel="alternate" hreflang="vi" href="https://eas-tuition.onrender.com/university/tongmyung" />
@@ -26,9 +26,9 @@ export const ssgOptions = {
         {`{
           "@context": "https://schema.org",
           "@type": "EducationalOrganization",
-          "name": "Đại học Tongmyung",
-          "alternateName": "Đại học Tongmyung (Korea)",
-          "url": "https://www.studyinkorea.go.kr",
+          "name": "Đại học Tongmyong",
+          "alternateName": "Tongmyong University",
+          "url": "",
           "address": {
             "@type": "PostalAddress",
             "addressCountry": "KR",

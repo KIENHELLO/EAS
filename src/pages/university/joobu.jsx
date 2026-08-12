@@ -6,19 +6,19 @@ export const ssgOptions = {
   routeUrl: '/university/joobu',
   Head: () => (
     <>
-      <title>Đại học Joobu - Học Phí & Thông Tin Tuyển Sinh 2025 | KR-UniTuition</title>
-      <meta name="description" content="Học phí trường Đại học Joobu (Đại học Joobu (Korea)): 2,400,000 - 3,100,000 KRW (44,400,000 - 57,350,000 VND) mỗi học kỳ. Địa chỉ: Korea. Xếp hạng: #176." />
-      <meta name="keywords" content="Đại học Joobu, học phí Đại học Joobu, Đại học Joobu (Korea), Đại học Joobu, đại học Chungnam" />
+      <title>ĐH Joongbu (CS Goyang) - Học Phí & Thông Tin Tuyển Sinh 2025 | KR-UniTuition</title>
+      <meta name="description" content="Học phí trường ĐH Joongbu (CS Goyang) (Joongbu University): 2,400,000 - 3,100,000 KRW (44,400,000 - 57,350,000 VND) mỗi học kỳ. Địa chỉ: Gyeonggi. Xếp hạng: #176." />
+      <meta name="keywords" content="ĐH Joongbu (CS Goyang), học phí ĐH Joongbu (CS Goyang), Joongbu University, 중부대학교(고양창의캠퍼스), đại học Gyeonggi" />
       <link rel="canonical" href="https://eas-tuition.onrender.com/university/joobu" />
-      <meta property="og:title" content="Đại học Joobu - Học Phí & Thông Tin Tuyển Sinh 2025" />
-      <meta property="og:description" content="Học phí trường Đại học Joobu (Đại học Joobu (Korea)): 2,400,000 - 3,100,000 KRW (44,400,000 - 57,350,000 VND) mỗi học kỳ. Địa chỉ: Korea. Xếp hạng: #176." />
+      <meta property="og:title" content="ĐH Joongbu (CS Goyang) - Học Phí & Thông Tin Tuyển Sinh 2025" />
+      <meta property="og:description" content="Học phí trường ĐH Joongbu (CS Goyang) (Joongbu University): 2,400,000 - 3,100,000 KRW (44,400,000 - 57,350,000 VND) mỗi học kỳ. Địa chỉ: Gyeonggi. Xếp hạng: #176." />
       <meta property="og:url" content="https://eas-tuition.onrender.com/university/joobu" />
       <meta property="og:type" content="website" />
       <meta property="og:image" content="https://eas-tuition.onrender.com/og-image.png" />
       <meta property="og:locale" content="vi_VN" />
       <meta name="twitter:card" content="summary_large_image" />
-      <meta name="twitter:title" content="Đại học Joobu - Học Phí & Thông Tin Tuyển Sinh 2025" />
-      <meta name="twitter:description" content="Học phí trường Đại học Joobu (Đại học Joobu (Korea)): 2,400,000 - 3,100,000 KRW (44,400,000 - 57,350,000 VND) mỗi học kỳ. Địa chỉ: Korea. Xếp hạng: #176." />
+      <meta name="twitter:title" content="ĐH Joongbu (CS Goyang) - Học Phí & Thông Tin Tuyển Sinh 2025" />
+      <meta name="twitter:description" content="Học phí trường ĐH Joongbu (CS Goyang) (Joongbu University): 2,400,000 - 3,100,000 KRW (44,400,000 - 57,350,000 VND) mỗi học kỳ. Địa chỉ: Gyeonggi. Xếp hạng: #176." />
       <meta name="twitter:image" content="https://eas-tuition.onrender.com/og-image.png" />
       <meta name="robots" content="index, follow" />
       <link rel="alternate" hreflang="vi" href="https://eas-tuition.onrender.com/university/joobu" />
@@ -26,13 +26,13 @@ export const ssgOptions = {
         {`{
           "@context": "https://schema.org",
           "@type": "EducationalOrganization",
-          "name": "Đại học Joobu",
-          "alternateName": "Đại học Joobu (Korea)",
-          "url": "https://www.studyinkorea.go.kr",
+          "name": "ĐH Joongbu (CS Goyang)",
+          "alternateName": "Joongbu University",
+          "url": "",
           "address": {
             "@type": "PostalAddress",
             "addressCountry": "KR",
-            "addressRegion": "Chungnam"
+            "addressRegion": "Gyeonggi"
           }
         }`}
       </script>

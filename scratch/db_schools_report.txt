@@ -1,0 +1,203 @@
+======================================================================
+BÁO CÁO THỐNG KÊ CHI TIẾT CSDL TRƯỜNG HỌC (154 TRƯỜNG THỰC TẾ)
+======================================================================
+
+--- KHU VỰC: BUSAN (13 trường) ---
+  1. ID: donga                | Tên: Đại học Dong-A                                     | Loại: Tư thục  | Tọa độ: 35.11619, 128.96733 | Học phí XH: 2400000 KRW
+  2. ID: dongeui              | Tên: Đại học Dong Eui                                   | Loại: Tư thục  | Tọa độ: 35.14360, 129.03450 | Học phí XH: 2400000 KRW
+  3. ID: dongmyung            | Tên: Đại học Dongmyung                                  | Loại: Tư thục  | Tọa độ: 37.57465, 126.97889 | Học phí XH: 2400000 KRW
+  4. ID: dongseo              | Tên: Đại học Dongseo                                    | Loại: Tư thục  | Tọa độ: 35.14611, 129.00702 | Học phí XH: 2400000 KRW
+  5. ID: khoahocdongeui       | Tên: Cao đẳng Khoa học Dong-eui                         | Loại: Tư thục  | Tọa độ: 35.16586, 129.07286 | Học phí XH: 2400000 KRW
+  6. ID: kosintop             | Tên: Đại học Kosin - top 3                              | Loại: Tư thục  | Tọa độ: 35.07962, 129.06301 | Học phí XH: 2400000 KRW
+  7. ID: kyungsung            | Tên: Đại học Kyungsung                                  | Loại: Tư thục  | Tọa độ: 35.13977, 129.09850 | Học phí XH: 2400000 KRW
+  8. ID: pukyong              | Tên: Đại học Quốc gia Pukyong                           | Loại: Tư thục  | Tọa độ: 35.13403, 129.10317 | Học phí XH: 2400000 KRW
+  9. ID: pusan                | Tên: Cao đẳng Quốc gia Busan                            | Loại: Công lập | Tọa độ: 35.23397, 129.08069 | Học phí XH: 3960000 KRW
+  10. ID: silla                | Tên: Đại học Silla                                      | Loại: Tư thục  | Tọa độ: 35.16792, 128.99703 | Học phí XH: 2400000 KRW
+  11. ID: thongtinkyungna      | Tên: Cao đẳng Thông tin Kyungnam                        | Loại: Tư thục  | Tọa độ: 35.14682, 129.01124 | Học phí XH: 2400000 KRW
+  12. ID: tongmyung            | Tên: Đại học Tongmyung                                  | Loại: Tư thục  | Tọa độ: 35.12081, 129.10122 | Học phí XH: 2400000 KRW
+  13. ID: youngsan             | Tên: Đại học Youngsan                                   | Loại: Tư thục  | Tọa độ: 35.22416, 129.15705 | Học phí XH: 3100000 KRW
+
+--- KHU VỰC: CHUNGBUK (4 trường) ---
+  1. ID: chungbuk             | Tên: Đại học Quốc gia Chungbuk                          | Loại: Công lập | Tọa độ: 36.62813, 127.45636 | Học phí XH: 1720000 KRW
+  2. ID: giaothonghanquo      | Tên: Đại học Quốc gia Giao thông Hàn Quốc               | Loại: Tư thục  | Tọa độ: 36.96984, 127.87177 | Học phí XH: 2400000 KRW
+  3. ID: semyung              | Tên: Đại học Semyung                                    | Loại: Tư thục  | Tọa độ: 37.17321, 128.19436 | Học phí XH: 2200000 KRW
+  4. ID: yuwon                | Tên: Đại học Yuwon                                      | Loại: Tư thục  | Tọa độ: 36.17410, 127.69700 | Học phí XH: 2400000 KRW
+
+--- KHU VỰC: CHUNGNAM (13 trường) ---
+  1. ID: ajou_motor           | Tên: Cao đẳng Ajou Motor - top 3                        | Loại: Tư thục  | Tọa độ: 36.40405, 126.57919 | Học phí XH: 2400000 KRW
+  2. ID: baekseok             | Tên: Đại học Baekseok                                   | Loại: Tư thục  | Tọa độ: 36.83945, 127.18390 | Học phí XH: 3200000 KRW
+  3. ID: dankook              | Tên: Đại học Dankook                                    | Loại: Tư thục  | Tọa độ: 37.32134, 127.12721 | Học phí XH: 2400000 KRW
+  4. ID: giaoduckythuath      | Tên: Đại học Giáo dục Kỹ thuật Hàn Quốc                 | Loại: Tư thục  | Tọa độ: 36.76372, 127.28194 | Học phí XH: 2400000 KRW
+  5. ID: hanseo               | Tên: Đại học Hanseo                                     | Loại: Tư thục  | Tọa độ: 36.69072, 126.58470 | Học phí XH: 2400000 KRW
+  6. ID: hoseo                | Tên: Đại học Hoseo                                      | Loại: Tư thục  | Tọa độ: 36.82791, 127.18338 | Học phí XH: 2400000 KRW
+  7. ID: joobu                | Tên: Đại học Joobu                                      | Loại: Tư thục  | Tọa độ: 36.19213, 127.44901 | Học phí XH: 2400000 KRW
+  8. ID: kongju               | Tên: Đại học Quốc gia Kongju                            | Loại: Tư thục  | Tọa độ: 36.46896, 127.14081 | Học phí XH: 2400000 KRW
+  9. ID: konyang              | Tên: Đại học Konyang                                    | Loại: Tư thục  | Tọa độ: 36.18215, 127.10869 | Học phí XH: 2400000 KRW
+  10. ID: namseoul             | Tên: Đại học Namseoul                                   | Loại: Tư thục  | Tọa độ: 36.90915, 127.14440 | Học phí XH: 3100000 KRW
+  11. ID: nazarene             | Tên: Đại học Nazarene                                   | Loại: Tư thục  | Tọa độ: 36.90915, 127.14440 | Học phí XH: 2400000 KRW
+  12. ID: soonchunhyang        | Tên: Đại học Soonchunhyang                              | Loại: Tư thục  | Tọa độ: 36.76824, 126.93318 | Học phí XH: 2400000 KRW
+  13. ID: sunmoon              | Tên: Đại học Sunmoon                                    | Loại: Tư thục  | Tọa độ: 36.79898, 127.07500 | Học phí XH: 3097000 KRW
+
+--- KHU VỰC: DAEGU (7 trường) ---
+  1. ID: caoangyeungjin       | Tên: Cao đẳng Yeungjin                                  | Loại: Tư thục  | Tọa độ: 35.89562, 128.62243 | Học phí XH: N/A KRW
+  2. ID: caodangytedaegu      | Tên: Cao đẳng Y tế Daegu                                | Loại: Tư thục  | Tọa độ: 35.92210, 128.55830 | Học phí XH: 2400000 KRW
+  3. ID: keimyung             | Tên: Đại học Keimyung                                   | Loại: Tư thục  | Tọa độ: 35.85585, 128.48893 | Học phí XH: 2400000 KRW
+  4. ID: knu                  | Tên: Đại học Quốc gia Kyungpook
+( 경북대학교 )               | Loại: Công lập | Tọa độ: 35.88884, 128.61030 | Học phí XH: 3870000 KRW
+  5. ID: kyungil              | Tên: Đại học Kyungil                                    | Loại: Tư thục  | Tọa độ: 35.90797, 128.80128 | Học phí XH: 3400000 KRW
+  6. ID: vanhoakeimyung       | Tên: Đại học Văn hoá Keimyung                           | Loại: Tư thục  | Tọa độ: 35.85580, 128.48890 | Học phí XH: 2400000 KRW
+  7. ID: yeungnam_college     | Tên: Cao đẳng Yeungnam College                          | Loại: Tư thục  | Tọa độ: 35.84691, 128.58283 | Học phí XH: 2400000 KRW
+
+--- KHU VỰC: DAEJEON (8 trường) ---
+  1. ID: chungnam             | Tên: Đại học Quốc gia Chungnam                          | Loại: Công lập | Tọa độ: 36.36692, 127.34650 | Học phí XH: 3780000 KRW
+  2. ID: daejeon              | Tên: Đại học Daejeon                                    | Loại: Tư thục  | Tọa độ: 36.33597, 127.45765 | Học phí XH: 2400000 KRW
+  3. ID: hanbat               | Tên: Đại học Quốc gia Hanbat                            | Loại: Tư thục  | Tọa độ: 36.35092, 127.30109 | Học phí XH: 2400000 KRW
+  4. ID: hannam               | Tên: Đại học Hannam                                     | Loại: Tư thục  | Tọa độ: 36.35466, 127.42102 | Học phí XH: 2400000 KRW
+  5. ID: kaist                | Tên: Viện Khoa học và Công nghệ Tiên tiến Hàn Quốc (KAIST) | Loại: Công lập | Tọa độ: 36.37410, 127.36010 | Học phí XH: 3060000 KRW
+  6. ID: mokwon               | Tên: Đại học Mokwon                                     | Loại: Tư thục  | Tọa độ: 36.32612, 127.33876 | Học phí XH: 2400000 KRW
+  7. ID: paichai              | Tên: Đại học Paichai                                    | Loại: Tư thục  | Tọa độ: 36.31965, 127.36616 | Học phí XH: 3300000 KRW
+  8. ID: woosong              | Tên: Đại học Woosong                                    | Loại: Tư thục  | Tọa độ: 36.33444, 127.45195 | Học phí XH: 2400000 KRW
+
+--- KHU VỰC: GANGWON (10 trường) ---
+  1. ID: gangneungwonju       | Tên: Đại học Quốc gia Gangneung-Wonju                   | Loại: Tư thục  | Tọa độ: 37.77001, 128.86920 | Học phí XH: 2400000 KRW
+  2. ID: kangwon              | Tên: Đại học Gangwon                                    | Loại: Công lập | Tọa độ: 37.86895, 127.74501 | Học phí XH: 3600000 KRW
+  3. ID: sangji               | Tên: Đại học Sanji                                      | Loại: Tư thục  | Tọa độ: 37.37070, 127.92807 | Học phí XH: 3400000 KRW
+  4. ID: sangji_catholic      | Tên: Cao đẳng Catholic Sangji                           | Loại: Tư thục  | Tọa độ: 36.56929, 128.73594 | Học phí XH: 2300000 KRW
+  5. ID: top3_school_18       | Tên: Cao đẳng Gangneung yeongdong                       | Loại: Tư thục  | Tọa độ: 37.74715, 128.85563 | Học phí XH: 1900000 KRW
+  6. ID: top3_school_19       | Tên: Đại học Halla                                      | Loại: Tư thục  | Tọa độ: 37.30277, 127.90779 | Học phí XH: 2200000 KRW
+  7. ID: top3_school_20       | Tên: Đại học Kyungdong                                  | Loại: Tư thục  | Tọa độ: 38.25066, 128.55656 | Học phí XH: 2400000 KRW
+  8. ID: top3_school_22       | Tên: Cao đẳng Songho                                    | Loại: Tư thục  | Tọa độ: 37.47147, 128.00202 | Học phí XH: 1800000 KRW
+  9. ID: top3_school_23       | Tên: Cao đẳng Gangwon State                             | Loại: Tư thục  | Tọa độ: 37.86895, 127.74501 | Học phí XH: 1700000 KRW
+  10. ID: yonseicosomirae      | Tên: Đại học Yonsei (Cơ sở Mirae)                       | Loại: Tư thục  | Tọa độ: 37.27999, 127.90166 | Học phí XH: 2400000 KRW
+
+--- KHU VỰC: GWANGJU (5 trường) ---
+  1. ID: chonnam              | Tên: Đại học Quốc gia Chonnam                           | Loại: Công lập | Tọa độ: 35.17622, 126.90577 | Học phí XH: 1750000 KRW
+  2. ID: chosun               | Tên: Đại học Chosun                                     | Loại: Tư thục  | Tọa độ: 35.14148, 126.93210 | Học phí XH: 2400000 KRW
+  3. ID: gwangju              | Tên: Đại học Gwangju                                    | Loại: Tư thục  | Tọa độ: 35.10749, 126.89560 | Học phí XH: 2400000 KRW
+  4. ID: top3_school_16       | Tên: Đại học Nữ Sinh Kwangju                            | Loại: Tư thục  | Tọa độ: 35.16368, 126.79750 | Học phí XH: 2200000 KRW
+  5. ID: top3_school_17       | Tên: Đại học Songwon                                    | Loại: Tư thục  | Tọa độ: 35.10862, 126.87472 | Học phí XH: 2000000 KRW
+
+--- KHU VỰC: GYEONGBUK (10 trường) ---
+  1. ID: daegu_catholic       | Tên: Đại học Công giáo Daegu                            | Loại: Tư thục  | Tọa độ: 35.90217, 128.84910 | Học phí XH: 2400000 KRW
+  2. ID: daeshin              | Tên: Đại học Daeshin                                    | Loại: Tư thục  | Tọa độ: 35.80390, 128.74484 | Học phí XH: 2400000 KRW
+  3. ID: donggukwise          | Tên: Đại học Dongguk (WISE)                             | Loại: Tư thục  | Tọa độ: 35.86225, 129.19512 | Học phí XH: 2400000 KRW
+  4. ID: gyeongguk            | Tên: Đại học Quốc gia Gyeongguk                         | Loại: Tư thục  | Tọa độ: 36.54187, 128.79690 | Học phí XH: 2400000 KRW
+  5. ID: khoahockyongbuk      | Tên: Đại học Khoa học Kyongbuk                          | Loại: Tư thục  | Tọa độ: 36.00970, 128.41210 | Học phí XH: 2400000 KRW
+  6. ID: kyungwoon            | Tên: Đại học Kyungwoon                                  | Loại: Tư thục  | Tọa độ: 36.16593, 128.42673 | Học phí XH: 2400000 KRW
+  7. ID: postech              | Tên: Đại học Khoa học và Công nghệ Pohang               | Loại: Tư thục  | Tọa độ: 36.01102, 129.32265 | Học phí XH: 3200000 KRW
+  8. ID: viencongnghegeu      | Tên: Viện Công nghệ Geumoh                              | Loại: Tư thục  | Tọa độ: 37.57465, 126.97889 | Học phí XH: 2400000 KRW
+  9. ID: widuk                | Tên: Đại học Widuk                                      | Loại: Tư thục  | Tọa độ: 36.01524, 129.28414 | Học phí XH: 2400000 KRW
+  10. ID: yeungnam             | Tên: Đại học Yeungnam                                   | Loại: Tư thục  | Tọa độ: 35.83279, 128.75757 | Học phí XH: 3200000 KRW
+
+--- KHU VỰC: GYEONGGI (28 trường) ---
+  1. ID: ajou                 | Tên: Đại học Ajou                                       | Loại: Tư thục  | Tọa độ: 37.28202, 127.04634 | Học phí XH: 3690000 KRW
+  2. ID: caoangkimpo          | Tên: Cao đẳng Kimpo                                     | Loại: Tư thục  | Tọa độ: 37.72997, 126.54648 | Học phí XH: N/A KRW
+  3. ID: caoangshingu         | Tên: Cao đẳng Shingu                                    | Loại: Tư thục  | Tọa độ: 37.44878, 127.16815 | Học phí XH: N/A KRW
+  4. ID: dongwon              | Tên: Cao đẳng Dongwon                                   | Loại: Tư thục  | Tọa độ: 35.34263, 129.06743 | Học phí XH: 2400000 KRW
+  5. ID: gachon               | Tên: Đại học Gachon                                     | Loại: Tư thục  | Tọa độ: 37.45071, 127.12885 | Học phí XH: 2400000 KRW
+  6. ID: hanyangerica         | Tên: Đại học Hanyang (ERICA)                            | Loại: Tư thục  | Tọa độ: 37.29607, 126.83478 | Học phí XH: 2400000 KRW
+  7. ID: hocviennghethua      | Tên: Học viện Nghệ thuật Seoul                          | Loại: Tư thục  | Tọa độ: 37.33403, 126.83624 | Học phí XH: 2400000 KRW
+  8. ID: luatvakinhdoanh      | Tên: Đại học Luật và Kinh doanh Quốc tế                 | Loại: Tư thục  | Tọa độ: 37.66980, 126.89240 | Học phí XH: 2400000 KRW
+  9. ID: nghethuatkhoaho      | Tên: Cao đẳng Nghệ thuật & Khoa học Yongin              | Loại: Tư thục  | Tọa độ: 37.22848, 127.21608 | Học phí XH: 2400000 KRW
+  10. ID: nghethuatyewon       | Tên: Đại học Nghệ thuật Yewon                           | Loại: Tư thục  | Tọa độ: 37.89230, 127.06210 | Học phí XH: 2400000 KRW
+  11. ID: osan_uni             | Tên: Cao đẳng Osan                                      | Loại: Tư thục  | Tọa độ: 37.15558, 127.06081 | Học phí XH: 2400000 KRW
+  12. ID: phimanhhanquoc       | Tên: Cao đẳng Phim ảnh Hàn Quốc                         | Loại: Tư thục  | Tọa độ: 37.57465, 126.97889 | Học phí XH: 2400000 KRW
+  13. ID: sausunhakup          | Tên: Đại học Sau đại học Sunhak UP                      | Loại: Tư thục  | Tọa độ: 37.68853, 127.54071 | Học phí XH: 2400000 KRW
+  14. ID: seoul_theological    | Tên: Đại học thần học SEOUL ( STU )
+( 서울신학대학교 )         | Loại: Tư thục  | Tọa độ: 37.47950, 126.78900 | Học phí XH: 2900000 KRW
+  15. ID: shinhan              | Tên: Đại học Shinhan                                    | Loại: Tư thục  | Tọa độ: 37.70955, 127.04604 | Học phí XH: 2400000 KRW
+  16. ID: sungkyul             | Tên: Đại học Sungkyul                                   | Loại: Tư thục  | Tọa độ: 37.37932, 126.92819 | Học phí XH: 2400000 KRW
+  17. ID: top3_school_10       | Tên: Đại học Seojeong                                   | Loại: Tư thục  | Tọa độ: 37.85683, 127.03803 | Học phí XH: 2000000 KRW
+  18. ID: top3_school_11       | Tên: Đại học Shin Asan                                  | Loại: Tư thục  | Tọa độ: 37.31250, 126.80639 | Học phí XH: 2100000 KRW
+  19. ID: top3_school_13       | Tên: Cao đẳng kỹ thuật Doowon                           | Loại: Tư thục  | Tọa độ: 37.06590, 127.41912 | Học phí XH: 2100000 KRW
+  20. ID: top3_school_14       | Tên: Cao đẳng Tongwon                                   | Loại: Tư thục  | Tọa độ: 37.32858, 127.40283 | Học phí XH: 2000000 KRW
+  21. ID: top3_school_15       | Tên: Đại học Khoa học và Nghệ thuật Yongin              | Loại: Tư thục  | Tọa độ: 37.22848, 127.21608 | Học phí XH: 2200000 KRW
+  22. ID: top3_school_2        | Tên: Cao đẳng Ansan                                     | Loại: Tư thục  | Tọa độ: 37.30968, 126.87560 | Học phí XH: 2200000 KRW
+  23. ID: top3_school_3        | Tên: Cao đẳng Bucheon                                   | Loại: Tư thục  | Tọa độ: 37.48940, 126.77890 | Học phí XH: 2400000 KRW
+  24. ID: top3_school_4        | Tên: Cao đẳng Y Dongnam                                 | Loại: Tư thục  | Tọa độ: 37.29821, 126.98702 | Học phí XH: 2300000 KRW
+  25. ID: top3_school_6        | Tên: Cao đẳng Jangan                                    | Loại: Tư thục  | Tọa độ: 37.21224, 126.94662 | Học phí XH: 2000000 KRW
+  26. ID: top3_school_8        | Tên: Đại học Kyonggi                                    | Loại: Tư thục  | Tọa độ: 37.30049, 127.03583 | Học phí XH: 2800000 KRW
+  27. ID: top3_school_9        | Tên: Cao đẳng Kyungmin                                  | Loại: Tư thục  | Tọa độ: 37.74548, 127.02331 | Học phí XH: 2000000 KRW
+  28. ID: yongin               | Tên: Đại học Yong In                                    | Loại: Tư thục  | Tọa độ: 37.22850, 127.16850 | Học phí XH: 2400000 KRW
+
+--- KHU VỰC: GYEONGNAM (7 trường) ---
+  1. ID: caodangkhoahock      | Tên: Cao đẳng Khoa học kỹ thuật Dongwon                 | Loại: Tư thục  | Tọa độ: 35.40560, 129.07220 | Học phí XH: 2400000 KRW
+  2. ID: changwon             | Tên: Đại học Quốc gia Changwon                          | Loại: Tư thục  | Tọa độ: 35.24560, 128.69195 | Học phí XH: 2400000 KRW
+  3. ID: inje                 | Tên: Đại học Inje                                       | Loại: Tư thục  | Tọa độ: 35.25039, 128.90118 | Học phí XH: 2400000 KRW
+  4. ID: khoahocvacongng      | Tên: Đại học Quốc gia khoa học và công nghệ  Gyeongnam  | Loại: Tư thục  | Tọa độ: 35.18040, 128.09260 | Học phí XH: 2400000 KRW
+  5. ID: kyungnam             | Tên: Đại học Kyungnam                                   | Loại: Tư thục  | Tọa độ: 35.18035, 128.55338 | Học phí XH: 2400000 KRW
+  6. ID: kyungsang            | Tên: Đại học Quốc gia Kyungsang                         | Loại: Tư thục  | Tọa độ: 35.15304, 128.10109 | Học phí XH: 2400000 KRW
+  7. ID: masantop             | Tên: Cao đẳng Masan - top 3                             | Loại: Tư thục  | Tọa độ: 35.25974, 128.50517 | Học phí XH: 2400000 KRW
+
+--- KHU VỰC: INCHEON (1 trường) ---
+  1. ID: kyungin              | Tên: Cao đẳng Nữ Kyungin                                | Loại: Tư thục  | Tọa độ: 37.54816, 126.72283 | Học phí XH: 2400000 KRW
+
+--- KHU VỰC: JEJU (1 trường) ---
+  1. ID: jeju                 | Tên: Cao đẳng Jeju                                      | Loại: Công lập | Tọa độ: 33.45592, 126.56203 | Học phí XH: 3420000 KRW
+
+--- KHU VỰC: JEONBUK (5 trường) ---
+  1. ID: jbnu                 | Tên: Đại học Quốc gia Chonbuk                           | Loại: Công lập | Tọa độ: 35.84682, 127.12992 | Học phí XH: 3690000 KRW
+  2. ID: jeonbuk_science      | Tên: Cao đẳng học Khoa học Jeonbuk                      | Loại: Tư thục  | Tọa độ: 35.54897, 126.86083 | Học phí XH: 2400000 KRW
+  3. ID: kunsan               | Tên: Đại học Quốc gia Kunsan                            | Loại: Công lập | Tọa độ: 35.94702, 126.68152 | Học phí XH: 1680000 KRW
+  4. ID: wonkwang             | Tên: Đại học Wonkwang                                   | Loại: Tư thục  | Tọa độ: 35.96878, 126.95910 | Học phí XH: 3100000 KRW
+  5. ID: wonkwang_health      | Tên: Cao đẳng Y tế Wonkwang                             | Loại: Tư thục  | Tọa độ: 35.97206, 126.95572 | Học phí XH: 2400000 KRW
+
+--- KHU VỰC: JEONLLABUK (1 trường) ---
+  1. ID: howontop             | Tên: Đại học Howon   - top 3                            | Loại: Tư thục  | Tọa độ: 35.96603, 126.86488 | Học phí XH: 2400000 KRW
+
+--- KHU VỰC: JEONLLANAM-DO (1 trường) ---
+  1. ID: dongshintop          | Tên: Đại học Dongshin - top 3                           | Loại: Tư thục  | Tọa độ: 35.04964, 126.71802 | Học phí XH: 2400000 KRW
+
+--- KHU VỰC: JEONNAM (4 trường) ---
+  1. ID: caodangcheongam      | Tên: Cao đẳng Cheongam                                  | Loại: Tư thục  | Tọa độ: 34.93120, 127.49880 | Học phí XH: 2400000 KRW
+  2. ID: chodang              | Tên: Đại học Chodang                                    | Loại: Tư thục  | Tọa độ: 34.99180, 126.43800 | Học phí XH: 2400000 KRW
+  3. ID: mokpo                | Tên: Đại học Mokpo                                      | Loại: Tư thục  | Tọa độ: 34.91300, 126.43760 | Học phí XH: 2400000 KRW
+  4. ID: sunchon              | Tên: Đại học Quốc gia Sunchon                           | Loại: Tư thục  | Tọa độ: 34.96877, 127.48024 | Học phí XH: 2400000 KRW
+
+--- KHU VỰC: SEJONG (1 trường) ---
+  1. ID: koreacososejong      | Tên: Đại học Korea (Cơ sở Sejong)                       | Loại: Tư thục  | Tọa độ: 36.61090, 127.28647 | Học phí XH: 2400000 KRW
+
+--- KHU VỰC: SEOUL (33 trường) ---
+  1. ID: cau                  | Tên: Đại học ChungAng                                   | Loại: Tư thục  | Tọa độ: 37.50456, 126.95694 | Học phí XH: 3790000 KRW
+  2. ID: chongshin            | Tên: Đại học Chongshin                                  | Loại: Tư thục  | Tọa độ: 37.48830, 126.96800 | Học phí XH: 2400000 KRW
+  3. ID: dongduk              | Tên: Đại học nữ Dongduk                                 | Loại: Tư thục  | Tọa độ: 37.60630, 127.04280 | Học phí XH: 2400000 KRW
+  4. ID: dongguk              | Tên: Đại học Dongguk
+( 동국대 학교)                          | Loại: Tư thục  | Tọa độ: 37.55829, 127.00017 | Học phí XH: 3820000 KRW
+  5. ID: duksung              | Tên: Đại học Nữ sinh Duksung 
+( 덕성여자대학교 0               | Loại: Tư thục  | Tọa độ: 37.65130, 127.01657 | Học phí XH: 3150000 KRW
+  6. ID: ewha                 | Tên: Đại học Nữ sinh Ewha
+( 이화여자대학교 )                   | Loại: Tư thục  | Tọa độ: 37.56186, 126.94683 | Học phí XH: 2400000 KRW
+  7. ID: hansung              | Tên: Đại học Hansung                                    | Loại: Tư thục  | Tọa độ: 37.58237, 127.01113 | Học phí XH: 1050000 KRW
+  8. ID: hanyang              | Tên: Cao đẳng Hanyang                                   | Loại: Tư thục  | Tọa độ: 37.55867, 127.04989 | Học phí XH: 3690000 KRW
+  9. ID: hongik               | Tên: Đại học Hongik 
+( 홍익대학교 )                          | Loại: Tư thục  | Tọa độ: 37.55076, 126.92549 | Học phí XH: 3800000 KRW
+  10. ID: induk                | Tên: Cao đẳng Induk                                     | Loại: Tư thục  | Tọa độ: 37.63142, 127.05482 | Học phí XH: 2400000 KRW
+  11. ID: khoahoccongnghe      | Tên: Đại học Khoa học & Công nghệ Seoul                 | Loại: Tư thục  | Tọa độ: 37.63167, 127.07748 | Học phí XH: 2400000 KRW
+  12. ID: khu                  | Tên: Đại học Kyunghee                                   | Loại: Tư thục  | Tọa độ: 37.59671, 127.05139 | Học phí XH: 3820000 KRW
+  13. ID: kinhthanhhanquo      | Tên: Đại học Kinh thánh Hàn Quốc                        | Loại: Tư thục  | Tọa độ: 37.64860, 127.06424 | Học phí XH: 2400000 KRW
+  14. ID: konkuk               | Tên: Đại học Konkuk ( KU )
+( 건국대학교 )                    | Loại: Tư thục  | Tọa độ: 37.54233, 127.07592 | Học phí XH: 3900000 KRW
+  15. ID: kookmin              | Tên: Đại học Kookmin                                    | Loại: Tư thục  | Tọa độ: 37.61115, 126.99658 | Học phí XH: 3555000 KRW
+  16. ID: korea                | Tên: Đại học Korea                                      | Loại: Tư thục  | Tọa độ: 37.58875, 127.03237 | Học phí XH: 3870000 KRW
+  17. ID: kwangwoon            | Tên: Đại học Kwangwoon                                  | Loại: Tư thục  | Tọa độ: 37.61970, 127.05967 | Học phí XH: 2400000 KRW
+  18. ID: myongji              | Tên: Đại học Myongji                                    | Loại: Tư thục  | Tọa độ: 37.58023, 126.92312 | Học phí XH: 3450000 KRW
+  19. ID: myongji_college      | Tên: Cao đẳng Myongji                                   | Loại: Tư thục  | Tọa độ: 37.58465, 126.92519 | Học phí XH: 2400000 KRW
+  20. ID: ngoainguhankuk       | Tên: Đại học Ngoại ngữ Hankuk                           | Loại: Tư thục  | Tọa độ: 37.59745, 127.05880 | Học phí XH: 2400000 KRW
+  21. ID: sahmyook             | Tên: Đại học Sahmyook                                   | Loại: Tư thục  | Tọa độ: 37.64290, 127.10750 | Học phí XH: 2400000 KRW
+  22. ID: saungonnguquoct      | Tên: Đại học Sau đại học Ngôn ngữ Quốc tế               | Loại: Tư thục  | Tọa độ: 37.57465, 126.97889 | Học phí XH: 2400000 KRW
+  23. ID: sejong               | Tên: Đại học Sejong                                     | Loại: Tư thục  | Tọa độ: 37.54927, 127.07410 | Học phí XH: 3510000 KRW
+  24. ID: seolyong             | Tên: Đại học Seolyong
+( 서경대학교 )                         | Loại: Tư thục  | Tọa độ: 37.61511, 127.01243 | Học phí XH: 2400000 KRW
+  25. ID: skku                 | Tên: Đại học Sungkyungwan                               | Loại: Tư thục  | Tọa độ: 37.58823, 126.99361 | Học phí XH: 3780000 KRW
+  26. ID: snu                  | Tên: Đại học Quốc gia Seoul                             | Loại: Công lập | Tọa độ: 37.62811, 127.09046 | Học phí XH: 2250000 KRW
+  27. ID: sogang               | Tên: Đại học Sogang                                     | Loại: Tư thục  | Tọa độ: 37.55123, 126.93927 | Học phí XH: 3850000 KRW
+  28. ID: sookmyung            | Tên: Đại học nữ sinh Sookmyung                          | Loại: Tư thục  | Tọa độ: 37.54648, 126.96469 | Học phí XH: 3200000 KRW
+  29. ID: soongsil             | Tên: Đại học Soongsil                                   | Loại: Tư thục  | Tọa độ: 37.49635, 126.95722 | Học phí XH: 3555000 KRW
+  30. ID: sungshin             | Tên: Đại học Nữ Sungshin                                | Loại: Tư thục  | Tọa độ: 37.59180, 127.02223 | Học phí XH: 3300000 KRW
+  31. ID: top3_school_1        | Tên: Đại học Phật Giáo                                  | Loại: Tư thục  | Tọa độ: 37.46640, 126.90233 | Học phí XH: 3200000 KRW
+  32. ID: viencaohocngonn      | Tên: Viện Cao học Ngôn ngữ Quốc tế                      | Loại: Tư thục  | Tọa độ: 37.52426, 127.12949 | Học phí XH: 2400000 KRW
+  33. ID: yonsei               | Tên: Đại học Yonsei                                     | Loại: Tư thục  | Tọa độ: 37.56639, 126.93871 | Học phí XH: 4050000 KRW
+
+--- KHU VỰC: ULSAN (2 trường) ---
+  1. ID: ulsan                | Tên: Đại học Ulsan                                      | Loại: Tư thục  | Tọa độ: 35.54374, 129.25628 | Học phí XH: 3150000 KRW
+  2. ID: ulsan_science        | Tên: Cao đẳng Khoa học Ulsan                            | Loại: Tư thục  | Tọa độ: 35.49579, 129.41565 | Học phí XH: 2400000 KRW

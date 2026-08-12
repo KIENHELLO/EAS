@@ -6,19 +6,19 @@ export const ssgOptions = {
   routeUrl: '/university/giaothonghanquo',
   Head: () => (
     <>
-      <title>Đại học Quốc gia Giao thông Hàn Quốc - Học Phí & Thông Tin Tuyển Sinh 2025 | KR-UniTuition</title>
-      <meta name="description" content="Học phí trường Đại học Quốc gia Giao thông Hàn Quốc (Đại học Quốc gia Giao thông Hàn Quốc (Korea)): 2,400,000 - 3,100,000 KRW (44,400,000 - 57,350,000 VND) mỗi học kỳ. Địa chỉ: Korea. Xếp hạng: #168." />
-      <meta name="keywords" content="Đại học Quốc gia Giao thông Hàn Quốc, học phí Đại học Quốc gia Giao thông Hàn Quốc, Đại học Quốc gia Giao thông Hàn Quốc (Korea), Đại học Quốc gia Giao thông Hàn Quốc, đại học Chungbuk" />
+      <title>ĐH GTVT Quốc gia HQ (CS Uiwang) - Học Phí & Thông Tin Tuyển Sinh 2025 | KR-UniTuition</title>
+      <meta name="description" content="Học phí trường ĐH GTVT Quốc gia HQ (CS Uiwang) (Korea National University of Transportation): 2,400,000 - 3,100,000 KRW (44,400,000 - 57,350,000 VND) mỗi học kỳ. Địa chỉ: Gyeonggi. Xếp hạng: #168." />
+      <meta name="keywords" content="ĐH GTVT Quốc gia HQ (CS Uiwang), học phí ĐH GTVT Quốc gia HQ (CS Uiwang), Korea National University of Transportation, 국립한국교통대학교(의왕캠퍼스), đại học Gyeonggi" />
       <link rel="canonical" href="https://eas-tuition.onrender.com/university/giaothonghanquo" />
-      <meta property="og:title" content="Đại học Quốc gia Giao thông Hàn Quốc - Học Phí & Thông Tin Tuyển Sinh 2025" />
-      <meta property="og:description" content="Học phí trường Đại học Quốc gia Giao thông Hàn Quốc (Đại học Quốc gia Giao thông Hàn Quốc (Korea)): 2,400,000 - 3,100,000 KRW (44,400,000 - 57,350,000 VND) mỗi học kỳ. Địa chỉ: Korea. Xếp hạng: #168." />
+      <meta property="og:title" content="ĐH GTVT Quốc gia HQ (CS Uiwang) - Học Phí & Thông Tin Tuyển Sinh 2025" />
+      <meta property="og:description" content="Học phí trường ĐH GTVT Quốc gia HQ (CS Uiwang) (Korea National University of Transportation): 2,400,000 - 3,100,000 KRW (44,400,000 - 57,350,000 VND) mỗi học kỳ. Địa chỉ: Gyeonggi. Xếp hạng: #168." />
       <meta property="og:url" content="https://eas-tuition.onrender.com/university/giaothonghanquo" />
       <meta property="og:type" content="website" />
       <meta property="og:image" content="https://eas-tuition.onrender.com/og-image.png" />
       <meta property="og:locale" content="vi_VN" />
       <meta name="twitter:card" content="summary_large_image" />
-      <meta name="twitter:title" content="Đại học Quốc gia Giao thông Hàn Quốc - Học Phí & Thông Tin Tuyển Sinh 2025" />
-      <meta name="twitter:description" content="Học phí trường Đại học Quốc gia Giao thông Hàn Quốc (Đại học Quốc gia Giao thông Hàn Quốc (Korea)): 2,400,000 - 3,100,000 KRW (44,400,000 - 57,350,000 VND) mỗi học kỳ. Địa chỉ: Korea. Xếp hạng: #168." />
+      <meta name="twitter:title" content="ĐH GTVT Quốc gia HQ (CS Uiwang) - Học Phí & Thông Tin Tuyển Sinh 2025" />
+      <meta name="twitter:description" content="Học phí trường ĐH GTVT Quốc gia HQ (CS Uiwang) (Korea National University of Transportation): 2,400,000 - 3,100,000 KRW (44,400,000 - 57,350,000 VND) mỗi học kỳ. Địa chỉ: Gyeonggi. Xếp hạng: #168." />
       <meta name="twitter:image" content="https://eas-tuition.onrender.com/og-image.png" />
       <meta name="robots" content="index, follow" />
       <link rel="alternate" hreflang="vi" href="https://eas-tuition.onrender.com/university/giaothonghanquo" />
@@ -26,13 +26,13 @@ export const ssgOptions = {
         {`{
           "@context": "https://schema.org",
           "@type": "EducationalOrganization",
-          "name": "Đại học Quốc gia Giao thông Hàn Quốc",
-          "alternateName": "Đại học Quốc gia Giao thông Hàn Quốc (Korea)",
-          "url": "https://www.studyinkorea.go.kr",
+          "name": "ĐH GTVT Quốc gia HQ (CS Uiwang)",
+          "alternateName": "Korea National University of Transportation",
+          "url": "",
           "address": {
             "@type": "PostalAddress",
             "addressCountry": "KR",
-            "addressRegion": "Chungbuk"
+            "addressRegion": "Gyeonggi"
           }
         }`}
       </script>

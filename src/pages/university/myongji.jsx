@@ -6,19 +6,19 @@ export const ssgOptions = {
   routeUrl: '/university/myongji',
   Head: () => (
     <>
-      <title>Đại học Myongji - Học Phí & Thông Tin Tuyển Sinh 2025 | KR-UniTuition</title>
-      <meta name="description" content="Học phí trường Đại học Myongji (Myongji University): 3,450,000 - 4,500,000 KRW (63,825,000 - 83,250,000 VND) mỗi học kỳ. Địa chỉ: 34 Namgajwa-dong, Seodaemun-gu, Seoul. Xếp hạng: #33." />
-      <meta name="keywords" content="Đại học Myongji, học phí Đại học Myongji, Myongji University, 명지대학교, đại học Seoul" />
+      <title>ĐH Myongji (CS Nhân văn) - Học Phí & Thông Tin Tuyển Sinh 2025 | KR-UniTuition</title>
+      <meta name="description" content="Học phí trường ĐH Myongji (CS Nhân văn) (Myongji University): 3,450,000 - 4,500,000 KRW (63,825,000 - 83,250,000 VND) mỗi học kỳ. Địa chỉ: Seoul. Xếp hạng: #33." />
+      <meta name="keywords" content="ĐH Myongji (CS Nhân văn), học phí ĐH Myongji (CS Nhân văn), Myongji University, 명지대학교, đại học Seoul" />
       <link rel="canonical" href="https://eas-tuition.onrender.com/university/myongji" />
-      <meta property="og:title" content="Đại học Myongji - Học Phí & Thông Tin Tuyển Sinh 2025" />
-      <meta property="og:description" content="Học phí trường Đại học Myongji (Myongji University): 3,450,000 - 4,500,000 KRW (63,825,000 - 83,250,000 VND) mỗi học kỳ. Địa chỉ: 34 Namgajwa-dong, Seodaemun-gu, Seoul. Xếp hạng: #33." />
+      <meta property="og:title" content="ĐH Myongji (CS Nhân văn) - Học Phí & Thông Tin Tuyển Sinh 2025" />
+      <meta property="og:description" content="Học phí trường ĐH Myongji (CS Nhân văn) (Myongji University): 3,450,000 - 4,500,000 KRW (63,825,000 - 83,250,000 VND) mỗi học kỳ. Địa chỉ: Seoul. Xếp hạng: #33." />
       <meta property="og:url" content="https://eas-tuition.onrender.com/university/myongji" />
       <meta property="og:type" content="website" />
       <meta property="og:image" content="https://eas-tuition.onrender.com/og-image.png" />
       <meta property="og:locale" content="vi_VN" />
       <meta name="twitter:card" content="summary_large_image" />
-      <meta name="twitter:title" content="Đại học Myongji - Học Phí & Thông Tin Tuyển Sinh 2025" />
-      <meta name="twitter:description" content="Học phí trường Đại học Myongji (Myongji University): 3,450,000 - 4,500,000 KRW (63,825,000 - 83,250,000 VND) mỗi học kỳ. Địa chỉ: 34 Namgajwa-dong, Seodaemun-gu, Seoul. Xếp hạng: #33." />
+      <meta name="twitter:title" content="ĐH Myongji (CS Nhân văn) - Học Phí & Thông Tin Tuyển Sinh 2025" />
+      <meta name="twitter:description" content="Học phí trường ĐH Myongji (CS Nhân văn) (Myongji University): 3,450,000 - 4,500,000 KRW (63,825,000 - 83,250,000 VND) mỗi học kỳ. Địa chỉ: Seoul. Xếp hạng: #33." />
       <meta name="twitter:image" content="https://eas-tuition.onrender.com/og-image.png" />
       <meta name="robots" content="index, follow" />
       <link rel="alternate" hreflang="vi" href="https://eas-tuition.onrender.com/university/myongji" />
@@ -26,9 +26,9 @@ export const ssgOptions = {
         {`{
           "@context": "https://schema.org",
           "@type": "EducationalOrganization",
-          "name": "Đại học Myongji",
+          "name": "ĐH Myongji (CS Nhân văn)",
           "alternateName": "Myongji University",
-          "url": "https://www.mju.ac.kr",
+          "url": "",
           "address": {
             "@type": "PostalAddress",
             "addressCountry": "KR",

@@ -7,18 +7,18 @@ export const ssgOptions = {
   Head: () => (
     <>
       <title>Đại học Semyung - Học Phí & Thông Tin Tuyển Sinh 2025 | KR-UniTuition</title>
-      <meta name="description" content="Học phí trường Đại học Semyung (Semyung University): 2,200,000 - 3,800,000 KRW (40,700,000 - 70,300,000 VND) mỗi học kỳ. Địa chỉ: 65 Semyung-ro, Jecheon-si, Chungcheongbuk-do. Xếp hạng: #58." />
+      <meta name="description" content="Học phí trường Đại học Semyung (Semyung University): 2,200,000 - 3,800,000 KRW (40,700,000 - 70,300,000 VND) mỗi học kỳ. Địa chỉ: Chungbuk. Xếp hạng: #58." />
       <meta name="keywords" content="Đại học Semyung, học phí Đại học Semyung, Semyung University, 세명대학교, đại học Chungbuk" />
       <link rel="canonical" href="https://eas-tuition.onrender.com/university/semyung" />
       <meta property="og:title" content="Đại học Semyung - Học Phí & Thông Tin Tuyển Sinh 2025" />
-      <meta property="og:description" content="Học phí trường Đại học Semyung (Semyung University): 2,200,000 - 3,800,000 KRW (40,700,000 - 70,300,000 VND) mỗi học kỳ. Địa chỉ: 65 Semyung-ro, Jecheon-si, Chungcheongbuk-do. Xếp hạng: #58." />
+      <meta property="og:description" content="Học phí trường Đại học Semyung (Semyung University): 2,200,000 - 3,800,000 KRW (40,700,000 - 70,300,000 VND) mỗi học kỳ. Địa chỉ: Chungbuk. Xếp hạng: #58." />
       <meta property="og:url" content="https://eas-tuition.onrender.com/university/semyung" />
       <meta property="og:type" content="website" />
       <meta property="og:image" content="https://eas-tuition.onrender.com/og-image.png" />
       <meta property="og:locale" content="vi_VN" />
       <meta name="twitter:card" content="summary_large_image" />
       <meta name="twitter:title" content="Đại học Semyung - Học Phí & Thông Tin Tuyển Sinh 2025" />
-      <meta name="twitter:description" content="Học phí trường Đại học Semyung (Semyung University): 2,200,000 - 3,800,000 KRW (40,700,000 - 70,300,000 VND) mỗi học kỳ. Địa chỉ: 65 Semyung-ro, Jecheon-si, Chungcheongbuk-do. Xếp hạng: #58." />
+      <meta name="twitter:description" content="Học phí trường Đại học Semyung (Semyung University): 2,200,000 - 3,800,000 KRW (40,700,000 - 70,300,000 VND) mỗi học kỳ. Địa chỉ: Chungbuk. Xếp hạng: #58." />
       <meta name="twitter:image" content="https://eas-tuition.onrender.com/og-image.png" />
       <meta name="robots" content="index, follow" />
       <link rel="alternate" hreflang="vi" href="https://eas-tuition.onrender.com/university/semyung" />
@@ -28,7 +28,7 @@ export const ssgOptions = {
           "@type": "EducationalOrganization",
           "name": "Đại học Semyung",
           "alternateName": "Semyung University",
-          "url": "https://www.semyung.ac.kr",
+          "url": "",
           "address": {
             "@type": "PostalAddress",
             "addressCountry": "KR",

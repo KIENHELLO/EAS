@@ -6,19 +6,19 @@ export const ssgOptions = {
   routeUrl: '/university/woosong',
   Head: () => (
     <>
-      <title>Đại học Woosong - Học Phí & Thông Tin Tuyển Sinh 2025 | KR-UniTuition</title>
-      <meta name="description" content="Học phí trường Đại học Woosong (Đại học Woosong (Korea)): 2,400,000 - 3,100,000 KRW (44,400,000 - 57,350,000 VND) mỗi học kỳ. Địa chỉ: Korea. Xếp hạng: #175." />
-      <meta name="keywords" content="Đại học Woosong, học phí Đại học Woosong, Đại học Woosong (Korea), Đại học Woosong, đại học Daejeon" />
+      <title>ĐH Woosong - Học Phí & Thông Tin Tuyển Sinh 2025 | KR-UniTuition</title>
+      <meta name="description" content="Học phí trường ĐH Woosong (Woosong University): 2,400,000 - 3,100,000 KRW (44,400,000 - 57,350,000 VND) mỗi học kỳ. Địa chỉ: Daejeon. Xếp hạng: #175." />
+      <meta name="keywords" content="ĐH Woosong, học phí ĐH Woosong, Woosong University, 우송대학교, đại học Daejeon" />
       <link rel="canonical" href="https://eas-tuition.onrender.com/university/woosong" />
-      <meta property="og:title" content="Đại học Woosong - Học Phí & Thông Tin Tuyển Sinh 2025" />
-      <meta property="og:description" content="Học phí trường Đại học Woosong (Đại học Woosong (Korea)): 2,400,000 - 3,100,000 KRW (44,400,000 - 57,350,000 VND) mỗi học kỳ. Địa chỉ: Korea. Xếp hạng: #175." />
+      <meta property="og:title" content="ĐH Woosong - Học Phí & Thông Tin Tuyển Sinh 2025" />
+      <meta property="og:description" content="Học phí trường ĐH Woosong (Woosong University): 2,400,000 - 3,100,000 KRW (44,400,000 - 57,350,000 VND) mỗi học kỳ. Địa chỉ: Daejeon. Xếp hạng: #175." />
       <meta property="og:url" content="https://eas-tuition.onrender.com/university/woosong" />
       <meta property="og:type" content="website" />
       <meta property="og:image" content="https://eas-tuition.onrender.com/og-image.png" />
       <meta property="og:locale" content="vi_VN" />
       <meta name="twitter:card" content="summary_large_image" />
-      <meta name="twitter:title" content="Đại học Woosong - Học Phí & Thông Tin Tuyển Sinh 2025" />
-      <meta name="twitter:description" content="Học phí trường Đại học Woosong (Đại học Woosong (Korea)): 2,400,000 - 3,100,000 KRW (44,400,000 - 57,350,000 VND) mỗi học kỳ. Địa chỉ: Korea. Xếp hạng: #175." />
+      <meta name="twitter:title" content="ĐH Woosong - Học Phí & Thông Tin Tuyển Sinh 2025" />
+      <meta name="twitter:description" content="Học phí trường ĐH Woosong (Woosong University): 2,400,000 - 3,100,000 KRW (44,400,000 - 57,350,000 VND) mỗi học kỳ. Địa chỉ: Daejeon. Xếp hạng: #175." />
       <meta name="twitter:image" content="https://eas-tuition.onrender.com/og-image.png" />
       <meta name="robots" content="index, follow" />
       <link rel="alternate" hreflang="vi" href="https://eas-tuition.onrender.com/university/woosong" />
@@ -26,9 +26,9 @@ export const ssgOptions = {
         {`{
           "@context": "https://schema.org",
           "@type": "EducationalOrganization",
-          "name": "Đại học Woosong",
-          "alternateName": "Đại học Woosong (Korea)",
-          "url": "https://www.studyinkorea.go.kr",
+          "name": "ĐH Woosong",
+          "alternateName": "Woosong University",
+          "url": "",
           "address": {
             "@type": "PostalAddress",
             "addressCountry": "KR",

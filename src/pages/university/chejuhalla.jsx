@@ -1,0 +1,49 @@
+import React from 'react';
+import { Island } from 'vite-plugin-ssg/browser';
+
+export const ssgOptions = {
+  slug: 'university/chejuhalla',
+  routeUrl: '/university/chejuhalla',
+  Head: () => (
+    <>
+      <title>Cao đẳng Cheju Halla - Học Phí & Thông Tin Tuyển Sinh 2025 | KR-UniTuition</title>
+      <meta name="description" content="Học phí trường Cao đẳng Cheju Halla (Cheju Halla University): 0 KRW (0 VND) mỗi học kỳ. Địa chỉ: Jeju. Xếp hạng: #619." />
+      <meta name="keywords" content="Cao đẳng Cheju Halla, học phí Cao đẳng Cheju Halla, Cheju Halla University, 제주한라대학교, đại học Jeju" />
+      <link rel="canonical" href="https://eas-tuition.onrender.com/university/chejuhalla" />
+      <meta property="og:title" content="Cao đẳng Cheju Halla - Học Phí & Thông Tin Tuyển Sinh 2025" />
+      <meta property="og:description" content="Học phí trường Cao đẳng Cheju Halla (Cheju Halla University): 0 KRW (0 VND) mỗi học kỳ. Địa chỉ: Jeju. Xếp hạng: #619." />
+      <meta property="og:url" content="https://eas-tuition.onrender.com/university/chejuhalla" />
+      <meta property="og:type" content="website" />
+      <meta property="og:image" content="https://eas-tuition.onrender.com/og-image.png" />
+      <meta property="og:locale" content="vi_VN" />
+      <meta name="twitter:card" content="summary_large_image" />
+      <meta name="twitter:title" content="Cao đẳng Cheju Halla - Học Phí & Thông Tin Tuyển Sinh 2025" />
+      <meta name="twitter:description" content="Học phí trường Cao đẳng Cheju Halla (Cheju Halla University): 0 KRW (0 VND) mỗi học kỳ. Địa chỉ: Jeju. Xếp hạng: #619." />
+      <meta name="twitter:image" content="https://eas-tuition.onrender.com/og-image.png" />
+      <meta name="robots" content="index, follow" />
+      <link rel="alternate" hreflang="vi" href="https://eas-tuition.onrender.com/university/chejuhalla" />
+      <script type="application/ld+json">
+        {`{
+          "@context": "https://schema.org",
+          "@type": "EducationalOrganization",
+          "name": "Cao đẳng Cheju Halla",
+          "alternateName": "Cheju Halla University",
+          "url": "",
+          "address": {
+            "@type": "PostalAddress",
+            "addressCountry": "KR",
+            "addressRegion": "Jeju"
+          }
+        }`}
+      </script>
+    </>
+  ),
+  context: async (children) => {
+    const { StaticRouter } = await import('react-router');
+    return <StaticRouter location="/university/chejuhalla">{children}</StaticRouter>;
+  }
+};
+
+export default function UniversityDetailPage() {
+  return <Island component="components/UniversityDetailApp" props={{ schoolId: 'chejuhalla' }} />;
+}

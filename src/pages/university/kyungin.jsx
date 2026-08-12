@@ -6,19 +6,19 @@ export const ssgOptions = {
   routeUrl: '/university/kyungin',
   Head: () => (
     <>
-      <title>Cao đẳng Nữ Kyungin - Học Phí & Thông Tin Tuyển Sinh 2025 | KR-UniTuition</title>
-      <meta name="description" content="Học phí trường Cao đẳng Nữ Kyungin (Nữ Kyungin College (Korea)): 2,400,000 - 3,100,000 KRW (44,400,000 - 57,350,000 VND) mỗi học kỳ. Địa chỉ: Korea. Xếp hạng: #200." />
-      <meta name="keywords" content="Cao đẳng Nữ Kyungin, học phí Cao đẳng Nữ Kyungin, Nữ Kyungin College (Korea), Đại học Nữ Kyungin, đại học Incheon" />
+      <title>CĐ Nữ sinh Gyeongin - Học Phí & Thông Tin Tuyển Sinh 2025 | KR-UniTuition</title>
+      <meta name="description" content="Học phí trường CĐ Nữ sinh Gyeongin (Kyungin Women's University): 2,400,000 - 3,100,000 KRW (44,400,000 - 57,350,000 VND) mỗi học kỳ. Địa chỉ: Incheon. Xếp hạng: #200." />
+      <meta name="keywords" content="CĐ Nữ sinh Gyeongin, học phí CĐ Nữ sinh Gyeongin, Kyungin Women's University, 경인여자대학교, đại học Incheon" />
       <link rel="canonical" href="https://eas-tuition.onrender.com/university/kyungin" />
-      <meta property="og:title" content="Cao đẳng Nữ Kyungin - Học Phí & Thông Tin Tuyển Sinh 2025" />
-      <meta property="og:description" content="Học phí trường Cao đẳng Nữ Kyungin (Nữ Kyungin College (Korea)): 2,400,000 - 3,100,000 KRW (44,400,000 - 57,350,000 VND) mỗi học kỳ. Địa chỉ: Korea. Xếp hạng: #200." />
+      <meta property="og:title" content="CĐ Nữ sinh Gyeongin - Học Phí & Thông Tin Tuyển Sinh 2025" />
+      <meta property="og:description" content="Học phí trường CĐ Nữ sinh Gyeongin (Kyungin Women's University): 2,400,000 - 3,100,000 KRW (44,400,000 - 57,350,000 VND) mỗi học kỳ. Địa chỉ: Incheon. Xếp hạng: #200." />
       <meta property="og:url" content="https://eas-tuition.onrender.com/university/kyungin" />
       <meta property="og:type" content="website" />
       <meta property="og:image" content="https://eas-tuition.onrender.com/og-image.png" />
       <meta property="og:locale" content="vi_VN" />
       <meta name="twitter:card" content="summary_large_image" />
-      <meta name="twitter:title" content="Cao đẳng Nữ Kyungin - Học Phí & Thông Tin Tuyển Sinh 2025" />
-      <meta name="twitter:description" content="Học phí trường Cao đẳng Nữ Kyungin (Nữ Kyungin College (Korea)): 2,400,000 - 3,100,000 KRW (44,400,000 - 57,350,000 VND) mỗi học kỳ. Địa chỉ: Korea. Xếp hạng: #200." />
+      <meta name="twitter:title" content="CĐ Nữ sinh Gyeongin - Học Phí & Thông Tin Tuyển Sinh 2025" />
+      <meta name="twitter:description" content="Học phí trường CĐ Nữ sinh Gyeongin (Kyungin Women's University): 2,400,000 - 3,100,000 KRW (44,400,000 - 57,350,000 VND) mỗi học kỳ. Địa chỉ: Incheon. Xếp hạng: #200." />
       <meta name="twitter:image" content="https://eas-tuition.onrender.com/og-image.png" />
       <meta name="robots" content="index, follow" />
       <link rel="alternate" hreflang="vi" href="https://eas-tuition.onrender.com/university/kyungin" />
@@ -26,9 +26,9 @@ export const ssgOptions = {
         {`{
           "@context": "https://schema.org",
           "@type": "EducationalOrganization",
-          "name": "Cao đẳng Nữ Kyungin",
-          "alternateName": "Nữ Kyungin College (Korea)",
-          "url": "https://www.studyinkorea.go.kr",
+          "name": "CĐ Nữ sinh Gyeongin",
+          "alternateName": "Kyungin Women's University",
+          "url": "",
           "address": {
             "@type": "PostalAddress",
             "addressCountry": "KR",

@@ -7,18 +7,18 @@ export const ssgOptions = {
   Head: () => (
     <>
       <title>Đại học Quốc gia Kongju - Học Phí & Thông Tin Tuyển Sinh 2025 | KR-UniTuition</title>
-      <meta name="description" content="Học phí trường Đại học Quốc gia Kongju (Đại học Quốc gia Kongju (Korea)): 2,400,000 - 3,100,000 KRW (44,400,000 - 57,350,000 VND) mỗi học kỳ. Địa chỉ: Korea. Xếp hạng: #167." />
-      <meta name="keywords" content="Đại học Quốc gia Kongju, học phí Đại học Quốc gia Kongju, Đại học Quốc gia Kongju (Korea), Đại học Quốc gia Kongju, đại học Chungnam" />
+      <meta name="description" content="Học phí trường Đại học Quốc gia Kongju (Kongju National University): 2,400,000 - 3,100,000 KRW (44,400,000 - 57,350,000 VND) mỗi học kỳ. Địa chỉ: Chungnam. Xếp hạng: #167." />
+      <meta name="keywords" content="Đại học Quốc gia Kongju, học phí Đại học Quốc gia Kongju, Kongju National University, 국립공주대학교, đại học Chungnam" />
       <link rel="canonical" href="https://eas-tuition.onrender.com/university/kongju" />
       <meta property="og:title" content="Đại học Quốc gia Kongju - Học Phí & Thông Tin Tuyển Sinh 2025" />
-      <meta property="og:description" content="Học phí trường Đại học Quốc gia Kongju (Đại học Quốc gia Kongju (Korea)): 2,400,000 - 3,100,000 KRW (44,400,000 - 57,350,000 VND) mỗi học kỳ. Địa chỉ: Korea. Xếp hạng: #167." />
+      <meta property="og:description" content="Học phí trường Đại học Quốc gia Kongju (Kongju National University): 2,400,000 - 3,100,000 KRW (44,400,000 - 57,350,000 VND) mỗi học kỳ. Địa chỉ: Chungnam. Xếp hạng: #167." />
       <meta property="og:url" content="https://eas-tuition.onrender.com/university/kongju" />
       <meta property="og:type" content="website" />
       <meta property="og:image" content="https://eas-tuition.onrender.com/og-image.png" />
       <meta property="og:locale" content="vi_VN" />
       <meta name="twitter:card" content="summary_large_image" />
       <meta name="twitter:title" content="Đại học Quốc gia Kongju - Học Phí & Thông Tin Tuyển Sinh 2025" />
-      <meta name="twitter:description" content="Học phí trường Đại học Quốc gia Kongju (Đại học Quốc gia Kongju (Korea)): 2,400,000 - 3,100,000 KRW (44,400,000 - 57,350,000 VND) mỗi học kỳ. Địa chỉ: Korea. Xếp hạng: #167." />
+      <meta name="twitter:description" content="Học phí trường Đại học Quốc gia Kongju (Kongju National University): 2,400,000 - 3,100,000 KRW (44,400,000 - 57,350,000 VND) mỗi học kỳ. Địa chỉ: Chungnam. Xếp hạng: #167." />
       <meta name="twitter:image" content="https://eas-tuition.onrender.com/og-image.png" />
       <meta name="robots" content="index, follow" />
       <link rel="alternate" hreflang="vi" href="https://eas-tuition.onrender.com/university/kongju" />
@@ -27,8 +27,8 @@ export const ssgOptions = {
           "@context": "https://schema.org",
           "@type": "EducationalOrganization",
           "name": "Đại học Quốc gia Kongju",
-          "alternateName": "Đại học Quốc gia Kongju (Korea)",
-          "url": "https://www.studyinkorea.go.kr",
+          "alternateName": "Kongju National University",
+          "url": "",
           "address": {
             "@type": "PostalAddress",
             "addressCountry": "KR",

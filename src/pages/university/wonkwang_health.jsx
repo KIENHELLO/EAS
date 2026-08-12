@@ -7,18 +7,18 @@ export const ssgOptions = {
   Head: () => (
     <>
       <title>Cao đẳng Y tế Wonkwang - Học Phí & Thông Tin Tuyển Sinh 2025 | KR-UniTuition</title>
-      <meta name="description" content="Học phí trường Cao đẳng Y tế Wonkwang (Y tế Wonkwang College (Korea)): 2,400,000 - 3,100,000 KRW (44,400,000 - 57,350,000 VND) mỗi học kỳ. Địa chỉ: Korea. Xếp hạng: #207." />
-      <meta name="keywords" content="Cao đẳng Y tế Wonkwang, học phí Cao đẳng Y tế Wonkwang, Y tế Wonkwang College (Korea), Đại học Y tế Wonkwang, đại học Jeonbuk" />
+      <meta name="description" content="Học phí trường Cao đẳng Y tế Wonkwang (Wonkwang Health Science University): 2,400,000 - 3,100,000 KRW (44,400,000 - 57,350,000 VND) mỗi học kỳ. Địa chỉ: Jeonbuk. Xếp hạng: #207." />
+      <meta name="keywords" content="Cao đẳng Y tế Wonkwang, học phí Cao đẳng Y tế Wonkwang, Wonkwang Health Science University, 원광보건대학교, đại học Jeonbuk" />
       <link rel="canonical" href="https://eas-tuition.onrender.com/university/wonkwang_health" />
       <meta property="og:title" content="Cao đẳng Y tế Wonkwang - Học Phí & Thông Tin Tuyển Sinh 2025" />
-      <meta property="og:description" content="Học phí trường Cao đẳng Y tế Wonkwang (Y tế Wonkwang College (Korea)): 2,400,000 - 3,100,000 KRW (44,400,000 - 57,350,000 VND) mỗi học kỳ. Địa chỉ: Korea. Xếp hạng: #207." />
+      <meta property="og:description" content="Học phí trường Cao đẳng Y tế Wonkwang (Wonkwang Health Science University): 2,400,000 - 3,100,000 KRW (44,400,000 - 57,350,000 VND) mỗi học kỳ. Địa chỉ: Jeonbuk. Xếp hạng: #207." />
       <meta property="og:url" content="https://eas-tuition.onrender.com/university/wonkwang_health" />
       <meta property="og:type" content="website" />
       <meta property="og:image" content="https://eas-tuition.onrender.com/og-image.png" />
       <meta property="og:locale" content="vi_VN" />
       <meta name="twitter:card" content="summary_large_image" />
       <meta name="twitter:title" content="Cao đẳng Y tế Wonkwang - Học Phí & Thông Tin Tuyển Sinh 2025" />
-      <meta name="twitter:description" content="Học phí trường Cao đẳng Y tế Wonkwang (Y tế Wonkwang College (Korea)): 2,400,000 - 3,100,000 KRW (44,400,000 - 57,350,000 VND) mỗi học kỳ. Địa chỉ: Korea. Xếp hạng: #207." />
+      <meta name="twitter:description" content="Học phí trường Cao đẳng Y tế Wonkwang (Wonkwang Health Science University): 2,400,000 - 3,100,000 KRW (44,400,000 - 57,350,000 VND) mỗi học kỳ. Địa chỉ: Jeonbuk. Xếp hạng: #207." />
       <meta name="twitter:image" content="https://eas-tuition.onrender.com/og-image.png" />
       <meta name="robots" content="index, follow" />
       <link rel="alternate" hreflang="vi" href="https://eas-tuition.onrender.com/university/wonkwang_health" />
@@ -27,8 +27,8 @@ export const ssgOptions = {
           "@context": "https://schema.org",
           "@type": "EducationalOrganization",
           "name": "Cao đẳng Y tế Wonkwang",
-          "alternateName": "Y tế Wonkwang College (Korea)",
-          "url": "https://www.studyinkorea.go.kr",
+          "alternateName": "Wonkwang Health Science University",
+          "url": "",
           "address": {
             "@type": "PostalAddress",
             "addressCountry": "KR",

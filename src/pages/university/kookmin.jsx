@@ -6,19 +6,19 @@ export const ssgOptions = {
   routeUrl: '/university/kookmin',
   Head: () => (
     <>
-      <title>Đại học Kookmin - Học Phí & Thông Tin Tuyển Sinh 2025 | KR-UniTuition</title>
-      <meta name="description" content="Học phí trường Đại học Kookmin (Kookmin University): 3,555,000 - 4,937,500 KRW (65,767,500 - 91,343,750 VND) mỗi học kỳ. Địa chỉ: 77 Jeongneung-ro, Seongbuk-gu, Seoul. Xếp hạng: #17." />
-      <meta name="keywords" content="Đại học Kookmin, học phí Đại học Kookmin, Kookmin University, 국민대학교, đại học Seoul" />
+      <title>ĐH Kookmin - Học Phí & Thông Tin Tuyển Sinh 2025 | KR-UniTuition</title>
+      <meta name="description" content="Học phí trường ĐH Kookmin (Kookmin University): 3,555,000 - 4,937,500 KRW (65,767,500 - 91,343,750 VND) mỗi học kỳ. Địa chỉ: Seoul. Xếp hạng: #17." />
+      <meta name="keywords" content="ĐH Kookmin, học phí ĐH Kookmin, Kookmin University, 국민대학교, đại học Seoul" />
       <link rel="canonical" href="https://eas-tuition.onrender.com/university/kookmin" />
-      <meta property="og:title" content="Đại học Kookmin - Học Phí & Thông Tin Tuyển Sinh 2025" />
-      <meta property="og:description" content="Học phí trường Đại học Kookmin (Kookmin University): 3,555,000 - 4,937,500 KRW (65,767,500 - 91,343,750 VND) mỗi học kỳ. Địa chỉ: 77 Jeongneung-ro, Seongbuk-gu, Seoul. Xếp hạng: #17." />
+      <meta property="og:title" content="ĐH Kookmin - Học Phí & Thông Tin Tuyển Sinh 2025" />
+      <meta property="og:description" content="Học phí trường ĐH Kookmin (Kookmin University): 3,555,000 - 4,937,500 KRW (65,767,500 - 91,343,750 VND) mỗi học kỳ. Địa chỉ: Seoul. Xếp hạng: #17." />
       <meta property="og:url" content="https://eas-tuition.onrender.com/university/kookmin" />
       <meta property="og:type" content="website" />
       <meta property="og:image" content="https://eas-tuition.onrender.com/og-image.png" />
       <meta property="og:locale" content="vi_VN" />
       <meta name="twitter:card" content="summary_large_image" />
-      <meta name="twitter:title" content="Đại học Kookmin - Học Phí & Thông Tin Tuyển Sinh 2025" />
-      <meta name="twitter:description" content="Học phí trường Đại học Kookmin (Kookmin University): 3,555,000 - 4,937,500 KRW (65,767,500 - 91,343,750 VND) mỗi học kỳ. Địa chỉ: 77 Jeongneung-ro, Seongbuk-gu, Seoul. Xếp hạng: #17." />
+      <meta name="twitter:title" content="ĐH Kookmin - Học Phí & Thông Tin Tuyển Sinh 2025" />
+      <meta name="twitter:description" content="Học phí trường ĐH Kookmin (Kookmin University): 3,555,000 - 4,937,500 KRW (65,767,500 - 91,343,750 VND) mỗi học kỳ. Địa chỉ: Seoul. Xếp hạng: #17." />
       <meta name="twitter:image" content="https://eas-tuition.onrender.com/og-image.png" />
       <meta name="robots" content="index, follow" />
       <link rel="alternate" hreflang="vi" href="https://eas-tuition.onrender.com/university/kookmin" />
@@ -26,9 +26,9 @@ export const ssgOptions = {
         {`{
           "@context": "https://schema.org",
           "@type": "EducationalOrganization",
-          "name": "Đại học Kookmin",
+          "name": "ĐH Kookmin",
           "alternateName": "Kookmin University",
-          "url": "https://www.kookmin.ac.kr",
+          "url": "",
           "address": {
             "@type": "PostalAddress",
             "addressCountry": "KR",

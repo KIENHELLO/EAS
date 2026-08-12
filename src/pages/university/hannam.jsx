@@ -6,19 +6,19 @@ export const ssgOptions = {
   routeUrl: '/university/hannam',
   Head: () => (
     <>
-      <title>Đại học Hannam - Học Phí & Thông Tin Tuyển Sinh 2025 | KR-UniTuition</title>
-      <meta name="description" content="Học phí trường Đại học Hannam (Đại học Hannam (Korea)): 2,400,000 - 3,100,000 KRW (44,400,000 - 57,350,000 VND) mỗi học kỳ. Địa chỉ: Korea. Xếp hạng: #178." />
-      <meta name="keywords" content="Đại học Hannam, học phí Đại học Hannam, Đại học Hannam (Korea), Đại học Hannam, đại học Daejeon" />
+      <title>ĐH Hannam - Học Phí & Thông Tin Tuyển Sinh 2025 | KR-UniTuition</title>
+      <meta name="description" content="Học phí trường ĐH Hannam (Hannam University): 2,400,000 - 3,100,000 KRW (44,400,000 - 57,350,000 VND) mỗi học kỳ. Địa chỉ: Daejeon. Xếp hạng: #178." />
+      <meta name="keywords" content="ĐH Hannam, học phí ĐH Hannam, Hannam University, 한남대학교, đại học Daejeon" />
       <link rel="canonical" href="https://eas-tuition.onrender.com/university/hannam" />
-      <meta property="og:title" content="Đại học Hannam - Học Phí & Thông Tin Tuyển Sinh 2025" />
-      <meta property="og:description" content="Học phí trường Đại học Hannam (Đại học Hannam (Korea)): 2,400,000 - 3,100,000 KRW (44,400,000 - 57,350,000 VND) mỗi học kỳ. Địa chỉ: Korea. Xếp hạng: #178." />
+      <meta property="og:title" content="ĐH Hannam - Học Phí & Thông Tin Tuyển Sinh 2025" />
+      <meta property="og:description" content="Học phí trường ĐH Hannam (Hannam University): 2,400,000 - 3,100,000 KRW (44,400,000 - 57,350,000 VND) mỗi học kỳ. Địa chỉ: Daejeon. Xếp hạng: #178." />
       <meta property="og:url" content="https://eas-tuition.onrender.com/university/hannam" />
       <meta property="og:type" content="website" />
       <meta property="og:image" content="https://eas-tuition.onrender.com/og-image.png" />
       <meta property="og:locale" content="vi_VN" />
       <meta name="twitter:card" content="summary_large_image" />
-      <meta name="twitter:title" content="Đại học Hannam - Học Phí & Thông Tin Tuyển Sinh 2025" />
-      <meta name="twitter:description" content="Học phí trường Đại học Hannam (Đại học Hannam (Korea)): 2,400,000 - 3,100,000 KRW (44,400,000 - 57,350,000 VND) mỗi học kỳ. Địa chỉ: Korea. Xếp hạng: #178." />
+      <meta name="twitter:title" content="ĐH Hannam - Học Phí & Thông Tin Tuyển Sinh 2025" />
+      <meta name="twitter:description" content="Học phí trường ĐH Hannam (Hannam University): 2,400,000 - 3,100,000 KRW (44,400,000 - 57,350,000 VND) mỗi học kỳ. Địa chỉ: Daejeon. Xếp hạng: #178." />
       <meta name="twitter:image" content="https://eas-tuition.onrender.com/og-image.png" />
       <meta name="robots" content="index, follow" />
       <link rel="alternate" hreflang="vi" href="https://eas-tuition.onrender.com/university/hannam" />
@@ -26,9 +26,9 @@ export const ssgOptions = {
         {`{
           "@context": "https://schema.org",
           "@type": "EducationalOrganization",
-          "name": "Đại học Hannam",
-          "alternateName": "Đại học Hannam (Korea)",
-          "url": "https://www.studyinkorea.go.kr",
+          "name": "ĐH Hannam",
+          "alternateName": "Hannam University",
+          "url": "",
           "address": {
             "@type": "PostalAddress",
             "addressCountry": "KR",

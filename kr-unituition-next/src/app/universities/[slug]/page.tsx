@@ -1,7 +1,7 @@
 import { Metadata } from 'next';
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
-import { Landmark, MapPin, Globe, Award, DollarSign, Home, AlertCircle, Sparkles } from 'lucide-react';
+import { Landmark, MapPin, Globe, Award, DollarSign, Home, AlertCircle, Sparkles, GraduationCap, Users } from 'lucide-react';
 import { universities } from '../../../data/universities';
 import schoolCoordinates from '../../../data/school_coordinates.json';
 import UniDetailActions from '../../../components/UniDetailActions';
@@ -81,7 +81,10 @@ export default async function UniversityPage({ params }: PageProps) {
     admission_conditions,
     featured_majors,
     regional_restrictions,
-    is_restricted_school
+    is_restricted_school,
+    founded_year,
+    international_student,
+    is_verified
   } = uni as any;
 
   const hasGksBadge = has_gks === true || (scholarships && (scholarships as any[]).some((s: any) => s.toLowerCase().includes('gks') || s.toLowerCase().includes('chính phủ')));
@@ -545,35 +548,57 @@ export default async function UniversityPage({ params }: PageProps) {
                   </span>
                 </div>
 
-                {/* Address */}
-                <div style={{ display: 'flex', flexDirection: 'column', gap: '0.25rem', borderBottom: '1px dashed var(--border-color)', paddingBottom: '0.5rem' }}>
-                  <span style={{ color: 'var(--text-secondary)', fontWeight: 500 }}>Địa chỉ campus:</span>
-                  <span style={{ color: 'var(--text-primary)', lineHeight: 1.4 }}>{campus_address}</span>
-                </div>
+                 {/* Address */}
+                 <div style={{ display: 'flex', flexDirection: 'column', gap: '0.25rem', borderBottom: '1px dashed var(--border-color)', paddingBottom: '0.5rem' }}>
+                   <span style={{ color: 'var(--text-secondary)', fontWeight: 500 }}>Địa chỉ campus:</span>
+                   <span style={{ color: 'var(--text-primary)', lineHeight: 1.4 }}>{campus_address ?? "Đang cập nhật"}</span>
+                 </div>
+ 
+                 {/* Website */}
+                 <div style={{ display: 'flex', flexDirection: 'column', gap: '0.25rem', borderBottom: (founded_year || international_student) ? '1px dashed var(--border-color)' : 'none', paddingBottom: (founded_year || international_student) ? '0.5rem' : '0' }}>
+                   <span style={{ color: 'var(--text-secondary)', fontWeight: 500 }}>Trang web trường:</span>
+                   {website ? (
+                     <a 
+                       href={website} 
+                       target="_blank" 
+                       rel="noopener noreferrer" 
+                       style={{ 
+                         color: 'var(--primary)', 
+                         fontWeight: 700, 
+                         display: 'inline-flex', 
+                         alignItems: 'center', 
+                         gap: '0.25rem',
+                         textDecoration: 'underline',
+                         wordBreak: 'break-all'
+                       }}
+                     >
+                       <Globe size={14} />
+                       <span>{website.replace('https://', '').replace('http://', '')}</span>
+                     </a>
+                   ) : (
+                     <span style={{ color: 'var(--text-muted)', display: 'inline-flex', alignItems: 'center', gap: '0.25rem' }}>
+                       <Globe size={14} />
+                       <span>Đang cập nhật</span>
+                     </span>
+                   )}
+                 </div>
 
-                {/* Website */}
-                <div style={{ display: 'flex', flexDirection: 'column', gap: '0.25rem' }}>
-                  <span style={{ color: 'var(--text-secondary)', fontWeight: 500 }}>Trang web trường:</span>
-                  <a 
-                    href={website} 
-                    target="_blank" 
-                    rel="noopener noreferrer" 
-                    style={{ 
-                      color: 'var(--primary)', 
-                      fontWeight: 700, 
-                      display: 'inline-flex', 
-                      alignItems: 'center', 
-                      gap: '0.25rem',
-                      textDecoration: 'underline',
-                      wordBreak: 'break-all'
-                    }}
-                  >
-                    <Globe size={14} />
-                    <span>{website.replace('https://', '').replace('http://', '')}</span>
-                  </a>
-                </div>
+                 {/* Founded Year */}
+                 {founded_year && (
+                   <div style={{ display: 'flex', justifyContent: 'space-between', borderBottom: international_student ? '1px dashed var(--border-color)' : 'none', paddingBottom: international_student ? '0.5rem' : '0', paddingTop: '0.5rem' }}>
+                     <span style={{ color: 'var(--text-secondary)', fontWeight: 500 }}>Năm thành lập:</span>
+                     <span style={{ color: 'var(--text-primary)', fontWeight: 600 }}>{founded_year}</span>
+                   </div>
+                 )}
 
-              </div>
+                 {/* International Students */}
+                 {international_student && (
+                   <div style={{ display: 'flex', justifyContent: 'space-between', paddingTop: '0.5rem' }}>
+                     <span style={{ color: 'var(--text-secondary)', fontWeight: 500 }}>Sinh viên Quốc tế:</span>
+                     <span style={{ color: 'var(--text-primary)', fontWeight: 600 }}>{international_student}</span>
+                   </div>
+                 )}
+               </div>
 
               {/* Actions component */}
               <UniDetailActions university={uni} />

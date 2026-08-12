@@ -7,18 +7,18 @@ export const ssgOptions = {
   Head: () => (
     <>
       <title>Đại học Quốc gia Changwon - Học Phí & Thông Tin Tuyển Sinh 2025 | KR-UniTuition</title>
-      <meta name="description" content="Học phí trường Đại học Quốc gia Changwon (Đại học Quốc gia Changwon (Korea)): 2,400,000 - 3,100,000 KRW (44,400,000 - 57,350,000 VND) mỗi học kỳ. Địa chỉ: Korea. Xếp hạng: #189." />
-      <meta name="keywords" content="Đại học Quốc gia Changwon, học phí Đại học Quốc gia Changwon, Đại học Quốc gia Changwon (Korea), Đại học Quốc gia Changwon, đại học Gyeongnam" />
+      <meta name="description" content="Học phí trường Đại học Quốc gia Changwon (Changwon National University): 2,400,000 - 3,100,000 KRW (44,400,000 - 57,350,000 VND) mỗi học kỳ. Địa chỉ: Gyeongnam. Xếp hạng: #189." />
+      <meta name="keywords" content="Đại học Quốc gia Changwon, học phí Đại học Quốc gia Changwon, Changwon National University, 창원국립대학교, đại học Gyeongnam" />
       <link rel="canonical" href="https://eas-tuition.onrender.com/university/changwon" />
       <meta property="og:title" content="Đại học Quốc gia Changwon - Học Phí & Thông Tin Tuyển Sinh 2025" />
-      <meta property="og:description" content="Học phí trường Đại học Quốc gia Changwon (Đại học Quốc gia Changwon (Korea)): 2,400,000 - 3,100,000 KRW (44,400,000 - 57,350,000 VND) mỗi học kỳ. Địa chỉ: Korea. Xếp hạng: #189." />
+      <meta property="og:description" content="Học phí trường Đại học Quốc gia Changwon (Changwon National University): 2,400,000 - 3,100,000 KRW (44,400,000 - 57,350,000 VND) mỗi học kỳ. Địa chỉ: Gyeongnam. Xếp hạng: #189." />
       <meta property="og:url" content="https://eas-tuition.onrender.com/university/changwon" />
       <meta property="og:type" content="website" />
       <meta property="og:image" content="https://eas-tuition.onrender.com/og-image.png" />
       <meta property="og:locale" content="vi_VN" />
       <meta name="twitter:card" content="summary_large_image" />
       <meta name="twitter:title" content="Đại học Quốc gia Changwon - Học Phí & Thông Tin Tuyển Sinh 2025" />
-      <meta name="twitter:description" content="Học phí trường Đại học Quốc gia Changwon (Đại học Quốc gia Changwon (Korea)): 2,400,000 - 3,100,000 KRW (44,400,000 - 57,350,000 VND) mỗi học kỳ. Địa chỉ: Korea. Xếp hạng: #189." />
+      <meta name="twitter:description" content="Học phí trường Đại học Quốc gia Changwon (Changwon National University): 2,400,000 - 3,100,000 KRW (44,400,000 - 57,350,000 VND) mỗi học kỳ. Địa chỉ: Gyeongnam. Xếp hạng: #189." />
       <meta name="twitter:image" content="https://eas-tuition.onrender.com/og-image.png" />
       <meta name="robots" content="index, follow" />
       <link rel="alternate" hreflang="vi" href="https://eas-tuition.onrender.com/university/changwon" />
@@ -27,8 +27,8 @@ export const ssgOptions = {
           "@context": "https://schema.org",
           "@type": "EducationalOrganization",
           "name": "Đại học Quốc gia Changwon",
-          "alternateName": "Đại học Quốc gia Changwon (Korea)",
-          "url": "https://www.studyinkorea.go.kr",
+          "alternateName": "Changwon National University",
+          "url": "",
           "address": {
             "@type": "PostalAddress",
             "addressCountry": "KR",

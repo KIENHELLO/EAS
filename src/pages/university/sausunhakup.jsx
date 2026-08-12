@@ -6,19 +6,19 @@ export const ssgOptions = {
   routeUrl: '/university/sausunhakup',
   Head: () => (
     <>
-      <title>Đại học Sau đại học Sunhak UP - Học Phí & Thông Tin Tuyển Sinh 2025 | KR-UniTuition</title>
-      <meta name="description" content="Học phí trường Đại học Sau đại học Sunhak UP (Đại học Sau đại học Sunhak UP (Korea)): 2,400,000 - 3,100,000 KRW (44,400,000 - 57,350,000 VND) mỗi học kỳ. Địa chỉ: Korea. Xếp hạng: #214." />
-      <meta name="keywords" content="Đại học Sau đại học Sunhak UP, học phí Đại học Sau đại học Sunhak UP, Đại học Sau đại học Sunhak UP (Korea), Đại học Sau đại học Sunhak UP, đại học Gyeonggi" />
+      <title>N/A - Học Phí & Thông Tin Tuyển Sinh 2025 | KR-UniTuition</title>
+      <meta name="description" content="Học phí trường N/A (N/A): 2,400,000 - 3,100,000 KRW (44,400,000 - 57,350,000 VND) mỗi học kỳ. Địa chỉ: Gyeonggi. Xếp hạng: #214." />
+      <meta name="keywords" content="N/A, học phí N/A, N/A, 선학유피대학원대학교, đại học Gyeonggi" />
       <link rel="canonical" href="https://eas-tuition.onrender.com/university/sausunhakup" />
-      <meta property="og:title" content="Đại học Sau đại học Sunhak UP - Học Phí & Thông Tin Tuyển Sinh 2025" />
-      <meta property="og:description" content="Học phí trường Đại học Sau đại học Sunhak UP (Đại học Sau đại học Sunhak UP (Korea)): 2,400,000 - 3,100,000 KRW (44,400,000 - 57,350,000 VND) mỗi học kỳ. Địa chỉ: Korea. Xếp hạng: #214." />
+      <meta property="og:title" content="N/A - Học Phí & Thông Tin Tuyển Sinh 2025" />
+      <meta property="og:description" content="Học phí trường N/A (N/A): 2,400,000 - 3,100,000 KRW (44,400,000 - 57,350,000 VND) mỗi học kỳ. Địa chỉ: Gyeonggi. Xếp hạng: #214." />
       <meta property="og:url" content="https://eas-tuition.onrender.com/university/sausunhakup" />
       <meta property="og:type" content="website" />
       <meta property="og:image" content="https://eas-tuition.onrender.com/og-image.png" />
       <meta property="og:locale" content="vi_VN" />
       <meta name="twitter:card" content="summary_large_image" />
-      <meta name="twitter:title" content="Đại học Sau đại học Sunhak UP - Học Phí & Thông Tin Tuyển Sinh 2025" />
-      <meta name="twitter:description" content="Học phí trường Đại học Sau đại học Sunhak UP (Đại học Sau đại học Sunhak UP (Korea)): 2,400,000 - 3,100,000 KRW (44,400,000 - 57,350,000 VND) mỗi học kỳ. Địa chỉ: Korea. Xếp hạng: #214." />
+      <meta name="twitter:title" content="N/A - Học Phí & Thông Tin Tuyển Sinh 2025" />
+      <meta name="twitter:description" content="Học phí trường N/A (N/A): 2,400,000 - 3,100,000 KRW (44,400,000 - 57,350,000 VND) mỗi học kỳ. Địa chỉ: Gyeonggi. Xếp hạng: #214." />
       <meta name="twitter:image" content="https://eas-tuition.onrender.com/og-image.png" />
       <meta name="robots" content="index, follow" />
       <link rel="alternate" hreflang="vi" href="https://eas-tuition.onrender.com/university/sausunhakup" />
@@ -26,9 +26,9 @@ export const ssgOptions = {
         {`{
           "@context": "https://schema.org",
           "@type": "EducationalOrganization",
-          "name": "Đại học Sau đại học Sunhak UP",
-          "alternateName": "Đại học Sau đại học Sunhak UP (Korea)",
-          "url": "https://www.studyinkorea.go.kr",
+          "name": "N/A",
+          "alternateName": "N/A",
+          "url": "",
           "address": {
             "@type": "PostalAddress",
             "addressCountry": "KR",

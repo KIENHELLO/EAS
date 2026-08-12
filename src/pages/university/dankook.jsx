@@ -6,19 +6,19 @@ export const ssgOptions = {
   routeUrl: '/university/dankook',
   Head: () => (
     <>
-      <title>Đại học Dankook - Học Phí & Thông Tin Tuyển Sinh 2025 | KR-UniTuition</title>
-      <meta name="description" content="Học phí trường Đại học Dankook (Đại học Dankook (Korea)): 2,400,000 - 3,100,000 KRW (44,400,000 - 57,350,000 VND) mỗi học kỳ. Địa chỉ: Korea. Xếp hạng: #173." />
-      <meta name="keywords" content="Đại học Dankook, học phí Đại học Dankook, Đại học Dankook (Korea), Đại học Dankook, đại học Chungnam" />
+      <title>ĐH Dankook (CS Jukjeon) - Học Phí & Thông Tin Tuyển Sinh 2025 | KR-UniTuition</title>
+      <meta name="description" content="Học phí trường ĐH Dankook (CS Jukjeon) (Dankook University): 2,400,000 - 3,100,000 KRW (44,400,000 - 57,350,000 VND) mỗi học kỳ. Địa chỉ: Gyeonggi. Xếp hạng: #173." />
+      <meta name="keywords" content="ĐH Dankook (CS Jukjeon), học phí ĐH Dankook (CS Jukjeon), Dankook University, 단국대학교(죽전캠퍼스), đại học Gyeonggi" />
       <link rel="canonical" href="https://eas-tuition.onrender.com/university/dankook" />
-      <meta property="og:title" content="Đại học Dankook - Học Phí & Thông Tin Tuyển Sinh 2025" />
-      <meta property="og:description" content="Học phí trường Đại học Dankook (Đại học Dankook (Korea)): 2,400,000 - 3,100,000 KRW (44,400,000 - 57,350,000 VND) mỗi học kỳ. Địa chỉ: Korea. Xếp hạng: #173." />
+      <meta property="og:title" content="ĐH Dankook (CS Jukjeon) - Học Phí & Thông Tin Tuyển Sinh 2025" />
+      <meta property="og:description" content="Học phí trường ĐH Dankook (CS Jukjeon) (Dankook University): 2,400,000 - 3,100,000 KRW (44,400,000 - 57,350,000 VND) mỗi học kỳ. Địa chỉ: Gyeonggi. Xếp hạng: #173." />
       <meta property="og:url" content="https://eas-tuition.onrender.com/university/dankook" />
       <meta property="og:type" content="website" />
       <meta property="og:image" content="https://eas-tuition.onrender.com/og-image.png" />
       <meta property="og:locale" content="vi_VN" />
       <meta name="twitter:card" content="summary_large_image" />
-      <meta name="twitter:title" content="Đại học Dankook - Học Phí & Thông Tin Tuyển Sinh 2025" />
-      <meta name="twitter:description" content="Học phí trường Đại học Dankook (Đại học Dankook (Korea)): 2,400,000 - 3,100,000 KRW (44,400,000 - 57,350,000 VND) mỗi học kỳ. Địa chỉ: Korea. Xếp hạng: #173." />
+      <meta name="twitter:title" content="ĐH Dankook (CS Jukjeon) - Học Phí & Thông Tin Tuyển Sinh 2025" />
+      <meta name="twitter:description" content="Học phí trường ĐH Dankook (CS Jukjeon) (Dankook University): 2,400,000 - 3,100,000 KRW (44,400,000 - 57,350,000 VND) mỗi học kỳ. Địa chỉ: Gyeonggi. Xếp hạng: #173." />
       <meta name="twitter:image" content="https://eas-tuition.onrender.com/og-image.png" />
       <meta name="robots" content="index, follow" />
       <link rel="alternate" hreflang="vi" href="https://eas-tuition.onrender.com/university/dankook" />
@@ -26,13 +26,13 @@ export const ssgOptions = {
         {`{
           "@context": "https://schema.org",
           "@type": "EducationalOrganization",
-          "name": "Đại học Dankook",
-          "alternateName": "Đại học Dankook (Korea)",
-          "url": "https://www.studyinkorea.go.kr",
+          "name": "ĐH Dankook (CS Jukjeon)",
+          "alternateName": "Dankook University",
+          "url": "",
           "address": {
             "@type": "PostalAddress",
             "addressCountry": "KR",
-            "addressRegion": "Chungnam"
+            "addressRegion": "Gyeonggi"
           }
         }`}
       </script>

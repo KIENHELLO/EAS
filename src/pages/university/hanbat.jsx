@@ -6,19 +6,19 @@ export const ssgOptions = {
   routeUrl: '/university/hanbat',
   Head: () => (
     <>
-      <title>Đại học Quốc gia Hanbat - Học Phí & Thông Tin Tuyển Sinh 2025 | KR-UniTuition</title>
-      <meta name="description" content="Học phí trường Đại học Quốc gia Hanbat (Đại học Quốc gia Hanbat (Korea)): 2,400,000 - 3,100,000 KRW (44,400,000 - 57,350,000 VND) mỗi học kỳ. Địa chỉ: Korea. Xếp hạng: #169." />
-      <meta name="keywords" content="Đại học Quốc gia Hanbat, học phí Đại học Quốc gia Hanbat, Đại học Quốc gia Hanbat (Korea), Đại học Quốc gia Hanbat, đại học Daejeon" />
+      <title>ĐH Quốc gia Hanbat - Học Phí & Thông Tin Tuyển Sinh 2025 | KR-UniTuition</title>
+      <meta name="description" content="Học phí trường ĐH Quốc gia Hanbat (Hanbat National University): 2,400,000 - 3,100,000 KRW (44,400,000 - 57,350,000 VND) mỗi học kỳ. Địa chỉ: Daejeon. Xếp hạng: #169." />
+      <meta name="keywords" content="ĐH Quốc gia Hanbat, học phí ĐH Quốc gia Hanbat, Hanbat National University, 국립한밭대학교, đại học Daejeon" />
       <link rel="canonical" href="https://eas-tuition.onrender.com/university/hanbat" />
-      <meta property="og:title" content="Đại học Quốc gia Hanbat - Học Phí & Thông Tin Tuyển Sinh 2025" />
-      <meta property="og:description" content="Học phí trường Đại học Quốc gia Hanbat (Đại học Quốc gia Hanbat (Korea)): 2,400,000 - 3,100,000 KRW (44,400,000 - 57,350,000 VND) mỗi học kỳ. Địa chỉ: Korea. Xếp hạng: #169." />
+      <meta property="og:title" content="ĐH Quốc gia Hanbat - Học Phí & Thông Tin Tuyển Sinh 2025" />
+      <meta property="og:description" content="Học phí trường ĐH Quốc gia Hanbat (Hanbat National University): 2,400,000 - 3,100,000 KRW (44,400,000 - 57,350,000 VND) mỗi học kỳ. Địa chỉ: Daejeon. Xếp hạng: #169." />
       <meta property="og:url" content="https://eas-tuition.onrender.com/university/hanbat" />
       <meta property="og:type" content="website" />
       <meta property="og:image" content="https://eas-tuition.onrender.com/og-image.png" />
       <meta property="og:locale" content="vi_VN" />
       <meta name="twitter:card" content="summary_large_image" />
-      <meta name="twitter:title" content="Đại học Quốc gia Hanbat - Học Phí & Thông Tin Tuyển Sinh 2025" />
-      <meta name="twitter:description" content="Học phí trường Đại học Quốc gia Hanbat (Đại học Quốc gia Hanbat (Korea)): 2,400,000 - 3,100,000 KRW (44,400,000 - 57,350,000 VND) mỗi học kỳ. Địa chỉ: Korea. Xếp hạng: #169." />
+      <meta name="twitter:title" content="ĐH Quốc gia Hanbat - Học Phí & Thông Tin Tuyển Sinh 2025" />
+      <meta name="twitter:description" content="Học phí trường ĐH Quốc gia Hanbat (Hanbat National University): 2,400,000 - 3,100,000 KRW (44,400,000 - 57,350,000 VND) mỗi học kỳ. Địa chỉ: Daejeon. Xếp hạng: #169." />
       <meta name="twitter:image" content="https://eas-tuition.onrender.com/og-image.png" />
       <meta name="robots" content="index, follow" />
       <link rel="alternate" hreflang="vi" href="https://eas-tuition.onrender.com/university/hanbat" />
@@ -26,9 +26,9 @@ export const ssgOptions = {
         {`{
           "@context": "https://schema.org",
           "@type": "EducationalOrganization",
-          "name": "Đại học Quốc gia Hanbat",
-          "alternateName": "Đại học Quốc gia Hanbat (Korea)",
-          "url": "https://www.studyinkorea.go.kr",
+          "name": "ĐH Quốc gia Hanbat",
+          "alternateName": "Hanbat National University",
+          "url": "",
           "address": {
             "@type": "PostalAddress",
             "addressCountry": "KR",

@@ -23,3 +23,8 @@ dist-ssr
 *.sln
 *.sw?
 utils/sync_logs_mock.json
+
+# Backups
+*.backup.*
+*.backup
+

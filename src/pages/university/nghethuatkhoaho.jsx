@@ -6,19 +6,19 @@ export const ssgOptions = {
   routeUrl: '/university/nghethuatkhoaho',
   Head: () => (
     <>
-      <title>Cao đẳng Nghệ thuật & Khoa học Yongin - Học Phí & Thông Tin Tuyển Sinh 2025 | KR-UniTuition</title>
-      <meta name="description" content="Học phí trường Cao đẳng Nghệ thuật & Khoa học Yongin (Nghệ thuật & Khoa học Yongin College (Korea)): 2,400,000 - 3,100,000 KRW (44,400,000 - 57,350,000 VND) mỗi học kỳ. Địa chỉ: Korea. Xếp hạng: #204." />
-      <meta name="keywords" content="Cao đẳng Nghệ thuật & Khoa học Yongin, học phí Cao đẳng Nghệ thuật & Khoa học Yongin, Nghệ thuật & Khoa học Yongin College (Korea), Đại học Nghệ thuật & Khoa học Yongin, đại học Gyeonggi" />
+      <title>CĐ Nghệ thuật & KH Yongin - Học Phí & Thông Tin Tuyển Sinh 2025 | KR-UniTuition</title>
+      <meta name="description" content="Học phí trường CĐ Nghệ thuật & KH Yongin (Yongin Arts & Science University): 2,400,000 - 3,100,000 KRW (44,400,000 - 57,350,000 VND) mỗi học kỳ. Địa chỉ: Gyeonggi. Xếp hạng: #204." />
+      <meta name="keywords" content="CĐ Nghệ thuật & KH Yongin, học phí CĐ Nghệ thuật & KH Yongin, Yongin Arts & Science University, 용인예술과학대학교, đại học Gyeonggi" />
       <link rel="canonical" href="https://eas-tuition.onrender.com/university/nghethuatkhoaho" />
-      <meta property="og:title" content="Cao đẳng Nghệ thuật & Khoa học Yongin - Học Phí & Thông Tin Tuyển Sinh 2025" />
-      <meta property="og:description" content="Học phí trường Cao đẳng Nghệ thuật & Khoa học Yongin (Nghệ thuật & Khoa học Yongin College (Korea)): 2,400,000 - 3,100,000 KRW (44,400,000 - 57,350,000 VND) mỗi học kỳ. Địa chỉ: Korea. Xếp hạng: #204." />
+      <meta property="og:title" content="CĐ Nghệ thuật & KH Yongin - Học Phí & Thông Tin Tuyển Sinh 2025" />
+      <meta property="og:description" content="Học phí trường CĐ Nghệ thuật & KH Yongin (Yongin Arts & Science University): 2,400,000 - 3,100,000 KRW (44,400,000 - 57,350,000 VND) mỗi học kỳ. Địa chỉ: Gyeonggi. Xếp hạng: #204." />
       <meta property="og:url" content="https://eas-tuition.onrender.com/university/nghethuatkhoaho" />
       <meta property="og:type" content="website" />
       <meta property="og:image" content="https://eas-tuition.onrender.com/og-image.png" />
       <meta property="og:locale" content="vi_VN" />
       <meta name="twitter:card" content="summary_large_image" />
-      <meta name="twitter:title" content="Cao đẳng Nghệ thuật & Khoa học Yongin - Học Phí & Thông Tin Tuyển Sinh 2025" />
-      <meta name="twitter:description" content="Học phí trường Cao đẳng Nghệ thuật & Khoa học Yongin (Nghệ thuật & Khoa học Yongin College (Korea)): 2,400,000 - 3,100,000 KRW (44,400,000 - 57,350,000 VND) mỗi học kỳ. Địa chỉ: Korea. Xếp hạng: #204." />
+      <meta name="twitter:title" content="CĐ Nghệ thuật & KH Yongin - Học Phí & Thông Tin Tuyển Sinh 2025" />
+      <meta name="twitter:description" content="Học phí trường CĐ Nghệ thuật & KH Yongin (Yongin Arts & Science University): 2,400,000 - 3,100,000 KRW (44,400,000 - 57,350,000 VND) mỗi học kỳ. Địa chỉ: Gyeonggi. Xếp hạng: #204." />
       <meta name="twitter:image" content="https://eas-tuition.onrender.com/og-image.png" />
       <meta name="robots" content="index, follow" />
       <link rel="alternate" hreflang="vi" href="https://eas-tuition.onrender.com/university/nghethuatkhoaho" />
@@ -26,9 +26,9 @@ export const ssgOptions = {
         {`{
           "@context": "https://schema.org",
           "@type": "EducationalOrganization",
-          "name": "Cao đẳng Nghệ thuật & Khoa học Yongin",
-          "alternateName": "Nghệ thuật & Khoa học Yongin College (Korea)",
-          "url": "https://www.studyinkorea.go.kr",
+          "name": "CĐ Nghệ thuật & KH Yongin",
+          "alternateName": "Yongin Arts & Science University",
+          "url": "",
           "address": {
             "@type": "PostalAddress",
             "addressCountry": "KR",

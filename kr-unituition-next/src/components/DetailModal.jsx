@@ -2,7 +2,7 @@
 
 import { useEffect, useState } from 'react';
 import Link from 'next/link';
-import { X, ExternalLink, GraduationCap, MapPin, DollarSign, AlertCircle, BookOpen, BarChart2, Search, Flame } from 'lucide-react';
+import { X, ExternalLink, GraduationCap, MapPin, DollarSign, AlertCircle, BookOpen, BarChart2, Search, Flame, Users } from 'lucide-react';
 import { formatCurrency, krwToVnd } from '../utils/currency';
 
 export default function DetailModal({ university, exchangeRate, onClose, initialMajor = 'All' }) {
@@ -168,7 +168,10 @@ export default function DetailModal({ university, exchangeRate, onClose, initial
     visa_metropolitan,
     master_no_topik,
     top_1_percent,
-    custom_notes
+    custom_notes,
+    founded_year,
+    international_student,
+    is_verified
   } = university;
 
   // Major Vietnamese names
@@ -381,12 +384,31 @@ export default function DetailModal({ university, exchangeRate, onClose, initial
           <div style={{ display: 'flex', gap: '1rem', flexWrap: 'wrap', marginTop: '0.85rem', fontSize: '0.8rem', color: 'var(--text-tertiary)' }}>
             <span style={{ display: 'flex', alignItems: 'center', gap: '0.25rem' }}>
               <MapPin size={14} />
-              {campus_address}
+              {campus_address ?? "Địa chỉ: Đang cập nhật"}
             </span>
-            <a href={website} target="_blank" rel="noopener noreferrer" style={{ display: 'flex', alignItems: 'center', gap: '0.25rem', fontWeight: 600 }}>
-              <ExternalLink size={14} />
-              Trang web chính thức
-            </a>
+            {website ? (
+              <a href={website} target="_blank" rel="noopener noreferrer" style={{ display: 'flex', alignItems: 'center', gap: '0.25rem', fontWeight: 600 }}>
+                <ExternalLink size={14} />
+                Trang web chính thức
+              </a>
+            ) : (
+              <span style={{ display: 'flex', alignItems: 'center', gap: '0.25rem', color: 'var(--text-muted)' }}>
+                <ExternalLink size={14} />
+                Website: Đang cập nhật
+              </span>
+            )}
+            {founded_year && (
+              <span style={{ display: 'flex', alignItems: 'center', gap: '0.25rem' }}>
+                <GraduationCap size={14} />
+                Năm thành lập: {founded_year}
+              </span>
+            )}
+            {international_student && (
+              <span style={{ display: 'flex', alignItems: 'center', gap: '0.25rem' }}>
+                <Users size={14} />
+                SV Quốc tế: {international_student}
+              </span>
+            )}
           </div>
         </div>
 

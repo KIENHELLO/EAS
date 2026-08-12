@@ -21,7 +21,8 @@ export default function SchoolCard({
     visa_metropolitan,
     master_no_topik,
     top_1_percent,
-    custom_notes
+    custom_notes,
+    is_verified
   } = university;
 
   // Calculate tuition range for the school (lowest to highest)
@@ -82,6 +83,18 @@ export default function SchoolCard({
           }}>
             {type === 'public' ? 'Công lập' : 'Tư thục'}
           </span>
+          {is_verified === false && (
+            <span style={{
+              fontSize: '0.7rem',
+              fontWeight: 700,
+              padding: '0.25rem 0.6rem',
+              borderRadius: '9999px',
+              backgroundColor: 'rgba(239, 68, 68, 0.15)',
+              color: '#dc2626',
+            }}>
+              Chưa xác minh
+            </span>
+          )}
           {top_1_percent && (
             <span style={{
               fontSize: '0.7rem',

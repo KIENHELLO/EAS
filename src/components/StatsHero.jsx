@@ -150,9 +150,9 @@ export default function StatsHero({ universities, exchangeRate }) {
           </div>
           <div style={{ flex: 1 }}>
             <span style={{ fontSize: '0.8rem', fontWeight: 600, color: 'var(--text-tertiary)' }}>Tổng số trường đại học</span>
-            <h3 style={{ fontSize: '1.75rem', fontWeight: 800, margin: '0.1rem 0' }}>202</h3>
+            <h3 style={{ fontSize: '1.75rem', fontWeight: 800, margin: '0.1rem 0' }}>{totalUniversities}</h3>
             <span style={{ fontSize: '0.75rem', color: 'var(--text-secondary)', fontWeight: 500 }}>
-              40 trường công lập · 162 trường tư thục
+              {publicUniversities.length} trường công lập · {privateUniversities.length} trường tư thục
             </span>
           </div>
         </div>
