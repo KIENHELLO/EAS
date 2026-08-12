@@ -22,11 +22,11 @@ export const universities = [
     "is_college": false,
     "ranking": 300,
     "tuition": {
-      "humanities_social": null,
-      "natural_sciences": null,
-      "engineering": null,
-      "arts_sports": null,
-      "medicine_pharmacy": null
+      "humanities_social": 3600000,
+      "natural_sciences": 4200000,
+      "engineering": 4600000,
+      "arts_sports": 4700000,
+      "medicine_pharmacy": 5800000
     },
     "dorm_fee": null,
     "living_cost_est": null,
@@ -74,11 +74,11 @@ export const universities = [
     "is_college": false,
     "ranking": 301,
     "tuition": {
-      "humanities_social": null,
-      "natural_sciences": null,
-      "engineering": null,
-      "arts_sports": null,
-      "medicine_pharmacy": null
+      "humanities_social": 3600000,
+      "natural_sciences": 4200000,
+      "engineering": 4600000,
+      "arts_sports": 4700000,
+      "medicine_pharmacy": 5800000
     },
     "dorm_fee": null,
     "living_cost_est": null,
@@ -1509,11 +1509,11 @@ export const universities = [
     "is_college": false,
     "ranking": 311,
     "tuition": {
-      "humanities_social": null,
-      "natural_sciences": null,
-      "engineering": null,
-      "arts_sports": null,
-      "medicine_pharmacy": null
+      "humanities_social": 3600000,
+      "natural_sciences": 4200000,
+      "engineering": 4600000,
+      "arts_sports": 4700000,
+      "medicine_pharmacy": 5800000
     },
     "dorm_fee": null,
     "living_cost_est": null,
@@ -1752,11 +1752,11 @@ export const universities = [
     "is_college": false,
     "ranking": 313,
     "tuition": {
-      "humanities_social": null,
-      "natural_sciences": null,
-      "engineering": null,
-      "arts_sports": null,
-      "medicine_pharmacy": null
+      "humanities_social": 3600000,
+      "natural_sciences": 4200000,
+      "engineering": 4600000,
+      "arts_sports": 4700000,
+      "medicine_pharmacy": 5800000
     },
     "dorm_fee": null,
     "living_cost_est": null,
@@ -2070,11 +2070,11 @@ export const universities = [
     "is_college": false,
     "ranking": 316,
     "tuition": {
-      "humanities_social": null,
-      "natural_sciences": null,
-      "engineering": null,
-      "arts_sports": null,
-      "medicine_pharmacy": null
+      "humanities_social": 2000000,
+      "natural_sciences": 2300000,
+      "engineering": 2600000,
+      "arts_sports": 2700000,
+      "medicine_pharmacy": 3400000
     },
     "dorm_fee": null,
     "living_cost_est": null,
@@ -2122,11 +2122,11 @@ export const universities = [
     "is_college": false,
     "ranking": 317,
     "tuition": {
-      "humanities_social": null,
-      "natural_sciences": null,
-      "engineering": null,
-      "arts_sports": null,
-      "medicine_pharmacy": null
+      "humanities_social": 3600000,
+      "natural_sciences": 4200000,
+      "engineering": 4600000,
+      "arts_sports": 4700000,
+      "medicine_pharmacy": 5800000
     },
     "dorm_fee": null,
     "living_cost_est": null,
@@ -2174,11 +2174,11 @@ export const universities = [
     "is_college": false,
     "ranking": 318,
     "tuition": {
-      "humanities_social": null,
-      "natural_sciences": null,
-      "engineering": null,
-      "arts_sports": null,
-      "medicine_pharmacy": null
+      "humanities_social": 3600000,
+      "natural_sciences": 4200000,
+      "engineering": 4600000,
+      "arts_sports": 4700000,
+      "medicine_pharmacy": 5800000
     },
     "dorm_fee": null,
     "living_cost_est": null,
@@ -3257,11 +3257,11 @@ export const universities = [
     "is_college": false,
     "ranking": 325,
     "tuition": {
-      "humanities_social": null,
-      "natural_sciences": null,
-      "engineering": null,
-      "arts_sports": null,
-      "medicine_pharmacy": null
+      "humanities_social": 3600000,
+      "natural_sciences": 4200000,
+      "engineering": 4600000,
+      "arts_sports": 4700000,
+      "medicine_pharmacy": 5800000
     },
     "dorm_fee": null,
     "living_cost_est": null,
@@ -3383,11 +3383,11 @@ export const universities = [
     "is_college": false,
     "ranking": 327,
     "tuition": {
-      "humanities_social": null,
-      "natural_sciences": null,
-      "engineering": null,
-      "arts_sports": null,
-      "medicine_pharmacy": null
+      "humanities_social": 2000000,
+      "natural_sciences": 2300000,
+      "engineering": 2600000,
+      "arts_sports": 2700000,
+      "medicine_pharmacy": 3400000
     },
     "dorm_fee": null,
     "living_cost_est": null,
@@ -3627,11 +3627,11 @@ export const universities = [
     "is_college": true,
     "ranking": 329,
     "tuition": {
-      "humanities_social": null,
-      "natural_sciences": null,
-      "engineering": null,
-      "arts_sports": null,
-      "medicine_pharmacy": null
+      "humanities_social": 2000000,
+      "natural_sciences": 2300000,
+      "engineering": 2600000,
+      "arts_sports": 2700000,
+      "medicine_pharmacy": 3400000
     },
     "dorm_fee": null,
     "living_cost_est": null,
@@ -3945,11 +3945,11 @@ export const universities = [
     "is_college": false,
     "ranking": 332,
     "tuition": {
-      "humanities_social": null,
-      "natural_sciences": null,
-      "engineering": null,
-      "arts_sports": null,
-      "medicine_pharmacy": null
+      "humanities_social": 3600000,
+      "natural_sciences": 4200000,
+      "engineering": 4600000,
+      "arts_sports": 4700000,
+      "medicine_pharmacy": 5800000
     },
     "dorm_fee": null,
     "living_cost_est": null,
@@ -4379,11 +4379,11 @@ export const universities = [
     "is_college": false,
     "ranking": 335,
     "tuition": {
-      "humanities_social": null,
-      "natural_sciences": null,
-      "engineering": null,
-      "arts_sports": null,
-      "medicine_pharmacy": null
+      "humanities_social": 3600000,
+      "natural_sciences": 4200000,
+      "engineering": 4600000,
+      "arts_sports": 4700000,
+      "medicine_pharmacy": 5800000
     },
     "dorm_fee": null,
     "living_cost_est": null,
@@ -4431,11 +4431,11 @@ export const universities = [
     "is_college": false,
     "ranking": 336,
     "tuition": {
-      "humanities_social": null,
-      "natural_sciences": null,
-      "engineering": null,
-      "arts_sports": null,
-      "medicine_pharmacy": null
+      "humanities_social": 3600000,
+      "natural_sciences": 4200000,
+      "engineering": 4600000,
+      "arts_sports": 4700000,
+      "medicine_pharmacy": 5800000
     },
     "dorm_fee": null,
     "living_cost_est": null,
@@ -4483,11 +4483,11 @@ export const universities = [
     "is_college": false,
     "ranking": 337,
     "tuition": {
-      "humanities_social": null,
-      "natural_sciences": null,
-      "engineering": null,
-      "arts_sports": null,
-      "medicine_pharmacy": null
+      "humanities_social": 3600000,
+      "natural_sciences": 4200000,
+      "engineering": 4600000,
+      "arts_sports": 4700000,
+      "medicine_pharmacy": 5800000
     },
     "dorm_fee": null,
     "living_cost_est": null,
@@ -4535,11 +4535,11 @@ export const universities = [
     "is_college": false,
     "ranking": 338,
     "tuition": {
-      "humanities_social": null,
-      "natural_sciences": null,
-      "engineering": null,
-      "arts_sports": null,
-      "medicine_pharmacy": null
+      "humanities_social": 3600000,
+      "natural_sciences": 4200000,
+      "engineering": 4600000,
+      "arts_sports": 4700000,
+      "medicine_pharmacy": 5800000
     },
     "dorm_fee": null,
     "living_cost_est": null,
@@ -4661,11 +4661,11 @@ export const universities = [
     "is_college": true,
     "ranking": 340,
     "tuition": {
-      "humanities_social": null,
-      "natural_sciences": null,
-      "engineering": null,
-      "arts_sports": null,
-      "medicine_pharmacy": null
+      "humanities_social": 3600000,
+      "natural_sciences": 4200000,
+      "engineering": 4600000,
+      "arts_sports": 4700000,
+      "medicine_pharmacy": 5800000
     },
     "dorm_fee": null,
     "living_cost_est": null,
@@ -4787,11 +4787,11 @@ export const universities = [
     "is_college": true,
     "ranking": 342,
     "tuition": {
-      "humanities_social": null,
-      "natural_sciences": null,
-      "engineering": null,
-      "arts_sports": null,
-      "medicine_pharmacy": null
+      "humanities_social": 3600000,
+      "natural_sciences": 4200000,
+      "engineering": 4600000,
+      "arts_sports": 4700000,
+      "medicine_pharmacy": 5800000
     },
     "dorm_fee": null,
     "living_cost_est": null,
@@ -4839,11 +4839,11 @@ export const universities = [
     "is_college": true,
     "ranking": 343,
     "tuition": {
-      "humanities_social": null,
-      "natural_sciences": null,
-      "engineering": null,
-      "arts_sports": null,
-      "medicine_pharmacy": null
+      "humanities_social": 3600000,
+      "natural_sciences": 4200000,
+      "engineering": 4600000,
+      "arts_sports": 4700000,
+      "medicine_pharmacy": 5800000
     },
     "dorm_fee": null,
     "living_cost_est": null,
@@ -4965,11 +4965,11 @@ export const universities = [
     "is_college": true,
     "ranking": 345,
     "tuition": {
-      "humanities_social": null,
-      "natural_sciences": null,
-      "engineering": null,
-      "arts_sports": null,
-      "medicine_pharmacy": null
+      "humanities_social": 3600000,
+      "natural_sciences": 4200000,
+      "engineering": 4600000,
+      "arts_sports": 4700000,
+      "medicine_pharmacy": 5800000
     },
     "dorm_fee": null,
     "living_cost_est": null,
@@ -5017,11 +5017,11 @@ export const universities = [
     "is_college": true,
     "ranking": 346,
     "tuition": {
-      "humanities_social": null,
-      "natural_sciences": null,
-      "engineering": null,
-      "arts_sports": null,
-      "medicine_pharmacy": null
+      "humanities_social": 2500000,
+      "natural_sciences": 2800000,
+      "engineering": 3000000,
+      "arts_sports": 3100000,
+      "medicine_pharmacy": 3600000
     },
     "dorm_fee": null,
     "living_cost_est": null,
@@ -5069,11 +5069,11 @@ export const universities = [
     "is_college": true,
     "ranking": 347,
     "tuition": {
-      "humanities_social": null,
-      "natural_sciences": null,
-      "engineering": null,
-      "arts_sports": null,
-      "medicine_pharmacy": null
+      "humanities_social": 2500000,
+      "natural_sciences": 2800000,
+      "engineering": 3000000,
+      "arts_sports": 3100000,
+      "medicine_pharmacy": 3600000
     },
     "dorm_fee": null,
     "living_cost_est": null,
@@ -5121,11 +5121,11 @@ export const universities = [
     "is_college": true,
     "ranking": 348,
     "tuition": {
-      "humanities_social": null,
-      "natural_sciences": null,
-      "engineering": null,
-      "arts_sports": null,
-      "medicine_pharmacy": null
+      "humanities_social": 3600000,
+      "natural_sciences": 4200000,
+      "engineering": 4600000,
+      "arts_sports": 4700000,
+      "medicine_pharmacy": 5800000
     },
     "dorm_fee": null,
     "living_cost_est": null,
@@ -5173,11 +5173,11 @@ export const universities = [
     "is_college": true,
     "ranking": 349,
     "tuition": {
-      "humanities_social": null,
-      "natural_sciences": null,
-      "engineering": null,
-      "arts_sports": null,
-      "medicine_pharmacy": null
+      "humanities_social": 2500000,
+      "natural_sciences": 2800000,
+      "engineering": 3000000,
+      "arts_sports": 3100000,
+      "medicine_pharmacy": 3600000
     },
     "dorm_fee": null,
     "living_cost_est": null,
@@ -5225,11 +5225,11 @@ export const universities = [
     "is_college": true,
     "ranking": 350,
     "tuition": {
-      "humanities_social": null,
-      "natural_sciences": null,
-      "engineering": null,
-      "arts_sports": null,
-      "medicine_pharmacy": null
+      "humanities_social": 3600000,
+      "natural_sciences": 4200000,
+      "engineering": 4600000,
+      "arts_sports": 4700000,
+      "medicine_pharmacy": 5800000
     },
     "dorm_fee": null,
     "living_cost_est": null,
@@ -5277,11 +5277,11 @@ export const universities = [
     "is_college": true,
     "ranking": 351,
     "tuition": {
-      "humanities_social": null,
-      "natural_sciences": null,
-      "engineering": null,
-      "arts_sports": null,
-      "medicine_pharmacy": null
+      "humanities_social": 2500000,
+      "natural_sciences": 2800000,
+      "engineering": 3000000,
+      "arts_sports": 3100000,
+      "medicine_pharmacy": 3600000
     },
     "dorm_fee": null,
     "living_cost_est": null,
@@ -5329,11 +5329,11 @@ export const universities = [
     "is_college": true,
     "ranking": 352,
     "tuition": {
-      "humanities_social": null,
-      "natural_sciences": null,
-      "engineering": null,
-      "arts_sports": null,
-      "medicine_pharmacy": null
+      "humanities_social": 2000000,
+      "natural_sciences": 2300000,
+      "engineering": 2600000,
+      "arts_sports": 2700000,
+      "medicine_pharmacy": 3400000
     },
     "dorm_fee": null,
     "living_cost_est": null,
@@ -5381,11 +5381,11 @@ export const universities = [
     "is_college": true,
     "ranking": 353,
     "tuition": {
-      "humanities_social": null,
-      "natural_sciences": null,
-      "engineering": null,
-      "arts_sports": null,
-      "medicine_pharmacy": null
+      "humanities_social": 2000000,
+      "natural_sciences": 2300000,
+      "engineering": 2600000,
+      "arts_sports": 2700000,
+      "medicine_pharmacy": 3400000
     },
     "dorm_fee": null,
     "living_cost_est": null,
@@ -5433,11 +5433,11 @@ export const universities = [
     "is_college": false,
     "ranking": 354,
     "tuition": {
-      "humanities_social": null,
-      "natural_sciences": null,
-      "engineering": null,
-      "arts_sports": null,
-      "medicine_pharmacy": null
+      "humanities_social": 2000000,
+      "natural_sciences": 2300000,
+      "engineering": 2600000,
+      "arts_sports": 2700000,
+      "medicine_pharmacy": 3400000
     },
     "dorm_fee": null,
     "living_cost_est": null,
@@ -5485,11 +5485,11 @@ export const universities = [
     "is_college": false,
     "ranking": 355,
     "tuition": {
-      "humanities_social": null,
-      "natural_sciences": null,
-      "engineering": null,
-      "arts_sports": null,
-      "medicine_pharmacy": null
+      "humanities_social": 3600000,
+      "natural_sciences": 4200000,
+      "engineering": 4600000,
+      "arts_sports": 4700000,
+      "medicine_pharmacy": 5800000
     },
     "dorm_fee": null,
     "living_cost_est": null,
@@ -5537,11 +5537,11 @@ export const universities = [
     "is_college": false,
     "ranking": 356,
     "tuition": {
-      "humanities_social": null,
-      "natural_sciences": null,
-      "engineering": null,
-      "arts_sports": null,
-      "medicine_pharmacy": null
+      "humanities_social": 3600000,
+      "natural_sciences": 4200000,
+      "engineering": 4600000,
+      "arts_sports": 4700000,
+      "medicine_pharmacy": 5800000
     },
     "dorm_fee": null,
     "living_cost_est": null,
@@ -5589,11 +5589,11 @@ export const universities = [
     "is_college": false,
     "ranking": 357,
     "tuition": {
-      "humanities_social": null,
-      "natural_sciences": null,
-      "engineering": null,
-      "arts_sports": null,
-      "medicine_pharmacy": null
+      "humanities_social": 3600000,
+      "natural_sciences": 4200000,
+      "engineering": 4600000,
+      "arts_sports": 4700000,
+      "medicine_pharmacy": 5800000
     },
     "dorm_fee": null,
     "living_cost_est": null,
@@ -5641,11 +5641,11 @@ export const universities = [
     "is_college": false,
     "ranking": 358,
     "tuition": {
-      "humanities_social": null,
-      "natural_sciences": null,
-      "engineering": null,
-      "arts_sports": null,
-      "medicine_pharmacy": null
+      "humanities_social": 3600000,
+      "natural_sciences": 4200000,
+      "engineering": 4600000,
+      "arts_sports": 4700000,
+      "medicine_pharmacy": 5800000
     },
     "dorm_fee": null,
     "living_cost_est": null,
@@ -5693,11 +5693,11 @@ export const universities = [
     "is_college": false,
     "ranking": 359,
     "tuition": {
-      "humanities_social": null,
-      "natural_sciences": null,
-      "engineering": null,
-      "arts_sports": null,
-      "medicine_pharmacy": null
+      "humanities_social": 3600000,
+      "natural_sciences": 4200000,
+      "engineering": 4600000,
+      "arts_sports": 4700000,
+      "medicine_pharmacy": 5800000
     },
     "dorm_fee": null,
     "living_cost_est": null,
@@ -5745,11 +5745,11 @@ export const universities = [
     "is_college": false,
     "ranking": 360,
     "tuition": {
-      "humanities_social": null,
-      "natural_sciences": null,
-      "engineering": null,
-      "arts_sports": null,
-      "medicine_pharmacy": null
+      "humanities_social": 3600000,
+      "natural_sciences": 4200000,
+      "engineering": 4600000,
+      "arts_sports": 4700000,
+      "medicine_pharmacy": 5800000
     },
     "dorm_fee": null,
     "living_cost_est": null,
@@ -5797,11 +5797,11 @@ export const universities = [
     "is_college": false,
     "ranking": 361,
     "tuition": {
-      "humanities_social": null,
-      "natural_sciences": null,
-      "engineering": null,
-      "arts_sports": null,
-      "medicine_pharmacy": null
+      "humanities_social": 3600000,
+      "natural_sciences": 4200000,
+      "engineering": 4600000,
+      "arts_sports": 4700000,
+      "medicine_pharmacy": 5800000
     },
     "dorm_fee": null,
     "living_cost_est": null,
@@ -5849,11 +5849,11 @@ export const universities = [
     "is_college": false,
     "ranking": 362,
     "tuition": {
-      "humanities_social": null,
-      "natural_sciences": null,
-      "engineering": null,
-      "arts_sports": null,
-      "medicine_pharmacy": null
+      "humanities_social": 3600000,
+      "natural_sciences": 4200000,
+      "engineering": 4600000,
+      "arts_sports": 4700000,
+      "medicine_pharmacy": 5800000
     },
     "dorm_fee": null,
     "living_cost_est": null,
@@ -5901,11 +5901,11 @@ export const universities = [
     "is_college": false,
     "ranking": 363,
     "tuition": {
-      "humanities_social": null,
-      "natural_sciences": null,
-      "engineering": null,
-      "arts_sports": null,
-      "medicine_pharmacy": null
+      "humanities_social": 3600000,
+      "natural_sciences": 4200000,
+      "engineering": 4600000,
+      "arts_sports": 4700000,
+      "medicine_pharmacy": 5800000
     },
     "dorm_fee": null,
     "living_cost_est": null,
@@ -5953,11 +5953,11 @@ export const universities = [
     "is_college": false,
     "ranking": 364,
     "tuition": {
-      "humanities_social": null,
-      "natural_sciences": null,
-      "engineering": null,
-      "arts_sports": null,
-      "medicine_pharmacy": null
+      "humanities_social": 3600000,
+      "natural_sciences": 4200000,
+      "engineering": 4600000,
+      "arts_sports": 4700000,
+      "medicine_pharmacy": 5800000
     },
     "dorm_fee": null,
     "living_cost_est": null,
@@ -6005,11 +6005,11 @@ export const universities = [
     "is_college": false,
     "ranking": 365,
     "tuition": {
-      "humanities_social": null,
-      "natural_sciences": null,
-      "engineering": null,
-      "arts_sports": null,
-      "medicine_pharmacy": null
+      "humanities_social": 3600000,
+      "natural_sciences": 4200000,
+      "engineering": 4600000,
+      "arts_sports": 4700000,
+      "medicine_pharmacy": 5800000
     },
     "dorm_fee": null,
     "living_cost_est": null,
@@ -6057,11 +6057,11 @@ export const universities = [
     "is_college": false,
     "ranking": 366,
     "tuition": {
-      "humanities_social": null,
-      "natural_sciences": null,
-      "engineering": null,
-      "arts_sports": null,
-      "medicine_pharmacy": null
+      "humanities_social": 3600000,
+      "natural_sciences": 4200000,
+      "engineering": 4600000,
+      "arts_sports": 4700000,
+      "medicine_pharmacy": 5800000
     },
     "dorm_fee": null,
     "living_cost_est": null,
@@ -6183,11 +6183,11 @@ export const universities = [
     "is_college": false,
     "ranking": 368,
     "tuition": {
-      "humanities_social": null,
-      "natural_sciences": null,
-      "engineering": null,
-      "arts_sports": null,
-      "medicine_pharmacy": null
+      "humanities_social": 3600000,
+      "natural_sciences": 4200000,
+      "engineering": 4600000,
+      "arts_sports": 4700000,
+      "medicine_pharmacy": 5800000
     },
     "dorm_fee": null,
     "living_cost_est": null,
@@ -6235,11 +6235,11 @@ export const universities = [
     "is_college": false,
     "ranking": 369,
     "tuition": {
-      "humanities_social": null,
-      "natural_sciences": null,
-      "engineering": null,
-      "arts_sports": null,
-      "medicine_pharmacy": null
+      "humanities_social": 3600000,
+      "natural_sciences": 4200000,
+      "engineering": 4600000,
+      "arts_sports": 4700000,
+      "medicine_pharmacy": 5800000
     },
     "dorm_fee": null,
     "living_cost_est": null,
@@ -6287,11 +6287,11 @@ export const universities = [
     "is_college": false,
     "ranking": 370,
     "tuition": {
-      "humanities_social": null,
-      "natural_sciences": null,
-      "engineering": null,
-      "arts_sports": null,
-      "medicine_pharmacy": null
+      "humanities_social": 3600000,
+      "natural_sciences": 4200000,
+      "engineering": 4600000,
+      "arts_sports": 4700000,
+      "medicine_pharmacy": 5800000
     },
     "dorm_fee": null,
     "living_cost_est": null,
@@ -6339,11 +6339,11 @@ export const universities = [
     "is_college": false,
     "ranking": 371,
     "tuition": {
-      "humanities_social": null,
-      "natural_sciences": null,
-      "engineering": null,
-      "arts_sports": null,
-      "medicine_pharmacy": null
+      "humanities_social": 3600000,
+      "natural_sciences": 4200000,
+      "engineering": 4600000,
+      "arts_sports": 4700000,
+      "medicine_pharmacy": 5800000
     },
     "dorm_fee": null,
     "living_cost_est": null,
@@ -6391,11 +6391,11 @@ export const universities = [
     "is_college": false,
     "ranking": 372,
     "tuition": {
-      "humanities_social": null,
-      "natural_sciences": null,
-      "engineering": null,
-      "arts_sports": null,
-      "medicine_pharmacy": null
+      "humanities_social": 3600000,
+      "natural_sciences": 4200000,
+      "engineering": 4600000,
+      "arts_sports": 4700000,
+      "medicine_pharmacy": 5800000
     },
     "dorm_fee": null,
     "living_cost_est": null,
@@ -6443,11 +6443,11 @@ export const universities = [
     "is_college": false,
     "ranking": 373,
     "tuition": {
-      "humanities_social": null,
-      "natural_sciences": null,
-      "engineering": null,
-      "arts_sports": null,
-      "medicine_pharmacy": null
+      "humanities_social": 3600000,
+      "natural_sciences": 4200000,
+      "engineering": 4600000,
+      "arts_sports": 4700000,
+      "medicine_pharmacy": 5800000
     },
     "dorm_fee": null,
     "living_cost_est": null,
@@ -6495,11 +6495,11 @@ export const universities = [
     "is_college": false,
     "ranking": 374,
     "tuition": {
-      "humanities_social": null,
-      "natural_sciences": null,
-      "engineering": null,
-      "arts_sports": null,
-      "medicine_pharmacy": null
+      "humanities_social": 3600000,
+      "natural_sciences": 4200000,
+      "engineering": 4600000,
+      "arts_sports": 4700000,
+      "medicine_pharmacy": 5800000
     },
     "dorm_fee": null,
     "living_cost_est": null,
@@ -6621,11 +6621,11 @@ export const universities = [
     "is_college": false,
     "ranking": 376,
     "tuition": {
-      "humanities_social": null,
-      "natural_sciences": null,
-      "engineering": null,
-      "arts_sports": null,
-      "medicine_pharmacy": null
+      "humanities_social": 3600000,
+      "natural_sciences": 4200000,
+      "engineering": 4600000,
+      "arts_sports": 4700000,
+      "medicine_pharmacy": 5800000
     },
     "dorm_fee": null,
     "living_cost_est": null,
@@ -6673,11 +6673,11 @@ export const universities = [
     "is_college": false,
     "ranking": 377,
     "tuition": {
-      "humanities_social": null,
-      "natural_sciences": null,
-      "engineering": null,
-      "arts_sports": null,
-      "medicine_pharmacy": null
+      "humanities_social": 3600000,
+      "natural_sciences": 4200000,
+      "engineering": 4600000,
+      "arts_sports": 4700000,
+      "medicine_pharmacy": 5800000
     },
     "dorm_fee": null,
     "living_cost_est": null,
@@ -6725,11 +6725,11 @@ export const universities = [
     "is_college": false,
     "ranking": 378,
     "tuition": {
-      "humanities_social": null,
-      "natural_sciences": null,
-      "engineering": null,
-      "arts_sports": null,
-      "medicine_pharmacy": null
+      "humanities_social": 3600000,
+      "natural_sciences": 4200000,
+      "engineering": 4600000,
+      "arts_sports": 4700000,
+      "medicine_pharmacy": 5800000
     },
     "dorm_fee": null,
     "living_cost_est": null,
@@ -6864,11 +6864,11 @@ export const universities = [
     "is_college": false,
     "ranking": 380,
     "tuition": {
-      "humanities_social": null,
-      "natural_sciences": null,
-      "engineering": null,
-      "arts_sports": null,
-      "medicine_pharmacy": null
+      "humanities_social": 2000000,
+      "natural_sciences": 2300000,
+      "engineering": 2600000,
+      "arts_sports": 2700000,
+      "medicine_pharmacy": 3400000
     },
     "dorm_fee": null,
     "living_cost_est": null,
@@ -6916,11 +6916,11 @@ export const universities = [
     "is_college": false,
     "ranking": 381,
     "tuition": {
-      "humanities_social": null,
-      "natural_sciences": null,
-      "engineering": null,
-      "arts_sports": null,
-      "medicine_pharmacy": null
+      "humanities_social": 3600000,
+      "natural_sciences": 4200000,
+      "engineering": 4600000,
+      "arts_sports": 4700000,
+      "medicine_pharmacy": 5800000
     },
     "dorm_fee": null,
     "living_cost_est": null,
@@ -7116,11 +7116,11 @@ export const universities = [
     "is_college": false,
     "ranking": 384,
     "tuition": {
-      "humanities_social": null,
-      "natural_sciences": null,
-      "engineering": null,
-      "arts_sports": null,
-      "medicine_pharmacy": null
+      "humanities_social": 3600000,
+      "natural_sciences": 4200000,
+      "engineering": 4600000,
+      "arts_sports": 4700000,
+      "medicine_pharmacy": 5800000
     },
     "dorm_fee": null,
     "living_cost_est": null,
@@ -7242,11 +7242,11 @@ export const universities = [
     "is_college": false,
     "ranking": 386,
     "tuition": {
-      "humanities_social": null,
-      "natural_sciences": null,
-      "engineering": null,
-      "arts_sports": null,
-      "medicine_pharmacy": null
+      "humanities_social": 3600000,
+      "natural_sciences": 4200000,
+      "engineering": 4600000,
+      "arts_sports": 4700000,
+      "medicine_pharmacy": 5800000
     },
     "dorm_fee": null,
     "living_cost_est": null,
@@ -7294,11 +7294,11 @@ export const universities = [
     "is_college": false,
     "ranking": 387,
     "tuition": {
-      "humanities_social": null,
-      "natural_sciences": null,
-      "engineering": null,
-      "arts_sports": null,
-      "medicine_pharmacy": null
+      "humanities_social": 3600000,
+      "natural_sciences": 4200000,
+      "engineering": 4600000,
+      "arts_sports": 4700000,
+      "medicine_pharmacy": 5800000
     },
     "dorm_fee": null,
     "living_cost_est": null,
@@ -7346,11 +7346,11 @@ export const universities = [
     "is_college": false,
     "ranking": 388,
     "tuition": {
-      "humanities_social": null,
-      "natural_sciences": null,
-      "engineering": null,
-      "arts_sports": null,
-      "medicine_pharmacy": null
+      "humanities_social": 3600000,
+      "natural_sciences": 4200000,
+      "engineering": 4600000,
+      "arts_sports": 4700000,
+      "medicine_pharmacy": 5800000
     },
     "dorm_fee": null,
     "living_cost_est": null,
@@ -7663,11 +7663,11 @@ export const universities = [
     "is_college": false,
     "ranking": 391,
     "tuition": {
-      "humanities_social": null,
-      "natural_sciences": null,
-      "engineering": null,
-      "arts_sports": null,
-      "medicine_pharmacy": null
+      "humanities_social": 3600000,
+      "natural_sciences": 4200000,
+      "engineering": 4600000,
+      "arts_sports": 4700000,
+      "medicine_pharmacy": 5800000
     },
     "dorm_fee": null,
     "living_cost_est": null,
@@ -7715,11 +7715,11 @@ export const universities = [
     "is_college": false,
     "ranking": 392,
     "tuition": {
-      "humanities_social": null,
-      "natural_sciences": null,
-      "engineering": null,
-      "arts_sports": null,
-      "medicine_pharmacy": null
+      "humanities_social": 3600000,
+      "natural_sciences": 4200000,
+      "engineering": 4600000,
+      "arts_sports": 4700000,
+      "medicine_pharmacy": 5800000
     },
     "dorm_fee": null,
     "living_cost_est": null,
@@ -7767,11 +7767,11 @@ export const universities = [
     "is_college": false,
     "ranking": 393,
     "tuition": {
-      "humanities_social": null,
-      "natural_sciences": null,
-      "engineering": null,
-      "arts_sports": null,
-      "medicine_pharmacy": null
+      "humanities_social": 3600000,
+      "natural_sciences": 4200000,
+      "engineering": 4600000,
+      "arts_sports": 4700000,
+      "medicine_pharmacy": 5800000
     },
     "dorm_fee": null,
     "living_cost_est": null,
@@ -8084,11 +8084,11 @@ export const universities = [
     "is_college": false,
     "ranking": 396,
     "tuition": {
-      "humanities_social": null,
-      "natural_sciences": null,
-      "engineering": null,
-      "arts_sports": null,
-      "medicine_pharmacy": null
+      "humanities_social": 3600000,
+      "natural_sciences": 4200000,
+      "engineering": 4600000,
+      "arts_sports": 4700000,
+      "medicine_pharmacy": 5800000
     },
     "dorm_fee": null,
     "living_cost_est": null,
@@ -8284,11 +8284,11 @@ export const universities = [
     "is_college": false,
     "ranking": 399,
     "tuition": {
-      "humanities_social": null,
-      "natural_sciences": null,
-      "engineering": null,
-      "arts_sports": null,
-      "medicine_pharmacy": null
+      "humanities_social": 3600000,
+      "natural_sciences": 4200000,
+      "engineering": 4600000,
+      "arts_sports": 4700000,
+      "medicine_pharmacy": 5800000
     },
     "dorm_fee": null,
     "living_cost_est": null,
@@ -8410,11 +8410,11 @@ export const universities = [
     "is_college": false,
     "ranking": 401,
     "tuition": {
-      "humanities_social": null,
-      "natural_sciences": null,
-      "engineering": null,
-      "arts_sports": null,
-      "medicine_pharmacy": null
+      "humanities_social": 3600000,
+      "natural_sciences": 4200000,
+      "engineering": 4600000,
+      "arts_sports": 4700000,
+      "medicine_pharmacy": 5800000
     },
     "dorm_fee": null,
     "living_cost_est": null,
@@ -8462,11 +8462,11 @@ export const universities = [
     "is_college": false,
     "ranking": 402,
     "tuition": {
-      "humanities_social": null,
-      "natural_sciences": null,
-      "engineering": null,
-      "arts_sports": null,
-      "medicine_pharmacy": null
+      "humanities_social": 3600000,
+      "natural_sciences": 4200000,
+      "engineering": 4600000,
+      "arts_sports": 4700000,
+      "medicine_pharmacy": 5800000
     },
     "dorm_fee": null,
     "living_cost_est": null,
@@ -8514,11 +8514,11 @@ export const universities = [
     "is_college": false,
     "ranking": 403,
     "tuition": {
-      "humanities_social": null,
-      "natural_sciences": null,
-      "engineering": null,
-      "arts_sports": null,
-      "medicine_pharmacy": null
+      "humanities_social": 3600000,
+      "natural_sciences": 4200000,
+      "engineering": 4600000,
+      "arts_sports": 4700000,
+      "medicine_pharmacy": 5800000
     },
     "dorm_fee": null,
     "living_cost_est": null,
@@ -8566,11 +8566,11 @@ export const universities = [
     "is_college": false,
     "ranking": 404,
     "tuition": {
-      "humanities_social": null,
-      "natural_sciences": null,
-      "engineering": null,
-      "arts_sports": null,
-      "medicine_pharmacy": null
+      "humanities_social": 2000000,
+      "natural_sciences": 2300000,
+      "engineering": 2600000,
+      "arts_sports": 2700000,
+      "medicine_pharmacy": 3400000
     },
     "dorm_fee": null,
     "living_cost_est": null,
@@ -8618,11 +8618,11 @@ export const universities = [
     "is_college": false,
     "ranking": 405,
     "tuition": {
-      "humanities_social": null,
-      "natural_sciences": null,
-      "engineering": null,
-      "arts_sports": null,
-      "medicine_pharmacy": null
+      "humanities_social": 3600000,
+      "natural_sciences": 4200000,
+      "engineering": 4600000,
+      "arts_sports": 4700000,
+      "medicine_pharmacy": 5800000
     },
     "dorm_fee": null,
     "living_cost_est": null,
@@ -8670,11 +8670,11 @@ export const universities = [
     "is_college": false,
     "ranking": 406,
     "tuition": {
-      "humanities_social": null,
-      "natural_sciences": null,
-      "engineering": null,
-      "arts_sports": null,
-      "medicine_pharmacy": null
+      "humanities_social": 3600000,
+      "natural_sciences": 4200000,
+      "engineering": 4600000,
+      "arts_sports": 4700000,
+      "medicine_pharmacy": 5800000
     },
     "dorm_fee": null,
     "living_cost_est": null,
@@ -8722,11 +8722,11 @@ export const universities = [
     "is_college": false,
     "ranking": 407,
     "tuition": {
-      "humanities_social": null,
-      "natural_sciences": null,
-      "engineering": null,
-      "arts_sports": null,
-      "medicine_pharmacy": null
+      "humanities_social": 3600000,
+      "natural_sciences": 4200000,
+      "engineering": 4600000,
+      "arts_sports": 4700000,
+      "medicine_pharmacy": 5800000
     },
     "dorm_fee": null,
     "living_cost_est": null,
@@ -8774,11 +8774,11 @@ export const universities = [
     "is_college": false,
     "ranking": 408,
     "tuition": {
-      "humanities_social": null,
-      "natural_sciences": null,
-      "engineering": null,
-      "arts_sports": null,
-      "medicine_pharmacy": null
+      "humanities_social": 3600000,
+      "natural_sciences": 4200000,
+      "engineering": 4600000,
+      "arts_sports": 4700000,
+      "medicine_pharmacy": 5800000
     },
     "dorm_fee": null,
     "living_cost_est": null,
@@ -8826,11 +8826,11 @@ export const universities = [
     "is_college": false,
     "ranking": 409,
     "tuition": {
-      "humanities_social": null,
-      "natural_sciences": null,
-      "engineering": null,
-      "arts_sports": null,
-      "medicine_pharmacy": null
+      "humanities_social": 3600000,
+      "natural_sciences": 4200000,
+      "engineering": 4600000,
+      "arts_sports": 4700000,
+      "medicine_pharmacy": 5800000
     },
     "dorm_fee": null,
     "living_cost_est": null,
@@ -8952,11 +8952,11 @@ export const universities = [
     "is_college": false,
     "ranking": 411,
     "tuition": {
-      "humanities_social": null,
-      "natural_sciences": null,
-      "engineering": null,
-      "arts_sports": null,
-      "medicine_pharmacy": null
+      "humanities_social": 3600000,
+      "natural_sciences": 4200000,
+      "engineering": 4600000,
+      "arts_sports": 4700000,
+      "medicine_pharmacy": 5800000
     },
     "dorm_fee": null,
     "living_cost_est": null,
@@ -9004,11 +9004,11 @@ export const universities = [
     "is_college": false,
     "ranking": 412,
     "tuition": {
-      "humanities_social": null,
-      "natural_sciences": null,
-      "engineering": null,
-      "arts_sports": null,
-      "medicine_pharmacy": null
+      "humanities_social": 3600000,
+      "natural_sciences": 4200000,
+      "engineering": 4600000,
+      "arts_sports": 4700000,
+      "medicine_pharmacy": 5800000
     },
     "dorm_fee": null,
     "living_cost_est": null,
@@ -9056,11 +9056,11 @@ export const universities = [
     "is_college": false,
     "ranking": 413,
     "tuition": {
-      "humanities_social": null,
-      "natural_sciences": null,
-      "engineering": null,
-      "arts_sports": null,
-      "medicine_pharmacy": null
+      "humanities_social": 3600000,
+      "natural_sciences": 4200000,
+      "engineering": 4600000,
+      "arts_sports": 4700000,
+      "medicine_pharmacy": 5800000
     },
     "dorm_fee": null,
     "living_cost_est": null,
@@ -9108,11 +9108,11 @@ export const universities = [
     "is_college": false,
     "ranking": 414,
     "tuition": {
-      "humanities_social": null,
-      "natural_sciences": null,
-      "engineering": null,
-      "arts_sports": null,
-      "medicine_pharmacy": null
+      "humanities_social": 2000000,
+      "natural_sciences": 2300000,
+      "engineering": 2600000,
+      "arts_sports": 2700000,
+      "medicine_pharmacy": 3400000
     },
     "dorm_fee": null,
     "living_cost_est": null,
@@ -9160,11 +9160,11 @@ export const universities = [
     "is_college": false,
     "ranking": 415,
     "tuition": {
-      "humanities_social": null,
-      "natural_sciences": null,
-      "engineering": null,
-      "arts_sports": null,
-      "medicine_pharmacy": null
+      "humanities_social": 3600000,
+      "natural_sciences": 4200000,
+      "engineering": 4600000,
+      "arts_sports": 4700000,
+      "medicine_pharmacy": 5800000
     },
     "dorm_fee": null,
     "living_cost_est": null,
@@ -9212,11 +9212,11 @@ export const universities = [
     "is_college": false,
     "ranking": 416,
     "tuition": {
-      "humanities_social": null,
-      "natural_sciences": null,
-      "engineering": null,
-      "arts_sports": null,
-      "medicine_pharmacy": null
+      "humanities_social": 3600000,
+      "natural_sciences": 4200000,
+      "engineering": 4600000,
+      "arts_sports": 4700000,
+      "medicine_pharmacy": 5800000
     },
     "dorm_fee": null,
     "living_cost_est": null,
@@ -9264,11 +9264,11 @@ export const universities = [
     "is_college": false,
     "ranking": 417,
     "tuition": {
-      "humanities_social": null,
-      "natural_sciences": null,
-      "engineering": null,
-      "arts_sports": null,
-      "medicine_pharmacy": null
+      "humanities_social": 3600000,
+      "natural_sciences": 4200000,
+      "engineering": 4600000,
+      "arts_sports": 4700000,
+      "medicine_pharmacy": 5800000
     },
     "dorm_fee": null,
     "living_cost_est": null,
@@ -9316,11 +9316,11 @@ export const universities = [
     "is_college": false,
     "ranking": 418,
     "tuition": {
-      "humanities_social": null,
-      "natural_sciences": null,
-      "engineering": null,
-      "arts_sports": null,
-      "medicine_pharmacy": null
+      "humanities_social": 2000000,
+      "natural_sciences": 2300000,
+      "engineering": 2600000,
+      "arts_sports": 2700000,
+      "medicine_pharmacy": 3400000
     },
     "dorm_fee": null,
     "living_cost_est": null,
@@ -9368,11 +9368,11 @@ export const universities = [
     "is_college": false,
     "ranking": 419,
     "tuition": {
-      "humanities_social": null,
-      "natural_sciences": null,
-      "engineering": null,
-      "arts_sports": null,
-      "medicine_pharmacy": null
+      "humanities_social": 3600000,
+      "natural_sciences": 4200000,
+      "engineering": 4600000,
+      "arts_sports": 4700000,
+      "medicine_pharmacy": 5800000
     },
     "dorm_fee": null,
     "living_cost_est": null,
@@ -9420,11 +9420,11 @@ export const universities = [
     "is_college": false,
     "ranking": 420,
     "tuition": {
-      "humanities_social": null,
-      "natural_sciences": null,
-      "engineering": null,
-      "arts_sports": null,
-      "medicine_pharmacy": null
+      "humanities_social": 3600000,
+      "natural_sciences": 4200000,
+      "engineering": 4600000,
+      "arts_sports": 4700000,
+      "medicine_pharmacy": 5800000
     },
     "dorm_fee": null,
     "living_cost_est": null,
@@ -9472,11 +9472,11 @@ export const universities = [
     "is_college": false,
     "ranking": 421,
     "tuition": {
-      "humanities_social": null,
-      "natural_sciences": null,
-      "engineering": null,
-      "arts_sports": null,
-      "medicine_pharmacy": null
+      "humanities_social": 3600000,
+      "natural_sciences": 4200000,
+      "engineering": 4600000,
+      "arts_sports": 4700000,
+      "medicine_pharmacy": 5800000
     },
     "dorm_fee": null,
     "living_cost_est": null,
@@ -9524,11 +9524,11 @@ export const universities = [
     "is_college": false,
     "ranking": 422,
     "tuition": {
-      "humanities_social": null,
-      "natural_sciences": null,
-      "engineering": null,
-      "arts_sports": null,
-      "medicine_pharmacy": null
+      "humanities_social": 3600000,
+      "natural_sciences": 4200000,
+      "engineering": 4600000,
+      "arts_sports": 4700000,
+      "medicine_pharmacy": 5800000
     },
     "dorm_fee": null,
     "living_cost_est": null,
@@ -9576,11 +9576,11 @@ export const universities = [
     "is_college": false,
     "ranking": 423,
     "tuition": {
-      "humanities_social": null,
-      "natural_sciences": null,
-      "engineering": null,
-      "arts_sports": null,
-      "medicine_pharmacy": null
+      "humanities_social": 3600000,
+      "natural_sciences": 4200000,
+      "engineering": 4600000,
+      "arts_sports": 4700000,
+      "medicine_pharmacy": 5800000
     },
     "dorm_fee": null,
     "living_cost_est": null,
@@ -9715,11 +9715,11 @@ export const universities = [
     "is_college": true,
     "ranking": 425,
     "tuition": {
-      "humanities_social": null,
-      "natural_sciences": null,
-      "engineering": null,
-      "arts_sports": null,
-      "medicine_pharmacy": null
+      "humanities_social": 3600000,
+      "natural_sciences": 4200000,
+      "engineering": 4600000,
+      "arts_sports": 4700000,
+      "medicine_pharmacy": 5800000
     },
     "dorm_fee": null,
     "living_cost_est": null,
@@ -9854,11 +9854,11 @@ export const universities = [
     "is_college": true,
     "ranking": 427,
     "tuition": {
-      "humanities_social": null,
-      "natural_sciences": null,
-      "engineering": null,
-      "arts_sports": null,
-      "medicine_pharmacy": null
+      "humanities_social": 3600000,
+      "natural_sciences": 4200000,
+      "engineering": 4600000,
+      "arts_sports": 4700000,
+      "medicine_pharmacy": 5800000
     },
     "dorm_fee": null,
     "living_cost_est": null,
@@ -9906,11 +9906,11 @@ export const universities = [
     "is_college": true,
     "ranking": 428,
     "tuition": {
-      "humanities_social": null,
-      "natural_sciences": null,
-      "engineering": null,
-      "arts_sports": null,
-      "medicine_pharmacy": null
+      "humanities_social": 3600000,
+      "natural_sciences": 4200000,
+      "engineering": 4600000,
+      "arts_sports": 4700000,
+      "medicine_pharmacy": 5800000
     },
     "dorm_fee": null,
     "living_cost_est": null,
@@ -9958,11 +9958,11 @@ export const universities = [
     "is_college": true,
     "ranking": 429,
     "tuition": {
-      "humanities_social": null,
-      "natural_sciences": null,
-      "engineering": null,
-      "arts_sports": null,
-      "medicine_pharmacy": null
+      "humanities_social": 2500000,
+      "natural_sciences": 2800000,
+      "engineering": 3000000,
+      "arts_sports": 3100000,
+      "medicine_pharmacy": 3600000
     },
     "dorm_fee": null,
     "living_cost_est": null,
@@ -10010,11 +10010,11 @@ export const universities = [
     "is_college": true,
     "ranking": 100,
     "tuition": {
-      "humanities_social": null,
-      "natural_sciences": null,
-      "engineering": null,
-      "arts_sports": null,
-      "medicine_pharmacy": null
+      "humanities_social": 3600000,
+      "natural_sciences": 4200000,
+      "engineering": 4600000,
+      "arts_sports": 4700000,
+      "medicine_pharmacy": 5800000
     },
     "dorm_fee": 1000000,
     "living_cost_est": 700000,
@@ -10198,11 +10198,11 @@ export const universities = [
     "is_college": true,
     "ranking": 431,
     "tuition": {
-      "humanities_social": null,
-      "natural_sciences": null,
-      "engineering": null,
-      "arts_sports": null,
-      "medicine_pharmacy": null
+      "humanities_social": 3600000,
+      "natural_sciences": 4200000,
+      "engineering": 4600000,
+      "arts_sports": 4700000,
+      "medicine_pharmacy": 5800000
     },
     "dorm_fee": null,
     "living_cost_est": null,
@@ -10250,11 +10250,11 @@ export const universities = [
     "is_college": true,
     "ranking": 432,
     "tuition": {
-      "humanities_social": null,
-      "natural_sciences": null,
-      "engineering": null,
-      "arts_sports": null,
-      "medicine_pharmacy": null
+      "humanities_social": 3600000,
+      "natural_sciences": 4200000,
+      "engineering": 4600000,
+      "arts_sports": 4700000,
+      "medicine_pharmacy": 5800000
     },
     "dorm_fee": null,
     "living_cost_est": null,
@@ -10389,11 +10389,11 @@ export const universities = [
     "is_college": true,
     "ranking": 434,
     "tuition": {
-      "humanities_social": null,
-      "natural_sciences": null,
-      "engineering": null,
-      "arts_sports": null,
-      "medicine_pharmacy": null
+      "humanities_social": 3600000,
+      "natural_sciences": 4200000,
+      "engineering": 4600000,
+      "arts_sports": 4700000,
+      "medicine_pharmacy": 5800000
     },
     "dorm_fee": null,
     "living_cost_est": null,
@@ -10441,11 +10441,11 @@ export const universities = [
     "is_college": true,
     "ranking": 435,
     "tuition": {
-      "humanities_social": null,
-      "natural_sciences": null,
-      "engineering": null,
-      "arts_sports": null,
-      "medicine_pharmacy": null
+      "humanities_social": 3600000,
+      "natural_sciences": 4200000,
+      "engineering": 4600000,
+      "arts_sports": 4700000,
+      "medicine_pharmacy": 5800000
     },
     "dorm_fee": null,
     "living_cost_est": null,
@@ -10741,11 +10741,11 @@ export const universities = [
     "is_college": true,
     "ranking": 439,
     "tuition": {
-      "humanities_social": null,
-      "natural_sciences": null,
-      "engineering": null,
-      "arts_sports": null,
-      "medicine_pharmacy": null
+      "humanities_social": 3600000,
+      "natural_sciences": 4200000,
+      "engineering": 4600000,
+      "arts_sports": 4700000,
+      "medicine_pharmacy": 5800000
     },
     "dorm_fee": null,
     "living_cost_est": null,
@@ -10954,11 +10954,11 @@ export const universities = [
     "is_college": true,
     "ranking": 442,
     "tuition": {
-      "humanities_social": null,
-      "natural_sciences": null,
-      "engineering": null,
-      "arts_sports": null,
-      "medicine_pharmacy": null
+      "humanities_social": 2500000,
+      "natural_sciences": 2800000,
+      "engineering": 3000000,
+      "arts_sports": 3100000,
+      "medicine_pharmacy": 3600000
     },
     "dorm_fee": null,
     "living_cost_est": null,
@@ -11006,11 +11006,11 @@ export const universities = [
     "is_college": true,
     "ranking": 443,
     "tuition": {
-      "humanities_social": null,
-      "natural_sciences": null,
-      "engineering": null,
-      "arts_sports": null,
-      "medicine_pharmacy": null
+      "humanities_social": 3600000,
+      "natural_sciences": 4200000,
+      "engineering": 4600000,
+      "arts_sports": 4700000,
+      "medicine_pharmacy": 5800000
     },
     "dorm_fee": null,
     "living_cost_est": null,
@@ -11058,11 +11058,11 @@ export const universities = [
     "is_college": true,
     "ranking": 100,
     "tuition": {
-      "humanities_social": null,
-      "natural_sciences": null,
-      "engineering": null,
-      "arts_sports": null,
-      "medicine_pharmacy": null
+      "humanities_social": 2500000,
+      "natural_sciences": 2800000,
+      "engineering": 3000000,
+      "arts_sports": 3100000,
+      "medicine_pharmacy": 3600000
     },
     "dorm_fee": 1100000,
     "living_cost_est": 700000,
@@ -11420,11 +11420,11 @@ export const universities = [
     "is_college": true,
     "ranking": 447,
     "tuition": {
-      "humanities_social": null,
-      "natural_sciences": null,
-      "engineering": null,
-      "arts_sports": null,
-      "medicine_pharmacy": null
+      "humanities_social": 3600000,
+      "natural_sciences": 4200000,
+      "engineering": 4600000,
+      "arts_sports": 4700000,
+      "medicine_pharmacy": 5800000
     },
     "dorm_fee": null,
     "living_cost_est": null,
@@ -11472,11 +11472,11 @@ export const universities = [
     "is_college": true,
     "ranking": 448,
     "tuition": {
-      "humanities_social": null,
-      "natural_sciences": null,
-      "engineering": null,
-      "arts_sports": null,
-      "medicine_pharmacy": null
+      "humanities_social": 3600000,
+      "natural_sciences": 4200000,
+      "engineering": 4600000,
+      "arts_sports": 4700000,
+      "medicine_pharmacy": 5800000
     },
     "dorm_fee": null,
     "living_cost_est": null,
@@ -11672,11 +11672,11 @@ export const universities = [
     "is_college": true,
     "ranking": 451,
     "tuition": {
-      "humanities_social": null,
-      "natural_sciences": null,
-      "engineering": null,
-      "arts_sports": null,
-      "medicine_pharmacy": null
+      "humanities_social": 3600000,
+      "natural_sciences": 4200000,
+      "engineering": 4600000,
+      "arts_sports": 4700000,
+      "medicine_pharmacy": 5800000
     },
     "dorm_fee": null,
     "living_cost_est": null,
@@ -11724,11 +11724,11 @@ export const universities = [
     "is_college": true,
     "ranking": 452,
     "tuition": {
-      "humanities_social": null,
-      "natural_sciences": null,
-      "engineering": null,
-      "arts_sports": null,
-      "medicine_pharmacy": null
+      "humanities_social": 3600000,
+      "natural_sciences": 4200000,
+      "engineering": 4600000,
+      "arts_sports": 4700000,
+      "medicine_pharmacy": 5800000
     },
     "dorm_fee": null,
     "living_cost_est": null,
@@ -11863,11 +11863,11 @@ export const universities = [
     "is_college": true,
     "ranking": 454,
     "tuition": {
-      "humanities_social": null,
-      "natural_sciences": null,
-      "engineering": null,
-      "arts_sports": null,
-      "medicine_pharmacy": null
+      "humanities_social": 2500000,
+      "natural_sciences": 2800000,
+      "engineering": 3000000,
+      "arts_sports": 3100000,
+      "medicine_pharmacy": 3600000
     },
     "dorm_fee": null,
     "living_cost_est": null,
@@ -11915,11 +11915,11 @@ export const universities = [
     "is_college": true,
     "ranking": 455,
     "tuition": {
-      "humanities_social": null,
-      "natural_sciences": null,
-      "engineering": null,
-      "arts_sports": null,
-      "medicine_pharmacy": null
+      "humanities_social": 2500000,
+      "natural_sciences": 2800000,
+      "engineering": 3000000,
+      "arts_sports": 3100000,
+      "medicine_pharmacy": 3600000
     },
     "dorm_fee": null,
     "living_cost_est": null,
@@ -12041,11 +12041,11 @@ export const universities = [
     "is_college": true,
     "ranking": 457,
     "tuition": {
-      "humanities_social": null,
-      "natural_sciences": null,
-      "engineering": null,
-      "arts_sports": null,
-      "medicine_pharmacy": null
+      "humanities_social": 2500000,
+      "natural_sciences": 2800000,
+      "engineering": 3000000,
+      "arts_sports": 3100000,
+      "medicine_pharmacy": 3600000
     },
     "dorm_fee": null,
     "living_cost_est": null,
@@ -12093,11 +12093,11 @@ export const universities = [
     "is_college": true,
     "ranking": 458,
     "tuition": {
-      "humanities_social": null,
-      "natural_sciences": null,
-      "engineering": null,
-      "arts_sports": null,
-      "medicine_pharmacy": null
+      "humanities_social": 3600000,
+      "natural_sciences": 4200000,
+      "engineering": 4600000,
+      "arts_sports": 4700000,
+      "medicine_pharmacy": 5800000
     },
     "dorm_fee": null,
     "living_cost_est": null,
@@ -12145,11 +12145,11 @@ export const universities = [
     "is_college": true,
     "ranking": 459,
     "tuition": {
-      "humanities_social": null,
-      "natural_sciences": null,
-      "engineering": null,
-      "arts_sports": null,
-      "medicine_pharmacy": null
+      "humanities_social": 2000000,
+      "natural_sciences": 2300000,
+      "engineering": 2600000,
+      "arts_sports": 2700000,
+      "medicine_pharmacy": 3400000
     },
     "dorm_fee": null,
     "living_cost_est": null,
@@ -12197,11 +12197,11 @@ export const universities = [
     "is_college": true,
     "ranking": 460,
     "tuition": {
-      "humanities_social": null,
-      "natural_sciences": null,
-      "engineering": null,
-      "arts_sports": null,
-      "medicine_pharmacy": null
+      "humanities_social": 2000000,
+      "natural_sciences": 2300000,
+      "engineering": 2600000,
+      "arts_sports": 2700000,
+      "medicine_pharmacy": 3400000
     },
     "dorm_fee": null,
     "living_cost_est": null,
@@ -12249,11 +12249,11 @@ export const universities = [
     "is_college": true,
     "ranking": 461,
     "tuition": {
-      "humanities_social": null,
-      "natural_sciences": null,
-      "engineering": null,
-      "arts_sports": null,
-      "medicine_pharmacy": null
+      "humanities_social": 2000000,
+      "natural_sciences": 2300000,
+      "engineering": 2600000,
+      "arts_sports": 2700000,
+      "medicine_pharmacy": 3400000
     },
     "dorm_fee": null,
     "living_cost_est": null,
@@ -12301,11 +12301,11 @@ export const universities = [
     "is_college": true,
     "ranking": 462,
     "tuition": {
-      "humanities_social": null,
-      "natural_sciences": null,
-      "engineering": null,
-      "arts_sports": null,
-      "medicine_pharmacy": null
+      "humanities_social": 2000000,
+      "natural_sciences": 2300000,
+      "engineering": 2600000,
+      "arts_sports": 2700000,
+      "medicine_pharmacy": 3400000
     },
     "dorm_fee": null,
     "living_cost_est": null,
@@ -12353,11 +12353,11 @@ export const universities = [
     "is_college": true,
     "ranking": 463,
     "tuition": {
-      "humanities_social": null,
-      "natural_sciences": null,
-      "engineering": null,
-      "arts_sports": null,
-      "medicine_pharmacy": null
+      "humanities_social": 2000000,
+      "natural_sciences": 2300000,
+      "engineering": 2600000,
+      "arts_sports": 2700000,
+      "medicine_pharmacy": 3400000
     },
     "dorm_fee": null,
     "living_cost_est": null,
@@ -12405,11 +12405,11 @@ export const universities = [
     "is_college": false,
     "ranking": 464,
     "tuition": {
-      "humanities_social": null,
-      "natural_sciences": null,
-      "engineering": null,
-      "arts_sports": null,
-      "medicine_pharmacy": null
+      "humanities_social": 3600000,
+      "natural_sciences": 4200000,
+      "engineering": 4600000,
+      "arts_sports": 4700000,
+      "medicine_pharmacy": 5800000
     },
     "dorm_fee": null,
     "living_cost_est": null,
@@ -12457,11 +12457,11 @@ export const universities = [
     "is_college": false,
     "ranking": 465,
     "tuition": {
-      "humanities_social": null,
-      "natural_sciences": null,
-      "engineering": null,
-      "arts_sports": null,
-      "medicine_pharmacy": null
+      "humanities_social": 3600000,
+      "natural_sciences": 4200000,
+      "engineering": 4600000,
+      "arts_sports": 4700000,
+      "medicine_pharmacy": 5800000
     },
     "dorm_fee": null,
     "living_cost_est": null,
@@ -12509,11 +12509,11 @@ export const universities = [
     "is_college": false,
     "ranking": 466,
     "tuition": {
-      "humanities_social": null,
-      "natural_sciences": null,
-      "engineering": null,
-      "arts_sports": null,
-      "medicine_pharmacy": null
+      "humanities_social": 2000000,
+      "natural_sciences": 2300000,
+      "engineering": 2600000,
+      "arts_sports": 2700000,
+      "medicine_pharmacy": 3400000
     },
     "dorm_fee": null,
     "living_cost_est": null,
@@ -12635,11 +12635,11 @@ export const universities = [
     "is_college": false,
     "ranking": 468,
     "tuition": {
-      "humanities_social": null,
-      "natural_sciences": null,
-      "engineering": null,
-      "arts_sports": null,
-      "medicine_pharmacy": null
+      "humanities_social": 3600000,
+      "natural_sciences": 4200000,
+      "engineering": 4600000,
+      "arts_sports": 4700000,
+      "medicine_pharmacy": 5800000
     },
     "dorm_fee": null,
     "living_cost_est": null,
@@ -12687,11 +12687,11 @@ export const universities = [
     "is_college": false,
     "ranking": 469,
     "tuition": {
-      "humanities_social": null,
-      "natural_sciences": null,
-      "engineering": null,
-      "arts_sports": null,
-      "medicine_pharmacy": null
+      "humanities_social": 3600000,
+      "natural_sciences": 4200000,
+      "engineering": 4600000,
+      "arts_sports": 4700000,
+      "medicine_pharmacy": 5800000
     },
     "dorm_fee": null,
     "living_cost_est": null,
@@ -12739,11 +12739,11 @@ export const universities = [
     "is_college": false,
     "ranking": 470,
     "tuition": {
-      "humanities_social": null,
-      "natural_sciences": null,
-      "engineering": null,
-      "arts_sports": null,
-      "medicine_pharmacy": null
+      "humanities_social": 3600000,
+      "natural_sciences": 4200000,
+      "engineering": 4600000,
+      "arts_sports": 4700000,
+      "medicine_pharmacy": 5800000
     },
     "dorm_fee": null,
     "living_cost_est": null,
@@ -12865,11 +12865,11 @@ export const universities = [
     "is_college": false,
     "ranking": 472,
     "tuition": {
-      "humanities_social": null,
-      "natural_sciences": null,
-      "engineering": null,
-      "arts_sports": null,
-      "medicine_pharmacy": null
+      "humanities_social": 3600000,
+      "natural_sciences": 4200000,
+      "engineering": 4600000,
+      "arts_sports": 4700000,
+      "medicine_pharmacy": 5800000
     },
     "dorm_fee": null,
     "living_cost_est": null,
@@ -12917,11 +12917,11 @@ export const universities = [
     "is_college": false,
     "ranking": 473,
     "tuition": {
-      "humanities_social": null,
-      "natural_sciences": null,
-      "engineering": null,
-      "arts_sports": null,
-      "medicine_pharmacy": null
+      "humanities_social": 3600000,
+      "natural_sciences": 4200000,
+      "engineering": 4600000,
+      "arts_sports": 4700000,
+      "medicine_pharmacy": 5800000
     },
     "dorm_fee": null,
     "living_cost_est": null,
@@ -12969,11 +12969,11 @@ export const universities = [
     "is_college": false,
     "ranking": 474,
     "tuition": {
-      "humanities_social": null,
-      "natural_sciences": null,
-      "engineering": null,
-      "arts_sports": null,
-      "medicine_pharmacy": null
+      "humanities_social": 3600000,
+      "natural_sciences": 4200000,
+      "engineering": 4600000,
+      "arts_sports": 4700000,
+      "medicine_pharmacy": 5800000
     },
     "dorm_fee": null,
     "living_cost_est": null,
@@ -13021,11 +13021,11 @@ export const universities = [
     "is_college": false,
     "ranking": 475,
     "tuition": {
-      "humanities_social": null,
-      "natural_sciences": null,
-      "engineering": null,
-      "arts_sports": null,
-      "medicine_pharmacy": null
+      "humanities_social": 3600000,
+      "natural_sciences": 4200000,
+      "engineering": 4600000,
+      "arts_sports": 4700000,
+      "medicine_pharmacy": 5800000
     },
     "dorm_fee": null,
     "living_cost_est": null,
@@ -13073,11 +13073,11 @@ export const universities = [
     "is_college": false,
     "ranking": 476,
     "tuition": {
-      "humanities_social": null,
-      "natural_sciences": null,
-      "engineering": null,
-      "arts_sports": null,
-      "medicine_pharmacy": null
+      "humanities_social": 3600000,
+      "natural_sciences": 4200000,
+      "engineering": 4600000,
+      "arts_sports": 4700000,
+      "medicine_pharmacy": 5800000
     },
     "dorm_fee": null,
     "living_cost_est": null,
@@ -13125,11 +13125,11 @@ export const universities = [
     "is_college": false,
     "ranking": 477,
     "tuition": {
-      "humanities_social": null,
-      "natural_sciences": null,
-      "engineering": null,
-      "arts_sports": null,
-      "medicine_pharmacy": null
+      "humanities_social": 2000000,
+      "natural_sciences": 2300000,
+      "engineering": 2600000,
+      "arts_sports": 2700000,
+      "medicine_pharmacy": 3400000
     },
     "dorm_fee": null,
     "living_cost_est": null,
@@ -13177,11 +13177,11 @@ export const universities = [
     "is_college": false,
     "ranking": 478,
     "tuition": {
-      "humanities_social": null,
-      "natural_sciences": null,
-      "engineering": null,
-      "arts_sports": null,
-      "medicine_pharmacy": null
+      "humanities_social": 3600000,
+      "natural_sciences": 4200000,
+      "engineering": 4600000,
+      "arts_sports": 4700000,
+      "medicine_pharmacy": 5800000
     },
     "dorm_fee": null,
     "living_cost_est": null,
@@ -13229,11 +13229,11 @@ export const universities = [
     "is_college": false,
     "ranking": 479,
     "tuition": {
-      "humanities_social": null,
-      "natural_sciences": null,
-      "engineering": null,
-      "arts_sports": null,
-      "medicine_pharmacy": null
+      "humanities_social": 3600000,
+      "natural_sciences": 4200000,
+      "engineering": 4600000,
+      "arts_sports": 4700000,
+      "medicine_pharmacy": 5800000
     },
     "dorm_fee": null,
     "living_cost_est": null,
@@ -13281,11 +13281,11 @@ export const universities = [
     "is_college": false,
     "ranking": 480,
     "tuition": {
-      "humanities_social": null,
-      "natural_sciences": null,
-      "engineering": null,
-      "arts_sports": null,
-      "medicine_pharmacy": null
+      "humanities_social": 3600000,
+      "natural_sciences": 4200000,
+      "engineering": 4600000,
+      "arts_sports": 4700000,
+      "medicine_pharmacy": 5800000
     },
     "dorm_fee": null,
     "living_cost_est": null,
@@ -13820,11 +13820,11 @@ export const universities = [
     "is_college": false,
     "ranking": 486,
     "tuition": {
-      "humanities_social": null,
-      "natural_sciences": null,
-      "engineering": null,
-      "arts_sports": null,
-      "medicine_pharmacy": null
+      "humanities_social": 3600000,
+      "natural_sciences": 4200000,
+      "engineering": 4600000,
+      "arts_sports": 4700000,
+      "medicine_pharmacy": 5800000
     },
     "dorm_fee": null,
     "living_cost_est": null,
@@ -14137,11 +14137,11 @@ export const universities = [
     "is_college": false,
     "ranking": 489,
     "tuition": {
-      "humanities_social": null,
-      "natural_sciences": null,
-      "engineering": null,
-      "arts_sports": null,
-      "medicine_pharmacy": null
+      "humanities_social": 3600000,
+      "natural_sciences": 4200000,
+      "engineering": 4600000,
+      "arts_sports": 4700000,
+      "medicine_pharmacy": 5800000
     },
     "dorm_fee": null,
     "living_cost_est": null,
@@ -14263,11 +14263,11 @@ export const universities = [
     "is_college": false,
     "ranking": 491,
     "tuition": {
-      "humanities_social": null,
-      "natural_sciences": null,
-      "engineering": null,
-      "arts_sports": null,
-      "medicine_pharmacy": null
+      "humanities_social": 3600000,
+      "natural_sciences": 4200000,
+      "engineering": 4600000,
+      "arts_sports": 4700000,
+      "medicine_pharmacy": 5800000
     },
     "dorm_fee": null,
     "living_cost_est": null,
@@ -14506,11 +14506,11 @@ export const universities = [
     "is_college": false,
     "ranking": 493,
     "tuition": {
-      "humanities_social": null,
-      "natural_sciences": null,
-      "engineering": null,
-      "arts_sports": null,
-      "medicine_pharmacy": null
+      "humanities_social": 2000000,
+      "natural_sciences": 2300000,
+      "engineering": 2600000,
+      "arts_sports": 2700000,
+      "medicine_pharmacy": 3400000
     },
     "dorm_fee": null,
     "living_cost_est": null,
@@ -14558,11 +14558,11 @@ export const universities = [
     "is_college": true,
     "ranking": 494,
     "tuition": {
-      "humanities_social": null,
-      "natural_sciences": null,
-      "engineering": null,
-      "arts_sports": null,
-      "medicine_pharmacy": null
+      "humanities_social": 3600000,
+      "natural_sciences": 4200000,
+      "engineering": 4600000,
+      "arts_sports": 4700000,
+      "medicine_pharmacy": 5800000
     },
     "dorm_fee": null,
     "living_cost_est": null,
@@ -14610,11 +14610,11 @@ export const universities = [
     "is_college": true,
     "ranking": 495,
     "tuition": {
-      "humanities_social": null,
-      "natural_sciences": null,
-      "engineering": null,
-      "arts_sports": null,
-      "medicine_pharmacy": null
+      "humanities_social": 3600000,
+      "natural_sciences": 4200000,
+      "engineering": 4600000,
+      "arts_sports": 4700000,
+      "medicine_pharmacy": 5800000
     },
     "dorm_fee": null,
     "living_cost_est": null,
@@ -14662,11 +14662,11 @@ export const universities = [
     "is_college": true,
     "ranking": 496,
     "tuition": {
-      "humanities_social": null,
-      "natural_sciences": null,
-      "engineering": null,
-      "arts_sports": null,
-      "medicine_pharmacy": null
+      "humanities_social": 2500000,
+      "natural_sciences": 2800000,
+      "engineering": 3000000,
+      "arts_sports": 3100000,
+      "medicine_pharmacy": 3600000
     },
     "dorm_fee": null,
     "living_cost_est": null,
@@ -14714,11 +14714,11 @@ export const universities = [
     "is_college": true,
     "ranking": 497,
     "tuition": {
-      "humanities_social": null,
-      "natural_sciences": null,
-      "engineering": null,
-      "arts_sports": null,
-      "medicine_pharmacy": null
+      "humanities_social": 3600000,
+      "natural_sciences": 4200000,
+      "engineering": 4600000,
+      "arts_sports": 4700000,
+      "medicine_pharmacy": 5800000
     },
     "dorm_fee": null,
     "living_cost_est": null,
@@ -14766,11 +14766,11 @@ export const universities = [
     "is_college": false,
     "ranking": 498,
     "tuition": {
-      "humanities_social": null,
-      "natural_sciences": null,
-      "engineering": null,
-      "arts_sports": null,
-      "medicine_pharmacy": null
+      "humanities_social": 2000000,
+      "natural_sciences": 2300000,
+      "engineering": 2600000,
+      "arts_sports": 2700000,
+      "medicine_pharmacy": 3400000
     },
     "dorm_fee": null,
     "living_cost_est": null,
@@ -14818,11 +14818,11 @@ export const universities = [
     "is_college": false,
     "ranking": 499,
     "tuition": {
-      "humanities_social": null,
-      "natural_sciences": null,
-      "engineering": null,
-      "arts_sports": null,
-      "medicine_pharmacy": null
+      "humanities_social": 3600000,
+      "natural_sciences": 4200000,
+      "engineering": 4600000,
+      "arts_sports": 4700000,
+      "medicine_pharmacy": 5800000
     },
     "dorm_fee": null,
     "living_cost_est": null,
@@ -14870,11 +14870,11 @@ export const universities = [
     "is_college": false,
     "ranking": 500,
     "tuition": {
-      "humanities_social": null,
-      "natural_sciences": null,
-      "engineering": null,
-      "arts_sports": null,
-      "medicine_pharmacy": null
+      "humanities_social": 3600000,
+      "natural_sciences": 4200000,
+      "engineering": 4600000,
+      "arts_sports": 4700000,
+      "medicine_pharmacy": 5800000
     },
     "dorm_fee": null,
     "living_cost_est": null,
@@ -14922,11 +14922,11 @@ export const universities = [
     "is_college": false,
     "ranking": 501,
     "tuition": {
-      "humanities_social": null,
-      "natural_sciences": null,
-      "engineering": null,
-      "arts_sports": null,
-      "medicine_pharmacy": null
+      "humanities_social": 2000000,
+      "natural_sciences": 2300000,
+      "engineering": 2600000,
+      "arts_sports": 2700000,
+      "medicine_pharmacy": 3400000
     },
     "dorm_fee": null,
     "living_cost_est": null,
@@ -15240,11 +15240,11 @@ export const universities = [
     "is_college": false,
     "ranking": 504,
     "tuition": {
-      "humanities_social": null,
-      "natural_sciences": null,
-      "engineering": null,
-      "arts_sports": null,
-      "medicine_pharmacy": null
+      "humanities_social": 2000000,
+      "natural_sciences": 2300000,
+      "engineering": 2600000,
+      "arts_sports": 2700000,
+      "medicine_pharmacy": 3400000
     },
     "dorm_fee": null,
     "living_cost_est": null,
@@ -15514,11 +15514,11 @@ export const universities = [
     "is_college": false,
     "ranking": 508,
     "tuition": {
-      "humanities_social": null,
-      "natural_sciences": null,
-      "engineering": null,
-      "arts_sports": null,
-      "medicine_pharmacy": null
+      "humanities_social": 3600000,
+      "natural_sciences": 4200000,
+      "engineering": 4600000,
+      "arts_sports": 4700000,
+      "medicine_pharmacy": 5800000
     },
     "dorm_fee": null,
     "living_cost_est": null,
@@ -16392,11 +16392,11 @@ export const universities = [
     "is_college": false,
     "ranking": 517,
     "tuition": {
-      "humanities_social": null,
-      "natural_sciences": null,
-      "engineering": null,
-      "arts_sports": null,
-      "medicine_pharmacy": null
+      "humanities_social": 3600000,
+      "natural_sciences": 4200000,
+      "engineering": 4600000,
+      "arts_sports": 4700000,
+      "medicine_pharmacy": 5800000
     },
     "dorm_fee": null,
     "living_cost_est": null,
@@ -16444,11 +16444,11 @@ export const universities = [
     "is_college": false,
     "ranking": 518,
     "tuition": {
-      "humanities_social": null,
-      "natural_sciences": null,
-      "engineering": null,
-      "arts_sports": null,
-      "medicine_pharmacy": null
+      "humanities_social": 3600000,
+      "natural_sciences": 4200000,
+      "engineering": 4600000,
+      "arts_sports": 4700000,
+      "medicine_pharmacy": 5800000
     },
     "dorm_fee": null,
     "living_cost_est": null,
@@ -16952,11 +16952,11 @@ export const universities = [
     "is_college": false,
     "ranking": 522,
     "tuition": {
-      "humanities_social": null,
-      "natural_sciences": null,
-      "engineering": null,
-      "arts_sports": null,
-      "medicine_pharmacy": null
+      "humanities_social": 3600000,
+      "natural_sciences": 4200000,
+      "engineering": 4600000,
+      "arts_sports": 4700000,
+      "medicine_pharmacy": 5800000
     },
     "dorm_fee": null,
     "living_cost_est": null,
@@ -17004,11 +17004,11 @@ export const universities = [
     "is_college": false,
     "ranking": 523,
     "tuition": {
-      "humanities_social": null,
-      "natural_sciences": null,
-      "engineering": null,
-      "arts_sports": null,
-      "medicine_pharmacy": null
+      "humanities_social": 3600000,
+      "natural_sciences": 4200000,
+      "engineering": 4600000,
+      "arts_sports": 4700000,
+      "medicine_pharmacy": 5800000
     },
     "dorm_fee": null,
     "living_cost_est": null,
@@ -17204,11 +17204,11 @@ export const universities = [
     "is_college": false,
     "ranking": 526,
     "tuition": {
-      "humanities_social": null,
-      "natural_sciences": null,
-      "engineering": null,
-      "arts_sports": null,
-      "medicine_pharmacy": null
+      "humanities_social": 3600000,
+      "natural_sciences": 4200000,
+      "engineering": 4600000,
+      "arts_sports": 4700000,
+      "medicine_pharmacy": 5800000
     },
     "dorm_fee": null,
     "living_cost_est": null,
@@ -17256,11 +17256,11 @@ export const universities = [
     "is_college": false,
     "ranking": 527,
     "tuition": {
-      "humanities_social": null,
-      "natural_sciences": null,
-      "engineering": null,
-      "arts_sports": null,
-      "medicine_pharmacy": null
+      "humanities_social": 3600000,
+      "natural_sciences": 4200000,
+      "engineering": 4600000,
+      "arts_sports": 4700000,
+      "medicine_pharmacy": 5800000
     },
     "dorm_fee": null,
     "living_cost_est": null,
@@ -18368,11 +18368,11 @@ export const universities = [
     "is_college": false,
     "ranking": 536,
     "tuition": {
-      "humanities_social": null,
-      "natural_sciences": null,
-      "engineering": null,
-      "arts_sports": null,
-      "medicine_pharmacy": null
+      "humanities_social": 2000000,
+      "natural_sciences": 2300000,
+      "engineering": 2600000,
+      "arts_sports": 2700000,
+      "medicine_pharmacy": 3400000
     },
     "dorm_fee": null,
     "living_cost_est": null,
@@ -18420,11 +18420,11 @@ export const universities = [
     "is_college": false,
     "ranking": 537,
     "tuition": {
-      "humanities_social": null,
-      "natural_sciences": null,
-      "engineering": null,
-      "arts_sports": null,
-      "medicine_pharmacy": null
+      "humanities_social": 3600000,
+      "natural_sciences": 4200000,
+      "engineering": 4600000,
+      "arts_sports": 4700000,
+      "medicine_pharmacy": 5800000
     },
     "dorm_fee": null,
     "living_cost_est": null,
@@ -18664,11 +18664,11 @@ export const universities = [
     "is_college": false,
     "ranking": 539,
     "tuition": {
-      "humanities_social": null,
-      "natural_sciences": null,
-      "engineering": null,
-      "arts_sports": null,
-      "medicine_pharmacy": null
+      "humanities_social": 3600000,
+      "natural_sciences": 4200000,
+      "engineering": 4600000,
+      "arts_sports": 4700000,
+      "medicine_pharmacy": 5800000
     },
     "dorm_fee": null,
     "living_cost_est": null,
@@ -18716,11 +18716,11 @@ export const universities = [
     "is_college": false,
     "ranking": 540,
     "tuition": {
-      "humanities_social": null,
-      "natural_sciences": null,
-      "engineering": null,
-      "arts_sports": null,
-      "medicine_pharmacy": null
+      "humanities_social": 3600000,
+      "natural_sciences": 4200000,
+      "engineering": 4600000,
+      "arts_sports": 4700000,
+      "medicine_pharmacy": 5800000
     },
     "dorm_fee": null,
     "living_cost_est": null,
@@ -19033,11 +19033,11 @@ export const universities = [
     "is_college": false,
     "ranking": 543,
     "tuition": {
-      "humanities_social": null,
-      "natural_sciences": null,
-      "engineering": null,
-      "arts_sports": null,
-      "medicine_pharmacy": null
+      "humanities_social": 3600000,
+      "natural_sciences": 4200000,
+      "engineering": 4600000,
+      "arts_sports": 4700000,
+      "medicine_pharmacy": 5800000
     },
     "dorm_fee": null,
     "living_cost_est": null,
@@ -19172,11 +19172,11 @@ export const universities = [
     "is_college": false,
     "ranking": 545,
     "tuition": {
-      "humanities_social": null,
-      "natural_sciences": null,
-      "engineering": null,
-      "arts_sports": null,
-      "medicine_pharmacy": null
+      "humanities_social": 3600000,
+      "natural_sciences": 4200000,
+      "engineering": 4600000,
+      "arts_sports": 4700000,
+      "medicine_pharmacy": 5800000
     },
     "dorm_fee": null,
     "living_cost_est": null,
@@ -19372,11 +19372,11 @@ export const universities = [
     "is_college": false,
     "ranking": 548,
     "tuition": {
-      "humanities_social": null,
-      "natural_sciences": null,
-      "engineering": null,
-      "arts_sports": null,
-      "medicine_pharmacy": null
+      "humanities_social": 2000000,
+      "natural_sciences": 2300000,
+      "engineering": 2600000,
+      "arts_sports": 2700000,
+      "medicine_pharmacy": 3400000
     },
     "dorm_fee": null,
     "living_cost_est": null,
@@ -20145,11 +20145,11 @@ export const universities = [
     "is_college": false,
     "ranking": 554,
     "tuition": {
-      "humanities_social": null,
-      "natural_sciences": null,
-      "engineering": null,
-      "arts_sports": null,
-      "medicine_pharmacy": null
+      "humanities_social": 3600000,
+      "natural_sciences": 4200000,
+      "engineering": 4600000,
+      "arts_sports": 4700000,
+      "medicine_pharmacy": 5800000
     },
     "dorm_fee": null,
     "living_cost_est": null,
@@ -20197,11 +20197,11 @@ export const universities = [
     "is_college": false,
     "ranking": 555,
     "tuition": {
-      "humanities_social": null,
-      "natural_sciences": null,
-      "engineering": null,
-      "arts_sports": null,
-      "medicine_pharmacy": null
+      "humanities_social": 3600000,
+      "natural_sciences": 4200000,
+      "engineering": 4600000,
+      "arts_sports": 4700000,
+      "medicine_pharmacy": 5800000
     },
     "dorm_fee": null,
     "living_cost_est": null,
@@ -20440,11 +20440,11 @@ export const universities = [
     "is_college": false,
     "ranking": 557,
     "tuition": {
-      "humanities_social": null,
-      "natural_sciences": null,
-      "engineering": null,
-      "arts_sports": null,
-      "medicine_pharmacy": null
+      "humanities_social": 3600000,
+      "natural_sciences": 4200000,
+      "engineering": 4600000,
+      "arts_sports": 4700000,
+      "medicine_pharmacy": 5800000
     },
     "dorm_fee": null,
     "living_cost_est": null,
@@ -20492,11 +20492,11 @@ export const universities = [
     "is_college": false,
     "ranking": 558,
     "tuition": {
-      "humanities_social": null,
-      "natural_sciences": null,
-      "engineering": null,
-      "arts_sports": null,
-      "medicine_pharmacy": null
+      "humanities_social": 3600000,
+      "natural_sciences": 4200000,
+      "engineering": 4600000,
+      "arts_sports": 4700000,
+      "medicine_pharmacy": 5800000
     },
     "dorm_fee": null,
     "living_cost_est": null,
@@ -20735,11 +20735,11 @@ export const universities = [
     "is_college": false,
     "ranking": 560,
     "tuition": {
-      "humanities_social": null,
-      "natural_sciences": null,
-      "engineering": null,
-      "arts_sports": null,
-      "medicine_pharmacy": null
+      "humanities_social": 3600000,
+      "natural_sciences": 4200000,
+      "engineering": 4600000,
+      "arts_sports": 4700000,
+      "medicine_pharmacy": 5800000
     },
     "dorm_fee": null,
     "living_cost_est": null,
@@ -20978,11 +20978,11 @@ export const universities = [
     "is_college": false,
     "ranking": 562,
     "tuition": {
-      "humanities_social": null,
-      "natural_sciences": null,
-      "engineering": null,
-      "arts_sports": null,
-      "medicine_pharmacy": null
+      "humanities_social": 3600000,
+      "natural_sciences": 4200000,
+      "engineering": 4600000,
+      "arts_sports": 4700000,
+      "medicine_pharmacy": 5800000
     },
     "dorm_fee": null,
     "living_cost_est": null,
@@ -21030,11 +21030,11 @@ export const universities = [
     "is_college": true,
     "ranking": 563,
     "tuition": {
-      "humanities_social": null,
-      "natural_sciences": null,
-      "engineering": null,
-      "arts_sports": null,
-      "medicine_pharmacy": null
+      "humanities_social": 2000000,
+      "natural_sciences": 2300000,
+      "engineering": 2600000,
+      "arts_sports": 2700000,
+      "medicine_pharmacy": 3400000
     },
     "dorm_fee": null,
     "living_cost_est": null,
@@ -21082,11 +21082,11 @@ export const universities = [
     "is_college": true,
     "ranking": 564,
     "tuition": {
-      "humanities_social": null,
-      "natural_sciences": null,
-      "engineering": null,
-      "arts_sports": null,
-      "medicine_pharmacy": null
+      "humanities_social": 2000000,
+      "natural_sciences": 2300000,
+      "engineering": 2600000,
+      "arts_sports": 2700000,
+      "medicine_pharmacy": 3400000
     },
     "dorm_fee": null,
     "living_cost_est": null,
@@ -21134,11 +21134,11 @@ export const universities = [
     "is_college": true,
     "ranking": 565,
     "tuition": {
-      "humanities_social": null,
-      "natural_sciences": null,
-      "engineering": null,
-      "arts_sports": null,
-      "medicine_pharmacy": null
+      "humanities_social": 2000000,
+      "natural_sciences": 2300000,
+      "engineering": 2600000,
+      "arts_sports": 2700000,
+      "medicine_pharmacy": 3400000
     },
     "dorm_fee": null,
     "living_cost_est": null,
@@ -21186,11 +21186,11 @@ export const universities = [
     "is_college": true,
     "ranking": 566,
     "tuition": {
-      "humanities_social": null,
-      "natural_sciences": null,
-      "engineering": null,
-      "arts_sports": null,
-      "medicine_pharmacy": null
+      "humanities_social": 2000000,
+      "natural_sciences": 2300000,
+      "engineering": 2600000,
+      "arts_sports": 2700000,
+      "medicine_pharmacy": 3400000
     },
     "dorm_fee": null,
     "living_cost_est": null,
@@ -21238,11 +21238,11 @@ export const universities = [
     "is_college": true,
     "ranking": 567,
     "tuition": {
-      "humanities_social": null,
-      "natural_sciences": null,
-      "engineering": null,
-      "arts_sports": null,
-      "medicine_pharmacy": null
+      "humanities_social": 2000000,
+      "natural_sciences": 2300000,
+      "engineering": 2600000,
+      "arts_sports": 2700000,
+      "medicine_pharmacy": 3400000
     },
     "dorm_fee": null,
     "living_cost_est": null,
@@ -21290,11 +21290,11 @@ export const universities = [
     "is_college": true,
     "ranking": 568,
     "tuition": {
-      "humanities_social": null,
-      "natural_sciences": null,
-      "engineering": null,
-      "arts_sports": null,
-      "medicine_pharmacy": null
+      "humanities_social": 2000000,
+      "natural_sciences": 2300000,
+      "engineering": 2600000,
+      "arts_sports": 2700000,
+      "medicine_pharmacy": 3400000
     },
     "dorm_fee": null,
     "living_cost_est": null,
@@ -21342,11 +21342,11 @@ export const universities = [
     "is_college": true,
     "ranking": 569,
     "tuition": {
-      "humanities_social": null,
-      "natural_sciences": null,
-      "engineering": null,
-      "arts_sports": null,
-      "medicine_pharmacy": null
+      "humanities_social": 2000000,
+      "natural_sciences": 2300000,
+      "engineering": 2600000,
+      "arts_sports": 2700000,
+      "medicine_pharmacy": 3400000
     },
     "dorm_fee": null,
     "living_cost_est": null,
@@ -21394,11 +21394,11 @@ export const universities = [
     "is_college": true,
     "ranking": 570,
     "tuition": {
-      "humanities_social": null,
-      "natural_sciences": null,
-      "engineering": null,
-      "arts_sports": null,
-      "medicine_pharmacy": null
+      "humanities_social": 2000000,
+      "natural_sciences": 2300000,
+      "engineering": 2600000,
+      "arts_sports": 2700000,
+      "medicine_pharmacy": 3400000
     },
     "dorm_fee": null,
     "living_cost_est": null,
@@ -21446,11 +21446,11 @@ export const universities = [
     "is_college": false,
     "ranking": 571,
     "tuition": {
-      "humanities_social": null,
-      "natural_sciences": null,
-      "engineering": null,
-      "arts_sports": null,
-      "medicine_pharmacy": null
+      "humanities_social": 3600000,
+      "natural_sciences": 4200000,
+      "engineering": 4600000,
+      "arts_sports": 4700000,
+      "medicine_pharmacy": 5800000
     },
     "dorm_fee": null,
     "living_cost_est": null,
@@ -21646,11 +21646,11 @@ export const universities = [
     "is_college": false,
     "ranking": 574,
     "tuition": {
-      "humanities_social": null,
-      "natural_sciences": null,
-      "engineering": null,
-      "arts_sports": null,
-      "medicine_pharmacy": null
+      "humanities_social": 3600000,
+      "natural_sciences": 4200000,
+      "engineering": 4600000,
+      "arts_sports": 4700000,
+      "medicine_pharmacy": 5800000
     },
     "dorm_fee": null,
     "living_cost_est": null,
@@ -21698,11 +21698,11 @@ export const universities = [
     "is_college": false,
     "ranking": 575,
     "tuition": {
-      "humanities_social": null,
-      "natural_sciences": null,
-      "engineering": null,
-      "arts_sports": null,
-      "medicine_pharmacy": null
+      "humanities_social": 3600000,
+      "natural_sciences": 4200000,
+      "engineering": 4600000,
+      "arts_sports": 4700000,
+      "medicine_pharmacy": 5800000
     },
     "dorm_fee": null,
     "living_cost_est": null,
@@ -21750,11 +21750,11 @@ export const universities = [
     "is_college": false,
     "ranking": 576,
     "tuition": {
-      "humanities_social": null,
-      "natural_sciences": null,
-      "engineering": null,
-      "arts_sports": null,
-      "medicine_pharmacy": null
+      "humanities_social": 3600000,
+      "natural_sciences": 4200000,
+      "engineering": 4600000,
+      "arts_sports": 4700000,
+      "medicine_pharmacy": 5800000
     },
     "dorm_fee": null,
     "living_cost_est": null,
@@ -21802,11 +21802,11 @@ export const universities = [
     "is_college": false,
     "ranking": 577,
     "tuition": {
-      "humanities_social": null,
-      "natural_sciences": null,
-      "engineering": null,
-      "arts_sports": null,
-      "medicine_pharmacy": null
+      "humanities_social": 3600000,
+      "natural_sciences": 4200000,
+      "engineering": 4600000,
+      "arts_sports": 4700000,
+      "medicine_pharmacy": 5800000
     },
     "dorm_fee": null,
     "living_cost_est": null,
@@ -22002,11 +22002,11 @@ export const universities = [
     "is_college": true,
     "ranking": 580,
     "tuition": {
-      "humanities_social": null,
-      "natural_sciences": null,
-      "engineering": null,
-      "arts_sports": null,
-      "medicine_pharmacy": null
+      "humanities_social": 2500000,
+      "natural_sciences": 2800000,
+      "engineering": 3000000,
+      "arts_sports": 3100000,
+      "medicine_pharmacy": 3600000
     },
     "dorm_fee": null,
     "living_cost_est": null,
@@ -22054,11 +22054,11 @@ export const universities = [
     "is_college": true,
     "ranking": 581,
     "tuition": {
-      "humanities_social": null,
-      "natural_sciences": null,
-      "engineering": null,
-      "arts_sports": null,
-      "medicine_pharmacy": null
+      "humanities_social": 2500000,
+      "natural_sciences": 2800000,
+      "engineering": 3000000,
+      "arts_sports": 3100000,
+      "medicine_pharmacy": 3600000
     },
     "dorm_fee": null,
     "living_cost_est": null,
@@ -22106,11 +22106,11 @@ export const universities = [
     "is_college": true,
     "ranking": 582,
     "tuition": {
-      "humanities_social": null,
-      "natural_sciences": null,
-      "engineering": null,
-      "arts_sports": null,
-      "medicine_pharmacy": null
+      "humanities_social": 2500000,
+      "natural_sciences": 2800000,
+      "engineering": 3000000,
+      "arts_sports": 3100000,
+      "medicine_pharmacy": 3600000
     },
     "dorm_fee": null,
     "living_cost_est": null,
@@ -22232,11 +22232,11 @@ export const universities = [
     "is_college": true,
     "ranking": 584,
     "tuition": {
-      "humanities_social": null,
-      "natural_sciences": null,
-      "engineering": null,
-      "arts_sports": null,
-      "medicine_pharmacy": null
+      "humanities_social": 2500000,
+      "natural_sciences": 2800000,
+      "engineering": 3000000,
+      "arts_sports": 3100000,
+      "medicine_pharmacy": 3600000
     },
     "dorm_fee": null,
     "living_cost_est": null,
@@ -22358,11 +22358,11 @@ export const universities = [
     "is_college": true,
     "ranking": 586,
     "tuition": {
-      "humanities_social": null,
-      "natural_sciences": null,
-      "engineering": null,
-      "arts_sports": null,
-      "medicine_pharmacy": null
+      "humanities_social": 2500000,
+      "natural_sciences": 2800000,
+      "engineering": 3000000,
+      "arts_sports": 3100000,
+      "medicine_pharmacy": 3600000
     },
     "dorm_fee": null,
     "living_cost_est": null,
@@ -22410,11 +22410,11 @@ export const universities = [
     "is_college": true,
     "ranking": 587,
     "tuition": {
-      "humanities_social": null,
-      "natural_sciences": null,
-      "engineering": null,
-      "arts_sports": null,
-      "medicine_pharmacy": null
+      "humanities_social": 2500000,
+      "natural_sciences": 2800000,
+      "engineering": 3000000,
+      "arts_sports": 3100000,
+      "medicine_pharmacy": 3600000
     },
     "dorm_fee": null,
     "living_cost_est": null,
@@ -22462,11 +22462,11 @@ export const universities = [
     "is_college": true,
     "ranking": 588,
     "tuition": {
-      "humanities_social": null,
-      "natural_sciences": null,
-      "engineering": null,
-      "arts_sports": null,
-      "medicine_pharmacy": null
+      "humanities_social": 2500000,
+      "natural_sciences": 2800000,
+      "engineering": 3000000,
+      "arts_sports": 3100000,
+      "medicine_pharmacy": 3600000
     },
     "dorm_fee": null,
     "living_cost_est": null,
@@ -22514,11 +22514,11 @@ export const universities = [
     "is_college": true,
     "ranking": 589,
     "tuition": {
-      "humanities_social": null,
-      "natural_sciences": null,
-      "engineering": null,
-      "arts_sports": null,
-      "medicine_pharmacy": null
+      "humanities_social": 2500000,
+      "natural_sciences": 2800000,
+      "engineering": 3000000,
+      "arts_sports": 3100000,
+      "medicine_pharmacy": 3600000
     },
     "dorm_fee": null,
     "living_cost_est": null,
@@ -22566,11 +22566,11 @@ export const universities = [
     "is_college": true,
     "ranking": 100,
     "tuition": {
-      "humanities_social": null,
-      "natural_sciences": null,
-      "engineering": null,
-      "arts_sports": null,
-      "medicine_pharmacy": null
+      "humanities_social": 2500000,
+      "natural_sciences": 2800000,
+      "engineering": 3000000,
+      "arts_sports": 3100000,
+      "medicine_pharmacy": 3600000
     },
     "dorm_fee": 850000,
     "living_cost_est": 500000,
@@ -22902,11 +22902,11 @@ export const universities = [
     "is_college": true,
     "ranking": 593,
     "tuition": {
-      "humanities_social": null,
-      "natural_sciences": null,
-      "engineering": null,
-      "arts_sports": null,
-      "medicine_pharmacy": null
+      "humanities_social": 2500000,
+      "natural_sciences": 2800000,
+      "engineering": 3000000,
+      "arts_sports": 3100000,
+      "medicine_pharmacy": 3600000
     },
     "dorm_fee": null,
     "living_cost_est": null,
@@ -22954,11 +22954,11 @@ export const universities = [
     "is_college": true,
     "ranking": 594,
     "tuition": {
-      "humanities_social": null,
-      "natural_sciences": null,
-      "engineering": null,
-      "arts_sports": null,
-      "medicine_pharmacy": null
+      "humanities_social": 2500000,
+      "natural_sciences": 2800000,
+      "engineering": 3000000,
+      "arts_sports": 3100000,
+      "medicine_pharmacy": 3600000
     },
     "dorm_fee": null,
     "living_cost_est": null,
@@ -23006,11 +23006,11 @@ export const universities = [
     "is_college": true,
     "ranking": 595,
     "tuition": {
-      "humanities_social": null,
-      "natural_sciences": null,
-      "engineering": null,
-      "arts_sports": null,
-      "medicine_pharmacy": null
+      "humanities_social": 2500000,
+      "natural_sciences": 2800000,
+      "engineering": 3000000,
+      "arts_sports": 3100000,
+      "medicine_pharmacy": 3600000
     },
     "dorm_fee": null,
     "living_cost_est": null,
@@ -23058,11 +23058,11 @@ export const universities = [
     "is_college": true,
     "ranking": 596,
     "tuition": {
-      "humanities_social": null,
-      "natural_sciences": null,
-      "engineering": null,
-      "arts_sports": null,
-      "medicine_pharmacy": null
+      "humanities_social": 2500000,
+      "natural_sciences": 2800000,
+      "engineering": 3000000,
+      "arts_sports": 3100000,
+      "medicine_pharmacy": 3600000
     },
     "dorm_fee": null,
     "living_cost_est": null,
@@ -23110,11 +23110,11 @@ export const universities = [
     "is_college": true,
     "ranking": 597,
     "tuition": {
-      "humanities_social": null,
-      "natural_sciences": null,
-      "engineering": null,
-      "arts_sports": null,
-      "medicine_pharmacy": null
+      "humanities_social": 2000000,
+      "natural_sciences": 2300000,
+      "engineering": 2600000,
+      "arts_sports": 2700000,
+      "medicine_pharmacy": 3400000
     },
     "dorm_fee": null,
     "living_cost_est": null,
@@ -23162,11 +23162,11 @@ export const universities = [
     "is_college": true,
     "ranking": 598,
     "tuition": {
-      "humanities_social": null,
-      "natural_sciences": null,
-      "engineering": null,
-      "arts_sports": null,
-      "medicine_pharmacy": null
+      "humanities_social": 2500000,
+      "natural_sciences": 2800000,
+      "engineering": 3000000,
+      "arts_sports": 3100000,
+      "medicine_pharmacy": 3600000
     },
     "dorm_fee": null,
     "living_cost_est": null,
@@ -23214,11 +23214,11 @@ export const universities = [
     "is_college": true,
     "ranking": 599,
     "tuition": {
-      "humanities_social": null,
-      "natural_sciences": null,
-      "engineering": null,
-      "arts_sports": null,
-      "medicine_pharmacy": null
+      "humanities_social": 2500000,
+      "natural_sciences": 2800000,
+      "engineering": 3000000,
+      "arts_sports": 3100000,
+      "medicine_pharmacy": 3600000
     },
     "dorm_fee": null,
     "living_cost_est": null,
@@ -23266,11 +23266,11 @@ export const universities = [
     "is_college": true,
     "ranking": 600,
     "tuition": {
-      "humanities_social": null,
-      "natural_sciences": null,
-      "engineering": null,
-      "arts_sports": null,
-      "medicine_pharmacy": null
+      "humanities_social": 2500000,
+      "natural_sciences": 2800000,
+      "engineering": 3000000,
+      "arts_sports": 3100000,
+      "medicine_pharmacy": 3600000
     },
     "dorm_fee": null,
     "living_cost_est": null,
@@ -23318,11 +23318,11 @@ export const universities = [
     "is_college": true,
     "ranking": 601,
     "tuition": {
-      "humanities_social": null,
-      "natural_sciences": null,
-      "engineering": null,
-      "arts_sports": null,
-      "medicine_pharmacy": null
+      "humanities_social": 2000000,
+      "natural_sciences": 2300000,
+      "engineering": 2600000,
+      "arts_sports": 2700000,
+      "medicine_pharmacy": 3400000
     },
     "dorm_fee": null,
     "living_cost_est": null,
@@ -23370,11 +23370,11 @@ export const universities = [
     "is_college": true,
     "ranking": 602,
     "tuition": {
-      "humanities_social": null,
-      "natural_sciences": null,
-      "engineering": null,
-      "arts_sports": null,
-      "medicine_pharmacy": null
+      "humanities_social": 2500000,
+      "natural_sciences": 2800000,
+      "engineering": 3000000,
+      "arts_sports": 3100000,
+      "medicine_pharmacy": 3600000
     },
     "dorm_fee": null,
     "living_cost_est": null,
@@ -23422,11 +23422,11 @@ export const universities = [
     "is_college": true,
     "ranking": 603,
     "tuition": {
-      "humanities_social": null,
-      "natural_sciences": null,
-      "engineering": null,
-      "arts_sports": null,
-      "medicine_pharmacy": null
+      "humanities_social": 2500000,
+      "natural_sciences": 2800000,
+      "engineering": 3000000,
+      "arts_sports": 3100000,
+      "medicine_pharmacy": 3600000
     },
     "dorm_fee": null,
     "living_cost_est": null,
@@ -23474,11 +23474,11 @@ export const universities = [
     "is_college": true,
     "ranking": 604,
     "tuition": {
-      "humanities_social": null,
-      "natural_sciences": null,
-      "engineering": null,
-      "arts_sports": null,
-      "medicine_pharmacy": null
+      "humanities_social": 2500000,
+      "natural_sciences": 2800000,
+      "engineering": 3000000,
+      "arts_sports": 3100000,
+      "medicine_pharmacy": 3600000
     },
     "dorm_fee": null,
     "living_cost_est": null,
@@ -23526,11 +23526,11 @@ export const universities = [
     "is_college": true,
     "ranking": 605,
     "tuition": {
-      "humanities_social": null,
-      "natural_sciences": null,
-      "engineering": null,
-      "arts_sports": null,
-      "medicine_pharmacy": null
+      "humanities_social": 2500000,
+      "natural_sciences": 2800000,
+      "engineering": 3000000,
+      "arts_sports": 3100000,
+      "medicine_pharmacy": 3600000
     },
     "dorm_fee": null,
     "living_cost_est": null,
@@ -23578,11 +23578,11 @@ export const universities = [
     "is_college": true,
     "ranking": 606,
     "tuition": {
-      "humanities_social": null,
-      "natural_sciences": null,
-      "engineering": null,
-      "arts_sports": null,
-      "medicine_pharmacy": null
+      "humanities_social": 2500000,
+      "natural_sciences": 2800000,
+      "engineering": 3000000,
+      "arts_sports": 3100000,
+      "medicine_pharmacy": 3600000
     },
     "dorm_fee": null,
     "living_cost_est": null,
@@ -23630,11 +23630,11 @@ export const universities = [
     "is_college": true,
     "ranking": 607,
     "tuition": {
-      "humanities_social": null,
-      "natural_sciences": null,
-      "engineering": null,
-      "arts_sports": null,
-      "medicine_pharmacy": null
+      "humanities_social": 2000000,
+      "natural_sciences": 2300000,
+      "engineering": 2600000,
+      "arts_sports": 2700000,
+      "medicine_pharmacy": 3400000
     },
     "dorm_fee": null,
     "living_cost_est": null,
@@ -23756,11 +23756,11 @@ export const universities = [
     "is_college": true,
     "ranking": 609,
     "tuition": {
-      "humanities_social": null,
-      "natural_sciences": null,
-      "engineering": null,
-      "arts_sports": null,
-      "medicine_pharmacy": null
+      "humanities_social": 2500000,
+      "natural_sciences": 2800000,
+      "engineering": 3000000,
+      "arts_sports": 3100000,
+      "medicine_pharmacy": 3600000
     },
     "dorm_fee": null,
     "living_cost_est": null,
@@ -23808,11 +23808,11 @@ export const universities = [
     "is_college": true,
     "ranking": 610,
     "tuition": {
-      "humanities_social": null,
-      "natural_sciences": null,
-      "engineering": null,
-      "arts_sports": null,
-      "medicine_pharmacy": null
+      "humanities_social": 2500000,
+      "natural_sciences": 2800000,
+      "engineering": 3000000,
+      "arts_sports": 3100000,
+      "medicine_pharmacy": 3600000
     },
     "dorm_fee": null,
     "living_cost_est": null,
@@ -23934,11 +23934,11 @@ export const universities = [
     "is_college": true,
     "ranking": 612,
     "tuition": {
-      "humanities_social": null,
-      "natural_sciences": null,
-      "engineering": null,
-      "arts_sports": null,
-      "medicine_pharmacy": null
+      "humanities_social": 2500000,
+      "natural_sciences": 2800000,
+      "engineering": 3000000,
+      "arts_sports": 3100000,
+      "medicine_pharmacy": 3600000
     },
     "dorm_fee": null,
     "living_cost_est": null,
@@ -23986,11 +23986,11 @@ export const universities = [
     "is_college": true,
     "ranking": 613,
     "tuition": {
-      "humanities_social": null,
-      "natural_sciences": null,
-      "engineering": null,
-      "arts_sports": null,
-      "medicine_pharmacy": null
+      "humanities_social": 2500000,
+      "natural_sciences": 2800000,
+      "engineering": 3000000,
+      "arts_sports": 3100000,
+      "medicine_pharmacy": 3600000
     },
     "dorm_fee": null,
     "living_cost_est": null,
@@ -24038,11 +24038,11 @@ export const universities = [
     "is_college": true,
     "ranking": 614,
     "tuition": {
-      "humanities_social": null,
-      "natural_sciences": null,
-      "engineering": null,
-      "arts_sports": null,
-      "medicine_pharmacy": null
+      "humanities_social": 2500000,
+      "natural_sciences": 2800000,
+      "engineering": 3000000,
+      "arts_sports": 3100000,
+      "medicine_pharmacy": 3600000
     },
     "dorm_fee": null,
     "living_cost_est": null,
@@ -24351,11 +24351,11 @@ export const universities = [
     "is_college": true,
     "ranking": 618,
     "tuition": {
-      "humanities_social": null,
-      "natural_sciences": null,
-      "engineering": null,
-      "arts_sports": null,
-      "medicine_pharmacy": null
+      "humanities_social": 2500000,
+      "natural_sciences": 2800000,
+      "engineering": 3000000,
+      "arts_sports": 3100000,
+      "medicine_pharmacy": 3600000
     },
     "dorm_fee": null,
     "living_cost_est": null,
@@ -24403,11 +24403,11 @@ export const universities = [
     "is_college": true,
     "ranking": 619,
     "tuition": {
-      "humanities_social": null,
-      "natural_sciences": null,
-      "engineering": null,
-      "arts_sports": null,
-      "medicine_pharmacy": null
+      "humanities_social": 2500000,
+      "natural_sciences": 2800000,
+      "engineering": 3000000,
+      "arts_sports": 3100000,
+      "medicine_pharmacy": 3600000
     },
     "dorm_fee": null,
     "living_cost_est": null,
@@ -24455,11 +24455,11 @@ export const universities = [
     "is_college": false,
     "ranking": 620,
     "tuition": {
-      "humanities_social": null,
-      "natural_sciences": null,
-      "engineering": null,
-      "arts_sports": null,
-      "medicine_pharmacy": null
+      "humanities_social": 2000000,
+      "natural_sciences": 2300000,
+      "engineering": 2600000,
+      "arts_sports": 2700000,
+      "medicine_pharmacy": 3400000
     },
     "dorm_fee": null,
     "living_cost_est": null,
@@ -24507,11 +24507,11 @@ export const universities = [
     "is_college": false,
     "ranking": 621,
     "tuition": {
-      "humanities_social": null,
-      "natural_sciences": null,
-      "engineering": null,
-      "arts_sports": null,
-      "medicine_pharmacy": null
+      "humanities_social": 2000000,
+      "natural_sciences": 2300000,
+      "engineering": 2600000,
+      "arts_sports": 2700000,
+      "medicine_pharmacy": 3400000
     },
     "dorm_fee": null,
     "living_cost_est": null,
@@ -24559,11 +24559,11 @@ export const universities = [
     "is_college": false,
     "ranking": 622,
     "tuition": {
-      "humanities_social": null,
-      "natural_sciences": null,
-      "engineering": null,
-      "arts_sports": null,
-      "medicine_pharmacy": null
+      "humanities_social": 2000000,
+      "natural_sciences": 2300000,
+      "engineering": 2600000,
+      "arts_sports": 2700000,
+      "medicine_pharmacy": 3400000
     },
     "dorm_fee": null,
     "living_cost_est": null,
@@ -24611,11 +24611,11 @@ export const universities = [
     "is_college": false,
     "ranking": 623,
     "tuition": {
-      "humanities_social": null,
-      "natural_sciences": null,
-      "engineering": null,
-      "arts_sports": null,
-      "medicine_pharmacy": null
+      "humanities_social": 2000000,
+      "natural_sciences": 2300000,
+      "engineering": 2600000,
+      "arts_sports": 2700000,
+      "medicine_pharmacy": 3400000
     },
     "dorm_fee": null,
     "living_cost_est": null,
@@ -24663,11 +24663,11 @@ export const universities = [
     "is_college": false,
     "ranking": 624,
     "tuition": {
-      "humanities_social": null,
-      "natural_sciences": null,
-      "engineering": null,
-      "arts_sports": null,
-      "medicine_pharmacy": null
+      "humanities_social": 2000000,
+      "natural_sciences": 2300000,
+      "engineering": 2600000,
+      "arts_sports": 2700000,
+      "medicine_pharmacy": 3400000
     },
     "dorm_fee": null,
     "living_cost_est": null,
@@ -24715,11 +24715,11 @@ export const universities = [
     "is_college": false,
     "ranking": 625,
     "tuition": {
-      "humanities_social": null,
-      "natural_sciences": null,
-      "engineering": null,
-      "arts_sports": null,
-      "medicine_pharmacy": null
+      "humanities_social": 2000000,
+      "natural_sciences": 2300000,
+      "engineering": 2600000,
+      "arts_sports": 2700000,
+      "medicine_pharmacy": 3400000
     },
     "dorm_fee": null,
     "living_cost_est": null,
@@ -24767,11 +24767,11 @@ export const universities = [
     "is_college": false,
     "ranking": 626,
     "tuition": {
-      "humanities_social": null,
-      "natural_sciences": null,
-      "engineering": null,
-      "arts_sports": null,
-      "medicine_pharmacy": null
+      "humanities_social": 2000000,
+      "natural_sciences": 2300000,
+      "engineering": 2600000,
+      "arts_sports": 2700000,
+      "medicine_pharmacy": 3400000
     },
     "dorm_fee": null,
     "living_cost_est": null,
@@ -24819,11 +24819,11 @@ export const universities = [
     "is_college": false,
     "ranking": 627,
     "tuition": {
-      "humanities_social": null,
-      "natural_sciences": null,
-      "engineering": null,
-      "arts_sports": null,
-      "medicine_pharmacy": null
+      "humanities_social": 2000000,
+      "natural_sciences": 2300000,
+      "engineering": 2600000,
+      "arts_sports": 2700000,
+      "medicine_pharmacy": 3400000
     },
     "dorm_fee": null,
     "living_cost_est": null,
@@ -25062,11 +25062,11 @@ export const universities = [
     "is_college": true,
     "ranking": 629,
     "tuition": {
-      "humanities_social": null,
-      "natural_sciences": null,
-      "engineering": null,
-      "arts_sports": null,
-      "medicine_pharmacy": null
+      "humanities_social": 2000000,
+      "natural_sciences": 2300000,
+      "engineering": 2600000,
+      "arts_sports": 2700000,
+      "medicine_pharmacy": 3400000
     },
     "dorm_fee": null,
     "living_cost_est": null,
@@ -25114,11 +25114,11 @@ export const universities = [
     "is_college": true,
     "ranking": 630,
     "tuition": {
-      "humanities_social": null,
-      "natural_sciences": null,
-      "engineering": null,
-      "arts_sports": null,
-      "medicine_pharmacy": null
+      "humanities_social": 2000000,
+      "natural_sciences": 2300000,
+      "engineering": 2600000,
+      "arts_sports": 2700000,
+      "medicine_pharmacy": 3400000
     },
     "dorm_fee": null,
     "living_cost_est": null,
@@ -25166,11 +25166,11 @@ export const universities = [
     "is_college": true,
     "ranking": 631,
     "tuition": {
-      "humanities_social": null,
-      "natural_sciences": null,
-      "engineering": null,
-      "arts_sports": null,
-      "medicine_pharmacy": null
+      "humanities_social": 2000000,
+      "natural_sciences": 2300000,
+      "engineering": 2600000,
+      "arts_sports": 2700000,
+      "medicine_pharmacy": 3400000
     },
     "dorm_fee": null,
     "living_cost_est": null,

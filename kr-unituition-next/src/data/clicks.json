@@ -75,5 +75,19 @@
     "clicked_at": "2026-08-12T06:09:22.752Z",
     "ip_address": "::1",
     "city": "Chưa rõ"
+  },
+  {
+    "school_id": "koreapolytechnicii",
+    "school_name": "CĐ Polytech II (Hwaseong)",
+    "clicked_at": "2026-08-12T07:15:56.627Z",
+    "ip_address": "::1",
+    "city": "Chưa rõ"
+  },
+  {
+    "school_id": "koreapolytechnicii",
+    "school_name": "CĐ Polytech II (Hwaseong)",
+    "clicked_at": "2026-08-12T07:15:56.909Z",
+    "ip_address": "::1",
+    "city": "Chưa rõ"
   }
 ]
