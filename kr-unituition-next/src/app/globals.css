@@ -8,11 +8,11 @@
 
   color-scheme: light dark;
 
-  /* Pinterest Design Tokens (DESIGN.md) */
-  --primary: #e60023; /* Pinterest Red */
-  --primary-hover: #cc001f; /* Pinterest Red Pressed */
-  --primary-light: rgba(230, 0, 35, 0.08);
-  --primary-light-hover: rgba(230, 0, 35, 0.15);
+  /* EAS Design Tokens */
+  --primary: #005df8; /* EAS Logo Blue */
+  --primary-hover: #004ecc; /* EAS Logo Blue Pressed */
+  --primary-light: rgba(0, 93, 248, 0.08);
+  --primary-light-hover: rgba(0, 93, 248, 0.15);
   
   --secondary: #62625b; /* Mute */
   --secondary-hover: #262622; /* Charcoal */
@@ -281,13 +281,17 @@ button, input, select, textarea {
   animation: shimmer 2s infinite linear;
 }
 
-/* Clamping school names to max 2 lines */
 .university-name {
   display: -webkit-box;
   -webkit-line-clamp: 2;
   -webkit-box-orient: vertical;
   overflow: hidden;
   white-space: normal;
+  transition: color 0.2s ease, transform 0.15s ease;
+}
+.university-name:hover {
+  text-decoration: underline;
+  transform: translateY(-0.5px);
 }
 
 /* University Card Grid Breakpoints */

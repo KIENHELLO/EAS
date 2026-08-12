@@ -272,10 +272,10 @@ export default function SchoolCard({
           <h4 
             className="university-name"
             style={{
-              fontSize: '1.05rem',
+              fontSize: '1.08rem',
               fontWeight: 800,
               margin: 0,
-              color: 'var(--text-primary)',
+              color: 'var(--primary)',
               letterSpacing: '-0.01em',
               lineHeight: '1.3'
             }} 
