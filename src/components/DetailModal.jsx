@@ -1040,25 +1040,24 @@ export default function DetailModal({ university, exchangeRate, onClose, initial
                   Điều kiện Tuyển sinh
                 </h5>
                 <div style={{ display: 'flex', flexDirection: 'column', gap: '0.5rem', fontSize: '0.8rem' }}>
-                  {admission_conditions && (
-                    <div>
-                      <span style={{ color: 'var(--text-secondary)', display: 'block', marginBottom: '0.2rem' }}>GPA & Điểm vắng:</span>
-                      <strong style={{ color: 'var(--text-primary)', display: 'block', whiteSpace: 'pre-line' }}>{admission_conditions}</strong>
-                    </div>
-                  )}
-                  {regional_restrictions && (
-                    <div style={{ borderTop: '1px dashed var(--border-color)', paddingTop: '0.5rem', marginTop: '0.25rem' }}>
-                      <span style={{ color: 'var(--text-secondary)', display: 'block', marginBottom: '0.2rem' }}>Hạn chế vùng miền:</span>
-                      <span style={{ 
-                        color: '#dc2626', 
-                        fontWeight: 700,
-                        backgroundColor: 'rgba(239, 68, 68, 0.08)',
-                        padding: '0.15rem 0.4rem',
-                        borderRadius: '4px',
-                        display: 'inline-block'
-                      }}>{regional_restrictions}</span>
-                    </div>
-                  )}
+                  <div>
+                    <span style={{ color: 'var(--text-secondary)', display: 'block', marginBottom: '0.2rem' }}>GPA & Điểm vắng:</span>
+                    <strong style={{ color: 'var(--text-primary)', display: 'block', whiteSpace: 'pre-line', fontStyle: admission_conditions ? 'normal' : 'italic', fontWeight: admission_conditions ? 700 : 500 }}>
+                      {admission_conditions || "Đang cập nhật (Yêu cầu chung: GPA ≥ 6.5, số buổi vắng ≤ 5-9 buổi)"}
+                    </strong>
+                  </div>
+                  
+                  <div style={{ borderTop: '1px dashed var(--border-color)', paddingTop: '0.5rem', marginTop: '0.25rem' }}>
+                    <span style={{ color: 'var(--text-secondary)', display: 'block', marginBottom: '0.2rem' }}>Hạn chế vùng miền:</span>
+                    <span style={{ 
+                      color: regional_restrictions ? '#dc2626' : '#16a34a', 
+                      fontWeight: 700,
+                      backgroundColor: regional_restrictions ? 'rgba(239, 68, 68, 0.08)' : 'rgba(22, 163, 74, 0.08)',
+                      padding: '0.15rem 0.4rem',
+                      borderRadius: '4px',
+                      display: 'inline-block'
+                    }}>{regional_restrictions || "Không có hạn chế đặc biệt"}</span>
+                  </div>
                 </div>
               </div>
 

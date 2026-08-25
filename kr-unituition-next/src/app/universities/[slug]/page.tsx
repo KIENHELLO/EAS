@@ -442,18 +442,27 @@ export default async function UniversityPage({ params }: PageProps) {
                     <div style={{ padding: '1rem', borderRadius: 'var(--border-radius-sm)', border: '1px solid var(--border-color)', backgroundColor: 'var(--bg-surface-hover)' }}>
                       <span style={{ fontSize: '0.75rem', color: 'var(--text-tertiary)', fontWeight: 700, textTransform: 'uppercase', display: 'block', marginBottom: '0.5rem' }}>Điều kiện Học bạ / Vùng miền</span>
                       <div style={{ display: 'flex', flexDirection: 'column', gap: '0.4rem', fontSize: '0.85rem' }}>
-                        {admission_conditions && (
-                          <div>
-                            <span style={{ color: 'var(--text-secondary)', display: 'block', marginBottom: '0.1rem' }}>Yêu cầu tuyển sinh:</span>
-                            <strong style={{ color: 'var(--text-primary)', display: 'block', whiteSpace: 'pre-line', fontSize: '0.8rem' }}>{admission_conditions}</strong>
-                          </div>
-                        )}
-                        {regional_restrictions && (
-                          <div style={{ borderTop: '1px dashed var(--border-color)', paddingTop: '0.4rem', marginTop: '0.2rem' }}>
-                            <span style={{ color: 'var(--text-secondary)', display: 'block', marginBottom: '0.1rem' }}>Hạn chế vùng miền:</span>
-                            <strong style={{ color: '#dc2626', display: 'block', fontSize: '0.8rem' }}>{regional_restrictions}</strong>
-                          </div>
-                        )}
+                        <div>
+                          <span style={{ color: 'var(--text-secondary)', display: 'block', marginBottom: '0.1rem' }}>Yêu cầu tuyển sinh:</span>
+                          <strong style={{ color: 'var(--text-primary)', display: 'block', whiteSpace: 'pre-line', fontSize: '0.8rem', fontStyle: admission_conditions ? 'normal' : 'italic', fontWeight: admission_conditions ? 700 : 500 }}>
+                            {admission_conditions || "Đang cập nhật (Yêu cầu chung: GPA ≥ 6.5, số buổi vắng ≤ 5-9 buổi)"}
+                          </strong>
+                        </div>
+                        
+                        <div style={{ borderTop: '1px dashed var(--border-color)', paddingTop: '0.4rem', marginTop: '0.2rem' }}>
+                          <span style={{ color: 'var(--text-secondary)', display: 'block', marginBottom: '0.1rem' }}>Hạn chế vùng miền:</span>
+                          <strong style={{ 
+                            color: regional_restrictions ? '#dc2626' : '#16a34a', 
+                            display: 'block', 
+                            fontSize: '0.8rem',
+                            backgroundColor: regional_restrictions ? 'rgba(239, 68, 68, 0.05)' : 'rgba(22, 163, 74, 0.05)',
+                            padding: '0.15rem 0.35rem',
+                            borderRadius: '4px',
+                            width: 'fit-content'
+                          }}>
+                            {regional_restrictions || "Không có hạn chế đặc biệt"}
+                          </strong>
+                        </div>
                       </div>
                     </div>
 
