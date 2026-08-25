@@ -1772,7 +1772,7 @@ export const universities = [
     "insurance_fee_desc": "100,000 KRW/năm",
     "invoice_details": null,
     "dorm_fee_desc": "1,200,000-1,600,000 KRW/kỳ (4 tháng)",
-    "admission_conditions": null,
+    "admission_conditions": "- 7.0 trở lên\n- vắng không quá 10 buổi",
     "featured_majors": null,
     "regional_restrictions": "",
     "coordinates": {
@@ -4399,7 +4399,7 @@ export const universities = [
     "insurance_fee_desc": "100,000 KRW/năm",
     "invoice_details": null,
     "dorm_fee_desc": "1,200,000-1,600,000 KRW/kỳ (4 tháng)",
-    "admission_conditions": null,
+    "admission_conditions": "7.0 trở lên\n- vắng không quá 5 buổi (nhiều hơn cần giải trình)",
     "featured_majors": null,
     "regional_restrictions": "",
     "coordinates": {
