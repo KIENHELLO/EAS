@@ -14970,7 +14970,7 @@ export const universities = [
     "source": "Dữ liệu người dùng cung cấp (nguồn gốc chưa nêu rõ)",
     "last_verified": "N/A",
     "verification_status": "Unverified - chưa được Claude đối chiếu độc lập với nguồn chính thống",
-    "is_verified": false,
+    "is_verified": true,
     "is_college": false,
     "ranking": 11,
     "tuition": {
@@ -15162,7 +15162,7 @@ export const universities = [
     "source": "Dữ liệu người dùng cung cấp (nguồn gốc chưa nêu rõ)",
     "last_verified": "N/A",
     "verification_status": "Unverified - chưa được Claude đối chiếu độc lập với nguồn chính thống",
-    "is_verified": false,
+    "is_verified": true,
     "is_college": false,
     "ranking": 187,
     "tuition": {
@@ -15236,7 +15236,7 @@ export const universities = [
     "source": "Dữ liệu người dùng cung cấp (nguồn gốc chưa nêu rõ)",
     "last_verified": "N/A",
     "verification_status": "Unverified - chưa được Claude đối chiếu độc lập với nguồn chính thống",
-    "is_verified": false,
+    "is_verified": true,
     "is_college": false,
     "ranking": 504,
     "tuition": {
@@ -15288,7 +15288,7 @@ export const universities = [
     "source": "Dữ liệu người dùng cung cấp (nguồn gốc chưa nêu rõ)",
     "last_verified": "N/A",
     "verification_status": "Unverified - chưa được Claude đối chiếu độc lập với nguồn chính thống",
-    "is_verified": false,
+    "is_verified": true,
     "is_college": false,
     "ranking": 195,
     "tuition": {
@@ -15362,7 +15362,7 @@ export const universities = [
     "source": "Dữ liệu người dùng cung cấp (nguồn gốc chưa nêu rõ)",
     "last_verified": "N/A",
     "verification_status": "Unverified - chưa được Claude đối chiếu độc lập với nguồn chính thống",
-    "is_verified": false,
+    "is_verified": true,
     "is_college": false,
     "ranking": 183,
     "tuition": {
@@ -15436,7 +15436,7 @@ export const universities = [
     "source": "Dữ liệu người dùng cung cấp (nguồn gốc chưa nêu rõ)",
     "last_verified": "N/A",
     "verification_status": "Unverified - chưa được Claude đối chiếu độc lập với nguồn chính thống",
-    "is_verified": false,
+    "is_verified": true,
     "is_college": false,
     "ranking": 224,
     "tuition": {
@@ -15510,7 +15510,7 @@ export const universities = [
     "source": "Dữ liệu người dùng cung cấp (nguồn gốc chưa nêu rõ)",
     "last_verified": "N/A",
     "verification_status": "Unverified - chưa được Claude đối chiếu độc lập với nguồn chính thống",
-    "is_verified": false,
+    "is_verified": true,
     "is_college": false,
     "ranking": 508,
     "tuition": {
@@ -15562,7 +15562,7 @@ export const universities = [
     "source": "Dữ liệu người dùng cung cấp (nguồn gốc chưa nêu rõ)",
     "last_verified": "N/A",
     "verification_status": "Unverified - chưa được Claude đối chiếu độc lập với nguồn chính thống",
-    "is_verified": false,
+    "is_verified": true,
     "is_college": false,
     "ranking": 196,
     "tuition": {
@@ -15636,7 +15636,7 @@ export const universities = [
     "source": "Dữ liệu người dùng cung cấp (nguồn gốc chưa nêu rõ)",
     "last_verified": "N/A",
     "verification_status": "Unverified - chưa được Claude đối chiếu độc lập với nguồn chính thống",
-    "is_verified": false,
+    "is_verified": true,
     "is_college": false,
     "ranking": 193,
     "tuition": {
@@ -15710,7 +15710,7 @@ export const universities = [
     "source": "Dữ liệu người dùng cung cấp (nguồn gốc chưa nêu rõ)",
     "last_verified": "N/A",
     "verification_status": "Unverified - chưa được Claude đối chiếu độc lập với nguồn chính thống",
-    "is_verified": false,
+    "is_verified": true,
     "is_college": false,
     "ranking": 28,
     "tuition": {
@@ -15901,7 +15901,7 @@ export const universities = [
     "source": "Dữ liệu người dùng cung cấp (nguồn gốc chưa nêu rõ)",
     "last_verified": "N/A",
     "verification_status": "Unverified - chưa được Claude đối chiếu độc lập với nguồn chính thống",
-    "is_verified": false,
+    "is_verified": true,
     "is_college": false,
     "ranking": 182,
     "tuition": {
@@ -15975,7 +15975,7 @@ export const universities = [
     "source": "Dữ liệu người dùng cung cấp (nguồn gốc chưa nêu rõ)",
     "last_verified": "N/A",
     "verification_status": "Unverified - chưa được Claude đối chiếu độc lập với nguồn chính thống",
-    "is_verified": false,
+    "is_verified": true,
     "is_college": false,
     "ranking": 189,
     "tuition": {
@@ -16049,7 +16049,7 @@ export const universities = [
     "source": "Dữ liệu người dùng cung cấp (nguồn gốc chưa nêu rõ)",
     "last_verified": "N/A",
     "verification_status": "Unverified - chưa được Claude đối chiếu độc lập với nguồn chính thống",
-    "is_verified": false,
+    "is_verified": true,
     "is_college": false,
     "ranking": 181,
     "tuition": {
@@ -16123,7 +16123,7 @@ export const universities = [
     "source": "Dữ liệu người dùng cung cấp (nguồn gốc chưa nêu rõ)",
     "last_verified": "N/A",
     "verification_status": "Unverified - chưa được Claude đối chiếu độc lập với nguồn chính thống",
-    "is_verified": false,
+    "is_verified": true,
     "is_college": false,
     "ranking": 198,
     "tuition": {
@@ -16197,7 +16197,7 @@ export const universities = [
     "source": "Dữ liệu người dùng cung cấp (nguồn gốc chưa nêu rõ)",
     "last_verified": "N/A",
     "verification_status": "Unverified - chưa được Claude đối chiếu độc lập với nguồn chính thống",
-    "is_verified": false,
+    "is_verified": true,
     "is_college": false,
     "ranking": 54,
     "tuition": {
@@ -16388,7 +16388,7 @@ export const universities = [
     "source": "Dữ liệu người dùng cung cấp (nguồn gốc chưa nêu rõ)",
     "last_verified": "N/A",
     "verification_status": "Unverified - chưa được Claude đối chiếu độc lập với nguồn chính thống",
-    "is_verified": false,
+    "is_verified": true,
     "is_college": false,
     "ranking": 517,
     "tuition": {
@@ -16440,7 +16440,7 @@ export const universities = [
     "source": "Dữ liệu người dùng cung cấp (nguồn gốc chưa nêu rõ)",
     "last_verified": "N/A",
     "verification_status": "Unverified - chưa được Claude đối chiếu độc lập với nguồn chính thống",
-    "is_verified": false,
+    "is_verified": true,
     "is_college": false,
     "ranking": 518,
     "tuition": {
@@ -16492,7 +16492,7 @@ export const universities = [
     "source": "Dữ liệu người dùng cung cấp (nguồn gốc chưa nêu rõ)",
     "last_verified": "N/A",
     "verification_status": "Unverified - chưa được Claude đối chiếu độc lập với nguồn chính thống",
-    "is_verified": false,
+    "is_verified": true,
     "is_college": false,
     "ranking": 12,
     "tuition": {
@@ -16683,7 +16683,7 @@ export const universities = [
     "source": "Dữ liệu người dùng cung cấp (nguồn gốc chưa nêu rõ)",
     "last_verified": "N/A",
     "verification_status": "Unverified - chưa được Claude đối chiếu độc lập với nguồn chính thống",
-    "is_verified": false,
+    "is_verified": true,
     "is_college": false,
     "ranking": 153,
     "tuition": {
@@ -16757,7 +16757,7 @@ export const universities = [
     "source": "Dữ liệu người dùng cung cấp (nguồn gốc chưa nêu rõ)",
     "last_verified": "N/A",
     "verification_status": "Unverified - chưa được Claude đối chiếu độc lập với nguồn chính thống",
-    "is_verified": false,
+    "is_verified": true,
     "is_college": false,
     "ranking": 30,
     "tuition": {
@@ -16948,7 +16948,7 @@ export const universities = [
     "source": "Dữ liệu người dùng cung cấp (nguồn gốc chưa nêu rõ)",
     "last_verified": "N/A",
     "verification_status": "Unverified - chưa được Claude đối chiếu độc lập với nguồn chính thống",
-    "is_verified": false,
+    "is_verified": true,
     "is_college": false,
     "ranking": 522,
     "tuition": {
@@ -17000,7 +17000,7 @@ export const universities = [
     "source": "Dữ liệu người dùng cung cấp (nguồn gốc chưa nêu rõ)",
     "last_verified": "N/A",
     "verification_status": "Unverified - chưa được Claude đối chiếu độc lập với nguồn chính thống",
-    "is_verified": false,
+    "is_verified": true,
     "is_college": false,
     "ranking": 523,
     "tuition": {
@@ -17052,7 +17052,7 @@ export const universities = [
     "source": "Dữ liệu người dùng cung cấp (nguồn gốc chưa nêu rõ)",
     "last_verified": "N/A",
     "verification_status": "Unverified - chưa được Claude đối chiếu độc lập với nguồn chính thống",
-    "is_verified": false,
+    "is_verified": true,
     "is_college": false,
     "ranking": 190,
     "tuition": {
@@ -17126,7 +17126,7 @@ export const universities = [
     "source": "Dữ liệu người dùng cung cấp (nguồn gốc chưa nêu rõ)",
     "last_verified": "N/A",
     "verification_status": "Unverified - chưa được Claude đối chiếu độc lập với nguồn chính thống",
-    "is_verified": false,
+    "is_verified": true,
     "is_college": false,
     "ranking": 234,
     "tuition": {
@@ -17200,7 +17200,7 @@ export const universities = [
     "source": "Dữ liệu người dùng cung cấp (nguồn gốc chưa nêu rõ)",
     "last_verified": "N/A",
     "verification_status": "Unverified - chưa được Claude đối chiếu độc lập với nguồn chính thống",
-    "is_verified": false,
+    "is_verified": true,
     "is_college": false,
     "ranking": 526,
     "tuition": {
@@ -17252,7 +17252,7 @@ export const universities = [
     "source": "Dữ liệu người dùng cung cấp (nguồn gốc chưa nêu rõ)",
     "last_verified": "N/A",
     "verification_status": "Unverified - chưa được Claude đối chiếu độc lập với nguồn chính thống",
-    "is_verified": false,
+    "is_verified": true,
     "is_college": false,
     "ranking": 527,
     "tuition": {
@@ -17304,7 +17304,7 @@ export const universities = [
     "source": "Dữ liệu người dùng cung cấp (nguồn gốc chưa nêu rõ)",
     "last_verified": "N/A",
     "verification_status": "Unverified - chưa được Claude đối chiếu độc lập với nguồn chính thống",
-    "is_verified": false,
+    "is_verified": true,
     "is_college": false,
     "ranking": 167,
     "tuition": {
@@ -17378,7 +17378,7 @@ export const universities = [
     "source": "Dữ liệu người dùng cung cấp (nguồn gốc chưa nêu rõ)",
     "last_verified": "N/A",
     "verification_status": "Unverified - chưa được Claude đối chiếu độc lập với nguồn chính thống",
-    "is_verified": false,
+    "is_verified": true,
     "is_college": false,
     "ranking": 48,
     "tuition": {
@@ -17569,7 +17569,7 @@ export const universities = [
     "source": "Dữ liệu người dùng cung cấp (nguồn gốc chưa nêu rõ)",
     "last_verified": "N/A",
     "verification_status": "Unverified - chưa được Claude đối chiếu độc lập với nguồn chính thống",
-    "is_verified": false,
+    "is_verified": true,
     "is_college": false,
     "ranking": 174,
     "tuition": {
@@ -17643,7 +17643,7 @@ export const universities = [
     "source": "Dữ liệu người dùng cung cấp (nguồn gốc chưa nêu rõ)",
     "last_verified": "N/A",
     "verification_status": "Unverified - chưa được Claude đối chiếu độc lập với nguồn chính thống",
-    "is_verified": false,
+    "is_verified": true,
     "is_college": false,
     "ranking": 180,
     "tuition": {
@@ -17717,7 +17717,7 @@ export const universities = [
     "source": "Dữ liệu người dùng cung cấp (nguồn gốc chưa nêu rõ)",
     "last_verified": "N/A",
     "verification_status": "Unverified - chưa được Claude đối chiếu độc lập với nguồn chính thống",
-    "is_verified": false,
+    "is_verified": true,
     "is_college": false,
     "ranking": 56,
     "tuition": {
@@ -17908,7 +17908,7 @@ export const universities = [
     "source": "Dữ liệu người dùng cung cấp (nguồn gốc chưa nêu rõ)",
     "last_verified": "N/A",
     "verification_status": "Unverified - chưa được Claude đối chiếu độc lập với nguồn chính thống",
-    "is_verified": false,
+    "is_verified": true,
     "is_college": false,
     "ranking": 36,
     "tuition": {
@@ -18099,7 +18099,7 @@ export const universities = [
     "source": "Dữ liệu người dùng cung cấp (nguồn gốc chưa nêu rõ)",
     "last_verified": "N/A",
     "verification_status": "Unverified - chưa được Claude đối chiếu độc lập với nguồn chính thống",
-    "is_verified": false,
+    "is_verified": true,
     "is_college": false,
     "ranking": 179,
     "tuition": {
@@ -18173,7 +18173,7 @@ export const universities = [
     "source": "Dữ liệu người dùng cung cấp (nguồn gốc chưa nêu rõ)",
     "last_verified": "N/A",
     "verification_status": "Unverified - chưa được Claude đối chiếu độc lập với nguồn chính thống",
-    "is_verified": false,
+    "is_verified": true,
     "is_college": false,
     "ranking": 21,
     "tuition": {
@@ -18364,7 +18364,7 @@ export const universities = [
     "source": "Dữ liệu người dùng cung cấp (nguồn gốc chưa nêu rõ)",
     "last_verified": "N/A",
     "verification_status": "Unverified - chưa được Claude đối chiếu độc lập với nguồn chính thống",
-    "is_verified": false,
+    "is_verified": true,
     "is_college": false,
     "ranking": 536,
     "tuition": {
@@ -18416,7 +18416,7 @@ export const universities = [
     "source": "Dữ liệu người dùng cung cấp (nguồn gốc chưa nêu rõ)",
     "last_verified": "N/A",
     "verification_status": "Unverified - chưa được Claude đối chiếu độc lập với nguồn chính thống",
-    "is_verified": false,
+    "is_verified": true,
     "is_college": false,
     "ranking": 537,
     "tuition": {
@@ -18468,7 +18468,7 @@ export const universities = [
     "source": "Dữ liệu người dùng cung cấp (nguồn gốc chưa nêu rõ)",
     "last_verified": "N/A",
     "verification_status": "Unverified - chưa được Claude đối chiếu độc lập với nguồn chính thống",
-    "is_verified": false,
+    "is_verified": true,
     "is_college": false,
     "ranking": 58,
     "tuition": {
@@ -18660,7 +18660,7 @@ export const universities = [
     "source": "Dữ liệu người dùng cung cấp (nguồn gốc chưa nêu rõ)",
     "last_verified": "N/A",
     "verification_status": "Unverified - chưa được Claude đối chiếu độc lập với nguồn chính thống",
-    "is_verified": false,
+    "is_verified": true,
     "is_college": false,
     "ranking": 539,
     "tuition": {
@@ -18712,7 +18712,7 @@ export const universities = [
     "source": "Dữ liệu người dùng cung cấp (nguồn gốc chưa nêu rõ)",
     "last_verified": "N/A",
     "verification_status": "Unverified - chưa được Claude đối chiếu độc lập với nguồn chính thống",
-    "is_verified": false,
+    "is_verified": true,
     "is_college": false,
     "ranking": 540,
     "tuition": {
@@ -18764,7 +18764,7 @@ export const universities = [
     "source": "Dữ liệu người dùng cung cấp (nguồn gốc chưa nêu rõ)",
     "last_verified": "N/A",
     "verification_status": "Unverified - chưa được Claude đối chiếu độc lập với nguồn chính thống",
-    "is_verified": false,
+    "is_verified": true,
     "is_college": false,
     "ranking": 23,
     "tuition": {
@@ -18955,7 +18955,7 @@ export const universities = [
     "source": "Dữ liệu người dùng cung cấp (nguồn gốc chưa nêu rõ)",
     "last_verified": "N/A",
     "verification_status": "Unverified - chưa được Claude đối chiếu độc lập với nguồn chính thống",
-    "is_verified": false,
+    "is_verified": true,
     "is_college": false,
     "ranking": 199,
     "tuition": {
@@ -19029,7 +19029,7 @@ export const universities = [
     "source": "Dữ liệu người dùng cung cấp (nguồn gốc chưa nêu rõ)",
     "last_verified": "N/A",
     "verification_status": "Unverified - chưa được Claude đối chiếu độc lập với nguồn chính thống",
-    "is_verified": false,
+    "is_verified": true,
     "is_college": false,
     "ranking": 543,
     "tuition": {
@@ -19081,7 +19081,7 @@ export const universities = [
     "source": "Dữ liệu người dùng cung cấp (nguồn gốc chưa nêu rõ)",
     "last_verified": "N/A",
     "verification_status": "Unverified - chưa được Claude đối chiếu độc lập với nguồn chính thống",
-    "is_verified": false,
+    "is_verified": true,
     "is_college": false,
     "ranking": 166,
     "tuition": {
@@ -19168,7 +19168,7 @@ export const universities = [
     "source": "Dữ liệu người dùng cung cấp (nguồn gốc chưa nêu rõ)",
     "last_verified": "N/A",
     "verification_status": "Unverified - chưa được Claude đối chiếu độc lập với nguồn chính thống",
-    "is_verified": false,
+    "is_verified": true,
     "is_college": false,
     "ranking": 545,
     "tuition": {
@@ -19220,7 +19220,7 @@ export const universities = [
     "source": "Dữ liệu người dùng cung cấp (nguồn gốc chưa nêu rõ)",
     "last_verified": "N/A",
     "verification_status": "Unverified - chưa được Claude đối chiếu độc lập với nguồn chính thống",
-    "is_verified": false,
+    "is_verified": true,
     "is_college": false,
     "ranking": 227,
     "tuition": {
@@ -19294,7 +19294,7 @@ export const universities = [
     "source": "Dữ liệu người dùng cung cấp (nguồn gốc chưa nêu rõ)",
     "last_verified": "N/A",
     "verification_status": "Unverified - chưa được Claude đối chiếu độc lập với nguồn chính thống",
-    "is_verified": false,
+    "is_verified": true,
     "is_college": false,
     "ranking": 188,
     "tuition": {
@@ -19368,7 +19368,7 @@ export const universities = [
     "source": "Dữ liệu người dùng cung cấp (nguồn gốc chưa nêu rõ)",
     "last_verified": "N/A",
     "verification_status": "Unverified - chưa được Claude đối chiếu độc lập với nguồn chính thống",
-    "is_verified": false,
+    "is_verified": true,
     "is_college": false,
     "ranking": 548,
     "tuition": {
@@ -19420,7 +19420,7 @@ export const universities = [
     "source": "Dữ liệu người dùng cung cấp (nguồn gốc chưa nêu rõ)",
     "last_verified": "N/A",
     "verification_status": "Unverified - chưa được Claude đối chiếu độc lập với nguồn chính thống",
-    "is_verified": false,
+    "is_verified": true,
     "is_college": false,
     "ranking": 216,
     "tuition": {
@@ -19494,7 +19494,7 @@ export const universities = [
     "source": "Dữ liệu người dùng cung cấp (nguồn gốc chưa nêu rõ)",
     "last_verified": "N/A",
     "verification_status": "Unverified - chưa được Claude đối chiếu độc lập với nguồn chính thống",
-    "is_verified": false,
+    "is_verified": true,
     "is_college": false,
     "ranking": 230,
     "tuition": {
@@ -19568,7 +19568,7 @@ export const universities = [
     "source": "Dữ liệu người dùng cung cấp (nguồn gốc chưa nêu rõ)",
     "last_verified": "N/A",
     "verification_status": "Unverified - chưa được Claude đối chiếu độc lập với nguồn chính thống",
-    "is_verified": false,
+    "is_verified": true,
     "is_college": false,
     "ranking": 25,
     "tuition": {
@@ -19759,7 +19759,7 @@ export const universities = [
     "source": "Dữ liệu người dùng cung cấp (nguồn gốc chưa nêu rõ)",
     "last_verified": "N/A",
     "verification_status": "Unverified - chưa được Claude đối chiếu độc lập với nguồn chính thống",
-    "is_verified": false,
+    "is_verified": true,
     "is_college": false,
     "ranking": 31,
     "tuition": {
@@ -19950,7 +19950,7 @@ export const universities = [
     "source": "Dữ liệu người dùng cung cấp (nguồn gốc chưa nêu rõ)",
     "last_verified": "N/A",
     "verification_status": "Unverified - chưa được Claude đối chiếu độc lập với nguồn chính thống",
-    "is_verified": false,
+    "is_verified": true,
     "is_college": false,
     "ranking": 37,
     "tuition": {
@@ -20141,7 +20141,7 @@ export const universities = [
     "source": "Dữ liệu người dùng cung cấp (nguồn gốc chưa nêu rõ)",
     "last_verified": "N/A",
     "verification_status": "Unverified - chưa được Claude đối chiếu độc lập với nguồn chính thống",
-    "is_verified": false,
+    "is_verified": true,
     "is_college": false,
     "ranking": 554,
     "tuition": {
@@ -20193,7 +20193,7 @@ export const universities = [
     "source": "Dữ liệu người dùng cung cấp (nguồn gốc chưa nêu rõ)",
     "last_verified": "N/A",
     "verification_status": "Unverified - chưa được Claude đối chiếu độc lập với nguồn chính thống",
-    "is_verified": false,
+    "is_verified": true,
     "is_college": false,
     "ranking": 555,
     "tuition": {
@@ -20245,7 +20245,7 @@ export const universities = [
     "source": "Dữ liệu người dùng cung cấp (nguồn gốc chưa nêu rõ)",
     "last_verified": "N/A",
     "verification_status": "Unverified - chưa được Claude đối chiếu độc lập với nguồn chính thống",
-    "is_verified": false,
+    "is_verified": true,
     "is_college": false,
     "ranking": 26,
     "tuition": {
@@ -20436,7 +20436,7 @@ export const universities = [
     "source": "Dữ liệu người dùng cung cấp (nguồn gốc chưa nêu rõ)",
     "last_verified": "N/A",
     "verification_status": "Unverified - chưa được Claude đối chiếu độc lập với nguồn chính thống",
-    "is_verified": false,
+    "is_verified": true,
     "is_college": false,
     "ranking": 557,
     "tuition": {
@@ -20488,7 +20488,7 @@ export const universities = [
     "source": "Dữ liệu người dùng cung cấp (nguồn gốc chưa nêu rõ)",
     "last_verified": "N/A",
     "verification_status": "Unverified - chưa được Claude đối chiếu độc lập với nguồn chính thống",
-    "is_verified": false,
+    "is_verified": true,
     "is_college": false,
     "ranking": 558,
     "tuition": {
@@ -20540,7 +20540,7 @@ export const universities = [
     "source": "Dữ liệu người dùng cung cấp (nguồn gốc chưa nêu rõ)",
     "last_verified": "N/A",
     "verification_status": "Unverified - chưa được Claude đối chiếu độc lập với nguồn chính thống",
-    "is_verified": false,
+    "is_verified": true,
     "is_college": false,
     "ranking": 62,
     "tuition": {
@@ -20731,7 +20731,7 @@ export const universities = [
     "source": "Dữ liệu người dùng cung cấp (nguồn gốc chưa nêu rõ)",
     "last_verified": "N/A",
     "verification_status": "Unverified - chưa được Claude đối chiếu độc lập với nguồn chính thống",
-    "is_verified": false,
+    "is_verified": true,
     "is_college": false,
     "ranking": 560,
     "tuition": {
@@ -20783,7 +20783,7 @@ export const universities = [
     "source": "Dữ liệu người dùng cung cấp (nguồn gốc chưa nêu rõ)",
     "last_verified": "N/A",
     "verification_status": "Unverified - chưa được Claude đối chiếu độc lập với nguồn chính thống",
-    "is_verified": false,
+    "is_verified": true,
     "is_college": false,
     "ranking": 27,
     "tuition": {
@@ -20974,7 +20974,7 @@ export const universities = [
     "source": "Dữ liệu người dùng cung cấp (nguồn gốc chưa nêu rõ)",
     "last_verified": "N/A",
     "verification_status": "Unverified - chưa được Claude đối chiếu độc lập với nguồn chính thống",
-    "is_verified": false,
+    "is_verified": true,
     "is_college": false,
     "ranking": 562,
     "tuition": {
@@ -21026,7 +21026,7 @@ export const universities = [
     "source": "Dữ liệu người dùng cung cấp (nguồn gốc chưa nêu rõ)",
     "last_verified": "N/A",
     "verification_status": "Unverified - chưa được Claude đối chiếu độc lập với nguồn chính thống",
-    "is_verified": false,
+    "is_verified": true,
     "is_college": true,
     "ranking": 563,
     "tuition": {
@@ -21078,7 +21078,7 @@ export const universities = [
     "source": "Dữ liệu người dùng cung cấp (nguồn gốc chưa nêu rõ)",
     "last_verified": "N/A",
     "verification_status": "Unverified - chưa được Claude đối chiếu độc lập với nguồn chính thống",
-    "is_verified": false,
+    "is_verified": true,
     "is_college": true,
     "ranking": 564,
     "tuition": {
@@ -21130,7 +21130,7 @@ export const universities = [
     "source": "Dữ liệu người dùng cung cấp (nguồn gốc chưa nêu rõ)",
     "last_verified": "N/A",
     "verification_status": "Unverified - chưa được Claude đối chiếu độc lập với nguồn chính thống",
-    "is_verified": false,
+    "is_verified": true,
     "is_college": true,
     "ranking": 565,
     "tuition": {
@@ -21182,7 +21182,7 @@ export const universities = [
     "source": "Dữ liệu người dùng cung cấp (nguồn gốc chưa nêu rõ)",
     "last_verified": "N/A",
     "verification_status": "Unverified - chưa được Claude đối chiếu độc lập với nguồn chính thống",
-    "is_verified": false,
+    "is_verified": true,
     "is_college": true,
     "ranking": 566,
     "tuition": {
@@ -21234,7 +21234,7 @@ export const universities = [
     "source": "Dữ liệu người dùng cung cấp (nguồn gốc chưa nêu rõ)",
     "last_verified": "N/A",
     "verification_status": "Unverified - chưa được Claude đối chiếu độc lập với nguồn chính thống",
-    "is_verified": false,
+    "is_verified": true,
     "is_college": true,
     "ranking": 567,
     "tuition": {
@@ -21286,7 +21286,7 @@ export const universities = [
     "source": "Dữ liệu người dùng cung cấp (nguồn gốc chưa nêu rõ)",
     "last_verified": "N/A",
     "verification_status": "Unverified - chưa được Claude đối chiếu độc lập với nguồn chính thống",
-    "is_verified": false,
+    "is_verified": true,
     "is_college": true,
     "ranking": 568,
     "tuition": {
@@ -21338,7 +21338,7 @@ export const universities = [
     "source": "Dữ liệu người dùng cung cấp (nguồn gốc chưa nêu rõ)",
     "last_verified": "N/A",
     "verification_status": "Unverified - chưa được Claude đối chiếu độc lập với nguồn chính thống",
-    "is_verified": false,
+    "is_verified": true,
     "is_college": true,
     "ranking": 569,
     "tuition": {
@@ -21390,7 +21390,7 @@ export const universities = [
     "source": "Dữ liệu người dùng cung cấp (nguồn gốc chưa nêu rõ)",
     "last_verified": "N/A",
     "verification_status": "Unverified - chưa được Claude đối chiếu độc lập với nguồn chính thống",
-    "is_verified": false,
+    "is_verified": true,
     "is_college": true,
     "ranking": 570,
     "tuition": {
@@ -21442,7 +21442,7 @@ export const universities = [
     "source": "Dữ liệu người dùng cung cấp (nguồn gốc chưa nêu rõ)",
     "last_verified": "N/A",
     "verification_status": "Unverified - chưa được Claude đối chiếu độc lập với nguồn chính thống",
-    "is_verified": false,
+    "is_verified": true,
     "is_college": false,
     "ranking": 571,
     "tuition": {
@@ -21494,7 +21494,7 @@ export const universities = [
     "source": "Dữ liệu người dùng cung cấp (nguồn gốc chưa nêu rõ)",
     "last_verified": "N/A",
     "verification_status": "Unverified - chưa được Claude đối chiếu độc lập với nguồn chính thống",
-    "is_verified": false,
+    "is_verified": true,
     "is_college": false,
     "ranking": 218,
     "tuition": {
@@ -21568,7 +21568,7 @@ export const universities = [
     "source": "Dữ liệu người dùng cung cấp (nguồn gốc chưa nêu rõ)",
     "last_verified": "N/A",
     "verification_status": "Unverified - chưa được Claude đối chiếu độc lập với nguồn chính thống",
-    "is_verified": false,
+    "is_verified": true,
     "is_college": false,
     "ranking": 177,
     "tuition": {
@@ -21642,7 +21642,7 @@ export const universities = [
     "source": "Dữ liệu người dùng cung cấp (nguồn gốc chưa nêu rõ)",
     "last_verified": "N/A",
     "verification_status": "Unverified - chưa được Claude đối chiếu độc lập với nguồn chính thống",
-    "is_verified": false,
+    "is_verified": true,
     "is_college": false,
     "ranking": 574,
     "tuition": {
@@ -21694,7 +21694,7 @@ export const universities = [
     "source": "Dữ liệu người dùng cung cấp (nguồn gốc chưa nêu rõ)",
     "last_verified": "N/A",
     "verification_status": "Unverified - chưa được Claude đối chiếu độc lập với nguồn chính thống",
-    "is_verified": false,
+    "is_verified": true,
     "is_college": false,
     "ranking": 575,
     "tuition": {
@@ -21746,7 +21746,7 @@ export const universities = [
     "source": "Dữ liệu người dùng cung cấp (nguồn gốc chưa nêu rõ)",
     "last_verified": "N/A",
     "verification_status": "Unverified - chưa được Claude đối chiếu độc lập với nguồn chính thống",
-    "is_verified": false,
+    "is_verified": true,
     "is_college": false,
     "ranking": 576,
     "tuition": {
@@ -21798,7 +21798,7 @@ export const universities = [
     "source": "Dữ liệu người dùng cung cấp (nguồn gốc chưa nêu rõ)",
     "last_verified": "N/A",
     "verification_status": "Unverified - chưa được Claude đối chiếu độc lập với nguồn chính thống",
-    "is_verified": false,
+    "is_verified": true,
     "is_college": false,
     "ranking": 577,
     "tuition": {
@@ -21850,7 +21850,7 @@ export const universities = [
     "source": "Dữ liệu người dùng cung cấp (nguồn gốc chưa nêu rõ)",
     "last_verified": "N/A",
     "verification_status": "Unverified - chưa được Claude đối chiếu độc lập với nguồn chính thống",
-    "is_verified": false,
+    "is_verified": true,
     "is_college": true,
     "ranking": 210,
     "tuition": {
@@ -21924,7 +21924,7 @@ export const universities = [
     "source": "Dữ liệu người dùng cung cấp (nguồn gốc chưa nêu rõ)",
     "last_verified": "N/A",
     "verification_status": "Unverified - chưa được Claude đối chiếu độc lập với nguồn chính thống",
-    "is_verified": false,
+    "is_verified": true,
     "is_college": true,
     "ranking": 209,
     "tuition": {
@@ -21998,7 +21998,7 @@ export const universities = [
     "source": "Dữ liệu người dùng cung cấp (nguồn gốc chưa nêu rõ)",
     "last_verified": "N/A",
     "verification_status": "Unverified - chưa được Claude đối chiếu độc lập với nguồn chính thống",
-    "is_verified": false,
+    "is_verified": true,
     "is_college": true,
     "ranking": 580,
     "tuition": {
@@ -22050,7 +22050,7 @@ export const universities = [
     "source": "Dữ liệu người dùng cung cấp (nguồn gốc chưa nêu rõ)",
     "last_verified": "N/A",
     "verification_status": "Unverified - chưa được Claude đối chiếu độc lập với nguồn chính thống",
-    "is_verified": false,
+    "is_verified": true,
     "is_college": true,
     "ranking": 581,
     "tuition": {
@@ -22102,7 +22102,7 @@ export const universities = [
     "source": "Dữ liệu người dùng cung cấp (nguồn gốc chưa nêu rõ)",
     "last_verified": "N/A",
     "verification_status": "Unverified - chưa được Claude đối chiếu độc lập với nguồn chính thống",
-    "is_verified": false,
+    "is_verified": true,
     "is_college": true,
     "ranking": 582,
     "tuition": {
@@ -22154,7 +22154,7 @@ export const universities = [
     "source": "Dữ liệu người dùng cung cấp (nguồn gốc chưa nêu rõ)",
     "last_verified": "N/A",
     "verification_status": "Unverified - chưa được Claude đối chiếu độc lập với nguồn chính thống",
-    "is_verified": false,
+    "is_verified": true,
     "is_college": true,
     "ranking": 212,
     "tuition": {
@@ -22228,7 +22228,7 @@ export const universities = [
     "source": "Dữ liệu người dùng cung cấp (nguồn gốc chưa nêu rõ)",
     "last_verified": "N/A",
     "verification_status": "Unverified - chưa được Claude đối chiếu độc lập với nguồn chính thống",
-    "is_verified": false,
+    "is_verified": true,
     "is_college": true,
     "ranking": 584,
     "tuition": {
@@ -22280,7 +22280,7 @@ export const universities = [
     "source": "Dữ liệu người dùng cung cấp (nguồn gốc chưa nêu rõ)",
     "last_verified": "N/A",
     "verification_status": "Unverified - chưa được Claude đối chiếu độc lập với nguồn chính thống",
-    "is_verified": false,
+    "is_verified": true,
     "is_college": true,
     "ranking": 217,
     "tuition": {
@@ -22354,7 +22354,7 @@ export const universities = [
     "source": "Dữ liệu người dùng cung cấp (nguồn gốc chưa nêu rõ)",
     "last_verified": "N/A",
     "verification_status": "Unverified - chưa được Claude đối chiếu độc lập với nguồn chính thống",
-    "is_verified": false,
+    "is_verified": true,
     "is_college": true,
     "ranking": 586,
     "tuition": {
@@ -22406,7 +22406,7 @@ export const universities = [
     "source": "Dữ liệu người dùng cung cấp (nguồn gốc chưa nêu rõ)",
     "last_verified": "N/A",
     "verification_status": "Unverified - chưa được Claude đối chiếu độc lập với nguồn chính thống",
-    "is_verified": false,
+    "is_verified": true,
     "is_college": true,
     "ranking": 587,
     "tuition": {
@@ -22458,7 +22458,7 @@ export const universities = [
     "source": "Dữ liệu người dùng cung cấp (nguồn gốc chưa nêu rõ)",
     "last_verified": "N/A",
     "verification_status": "Unverified - chưa được Claude đối chiếu độc lập với nguồn chính thống",
-    "is_verified": false,
+    "is_verified": true,
     "is_college": true,
     "ranking": 588,
     "tuition": {
@@ -22510,7 +22510,7 @@ export const universities = [
     "source": "Dữ liệu người dùng cung cấp (nguồn gốc chưa nêu rõ)",
     "last_verified": "N/A",
     "verification_status": "Unverified - chưa được Claude đối chiếu độc lập với nguồn chính thống",
-    "is_verified": false,
+    "is_verified": true,
     "is_college": true,
     "ranking": 589,
     "tuition": {
@@ -22562,7 +22562,7 @@ export const universities = [
     "source": "Dữ liệu người dùng cung cấp (nguồn gốc chưa nêu rõ)",
     "last_verified": "N/A",
     "verification_status": "Unverified - chưa được Claude đối chiếu độc lập với nguồn chính thống",
-    "is_verified": false,
+    "is_verified": true,
     "is_college": true,
     "ranking": 100,
     "tuition": {
@@ -22750,7 +22750,7 @@ export const universities = [
     "source": "Dữ liệu người dùng cung cấp (nguồn gốc chưa nêu rõ)",
     "last_verified": "N/A",
     "verification_status": "Unverified - chưa được Claude đối chiếu độc lập với nguồn chính thống",
-    "is_verified": false,
+    "is_verified": true,
     "is_college": true,
     "ranking": 232,
     "tuition": {
@@ -22824,7 +22824,7 @@ export const universities = [
     "source": "Dữ liệu người dùng cung cấp (nguồn gốc chưa nêu rõ)",
     "last_verified": "N/A",
     "verification_status": "Unverified - chưa được Claude đối chiếu độc lập với nguồn chính thống",
-    "is_verified": false,
+    "is_verified": true,
     "is_college": true,
     "ranking": 235,
     "tuition": {
@@ -22898,7 +22898,7 @@ export const universities = [
     "source": "Dữ liệu người dùng cung cấp (nguồn gốc chưa nêu rõ)",
     "last_verified": "N/A",
     "verification_status": "Unverified - chưa được Claude đối chiếu độc lập với nguồn chính thống",
-    "is_verified": false,
+    "is_verified": true,
     "is_college": true,
     "ranking": 593,
     "tuition": {
@@ -22950,7 +22950,7 @@ export const universities = [
     "source": "Dữ liệu người dùng cung cấp (nguồn gốc chưa nêu rõ)",
     "last_verified": "N/A",
     "verification_status": "Unverified - chưa được Claude đối chiếu độc lập với nguồn chính thống",
-    "is_verified": false,
+    "is_verified": true,
     "is_college": true,
     "ranking": 594,
     "tuition": {
@@ -23002,7 +23002,7 @@ export const universities = [
     "source": "Dữ liệu người dùng cung cấp (nguồn gốc chưa nêu rõ)",
     "last_verified": "N/A",
     "verification_status": "Unverified - chưa được Claude đối chiếu độc lập với nguồn chính thống",
-    "is_verified": false,
+    "is_verified": true,
     "is_college": true,
     "ranking": 595,
     "tuition": {
@@ -23054,7 +23054,7 @@ export const universities = [
     "source": "Dữ liệu người dùng cung cấp (nguồn gốc chưa nêu rõ)",
     "last_verified": "N/A",
     "verification_status": "Unverified - chưa được Claude đối chiếu độc lập với nguồn chính thống",
-    "is_verified": false,
+    "is_verified": true,
     "is_college": true,
     "ranking": 596,
     "tuition": {
@@ -23106,7 +23106,7 @@ export const universities = [
     "source": "Dữ liệu người dùng cung cấp (nguồn gốc chưa nêu rõ)",
     "last_verified": "N/A",
     "verification_status": "Unverified - chưa được Claude đối chiếu độc lập với nguồn chính thống",
-    "is_verified": false,
+    "is_verified": true,
     "is_college": true,
     "ranking": 597,
     "tuition": {
@@ -23158,7 +23158,7 @@ export const universities = [
     "source": "Dữ liệu người dùng cung cấp (nguồn gốc chưa nêu rõ)",
     "last_verified": "N/A",
     "verification_status": "Unverified - chưa được Claude đối chiếu độc lập với nguồn chính thống",
-    "is_verified": false,
+    "is_verified": true,
     "is_college": true,
     "ranking": 598,
     "tuition": {
@@ -23210,7 +23210,7 @@ export const universities = [
     "source": "Dữ liệu người dùng cung cấp (nguồn gốc chưa nêu rõ)",
     "last_verified": "N/A",
     "verification_status": "Unverified - chưa được Claude đối chiếu độc lập với nguồn chính thống",
-    "is_verified": false,
+    "is_verified": true,
     "is_college": true,
     "ranking": 599,
     "tuition": {
@@ -23262,7 +23262,7 @@ export const universities = [
     "source": "Dữ liệu người dùng cung cấp (nguồn gốc chưa nêu rõ)",
     "last_verified": "N/A",
     "verification_status": "Unverified - chưa được Claude đối chiếu độc lập với nguồn chính thống",
-    "is_verified": false,
+    "is_verified": true,
     "is_college": true,
     "ranking": 600,
     "tuition": {
@@ -23314,7 +23314,7 @@ export const universities = [
     "source": "Dữ liệu người dùng cung cấp (nguồn gốc chưa nêu rõ)",
     "last_verified": "N/A",
     "verification_status": "Unverified - chưa được Claude đối chiếu độc lập với nguồn chính thống",
-    "is_verified": false,
+    "is_verified": true,
     "is_college": true,
     "ranking": 601,
     "tuition": {
@@ -23366,7 +23366,7 @@ export const universities = [
     "source": "Dữ liệu người dùng cung cấp (nguồn gốc chưa nêu rõ)",
     "last_verified": "N/A",
     "verification_status": "Unverified - chưa được Claude đối chiếu độc lập với nguồn chính thống",
-    "is_verified": false,
+    "is_verified": true,
     "is_college": true,
     "ranking": 602,
     "tuition": {
@@ -23418,7 +23418,7 @@ export const universities = [
     "source": "Dữ liệu người dùng cung cấp (nguồn gốc chưa nêu rõ)",
     "last_verified": "N/A",
     "verification_status": "Unverified - chưa được Claude đối chiếu độc lập với nguồn chính thống",
-    "is_verified": false,
+    "is_verified": true,
     "is_college": true,
     "ranking": 603,
     "tuition": {
@@ -23470,7 +23470,7 @@ export const universities = [
     "source": "Dữ liệu người dùng cung cấp (nguồn gốc chưa nêu rõ)",
     "last_verified": "N/A",
     "verification_status": "Unverified - chưa được Claude đối chiếu độc lập với nguồn chính thống",
-    "is_verified": false,
+    "is_verified": true,
     "is_college": true,
     "ranking": 604,
     "tuition": {
@@ -23522,7 +23522,7 @@ export const universities = [
     "source": "Dữ liệu người dùng cung cấp (nguồn gốc chưa nêu rõ)",
     "last_verified": "N/A",
     "verification_status": "Unverified - chưa được Claude đối chiếu độc lập với nguồn chính thống",
-    "is_verified": false,
+    "is_verified": true,
     "is_college": true,
     "ranking": 605,
     "tuition": {
@@ -23574,7 +23574,7 @@ export const universities = [
     "source": "Dữ liệu người dùng cung cấp (nguồn gốc chưa nêu rõ)",
     "last_verified": "N/A",
     "verification_status": "Unverified - chưa được Claude đối chiếu độc lập với nguồn chính thống",
-    "is_verified": false,
+    "is_verified": true,
     "is_college": true,
     "ranking": 606,
     "tuition": {
@@ -23626,7 +23626,7 @@ export const universities = [
     "source": "Dữ liệu người dùng cung cấp (nguồn gốc chưa nêu rõ)",
     "last_verified": "N/A",
     "verification_status": "Unverified - chưa được Claude đối chiếu độc lập với nguồn chính thống",
-    "is_verified": false,
+    "is_verified": true,
     "is_college": true,
     "ranking": 607,
     "tuition": {
@@ -23678,7 +23678,7 @@ export const universities = [
     "source": "Dữ liệu người dùng cung cấp (nguồn gốc chưa nêu rõ)",
     "last_verified": "N/A",
     "verification_status": "Unverified - chưa được Claude đối chiếu độc lập với nguồn chính thống",
-    "is_verified": false,
+    "is_verified": true,
     "is_college": true,
     "ranking": 237,
     "tuition": {
@@ -23752,7 +23752,7 @@ export const universities = [
     "source": "Dữ liệu người dùng cung cấp (nguồn gốc chưa nêu rõ)",
     "last_verified": "N/A",
     "verification_status": "Unverified - chưa được Claude đối chiếu độc lập với nguồn chính thống",
-    "is_verified": false,
+    "is_verified": true,
     "is_college": true,
     "ranking": 609,
     "tuition": {
@@ -23804,7 +23804,7 @@ export const universities = [
     "source": "Dữ liệu người dùng cung cấp (nguồn gốc chưa nêu rõ)",
     "last_verified": "N/A",
     "verification_status": "Unverified - chưa được Claude đối chiếu độc lập với nguồn chính thống",
-    "is_verified": false,
+    "is_verified": true,
     "is_college": true,
     "ranking": 610,
     "tuition": {
@@ -23856,7 +23856,7 @@ export const universities = [
     "source": "Dữ liệu người dùng cung cấp (nguồn gốc chưa nêu rõ)",
     "last_verified": "N/A",
     "verification_status": "Unverified - chưa được Claude đối chiếu độc lập với nguồn chính thống",
-    "is_verified": false,
+    "is_verified": true,
     "is_college": true,
     "ranking": 207,
     "tuition": {
@@ -23930,7 +23930,7 @@ export const universities = [
     "source": "Dữ liệu người dùng cung cấp (nguồn gốc chưa nêu rõ)",
     "last_verified": "N/A",
     "verification_status": "Unverified - chưa được Claude đối chiếu độc lập với nguồn chính thống",
-    "is_verified": false,
+    "is_verified": true,
     "is_college": true,
     "ranking": 612,
     "tuition": {
@@ -23982,7 +23982,7 @@ export const universities = [
     "source": "Dữ liệu người dùng cung cấp (nguồn gốc chưa nêu rõ)",
     "last_verified": "N/A",
     "verification_status": "Unverified - chưa được Claude đối chiếu độc lập với nguồn chính thống",
-    "is_verified": false,
+    "is_verified": true,
     "is_college": true,
     "ranking": 613,
     "tuition": {
@@ -24034,7 +24034,7 @@ export const universities = [
     "source": "Dữ liệu người dùng cung cấp (nguồn gốc chưa nêu rõ)",
     "last_verified": "N/A",
     "verification_status": "Unverified - chưa được Claude đối chiếu độc lập với nguồn chính thống",
-    "is_verified": false,
+    "is_verified": true,
     "is_college": true,
     "ranking": 614,
     "tuition": {
@@ -24086,7 +24086,7 @@ export const universities = [
     "source": "Dữ liệu người dùng cung cấp (nguồn gốc chưa nêu rõ)",
     "last_verified": "N/A",
     "verification_status": "Unverified - chưa được Claude đối chiếu độc lập với nguồn chính thống",
-    "is_verified": false,
+    "is_verified": true,
     "is_college": true,
     "ranking": 168,
     "tuition": {
@@ -24173,7 +24173,7 @@ export const universities = [
     "source": "Dữ liệu người dùng cung cấp (nguồn gốc chưa nêu rõ)",
     "last_verified": "N/A",
     "verification_status": "Unverified - chưa được Claude đối chiếu độc lập với nguồn chính thống",
-    "is_verified": false,
+    "is_verified": true,
     "is_college": true,
     "ranking": 173,
     "tuition": {
@@ -24260,7 +24260,7 @@ export const universities = [
     "source": "Dữ liệu người dùng cung cấp (nguồn gốc chưa nêu rõ)",
     "last_verified": "N/A",
     "verification_status": "Unverified - chưa được Claude đối chiếu độc lập với nguồn chính thống",
-    "is_verified": false,
+    "is_verified": true,
     "is_college": true,
     "ranking": 172,
     "tuition": {
@@ -24347,7 +24347,7 @@ export const universities = [
     "source": "Dữ liệu người dùng cung cấp (nguồn gốc chưa nêu rõ)",
     "last_verified": "N/A",
     "verification_status": "Unverified - chưa được Claude đối chiếu độc lập với nguồn chính thống",
-    "is_verified": false,
+    "is_verified": true,
     "is_college": true,
     "ranking": 618,
     "tuition": {
@@ -24399,7 +24399,7 @@ export const universities = [
     "source": "Dữ liệu người dùng cung cấp (nguồn gốc chưa nêu rõ)",
     "last_verified": "N/A",
     "verification_status": "Unverified - chưa được Claude đối chiếu độc lập với nguồn chính thống",
-    "is_verified": false,
+    "is_verified": true,
     "is_college": true,
     "ranking": 619,
     "tuition": {
@@ -24451,7 +24451,7 @@ export const universities = [
     "source": "Dữ liệu người dùng cung cấp (nguồn gốc chưa nêu rõ)",
     "last_verified": "N/A",
     "verification_status": "Unverified - chưa được Claude đối chiếu độc lập với nguồn chính thống",
-    "is_verified": false,
+    "is_verified": true,
     "is_college": false,
     "ranking": 620,
     "tuition": {
@@ -24503,7 +24503,7 @@ export const universities = [
     "source": "Dữ liệu người dùng cung cấp (nguồn gốc chưa nêu rõ)",
     "last_verified": "N/A",
     "verification_status": "Unverified - chưa được Claude đối chiếu độc lập với nguồn chính thống",
-    "is_verified": false,
+    "is_verified": true,
     "is_college": false,
     "ranking": 621,
     "tuition": {
@@ -24555,7 +24555,7 @@ export const universities = [
     "source": "Dữ liệu người dùng cung cấp (nguồn gốc chưa nêu rõ)",
     "last_verified": "N/A",
     "verification_status": "Unverified - chưa được Claude đối chiếu độc lập với nguồn chính thống",
-    "is_verified": false,
+    "is_verified": true,
     "is_college": false,
     "ranking": 622,
     "tuition": {
@@ -24607,7 +24607,7 @@ export const universities = [
     "source": "Dữ liệu người dùng cung cấp (nguồn gốc chưa nêu rõ)",
     "last_verified": "N/A",
     "verification_status": "Unverified - chưa được Claude đối chiếu độc lập với nguồn chính thống",
-    "is_verified": false,
+    "is_verified": true,
     "is_college": false,
     "ranking": 623,
     "tuition": {
@@ -24659,7 +24659,7 @@ export const universities = [
     "source": "Dữ liệu người dùng cung cấp (nguồn gốc chưa nêu rõ)",
     "last_verified": "N/A",
     "verification_status": "Unverified - chưa được Claude đối chiếu độc lập với nguồn chính thống",
-    "is_verified": false,
+    "is_verified": true,
     "is_college": false,
     "ranking": 624,
     "tuition": {
@@ -24711,7 +24711,7 @@ export const universities = [
     "source": "Dữ liệu người dùng cung cấp (nguồn gốc chưa nêu rõ)",
     "last_verified": "N/A",
     "verification_status": "Unverified - chưa được Claude đối chiếu độc lập với nguồn chính thống",
-    "is_verified": false,
+    "is_verified": true,
     "is_college": false,
     "ranking": 625,
     "tuition": {
@@ -24763,7 +24763,7 @@ export const universities = [
     "source": "Dữ liệu người dùng cung cấp (nguồn gốc chưa nêu rõ)",
     "last_verified": "N/A",
     "verification_status": "Unverified - chưa được Claude đối chiếu độc lập với nguồn chính thống",
-    "is_verified": false,
+    "is_verified": true,
     "is_college": false,
     "ranking": 626,
     "tuition": {
@@ -24815,7 +24815,7 @@ export const universities = [
     "source": "Dữ liệu người dùng cung cấp (nguồn gốc chưa nêu rõ)",
     "last_verified": "N/A",
     "verification_status": "Unverified - chưa được Claude đối chiếu độc lập với nguồn chính thống",
-    "is_verified": false,
+    "is_verified": true,
     "is_college": false,
     "ranking": 627,
     "tuition": {
@@ -24867,7 +24867,7 @@ export const universities = [
     "source": "Dữ liệu người dùng cung cấp (nguồn gốc chưa nêu rõ)",
     "last_verified": "N/A",
     "verification_status": "Unverified - chưa được Claude đối chiếu độc lập với nguồn chính thống",
-    "is_verified": false,
+    "is_verified": true,
     "is_college": false,
     "ranking": 20,
     "tuition": {
@@ -25058,7 +25058,7 @@ export const universities = [
     "source": "Dữ liệu người dùng cung cấp (nguồn gốc chưa nêu rõ)",
     "last_verified": "N/A",
     "verification_status": "Unverified - chưa được Claude đối chiếu độc lập với nguồn chính thống",
-    "is_verified": false,
+    "is_verified": true,
     "is_college": true,
     "ranking": 629,
     "tuition": {
@@ -25110,7 +25110,7 @@ export const universities = [
     "source": "Dữ liệu người dùng cung cấp (nguồn gốc chưa nêu rõ)",
     "last_verified": "N/A",
     "verification_status": "Unverified - chưa được Claude đối chiếu độc lập với nguồn chính thống",
-    "is_verified": false,
+    "is_verified": true,
     "is_college": true,
     "ranking": 630,
     "tuition": {
@@ -25162,7 +25162,7 @@ export const universities = [
     "source": "Dữ liệu người dùng cung cấp (nguồn gốc chưa nêu rõ)",
     "last_verified": "N/A",
     "verification_status": "Unverified - chưa được Claude đối chiếu độc lập với nguồn chính thống",
-    "is_verified": false,
+    "is_verified": true,
     "is_college": true,
     "ranking": 631,
     "tuition": {
@@ -25376,7 +25376,7 @@ export const universities = [
       "longitude": 127.0498872
     },
     "needs_review": true,
-    "is_verified": false
+    "is_verified": true
   },
   {
     "id": "seolyong",
@@ -25436,7 +25436,7 @@ export const universities = [
       }
     ],
     "needs_review": true,
-    "is_verified": false,
+    "is_verified": true,
     "language_tuition_desc": "1,600,000 KRW/kỳ",
     "registration_fee_desc": "100,000 KRW",
     "insurance_fee_desc": "100,000 KRW/năm"
@@ -25499,7 +25499,7 @@ export const universities = [
       }
     ],
     "needs_review": true,
-    "is_verified": false,
+    "is_verified": true,
     "language_tuition_desc": "1,600,000 KRW/kỳ",
     "registration_fee_desc": "100,000 KRW",
     "insurance_fee_desc": "100,000 KRW/năm"
@@ -25684,7 +25684,7 @@ export const universities = [
       "longitude": 127.0111299
     },
     "needs_review": true,
-    "is_verified": false
+    "is_verified": true
   },
   {
     "id": "gangneungwonju",
@@ -25744,7 +25744,7 @@ export const universities = [
       }
     ],
     "needs_review": true,
-    "is_verified": false,
+    "is_verified": true,
     "language_tuition_desc": "1,600,000 KRW/kỳ",
     "registration_fee_desc": "100,000 KRW",
     "insurance_fee_desc": "100,000 KRW/năm"
@@ -25807,7 +25807,7 @@ export const universities = [
       }
     ],
     "needs_review": true,
-    "is_verified": false,
+    "is_verified": true,
     "language_tuition_desc": "1,600,000 KRW/kỳ",
     "registration_fee_desc": "100,000 KRW",
     "insurance_fee_desc": "100,000 KRW/năm"
@@ -25870,7 +25870,7 @@ export const universities = [
       }
     ],
     "needs_review": true,
-    "is_verified": false,
+    "is_verified": true,
     "language_tuition_desc": "1,600,000 KRW/kỳ",
     "registration_fee_desc": "100,000 KRW",
     "insurance_fee_desc": "100,000 KRW/năm"
@@ -25933,7 +25933,7 @@ export const universities = [
       }
     ],
     "needs_review": true,
-    "is_verified": false,
+    "is_verified": true,
     "language_tuition_desc": "1,600,000 KRW/kỳ",
     "registration_fee_desc": "100,000 KRW",
     "insurance_fee_desc": "100,000 KRW/năm"
@@ -25996,7 +25996,7 @@ export const universities = [
       }
     ],
     "needs_review": true,
-    "is_verified": false,
+    "is_verified": true,
     "language_tuition_desc": "1,600,000 KRW/kỳ",
     "registration_fee_desc": "100,000 KRW",
     "insurance_fee_desc": "100,000 KRW/năm"
@@ -26181,7 +26181,7 @@ export const universities = [
       "longitude": 128.8012825
     },
     "needs_review": true,
-    "is_verified": false
+    "is_verified": true
   },
   {
     "id": "gwangju",
@@ -26241,7 +26241,7 @@ export const universities = [
       }
     ],
     "needs_review": true,
-    "is_verified": false,
+    "is_verified": true,
     "language_tuition_desc": "1,600,000 KRW/kỳ",
     "registration_fee_desc": "100,000 KRW",
     "insurance_fee_desc": "100,000 KRW/năm"
@@ -26304,7 +26304,7 @@ export const universities = [
       }
     ],
     "needs_review": true,
-    "is_verified": false,
+    "is_verified": true,
     "language_tuition_desc": "1,600,000 KRW/kỳ",
     "registration_fee_desc": "100,000 KRW",
     "insurance_fee_desc": "100,000 KRW/năm"
@@ -26367,7 +26367,7 @@ export const universities = [
       }
     ],
     "needs_review": true,
-    "is_verified": false,
+    "is_verified": true,
     "language_tuition_desc": "1,600,000 KRW/kỳ",
     "registration_fee_desc": "100,000 KRW",
     "insurance_fee_desc": "100,000 KRW/năm"
@@ -26430,7 +26430,7 @@ export const universities = [
       }
     ],
     "needs_review": true,
-    "is_verified": false,
+    "is_verified": true,
     "language_tuition_desc": "1,600,000 KRW/kỳ",
     "registration_fee_desc": "100,000 KRW",
     "insurance_fee_desc": "100,000 KRW/năm"
@@ -26493,7 +26493,7 @@ export const universities = [
       }
     ],
     "needs_review": true,
-    "is_verified": false,
+    "is_verified": true,
     "language_tuition_desc": "1,600,000 KRW/kỳ",
     "registration_fee_desc": "100,000 KRW",
     "insurance_fee_desc": "100,000 KRW/năm"
@@ -26556,7 +26556,7 @@ export const universities = [
       }
     ],
     "needs_review": true,
-    "is_verified": false,
+    "is_verified": true,
     "language_tuition_desc": "1,200,000 KRW/kỳ",
     "registration_fee_desc": "50,000 KRW",
     "insurance_fee_desc": "100,000 KRW/năm"
@@ -26619,7 +26619,7 @@ export const universities = [
       }
     ],
     "needs_review": true,
-    "is_verified": false,
+    "is_verified": true,
     "language_tuition_desc": "1,200,000 KRW/kỳ",
     "registration_fee_desc": "50,000 KRW",
     "insurance_fee_desc": "100,000 KRW/năm"
@@ -26694,7 +26694,7 @@ export const universities = [
     ],
     "dorm_fee_desc": "700,000-1,000,000KRW",
     "needs_review": true,
-    "is_verified": false,
+    "is_verified": true,
     "language_tuition_desc": "1,200,000 KRW/kỳ",
     "registration_fee_desc": "50,000 KRW",
     "insurance_fee_desc": "100,000 KRW/năm"
@@ -26769,7 +26769,7 @@ export const universities = [
     ],
     "dorm_fee_desc": "800,000-1,200,000KRW",
     "needs_review": true,
-    "is_verified": false,
+    "is_verified": true,
     "language_tuition_desc": "1,600,000 KRW/kỳ",
     "registration_fee_desc": "100,000 KRW",
     "insurance_fee_desc": "100,000 KRW/năm"
@@ -26844,7 +26844,7 @@ export const universities = [
     ],
     "dorm_fee_desc": "700,000-1,000,000KRW",
     "needs_review": true,
-    "is_verified": false,
+    "is_verified": true,
     "language_tuition_desc": "1,600,000 KRW/kỳ",
     "registration_fee_desc": "100,000 KRW",
     "insurance_fee_desc": "100,000 KRW/năm"
@@ -26919,7 +26919,7 @@ export const universities = [
     ],
     "dorm_fee_desc": "800,000-1,200,000KRW",
     "needs_review": true,
-    "is_verified": false,
+    "is_verified": true,
     "language_tuition_desc": "1,600,000 KRW/kỳ",
     "registration_fee_desc": "100,000 KRW",
     "insurance_fee_desc": "100,000 KRW/năm"
@@ -26982,7 +26982,7 @@ export const universities = [
       }
     ],
     "needs_review": true,
-    "is_verified": false,
+    "is_verified": true,
     "language_tuition_desc": "1,600,000 KRW/kỳ",
     "registration_fee_desc": "100,000 KRW",
     "insurance_fee_desc": "100,000 KRW/năm"
@@ -27045,7 +27045,7 @@ export const universities = [
       }
     ],
     "needs_review": true,
-    "is_verified": false,
+    "is_verified": true,
     "language_tuition_desc": "1,200,000 KRW/kỳ",
     "registration_fee_desc": "50,000 KRW",
     "insurance_fee_desc": "100,000 KRW/năm"
@@ -27108,7 +27108,7 @@ export const universities = [
       }
     ],
     "needs_review": true,
-    "is_verified": false,
+    "is_verified": true,
     "language_tuition_desc": "1,600,000 KRW/kỳ",
     "registration_fee_desc": "100,000 KRW",
     "insurance_fee_desc": "100,000 KRW/năm"
@@ -27171,7 +27171,7 @@ export const universities = [
       }
     ],
     "needs_review": true,
-    "is_verified": false,
+    "is_verified": true,
     "language_tuition_desc": "1,200,000 KRW/kỳ",
     "registration_fee_desc": "50,000 KRW",
     "insurance_fee_desc": "100,000 KRW/năm"
@@ -27234,7 +27234,7 @@ export const universities = [
       }
     ],
     "needs_review": true,
-    "is_verified": false,
+    "is_verified": true,
     "language_tuition_desc": "1,600,000 KRW/kỳ",
     "registration_fee_desc": "100,000 KRW",
     "insurance_fee_desc": "100,000 KRW/năm"
@@ -27297,7 +27297,7 @@ export const universities = [
       }
     ],
     "needs_review": true,
-    "is_verified": false,
+    "is_verified": true,
     "language_tuition_desc": "1,600,000 KRW/kỳ",
     "registration_fee_desc": "100,000 KRW",
     "insurance_fee_desc": "100,000 KRW/năm"
@@ -27360,7 +27360,7 @@ export const universities = [
       }
     ],
     "needs_review": true,
-    "is_verified": false,
+    "is_verified": true,
     "language_tuition_desc": "1,600,000 KRW/kỳ",
     "registration_fee_desc": "100,000 KRW",
     "insurance_fee_desc": "100,000 KRW/năm"
@@ -27423,7 +27423,7 @@ export const universities = [
       }
     ],
     "needs_review": true,
-    "is_verified": false,
+    "is_verified": true,
     "language_tuition_desc": "1,600,000 KRW/kỳ",
     "registration_fee_desc": "100,000 KRW",
     "insurance_fee_desc": "100,000 KRW/năm"
@@ -27486,7 +27486,7 @@ export const universities = [
       }
     ],
     "needs_review": true,
-    "is_verified": false,
+    "is_verified": true,
     "language_tuition_desc": "1,200,000 KRW/kỳ",
     "registration_fee_desc": "50,000 KRW",
     "insurance_fee_desc": "100,000 KRW/năm"
@@ -27663,7 +27663,7 @@ export const universities = [
       "longitude": 128.7359419
     },
     "needs_review": true,
-    "is_verified": false,
+    "is_verified": true,
     "language_tuition_desc": "1,200,000 KRW/kỳ",
     "registration_fee_desc": "50,000 KRW",
     "insurance_fee_desc": "100,000 KRW/năm",
