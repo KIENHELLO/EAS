@@ -7,18 +7,18 @@ export const ssgOptions = {
   Head: () => (
     <>
       <title>Cao đẳng Polytech III Chuncheon - Học Phí & Thông Tin Tuyển Sinh 2025 | KR-UniTuition</title>
-      <meta name="description" content="Học phí trường Cao đẳng Polytech III Chuncheon (Korea Polytech III (Chuncheon)): 0 KRW (0 VND) mỗi học kỳ. Địa chỉ: Gangwon. Xếp hạng: #620." />
+      <meta name="description" content="Học phí trường Cao đẳng Polytech III Chuncheon (Korea Polytech III (Chuncheon)): 2,000,000 - 3,400,000 KRW (37,000,000 - 62,900,000 VND) mỗi học kỳ. Địa chỉ: Gangwon. Xếp hạng: #620." />
       <meta name="keywords" content="Cao đẳng Polytech III Chuncheon, học phí Cao đẳng Polytech III Chuncheon, Korea Polytech III (Chuncheon), 한국폴리텍III대학 춘천캠퍼스, đại học Gangwon" />
       <link rel="canonical" href="https://eas-tuition.onrender.com/university/koreapolytechiiichuncheon" />
       <meta property="og:title" content="Cao đẳng Polytech III Chuncheon - Học Phí & Thông Tin Tuyển Sinh 2025" />
-      <meta property="og:description" content="Học phí trường Cao đẳng Polytech III Chuncheon (Korea Polytech III (Chuncheon)): 0 KRW (0 VND) mỗi học kỳ. Địa chỉ: Gangwon. Xếp hạng: #620." />
+      <meta property="og:description" content="Học phí trường Cao đẳng Polytech III Chuncheon (Korea Polytech III (Chuncheon)): 2,000,000 - 3,400,000 KRW (37,000,000 - 62,900,000 VND) mỗi học kỳ. Địa chỉ: Gangwon. Xếp hạng: #620." />
       <meta property="og:url" content="https://eas-tuition.onrender.com/university/koreapolytechiiichuncheon" />
       <meta property="og:type" content="website" />
       <meta property="og:image" content="https://eas-tuition.onrender.com/og-image.png" />
       <meta property="og:locale" content="vi_VN" />
       <meta name="twitter:card" content="summary_large_image" />
       <meta name="twitter:title" content="Cao đẳng Polytech III Chuncheon - Học Phí & Thông Tin Tuyển Sinh 2025" />
-      <meta name="twitter:description" content="Học phí trường Cao đẳng Polytech III Chuncheon (Korea Polytech III (Chuncheon)): 0 KRW (0 VND) mỗi học kỳ. Địa chỉ: Gangwon. Xếp hạng: #620." />
+      <meta name="twitter:description" content="Học phí trường Cao đẳng Polytech III Chuncheon (Korea Polytech III (Chuncheon)): 2,000,000 - 3,400,000 KRW (37,000,000 - 62,900,000 VND) mỗi học kỳ. Địa chỉ: Gangwon. Xếp hạng: #620." />
       <meta name="twitter:image" content="https://eas-tuition.onrender.com/og-image.png" />
       <meta name="robots" content="index, follow" />
       <link rel="alternate" hreflang="vi" href="https://eas-tuition.onrender.com/university/koreapolytechiiichuncheon" />

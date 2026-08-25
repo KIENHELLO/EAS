@@ -7,18 +7,18 @@ export const ssgOptions = {
   Head: () => (
     <>
       <title>Viện Khoa học & Công nghệ Daegu Gyeongbuk (DGIST) - Học Phí & Thông Tin Tuyển Sinh 2025 | KR-UniTuition</title>
-      <meta name="description" content="Học phí trường Viện Khoa học & Công nghệ Daegu Gyeongbuk (DGIST) (DGIST): 0 KRW (0 VND) mỗi học kỳ. Địa chỉ: Daegu. Xếp hạng: #625." />
+      <meta name="description" content="Học phí trường Viện Khoa học & Công nghệ Daegu Gyeongbuk (DGIST) (DGIST): 2,000,000 - 3,400,000 KRW (37,000,000 - 62,900,000 VND) mỗi học kỳ. Địa chỉ: Daegu. Xếp hạng: #625." />
       <meta name="keywords" content="Viện Khoa học & Công nghệ Daegu Gyeongbuk (DGIST), học phí Viện Khoa học & Công nghệ Daegu Gyeongbuk (DGIST), DGIST, 대구경북과학기술원, đại học Daegu" />
       <link rel="canonical" href="https://eas-tuition.onrender.com/university/dgist" />
       <meta property="og:title" content="Viện Khoa học & Công nghệ Daegu Gyeongbuk (DGIST) - Học Phí & Thông Tin Tuyển Sinh 2025" />
-      <meta property="og:description" content="Học phí trường Viện Khoa học & Công nghệ Daegu Gyeongbuk (DGIST) (DGIST): 0 KRW (0 VND) mỗi học kỳ. Địa chỉ: Daegu. Xếp hạng: #625." />
+      <meta property="og:description" content="Học phí trường Viện Khoa học & Công nghệ Daegu Gyeongbuk (DGIST) (DGIST): 2,000,000 - 3,400,000 KRW (37,000,000 - 62,900,000 VND) mỗi học kỳ. Địa chỉ: Daegu. Xếp hạng: #625." />
       <meta property="og:url" content="https://eas-tuition.onrender.com/university/dgist" />
       <meta property="og:type" content="website" />
       <meta property="og:image" content="https://eas-tuition.onrender.com/og-image.png" />
       <meta property="og:locale" content="vi_VN" />
       <meta name="twitter:card" content="summary_large_image" />
       <meta name="twitter:title" content="Viện Khoa học & Công nghệ Daegu Gyeongbuk (DGIST) - Học Phí & Thông Tin Tuyển Sinh 2025" />
-      <meta name="twitter:description" content="Học phí trường Viện Khoa học & Công nghệ Daegu Gyeongbuk (DGIST) (DGIST): 0 KRW (0 VND) mỗi học kỳ. Địa chỉ: Daegu. Xếp hạng: #625." />
+      <meta name="twitter:description" content="Học phí trường Viện Khoa học & Công nghệ Daegu Gyeongbuk (DGIST) (DGIST): 2,000,000 - 3,400,000 KRW (37,000,000 - 62,900,000 VND) mỗi học kỳ. Địa chỉ: Daegu. Xếp hạng: #625." />
       <meta name="twitter:image" content="https://eas-tuition.onrender.com/og-image.png" />
       <meta name="robots" content="index, follow" />
       <link rel="alternate" hreflang="vi" href="https://eas-tuition.onrender.com/university/dgist" />

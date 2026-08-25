@@ -7,18 +7,18 @@ export const ssgOptions = {
   Head: () => (
     <>
       <title>ĐH Thần học Seoul Jangsin - Học Phí & Thông Tin Tuyển Sinh 2025 | KR-UniTuition</title>
-      <meta name="description" content="Học phí trường ĐH Thần học Seoul Jangsin (Seoul Jangsin University): 0 KRW (0 VND) mỗi học kỳ. Địa chỉ: Gyeonggi. Xếp hạng: #421." />
+      <meta name="description" content="Học phí trường ĐH Thần học Seoul Jangsin (Seoul Jangsin University): 3,600,000 - 5,800,000 KRW (66,600,000 - 107,300,000 VND) mỗi học kỳ. Địa chỉ: Gyeonggi. Xếp hạng: #421." />
       <meta name="keywords" content="ĐH Thần học Seoul Jangsin, học phí ĐH Thần học Seoul Jangsin, Seoul Jangsin University, 서울장신대학교, đại học Gyeonggi" />
       <link rel="canonical" href="https://eas-tuition.onrender.com/university/seouljangsin" />
       <meta property="og:title" content="ĐH Thần học Seoul Jangsin - Học Phí & Thông Tin Tuyển Sinh 2025" />
-      <meta property="og:description" content="Học phí trường ĐH Thần học Seoul Jangsin (Seoul Jangsin University): 0 KRW (0 VND) mỗi học kỳ. Địa chỉ: Gyeonggi. Xếp hạng: #421." />
+      <meta property="og:description" content="Học phí trường ĐH Thần học Seoul Jangsin (Seoul Jangsin University): 3,600,000 - 5,800,000 KRW (66,600,000 - 107,300,000 VND) mỗi học kỳ. Địa chỉ: Gyeonggi. Xếp hạng: #421." />
       <meta property="og:url" content="https://eas-tuition.onrender.com/university/seouljangsin" />
       <meta property="og:type" content="website" />
       <meta property="og:image" content="https://eas-tuition.onrender.com/og-image.png" />
       <meta property="og:locale" content="vi_VN" />
       <meta name="twitter:card" content="summary_large_image" />
       <meta name="twitter:title" content="ĐH Thần học Seoul Jangsin - Học Phí & Thông Tin Tuyển Sinh 2025" />
-      <meta name="twitter:description" content="Học phí trường ĐH Thần học Seoul Jangsin (Seoul Jangsin University): 0 KRW (0 VND) mỗi học kỳ. Địa chỉ: Gyeonggi. Xếp hạng: #421." />
+      <meta name="twitter:description" content="Học phí trường ĐH Thần học Seoul Jangsin (Seoul Jangsin University): 3,600,000 - 5,800,000 KRW (66,600,000 - 107,300,000 VND) mỗi học kỳ. Địa chỉ: Gyeonggi. Xếp hạng: #421." />
       <meta name="twitter:image" content="https://eas-tuition.onrender.com/og-image.png" />
       <meta name="robots" content="index, follow" />
       <link rel="alternate" hreflang="vi" href="https://eas-tuition.onrender.com/university/seouljangsin" />

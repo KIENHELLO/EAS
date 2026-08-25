@@ -7,18 +7,18 @@ export const ssgOptions = {
   Head: () => (
     <>
       <title>Đại học Cyber Hwoshin - Học Phí & Thông Tin Tuyển Sinh 2025 | KR-UniTuition</title>
-      <meta name="description" content="Học phí trường Đại học Cyber Hwoshin (Hwashin Cyber University): 0 KRW (0 VND) mỗi học kỳ. Địa chỉ: Busan. Xếp hạng: #577." />
+      <meta name="description" content="Học phí trường Đại học Cyber Hwoshin (Hwashin Cyber University): 3,600,000 - 5,800,000 KRW (66,600,000 - 107,300,000 VND) mỗi học kỳ. Địa chỉ: Busan. Xếp hạng: #577." />
       <meta name="keywords" content="Đại học Cyber Hwoshin, học phí Đại học Cyber Hwoshin, Hwashin Cyber University, 화신사이버대학교, đại học Busan" />
       <link rel="canonical" href="https://eas-tuition.onrender.com/university/hwashincyber" />
       <meta property="og:title" content="Đại học Cyber Hwoshin - Học Phí & Thông Tin Tuyển Sinh 2025" />
-      <meta property="og:description" content="Học phí trường Đại học Cyber Hwoshin (Hwashin Cyber University): 0 KRW (0 VND) mỗi học kỳ. Địa chỉ: Busan. Xếp hạng: #577." />
+      <meta property="og:description" content="Học phí trường Đại học Cyber Hwoshin (Hwashin Cyber University): 3,600,000 - 5,800,000 KRW (66,600,000 - 107,300,000 VND) mỗi học kỳ. Địa chỉ: Busan. Xếp hạng: #577." />
       <meta property="og:url" content="https://eas-tuition.onrender.com/university/hwashincyber" />
       <meta property="og:type" content="website" />
       <meta property="og:image" content="https://eas-tuition.onrender.com/og-image.png" />
       <meta property="og:locale" content="vi_VN" />
       <meta name="twitter:card" content="summary_large_image" />
       <meta name="twitter:title" content="Đại học Cyber Hwoshin - Học Phí & Thông Tin Tuyển Sinh 2025" />
-      <meta name="twitter:description" content="Học phí trường Đại học Cyber Hwoshin (Hwashin Cyber University): 0 KRW (0 VND) mỗi học kỳ. Địa chỉ: Busan. Xếp hạng: #577." />
+      <meta name="twitter:description" content="Học phí trường Đại học Cyber Hwoshin (Hwashin Cyber University): 3,600,000 - 5,800,000 KRW (66,600,000 - 107,300,000 VND) mỗi học kỳ. Địa chỉ: Busan. Xếp hạng: #577." />
       <meta name="twitter:image" content="https://eas-tuition.onrender.com/og-image.png" />
       <meta name="robots" content="index, follow" />
       <link rel="alternate" hreflang="vi" href="https://eas-tuition.onrender.com/university/hwashincyber" />

@@ -7,18 +7,18 @@ export const ssgOptions = {
   Head: () => (
     <>
       <title>Học viện Sau ĐH Ung thư Quốc tế - TT Ung thư QG - Học Phí & Thông Tin Tuyển Sinh 2025 | KR-UniTuition</title>
-      <meta name="description" content="Học phí trường Học viện Sau ĐH Ung thư Quốc tế - TT Ung thư QG (National Cancer Center Graduate School of Cancer Science and Policy): 0 KRW (0 VND) mỗi học kỳ. Địa chỉ: Gyeonggi. Xếp hạng: #466." />
+      <meta name="description" content="Học phí trường Học viện Sau ĐH Ung thư Quốc tế - TT Ung thư QG (National Cancer Center Graduate School of Cancer Science and Policy): 2,000,000 - 3,400,000 KRW (37,000,000 - 62,900,000 VND) mỗi học kỳ. Địa chỉ: Gyeonggi. Xếp hạng: #466." />
       <meta name="keywords" content="Học viện Sau ĐH Ung thư Quốc tế - TT Ung thư QG, học phí Học viện Sau ĐH Ung thư Quốc tế - TT Ung thư QG, National Cancer Center Graduate School of Cancer Science and Policy, 국립암센터국제암대학원대학교, đại học Gyeonggi" />
       <link rel="canonical" href="https://eas-tuition.onrender.com/university/nationalcancercentergraduateschoolofcancerscienceandpolicy" />
       <meta property="og:title" content="Học viện Sau ĐH Ung thư Quốc tế - TT Ung thư QG - Học Phí & Thông Tin Tuyển Sinh 2025" />
-      <meta property="og:description" content="Học phí trường Học viện Sau ĐH Ung thư Quốc tế - TT Ung thư QG (National Cancer Center Graduate School of Cancer Science and Policy): 0 KRW (0 VND) mỗi học kỳ. Địa chỉ: Gyeonggi. Xếp hạng: #466." />
+      <meta property="og:description" content="Học phí trường Học viện Sau ĐH Ung thư Quốc tế - TT Ung thư QG (National Cancer Center Graduate School of Cancer Science and Policy): 2,000,000 - 3,400,000 KRW (37,000,000 - 62,900,000 VND) mỗi học kỳ. Địa chỉ: Gyeonggi. Xếp hạng: #466." />
       <meta property="og:url" content="https://eas-tuition.onrender.com/university/nationalcancercentergraduateschoolofcancerscienceandpolicy" />
       <meta property="og:type" content="website" />
       <meta property="og:image" content="https://eas-tuition.onrender.com/og-image.png" />
       <meta property="og:locale" content="vi_VN" />
       <meta name="twitter:card" content="summary_large_image" />
       <meta name="twitter:title" content="Học viện Sau ĐH Ung thư Quốc tế - TT Ung thư QG - Học Phí & Thông Tin Tuyển Sinh 2025" />
-      <meta name="twitter:description" content="Học phí trường Học viện Sau ĐH Ung thư Quốc tế - TT Ung thư QG (National Cancer Center Graduate School of Cancer Science and Policy): 0 KRW (0 VND) mỗi học kỳ. Địa chỉ: Gyeonggi. Xếp hạng: #466." />
+      <meta name="twitter:description" content="Học phí trường Học viện Sau ĐH Ung thư Quốc tế - TT Ung thư QG (National Cancer Center Graduate School of Cancer Science and Policy): 2,000,000 - 3,400,000 KRW (37,000,000 - 62,900,000 VND) mỗi học kỳ. Địa chỉ: Gyeonggi. Xếp hạng: #466." />
       <meta name="twitter:image" content="https://eas-tuition.onrender.com/og-image.png" />
       <meta name="robots" content="index, follow" />
       <link rel="alternate" hreflang="vi" href="https://eas-tuition.onrender.com/university/nationalcancercentergraduateschoolofcancerscienceandpolicy" />

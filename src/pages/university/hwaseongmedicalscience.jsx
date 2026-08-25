@@ -7,18 +7,18 @@ export const ssgOptions = {
   Head: () => (
     <>
       <title>ĐH Y khoa Hwaseong - Học Phí & Thông Tin Tuyển Sinh 2025 | KR-UniTuition</title>
-      <meta name="description" content="Học phí trường ĐH Y khoa Hwaseong (Hwaseong Medical Science University): 0 KRW (0 VND) mỗi học kỳ. Địa chỉ: Gyeonggi. Xếp hạng: #393." />
+      <meta name="description" content="Học phí trường ĐH Y khoa Hwaseong (Hwaseong Medical Science University): 3,600,000 - 5,800,000 KRW (66,600,000 - 107,300,000 VND) mỗi học kỳ. Địa chỉ: Gyeonggi. Xếp hạng: #393." />
       <meta name="keywords" content="ĐH Y khoa Hwaseong, học phí ĐH Y khoa Hwaseong, Hwaseong Medical Science University, 화성의과학대학교, đại học Gyeonggi" />
       <link rel="canonical" href="https://eas-tuition.onrender.com/university/hwaseongmedicalscience" />
       <meta property="og:title" content="ĐH Y khoa Hwaseong - Học Phí & Thông Tin Tuyển Sinh 2025" />
-      <meta property="og:description" content="Học phí trường ĐH Y khoa Hwaseong (Hwaseong Medical Science University): 0 KRW (0 VND) mỗi học kỳ. Địa chỉ: Gyeonggi. Xếp hạng: #393." />
+      <meta property="og:description" content="Học phí trường ĐH Y khoa Hwaseong (Hwaseong Medical Science University): 3,600,000 - 5,800,000 KRW (66,600,000 - 107,300,000 VND) mỗi học kỳ. Địa chỉ: Gyeonggi. Xếp hạng: #393." />
       <meta property="og:url" content="https://eas-tuition.onrender.com/university/hwaseongmedicalscience" />
       <meta property="og:type" content="website" />
       <meta property="og:image" content="https://eas-tuition.onrender.com/og-image.png" />
       <meta property="og:locale" content="vi_VN" />
       <meta name="twitter:card" content="summary_large_image" />
       <meta name="twitter:title" content="ĐH Y khoa Hwaseong - Học Phí & Thông Tin Tuyển Sinh 2025" />
-      <meta name="twitter:description" content="Học phí trường ĐH Y khoa Hwaseong (Hwaseong Medical Science University): 0 KRW (0 VND) mỗi học kỳ. Địa chỉ: Gyeonggi. Xếp hạng: #393." />
+      <meta name="twitter:description" content="Học phí trường ĐH Y khoa Hwaseong (Hwaseong Medical Science University): 3,600,000 - 5,800,000 KRW (66,600,000 - 107,300,000 VND) mỗi học kỳ. Địa chỉ: Gyeonggi. Xếp hạng: #393." />
       <meta name="twitter:image" content="https://eas-tuition.onrender.com/og-image.png" />
       <meta name="robots" content="index, follow" />
       <link rel="alternate" hreflang="vi" href="https://eas-tuition.onrender.com/university/hwaseongmedicalscience" />
