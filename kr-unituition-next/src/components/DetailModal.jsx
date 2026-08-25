@@ -20,6 +20,7 @@ export default function DetailModal({ university, exchangeRate, onClose, initial
   const [majorQuery, setMajorQuery] = useState(
     initialMajor && initialMajor !== 'All' ? initialMajor : ''
   );
+  const [studySystem, setStudySystem] = useState('D2'); // 'D2' or 'D4'
 
   // 1. Auto-fill and School Tracking on Mount
   useEffect(() => {
@@ -186,13 +187,41 @@ export default function DetailModal({ university, exchangeRate, onClose, initial
   // Find max value in database for relative bar indicators (approx 8.5M KRW is max)
   const maxTuitionReference = 8500000;
 
+  // Parse language tuition helper
+  const getLanguageTuitionPerTerm = (desc, defaultVal) => {
+    if (!desc) return defaultVal;
+    const cleanDesc = desc.replace(/,/g, '');
+    const matches = cleanDesc.match(/(\d+)/);
+    if (!matches) return defaultVal;
+    const val = parseInt(matches[1], 10);
+    if (cleanDesc.includes('năm') || cleanDesc.includes('year')) {
+      return Math.round(val / 4); // 4 terms per year
+    }
+    return val;
+  };
+
+  const isD4 = studySystem === 'D4';
+  const durationMonths = isD4 ? 3 : 6;
+  
   // Calculate average tuition
   const tuitionValues = Object.values(tuition).filter(val => val !== null && val !== undefined);
-  const avgTuitionKRW = tuitionValues.reduce((sum, val) => sum + val, 0) / tuitionValues.length;
+  const avgTuitionKRW = tuitionValues.length > 0 
+    ? tuitionValues.reduce((sum, val) => sum + val, 0) / tuitionValues.length 
+    : 3500000;
 
-  // Estimate total expense per semester (approx 4 months)
-  // Total = Avg Tuition + Dorm Fee + (Monthly Living Cost * 4)
-  const estSemesterExpenseKRW = avgTuitionKRW + (dorm_fee || 0) + ((living_cost_est || 0) * 4);
+  // Selected tuition based on D2 (degree) or D4 (language)
+  const selectedTuitionKRW = isD4 
+    ? getLanguageTuitionPerTerm(language_tuition_desc, 1500000)
+    : avgTuitionKRW;
+
+  // Base dorm/living costs are given for 4 months in DB, so we convert them to monthly
+  const monthlyDorm = (dorm_fee || 1200000) / 4;
+  const monthlyLiving = living_cost_est || 600000;
+
+  const currentDormFeeKRW = monthlyDorm * durationMonths;
+  const currentLivingCostKRW = monthlyLiving * durationMonths;
+
+  const estSemesterExpenseKRW = selectedTuitionKRW + currentDormFeeKRW + currentLivingCostKRW;
 
   return (
     <div 
@@ -772,9 +801,56 @@ export default function DetailModal({ university, exchangeRate, onClose, initial
                 color: 'var(--text-primary)'
               }}>
                 <DollarSign size={20} color="var(--success)" />
-                Ước tính Chi Phí một học kỳ (4 tháng)
+                Ước tính Chi Phí một học kỳ ({durationMonths} tháng)
               </h4>
               
+              {/* Segmented Control for studySystem */}
+              <div style={{
+                display: 'flex',
+                gap: '0.35rem',
+                marginBottom: '0.85rem',
+                backgroundColor: 'var(--bg-app)',
+                padding: '0.2rem',
+                borderRadius: 'var(--border-radius-sm)',
+                border: '1px solid var(--border-color)',
+                width: '100%'
+              }}>
+                <button
+                  onClick={() => setStudySystem('D4')}
+                  style={{
+                    flex: 1,
+                    padding: '0.45rem',
+                    fontSize: '0.75rem',
+                    fontWeight: 700,
+                    borderRadius: 'var(--border-radius-sm)',
+                    border: 'none',
+                    cursor: 'pointer',
+                    backgroundColor: studySystem === 'D4' ? 'var(--primary)' : 'transparent',
+                    color: studySystem === 'D4' ? '#fff' : 'var(--text-secondary)',
+                    transition: 'all 0.2s ease'
+                  }}
+                >
+                  Hệ D4 (Học tiếng - 3 tháng)
+                </button>
+                <button
+                  onClick={() => setStudySystem('D2')}
+                  style={{
+                    flex: 1,
+                    padding: '0.45rem',
+                    fontSize: '0.75rem',
+                    fontWeight: 700,
+                    borderRadius: 'var(--border-radius-sm)',
+                    border: 'none',
+                    cursor: 'pointer',
+                    backgroundColor: studySystem === 'D2' ? 'var(--primary)' : 'transparent',
+                    color: studySystem === 'D2' ? '#fff' : 'var(--text-secondary)',
+                    transition: 'all 0.2s ease'
+                  }}
+                >
+                  Hệ D2 (Chuyên ngành - 6 tháng)
+                </button>
+              </div>
+
               <div style={{
                 padding: '1.25rem',
                 borderRadius: 'var(--border-radius-md)',
@@ -785,39 +861,41 @@ export default function DetailModal({ university, exchangeRate, onClose, initial
                 gap: '0.65rem'
               }}>
                 <div style={{ display: 'flex', justifyContent: 'space-between', fontSize: '0.85rem' }}>
-                  <span style={{ color: 'var(--text-secondary)', fontWeight: 500 }}>Học phí trung bình:</span>
+                  <span style={{ color: 'var(--text-secondary)', fontWeight: 500 }}>
+                    {isD4 ? 'Học phí học tiếng (ước tính):' : 'Học phí chuyên ngành:'}
+                  </span>
                   <span style={{ fontWeight: 600, color: 'var(--text-primary)' }}>
-                    {formatCurrency(krwToVnd(avgTuitionKRW, exchangeRate), 'VND')}
+                    {formatCurrency(krwToVnd(selectedTuitionKRW, exchangeRate), 'VND')}
                   </span>
                 </div>
                 
                 {dorm_fee ? (
                   <div style={{ display: 'flex', justifyContent: 'space-between', fontSize: '0.85rem' }}>
-                    <span style={{ color: 'var(--text-secondary)', fontWeight: 500 }}>Ký túc xá (4 tháng):</span>
+                    <span style={{ color: 'var(--text-secondary)', fontWeight: 500 }}>Ký túc xá ({durationMonths} tháng):</span>
                     <span style={{ fontWeight: 600, color: 'var(--text-primary)' }}>
-                      {formatCurrency(krwToVnd(dorm_fee, exchangeRate), 'VND')}
+                      {formatCurrency(krwToVnd(currentDormFeeKRW, exchangeRate), 'VND')}
                     </span>
                   </div>
                 ) : (
                   <div style={{ display: 'flex', justifyContent: 'space-between', fontSize: '0.85rem' }}>
-                    <span style={{ color: 'var(--text-secondary)', fontWeight: 500 }}>Thuê phòng ngoài (ước tính):</span>
+                    <span style={{ color: 'var(--text-secondary)', fontWeight: 500 }}>Thuê phòng ngoài ({durationMonths} tháng):</span>
                     <span style={{ fontWeight: 600, color: 'var(--text-primary)' }}>
-                      {formatCurrency(krwToVnd(1600000, exchangeRate), 'VND')}
+                      {formatCurrency(krwToVnd((1600000 / 4) * durationMonths, exchangeRate), 'VND')}
                     </span>
                   </div>
                 )}
 
                 <div style={{ display: 'flex', justifyContent: 'space-between', fontSize: '0.85rem' }}>
-                  <span style={{ color: 'var(--text-secondary)', fontWeight: 500 }}>Sinh hoạt phí (ăn uống, đi lại):</span>
+                  <span style={{ color: 'var(--text-secondary)', fontWeight: 500 }}>Sinh hoạt phí ({durationMonths} tháng):</span>
                   <span style={{ fontWeight: 600, color: 'var(--text-primary)' }}>
-                    {formatCurrency(krwToVnd(living_cost_est * 4, exchangeRate), 'VND')}
+                    {formatCurrency(krwToVnd(currentLivingCostKRW, exchangeRate), 'VND')}
                   </span>
                 </div>
 
                 <div style={{ height: '1px', backgroundColor: 'var(--border-color)', margin: '0.25rem 0' }} />
 
                 <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
-                  <span style={{ fontSize: '0.9rem', fontWeight: 800, color: 'var(--text-primary)' }}>Tổng dự chi 1 kỳ:</span>
+                  <span style={{ fontSize: '0.9rem', fontWeight: 800, color: 'var(--text-primary)' }}>Tổng dự chi ({durationMonths} tháng):</span>
                   <div style={{ textAlign: 'right' }}>
                     <strong style={{ fontSize: '1.15rem', color: 'var(--success)' }}>
                       {formatCurrency(krwToVnd(estSemesterExpenseKRW, exchangeRate), 'VND')}
