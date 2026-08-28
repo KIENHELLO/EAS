@@ -49,7 +49,8 @@ export const universities = [
       "latitude": null,
       "longitude": null
     },
-    "majors_detail": []
+    "majors_detail": [],
+    "is_d2_1_nursing": false
   },
   {
     "id": "kangseo",
@@ -101,7 +102,8 @@ export const universities = [
       "latitude": null,
       "longitude": null
     },
-    "majors_detail": []
+    "majors_detail": [],
+    "is_d2_1_nursing": false
   },
   {
     "id": "konkuk",
@@ -292,7 +294,8 @@ export const universities = [
           }
         ]
       }
-    ]
+    ],
+    "is_d2_1_nursing": false
   },
   {
     "id": "top3_school_8",
@@ -379,7 +382,8 @@ export const universities = [
           }
         ]
       }
-    ]
+    ],
+    "is_d2_1_nursing": false
   },
   {
     "id": "khu",
@@ -571,7 +575,8 @@ export const universities = [
           }
         ]
       }
-    ]
+    ],
+    "is_d2_1_nursing": false
   },
   {
     "id": "korea",
@@ -763,7 +768,8 @@ export const universities = [
           }
         ]
       }
-    ]
+    ],
+    "is_d2_1_nursing": false
   },
   {
     "id": "kwangwoon",
@@ -837,7 +843,8 @@ export const universities = [
           }
         ]
       }
-    ]
+    ],
+    "is_d2_1_nursing": false
   },
   {
     "id": "kookmin",
@@ -1028,7 +1035,8 @@ export const universities = [
           }
         ]
       }
-    ]
+    ],
+    "is_d2_1_nursing": false
   },
   {
     "id": "dongguk",
@@ -1219,7 +1227,8 @@ export const universities = [
           }
         ]
       }
-    ]
+    ],
+    "is_d2_1_nursing": false
   },
   {
     "id": "myongji",
@@ -1410,7 +1419,8 @@ export const universities = [
           }
         ]
       }
-    ]
+    ],
+    "is_d2_1_nursing": false
   },
   {
     "id": "sahmyook",
@@ -1484,7 +1494,8 @@ export const universities = [
           }
         ]
       }
-    ]
+    ],
+    "is_d2_1_nursing": false
   },
   {
     "id": "sangmyung",
@@ -1536,7 +1547,8 @@ export const universities = [
       "latitude": null,
       "longitude": null
     },
-    "majors_detail": []
+    "majors_detail": [],
+    "is_d2_1_nursing": false
   },
   {
     "id": "sogang",
@@ -1727,7 +1739,8 @@ export const universities = [
           }
         ]
       }
-    ]
+    ],
+    "is_d2_1_nursing": false
   },
   {
     "id": "seokyeong",
@@ -1779,7 +1792,8 @@ export const universities = [
       "latitude": null,
       "longitude": null
     },
-    "majors_detail": []
+    "majors_detail": [],
+    "is_d2_1_nursing": false
   },
   {
     "id": "khoahoccongnghe",
@@ -1853,7 +1867,8 @@ export const universities = [
           }
         ]
       }
-    ]
+    ],
+    "is_d2_1_nursing": false
   },
   {
     "id": "snu",
@@ -2045,7 +2060,8 @@ export const universities = [
           }
         ]
       }
-    ]
+    ],
+    "is_d2_1_nursing": false
   },
   {
     "id": "ofseoul",
@@ -2097,7 +2113,8 @@ export const universities = [
       "latitude": null,
       "longitude": null
     },
-    "majors_detail": []
+    "majors_detail": [],
+    "is_d2_1_nursing": false
   },
   {
     "id": "seoultheological",
@@ -2149,7 +2166,8 @@ export const universities = [
       "latitude": null,
       "longitude": null
     },
-    "majors_detail": []
+    "majors_detail": [],
+    "is_d2_1_nursing": false
   },
   {
     "id": "sungkonghoe",
@@ -2201,7 +2219,8 @@ export const universities = [
       "latitude": null,
       "longitude": null
     },
-    "majors_detail": []
+    "majors_detail": [],
+    "is_d2_1_nursing": false
   },
   {
     "id": "skku",
@@ -2393,7 +2412,8 @@ export const universities = [
           }
         ]
       }
-    ]
+    ],
+    "is_d2_1_nursing": false
   },
   {
     "id": "sejong",
@@ -2584,7 +2604,8 @@ export const universities = [
           }
         ]
       }
-    ]
+    ],
+    "is_d2_1_nursing": false
   },
   {
     "id": "soongsil",
@@ -2775,7 +2796,8 @@ export const universities = [
           }
         ]
       }
-    ]
+    ],
+    "is_d2_1_nursing": false
   },
   {
     "id": "yonsei",
@@ -2967,7 +2989,8 @@ export const universities = [
           }
         ]
       }
-    ]
+    ],
+    "is_d2_1_nursing": false
   },
   {
     "id": "cau",
@@ -3158,7 +3181,8 @@ export const universities = [
           }
         ]
       }
-    ]
+    ],
+    "is_d2_1_nursing": false
   },
   {
     "id": "chongshin",
@@ -3232,7 +3256,8 @@ export const universities = [
           }
         ]
       }
-    ]
+    ],
+    "is_d2_1_nursing": false
   },
   {
     "id": "chugyeforthearts",
@@ -3284,7 +3309,8 @@ export const universities = [
       "latitude": null,
       "longitude": null
     },
-    "majors_detail": []
+    "majors_detail": [],
+    "is_d2_1_nursing": false
   },
   {
     "id": "ngoainguhankuk",
@@ -3358,7 +3384,8 @@ export const universities = [
           }
         ]
       }
-    ]
+    ],
+    "is_d2_1_nursing": false
   },
   {
     "id": "koreanationalsport",
@@ -3410,7 +3437,8 @@ export const universities = [
       "latitude": null,
       "longitude": null
     },
-    "majors_detail": []
+    "majors_detail": [],
+    "is_d2_1_nursing": false
   },
   {
     "id": "hongik",
@@ -3602,7 +3630,8 @@ export const universities = [
           }
         ]
       }
-    ]
+    ],
+    "is_d2_1_nursing": false
   },
   {
     "id": "seoulnationalofeducation",
@@ -3654,7 +3683,8 @@ export const universities = [
       "latitude": null,
       "longitude": null
     },
-    "majors_detail": []
+    "majors_detail": [],
+    "is_d2_1_nursing": false
   },
   {
     "id": "duksung",
@@ -3846,7 +3876,8 @@ export const universities = [
           }
         ]
       }
-    ]
+    ],
+    "is_d2_1_nursing": false
   },
   {
     "id": "dongduk",
@@ -3920,7 +3951,8 @@ export const universities = [
           }
         ]
       }
-    ]
+    ],
+    "is_d2_1_nursing": false
   },
   {
     "id": "seoulwomens",
@@ -3972,7 +4004,8 @@ export const universities = [
       "latitude": null,
       "longitude": null
     },
-    "majors_detail": []
+    "majors_detail": [],
+    "is_d2_1_nursing": false
   },
   {
     "id": "sungshin",
@@ -4163,7 +4196,8 @@ export const universities = [
           }
         ]
       }
-    ]
+    ],
+    "is_d2_1_nursing": false
   },
   {
     "id": "sookmyung",
@@ -4354,7 +4388,8 @@ export const universities = [
           }
         ]
       }
-    ]
+    ],
+    "is_d2_1_nursing": false
   },
   {
     "id": "ewhawomans",
@@ -4406,7 +4441,8 @@ export const universities = [
       "latitude": null,
       "longitude": null
     },
-    "majors_detail": []
+    "majors_detail": [],
+    "is_d2_1_nursing": false
   },
   {
     "id": "methodisttheological",
@@ -4458,7 +4494,8 @@ export const universities = [
       "latitude": null,
       "longitude": null
     },
-    "majors_detail": []
+    "majors_detail": [],
+    "is_d2_1_nursing": false
   },
   {
     "id": "seoulchristian",
@@ -4510,7 +4547,8 @@ export const universities = [
       "latitude": null,
       "longitude": null
     },
-    "majors_detail": []
+    "majors_detail": [],
+    "is_d2_1_nursing": false
   },
   {
     "id": "presbyterianandtheologicalseminary",
@@ -4562,7 +4600,8 @@ export const universities = [
       "latitude": null,
       "longitude": null
     },
-    "majors_detail": []
+    "majors_detail": [],
+    "is_d2_1_nursing": false
   },
   {
     "id": "kinhthanhhanquo",
@@ -4636,7 +4675,8 @@ export const universities = [
           }
         ]
       }
-    ]
+    ],
+    "is_d2_1_nursing": false
   },
   {
     "id": "dongyangmirae",
@@ -4688,7 +4728,8 @@ export const universities = [
       "latitude": null,
       "longitude": null
     },
-    "majors_detail": []
+    "majors_detail": [],
+    "is_d2_1_nursing": false
   },
   {
     "id": "myongji_college",
@@ -4762,7 +4803,8 @@ export const universities = [
           }
         ]
       }
-    ]
+    ],
+    "is_d2_1_nursing": true
   },
   {
     "id": "sahmyookhealth",
@@ -4814,7 +4856,8 @@ export const universities = [
       "latitude": null,
       "longitude": null
     },
-    "majors_detail": []
+    "majors_detail": [],
+    "is_d2_1_nursing": true
   },
   {
     "id": "seoil",
@@ -4866,7 +4909,8 @@ export const universities = [
       "latitude": null,
       "longitude": null
     },
-    "majors_detail": []
+    "majors_detail": [],
+    "is_d2_1_nursing": false
   },
   {
     "id": "induk",
@@ -4940,7 +4984,8 @@ export const universities = [
           }
         ]
       }
-    ]
+    ],
+    "is_d2_1_nursing": false
   },
   {
     "id": "baewhawomens",
@@ -4992,7 +5037,8 @@ export const universities = [
       "latitude": null,
       "longitude": null
     },
-    "majors_detail": []
+    "majors_detail": [],
+    "is_d2_1_nursing": false
   },
   {
     "id": "seoulwomensofnursing",
@@ -5044,7 +5090,8 @@ export const universities = [
       "latitude": null,
       "longitude": null
     },
-    "majors_detail": []
+    "majors_detail": [],
+    "is_d2_1_nursing": false
   },
   {
     "id": "soongeuiwomens",
@@ -5096,7 +5143,8 @@ export const universities = [
       "latitude": null,
       "longitude": null
     },
-    "majors_detail": []
+    "majors_detail": [],
+    "is_d2_1_nursing": false
   },
   {
     "id": "hanyangwomens",
@@ -5148,7 +5196,8 @@ export const universities = [
       "latitude": null,
       "longitude": null
     },
-    "majors_detail": []
+    "majors_detail": [],
+    "is_d2_1_nursing": false
   },
   {
     "id": "kukjeofarts",
@@ -5200,7 +5249,8 @@ export const universities = [
       "latitude": null,
       "longitude": null
     },
-    "majors_detail": []
+    "majors_detail": [],
+    "is_d2_1_nursing": false
   },
   {
     "id": "baekseokarts",
@@ -5252,7 +5302,8 @@ export const universities = [
       "latitude": null,
       "longitude": null
     },
-    "majors_detail": []
+    "majors_detail": [],
+    "is_d2_1_nursing": false
   },
   {
     "id": "jeonghwaofarts",
@@ -5304,7 +5355,8 @@ export const universities = [
       "latitude": null,
       "longitude": null
     },
-    "majors_detail": []
+    "majors_detail": [],
+    "is_d2_1_nursing": false
   },
   {
     "id": "koreapolytechnici",
@@ -5356,7 +5408,8 @@ export const universities = [
       "latitude": null,
       "longitude": null
     },
-    "majors_detail": []
+    "majors_detail": [],
+    "is_d2_1_nursing": false
   },
   {
     "id": "koreanationalofarts",
@@ -5408,7 +5461,8 @@ export const universities = [
       "latitude": null,
       "longitude": null
     },
-    "majors_detail": []
+    "majors_detail": [],
+    "is_d2_1_nursing": false
   },
   {
     "id": "koreamilitaryacademy",
@@ -5460,7 +5514,8 @@ export const universities = [
       "latitude": null,
       "longitude": null
     },
-    "majors_detail": []
+    "majors_detail": [],
+    "is_d2_1_nursing": false
   },
   {
     "id": "na",
@@ -5512,7 +5567,8 @@ export const universities = [
       "latitude": null,
       "longitude": null
     },
-    "majors_detail": []
+    "majors_detail": [],
+    "is_d2_1_nursing": false
   },
   {
     "id": "na_1",
@@ -5564,7 +5620,8 @@ export const universities = [
       "latitude": null,
       "longitude": null
     },
-    "majors_detail": []
+    "majors_detail": [],
+    "is_d2_1_nursing": false
   },
   {
     "id": "na_2",
@@ -5616,7 +5673,8 @@ export const universities = [
       "latitude": null,
       "longitude": null
     },
-    "majors_detail": []
+    "majors_detail": [],
+    "is_d2_1_nursing": false
   },
   {
     "id": "na_3",
@@ -5668,7 +5726,8 @@ export const universities = [
       "latitude": null,
       "longitude": null
     },
-    "majors_detail": []
+    "majors_detail": [],
+    "is_d2_1_nursing": false
   },
   {
     "id": "na_4",
@@ -5720,7 +5779,8 @@ export const universities = [
       "latitude": null,
       "longitude": null
     },
-    "majors_detail": []
+    "majors_detail": [],
+    "is_d2_1_nursing": false
   },
   {
     "id": "graduateschoolofnorthkoreanstudies",
@@ -5772,7 +5832,8 @@ export const universities = [
       "latitude": null,
       "longitude": null
     },
-    "majors_detail": []
+    "majors_detail": [],
+    "is_d2_1_nursing": false
   },
   {
     "id": "assistseoulschoolofintegratedsciencesandtechnologies",
@@ -5824,7 +5885,8 @@ export const universities = [
       "latitude": null,
       "longitude": null
     },
-    "majors_detail": []
+    "majors_detail": [],
+    "is_d2_1_nursing": false
   },
   {
     "id": "seoulmediainstituteoftechnology",
@@ -5876,7 +5938,8 @@ export const universities = [
       "latitude": null,
       "longitude": null
     },
-    "majors_detail": []
+    "majors_detail": [],
+    "is_d2_1_nursing": false
   },
   {
     "id": "na_5",
@@ -5928,7 +5991,8 @@ export const universities = [
       "latitude": null,
       "longitude": null
     },
-    "majors_detail": []
+    "majors_detail": [],
+    "is_d2_1_nursing": false
   },
   {
     "id": "na_6",
@@ -5980,7 +6044,8 @@ export const universities = [
       "latitude": null,
       "longitude": null
     },
-    "majors_detail": []
+    "majors_detail": [],
+    "is_d2_1_nursing": false
   },
   {
     "id": "na_7",
@@ -6032,7 +6097,8 @@ export const universities = [
       "latitude": null,
       "longitude": null
     },
-    "majors_detail": []
+    "majors_detail": [],
+    "is_d2_1_nursing": false
   },
   {
     "id": "na_8",
@@ -6084,7 +6150,8 @@ export const universities = [
       "latitude": null,
       "longitude": null
     },
-    "majors_detail": []
+    "majors_detail": [],
+    "is_d2_1_nursing": false
   },
   {
     "id": "viencaohocngonn",
@@ -6158,7 +6225,8 @@ export const universities = [
           }
         ]
       }
-    ]
+    ],
+    "is_d2_1_nursing": false
   },
   {
     "id": "na_9",
@@ -6210,7 +6278,8 @@ export const universities = [
       "latitude": null,
       "longitude": null
     },
-    "majors_detail": []
+    "majors_detail": [],
+    "is_d2_1_nursing": false
   },
   {
     "id": "na_10",
@@ -6262,7 +6331,8 @@ export const universities = [
       "latitude": null,
       "longitude": null
     },
-    "majors_detail": []
+    "majors_detail": [],
+    "is_d2_1_nursing": false
   },
   {
     "id": "na_11",
@@ -6314,7 +6384,8 @@ export const universities = [
       "latitude": null,
       "longitude": null
     },
-    "majors_detail": []
+    "majors_detail": [],
+    "is_d2_1_nursing": false
   },
   {
     "id": "na_12",
@@ -6366,7 +6437,8 @@ export const universities = [
       "latitude": null,
       "longitude": null
     },
-    "majors_detail": []
+    "majors_detail": [],
+    "is_d2_1_nursing": false
   },
   {
     "id": "na_13",
@@ -6418,7 +6490,8 @@ export const universities = [
       "latitude": null,
       "longitude": null
     },
-    "majors_detail": []
+    "majors_detail": [],
+    "is_d2_1_nursing": false
   },
   {
     "id": "hallymgraduateschoolofinternationalstudies",
@@ -6470,7 +6543,8 @@ export const universities = [
       "latitude": null,
       "longitude": null
     },
-    "majors_detail": []
+    "majors_detail": [],
+    "is_d2_1_nursing": false
   },
   {
     "id": "torchtrinitygraduateoftheology",
@@ -6522,7 +6596,8 @@ export const universities = [
       "latitude": null,
       "longitude": null
     },
-    "majors_detail": []
+    "majors_detail": [],
+    "is_d2_1_nursing": false
   },
   {
     "id": "gachon",
@@ -6596,7 +6671,8 @@ export const universities = [
           }
         ]
       }
-    ]
+    ],
+    "is_d2_1_nursing": false
   },
   {
     "id": "thecatholicofkorea_1",
@@ -6648,7 +6724,8 @@ export const universities = [
       "latitude": null,
       "longitude": null
     },
-    "majors_detail": []
+    "majors_detail": [],
+    "is_d2_1_nursing": false
   },
   {
     "id": "kangnam",
@@ -6700,7 +6777,8 @@ export const universities = [
       "latitude": null,
       "longitude": null
     },
-    "majors_detail": []
+    "majors_detail": [],
+    "is_d2_1_nursing": false
   },
   {
     "id": "kyonggi",
@@ -6752,7 +6830,8 @@ export const universities = [
       "latitude": null,
       "longitude": null
     },
-    "majors_detail": []
+    "majors_detail": [],
+    "is_d2_1_nursing": false
   },
   {
     "id": "top3_school_20",
@@ -6839,7 +6918,8 @@ export const universities = [
           }
         ]
       }
-    ]
+    ],
+    "is_d2_1_nursing": false
   },
   {
     "id": "gyeonginnationalofeducation",
@@ -6891,7 +6971,8 @@ export const universities = [
       "latitude": null,
       "longitude": null
     },
-    "majors_detail": []
+    "majors_detail": [],
+    "is_d2_1_nursing": false
   },
   {
     "id": "kyunghee",
@@ -6943,7 +7024,8 @@ export const universities = [
       "latitude": null,
       "longitude": null
     },
-    "majors_detail": []
+    "majors_detail": [],
+    "is_d2_1_nursing": false
   },
   {
     "id": "giaothonghanquo",
@@ -7017,7 +7099,8 @@ export const universities = [
           }
         ]
       }
-    ]
+    ],
+    "is_d2_1_nursing": false
   },
   {
     "id": "dankook",
@@ -7091,7 +7174,8 @@ export const universities = [
           }
         ]
       }
-    ]
+    ],
+    "is_d2_1_nursing": false
   },
   {
     "id": "daejin",
@@ -7143,7 +7227,8 @@ export const universities = [
       "latitude": null,
       "longitude": null
     },
-    "majors_detail": []
+    "majors_detail": [],
+    "is_d2_1_nursing": false
   },
   {
     "id": "donggukwise",
@@ -7217,7 +7302,8 @@ export const universities = [
           }
         ]
       }
-    ]
+    ],
+    "is_d2_1_nursing": false
   },
   {
     "id": "dongyang",
@@ -7269,7 +7355,8 @@ export const universities = [
       "latitude": null,
       "longitude": null
     },
-    "majors_detail": []
+    "majors_detail": [],
+    "is_d2_1_nursing": false
   },
   {
     "id": "luther",
@@ -7321,7 +7408,8 @@ export const universities = [
       "latitude": null,
       "longitude": null
     },
-    "majors_detail": []
+    "majors_detail": [],
+    "is_d2_1_nursing": false
   },
   {
     "id": "myongji_1",
@@ -7373,7 +7461,8 @@ export const universities = [
       "latitude": null,
       "longitude": null
     },
-    "majors_detail": []
+    "majors_detail": [],
+    "is_d2_1_nursing": false
   },
   {
     "id": "seoul_theological",
@@ -7564,7 +7653,8 @@ export const universities = [
           }
         ]
       }
-    ]
+    ],
+    "is_d2_1_nursing": false
   },
   {
     "id": "sungkyul",
@@ -7638,7 +7728,8 @@ export const universities = [
           }
         ]
       }
-    ]
+    ],
+    "is_d2_1_nursing": false
   },
   {
     "id": "sungkyunkwan",
@@ -7690,7 +7781,8 @@ export const universities = [
       "latitude": null,
       "longitude": null
     },
-    "majors_detail": []
+    "majors_detail": [],
+    "is_d2_1_nursing": false
   },
   {
     "id": "ofsuwon",
@@ -7742,7 +7834,8 @@ export const universities = [
       "latitude": null,
       "longitude": null
     },
-    "majors_detail": []
+    "majors_detail": [],
+    "is_d2_1_nursing": false
   },
   {
     "id": "hwaseongmedicalscience",
@@ -7794,7 +7887,8 @@ export const universities = [
       "latitude": null,
       "longitude": null
     },
-    "majors_detail": []
+    "majors_detail": [],
+    "is_d2_1_nursing": false
   },
   {
     "id": "shinhan",
@@ -7868,7 +7962,8 @@ export const universities = [
           }
         ]
       }
-    ]
+    ],
+    "is_d2_1_nursing": false
   },
   {
     "id": "ajou",
@@ -8059,7 +8154,8 @@ export const universities = [
           }
         ]
       }
-    ]
+    ],
+    "is_d2_1_nursing": false
   },
   {
     "id": "anyang",
@@ -8111,7 +8207,8 @@ export const universities = [
       "latitude": null,
       "longitude": null
     },
-    "majors_detail": []
+    "majors_detail": [],
+    "is_d2_1_nursing": false
   },
   {
     "id": "nghethuatyewon",
@@ -8185,7 +8282,8 @@ export const universities = [
           }
         ]
       }
-    ]
+    ],
+    "is_d2_1_nursing": false
   },
   {
     "id": "yongin",
@@ -8259,7 +8357,8 @@ export const universities = [
           }
         ]
       }
-    ]
+    ],
+    "is_d2_1_nursing": false
   },
   {
     "id": "eulji",
@@ -8311,7 +8410,8 @@ export const universities = [
       "latitude": null,
       "longitude": null
     },
-    "majors_detail": []
+    "majors_detail": [],
+    "is_d2_1_nursing": false
   },
   {
     "id": "joobu",
@@ -8385,7 +8485,8 @@ export const universities = [
           }
         ]
       }
-    ]
+    ],
+    "is_d2_1_nursing": false
   },
   {
     "id": "chungang",
@@ -8437,7 +8538,8 @@ export const universities = [
       "latitude": null,
       "longitude": null
     },
-    "majors_detail": []
+    "majors_detail": [],
+    "is_d2_1_nursing": false
   },
   {
     "id": "cha",
@@ -8489,7 +8591,8 @@ export const universities = [
       "latitude": null,
       "longitude": null
     },
-    "majors_detail": []
+    "majors_detail": [],
+    "is_d2_1_nursing": false
   },
   {
     "id": "pyeongtaek",
@@ -8541,7 +8644,8 @@ export const universities = [
       "latitude": null,
       "longitude": null
     },
-    "majors_detail": []
+    "majors_detail": [],
+    "is_d2_1_nursing": false
   },
   {
     "id": "hankyongnational",
@@ -8593,7 +8697,8 @@ export const universities = [
       "latitude": null,
       "longitude": null
     },
-    "majors_detail": []
+    "majors_detail": [],
+    "is_d2_1_nursing": false
   },
   {
     "id": "techofkorea",
@@ -8645,7 +8750,8 @@ export const universities = [
       "latitude": null,
       "longitude": null
     },
-    "majors_detail": []
+    "majors_detail": [],
+    "is_d2_1_nursing": false
   },
   {
     "id": "hankukofforeignstudies",
@@ -8697,7 +8803,8 @@ export const universities = [
       "latitude": null,
       "longitude": null
     },
-    "majors_detail": []
+    "majors_detail": [],
+    "is_d2_1_nursing": false
   },
   {
     "id": "koreaaerospace",
@@ -8749,7 +8856,8 @@ export const universities = [
       "latitude": null,
       "longitude": null
     },
-    "majors_detail": []
+    "majors_detail": [],
+    "is_d2_1_nursing": false
   },
   {
     "id": "hansei",
@@ -8801,7 +8909,8 @@ export const universities = [
       "latitude": null,
       "longitude": null
     },
-    "majors_detail": []
+    "majors_detail": [],
+    "is_d2_1_nursing": false
   },
   {
     "id": "hanshin",
@@ -8853,7 +8962,8 @@ export const universities = [
       "latitude": null,
       "longitude": null
     },
-    "majors_detail": []
+    "majors_detail": [],
+    "is_d2_1_nursing": false
   },
   {
     "id": "hanyangerica",
@@ -8927,7 +9037,8 @@ export const universities = [
           }
         ]
       }
-    ]
+    ],
+    "is_d2_1_nursing": false
   },
   {
     "id": "hyupsung",
@@ -8979,7 +9090,8 @@ export const universities = [
       "latitude": null,
       "longitude": null
     },
-    "majors_detail": []
+    "majors_detail": [],
+    "is_d2_1_nursing": false
   },
   {
     "id": "calvin",
@@ -9031,7 +9143,8 @@ export const universities = [
       "latitude": null,
       "longitude": null
     },
-    "majors_detail": []
+    "majors_detail": [],
+    "is_d2_1_nursing": false
   },
   {
     "id": "gachon_1",
@@ -9083,7 +9196,8 @@ export const universities = [
       "latitude": null,
       "longitude": null
     },
-    "majors_detail": []
+    "majors_detail": [],
+    "is_d2_1_nursing": false
   },
   {
     "id": "gyeonginnationalofeducation_1",
@@ -9135,7 +9249,8 @@ export const universities = [
       "latitude": null,
       "longitude": null
     },
-    "majors_detail": []
+    "majors_detail": [],
+    "is_d2_1_nursing": false
   },
   {
     "id": "anyang_1",
@@ -9187,7 +9302,8 @@ export const universities = [
       "latitude": null,
       "longitude": null
     },
-    "majors_detail": []
+    "majors_detail": [],
+    "is_d2_1_nursing": false
   },
   {
     "id": "yonsei_1",
@@ -9239,7 +9355,8 @@ export const universities = [
       "latitude": null,
       "longitude": null
     },
-    "majors_detail": []
+    "majors_detail": [],
+    "is_d2_1_nursing": false
   },
   {
     "id": "incheoncatholic",
@@ -9291,7 +9408,8 @@ export const universities = [
       "latitude": null,
       "longitude": null
     },
-    "majors_detail": []
+    "majors_detail": [],
+    "is_d2_1_nursing": false
   },
   {
     "id": "incheonnational",
@@ -9343,7 +9461,8 @@ export const universities = [
       "latitude": null,
       "longitude": null
     },
-    "majors_detail": []
+    "majors_detail": [],
+    "is_d2_1_nursing": false
   },
   {
     "id": "inha",
@@ -9395,7 +9514,8 @@ export const universities = [
       "latitude": null,
       "longitude": null
     },
-    "majors_detail": []
+    "majors_detail": [],
+    "is_d2_1_nursing": false
   },
   {
     "id": "chungwoon",
@@ -9447,7 +9567,8 @@ export const universities = [
       "latitude": null,
       "longitude": null
     },
-    "majors_detail": []
+    "majors_detail": [],
+    "is_d2_1_nursing": false
   },
   {
     "id": "seouljangsin",
@@ -9499,7 +9620,8 @@ export const universities = [
       "latitude": null,
       "longitude": null
     },
-    "majors_detail": []
+    "majors_detail": [],
+    "is_d2_1_nursing": false
   },
   {
     "id": "suwoncatholic",
@@ -9551,7 +9673,8 @@ export const universities = [
       "latitude": null,
       "longitude": null
     },
-    "majors_detail": []
+    "majors_detail": [],
+    "is_d2_1_nursing": false
   },
   {
     "id": "asianunitedtheological",
@@ -9603,7 +9726,8 @@ export const universities = [
       "latitude": null,
       "longitude": null
     },
-    "majors_detail": []
+    "majors_detail": [],
+    "is_d2_1_nursing": false
   },
   {
     "id": "top3_school_1",
@@ -9690,7 +9814,8 @@ export const universities = [
           }
         ]
       }
-    ]
+    ],
+    "is_d2_1_nursing": false
   },
   {
     "id": "gyeonggiinstituteofscienceandtechnology",
@@ -9742,7 +9867,8 @@ export const universities = [
       "latitude": null,
       "longitude": null
     },
-    "majors_detail": []
+    "majors_detail": [],
+    "is_d2_1_nursing": false
   },
   {
     "id": "top3_school_9",
@@ -9829,7 +9955,8 @@ export const universities = [
           }
         ]
       }
-    ]
+    ],
+    "is_d2_1_nursing": false
   },
   {
     "id": "kyungbok",
@@ -9881,7 +10008,8 @@ export const universities = [
       "latitude": null,
       "longitude": null
     },
-    "majors_detail": []
+    "majors_detail": [],
+    "is_d2_1_nursing": false
   },
   {
     "id": "kaywonofartdesign",
@@ -9933,7 +10061,8 @@ export const universities = [
       "latitude": null,
       "longitude": null
     },
-    "majors_detail": []
+    "majors_detail": [],
+    "is_d2_1_nursing": false
   },
   {
     "id": "kukje",
@@ -9985,7 +10114,8 @@ export const universities = [
       "latitude": null,
       "longitude": null
     },
-    "majors_detail": []
+    "majors_detail": [],
+    "is_d2_1_nursing": false
   },
   {
     "id": "caoangkimpo",
@@ -10173,7 +10303,8 @@ export const universities = [
           }
         ]
       }
-    ]
+    ],
+    "is_d2_1_nursing": false
   },
   {
     "id": "nonghyup",
@@ -10225,7 +10356,8 @@ export const universities = [
       "latitude": null,
       "longitude": null
     },
-    "majors_detail": []
+    "majors_detail": [],
+    "is_d2_1_nursing": false
   },
   {
     "id": "daelim",
@@ -10277,7 +10409,8 @@ export const universities = [
       "latitude": null,
       "longitude": null
     },
-    "majors_detail": []
+    "majors_detail": [],
+    "is_d2_1_nursing": false
   },
   {
     "id": "top3_school_4",
@@ -10364,7 +10497,8 @@ export const universities = [
           }
         ]
       }
-    ]
+    ],
+    "is_d2_1_nursing": true
   },
   {
     "id": "dongseoul",
@@ -10416,7 +10550,8 @@ export const universities = [
       "latitude": null,
       "longitude": null
     },
-    "majors_detail": []
+    "majors_detail": [],
+    "is_d2_1_nursing": false
   },
   {
     "id": "dongahinstituteofmediaandarts",
@@ -10468,7 +10603,8 @@ export const universities = [
       "latitude": null,
       "longitude": null
     },
-    "majors_detail": []
+    "majors_detail": [],
+    "is_d2_1_nursing": false
   },
   {
     "id": "dongwon",
@@ -10542,7 +10678,8 @@ export const universities = [
           }
         ]
       }
-    ]
+    ],
+    "is_d2_1_nursing": false
   },
   {
     "id": "top3_school_13",
@@ -10629,7 +10766,8 @@ export const universities = [
           }
         ]
       }
-    ]
+    ],
+    "is_d2_1_nursing": false
   },
   {
     "id": "top3_school_3",
@@ -10716,7 +10854,8 @@ export const universities = [
           }
         ]
       }
-    ]
+    ],
+    "is_d2_1_nursing": false
   },
   {
     "id": "seoyeong",
@@ -10768,7 +10907,8 @@ export const universities = [
       "latitude": null,
       "longitude": null
     },
-    "majors_detail": []
+    "majors_detail": [],
+    "is_d2_1_nursing": false
   },
   {
     "id": "hocviennghethua",
@@ -10842,7 +10982,8 @@ export const universities = [
           }
         ]
       }
-    ]
+    ],
+    "is_d2_1_nursing": false
   },
   {
     "id": "top3_school_10",
@@ -10929,7 +11070,8 @@ export const universities = [
           }
         ]
       }
-    ]
+    ],
+    "is_d2_1_nursing": true
   },
   {
     "id": "suwonscience",
@@ -10981,7 +11123,8 @@ export const universities = [
       "latitude": null,
       "longitude": null
     },
-    "majors_detail": []
+    "majors_detail": [],
+    "is_d2_1_nursing": false
   },
   {
     "id": "suwonwomens",
@@ -11033,7 +11176,8 @@ export const universities = [
       "latitude": null,
       "longitude": null
     },
-    "majors_detail": []
+    "majors_detail": [],
+    "is_d2_1_nursing": false
   },
   {
     "id": "caoangshingu",
@@ -11221,7 +11365,8 @@ export const universities = [
           }
         ]
       }
-    ]
+    ],
+    "is_d2_1_nursing": false
   },
   {
     "id": "top3_school_11",
@@ -11308,7 +11453,8 @@ export const universities = [
           }
         ]
       }
-    ]
+    ],
+    "is_d2_1_nursing": false
   },
   {
     "id": "top3_school_2",
@@ -11395,7 +11541,8 @@ export const universities = [
           }
         ]
       }
-    ]
+    ],
+    "is_d2_1_nursing": false
   },
   {
     "id": "yeojuinstituteoftechnology",
@@ -11447,7 +11594,8 @@ export const universities = [
       "latitude": null,
       "longitude": null
     },
-    "majors_detail": []
+    "majors_detail": [],
+    "is_d2_1_nursing": false
   },
   {
     "id": "yeonsung",
@@ -11499,7 +11647,8 @@ export const universities = [
       "latitude": null,
       "longitude": null
     },
-    "majors_detail": []
+    "majors_detail": [],
+    "is_d2_1_nursing": false
   },
   {
     "id": "osan_uni",
@@ -11573,7 +11722,8 @@ export const universities = [
           }
         ]
       }
-    ]
+    ],
+    "is_d2_1_nursing": false
   },
   {
     "id": "nghethuatkhoaho",
@@ -11647,7 +11797,8 @@ export const universities = [
           }
         ]
       }
-    ]
+    ],
+    "is_d2_1_nursing": false
   },
   {
     "id": "woongjiaccountingtax",
@@ -11699,7 +11850,8 @@ export const universities = [
       "latitude": null,
       "longitude": null
     },
-    "majors_detail": []
+    "majors_detail": [],
+    "is_d2_1_nursing": false
   },
   {
     "id": "yuhan",
@@ -11751,7 +11903,8 @@ export const universities = [
       "latitude": null,
       "longitude": null
     },
-    "majors_detail": []
+    "majors_detail": [],
+    "is_d2_1_nursing": false
   },
   {
     "id": "top3_school_6",
@@ -11838,7 +11991,8 @@ export const universities = [
           }
         ]
       }
-    ]
+    ],
+    "is_d2_1_nursing": false
   },
   {
     "id": "chungkangofculturalindustries",
@@ -11890,7 +12044,8 @@ export const universities = [
       "latitude": null,
       "longitude": null
     },
-    "majors_detail": []
+    "majors_detail": [],
+    "is_d2_1_nursing": false
   },
   {
     "id": "koreatourism",
@@ -11942,7 +12097,8 @@ export const universities = [
       "latitude": null,
       "longitude": null
     },
-    "majors_detail": []
+    "majors_detail": [],
+    "is_d2_1_nursing": false
   },
   {
     "id": "kyungin",
@@ -12016,7 +12172,8 @@ export const universities = [
           }
         ]
       }
-    ]
+    ],
+    "is_d2_1_nursing": true
   },
   {
     "id": "inhatechnical",
@@ -12068,7 +12225,8 @@ export const universities = [
       "latitude": null,
       "longitude": null
     },
-    "majors_detail": []
+    "majors_detail": [],
+    "is_d2_1_nursing": false
   },
   {
     "id": "jaeneung",
@@ -12120,7 +12278,8 @@ export const universities = [
       "latitude": null,
       "longitude": null
     },
-    "majors_detail": []
+    "majors_detail": [],
+    "is_d2_1_nursing": false
   },
   {
     "id": "ictpolytech",
@@ -12172,7 +12331,8 @@ export const universities = [
       "latitude": null,
       "longitude": null
     },
-    "majors_detail": []
+    "majors_detail": [],
+    "is_d2_1_nursing": false
   },
   {
     "id": "koreapolytechnici_1",
@@ -12224,7 +12384,8 @@ export const universities = [
       "latitude": null,
       "longitude": null
     },
-    "majors_detail": []
+    "majors_detail": [],
+    "is_d2_1_nursing": false
   },
   {
     "id": "koreapolytechnicii",
@@ -12276,7 +12437,8 @@ export const universities = [
       "latitude": null,
       "longitude": null
     },
-    "majors_detail": []
+    "majors_detail": [],
+    "is_d2_1_nursing": false
   },
   {
     "id": "koreapolytechnicii_1",
@@ -12328,7 +12490,8 @@ export const universities = [
       "latitude": null,
       "longitude": null
     },
-    "majors_detail": []
+    "majors_detail": [],
+    "is_d2_1_nursing": false
   },
   {
     "id": "koreapolytechnicspecialized",
@@ -12380,7 +12543,8 @@ export const universities = [
       "latitude": null,
       "longitude": null
     },
-    "majors_detail": []
+    "majors_detail": [],
+    "is_d2_1_nursing": false
   },
   {
     "id": "na_14",
@@ -12432,7 +12596,8 @@ export const universities = [
       "latitude": null,
       "longitude": null
     },
-    "majors_detail": []
+    "majors_detail": [],
+    "is_d2_1_nursing": false
   },
   {
     "id": "na_15",
@@ -12484,7 +12649,8 @@ export const universities = [
       "latitude": null,
       "longitude": null
     },
-    "majors_detail": []
+    "majors_detail": [],
+    "is_d2_1_nursing": false
   },
   {
     "id": "nationalcancercentergraduateschoolofcancerscienceandpolicy",
@@ -12536,7 +12702,8 @@ export const universities = [
       "latitude": null,
       "longitude": null
     },
-    "majors_detail": []
+    "majors_detail": [],
+    "is_d2_1_nursing": false
   },
   {
     "id": "luatvakinhdoanh",
@@ -12610,7 +12777,8 @@ export const universities = [
           }
         ]
       }
-    ]
+    ],
+    "is_d2_1_nursing": false
   },
   {
     "id": "na_16",
@@ -12662,7 +12830,8 @@ export const universities = [
       "latitude": null,
       "longitude": null
     },
-    "majors_detail": []
+    "majors_detail": [],
+    "is_d2_1_nursing": false
   },
   {
     "id": "na_17",
@@ -12714,7 +12883,8 @@ export const universities = [
       "latitude": null,
       "longitude": null
     },
-    "majors_detail": []
+    "majors_detail": [],
+    "is_d2_1_nursing": false
   },
   {
     "id": "na_18",
@@ -12766,7 +12936,8 @@ export const universities = [
       "latitude": null,
       "longitude": null
     },
-    "majors_detail": []
+    "majors_detail": [],
+    "is_d2_1_nursing": false
   },
   {
     "id": "sausunhakup",
@@ -12840,7 +13011,8 @@ export const universities = [
           }
         ]
       }
-    ]
+    ],
+    "is_d2_1_nursing": false
   },
   {
     "id": "na_19",
@@ -12892,7 +13064,8 @@ export const universities = [
       "latitude": null,
       "longitude": null
     },
-    "majors_detail": []
+    "majors_detail": [],
+    "is_d2_1_nursing": false
   },
   {
     "id": "na_20",
@@ -12944,7 +13117,8 @@ export const universities = [
       "latitude": null,
       "longitude": null
     },
-    "majors_detail": []
+    "majors_detail": [],
+    "is_d2_1_nursing": false
   },
   {
     "id": "na_21",
@@ -12996,7 +13170,8 @@ export const universities = [
       "latitude": null,
       "longitude": null
     },
-    "majors_detail": []
+    "majors_detail": [],
+    "is_d2_1_nursing": false
   },
   {
     "id": "westminstergraduateschooloftheology",
@@ -13048,7 +13223,8 @@ export const universities = [
       "latitude": null,
       "longitude": null
     },
-    "majors_detail": []
+    "majors_detail": [],
+    "is_d2_1_nursing": false
   },
   {
     "id": "na_22",
@@ -13100,7 +13276,8 @@ export const universities = [
       "latitude": null,
       "longitude": null
     },
-    "majors_detail": []
+    "majors_detail": [],
+    "is_d2_1_nursing": false
   },
   {
     "id": "academyofkoreanstudiesgraduateschoolofkoreanstudies",
@@ -13152,7 +13329,8 @@ export const universities = [
       "latitude": null,
       "longitude": null
     },
-    "majors_detail": []
+    "majors_detail": [],
+    "is_d2_1_nursing": false
   },
   {
     "id": "hapdongtheologicalseminary",
@@ -13204,7 +13382,8 @@ export const universities = [
       "latitude": null,
       "longitude": null
     },
-    "majors_detail": []
+    "majors_detail": [],
+    "is_d2_1_nursing": false
   },
   {
     "id": "na_23",
@@ -13256,7 +13435,8 @@ export const universities = [
       "latitude": null,
       "longitude": null
     },
-    "majors_detail": []
+    "majors_detail": [],
+    "is_d2_1_nursing": false
   },
   {
     "id": "na_24",
@@ -13308,7 +13488,8 @@ export const universities = [
       "latitude": null,
       "longitude": null
     },
-    "majors_detail": []
+    "majors_detail": [],
+    "is_d2_1_nursing": false
   },
   {
     "id": "konyang",
@@ -13382,7 +13563,8 @@ export const universities = [
           }
         ]
       }
-    ]
+    ],
+    "is_d2_1_nursing": false
   },
   {
     "id": "mokwon",
@@ -13456,7 +13638,8 @@ export const universities = [
           }
         ]
       }
-    ]
+    ],
+    "is_d2_1_nursing": false
   },
   {
     "id": "paichai",
@@ -13647,7 +13830,8 @@ export const universities = [
           }
         ]
       }
-    ]
+    ],
+    "is_d2_1_nursing": false
   },
   {
     "id": "daejeon",
@@ -13721,7 +13905,8 @@ export const universities = [
           }
         ]
       }
-    ]
+    ],
+    "is_d2_1_nursing": false
   },
   {
     "id": "woosong",
@@ -13795,7 +13980,8 @@ export const universities = [
           }
         ]
       }
-    ]
+    ],
+    "is_d2_1_nursing": false
   },
   {
     "id": "daejeontheological",
@@ -13847,7 +14033,8 @@ export const universities = [
       "latitude": null,
       "longitude": null
     },
-    "majors_detail": []
+    "majors_detail": [],
+    "is_d2_1_nursing": false
   },
   {
     "id": "hannam",
@@ -13921,7 +14108,8 @@ export const universities = [
           }
         ]
       }
-    ]
+    ],
+    "is_d2_1_nursing": false
   },
   {
     "id": "chungnam",
@@ -14112,7 +14300,8 @@ export const universities = [
           }
         ]
       }
-    ]
+    ],
+    "is_d2_1_nursing": false
   },
   {
     "id": "koreabaptisttheological",
@@ -14164,7 +14353,8 @@ export const universities = [
       "latitude": null,
       "longitude": null
     },
-    "majors_detail": []
+    "majors_detail": [],
+    "is_d2_1_nursing": false
   },
   {
     "id": "hanbat",
@@ -14238,7 +14428,8 @@ export const universities = [
           }
         ]
       }
-    ]
+    ],
+    "is_d2_1_nursing": false
   },
   {
     "id": "euljidaejeoncampus",
@@ -14290,7 +14481,8 @@ export const universities = [
       "latitude": null,
       "longitude": null
     },
-    "majors_detail": []
+    "majors_detail": [],
+    "is_d2_1_nursing": false
   },
   {
     "id": "kaist",
@@ -14481,7 +14673,8 @@ export const universities = [
           }
         ]
       }
-    ]
+    ],
+    "is_d2_1_nursing": false
   },
   {
     "id": "republicofkoreaarmedforcesnursingacademy",
@@ -14533,7 +14726,8 @@ export const universities = [
       "latitude": null,
       "longitude": null
     },
-    "majors_detail": []
+    "majors_detail": [],
+    "is_d2_1_nursing": false
   },
   {
     "id": "daejeoninstituteofscienceandtechnology",
@@ -14585,7 +14779,8 @@ export const universities = [
       "latitude": null,
       "longitude": null
     },
-    "majors_detail": []
+    "majors_detail": [],
+    "is_d2_1_nursing": false
   },
   {
     "id": "daejeonhealthinstituteoftechnology",
@@ -14637,7 +14832,8 @@ export const universities = [
       "latitude": null,
       "longitude": null
     },
-    "majors_detail": []
+    "majors_detail": [],
+    "is_d2_1_nursing": false
   },
   {
     "id": "woosonginformation",
@@ -14689,7 +14885,8 @@ export const universities = [
       "latitude": null,
       "longitude": null
     },
-    "majors_detail": []
+    "majors_detail": [],
+    "is_d2_1_nursing": false
   },
   {
     "id": "daeduk",
@@ -14741,7 +14938,8 @@ export const universities = [
       "latitude": null,
       "longitude": null
     },
-    "majors_detail": []
+    "majors_detail": [],
+    "is_d2_1_nursing": false
   },
   {
     "id": "koreapolytechnicdaejeoncampus",
@@ -14793,7 +14991,8 @@ export const universities = [
       "latitude": null,
       "longitude": null
     },
-    "majors_detail": []
+    "majors_detail": [],
+    "is_d2_1_nursing": false
   },
   {
     "id": "na_25",
@@ -14845,7 +15044,8 @@ export const universities = [
       "latitude": null,
       "longitude": null
     },
-    "majors_detail": []
+    "majors_detail": [],
+    "is_d2_1_nursing": false
   },
   {
     "id": "koreasejongcampus",
@@ -14897,7 +15097,8 @@ export const universities = [
       "latitude": null,
       "longitude": null
     },
-    "majors_detail": []
+    "majors_detail": [],
+    "is_d2_1_nursing": false
   },
   {
     "id": "kdischoolofpublicpolicyandmanagement",
@@ -14949,7 +15150,8 @@ export const universities = [
       "latitude": null,
       "longitude": null
     },
-    "majors_detail": []
+    "majors_detail": [],
+    "is_d2_1_nursing": false
   },
   {
     "id": "pusan",
@@ -15141,7 +15343,8 @@ export const universities = [
           }
         ]
       }
-    ]
+    ],
+    "is_d2_1_nursing": false
   },
   {
     "id": "pukyong",
@@ -15215,7 +15418,8 @@ export const universities = [
           }
         ]
       }
-    ]
+    ],
+    "is_d2_1_nursing": false
   },
   {
     "id": "koreamaritimeocean",
@@ -15267,7 +15471,8 @@ export const universities = [
       "latitude": null,
       "longitude": null
     },
-    "majors_detail": []
+    "majors_detail": [],
+    "is_d2_1_nursing": false
   },
   {
     "id": "donga",
@@ -15341,7 +15546,8 @@ export const universities = [
           }
         ]
       }
-    ]
+    ],
+    "is_d2_1_nursing": false
   },
   {
     "id": "kyungsung",
@@ -15415,7 +15621,8 @@ export const universities = [
           }
         ]
       }
-    ]
+    ],
+    "is_d2_1_nursing": false
   },
   {
     "id": "dongeui",
@@ -15489,7 +15696,8 @@ export const universities = [
           }
         ]
       }
-    ]
+    ],
+    "is_d2_1_nursing": false
   },
   {
     "id": "busanofforeignstudies",
@@ -15541,7 +15749,8 @@ export const universities = [
       "latitude": null,
       "longitude": null
     },
-    "majors_detail": []
+    "majors_detail": [],
+    "is_d2_1_nursing": false
   },
   {
     "id": "silla",
@@ -15615,7 +15824,8 @@ export const universities = [
           }
         ]
       }
-    ]
+    ],
+    "is_d2_1_nursing": false
   },
   {
     "id": "tongmyung",
@@ -15689,7 +15899,8 @@ export const universities = [
           }
         ]
       }
-    ]
+    ],
+    "is_d2_1_nursing": false
   },
   {
     "id": "ulsan",
@@ -15880,7 +16091,8 @@ export const universities = [
           }
         ]
       }
-    ]
+    ],
+    "is_d2_1_nursing": false
   },
   {
     "id": "kyungsang",
@@ -15954,7 +16166,8 @@ export const universities = [
           }
         ]
       }
-    ]
+    ],
+    "is_d2_1_nursing": false
   },
   {
     "id": "changwon",
@@ -16028,7 +16241,8 @@ export const universities = [
           }
         ]
       }
-    ]
+    ],
+    "is_d2_1_nursing": false
   },
   {
     "id": "kyungnam",
@@ -16102,7 +16316,8 @@ export const universities = [
           }
         ]
       }
-    ]
+    ],
+    "is_d2_1_nursing": false
   },
   {
     "id": "inje",
@@ -16176,7 +16391,8 @@ export const universities = [
           }
         ]
       }
-    ]
+    ],
+    "is_d2_1_nursing": false
   },
   {
     "id": "youngsan",
@@ -16367,7 +16583,8 @@ export const universities = [
           }
         ]
       }
-    ]
+    ],
+    "is_d2_1_nursing": false
   },
   {
     "id": "kaya",
@@ -16419,7 +16636,8 @@ export const universities = [
       "latitude": null,
       "longitude": null
     },
-    "majors_detail": []
+    "majors_detail": [],
+    "is_d2_1_nursing": false
   },
   {
     "id": "changshin",
@@ -16471,7 +16689,8 @@ export const universities = [
       "latitude": null,
       "longitude": null
     },
-    "majors_detail": []
+    "majors_detail": [],
+    "is_d2_1_nursing": true
   },
   {
     "id": "knu",
@@ -16662,7 +16881,8 @@ export const universities = [
           }
         ]
       }
-    ]
+    ],
+    "is_d2_1_nursing": false
   },
   {
     "id": "keimyung",
@@ -16736,7 +16956,8 @@ export const universities = [
           }
         ]
       }
-    ]
+    ],
+    "is_d2_1_nursing": false
   },
   {
     "id": "yeungnam",
@@ -16927,7 +17148,8 @@ export const universities = [
           }
         ]
       }
-    ]
+    ],
+    "is_d2_1_nursing": false
   },
   {
     "id": "daegu_daegucampusnambu",
@@ -16979,7 +17201,8 @@ export const universities = [
       "latitude": null,
       "longitude": null
     },
-    "majors_detail": []
+    "majors_detail": [],
+    "is_d2_1_nursing": false
   },
   {
     "id": "handongglobal",
@@ -17031,7 +17254,8 @@ export const universities = [
       "latitude": null,
       "longitude": null
     },
-    "majors_detail": []
+    "majors_detail": [],
+    "is_d2_1_nursing": false
   },
   {
     "id": "daegu_catholic",
@@ -17105,7 +17329,8 @@ export const universities = [
           }
         ]
       }
-    ]
+    ],
+    "is_d2_1_nursing": false
   },
   {
     "id": "viencongnghegeu",
@@ -17179,7 +17404,8 @@ export const universities = [
           }
         ]
       }
-    ]
+    ],
+    "is_d2_1_nursing": false
   },
   {
     "id": "gimcheon",
@@ -17231,7 +17457,8 @@ export const universities = [
       "latitude": null,
       "longitude": null
     },
-    "majors_detail": []
+    "majors_detail": [],
+    "is_d2_1_nursing": false
   },
   {
     "id": "daeguhaany_suseongcampusdaegu",
@@ -17283,7 +17510,8 @@ export const universities = [
       "latitude": null,
       "longitude": null
     },
-    "majors_detail": []
+    "majors_detail": [],
+    "is_d2_1_nursing": false
   },
   {
     "id": "kongju",
@@ -17357,7 +17585,8 @@ export const universities = [
           }
         ]
       }
-    ]
+    ],
+    "is_d2_1_nursing": false
   },
   {
     "id": "sunmoon",
@@ -17548,7 +17777,8 @@ export const universities = [
           }
         ]
       }
-    ]
+    ],
+    "is_d2_1_nursing": false
   },
   {
     "id": "soonchunhyang",
@@ -17622,7 +17852,8 @@ export const universities = [
           }
         ]
       }
-    ]
+    ],
+    "is_d2_1_nursing": false
   },
   {
     "id": "hoseo",
@@ -17696,7 +17927,8 @@ export const universities = [
           }
         ]
       }
-    ]
+    ],
+    "is_d2_1_nursing": false
   },
   {
     "id": "namseoul",
@@ -17887,7 +18119,8 @@ export const universities = [
           }
         ]
       }
-    ]
+    ],
+    "is_d2_1_nursing": false
   },
   {
     "id": "baekseok",
@@ -18078,7 +18311,8 @@ export const universities = [
           }
         ]
       }
-    ]
+    ],
+    "is_d2_1_nursing": true
   },
   {
     "id": "hanseo",
@@ -18152,7 +18386,8 @@ export const universities = [
           }
         ]
       }
-    ]
+    ],
+    "is_d2_1_nursing": false
   },
   {
     "id": "chungbuk",
@@ -18343,7 +18578,8 @@ export const universities = [
           }
         ]
       }
-    ]
+    ],
+    "is_d2_1_nursing": false
   },
   {
     "id": "koreanationaloftransportation_jeungpyeonguiwang",
@@ -18395,7 +18631,8 @@ export const universities = [
       "latitude": null,
       "longitude": null
     },
-    "majors_detail": []
+    "majors_detail": [],
+    "is_d2_1_nursing": false
   },
   {
     "id": "cheongju",
@@ -18447,7 +18684,8 @@ export const universities = [
       "latitude": null,
       "longitude": null
     },
-    "majors_detail": []
+    "majors_detail": [],
+    "is_d2_1_nursing": false
   },
   {
     "id": "semyung",
@@ -18639,7 +18877,8 @@ export const universities = [
           }
         ]
       }
-    ]
+    ],
+    "is_d2_1_nursing": false
   },
   {
     "id": "fareast",
@@ -18691,7 +18930,8 @@ export const universities = [
       "latitude": null,
       "longitude": null
     },
-    "majors_detail": []
+    "majors_detail": [],
+    "is_d2_1_nursing": false
   },
   {
     "id": "jungwon",
@@ -18743,7 +18983,8 @@ export const universities = [
       "latitude": null,
       "longitude": null
     },
-    "majors_detail": []
+    "majors_detail": [],
+    "is_d2_1_nursing": false
   },
   {
     "id": "chonnam",
@@ -18934,7 +19175,8 @@ export const universities = [
           }
         ]
       }
-    ]
+    ],
+    "is_d2_1_nursing": false
   },
   {
     "id": "chosun",
@@ -19008,7 +19250,8 @@ export const universities = [
           }
         ]
       }
-    ]
+    ],
+    "is_d2_1_nursing": false
   },
   {
     "id": "honam",
@@ -19060,7 +19303,8 @@ export const universities = [
       "latitude": null,
       "longitude": null
     },
-    "majors_detail": []
+    "majors_detail": [],
+    "is_d2_1_nursing": true
   },
   {
     "id": "top3_school_16",
@@ -19147,7 +19391,8 @@ export const universities = [
           }
         ]
       }
-    ]
+    ],
+    "is_d2_1_nursing": false
   },
   {
     "id": "nambu",
@@ -19199,7 +19444,8 @@ export const universities = [
       "latitude": null,
       "longitude": null
     },
-    "majors_detail": []
+    "majors_detail": [],
+    "is_d2_1_nursing": false
   },
   {
     "id": "mokpo",
@@ -19273,7 +19519,8 @@ export const universities = [
           }
         ]
       }
-    ]
+    ],
+    "is_d2_1_nursing": false
   },
   {
     "id": "sunchon",
@@ -19347,7 +19594,8 @@ export const universities = [
           }
         ]
       }
-    ]
+    ],
+    "is_d2_1_nursing": false
   },
   {
     "id": "mokponationalmaritime",
@@ -19399,7 +19647,8 @@ export const universities = [
       "latitude": null,
       "longitude": null
     },
-    "majors_detail": []
+    "majors_detail": [],
+    "is_d2_1_nursing": false
   },
   {
     "id": "dongshintop",
@@ -19473,7 +19722,8 @@ export const universities = [
           }
         ]
       }
-    ]
+    ],
+    "is_d2_1_nursing": false
   },
   {
     "id": "chodang",
@@ -19547,7 +19797,8 @@ export const universities = [
           }
         ]
       }
-    ]
+    ],
+    "is_d2_1_nursing": false
   },
   {
     "id": "jbnu",
@@ -19738,7 +19989,8 @@ export const universities = [
           }
         ]
       }
-    ]
+    ],
+    "is_d2_1_nursing": false
   },
   {
     "id": "kunsan",
@@ -19929,7 +20181,8 @@ export const universities = [
           }
         ]
       }
-    ]
+    ],
+    "is_d2_1_nursing": false
   },
   {
     "id": "wonkwang",
@@ -20120,7 +20373,8 @@ export const universities = [
           }
         ]
       }
-    ]
+    ],
+    "is_d2_1_nursing": false
   },
   {
     "id": "jeonju",
@@ -20172,7 +20426,8 @@ export const universities = [
       "latitude": null,
       "longitude": null
     },
-    "majors_detail": []
+    "majors_detail": [],
+    "is_d2_1_nursing": false
   },
   {
     "id": "woosuk_jincheoncampuschungbuk",
@@ -20224,7 +20479,8 @@ export const universities = [
       "latitude": null,
       "longitude": null
     },
-    "majors_detail": []
+    "majors_detail": [],
+    "is_d2_1_nursing": false
   },
   {
     "id": "kangwon",
@@ -20415,7 +20671,8 @@ export const universities = [
           }
         ]
       }
-    ]
+    ],
+    "is_d2_1_nursing": false
   },
   {
     "id": "hallym",
@@ -20467,7 +20724,8 @@ export const universities = [
       "latitude": null,
       "longitude": null
     },
-    "majors_detail": []
+    "majors_detail": [],
+    "is_d2_1_nursing": false
   },
   {
     "id": "catholickwandong_yangyangcampus",
@@ -20519,7 +20777,8 @@ export const universities = [
       "latitude": null,
       "longitude": null
     },
-    "majors_detail": []
+    "majors_detail": [],
+    "is_d2_1_nursing": false
   },
   {
     "id": "sangji",
@@ -20710,7 +20969,8 @@ export const universities = [
           }
         ]
       }
-    ]
+    ],
+    "is_d2_1_nursing": false
   },
   {
     "id": "kyungdong_wonjumedicalcampusyangjucampus",
@@ -20762,7 +21022,8 @@ export const universities = [
       "latitude": null,
       "longitude": null
     },
-    "majors_detail": []
+    "majors_detail": [],
+    "is_d2_1_nursing": false
   },
   {
     "id": "jeju",
@@ -20953,7 +21214,8 @@ export const universities = [
           }
         ]
       }
-    ]
+    ],
+    "is_d2_1_nursing": false
   },
   {
     "id": "jejuinternational",
@@ -21005,7 +21267,8 @@ export const universities = [
       "latitude": null,
       "longitude": null
     },
-    "majors_detail": []
+    "majors_detail": [],
+    "is_d2_1_nursing": false
   },
   {
     "id": "koreanationalofeducation",
@@ -21057,7 +21320,8 @@ export const universities = [
       "latitude": null,
       "longitude": null
     },
-    "majors_detail": []
+    "majors_detail": [],
+    "is_d2_1_nursing": false
   },
   {
     "id": "cheongjunationalofeducation",
@@ -21109,7 +21373,8 @@ export const universities = [
       "latitude": null,
       "longitude": null
     },
-    "majors_detail": []
+    "majors_detail": [],
+    "is_d2_1_nursing": false
   },
   {
     "id": "gongjunationalofeducation",
@@ -21161,7 +21426,8 @@ export const universities = [
       "latitude": null,
       "longitude": null
     },
-    "majors_detail": []
+    "majors_detail": [],
+    "is_d2_1_nursing": false
   },
   {
     "id": "chuncheonnationalofeducation",
@@ -21213,7 +21479,8 @@ export const universities = [
       "latitude": null,
       "longitude": null
     },
-    "majors_detail": []
+    "majors_detail": [],
+    "is_d2_1_nursing": false
   },
   {
     "id": "jeonjunationalofeducation",
@@ -21265,7 +21532,8 @@ export const universities = [
       "latitude": null,
       "longitude": null
     },
-    "majors_detail": []
+    "majors_detail": [],
+    "is_d2_1_nursing": false
   },
   {
     "id": "gwangjunationalofeducation",
@@ -21317,7 +21585,8 @@ export const universities = [
       "latitude": null,
       "longitude": null
     },
-    "majors_detail": []
+    "majors_detail": [],
+    "is_d2_1_nursing": false
   },
   {
     "id": "daegunationalofeducation",
@@ -21369,7 +21638,8 @@ export const universities = [
       "latitude": null,
       "longitude": null
     },
-    "majors_detail": []
+    "majors_detail": [],
+    "is_d2_1_nursing": false
   },
   {
     "id": "busannationalofeducation",
@@ -21421,7 +21691,8 @@ export const universities = [
       "latitude": null,
       "longitude": null
     },
-    "majors_detail": []
+    "majors_detail": [],
+    "is_d2_1_nursing": false
   },
   {
     "id": "chungwoon_incheoncampus",
@@ -21473,7 +21744,8 @@ export const universities = [
       "latitude": null,
       "longitude": null
     },
-    "majors_detail": []
+    "majors_detail": [],
+    "is_d2_1_nursing": false
   },
   {
     "id": "howontop",
@@ -21547,7 +21819,8 @@ export const universities = [
           }
         ]
       }
-    ]
+    ],
+    "is_d2_1_nursing": false
   },
   {
     "id": "giaoduckythuath",
@@ -21621,7 +21894,8 @@ export const universities = [
           }
         ]
       }
-    ]
+    ],
+    "is_d2_1_nursing": false
   },
   {
     "id": "wonkwangdigital_seoulcampus",
@@ -21673,7 +21947,8 @@ export const universities = [
       "latitude": null,
       "longitude": null
     },
-    "majors_detail": []
+    "majors_detail": [],
+    "is_d2_1_nursing": false
   },
   {
     "id": "busandigital",
@@ -21725,7 +22000,8 @@ export const universities = [
       "latitude": null,
       "longitude": null
     },
-    "majors_detail": []
+    "majors_detail": [],
+    "is_d2_1_nursing": false
   },
   {
     "id": "daegucyber",
@@ -21777,7 +22053,8 @@ export const universities = [
       "latitude": null,
       "longitude": null
     },
-    "majors_detail": []
+    "majors_detail": [],
+    "is_d2_1_nursing": false
   },
   {
     "id": "hwashincyber",
@@ -21829,7 +22106,8 @@ export const universities = [
       "latitude": null,
       "longitude": null
     },
-    "majors_detail": []
+    "majors_detail": [],
+    "is_d2_1_nursing": false
   },
   {
     "id": "khoahocdongeui",
@@ -21903,7 +22181,8 @@ export const universities = [
           }
         ]
       }
-    ]
+    ],
+    "is_d2_1_nursing": true
   },
   {
     "id": "thongtinkyungna",
@@ -21977,7 +22256,8 @@ export const universities = [
           }
         ]
       }
-    ]
+    ],
+    "is_d2_1_nursing": true
   },
   {
     "id": "busaninstituteofscienceandtechnology",
@@ -22029,7 +22309,8 @@ export const universities = [
       "latitude": null,
       "longitude": null
     },
-    "majors_detail": []
+    "majors_detail": [],
+    "is_d2_1_nursing": false
   },
   {
     "id": "busanwomens",
@@ -22081,7 +22362,8 @@ export const universities = [
       "latitude": null,
       "longitude": null
     },
-    "majors_detail": []
+    "majors_detail": [],
+    "is_d2_1_nursing": false
   },
   {
     "id": "busanarts",
@@ -22133,7 +22415,8 @@ export const universities = [
       "latitude": null,
       "longitude": null
     },
-    "majors_detail": []
+    "majors_detail": [],
+    "is_d2_1_nursing": false
   },
   {
     "id": "ulsan_science",
@@ -22207,7 +22490,8 @@ export const universities = [
           }
         ]
       }
-    ]
+    ],
+    "is_d2_1_nursing": true
   },
   {
     "id": "chunhaeofhealthsciences",
@@ -22259,7 +22543,8 @@ export const universities = [
       "latitude": null,
       "longitude": null
     },
-    "majors_detail": []
+    "majors_detail": [],
+    "is_d2_1_nursing": true
   },
   {
     "id": "masantop",
@@ -22333,7 +22618,8 @@ export const universities = [
           }
         ]
       }
-    ]
+    ],
+    "is_d2_1_nursing": true
   },
   {
     "id": "jinjuhealth",
@@ -22385,7 +22671,8 @@ export const universities = [
       "latitude": null,
       "longitude": null
     },
-    "majors_detail": []
+    "majors_detail": [],
+    "is_d2_1_nursing": false
   },
   {
     "id": "geoje",
@@ -22437,7 +22724,8 @@ export const universities = [
       "latitude": null,
       "longitude": null
     },
-    "majors_detail": []
+    "majors_detail": [],
+    "is_d2_1_nursing": false
   },
   {
     "id": "yonaminstituteoftechnology",
@@ -22489,7 +22777,8 @@ export const universities = [
       "latitude": null,
       "longitude": null
     },
-    "majors_detail": []
+    "majors_detail": [],
+    "is_d2_1_nursing": false
   },
   {
     "id": "gimhae",
@@ -22541,7 +22830,8 @@ export const universities = [
       "latitude": null,
       "longitude": null
     },
-    "majors_detail": []
+    "majors_detail": [],
+    "is_d2_1_nursing": false
   },
   {
     "id": "caoangyeungjin",
@@ -22729,7 +23019,8 @@ export const universities = [
           }
         ]
       }
-    ]
+    ],
+    "is_d2_1_nursing": false
   },
   {
     "id": "vanhoakeimyung",
@@ -22803,7 +23094,8 @@ export const universities = [
           }
         ]
       }
-    ]
+    ],
+    "is_d2_1_nursing": false
   },
   {
     "id": "caodangytedaegu",
@@ -22877,7 +23169,8 @@ export const universities = [
           }
         ]
       }
-    ]
+    ],
+    "is_d2_1_nursing": false
   },
   {
     "id": "daeguscience",
@@ -22929,7 +23222,8 @@ export const universities = [
       "latitude": null,
       "longitude": null
     },
-    "majors_detail": []
+    "majors_detail": [],
+    "is_d2_1_nursing": false
   },
   {
     "id": "pohang",
@@ -22981,7 +23275,8 @@ export const universities = [
       "latitude": null,
       "longitude": null
     },
-    "majors_detail": []
+    "majors_detail": [],
+    "is_d2_1_nursing": false
   },
   {
     "id": "sunlin",
@@ -23033,7 +23328,8 @@ export const universities = [
       "latitude": null,
       "longitude": null
     },
-    "majors_detail": []
+    "majors_detail": [],
+    "is_d2_1_nursing": false
   },
   {
     "id": "gyeongbukofhealth",
@@ -23085,7 +23381,8 @@ export const universities = [
       "latitude": null,
       "longitude": null
     },
-    "majors_detail": []
+    "majors_detail": [],
+    "is_d2_1_nursing": false
   },
   {
     "id": "chungnamprovincial",
@@ -23137,7 +23434,8 @@ export const universities = [
       "latitude": null,
       "longitude": null
     },
-    "majors_detail": []
+    "majors_detail": [],
+    "is_d2_1_nursing": false
   },
   {
     "id": "baekseokculture",
@@ -23189,7 +23487,8 @@ export const universities = [
       "latitude": null,
       "longitude": null
     },
-    "majors_detail": []
+    "majors_detail": [],
+    "is_d2_1_nursing": false
   },
   {
     "id": "shinsung",
@@ -23241,7 +23540,8 @@ export const universities = [
       "latitude": null,
       "longitude": null
     },
-    "majors_detail": []
+    "majors_detail": [],
+    "is_d2_1_nursing": true
   },
   {
     "id": "hyejeon",
@@ -23293,7 +23593,8 @@ export const universities = [
       "latitude": null,
       "longitude": null
     },
-    "majors_detail": []
+    "majors_detail": [],
+    "is_d2_1_nursing": false
   },
   {
     "id": "chungbukprovincial",
@@ -23345,7 +23646,8 @@ export const universities = [
       "latitude": null,
       "longitude": null
     },
-    "majors_detail": []
+    "majors_detail": [],
+    "is_d2_1_nursing": false
   },
   {
     "id": "chungbukhealthscience",
@@ -23397,7 +23699,8 @@ export const universities = [
       "latitude": null,
       "longitude": null
     },
-    "majors_detail": []
+    "majors_detail": [],
+    "is_d2_1_nursing": true
   },
   {
     "id": "gangdong",
@@ -23449,7 +23752,8 @@ export const universities = [
       "latitude": null,
       "longitude": null
     },
-    "majors_detail": []
+    "majors_detail": [],
+    "is_d2_1_nursing": true
   },
   {
     "id": "chosunnursing",
@@ -23501,7 +23805,8 @@ export const universities = [
       "latitude": null,
       "longitude": null
     },
-    "majors_detail": []
+    "majors_detail": [],
+    "is_d2_1_nursing": false
   },
   {
     "id": "seoyeong_pajucampusgyeonggi",
@@ -23553,7 +23858,8 @@ export const universities = [
       "latitude": null,
       "longitude": null
     },
-    "majors_detail": []
+    "majors_detail": [],
+    "is_d2_1_nursing": true
   },
   {
     "id": "dongkang",
@@ -23605,7 +23911,8 @@ export const universities = [
       "latitude": null,
       "longitude": null
     },
-    "majors_detail": []
+    "majors_detail": [],
+    "is_d2_1_nursing": false
   },
   {
     "id": "jeollanamdoprovincial",
@@ -23657,7 +23964,8 @@ export const universities = [
       "latitude": null,
       "longitude": null
     },
-    "majors_detail": []
+    "majors_detail": [],
+    "is_d2_1_nursing": false
   },
   {
     "id": "caodangcheongam",
@@ -23731,7 +24039,8 @@ export const universities = [
           }
         ]
       }
-    ]
+    ],
+    "is_d2_1_nursing": true
   },
   {
     "id": "suncheonfirst",
@@ -23783,7 +24092,8 @@ export const universities = [
       "latitude": null,
       "longitude": null
     },
-    "majors_detail": []
+    "majors_detail": [],
+    "is_d2_1_nursing": false
   },
   {
     "id": "mokposcience",
@@ -23835,7 +24145,8 @@ export const universities = [
       "latitude": null,
       "longitude": null
     },
-    "majors_detail": []
+    "majors_detail": [],
+    "is_d2_1_nursing": true
   },
   {
     "id": "wonkwang_health",
@@ -23909,7 +24220,8 @@ export const universities = [
           }
         ]
       }
-    ]
+    ],
+    "is_d2_1_nursing": true
   },
   {
     "id": "jeonjukijeon",
@@ -23961,7 +24273,8 @@ export const universities = [
       "latitude": null,
       "longitude": null
     },
-    "majors_detail": []
+    "majors_detail": [],
+    "is_d2_1_nursing": false
   },
   {
     "id": "jeonjuvision",
@@ -24013,7 +24326,8 @@ export const universities = [
       "latitude": null,
       "longitude": null
     },
-    "majors_detail": []
+    "majors_detail": [],
+    "is_d2_1_nursing": false
   },
   {
     "id": "hallymsungsim",
@@ -24065,7 +24379,8 @@ export const universities = [
       "latitude": null,
       "longitude": null
     },
-    "majors_detail": []
+    "majors_detail": [],
+    "is_d2_1_nursing": false
   },
   {
     "id": "top3_school_18",
@@ -24152,7 +24467,8 @@ export const universities = [
           }
         ]
       }
-    ]
+    ],
+    "is_d2_1_nursing": false
   },
   {
     "id": "top3_school_23",
@@ -24239,7 +24555,8 @@ export const universities = [
           }
         ]
       }
-    ]
+    ],
+    "is_d2_1_nursing": false
   },
   {
     "id": "top3_school_22",
@@ -24326,7 +24643,8 @@ export const universities = [
           }
         ]
       }
-    ]
+    ],
+    "is_d2_1_nursing": false
   },
   {
     "id": "jejutourism",
@@ -24378,7 +24696,8 @@ export const universities = [
       "latitude": null,
       "longitude": null
     },
-    "majors_detail": []
+    "majors_detail": [],
+    "is_d2_1_nursing": true
   },
   {
     "id": "chejuhalla",
@@ -24430,7 +24749,8 @@ export const universities = [
       "latitude": null,
       "longitude": null
     },
-    "majors_detail": []
+    "majors_detail": [],
+    "is_d2_1_nursing": false
   },
   {
     "id": "koreapolytechiiichuncheon",
@@ -24482,7 +24802,8 @@ export const universities = [
       "latitude": null,
       "longitude": null
     },
-    "majors_detail": []
+    "majors_detail": [],
+    "is_d2_1_nursing": false
   },
   {
     "id": "koreapolytechvgwangju",
@@ -24534,7 +24855,8 @@ export const universities = [
       "latitude": null,
       "longitude": null
     },
-    "majors_detail": []
+    "majors_detail": [],
+    "is_d2_1_nursing": false
   },
   {
     "id": "koreapolytechvidaegu",
@@ -24586,7 +24908,8 @@ export const universities = [
       "latitude": null,
       "longitude": null
     },
-    "majors_detail": []
+    "majors_detail": [],
+    "is_d2_1_nursing": false
   },
   {
     "id": "koreapolytechviichangwon",
@@ -24638,7 +24961,8 @@ export const universities = [
       "latitude": null,
       "longitude": null
     },
-    "majors_detail": []
+    "majors_detail": [],
+    "is_d2_1_nursing": false
   },
   {
     "id": "unist",
@@ -24690,7 +25014,8 @@ export const universities = [
       "latitude": null,
       "longitude": null
     },
-    "majors_detail": []
+    "majors_detail": [],
+    "is_d2_1_nursing": false
   },
   {
     "id": "dgist",
@@ -24742,7 +25067,8 @@ export const universities = [
       "latitude": null,
       "longitude": null
     },
-    "majors_detail": []
+    "majors_detail": [],
+    "is_d2_1_nursing": false
   },
   {
     "id": "gist",
@@ -24794,7 +25120,8 @@ export const universities = [
       "latitude": null,
       "longitude": null
     },
-    "majors_detail": []
+    "majors_detail": [],
+    "is_d2_1_nursing": false
   },
   {
     "id": "kentech",
@@ -24846,7 +25173,8 @@ export const universities = [
       "latitude": null,
       "longitude": null
     },
-    "majors_detail": []
+    "majors_detail": [],
+    "is_d2_1_nursing": false
   },
   {
     "id": "postech",
@@ -25037,7 +25365,8 @@ export const universities = [
           }
         ]
       }
-    ]
+    ],
+    "is_d2_1_nursing": false
   },
   {
     "id": "koreanationalofagricultureandfisheries",
@@ -25089,7 +25418,8 @@ export const universities = [
       "latitude": null,
       "longitude": null
     },
-    "majors_detail": []
+    "majors_detail": [],
+    "is_d2_1_nursing": false
   },
   {
     "id": "koreanacademyoffilmarts_seouloffice",
@@ -25141,7 +25471,8 @@ export const universities = [
       "latitude": null,
       "longitude": null
     },
-    "majors_detail": []
+    "majors_detail": [],
+    "is_d2_1_nursing": false
   },
   {
     "id": "koreanationalofculturalheritage",
@@ -25193,7 +25524,8 @@ export const universities = [
       "latitude": null,
       "longitude": null
     },
-    "majors_detail": []
+    "majors_detail": [],
+    "is_d2_1_nursing": false
   },
   {
     "id": "hanyang",
@@ -25376,7 +25708,8 @@ export const universities = [
       "longitude": 127.0498872
     },
     "needs_review": true,
-    "is_verified": true
+    "is_verified": true,
+    "is_d2_1_nursing": false
   },
   {
     "id": "seolyong",
@@ -25439,7 +25772,8 @@ export const universities = [
     "is_verified": true,
     "language_tuition_desc": "1,600,000 KRW/kỳ",
     "registration_fee_desc": "100,000 KRW",
-    "insurance_fee_desc": "100,000 KRW/năm"
+    "insurance_fee_desc": "100,000 KRW/năm",
+    "is_d2_1_nursing": false
   },
   {
     "id": "ewha",
@@ -25502,7 +25836,8 @@ export const universities = [
     "is_verified": true,
     "language_tuition_desc": "1,600,000 KRW/kỳ",
     "registration_fee_desc": "100,000 KRW",
-    "insurance_fee_desc": "100,000 KRW/năm"
+    "insurance_fee_desc": "100,000 KRW/năm",
+    "is_d2_1_nursing": false
   },
   {
     "id": "hansung",
@@ -25684,7 +26019,8 @@ export const universities = [
       "longitude": 127.0111299
     },
     "needs_review": true,
-    "is_verified": true
+    "is_verified": true,
+    "is_d2_1_nursing": false
   },
   {
     "id": "gangneungwonju",
@@ -25747,7 +26083,8 @@ export const universities = [
     "is_verified": true,
     "language_tuition_desc": "1,600,000 KRW/kỳ",
     "registration_fee_desc": "100,000 KRW",
-    "insurance_fee_desc": "100,000 KRW/năm"
+    "insurance_fee_desc": "100,000 KRW/năm",
+    "is_d2_1_nursing": false
   },
   {
     "id": "yonseicosomirae",
@@ -25810,7 +26147,8 @@ export const universities = [
     "is_verified": true,
     "language_tuition_desc": "1,600,000 KRW/kỳ",
     "registration_fee_desc": "100,000 KRW",
-    "insurance_fee_desc": "100,000 KRW/năm"
+    "insurance_fee_desc": "100,000 KRW/năm",
+    "is_d2_1_nursing": false
   },
   {
     "id": "koreacososejong",
@@ -25873,7 +26211,8 @@ export const universities = [
     "is_verified": true,
     "language_tuition_desc": "1,600,000 KRW/kỳ",
     "registration_fee_desc": "100,000 KRW",
-    "insurance_fee_desc": "100,000 KRW/năm"
+    "insurance_fee_desc": "100,000 KRW/năm",
+    "is_d2_1_nursing": false
   },
   {
     "id": "nazarene",
@@ -25936,7 +26275,8 @@ export const universities = [
     "is_verified": true,
     "language_tuition_desc": "1,600,000 KRW/kỳ",
     "registration_fee_desc": "100,000 KRW",
-    "insurance_fee_desc": "100,000 KRW/năm"
+    "insurance_fee_desc": "100,000 KRW/năm",
+    "is_d2_1_nursing": false
   },
   {
     "id": "kyungwoon",
@@ -25999,7 +26339,8 @@ export const universities = [
     "is_verified": true,
     "language_tuition_desc": "1,600,000 KRW/kỳ",
     "registration_fee_desc": "100,000 KRW",
-    "insurance_fee_desc": "100,000 KRW/năm"
+    "insurance_fee_desc": "100,000 KRW/năm",
+    "is_d2_1_nursing": false
   },
   {
     "id": "kyungil",
@@ -26181,7 +26522,8 @@ export const universities = [
       "longitude": 128.8012825
     },
     "needs_review": true,
-    "is_verified": true
+    "is_verified": true,
+    "is_d2_1_nursing": false
   },
   {
     "id": "gwangju",
@@ -26244,7 +26586,8 @@ export const universities = [
     "is_verified": true,
     "language_tuition_desc": "1,600,000 KRW/kỳ",
     "registration_fee_desc": "100,000 KRW",
-    "insurance_fee_desc": "100,000 KRW/năm"
+    "insurance_fee_desc": "100,000 KRW/năm",
+    "is_d2_1_nursing": false
   },
   {
     "id": "gyeongguk",
@@ -26307,7 +26650,8 @@ export const universities = [
     "is_verified": true,
     "language_tuition_desc": "1,600,000 KRW/kỳ",
     "registration_fee_desc": "100,000 KRW",
-    "insurance_fee_desc": "100,000 KRW/năm"
+    "insurance_fee_desc": "100,000 KRW/năm",
+    "is_d2_1_nursing": false
   },
   {
     "id": "daeshin",
@@ -26370,7 +26714,8 @@ export const universities = [
     "is_verified": true,
     "language_tuition_desc": "1,600,000 KRW/kỳ",
     "registration_fee_desc": "100,000 KRW",
-    "insurance_fee_desc": "100,000 KRW/năm"
+    "insurance_fee_desc": "100,000 KRW/năm",
+    "is_d2_1_nursing": false
   },
   {
     "id": "dongseo",
@@ -26433,7 +26778,8 @@ export const universities = [
     "is_verified": true,
     "language_tuition_desc": "1,600,000 KRW/kỳ",
     "registration_fee_desc": "100,000 KRW",
-    "insurance_fee_desc": "100,000 KRW/năm"
+    "insurance_fee_desc": "100,000 KRW/năm",
+    "is_d2_1_nursing": false
   },
   {
     "id": "widuk",
@@ -26496,7 +26842,8 @@ export const universities = [
     "is_verified": true,
     "language_tuition_desc": "1,600,000 KRW/kỳ",
     "registration_fee_desc": "100,000 KRW",
-    "insurance_fee_desc": "100,000 KRW/năm"
+    "insurance_fee_desc": "100,000 KRW/năm",
+    "is_d2_1_nursing": false
   },
   {
     "id": "jeonbuk_science",
@@ -26559,7 +26906,8 @@ export const universities = [
     "is_verified": true,
     "language_tuition_desc": "1,200,000 KRW/kỳ",
     "registration_fee_desc": "50,000 KRW",
-    "insurance_fee_desc": "100,000 KRW/năm"
+    "insurance_fee_desc": "100,000 KRW/năm",
+    "is_d2_1_nursing": false
   },
   {
     "id": "yeungnam_college",
@@ -26622,7 +26970,8 @@ export const universities = [
     "is_verified": true,
     "language_tuition_desc": "1,200,000 KRW/kỳ",
     "registration_fee_desc": "50,000 KRW",
-    "insurance_fee_desc": "100,000 KRW/năm"
+    "insurance_fee_desc": "100,000 KRW/năm",
+    "is_d2_1_nursing": false
   },
   {
     "id": "top3_school_14",
@@ -26697,7 +27046,8 @@ export const universities = [
     "is_verified": true,
     "language_tuition_desc": "1,200,000 KRW/kỳ",
     "registration_fee_desc": "50,000 KRW",
-    "insurance_fee_desc": "100,000 KRW/năm"
+    "insurance_fee_desc": "100,000 KRW/năm",
+    "is_d2_1_nursing": false
   },
   {
     "id": "top3_school_15",
@@ -26772,7 +27122,8 @@ export const universities = [
     "is_verified": true,
     "language_tuition_desc": "1,600,000 KRW/kỳ",
     "registration_fee_desc": "100,000 KRW",
-    "insurance_fee_desc": "100,000 KRW/năm"
+    "insurance_fee_desc": "100,000 KRW/năm",
+    "is_d2_1_nursing": false
   },
   {
     "id": "top3_school_17",
@@ -26847,7 +27198,8 @@ export const universities = [
     "is_verified": true,
     "language_tuition_desc": "1,600,000 KRW/kỳ",
     "registration_fee_desc": "100,000 KRW",
-    "insurance_fee_desc": "100,000 KRW/năm"
+    "insurance_fee_desc": "100,000 KRW/năm",
+    "is_d2_1_nursing": false
   },
   {
     "id": "top3_school_19",
@@ -26922,7 +27274,8 @@ export const universities = [
     "is_verified": true,
     "language_tuition_desc": "1,600,000 KRW/kỳ",
     "registration_fee_desc": "100,000 KRW",
-    "insurance_fee_desc": "100,000 KRW/năm"
+    "insurance_fee_desc": "100,000 KRW/năm",
+    "is_d2_1_nursing": false
   },
   {
     "id": "kosintop",
@@ -26985,7 +27338,8 @@ export const universities = [
     "is_verified": true,
     "language_tuition_desc": "1,600,000 KRW/kỳ",
     "registration_fee_desc": "100,000 KRW",
-    "insurance_fee_desc": "100,000 KRW/năm"
+    "insurance_fee_desc": "100,000 KRW/năm",
+    "is_d2_1_nursing": false
   },
   {
     "id": "ajou_motor",
@@ -27048,7 +27402,8 @@ export const universities = [
     "is_verified": true,
     "language_tuition_desc": "1,200,000 KRW/kỳ",
     "registration_fee_desc": "50,000 KRW",
-    "insurance_fee_desc": "100,000 KRW/năm"
+    "insurance_fee_desc": "100,000 KRW/năm",
+    "is_d2_1_nursing": false
   },
   {
     "id": "dongmyung",
@@ -27111,7 +27466,8 @@ export const universities = [
     "is_verified": true,
     "language_tuition_desc": "1,600,000 KRW/kỳ",
     "registration_fee_desc": "100,000 KRW",
-    "insurance_fee_desc": "100,000 KRW/năm"
+    "insurance_fee_desc": "100,000 KRW/năm",
+    "is_d2_1_nursing": false
   },
   {
     "id": "phimanhhanquoc",
@@ -27174,7 +27530,8 @@ export const universities = [
     "is_verified": true,
     "language_tuition_desc": "1,200,000 KRW/kỳ",
     "registration_fee_desc": "50,000 KRW",
-    "insurance_fee_desc": "100,000 KRW/năm"
+    "insurance_fee_desc": "100,000 KRW/năm",
+    "is_d2_1_nursing": false
   },
   {
     "id": "saungonnguquoct",
@@ -27237,7 +27594,8 @@ export const universities = [
     "is_verified": true,
     "language_tuition_desc": "1,600,000 KRW/kỳ",
     "registration_fee_desc": "100,000 KRW",
-    "insurance_fee_desc": "100,000 KRW/năm"
+    "insurance_fee_desc": "100,000 KRW/năm",
+    "is_d2_1_nursing": false
   },
   {
     "id": "khoahocvacongng",
@@ -27300,7 +27658,8 @@ export const universities = [
     "is_verified": true,
     "language_tuition_desc": "1,600,000 KRW/kỳ",
     "registration_fee_desc": "100,000 KRW",
-    "insurance_fee_desc": "100,000 KRW/năm"
+    "insurance_fee_desc": "100,000 KRW/năm",
+    "is_d2_1_nursing": false
   },
   {
     "id": "yuwon",
@@ -27363,7 +27722,8 @@ export const universities = [
     "is_verified": true,
     "language_tuition_desc": "1,600,000 KRW/kỳ",
     "registration_fee_desc": "100,000 KRW",
-    "insurance_fee_desc": "100,000 KRW/năm"
+    "insurance_fee_desc": "100,000 KRW/năm",
+    "is_d2_1_nursing": false
   },
   {
     "id": "khoahockyongbuk",
@@ -27426,7 +27786,8 @@ export const universities = [
     "is_verified": true,
     "language_tuition_desc": "1,600,000 KRW/kỳ",
     "registration_fee_desc": "100,000 KRW",
-    "insurance_fee_desc": "100,000 KRW/năm"
+    "insurance_fee_desc": "100,000 KRW/năm",
+    "is_d2_1_nursing": false
   },
   {
     "id": "caodangkhoahock",
@@ -27489,7 +27850,8 @@ export const universities = [
     "is_verified": true,
     "language_tuition_desc": "1,200,000 KRW/kỳ",
     "registration_fee_desc": "50,000 KRW",
-    "insurance_fee_desc": "100,000 KRW/năm"
+    "insurance_fee_desc": "100,000 KRW/năm",
+    "is_d2_1_nursing": false
   },
   {
     "id": "sangji_catholic",
@@ -27667,6 +28029,7 @@ export const universities = [
     "language_tuition_desc": "1,200,000 KRW/kỳ",
     "registration_fee_desc": "50,000 KRW",
     "insurance_fee_desc": "100,000 KRW/năm",
-    "dorm_fee_desc": "800,000-1,200,000 KRW/kỳ (4 tháng)"
+    "dorm_fee_desc": "800,000-1,200,000 KRW/kỳ (4 tháng)",
+    "is_d2_1_nursing": false
   }
 ];

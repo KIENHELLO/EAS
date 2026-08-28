@@ -15,6 +15,7 @@ import FilterBar from './components/FilterBar';
 import UniversityPanel from './components/UniversityPanel';
 import MajorSearchFilter from './components/MajorSearchFilter';
 import { getExchangeRate } from './utils/exchangeRate';
+import ProgramInfo from './components/ProgramInfo';
 
 export default function App({ initialViewMode = 'map', initialActiveSchoolId = null }) {
   // 1. Theme Configuration
@@ -55,6 +56,7 @@ export default function App({ initialViewMode = 'map', initialActiveSchoolId = n
   const [visaMetropolitanOnly, setVisaMetropolitanOnly] = useState(false);
   const [masterNoTopikOnly, setMasterNoTopikOnly] = useState(false);
   const [top1PercentOnly, setTop1PercentOnly] = useState(false);
+  const [showD21Only, setShowD21Only] = useState(false);
   const [sortBy, setSortBy] = useState('rank');
   const [showMobileFilters, setShowMobileFilters] = useState(false);
 
@@ -131,6 +133,7 @@ export default function App({ initialViewMode = 'map', initialActiveSchoolId = n
     setVisaMetropolitanOnly(false);
     setMasterNoTopikOnly(false);
     setTop1PercentOnly(false);
+    setShowD21Only(false);
     setSortBy('rank');
   };
 
@@ -238,8 +241,9 @@ export default function App({ initialViewMode = 'map', initialActiveSchoolId = n
         const matchVisa = !visaMetropolitanOnly || u.visa_metropolitan === true;
         const matchNoTopik = !masterNoTopikOnly || u.master_no_topik === true;
         const matchTop1 = !top1PercentOnly || u.top_1_percent === true;
+        const matchD21 = !showD21Only || u.is_d2_1_nursing === true;
 
-        return matchQuery && matchRegion && matchType && matchGdtx && matchMajor && matchVisa && matchNoTopik && matchTop1;
+        return matchQuery && matchRegion && matchType && matchGdtx && matchMajor && matchVisa && matchNoTopik && matchTop1 && matchD21;
       })
       .sort((a, b) => {
         if (sortBy === 'rank') {
@@ -402,6 +406,9 @@ export default function App({ initialViewMode = 'map', initialActiveSchoolId = n
         
         {/* Statistics Hero Banner */}
         <StatsHero universities={universities} exchangeRate={exchangeRate} />
+
+        {/* Program and Visa Information */}
+        <ProgramInfo />
 
         {/* View Mode Switcher */}
         <div style={{
@@ -782,6 +789,34 @@ export default function App({ initialViewMode = 'map', initialActiveSchoolId = n
                       }}
                     />
                     <span>Trường TOP 1%</span>
+                  </label>
+
+                  {/* Checkbox D2-1 */}
+                  <label style={{
+                    display: 'flex',
+                    alignItems: 'center',
+                    gap: '0.5rem',
+                    fontSize: '0.82rem',
+                    fontWeight: 600,
+                    color: 'var(--text-secondary)',
+                    cursor: 'pointer',
+                    userSelect: 'none'
+                  }}>
+                    <input 
+                      type="checkbox"
+                      checked={showD21Only}
+                      onChange={(e) => setShowD21Only(e.target.checked)}
+                      style={{
+                        cursor: 'pointer',
+                        accentColor: 'var(--primary)',
+                        width: '15px',
+                        height: '15px'
+                      }}
+                    />
+                    <span style={{ display: 'flex', alignItems: 'center', gap: '0.25rem' }}>
+                      🩺 
+                      Chương trình Điều dưỡng D2-1
+                    </span>
                   </label>
 
                   {/* Checkbox TOP 2% */}

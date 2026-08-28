@@ -7,6 +7,7 @@ import { universities } from '../data/universities';
 import { provinceMeta } from '../utils/constants';
 import Navbar from '../components/Navbar';
 import StatsHero from '../components/StatsHero';
+import ProgramInfo from '../components/ProgramInfo';
 import SchoolCard from '../components/SchoolCard';
 import DetailModal from '../components/DetailModal';
 
@@ -330,6 +331,9 @@ export default function Home() {
         
         {/* Statistics Hero Banner */}
         <StatsHero universities={universities} exchangeRate={exchangeRate} />
+
+        {/* Program and Visa Information */}
+        <ProgramInfo />
 
         {/* View Mode & Calculator Toggle buttons */}
         <div style={{
